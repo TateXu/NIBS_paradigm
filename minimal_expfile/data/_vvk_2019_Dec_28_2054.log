@@ -1,0 +1,54 @@
+3.6251 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f15dc024ef0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f15dbfeac18>, multiSample=False, name='window1', numSamples=2, pos=[960.0, 540.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.6251 	EXP 	window1: recordFrameIntervals = False
+3.7914 	EXP 	window1: recordFrameIntervals = True
+3.9748 	EXP 	window1: recordFrameIntervals = False
+6.6850 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.6877 	EXP 	Created Continue_ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Continue_ins', opacity=1.0, ori=0, pos=array([ 0.5, -0.3]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.6896 	EXP 	Created Title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Title', opacity=1.0, ori=0, pos=array([0.5, 0.5]), rgb=array([255., 255., 255.]), text='REST STATE\n', units='norm', win=Window(...), wrapWidth=1)
+6.6950 	EXP 	Created RS_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_text', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7040 	EXP 	Sound RS_close set volume 1.000
+6.7064 	EXP 	Created Continue_rsintro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Continue_rsintro', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.7094 	EXP 	Created RS_rec_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_rec_txt', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7136 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([ 0.5, -0.5]), rgb=array([255., 255., 255.]), text='Next stage!!!', units='norm', win=Window(...), wrapWidth=1)
+6.7153 	EXP 	Created cont_rsrec = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='cont_rsrec', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.7230 	EXP 	Created Cali_intro_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_intro_txt', opacity=1.0, ori=0, pos=array([0.5, 0.3]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7340 	EXP 	Sound Cali_DE_5 set volume 1.000
+6.7368 	EXP 	Created cont_de = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='cont_de', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.7387 	EXP 	Created Sentence_de = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Sentence_de', opacity=1.0, ori=0, pos=array([0.5, 0.2]), rgb=array([255., 255., 255.]), text='Hallo, Ich bin Chen aus Wien.', units='norm', win=Window(...), wrapWidth=1)
+6.7393 	EXP 	Sound mt_pre_beep_start_1 set volume 1.000
+6.7399 	EXP 	Sound mt_pre_beep_end_1 set volume 1.000
+6.7415 	EXP 	Created cont_de_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='cont_de_2', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.7433 	EXP 	Created say_something_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='say_something_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+6.7447 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1.5)
+6.7516 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7748 	EXP 	text_2: autoDraw = True
+9.2179 	DATA 	Mouse: Left button down, pos=(993,527)
+9.2846 	DATA 	Mouse:  Left button up, pos=(993,527)
+10.9681 	DATA 	Keypress: space
+11.7918 	EXP 	Continue_ins: autoDraw = True
+11.7918 	EXP 	text_2: autoDraw = False
+11.7918 	EXP 	Continue_ins: autoDraw = False
+11.7918 	EXP 	Title: autoDraw = True
+11.7918 	EXP 	RS_text: autoDraw = True
+25.7758 	EXP 	Continue_rsintro: autoDraw = True
+25.8257 	EXP 	Title: autoDraw = False
+25.8257 	EXP 	RS_text: autoDraw = False
+29.8842 	DATA 	Keypress: space
+29.9428 	EXP 	Title: autoDraw = False
+29.9428 	EXP 	RS_text: autoDraw = False
+29.9428 	EXP 	Continue_rsintro: autoDraw = False
+29.9428 	EXP 	RS_rec_txt: autoDraw = True
+38.9282 	EXP 	text: autoDraw = True
+39.9282 	EXP 	cont_rsrec: autoDraw = True
+39.9769 	EXP 	RS_rec_txt: autoDraw = False
+39.9769 	EXP 	text: autoDraw = False
+41.4028 	DATA 	Keypress: space
+41.4781 	EXP 	RS_rec_txt: autoDraw = False
+41.4781 	EXP 	text: autoDraw = False
+41.4781 	EXP 	cont_rsrec: autoDraw = False
+41.4781 	EXP 	Cali_intro_txt: autoDraw = True
+54.5876 	WARNING 	Got keycode {} but that code isn't yet known
+54.5876 	WARNING 	Keypress was given unknown key code (134)
+61.8280 	DATA 	Mouse: Left button down, pos=(941,729)
+61.9280 	DATA 	Mouse:  Left button up, pos=(941,729)
+63.5785 	DATA 	Keypress: escape

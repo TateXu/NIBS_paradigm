@@ -1,0 +1,27 @@
+8.4737 	EXP 	Created fade_in_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.4797 	EXP 	Created fade_in_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.5057 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.004mA'
+8.5057 	EXP 	fade_in_text: autoDraw = True
+13.4731 	EXP 	fade_in_cont: autoDraw = True
+18.8882 	DATA 	Keypress: i
+18.9398 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.20400000000000001mA'
+24.9551 	DATA 	Keypress: i
+25.0069 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.404mA'
+28.4922 	DATA 	Keypress: i
+28.5406 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+34.5686 	DATA 	Keypress: d
+34.6574 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+38.4019 	DATA 	Keypress: i
+38.4580 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+42.0356 	DATA 	Keypress: d
+42.0916 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+43.6690 	DATA 	Keypress: i
+43.7250 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+47.0690 	DATA 	Keypress: d
+47.1585 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+103.7766 	WARNING 	Got keycode {} but that code isn't yet known
+103.7767 	WARNING 	Keypress was given unknown key code (134)
+132.6296 	DATA 	Mouse: Left button down, pos=(700,320)
+132.7296 	DATA 	Mouse:  Left button up, pos=(700,320)
+134.2799 	DATA 	Keypress: escape
+134.3398 	EXP 	window1: mouseVisible = True

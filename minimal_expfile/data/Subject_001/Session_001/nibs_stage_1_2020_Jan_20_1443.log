@@ -1,0 +1,21 @@
+17.6070 	EXP 	Created fade_in_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+17.6120 	EXP 	Created fade_in_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+17.6241 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.004mA'
+17.6241 	EXP 	fade_in_text: autoDraw = True
+22.6076 	EXP 	fade_in_cont: autoDraw = True
+23.2334 	DATA 	Keypress: i
+23.2577 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.20400000000000001mA'
+34.9240 	DATA 	Keypress: i
+34.9752 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.404mA'
+36.7757 	DATA 	Keypress: i
+36.8261 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+38.4576 	DATA 	Keypress: i
+38.5425 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.804mA'
+40.6911 	DATA 	Keypress: d
+40.7437 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+42.0412 	DATA 	Keypress: i
+42.1262 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.804mA'
+42.9745 	DATA 	Keypress: d
+43.0594 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+43.9911 	DATA 	Keypress: space
+48.5868 	EXP 	window1: mouseVisible = True

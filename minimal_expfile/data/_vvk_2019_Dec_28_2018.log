@@ -1,0 +1,82 @@
+3.6327 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f1f214c3c88>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f1f21acb358>, multiSample=False, name='window1', numSamples=2, pos=[960.0, 540.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.6327 	EXP 	window1: recordFrameIntervals = False
+3.7988 	EXP 	window1: recordFrameIntervals = True
+3.9824 	EXP 	window1: recordFrameIntervals = False
+6.6891 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.6918 	EXP 	Created Continue_ins = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Continue_ins', opacity=1.0, ori=0, pos=array([ 0.5, -0.3]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.6940 	EXP 	Created Title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Title', opacity=1.0, ori=0, pos=array([0.5, 0.5]), rgb=array([255., 255., 255.]), text='REST STATE\n', units='norm', win=Window(...), wrapWidth=1)
+6.6997 	EXP 	Created RS_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_text', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7084 	EXP 	Sound RS_close set volume 1.000
+6.7107 	EXP 	Created Continue_rsintro = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Continue_rsintro', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.7145 	EXP 	Created Recording_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Recording_2', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7207 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([ 0.5, -0.5]), rgb=array([255., 255., 255.]), text='Next stage!!!', units='norm', win=Window(...), wrapWidth=1)
+6.7222 	EXP 	Created cont_rsrec = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='cont_rsrec', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+6.7239 	EXP 	Created say_something_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='say_something_2', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='MT_session\n\n', units='norm', win=Window(...), wrapWidth=1)
+6.7343 	EXP 	Sound Cali_MT set volume 1.000
+6.7370 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0, pos=array([0.5, 0.2]), rgb=array([255., 255., 255.]), text='Please speak!', units='norm', win=Window(...), wrapWidth=1)
+6.7389 	EXP 	Created say_something_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='say_something_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+6.7401 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0, pos=array([0.5, 0. ]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1.5)
+6.7473 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.7656 	EXP 	text_2: autoDraw = True
+8.8205 	DATA 	Mouse: Left button down, pos=(1337,516)
+8.9206 	DATA 	Mouse:  Left button up, pos=(1337,516)
+11.7494 	EXP 	Continue_ins: autoDraw = True
+13.6030 	DATA 	Keypress: space
+13.6160 	EXP 	text_2: autoDraw = False
+13.6160 	EXP 	Continue_ins: autoDraw = False
+13.6160 	EXP 	Title: autoDraw = True
+13.6160 	EXP 	RS_text: autoDraw = True
+27.6004 	EXP 	Continue_rsintro: autoDraw = True
+27.6168 	EXP 	Title: autoDraw = False
+27.6168 	EXP 	RS_text: autoDraw = False
+30.7968 	DATA 	Keypress: space
+30.8004 	EXP 	Title: autoDraw = False
+30.8004 	EXP 	RS_text: autoDraw = False
+30.8004 	EXP 	Continue_rsintro: autoDraw = False
+30.8004 	EXP 	Recording_2: autoDraw = True
+39.7842 	EXP 	text: autoDraw = True
+40.7854 	EXP 	text: autoDraw = False
+40.7854 	EXP 	cont_rsrec: autoDraw = True
+40.8016 	EXP 	Recording_2: autoDraw = False
+52.6440 	DATA 	Keypress: space
+52.6515 	EXP 	Recording_2: autoDraw = False
+52.6515 	EXP 	text: autoDraw = False
+52.6515 	EXP 	cont_rsrec: autoDraw = False
+52.6515 	EXP 	say_something_2: autoDraw = True
+56.6356 	EXP 	text_7: autoDraw = True
+62.6355 	EXP 	text_7: autoDraw = False
+62.6519 	EXP 	say_something_2: autoDraw = False
+74.8679 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+74.8681 	EXP 	New trial (rep=0, index=0): None
+74.9027 	EXP 	say_something_2: autoDraw = False
+74.9027 	EXP 	text_7: autoDraw = False
+74.9027 	EXP 	say_something_4: text = 'Q&A session'
+74.9027 	EXP 	say_something_4: autoDraw = True
+75.9438 	WARNING 	Got keycode {} but that code isn't yet known
+75.9438 	WARNING 	Keypress was given unknown key code (134)
+77.9284 	WARNING 	Got keycode {} but that code isn't yet known
+77.9284 	WARNING 	Keypress was given unknown key code (134)
+79.5286 	WARNING 	Got keycode {} but that code isn't yet known
+79.5286 	WARNING 	Keypress was given unknown key code (134)
+79.9366 	EXP 	say_something_4: autoDraw = False
+79.9366 	EXP 	say_something_4: autoDraw = False
+79.9366 	EXP 	text_6: text = 'Press any keys to continue\n'
+79.9366 	EXP 	text_6: autoDraw = True
+80.0956 	WARNING 	Got keycode {} but that code isn't yet known
+80.0956 	WARNING 	Keypress was given unknown key code (134)
+80.4755 	WARNING 	Got keycode {} but that code isn't yet known
+80.4755 	WARNING 	Keypress was given unknown key code (134)
+81.2753 	WARNING 	Got keycode {} but that code isn't yet known
+81.2753 	WARNING 	Keypress was given unknown key code (134)
+89.4477 	WARNING 	Got keycode {} but that code isn't yet known
+89.4477 	WARNING 	Keypress was given unknown key code (134)
+90.7314 	WARNING 	Got keycode {} but that code isn't yet known
+90.7314 	WARNING 	Keypress was given unknown key code (134)
+92.2066 	DATA 	Mouse: Left button down, pos=(840,763)
+92.2574 	DATA 	Mouse:  Left button up, pos=(840,763)
+92.7544 	DATA 	Keypress: space
+92.8053 	EXP 	New trial (rep=1, index=0): None
+92.8375 	EXP 	text_6: autoDraw = False
+92.8375 	EXP 	say_something_4: text = 'Q&A session'
+92.8375 	EXP 	say_something_4: autoDraw = True
+93.8717 	DATA 	Keypress: escape

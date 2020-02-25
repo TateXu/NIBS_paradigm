@@ -1,0 +1,7 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,QA_pre_block.thisRepN,QA_pre_block.thisTrialN,QA_pre_block.thisN,QA_pre_block.thisIndex,pre_trial.thisRepN,pre_trial.thisTrialN,pre_trial.thisN,pre_trial.thisIndex,instruction_text.started,instruction_text.stopped,instruction_cont.started,instruction_cont.stopped,Pause_cont.started,Pause_cont.stopped,fade_in_text.started,fade_in_text.stopped,fade_in_cont.started,fade_in_cont.stopped,participant,session,First language,German level,date,expName,psychopyVersion,frameRate,
+0,0,0,0,0,0,0,0,,,,,5.808290004730225,None,10.791401863098145,None,11.97498083114624,None,,,,,001,001,,,2020_Jan_20_1606,nibs_stage_1,3.2.3,60.042745503920244,
+0,0,0,0,1,0,1,0,,,,,,,,,16.592077016830444,None,,,,,001,001,,,2020_Jan_20_1606,nibs_stage_1,3.2.3,60.042745503920244,
+0,0,0,0,,,,,,,,,,,,,,,,,,,001,001,,,2020_Jan_20_1606,nibs_stage_1,3.2.3,60.042745503920244,
+1,0,1,0,0,0,0,0,,,,,,,,,23.992215871810913,None,18.99178981781006,None,23.975514888763428,None,001,001,,,2020_Jan_20_1606,nibs_stage_1,3.2.3,60.042745503920244,
+1,0,1,0,1,0,1,0,,,,,,,,,32.67587900161743,None,,,,,001,001,,,2020_Jan_20_1606,nibs_stage_1,3.2.3,60.042745503920244,
+1,0,1,0,,,,,,,,,,,,,,,,,,,001,001,,,2020_Jan_20_1606,nibs_stage_1,3.2.3,60.042745503920244,

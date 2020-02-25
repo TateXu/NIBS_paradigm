@@ -1,0 +1,33 @@
+8.6708 	EXP 	Created fade_in_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.6758 	EXP 	Created fade_in_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.6881 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.004mA'
+8.6881 	EXP 	fade_in_text: autoDraw = True
+13.6718 	EXP 	fade_in_cont: autoDraw = True
+15.2972 	DATA 	Keypress: i
+15.3385 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.20400000000000001mA'
+35.2688 	DATA 	Keypress: i
+35.3065 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.404mA'
+54.4923 	DATA 	Keypress: i
+54.5416 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+58.8594 	DATA 	Keypress: d
+58.9084 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+61.6460 	DATA 	Keypress: d
+61.6920 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.20400000000000007mA'
+63.6793 	DATA 	Keypress: i
+63.7586 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+93.5173 	DATA 	Keypress: space
+93.6001 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+99.1350 	DATA 	Mouse: Left button down, pos=(644,312)
+99.2042 	DATA 	Mouse:  Left button up, pos=(644,312)
+100.0043 	DATA 	Keypress: space
+100.0769 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+104.3722 	DATA 	Keypress: i
+104.4773 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.6040000000000001mA'
+121.0422 	DATA 	Keypress: lctrl
+121.0753 	DATA 	Keypress: c
+121.4757 	DATA 	Keypress: lctrl
+121.5089 	DATA 	Keypress: d
+121.5947 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to1.0mA IF AND ONLY IF you feel okay with current intensity. Current current intensity is 0.4040000000000001mA'
+122.2422 	DATA 	Keypress: lctrl
+122.3086 	DATA 	Keypress: c
+123.4993 	EXP 	window1: mouseVisible = True
