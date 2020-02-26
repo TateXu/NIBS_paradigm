@@ -351,9 +351,9 @@ def trigger_sending(data, port='/dev/parport0'):
     try: 
         ext_port = parallel.Parallel(port=port)
         ext_port.setData(value)
-        return print('successfully send trigger: ' + value)
+        return print('successfully send trigger: ' + str(value))
     except:
-        return print('No device! Planned to send trigger: ' + value)
+        return print('No device! Planned to send trigger: ' + str(value))
 
 
 def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_event, port='/dev/parport0'):
@@ -368,7 +368,7 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     =====================================================================================================
 
 
-    1.1. Structure of Pre-/Post-Run (Calibration)  --- Partially not implemented
+    1.1. Structure of Pre-/Post-Run (Calibration)  
     ===================================================================================
     |  -HEADER- | <--- 30 secs ---> | ........................... | ----- FOOTER ---- |
     |   Intro   |     C-Trial 0     | C-Trial 1 | ... | C-Tiral 9 | Pause (unlimited) |
@@ -378,7 +378,7 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     ===================================================================================
 
    
-    1.2. Structure of Pre-/Post-Run trial (Calibration)  --- Not implemented
+    1.2. Structure of Pre-/Post-Run trial (Calibration)  --- Not implemented inside trial
     ================================================================================================
        | -------------------------------- Calibration Trail K --------------------------------- |
        | ---------------------------------------- DATA ---------------------------------------- |
@@ -424,7 +424,7 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     ==============================================================================
 
 
-    2.1.3. Structure of Trial (Q&A)
+    2.1.3. Structure of Trial (Q&A)  --- Not implemented inside trial
     =============================================================================================================================
        | ------------------------------------------------- Trial K --------------------------------------------------------- |
        | -Beep- | --------------- Question Audio--------------- -------- | --------- Answer Recording -------- | ----------- |
