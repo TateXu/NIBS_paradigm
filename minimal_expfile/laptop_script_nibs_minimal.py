@@ -32,6 +32,7 @@ from scipy.io.wavfile import write
 from nibs_func import *
 from jxu.hardware.signal import SignalGenerator as SG
 import time
+
 # -----------------------------------------------------------------------------------
 # ------------------------- Setting: Parameter --------------------------------------
 # -----------------------------------------------------------------------------------
@@ -336,6 +337,9 @@ if instruction_flag:
     thisExp = data_writer(thisExp, instruction, 'instruction', ['text', 'cont'])
     routineTimer.reset()
 
+
+
+trigger_sending(0)  # Sending trigger 0 (Pre-Run Intro Start)
 # ---------------------------------------------------
 # -------------- Cali_de_pre_intro ------------------
 # ---------------------------------------------------
@@ -349,7 +353,8 @@ if Cali_de_pre_intro_flag:
     trigger_mat = np.zeros((len(Cali_de_pre_introComponents) - 1, 2))
     comp_list = np.asarray([*Cali_de_pre_intro['time'].keys()])
     # -------Run Routine "Cali_de_pre_intro"-------
-    trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=0)
+    
+    trigger_sending(10)  # Sending trigger 0 (Pre-Run Start)
     while continueRoutine:
         # get current time
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -387,14 +392,15 @@ if Cali_de_pre_intro_flag:
             trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
         if break_flag:
             break
-    trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=2)
+
     # -------Ending Routine "Cali_de_pre_intro"-------
     for thisComponent in Cali_de_pre_introComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
 
-    thisExp = data_writer(thisExp, Cali_de_pre_intro, 'Cali_de_pre_intro', ['title', 'text', 'audio', 'cont'])
 
+    thisExp = data_writer(thisExp, Cali_de_pre_intro, 'Cali_de_pre_intro', ['title', 'text', 'audio', 'cont'])
+    trigger_sending(11)  # Sending trigger 0 (Pre-Run Intro End)
     # the Routine "Cali_de_pre_intro" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
 
@@ -477,6 +483,7 @@ if Cali_de_pre_rec_flag:
     # the Routine "Cali_de_pre_rec" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
 
+trigger_sending(1)  # Sending trigger 1 (Pre-Run End)
 # -----------------------------------------------------------------------------------
 # ------------------------------ Start Run ------------------------------------------
 # -----------------------------------------------------------------------------------
@@ -495,6 +502,7 @@ if thisRun != None:
         exec('{} = thisRun[paramName]'.format(paramName))
 
 for thisRun in run:
+    trigger_sending(4)   # Sending trigger 4 (Run Start)
     currentLoop = run
 
     # abbreviate parameter names if possible (e.g. rgb = thisRun.rgb)
@@ -502,13 +510,10 @@ for thisRun in run:
         for paramName in thisRun:
             exec('{} = thisRun[paramName]'.format(paramName))
 
-
-
     # ---------------------------------------------------
     # --------------------- fade in ---------------------
     # ---------------------------------------------------
     if fade_in_flag:
-        
         if run.thisN == stim_run[0]:
             fg = SG()
             fg.amp(init_intensity)
@@ -600,7 +605,7 @@ for thisRun in run:
         win, RS_intro, RS_introComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_intro)
         trigger_mat = np.zeros((len(RS_introComponents) - 1, 2))
         comp_list = np.asarray([*RS_intro['time'].keys()])
-        trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=0, input_event=0)
+        trigger_sending(30)   # Sending trigger 30 (Resting State Intro Start)
         # -------Run Routine "RS_intro"-------
         while continueRoutine:
             # get current time
@@ -646,6 +651,7 @@ for thisRun in run:
                 thisComponent.setAutoDraw(False)
 
         run = data_writer(run, RS_intro, 'RS_intro', ['title', 'text', 'audio_close', 'cont'])
+        trigger_sending(31)   # Sending trigger 30 (Resting State Intro End)
         # the Routine "RS_intro" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
 
@@ -944,11 +950,13 @@ for thisRun in run:
         thisExp.nextEntry()
         
     # completed 2 repeats of 'QA_pre_block'
-    
+    trigger_sending(5)   # Sending trigger 4 (Run End)
     thisExp.nextEntry()
     
 # completed 3 repeats of 'run'
 
+
+trigger_sending(2)  # Sending trigger 0 (Post-Run Start)
 # ---------------------------------------------------
 # -------------- Cali_de_post_intro -----------------
 # ---------------------------------------------------
@@ -1090,6 +1098,8 @@ if Cali_de_post_rec_flag:
 # ---------------------------------------------------
 # ------------------- THE END -----------------------
 # ---------------------------------------------------
+trigger_sending(3)  # Sending trigger 0 (Post-Run Start)
+
 
 if end_flag:
     # ------Prepare to start Routine "the_end"-------
