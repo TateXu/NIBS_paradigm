@@ -224,7 +224,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
         obj.tStart = current_time  # local t and not account for scr refresh
         obj.tStartRefresh = current_global_time  # on global time
         trigger_flag = True 
-        trigger_val = 0
+        trigger_val = 1
         if obj_property == 'text':
             win.timeOnFlip(obj, 'tStartRefresh')  # time at next scr refresh
             obj.setAutoDraw(True)
@@ -251,7 +251,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                 obj.frameNStop = current_frame
                 win.timeOnFlip(obj, 'tStopRefresh')
                 trigger_flag = True
-                trigger_val = 1
+                trigger_val = 0
                 if obj_property == 'text':
                     obj.setAutoDraw(False)
                 elif obj_property == 'audio':
@@ -528,7 +528,8 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
 
     """
 
-    task = {'Calibration': 10, 'QA': 40}
+
+    task = {'instruction': '0', 'Calibration': '1', 'RS': '2', 'QA': '3'}
 
     digit_task = task[obj_name]
     digit_run = str(input_run)
@@ -541,8 +542,8 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
         trigger_sending(data, port=port)
     else:
         for ind in np.where(input_event[:, 0] == 1)[0]:
-            digit_event = input_event[ind, 1]
-            data = digit_task + digit_event
+            digit_event = str(int(ind)) + str(int(input_event[ind, 1]))
+            data = digit_task + digit_run + digit_block + digit_intro_rec + digit_event
             trigger_sending(data, port=port)
 
 

@@ -1,0 +1,245 @@
+5.2521 	EXP 	Created fade_in_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.2582 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.2607 	EXP 	Created instruction_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='instruction_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.2649 	EXP 	Created Cali_de_pre_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.3]), rgb=array([1., 1., 1.]), text='READ OUT BLOCK (GERMAN)', units='norm', win=Window(...), wrapWidth=1)
+5.2711 	EXP 	Created Cali_de_pre_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.2875 	EXP 	Created Cali_de_pre_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_intro_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.2912 	EXP 	Created Cali_de_pre_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='Hallo, Ich bin Chen aus Wien.', units='norm', win=Window(...), wrapWidth=1)
+5.2958 	EXP 	Created Cali_de_pre_rec_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_rec_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.2974 	EXP 	Created RS_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.3]), rgb=array([1., 1., 1.]), text='REST STATE BLOCK', units='norm', win=Window(...), wrapWidth=1)
+5.3022 	EXP 	Created RS_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3109 	EXP 	Created RS_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_intro_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.3136 	EXP 	Created RS_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3155 	EXP 	Created RS_rec_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_rec_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.3174 	EXP 	Created QA_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.3]), rgb=array([1., 1., 1.]), text='Q&A BLOCK', units='norm', win=Window(...), wrapWidth=1)
+5.3281 	EXP 	Created QA_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3459 	EXP 	Created QA_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_intro_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.3487 	EXP 	Created QA_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3548 	EXP 	Created QA_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+5.3569 	EXP 	Created Pause_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Pause_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Pause: Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.3586 	EXP 	Created Cali_de_post_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.3]), rgb=array([1., 1., 1.]), text='READ OUT BLOCK (GERMAN)', units='norm', win=Window(...), wrapWidth=1)
+5.3638 	EXP 	Created Cali_de_post_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.3763 	EXP 	Created Cali_de_post_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_intro_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.3780 	EXP 	Created Cali_de_post_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='Hallo, Ich bin Chen aus Wien.', units='norm', win=Window(...), wrapWidth=1)
+5.3813 	EXP 	Created Cali_de_post_rec_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_rec_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+5.3863 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.4055 	EXP 	instruction_text: autoDraw = True
+10.3927 	EXP 	instruction_cont: autoDraw = True
+10.9017 	DATA 	Keypress: space
+10.9082 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+10.9084 	EXP 	New trial (rep=0, index=0): None
+10.9085 	EXP 	New trial (rep=1, index=0): None
+10.9087 	EXP 	New trial (rep=2, index=0): None
+10.9088 	EXP 	New trial (rep=3, index=0): None
+10.9089 	EXP 	New trial (rep=4, index=0): None
+10.9090 	EXP 	New trial (rep=5, index=0): None
+10.9092 	EXP 	New trial (rep=6, index=0): None
+10.9093 	EXP 	New trial (rep=7, index=0): None
+10.9095 	EXP 	New trial (rep=8, index=0): None
+10.9096 	EXP 	New trial (rep=9, index=0): None
+10.9098 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+10.9099 	EXP 	New trial (rep=0, index=0): None
+11.0113 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+11.0120 	EXP 	New trial (rep=0, index=0): None
+11.0135 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+11.0143 	EXP 	New trial (rep=0, index=0): None
+11.0151 	EXP 	New trial (rep=1, index=0): None
+11.0158 	EXP 	New trial (rep=2, index=0): None
+11.0165 	EXP 	New trial (rep=3, index=0): None
+11.0172 	EXP 	New trial (rep=4, index=0): None
+11.0179 	EXP 	New trial (rep=5, index=0): None
+11.0185 	EXP 	New trial (rep=6, index=0): None
+11.0197 	EXP 	New trial (rep=7, index=0): None
+11.0204 	EXP 	New trial (rep=8, index=0): None
+11.0211 	EXP 	New trial (rep=9, index=0): None
+11.0218 	EXP 	New trial (rep=10, index=0): None
+11.0226 	EXP 	New trial (rep=11, index=0): None
+11.0235 	EXP 	New trial (rep=12, index=0): None
+11.0242 	EXP 	New trial (rep=13, index=0): None
+11.0249 	EXP 	New trial (rep=14, index=0): None
+11.0256 	EXP 	New trial (rep=15, index=0): None
+11.0262 	EXP 	New trial (rep=16, index=0): None
+11.0269 	EXP 	New trial (rep=17, index=0): None
+11.0277 	EXP 	New trial (rep=18, index=0): None
+11.0283 	EXP 	New trial (rep=19, index=0): None
+11.0291 	EXP 	New trial (rep=1, index=0): None
+11.0306 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+11.0314 	EXP 	New trial (rep=0, index=0): None
+11.0321 	EXP 	New trial (rep=1, index=0): None
+11.0328 	EXP 	New trial (rep=2, index=0): None
+11.0335 	EXP 	New trial (rep=3, index=0): None
+11.0342 	EXP 	New trial (rep=4, index=0): None
+11.0349 	EXP 	New trial (rep=5, index=0): None
+11.0357 	EXP 	New trial (rep=6, index=0): None
+11.0363 	EXP 	New trial (rep=7, index=0): None
+11.0370 	EXP 	New trial (rep=8, index=0): None
+11.0377 	EXP 	New trial (rep=9, index=0): None
+11.0384 	EXP 	New trial (rep=10, index=0): None
+11.0393 	EXP 	New trial (rep=11, index=0): None
+11.0402 	EXP 	New trial (rep=12, index=0): None
+11.0409 	EXP 	New trial (rep=13, index=0): None
+11.0415 	EXP 	New trial (rep=14, index=0): None
+11.0420 	EXP 	New trial (rep=15, index=0): None
+11.0425 	EXP 	New trial (rep=16, index=0): None
+11.0429 	EXP 	New trial (rep=17, index=0): None
+11.0435 	EXP 	New trial (rep=18, index=0): None
+11.0440 	EXP 	New trial (rep=19, index=0): None
+11.2457 	EXP 	New trial (rep=1, index=0): None
+13.2917 	EXP 	instruction_text: autoDraw = False
+13.2917 	EXP 	instruction_cont: autoDraw = False
+13.2917 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 1.0mA. \n\n Current current intensity is 0.004mA'
+13.2917 	EXP 	fade_in_text: autoDraw = True
+15.2926 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 1.0mA. \n\n Current current intensity is 0.2mA'
+17.3079 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 1.0mA. \n\n Current current intensity is 0.4mA'
+19.3262 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 1.0mA. \n\n Current current intensity is 0.6mA'
+21.3414 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 1.0mA. \n\n Current current intensity is 0.8mA'
+23.3081 	EXP 	fade_in_text: autoDraw = False
+23.4422 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+23.4423 	EXP 	New trial (rep=0, index=0): None
+23.4425 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+23.4427 	EXP 	New trial (rep=0, index=0): None
+23.4428 	EXP 	New trial (rep=1, index=0): None
+23.4429 	EXP 	New trial (rep=2, index=0): None
+23.4431 	EXP 	New trial (rep=3, index=0): None
+23.4432 	EXP 	New trial (rep=4, index=0): None
+23.4433 	EXP 	New trial (rep=5, index=0): None
+23.4434 	EXP 	New trial (rep=6, index=0): None
+23.4435 	EXP 	New trial (rep=7, index=0): None
+23.4436 	EXP 	New trial (rep=8, index=0): None
+23.4437 	EXP 	New trial (rep=9, index=0): None
+23.4438 	EXP 	New trial (rep=10, index=0): None
+23.4440 	EXP 	New trial (rep=11, index=0): None
+23.4441 	EXP 	New trial (rep=12, index=0): None
+23.4442 	EXP 	New trial (rep=13, index=0): None
+23.4443 	EXP 	New trial (rep=14, index=0): None
+23.4444 	EXP 	New trial (rep=15, index=0): None
+23.4445 	EXP 	New trial (rep=16, index=0): None
+23.4446 	EXP 	New trial (rep=17, index=0): None
+23.4447 	EXP 	New trial (rep=18, index=0): None
+23.4448 	EXP 	New trial (rep=19, index=0): None
+23.4449 	EXP 	New trial (rep=1, index=0): None
+23.4452 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+23.4453 	EXP 	New trial (rep=0, index=0): None
+23.4454 	EXP 	New trial (rep=1, index=0): None
+23.4455 	EXP 	New trial (rep=2, index=0): None
+23.4456 	EXP 	New trial (rep=3, index=0): None
+23.4457 	EXP 	New trial (rep=4, index=0): None
+23.4458 	EXP 	New trial (rep=5, index=0): None
+23.4460 	EXP 	New trial (rep=6, index=0): None
+23.4461 	EXP 	New trial (rep=7, index=0): None
+23.4462 	EXP 	New trial (rep=8, index=0): None
+23.4463 	EXP 	New trial (rep=9, index=0): None
+23.4464 	EXP 	New trial (rep=10, index=0): None
+23.4465 	EXP 	New trial (rep=11, index=0): None
+23.4466 	EXP 	New trial (rep=12, index=0): None
+23.4467 	EXP 	New trial (rep=13, index=0): None
+23.4468 	EXP 	New trial (rep=14, index=0): None
+23.4469 	EXP 	New trial (rep=15, index=0): None
+23.4471 	EXP 	New trial (rep=16, index=0): None
+23.4472 	EXP 	New trial (rep=17, index=0): None
+23.4473 	EXP 	New trial (rep=18, index=0): None
+23.4474 	EXP 	New trial (rep=19, index=0): None
+23.6488 	EXP 	New trial (rep=2, index=0): None
+23.7504 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+23.7517 	EXP 	New trial (rep=0, index=0): None
+23.7533 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+23.7541 	EXP 	New trial (rep=0, index=0): None
+23.7548 	EXP 	New trial (rep=1, index=0): None
+23.7556 	EXP 	New trial (rep=2, index=0): None
+23.7565 	EXP 	New trial (rep=3, index=0): None
+23.7572 	EXP 	New trial (rep=4, index=0): None
+23.7579 	EXP 	New trial (rep=5, index=0): None
+23.7586 	EXP 	New trial (rep=6, index=0): None
+23.7593 	EXP 	New trial (rep=7, index=0): None
+23.7603 	EXP 	New trial (rep=8, index=0): None
+23.7615 	EXP 	New trial (rep=9, index=0): None
+23.7623 	EXP 	New trial (rep=10, index=0): None
+23.7635 	EXP 	New trial (rep=11, index=0): None
+23.7647 	EXP 	New trial (rep=12, index=0): None
+23.7659 	EXP 	New trial (rep=13, index=0): None
+23.7666 	EXP 	New trial (rep=14, index=0): None
+23.7674 	EXP 	New trial (rep=15, index=0): None
+23.7681 	EXP 	New trial (rep=16, index=0): None
+23.7687 	EXP 	New trial (rep=17, index=0): None
+23.7694 	EXP 	New trial (rep=18, index=0): None
+23.7701 	EXP 	New trial (rep=19, index=0): None
+23.7708 	EXP 	New trial (rep=1, index=0): None
+23.7723 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+23.7731 	EXP 	New trial (rep=0, index=0): None
+23.7738 	EXP 	New trial (rep=1, index=0): None
+23.7745 	EXP 	New trial (rep=2, index=0): None
+23.7753 	EXP 	New trial (rep=3, index=0): None
+23.7763 	EXP 	New trial (rep=4, index=0): None
+23.7771 	EXP 	New trial (rep=5, index=0): None
+23.7778 	EXP 	New trial (rep=6, index=0): None
+23.7785 	EXP 	New trial (rep=7, index=0): None
+23.7790 	EXP 	New trial (rep=8, index=0): None
+23.7795 	EXP 	New trial (rep=9, index=0): None
+23.7800 	EXP 	New trial (rep=10, index=0): None
+23.7804 	EXP 	New trial (rep=11, index=0): None
+23.7809 	EXP 	New trial (rep=12, index=0): None
+23.7812 	EXP 	New trial (rep=13, index=0): None
+23.7816 	EXP 	New trial (rep=14, index=0): None
+23.7819 	EXP 	New trial (rep=15, index=0): None
+23.7823 	EXP 	New trial (rep=16, index=0): None
+23.7826 	EXP 	New trial (rep=17, index=0): None
+23.7830 	EXP 	New trial (rep=18, index=0): None
+23.7833 	EXP 	New trial (rep=19, index=0): None
+23.9252 	EXP 	fade_in_text: autoDraw = False
+23.9252 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 0mA. \n\n Current current intensity is 1.0mA'
+23.9252 	EXP 	fade_in_text: autoDraw = True
+25.9265 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 0mA. \n\n Current current intensity is 0.8mA'
+27.9417 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 0mA. \n\n Current current intensity is 0.6mA'
+29.9601 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 0mA. \n\n Current current intensity is 0.4mA'
+31.9754 	EXP 	fade_in_text: text = 'The stimulation is starting now and we will gradually increase the intensity to 0mA. \n\n Current current intensity is 0.2mA'
+33.9269 	EXP 	fade_in_text: autoDraw = False
+34.0766 	EXP 	New trial (rep=3, index=0): None
+34.1778 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+34.1783 	EXP 	New trial (rep=0, index=0): None
+34.1792 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+34.1798 	EXP 	New trial (rep=0, index=0): None
+34.1803 	EXP 	New trial (rep=1, index=0): None
+34.1807 	EXP 	New trial (rep=2, index=0): None
+34.1812 	EXP 	New trial (rep=3, index=0): None
+34.1816 	EXP 	New trial (rep=4, index=0): None
+34.1821 	EXP 	New trial (rep=5, index=0): None
+34.1825 	EXP 	New trial (rep=6, index=0): None
+34.1830 	EXP 	New trial (rep=7, index=0): None
+34.1834 	EXP 	New trial (rep=8, index=0): None
+34.1839 	EXP 	New trial (rep=9, index=0): None
+34.1843 	EXP 	New trial (rep=10, index=0): None
+34.1848 	EXP 	New trial (rep=11, index=0): None
+34.1852 	EXP 	New trial (rep=12, index=0): None
+34.1857 	EXP 	New trial (rep=13, index=0): None
+34.1861 	EXP 	New trial (rep=14, index=0): None
+34.1866 	EXP 	New trial (rep=15, index=0): None
+34.1870 	EXP 	New trial (rep=16, index=0): None
+34.1878 	EXP 	New trial (rep=17, index=0): None
+34.1883 	EXP 	New trial (rep=18, index=0): None
+34.1888 	EXP 	New trial (rep=19, index=0): None
+34.1893 	EXP 	New trial (rep=1, index=0): None
+34.1904 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+34.1911 	EXP 	New trial (rep=0, index=0): None
+34.1918 	EXP 	New trial (rep=1, index=0): None
+34.1923 	EXP 	New trial (rep=2, index=0): None
+34.1928 	EXP 	New trial (rep=3, index=0): None
+34.1933 	EXP 	New trial (rep=4, index=0): None
+34.1938 	EXP 	New trial (rep=5, index=0): None
+34.1943 	EXP 	New trial (rep=6, index=0): None
+34.1948 	EXP 	New trial (rep=7, index=0): None
+34.1952 	EXP 	New trial (rep=8, index=0): None
+34.1957 	EXP 	New trial (rep=9, index=0): None
+34.1962 	EXP 	New trial (rep=10, index=0): None
+34.1966 	EXP 	New trial (rep=11, index=0): None
+34.1971 	EXP 	New trial (rep=12, index=0): None
+34.1976 	EXP 	New trial (rep=13, index=0): None
+34.1981 	EXP 	New trial (rep=14, index=0): None
+34.1985 	EXP 	New trial (rep=15, index=0): None
+34.1990 	EXP 	New trial (rep=16, index=0): None
+34.1995 	EXP 	New trial (rep=17, index=0): None
+34.2000 	EXP 	New trial (rep=18, index=0): None
+34.2004 	EXP 	New trial (rep=19, index=0): None
+34.4259 	EXP 	fade_in_text: autoDraw = False
+34.4259 	EXP 	text_3: autoDraw = True
+37.3275 	EXP 	text_3: autoDraw = False
+37.3426 	EXP 	window1: mouseVisible = True

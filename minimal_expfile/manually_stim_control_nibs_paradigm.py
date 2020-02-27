@@ -80,15 +80,15 @@ init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
 
 instruction_flag = 1
-Cali_de_pre_intro_flag = 0
-Cali_de_pre_rec_flag = 0
+Cali_de_pre_intro_flag = 1
+Cali_de_pre_rec_flag = 1
 
 fade_in_flag = 0
 fade_out_flag = 0
-RS_intro_flag = 0
-RS_rec_flag = 0
-QA_intro_flag = 0
-QA_rec_flag = 0
+RS_intro_flag = 1
+RS_rec_flag = 1
+QA_intro_flag = 1
+QA_rec_flag = 1
 Pause_flag = 0
 Cali_de_post_intro_flag = 0
 Cali_de_post_rec_flag = 0
@@ -118,7 +118,7 @@ if init_flag:
     logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
 
     fade_str_func = lambda x: 'The stimulation is starting now and we will gradually increase the intensity to '  + \
-        str(x*2) + 'mA. \n\n Current current intensity is '
+        str(x*2) + 'mA IF AND ONLY IF you feel okay with current intensity. \n\n Current current intensity is '
 
     fade_in_str = fade_str_func(max_intensity)
     fade_cont_str = 'Increase current intensity press i. \n' + \
@@ -126,10 +126,11 @@ if init_flag:
         'Decrease current intensity press d \n'
     fade_in_list = [
         textstim_generator(win=win, name='text', content=fade_in_str, pos=[0.5, 0.4]),
-        key_resp_generator(name='auto_stim')
+        key_resp_generator(name='key_resp_stim'),
+        textstim_generator(win=win, name='cont', content=fade_cont_str, pos=annot_pos),
         ]
     fade_in = routine_init('fade_in', fade_in_list)
-    fade_in['time'] = {'text':[0, 10], 'auto_stim':[0, 10]}
+    fade_in['time'] = {'text':[0, None], 'key_resp_stim':[5, None], 'cont':[5, None]}
 
     instruction_text_str = 'Welcome to participate our experiment: causal ' + \
         'prediction model for non-invasive ' + \
@@ -429,6 +430,86 @@ for thisCali_pre_trial in cali_pre_trial:
         for paramName in thisCali_pre_trial:
             exec('{} = thisPre_trial[paramName]'.format(paramName))
     trigger_sending(12)
+    # ---------------------------------------------------
+    # -------------------- QA_rec -----------------------
+    # ---------------------------------------------------
+    """
+    if QA_rec_flag:
+        # ------Prepare to start Routine "QA_rec"-------
+        routineTimer.add(30.000000)
+        # update component parameters for each repeat
+        if external_question_flag:
+            question_cnt += 1
+            QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
+        else:
+            QA_rec['question'].setSound('../../../../Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=14.4, hamming=True)
+        
+
+        QA_rec['question'].setVolume(1, log=False)
+
+        # keep track of which components have finished
+        win, QA_rec, QA_recComponents, t, frameN, continueRoutine = pre_run_comp(win, QA_rec)
+        trigger_mat = np.zeros((len(QA_recComponents) - 1, 2))
+        comp_list = np.asarray([*QA_rec['time'].keys()])
+        trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=QA_pre_block.thisRepN, intro_rec=1, input_event=0)
+        # -------Run Routine "QA_rec"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                QA_rec["clock"], win, frameN)
+            # update/draw components on each frame
+            
+            # *QA_rec["text"]* updates
+            win, QA_rec['text'], trigger_mat[0] = run_comp(
+                win, QA_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['text'][0], duration=QA_rec['time']['text'][1])
+            # *QA_rec["beep_hint"]* updates
+            win, QA_rec['beep_hint'], trigger_mat[1] = run_comp(
+                win, QA_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['beep_hint'][0], duration=QA_rec['time']['beep_hint'][1])
+            # *QA_rec["question"]* updates
+            win, QA_rec['question'], trigger_mat[2] = run_comp(
+                win, QA_rec['question'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['question'][0], duration=QA_rec['time']['question'][1])
+            # *QA_rec["beep_start"]* updates
+            win, QA_rec['beep_start'], trigger_mat[3] = run_comp(
+                win, QA_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['beep_start'][0], duration=QA_rec['time']['beep_start'][1])
+            # *QA_rec["recording"]* updates
+            win, QA_rec['recording'], trigger_mat[4] = run_comp(
+                win, QA_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['recording'][0], duration=QA_rec['time']['recording'][1])
+            # *QA_rec["beep_end"]* updates
+            win, QA_rec['beep_end'], trigger_mat[5] = run_comp(
+                win, QA_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['beep_end'][0], duration=QA_rec['time']['beep_end'][1])
+
+            win, QA_rec['break'], trigger_mat[6] = run_comp(
+                win, QA_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=QA_rec['time']['break'][0], duration=QA_rec['time']['break'][1])
+
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, QA_recComponents)
+            
+            if trigger_mat.sum(axis=0)[0]:
+                trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=QA_pre_block.thisRepN, intro_rec=1, input_event=trigger_mat)
+            if break_flag:
+                break
+        trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=QA_pre_block.thisRepN, intro_rec=1, input_event=6)
+        # -------Ending Routine "QA_rec"-------
+        for thisComponent in QA_recComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        pre_trial = data_writer(pre_trial, QA_rec, 'QA_rec',
+            ['text', 'beep_hint', 'question', 'beep_start', 'beep_end', 'break'])
+        q_a_rec_file = folder_path + 'rec_cali_de_pre.wav'
+        q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_pre_block.thisN).zfill(3) + '_trial_' + str(pre_trial.thisN).zfill(3)  + '.wav' 
+        write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file 
+        thisExp.addData('filename', q_a_rec_file)
+        thisExp.nextEntry()
+
+    # completed 3 repeats of 'pre_trial'
+    """
 
     # ---------------------------------------------------
     # --------------- Cali_de_pre_rec -------------------
@@ -514,11 +595,10 @@ for thisCali_pre_trial in cali_pre_trial:
         # thisExp.addData('vocal_RT', round(vpvk.event_onset, 3))
         # thisExp.addData('bad_baseline', vpvk.bad_baseline)
         thisExp.addData('filename', cali_pre_rec_file)
-        
+        trigger_sending(13)
         thisExp.nextEntry()
         # the Routine "Cali_de_pre_rec" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
-    trigger_sending(13)
 
 
 
@@ -601,79 +681,84 @@ for thisRun in run:
     # --------------------- fade in ---------------------
     # ---------------------------------------------------
     if fade_in_flag:
-        if stim_freq == 0:
-            trigger_sending(22)
-        else:
-            if run.thisN == stim_run[0]:
-                trigger_sending(20)
-                fg = SG()
-                fg.amp(init_intensity)
-                fg.frequency(stim_freq)
-                time.sleep(1.0)
-                fg.on()
-                time.sleep(1.0)
-            if run.thisN == stim_run[0]:
-                # ------Prepare to start Routine "fade_in"-------
-                # keep track of which components have finished
-                win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
-                trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
-                comp_list = np.asarray([*fade_in['time'].keys()])
-                # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=0)
-                stim_continue = False
-                trigger_sending(24)
-                if run.thisN >= stim_run[0] + 1:
-                    tmp_intensity = input_intensity
-                    input_intensity = max_intensity - 0.05  # To be able to enter to loop of decreasing intensity
-                while input_intensity < max_intensity and not stim_continue:
-                    if run.thisN >= stim_run[0] + 1 and tmp_intensity != None:
-                        input_intensity = tmp_intensity
-                        tmp_intensity = None
-                        print('initial ' + str(input_intensity))
+        if run.thisN == stim_run[0]:
+            fg = SG()
+            fg.amp(init_intensity)
+            fg.frequency(stim_freq)
+            time.sleep(1.0)
+            fg.on()
+            time.sleep(1.0)
+        if run.thisN >= stim_run[0]:
+            # ------Prepare to start Routine "fade_in"-------
+            # update component parameters for each repeat
+            fade_in['key_resp_stim'].keys = []
+            fade_in['key_resp_stim'].rt = []
+            # keep track of which components have finished
+            win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
+            trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
+            comp_list = np.asarray([*fade_in['time'].keys()])
+            # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=0)
+            stim_continue = False
+            if run.thisN >= stim_run[0] + 1:
+                tmp_intensity = input_intensity
+                input_intensity = max_intensity - 0.05
+            while input_intensity < max_intensity and not stim_continue:
+                if run.thisN >= stim_run[0] + 1 and tmp_intensity != None:
+                    input_intensity = tmp_intensity
+                    tmp_intensity = None
 
-                    fade_in_str = fade_str_func(intensity_goal[run.thisN])
-                    fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
-                    routineTimer.reset()
-                    routineTimer.add(2.000000)
-                    intensity_change_flag = 'i'
-                    # -------Run Routine "fade_in"-------
-                    while continueRoutine and routineTimer.getTime() > 0:
-                        # get current time
-                        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-                            fade_in["clock"], win, frameN)
-                        # *fade_in["text"]* updates
-                        win, fade_in['text'], trigger_mat[0] = run_comp(
-                            win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                            start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
-                        
-                        win, fade_in['auto_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, intensity_change_flag, trigger_mat[1] = run_comp(
-                            win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
-                            start_time=fade_in['time']['auto_stim'][0], duration=fade_in['time']['auto_stim'][1],
-                            stim_current_intensity=input_intensity, stim_intensity_limit=[min_intensity, max_intensity],
-                            stim_step_intensity=step_intensity, stim_obj=fg, intensity_change_flag=intensity_change_flag,
-                            stim=True)
+                fade_in_str = fade_str_func(intensity_goal[run.thisN])
+                fade_in['text'].text = fade_in_str + str(input_intensity*2) + 'mA'
+                # -------Run Routine "fade_in"-------
+                while continueRoutine:
+                    # get current time
+                    frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                        fade_in["clock"], win, frameN)
+                    # *fade_in["text"]* updates
+                    win, fade_in['text'], trigger_mat[0] = run_comp(
+                        win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
+                    
+                    # *fade_in['key_resp_stim']* updates
+                    waitOnFlip=False
 
-                        break_flag = False
-                        win, continueRoutine, break_flag = continue_justification(
-                            win, endExpNow, defaultKeyboard, continueRoutine, fade_inComponents)
+                    win, fade_in['key_resp_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, trigger_mat[1] = run_comp(
+                        win, fade_in['key_resp_stim'], 'key_resp_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        start_time=fade_in['time']['key_resp_stim'][0], duration=fade_in['time']['key_resp_stim'][1],
+                        waitOnFlip=waitOnFlip, key_list=['space', 'i', 'd'], stim_current_intensity=input_intensity,
+                        stim_intensity_limit=[min_intensity, max_intensity], stim_step_intensity=step_intensity, stim_obj=fg, stim=True)
 
-                        if trigger_mat.sum(axis=0)[0]:
-                            pass
-                            # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
-                        if break_flag:
-                            break
-                        input_intensity = output_intensity
+                    # *fade_in['cont']* updates
+                    win, fade_in['cont'], trigger_mat[2] = run_comp(
+                        win, fade_in['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        start_time=fade_in['time']['cont'][0], duration=fade_in['time']['cont'][1])
 
-                # -------Ending Routine "fade_in"-------
-                for thisComponent in fade_inComponents:
-                    if hasattr(thisComponent, "setAutoDraw"):
-                        thisComponent.setAutoDraw(False)
+                    break_flag = False
+                    win, continueRoutine, break_flag = continue_justification(
+                        win, endExpNow, defaultKeyboard, continueRoutine, fade_inComponents)
 
-                thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
-                trigger_sending(25)
-            
-        routineTimer.reset()
-        time.sleep(0.1)
-        trigger_sending(28)
+                    if trigger_mat.sum(axis=0)[0]:
+                        pass
+                        # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
+                    if break_flag:
+                        break
+
+                input_intensity = output_intensity
+
+            # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=2)
+            # -------Ending Routine "fade_in"-------
+            for thisComponent in fade_inComponents:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+
+            thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text', 'cont'])
+            routineTimer.reset()
+            if run.thisN == stim_run[-1] + 1:
+                if input_intensity > 0.05:
+                    print('dangerous')
+                    pdb.set_trace()
+                else:
+                    fg.off()
 
 
     for RS_loop in range(2):
@@ -1050,88 +1135,6 @@ for thisRun in run:
         thisExp.nextEntry()
         
     # completed 2 repeats of 'QA_pre_block'
-
-    if fade_out_flag:
-
-        trigger_sending(29)
-        time.sleep(0.1)
-        if stim_freq == 0:
-            trigger_sending(23)
-        else:
-            if run.thisN == stim_run[-1]:
-                # ------Prepare to start Routine "fade_in"-------
-                
-                # keep track of which components have finished
-                win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
-                trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
-                comp_list = np.asarray([*fade_in['time'].keys()])
-                # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=0)
-                stim_continue = False
-                trigger_sending(26)
-                if run.thisN >= stim_run[0] + 1:
-                    tmp_intensity = input_intensity
-                    input_intensity = max_intensity - 0.05  # To be able to enter to loop of decreasing intensity
-                while input_intensity > min_intensity and not stim_continue:
-                    if run.thisN >= stim_run[0] + 1 and tmp_intensity != None:
-                        input_intensity = tmp_intensity
-                        tmp_intensity = None
-                        # print('initial ' + str(input_intensity))
-
-                    fade_in_str = fade_str_func(intensity_goal[run.thisN + 1])
-                    fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
-                    routineTimer.reset()
-                    routineTimer.add(2.000000)
-                    intensity_change_flag = 'd'
-                    # -------Run Routine "fade_in"-------
-                    while continueRoutine and routineTimer.getTime() > 0:
-                        # get current time
-                        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-                            fade_in["clock"], win, frameN)
-                        # *fade_in["text"]* updates
-                        win, fade_in['text'], trigger_mat[0] = run_comp(
-                            win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                            start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
-                        
-                        win, fade_in['auto_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, intensity_change_flag, trigger_mat[1] = run_comp(
-                            win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
-                            start_time=fade_in['time']['auto_stim'][0], duration=fade_in['time']['auto_stim'][1],
-                            stim_current_intensity=input_intensity, stim_intensity_limit=[min_intensity, max_intensity],
-                            stim_step_intensity=step_intensity, stim_obj=fg, intensity_change_flag=intensity_change_flag,
-                            stim=True)
-
-                        break_flag = False
-                        win, continueRoutine, break_flag = continue_justification(
-                            win, endExpNow, defaultKeyboard, continueRoutine, fade_inComponents)
-
-                        if trigger_mat.sum(axis=0)[0]:
-                            pass
-                            # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
-                        if break_flag:
-                            break
-
-                        input_intensity = output_intensity
-                    
-                    # print('here input' + str(input_intensity))
-
-                trigger_sending(27)
-                # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=2)
-                # -------Ending Routine "fade_in"-------
-                for thisComponent in fade_inComponents:
-                    if hasattr(thisComponent, "setAutoDraw"):
-                        thisComponent.setAutoDraw(False)
-
-                thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
-                
-                if input_intensity > 0.05:
-                    print('dangerous')
-                    pdb.set_trace()
-                else:
-                    fg.off()
-            
-                trigger_sending(21)
-            routineTimer.reset()
-
-    time.sleep(0.1)
     trigger_sending(5)   # Sending trigger 4 (Run End)
     thisExp.nextEntry()
     
