@@ -3,6 +3,7 @@ from __future__ import absolute_import, division
 
 from psychopy import locale_setup
 from psychopy import prefs
+prefs.hardware['audioLib'] = ['PTB']
 from psychopy import sound, gui, visual, core, data, event, logging, clock
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
@@ -243,7 +244,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
             except:
                 obj.file = None
                 print('No predefined duration of recording!')
-    
+
     if obj.status == STARTED:
         if repeat_per_frame or duration != None:
             if duration != None and current_global_time > obj.tStartRefresh + duration - frameTolerance:
@@ -257,6 +258,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                 elif obj_property == 'audio':
                     obj.stop()
                 elif obj_property == 'recording':
+                    print(sd.wait())
                     obj.status = FINISHED
             elif repeat_per_frame:
                 if obj_property == 'text':
@@ -387,7 +389,11 @@ def data_writer(target, obj, obj_str, list_kwgs):
 
 
 def trigger_sending(data, port='/dev/parport0'):
-    value = np.uint8(data)
+    try:
+        value = np.uint8(data)
+    except:
+        return print('Silent trigger!')
+
     try: 
         ext_port = parallel.Parallel(port=port)
         ext_port.setData(value)
@@ -396,7 +402,7 @@ def trigger_sending(data, port='/dev/parport0'):
         return print('No device! Planned to send trigger: ' + str(value))
 
 
-def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_event, port='/dev/parport0'):
+def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
 
     """
     0. Structure of Experiment
@@ -418,7 +424,7 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     ===================================================================================
 
    
-    1.2. Structure of Pre-/Post-Run trial (Calibration)  --- Not implemented inside trial
+    1.2. Structure of Pre-/Post-Run trial (Calibration)
     ================================================================================================
        | -------------------------------- Calibration Trail K --------------------------------- |
        | ---------------------------------------- DATA ---------------------------------------- |
@@ -430,6 +436,8 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
 
 
     2.1. Structure of Run
+
+    Plan A: (not adopted)
     =============================================================================================================
     | ----------------------------------------------- Run K --------------------------------------------------- |
     | --------------------------------------------------------------------------------------------------------- |
@@ -441,27 +449,38 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     | 22             28 | ................................................................... | 29           23 |    
     =============================================================================================================
 
+    Plan B: (adopted)  --> Argument: Shorter duration (40 mins less than A) and RS is not major goal for now
+    ============================================================================================
+    | -------------------------------------- Run K ------------------------------------------- |
+    | ---------------------------------------------------------------------------------------- |
+    | <---- 1 min ----> | <-- 10mins --> | <-- ~12mins --> | <-- ~12mins --> | <--- 1 min ---> |
+    |  START Stim/Sham  | Resting State  |     Block 0     |     Block 1     |  END Stim/Sham  |
+    | <----- 1 min ---> | <------------------- ~35mins --------------------> | <--- 1 min ---> |
+    | ^               ^ | ^            ^ | ^             ^ | ^             ^ | ^  ^          ^ |
+    | 20 24       25 28 | 6            7 | 6             7 | 6             7 | 29 26     27 21 |    
+    | 22             28 | .............. | ............... | ............... | 29           23 |    
+    ============================================================================================
 
     2.1.1. Structure of Resting State
-    ======================================================================
-    | ------------------------- Resting State -------------------------- |
-    | -- HEADER -- | ---------------- ------DATA ----------------------- |
-    |    Intro     | Relax while opening eyes | Relax while closing eyes |
-    | < 30 secs >  | <------- 5 mins -------> | <------- 5 mins -------> | 
-    | ^         ^  | ^                      ^ | ^                      ^ |
-    | 30       31  | 32                    33 | 34                    35 |
-    ======================================================================
+    ==========================================================================================
+      | --------------------------------- Resting State ---------------------------------- |
+      | -- HEADER -- | -------- DATA ---------- | -- HEADER --  | -------- DATA ---------- |
+      | Intro (open) | Relax while opening eyes | Intro (close) | Relax while closing eyes |
+      | < 30 secs >  | <------- 5 mins -------> |  < 30 secs >  | <------- 5 mins -------> | 
+    ^ | ^         ^  | ^                      ^ |  ^         ^  | ^                      ^ | ^
+    6 | 30       31  | 32                    33 |  30       31  | 34                    35 | 7
+    ==========================================================================================
 
 
-    2.1.2. Structure of Block
-    ==============================================================================
-    | ---------------------------------- Block K ------------------------------- |
-    |  -HEADER- | <-- 30 secs --> | ........................ | ----- FOOTER ---- |
-    |   Intro   |     Trial 0     | Trial 1 | ... | Tiral 19 | Pause (unlimited) |
-    | < 1 min > | <---------------- 10 mins ---------------> | <----- n/a -----> |
-    | ^       ^ | ^             ^ | ........................ | ^               ^ |
-    | 40     41 | 42           43 | ........................ | 60             61 |
-    ==============================================================================
+    2.1.2. Structure of Block  (For Block K, K!=0, no HEADER)  -> No need to repeat intro, since same tasks
+    ====================================================================================
+    | ------------------------------------ Block K --------------------------------- |
+    |  -HEADER- |   | <-- 30 secs --> | ........................ | ----- FOOTER ---- |
+    |   Intro   |   |     Trial 0     | Trial 1 | ... | Tiral 19 | Pause (unlimited) |
+    | < 1 min > |   | <---------------- 10 mins ---------------> | <----- n/a -----> |
+    | ^       ^ | ^ | ^             ^ | ........................ | ^               ^ | ^ 
+    | 40     41 | 6 | 42           43 | ........................ | 60             61 | 7
+    ====================================================================================
 
 
     2.1.3. Structure of Trial (Q&A)  --- Not implemented inside trial
@@ -480,6 +499,7 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     Pre-run   start/end: 0/1
     Post-Run  start/end: 2/3
     Run       start/end: 4/5
+    Block     start/end: 6/7
  
     
     ========================================
@@ -529,20 +549,31 @@ def trigger_encoding_sending(obj_name, input_run, input_block, intro_rec, input_
     """
 
     task = {'Calibration': 10, 'QA': 40}
-
     digit_task = task[obj_name]
-    digit_run = str(input_run)
-    digit_block = str(input_block)
-    digit_intro_rec = str(intro_rec)
+    trigger_table = np.array([[None, None],
+                              [None, None],
+                              [4, 5],
+                              [6, None],
+                              [8, 9],
+                              [None, 7],
+                              [62, 63]])
 
     if isinstance(input_event, numbers.Number):
         digit_event = str(input_event)
-        data = digit_task + digit_run + digit_block + digit_intro_rec + digit_event
+        data = digit_task + input_event
         trigger_sending(data, port=port)
     else:
         for ind in np.where(input_event[:, 0] == 1)[0]:
             digit_event = input_event[ind, 1]
-            data = digit_task + digit_event
+            print(ind)
+            if ind == trigger_table.shape[0] - 1:
+                data = trigger_table[ind, int(digit_event)]
+            else:
+                try:
+                    data = digit_task + trigger_table[ind, int(digit_event)]
+                except:
+                    data = None
+
             trigger_sending(data, port=port)
 
 

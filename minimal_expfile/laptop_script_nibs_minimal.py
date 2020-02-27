@@ -58,11 +58,11 @@ n_cali_trial = 10
 
 n_question = n_run * n_block * n_trial
 
-fs = 44100  # Sample rate of audio
+fs = 8000  # Sample rate of audio
 cali_pre_rec_sec = 8  # Duration of recording
 cali_post_rec_sec = 8  # Duration of recording
 q_a_rec_sec = 8
-n_rec_chn = 2
+n_rec_chn = 1
 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
@@ -80,18 +80,18 @@ init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
 
 instruction_flag = 1
-Cali_de_pre_intro_flag = 0
-Cali_de_pre_rec_flag = 0
+Cali_de_pre_intro_flag = 1
+Cali_de_pre_rec_flag = 1
 
 fade_in_flag = 0
 fade_out_flag = 0
-RS_intro_flag = 0
-RS_rec_flag = 0
+RS_intro_flag = 1
+RS_rec_flag = 1
 QA_intro_flag = 0
-QA_rec_flag = 0
-Pause_flag = 0
+QA_rec_flag = 1
+Pause_flag = 1
 Cali_de_post_intro_flag = 0
-Cali_de_post_rec_flag = 0
+Cali_de_post_rec_flag = 1
 end_flag = 1
 
 external_question_flag = 0
@@ -157,19 +157,20 @@ if init_flag:
     Cali_de_pre_intro['time'] = {'title':[0, 20], 'text':[0, 20], 'audio':[0, 20], 'key_resp':[23, None], 'cont':[23, None]}
 
     # Initialize components for Routine "Cali_de_pre_rec"
-    Cali_de_pre_rec_text_str = 'Hallo, Ich bin Chen aus Wien.'
+    Cali_de_pre_rec_text_str = 'PLease read out following sentence.'
     Cali_de_pre_rec_comp_list = [
-        textstim_generator(win=win, name='text', content=Cali_de_pre_rec_text_str, pos=text_pos),
+        textstim_generator(win=win, name='text', content=Cali_de_pre_rec_text_str, pos=title_pos),
         audio_generator(name='beep_hint', loc=audio_root+'calibration/C5_A_tone_flat_half_s.wav', secs=0.6),
+        textstim_generator(win=win, name='question_text', content=Cali_de_pre_rec_text_str, pos=text_pos),
         audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
         audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s.wav', secs=1),
-        key_resp_generator(name='key_resp'),
-        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
         ]
+
     Cali_de_pre_rec = routine_init('Cali_de_pre_rec', Cali_de_pre_rec_comp_list)
-    Cali_de_pre_rec['time'] = {'text':[0, 30], 'beep_hint':[0, 0.6], 'beep_start':[18, 1], 'recording':[19, cali_pre_rec_sec],
-        'beep_end':[27, 1], 'key_resp':[20, None], 'cont':[20, None]}
+    Cali_de_pre_rec['time'] = {'text':[0, 30], 'beep_hint':[0, 0.6], 'question_text':[0.6, 14.4], 'beep_start':[18, 1],
+        'recording':[19, 8], 'beep_end':[27, 1], 'break':[28, 2]}
 
     # Initialize components for Routine "RS_intro"
     RS_intro_text_str = '1. Please remain seated and keep relaxed while opening your eyes.\n' + \
@@ -222,7 +223,7 @@ if init_flag:
         textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
         ]
     QA_rec = routine_init('QA_rec', QA_rec_comp_list)
-    QA_rec['time'] = {'text':[0, 25], 'beep_hint':[0, 0.6], 'question':[0.6, 14.4], 'beep_start':[15, 1],
+    QA_rec['time'] = {'text':[0, 25], 'beep_hint':[0, 0.6], 'question':[0.6, 14.3], 'beep_start':[15, 1],
         'recording':[16, q_a_rec_sec], 'beep_end':[24, 1], 'break':[24, 5]}
 
     # Initialize components for Routine "Pause"
@@ -247,20 +248,23 @@ if init_flag:
     Cali_de_post_intro = routine_init('Cali_de_post_intro', Cali_de_post_intro_comp_list)
     Cali_de_post_intro['time'] = {'title':[0, 23], 'text':[0, 23], 'audio':[0, 23], 'key_resp':[23, None], 'cont':[23, None]}
 
+
     # Initialize components for Routine "Cali_de_post_rec"
-    Cali_de_post_rec_text_str = 'Hallo, Ich bin Chen aus Wien.'
+    Cali_de_post_rec_text_str = 'Please read out following sentence.'
     Cali_de_post_rec_comp_list = [
-        textstim_generator(win=win, name='text', content=Cali_de_post_rec_text_str, pos=text_pos),
+        textstim_generator(win=win, name='text', content=Cali_de_post_rec_text_str, pos=title_pos),
         audio_generator(name='beep_hint', loc=audio_root+'calibration/C5_A_tone_flat_half_s.wav', secs=0.6),
+        textstim_generator(win=win, name='question_text', content=Cali_de_pre_rec_text_str, pos=text_pos),
         audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
         audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s.wav', secs=1),
-        key_resp_generator(name='key_resp'),
-        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
         ]
+
     Cali_de_post_rec = routine_init('Cali_de_post_rec', Cali_de_post_rec_comp_list)
-    Cali_de_post_rec['time'] = {'text':[0, 20], 'beep_hint':[0, 0.6], 'beep_start':[10, 1], 'recording':[11, cali_post_rec_sec],
-        'beep_end':[19, 1], 'key_resp':[20, None], 'cont':[20, None]}
+    Cali_de_post_rec['time'] = {'text':[0, 30], 'beep_hint':[0, 0.6], 'question_text':[0.6, 14.4], 'beep_start':[18, 1],
+        'recording':[19, 8], 'beep_end':[27, 1], 'break':[28, 2]}
+
 
     # Initialize components for Routine "the_end"
     the_endClock = core.Clock()
@@ -417,17 +421,17 @@ cali_pre_trial = data.TrialHandler(nReps=n_cali_trial, method='random',
     seed=None, name='pre_trial')
 thisExp.addLoop(cali_pre_trial)  # add the loop to the experiment
 thisCali_pre_trial = cali_pre_trial.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisPre_trial.rgb)
+# abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
 if thisCali_pre_trial != None:
     for paramName in thisCali_pre_trial:
-        exec('{} = thisPre_trial[paramName]'.format(paramName))
+        exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
 
 for thisCali_pre_trial in cali_pre_trial:
     currentLoop = cali_pre_trial
-    # abbreviate parameter names if possible (e.g. rgb = thisPre_trial.rgb)
+    # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
     if thisCali_pre_trial != None:
         for paramName in thisCali_pre_trial:
-            exec('{} = thisPre_trial[paramName]'.format(paramName))
+            exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
     trigger_sending(12)
 
     # ---------------------------------------------------
@@ -440,9 +444,9 @@ for thisCali_pre_trial in cali_pre_trial:
         # update component parameters for each repeat
         if external_question_flag:
             question_cnt += 1
-            Cali_de_pre_rec['text'].setText(question_path[question_cnt])
+            Cali_de_pre_rec['question_text'].setText(question_path[question_cnt])
         else:
-            Cali_de_pre_rec['text'].setText('Text ' + str(cali_pre_trial.thisN))
+            Cali_de_pre_rec['question_text'].setText('Text ' + str(cali_pre_trial.thisN))
 
         # update component parameters for each repeat 
         # Cali_de_pre_rec['key_resp'].keys = []
@@ -467,36 +471,34 @@ for thisCali_pre_trial in cali_pre_trial:
             win, Cali_de_pre_rec['beep_hint'], trigger_mat[1] = run_comp(
                 win, Cali_de_pre_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
                 start_time=Cali_de_pre_rec['time']['beep_hint'][0], duration=Cali_de_pre_rec['time']['beep_hint'][1])
+
+            # *Cali_de_pre_rec["question_text"]* updates
+            win, Cali_de_pre_rec['question_text'], trigger_mat[2] = run_comp(
+                win, Cali_de_pre_rec['question_text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_pre_rec['time']['question_text'][0], duration=Cali_de_pre_rec['time']['question_text'][1])
+
             # *Cali_de_pre_rec["beep_start"]* updates
-            win, Cali_de_pre_rec['beep_start'], trigger_mat[2] = run_comp(
+            win, Cali_de_pre_rec['beep_start'], trigger_mat[3] = run_comp(
                 win, Cali_de_pre_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
                 start_time=Cali_de_pre_rec['time']['beep_start'][0], duration=Cali_de_pre_rec['time']['beep_start'][1])
             # *Cali_de_pre_rec["recording"]* updates
-            win, Cali_de_pre_rec['recording'], trigger_mat[3] = run_comp(
+            win, Cali_de_pre_rec['recording'], trigger_mat[4] = run_comp(
                 win, Cali_de_pre_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
                 start_time=Cali_de_pre_rec['time']['recording'][0], duration=Cali_de_pre_rec['time']['recording'][1])
             # *Cali_de_pre_rec["beep_end"]* updates
-            win, Cali_de_pre_rec['beep_end'], trigger_mat[4] = run_comp(
+            win, Cali_de_pre_rec['beep_end'], trigger_mat[5] = run_comp(
                 win, Cali_de_pre_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
                 start_time=Cali_de_pre_rec['time']['beep_end'][0], duration=Cali_de_pre_rec['time']['beep_end'][1])
-            """
-            # *Cali_de_pre_rec['key_resp']* updates
-            waitOnFlip=False
-            win, Cali_de_pre_rec['key_resp'], continueRoutine, endExpNow, trigger_mat[5] = run_comp(
-                win, Cali_de_pre_rec['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-                start_time=Cali_de_pre_rec['time']['key_resp'][0], duration=Cali_de_pre_rec['time']['key_resp'][1],
-                waitOnFlip=waitOnFlip)   
-            # *Cali_de_pre_rec['cont']* updates
-            win, Cali_de_pre_rec['cont'], trigger_mat[6] = run_comp(
-                win, Cali_de_pre_rec['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                start_time=Cali_de_pre_rec['time']['cont'][0], duration=Cali_de_pre_rec['time']['cont'][1],
-                repeat_per_frame=True, repeat_content=continue_str)
-            """
+
+            win, Cali_de_pre_rec['break'], trigger_mat[6] = run_comp(
+                win, Cali_de_pre_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_pre_rec['time']['break'][0], duration=Cali_de_pre_rec['time']['break'][1])
+
             win, continueRoutine, break_flag = continue_justification(
                 win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_pre_recComponents)
 
             if trigger_mat.sum(axis=0)[0]:
-                pass  # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=1, input_event=trigger_mat)
+                trigger_encoding_sending('Calibration', input_event=trigger_mat)
             if break_flag:
                 break
         # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=1, input_event=6)
@@ -505,14 +507,13 @@ for thisCali_pre_trial in cali_pre_trial:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
 
-        thisExp = data_writer(thisExp, Cali_de_pre_rec, 'Cali_de_pre_rec', ['text', 'beep_hint', 'beep_start', 'beep_end', 'cont'])
+        thisExp = data_writer(thisExp, Cali_de_pre_rec, 'Cali_de_pre_rec', ['text', 'beep_hint', 'question_text', 'beep_start', 'beep_end', 'break'])
 
-        cali_pre_rec_file = folder_path + 'rec_cali_de_pre.wav'
+        # cali_pre_rec_file = folder_path + 'rec_cali_de_pre_' + + ' .wav'
+        cali_pre_rec_file = folder_path + 'rec_cali_de_pre_' + 'trial_' + str(cali_pre_trial.thisN).zfill(3)  + '.wav' 
         write(cali_pre_rec_file, fs, Cali_de_pre_rec['recording'].file)  # Save as WAV file 
         print('Recording is saved!' + cali_pre_rec_file)
         # Add the detected time into the PsychoPy data file:
-        # thisExp.addData('vocal_RT', round(vpvk.event_onset, 3))
-        # thisExp.addData('bad_baseline', vpvk.bad_baseline)
         thisExp.addData('filename', cali_pre_rec_file)
         
         thisExp.nextEntry()
@@ -675,9 +676,12 @@ for thisRun in run:
         time.sleep(0.1)
         trigger_sending(28)
 
-
-    for RS_loop in range(2):
-
+    # ---------------------------------------------------
+    # ---------------- Resting state --------------------
+    # ---------------------------------------------------
+    time.sleep(0.1)
+    trigger_sending(6)
+    for RS_loop in range(2):   
         RS_order = ['open', 'close']
         # ---------------------------------------------------
         # ------------------- RS_intro ----------------------
@@ -806,9 +810,15 @@ for thisRun in run:
                 trigger_sending(35) 
             # the Routine "RS_rec" was not non-slip safe, so reset the non-slip timer
             routineTimer.reset()
+
+    time.sleep(0.1)
+    trigger_sending(7)
+
     # ---------------------------------------------------
     # ------------------- QA_intro ----------------------
     # ---------------------------------------------------
+    time.sleep(0.1)
+    trigger_sending(40) 
     if QA_intro_flag:
         # ------Prepare to start Routine "QA_intro"-------
         # update component parameters for each repeat
@@ -822,8 +832,6 @@ for thisRun in run:
         win, QA_intro, QA_introComponents, t, frameN, continueRoutine = pre_run_comp(win, QA_intro)
         trigger_mat = np.zeros((len(QA_introComponents) - 1, 2))
         comp_list = np.asarray([*QA_intro['time'].keys()])
-        trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=0, intro_rec=0, input_event=0)
-
 
         # -------Run Routine "QA_intro"-------
         while continueRoutine:
@@ -861,10 +869,9 @@ for thisRun in run:
                 win, endExpNow, defaultKeyboard, continueRoutine, QA_introComponents)
             
             if trigger_mat.sum(axis=0)[0]:
-                trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=0, intro_rec=0, input_event=trigger_mat)
+                pass
             if break_flag:
                 break
-        trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=0, intro_rec=0, input_event=2)
         
         # -------Ending Routine "QA_intro"-------
         for thisComponent in QA_introComponents:
@@ -873,7 +880,8 @@ for thisRun in run:
         run = data_writer(run, QA_intro, 'QA_intro', ['title', 'text', 'audio', 'cont'])
         # the Routine "QA_intro" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
-
+    time.sleep(0.1)
+    trigger_sending(41) 
     # -------------------------------------------------------------------------------
     # ------------------------------ Start Block ------------------------------------
     # -------------------------------------------------------------------------------
@@ -883,46 +891,50 @@ for thisRun in run:
     else:
         n_block_parsed = n_block
 
-    QA_pre_block = data.TrialHandler(nReps=n_block_parsed, method='random', 
+    QA_block = data.TrialHandler(nReps=n_block_parsed, method='random', 
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
-        seed=None, name='QA_pre_block')
-    thisExp.addLoop(QA_pre_block)  # add the loop to the experiment
-    thisQA_pre_block = QA_pre_block.trialList[0]  # so we can initialise stimuli with some values
-    # abbreviate parameter names if possible (e.g. rgb = thisQA_pre_block.rgb)
-    if thisQA_pre_block != None:
-        for paramName in thisQA_pre_block:
-            exec('{} = thisQA_pre_block[paramName]'.format(paramName))
+        seed=None, name='QA_block')
+    thisExp.addLoop(QA_block)  # add the loop to the experiment
+    thisQA_block = QA_block.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisQA_block.rgb)
+    if thisQA_block != None:
+        for paramName in thisQA_block:
+            exec('{} = thisQA_block[paramName]'.format(paramName))
     
-    for thisQA_pre_block in QA_pre_block:
-        currentLoop = QA_pre_block
-        # abbreviate parameter names if possible (e.g. rgb = thisQA_pre_block.rgb)
-        if thisQA_pre_block != None:
-            for paramName in thisQA_pre_block:
-                exec('{} = thisQA_pre_block[paramName]'.format(paramName))
+    for thisQA_block in QA_block:
+        time.sleep(0.1)
+        trigger_sending(6)
+        currentLoop = QA_block
+        # abbreviate parameter names if possible (e.g. rgb = thisQA_block.rgb)
+        if thisQA_block != None:
+            for paramName in thisQA_block:
+                exec('{} = thisQA_block[paramName]'.format(paramName))
 
         # ---------------------------------------------------------------------------
         # ------------------------------ Start Trial --------------------------------
         # ---------------------------------------------------------------------------
         # set up handler to look after randomisation of conditions etc
 
-        pre_trial = data.TrialHandler(nReps=n_trial, method='random', 
+        QA_trial = data.TrialHandler(nReps=n_trial, method='random', 
             extraInfo=expInfo, originPath=-1,
             trialList=[None],
-            seed=None, name='pre_trial')
-        thisExp.addLoop(pre_trial)  # add the loop to the experiment
-        thisPre_trial = pre_trial.trialList[0]  # so we can initialise stimuli with some values
-        # abbreviate parameter names if possible (e.g. rgb = thisPre_trial.rgb)
-        if thisPre_trial != None:
-            for paramName in thisPre_trial:
-                exec('{} = thisPre_trial[paramName]'.format(paramName))
+            seed=None, name='QA_trial')
+        thisExp.addLoop(QA_trial)  # add the loop to the experiment
+        thisQA_trial = QA_trial.trialList[0]  # so we can initialise stimuli with some values
+        # abbreviate parameter names if possible (e.g. rgb = thisQA_trial.rgb)
+        if thisQA_trial != None:
+            for paramName in thisQA_trial:
+                exec('{} = thisQA_trial[paramName]'.format(paramName))
         
-        for thisPre_trial in pre_trial:
-            currentLoop = pre_trial
-            # abbreviate parameter names if possible (e.g. rgb = thisPre_trial.rgb)
-            if thisPre_trial != None:
-                for paramName in thisPre_trial:
-                    exec('{} = thisPre_trial[paramName]'.format(paramName))
+        for thisQA_trial in QA_trial:
+            time.sleep(0.1)
+            trigger_sending(42)
+            currentLoop = QA_trial
+            # abbreviate parameter names if possible (e.g. rgb = thisQA_trial.rgb)
+            if thisQA_trial != None:
+                for paramName in thisQA_trial:
+                    exec('{} = thisQA_trial[paramName]'.format(paramName))
             
             # ---------------------------------------------------
             # -------------------- QA_rec -----------------------
@@ -936,7 +948,7 @@ for thisRun in run:
                     question_cnt += 1
                     QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
                 else:
-                    QA_rec['question'].setSound('../../../../Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=14.4, hamming=True)
+                    QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=14.4, hamming=True)
                 
 
                 QA_rec['question'].setVolume(1, log=False)
@@ -945,7 +957,7 @@ for thisRun in run:
                 win, QA_rec, QA_recComponents, t, frameN, continueRoutine = pre_run_comp(win, QA_rec)
                 trigger_mat = np.zeros((len(QA_recComponents) - 1, 2))
                 comp_list = np.asarray([*QA_rec['time'].keys()])
-                trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=QA_pre_block.thisRepN, intro_rec=1, input_event=0)
+
                 # -------Run Routine "QA_rec"-------
                 while continueRoutine and routineTimer.getTime() > 0:
                     # get current time
@@ -986,23 +998,28 @@ for thisRun in run:
                         win, endExpNow, defaultKeyboard, continueRoutine, QA_recComponents)
                     
                     if trigger_mat.sum(axis=0)[0]:
-                        trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=QA_pre_block.thisRepN, intro_rec=1, input_event=trigger_mat)
+                        trigger_encoding_sending('QA', input_event=trigger_mat)
                     if break_flag:
                         break
-                trigger_encoding_sending('QA', input_run=run.thisRepN, input_block=QA_pre_block.thisRepN, intro_rec=1, input_event=6)
+
                 # -------Ending Routine "QA_rec"-------
                 for thisComponent in QA_recComponents:
                     if hasattr(thisComponent, "setAutoDraw"):
                         thisComponent.setAutoDraw(False)
-                pre_trial = data_writer(pre_trial, QA_rec, 'QA_rec',
+                QA_trial = data_writer(QA_trial, QA_rec, 'QA_rec',
                     ['text', 'beep_hint', 'question', 'beep_start', 'beep_end', 'break'])
                 q_a_rec_file = folder_path + 'rec_cali_de_pre.wav'
-                q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_pre_block.thisN).zfill(3) + '_trial_' + str(pre_trial.thisN).zfill(3)  + '.wav' 
+                q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_block.thisN).zfill(3) + '_trial_' + str(QA_trial.thisN).zfill(3)  + '.wav' 
                 write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file 
                 thisExp.addData('filename', q_a_rec_file)
                 thisExp.nextEntry()
 
-        # completed 3 repeats of 'pre_trial'
+            time.sleep(0.1)
+            trigger_sending(43)
+        
+        time.sleep(0.1)
+        trigger_sending(7)
+        # completed 3 repeats of 'QA_trial'
         # ---------------------------------------------------
         # --------------------- Pause -----------------------
         # ---------------------------------------------------
@@ -1041,15 +1058,16 @@ for thisRun in run:
             for thisComponent in PauseComponents:
                 if hasattr(thisComponent, "setAutoDraw"):
                     thisComponent.setAutoDraw(False)
-            QA_pre_block.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
-            QA_pre_block.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
+            QA_block.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
+            QA_block.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
 
-            QA_pre_block = data_writer(QA_pre_block, Pause, 'Pause', ['cont'])
+            QA_block = data_writer(QA_block, Pause, 'Pause', ['cont'])
             # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
+
             routineTimer.reset()
         thisExp.nextEntry()
         
-    # completed 2 repeats of 'QA_pre_block'
+    # completed 2 repeats of 'QA_block'
 
     if fade_out_flag:
 
@@ -1200,83 +1218,172 @@ if Cali_de_post_intro_flag:
     # the Routine "Cali_de_post_intro" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
 
+
+
+# ---------------------------------------------------------------------------
+# ------------------------ Start Calibration Trial --------------------------
+# ---------------------------------------------------------------------------
+# set up handler to look after randomisation of conditions etc
+
+cali_post_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
+    extraInfo=expInfo, originPath=-1,
+    trialList=[None],
+    seed=None, name='post_trial')
+thisExp.addLoop(cali_post_trial)  # add the loop to the experiment
+thisCali_post_trial = cali_post_trial.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisCali_post_trial.rgb)
+if thisCali_post_trial != None:
+    for paramName in thisCali_post_trial:
+        exec('{} = thisCali_post_trial[paramName]'.format(paramName))
+
+for thisCali_post_trial in cali_post_trial:
+    currentLoop = cali_post_trial
+    # abbreviate parameter names if possible (e.g. rgb = thisCali_post_trial.rgb)
+    if thisCali_post_trial != None:
+        for paramName in thisCali_post_trial:
+            exec('{} = thisCali_post_trial[paramName]'.format(paramName))
+    trigger_sending(12)
+
+    # ---------------------------------------------------
+    # --------------- Cali_de_post_rec -------------------
+    # ---------------------------------------------------
+    if Cali_de_post_rec_flag:
+        # ------Prepare to start Routine "Cali_de_post_rec"-------
+        # ------Prepare to start Routine "QA_rec"-------
+        routineTimer.add(30.000000)
+        # update component parameters for each repeat
+        if external_question_flag:
+            question_cnt += 1
+            Cali_de_post_rec['question_text'].setText(question_path[question_cnt])
+        else:
+            Cali_de_post_rec['question_text'].setText('Text ' + str(cali_post_trial.thisN))
+
+        # update component parameters for each repeat 
+
+
+        # keep track of which components have finished
+        win, Cali_de_post_rec, Cali_de_post_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Cali_de_post_rec)
+        trigger_mat = np.zeros((len(Cali_de_post_recComponents) - 1, 2))
+        comp_list = np.asarray([*Cali_de_post_rec['time'].keys()])
+        # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=1, input_event=0)
+        # -------Run Routine "Cali_de_post_rec"-------
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                Cali_de_post_rec["clock"], win, frameN)
+            
+            # *Cali_de_post_rec["text"]* updates
+            win, Cali_de_post_rec['text'], trigger_mat[0] = run_comp(
+                win, Cali_de_post_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['text'][0], duration=Cali_de_post_rec['time']['text'][1])
+            # *Cali_de_post_rec["beep_hint"]* updates
+            win, Cali_de_post_rec['beep_hint'], trigger_mat[1] = run_comp(
+                win, Cali_de_post_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['beep_hint'][0], duration=Cali_de_post_rec['time']['beep_hint'][1])
+
+            # *Cali_de_post_rec["question_text"]* updates
+            win, Cali_de_post_rec['question_text'], trigger_mat[2] = run_comp(
+                win, Cali_de_post_rec['question_text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['question_text'][0], duration=Cali_de_post_rec['time']['question_text'][1])
+
+            # *Cali_de_post_rec["beep_start"]* updates
+            win, Cali_de_post_rec['beep_start'], trigger_mat[3] = run_comp(
+                win, Cali_de_post_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['beep_start'][0], duration=Cali_de_post_rec['time']['beep_start'][1])
+            # *Cali_de_post_rec["recording"]* updates
+            win, Cali_de_post_rec['recording'], trigger_mat[4] = run_comp(
+                win, Cali_de_post_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['recording'][0], duration=Cali_de_post_rec['time']['recording'][1])
+            # *Cali_de_post_rec["beep_end"]* updates
+            win, Cali_de_post_rec['beep_end'], trigger_mat[5] = run_comp(
+                win, Cali_de_post_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['beep_end'][0], duration=Cali_de_post_rec['time']['beep_end'][1])
+
+            win, Cali_de_post_rec['break'], trigger_mat[6] = run_comp(
+                win, Cali_de_post_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Cali_de_post_rec['time']['break'][0], duration=Cali_de_post_rec['time']['break'][1])
+
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_post_recComponents)
+
+            if trigger_mat.sum(axis=0)[0]:
+                trigger_encoding_sending('Calibration', input_event=trigger_mat)
+            if break_flag:
+                break
+        # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=1, input_event=6)
+        # -------Ending Routine "Cali_de_post_rec"-------
+        for thisComponent in Cali_de_post_recComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+
+        thisExp = data_writer(thisExp, Cali_de_post_rec, 'Cali_de_post_rec', ['text', 'beep_hint', 'question_text', 'beep_start', 'beep_end', 'break'])
+
+        # cali_post_rec_file = folder_path + 'rec_cali_de_post_' + + ' .wav'
+        cali_post_rec_file = folder_path + 'rec_cali_de_post_' + 'trial_' + str(cali_post_trial.thisN).zfill(3)  + '.wav' 
+        write(cali_post_rec_file, fs, Cali_de_post_rec['recording'].file)  # Save as WAV file 
+        print('Recording is saved!' + cali_post_rec_file)
+        # Add the detected time into the PsychoPy data file:
+        thisExp.addData('filename', cali_post_rec_file)
+        
+        thisExp.nextEntry()
+        # the Routine "Cali_de_post_rec" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+    trigger_sending(13)
+
+
+
 # ---------------------------------------------------
-# --------------- Cali_de_post_rec ------------------
+# --------------------- Pause -----------------------
 # ---------------------------------------------------
-if Cali_de_post_rec_flag:
-    # ------Prepare to start Routine "Cali_de_post_rec"-------
+if Pause_flag:
+    trigger_sending(60)
+    # ------Prepare to start Routine "Pause"-------
     # update component parameters for each repeat
-    Cali_de_post_rec['key_resp'].keys = []
-    Cali_de_post_rec['key_resp'].rt = []
+    Pause['key_resp'].keys = []
+    Pause['key_resp'].rt = []
+    Pause['cont'].setText('Press [space] key to continue.')
     # keep track of which components have finished
-    win, Cali_de_post_rec, Cali_de_post_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Cali_de_post_rec)
-    trigger_mat = np.zeros((len(Cali_de_post_recComponents) - 1, 2))
-    comp_list = np.asarray([*Cali_de_post_rec['time'].keys()])
-    trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=1, input_event=0)
-    # -------Run Routine "Cali_de_post_rec"-------
+    win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
+    # -------Run Routine "Pause"-------
     while continueRoutine:
         # get current time
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-            Cali_de_post_rec["clock"], win, frameN)
+            Pause["clock"], win, frameN)
         # update/draw components on each frame
-        # *Cali_de_post_rec["text"]* updates
-        win, Cali_de_post_rec['text'], trigger_mat[0] = run_comp(
-            win, Cali_de_post_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['text'][0], duration=Cali_de_post_rec['time']['text'][1])
-        # *Cali_de_post_rec["beep_hint"]* updates
-        win, Cali_de_post_rec['beep_hint'], trigger_mat[1] = run_comp(
-            win, Cali_de_post_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['beep_hint'][0], duration=Cali_de_post_rec['time']['beep_hint'][1])
-        # *Cali_de_post_rec["beep_start"]* updates
-        win, Cali_de_post_rec['beep_start'], trigger_mat[2] = run_comp(
-            win, Cali_de_post_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['beep_start'][0], duration=Cali_de_post_rec['time']['beep_start'][1])
-        # *Cali_de_post_rec["recording"]* updates
-        win, Cali_de_post_rec['recording'], trigger_mat[3] = run_comp(
-            win, Cali_de_post_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['recording'][0], duration=Cali_de_post_rec['time']['recording'][1])
-        # *Cali_de_post_rec["beep_end"]* updates
-        win, Cali_de_post_rec['beep_end'], trigger_mat[4] = run_comp(
-            win, Cali_de_post_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['beep_end'][0], duration=Cali_de_post_rec['time']['beep_end'][1])
-        
-        # *Cali_de_post_rec['key_resp']* updates
+
+        # *Cali_de_pre_intro['key_resp']* updates
         waitOnFlip=False
-        win, Cali_de_post_rec['key_resp'], continueRoutine, endExpNow, trigger_mat[5] = run_comp(
-            win, Cali_de_post_rec['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['key_resp'][0], duration=Cali_de_post_rec['time']['key_resp'][1],
+        win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
+            win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
             waitOnFlip=waitOnFlip)   
-        # *Cali_de_post_rec['cont']* updates
-        win, Cali_de_post_rec['cont'], trigger_mat[6] = run_comp(
-            win, Cali_de_post_rec['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Cali_de_post_rec['time']['cont'][0], duration=Cali_de_post_rec['time']['cont'][1],
+        # *Cali_de_pre_intro['cont']* updates
+        win, Pause['cont'], trigger = run_comp(
+            win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
             repeat_per_frame=True, repeat_content=continue_str)
-        
+
         win, continueRoutine, break_flag = continue_justification(
-            win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_post_recComponents)
-        
-        if trigger_mat.sum(axis=0)[0]:
-            trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=1, input_event=trigger_mat)
+            win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
         if break_flag:
             break
-    trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=1, input_event=6)
-    # -------Ending Routine "Cali_de_post_rec"-------
-    for thisComponent in Cali_de_pre_recComponents:
+    # -------Ending Routine "Pause"-------
+    for thisComponent in PauseComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    thisExp.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
+    thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
 
-    thisExp = data_writer(thisExp, Cali_de_post_rec, 'Cali_de_post_rec', ['text', 'beep_hint', 'beep_start', 'beep_end', 'cont'])
-    cali_post_rec_file = folder_path + 'rec_cali_de_post.wav'
-    write(cali_post_rec_file, fs, Cali_de_post_rec['recording'].file)  # Save as WAV file 
-    # Add the detected time into the PsychoPy data file:
-    # thisExp.addData('vocal_RT', round(vpvk.event_onset, 3))
-    # thisExp.addData('bad_baseline', vpvk.bad_baseline)
-    thisExp.addData('filename', cali_post_rec_file)
-    thisExp.nextEntry()
-
-
-    # the Routine "Cali_de_post_rec" was not non-slip safe, so reset the non-slip timer
+    thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
+    trigger_sending(61)
+    # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
+
+
+
+
+
+
 # ---------------------------------------------------
 # ------------------- THE END -----------------------
 # ---------------------------------------------------
