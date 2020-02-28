@@ -622,6 +622,7 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     file_loc_list = extract_df['PATH']['file_root_syn'].values
     censor_start = extract_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
     censor_dur = extract_df['SENTENCE_INFO']['beeped_word_duration'].values
+    sen_duration = extract_df['SENTENCE_INFO']['sentence_duration'].values
 
     for ind, value in enumerate(randomize_indices):
         all_df.at[value,('EXP_INFO','S' + str(subject).zfill(2))] = session
@@ -629,6 +630,6 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     print(randomize_indices.values)
     all_df.to_pickle(dataframe_path)
 
-    return extract_df, file_loc_list, censor_start, censor_dur
+    return extract_df, file_loc_list, censor_start, censor_dur, sen_duration
 
 

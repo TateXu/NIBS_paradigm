@@ -107,7 +107,7 @@ if init_flag:
     folder_path, filename = path_init(expInfo)
 
     if external_question_flag:
-        extract_df, question_path, censor_question_start, censor_question_duration = extract_qa(subject=int(expInfo['participant']),
+        extract_df, question_path, censor_question_start, censor_question_duration, sen_duration= extract_qa(subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question)
         pdb.set_trace()
 
@@ -949,6 +949,7 @@ for thisRun in run:
                 if external_question_flag:
                     question_cnt += 1
                     QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
+                    QA_rec['time']['question'][1] = sen_duration[question_cnt] - 0.016
                     QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], ques_start + censor_question_duration[question_cnt]]
                 else:
                     QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=-1, hamming=True)
