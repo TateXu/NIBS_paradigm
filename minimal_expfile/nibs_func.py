@@ -113,8 +113,11 @@ def component_init(routine, comp, comp_index):
         for k, v in comp['parameters'].items():
             setattr(rec, k, v)
         return rec
-    elif comp['property'] == 'textstim':
-        pass
+    elif comp['property'] == 'trigger':
+        class trigger: pass
+        for k, v in comp['parameters'].items():
+            setattr(trigger, k, v)
+        return trigger
     elif comp['property'] == 'textstim':
         pass
     elif comp['property'] == 'textstim':
@@ -130,6 +133,14 @@ def routine_init(routine_name, comp_list):
         routine[comp['comp_name']] = component_init(routine_name, comp, comp_ind)
     return routine
 
+
+def trigger_generator(win, name):
+    dict_textstim = {
+        'property':'trigger',
+        'comp_name': name,
+        'parameters':{'status': None}
+        }
+    return dict_textstim
 
 def textstim_generator(win, name, content='', pos=[0.5, 0.0], font_size=0.06, font_type='Arial', bold=False):
     dict_textstim = {
@@ -230,12 +241,16 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
             win.timeOnFlip(obj, 'tStartRefresh')  # time at next scr refresh
             obj.setAutoDraw(True)
         elif obj_property == 'audio':
+            obj.status = STARTED
             obj.play(when=win)  # sync with win flip
         elif obj_property == 'key_resp' or obj_property == 'key_resp_stim' :
             obj.status = STARTED
             win.callOnFlip(obj.clearEvents, eventType='keyboard')  # clear events on next screen flip
         elif obj_property == 'auto_stim':
             obj.status = STARTED
+        elif obj_property == 'trigger':
+            obj.status = STARTED
+            trigger_sending(50)
         elif obj_property == 'recording':
             obj.status = STARTED
             try:
@@ -257,6 +272,9 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                     obj.setAutoDraw(False)
                 elif obj_property == 'audio':
                     obj.stop()
+                elif obj_property == 'trigger':
+                    trigger_sending(51)
+                    obj.status = FINISHED
                 elif obj_property == 'recording':
                     print(sd.wait())
                     obj.status = FINISHED
@@ -602,6 +620,8 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     randomize_indices = unique_sen_df.index[np.sort(numbers)]
     extract_df = unique_sen_df.loc[randomize_indices]
     file_loc_list = extract_df['PATH']['file_root_syn'].values
+    censor_start = extract_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
+    censor_dur = extract_df['SENTENCE_INFO']['beeped_word_duration'].values
 
     for ind, value in enumerate(randomize_indices):
         all_df.at[value,('EXP_INFO','S' + str(subject).zfill(2))] = session
@@ -609,6 +629,6 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     print(randomize_indices.values)
     all_df.to_pickle(dataframe_path)
 
-    return extract_df, file_loc_list
+    return extract_df, file_loc_list, censor_start, censor_dur
 
 

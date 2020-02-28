@@ -80,13 +80,13 @@ init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
 
 instruction_flag = 1
-Cali_de_pre_intro_flag = 1
-Cali_de_pre_rec_flag = 1
+Cali_de_pre_intro_flag = 0
+Cali_de_pre_rec_flag = 0
 
 fade_in_flag = 0
 fade_out_flag = 0
-RS_intro_flag = 1
-RS_rec_flag = 1
+RS_intro_flag = 0
+RS_rec_flag = 0
 QA_intro_flag = 0
 QA_rec_flag = 1
 Pause_flag = 1
@@ -107,7 +107,7 @@ if init_flag:
     folder_path, filename = path_init(expInfo)
 
     if external_question_flag:
-        extract_df, question_path = extract_qa(subject=int(expInfo['participant']),
+        extract_df, question_path, censor_question_start, censor_question_duration = extract_qa(subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question)
         pdb.set_trace()
 
@@ -220,11 +220,12 @@ if init_flag:
         audio_generator(name='beep_start', loc=audio_root+'q_a/C3A_C4A_tone_decrease_1s.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
         audio_generator(name='beep_end', loc=audio_root+'q_a/C4A_C3A_tone_decrease_1s.wav', secs=1),
-        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
+        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos),
+        trigger_generator(win=win, name='censor_word')
         ]
     QA_rec = routine_init('QA_rec', QA_rec_comp_list)
     QA_rec['time'] = {'text':[0, 25], 'beep_hint':[0, 0.6], 'question':[0.6, 14.3], 'beep_start':[15, 1],
-        'recording':[16, q_a_rec_sec], 'beep_end':[24, 1], 'break':[24, 5]}
+        'recording':[16, q_a_rec_sec], 'beep_end':[24, 1], 'break':[24, 5], 'censor_word':[0, 0]}
 
     # Initialize components for Routine "Pause"
     Pause_comp_list = [
@@ -263,7 +264,7 @@ if init_flag:
 
     Cali_de_post_rec = routine_init('Cali_de_post_rec', Cali_de_post_rec_comp_list)
     Cali_de_post_rec['time'] = {'text':[0, 30], 'beep_hint':[0, 0.6], 'question_text':[0.6, 14.4], 'beep_start':[18, 1],
-        'recording':[19, 8], 'beep_end':[27, 1], 'break':[28, 2]}
+        'recording':[19, 8], 'beep_end':[27, 1], 'break':[28.2, 2]}
 
 
     # Initialize components for Routine "the_end"
@@ -944,12 +945,16 @@ for thisRun in run:
                 # ------Prepare to start Routine "QA_rec"-------
                 routineTimer.add(30.000000)
                 # update component parameters for each repeat
+                ques_start = QA_rec['time']['question'][0]
                 if external_question_flag:
                     question_cnt += 1
                     QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
+                    QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], ques_start + censor_question_duration[question_cnt]]
                 else:
-                    QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=14.4, hamming=True)
-                
+                    QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=-1, hamming=True)
+                    QA_rec['time']['censor_word'] = [ques_start + 0.706, ques_start + 0.694]
+                    QA_rec['time']['question'][1] = 4
+
 
                 QA_rec['question'].setVolume(1, log=False)
 
@@ -993,6 +998,9 @@ for thisRun in run:
                     win, QA_rec['break'], trigger_mat[6] = run_comp(
                         win, QA_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
                         start_time=QA_rec['time']['break'][0], duration=QA_rec['time']['break'][1])
+                    win, QA_rec['censor_word'],temp_del =run_comp(
+                        win, QA_rec['censor_word'], 'trigger', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        start_time=QA_rec['time']['censor_word'][0], duration=QA_rec['time']['censor_word'][1])
 
                     win, continueRoutine, break_flag = continue_justification(
                         win, endExpNow, defaultKeyboard, continueRoutine, QA_recComponents)
