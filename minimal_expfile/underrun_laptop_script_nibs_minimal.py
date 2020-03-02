@@ -53,8 +53,8 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 20   # 10 mins
-n_cali_trial = 10
+n_trial = 1   # 10 mins
+n_cali_trial = 1
 
 n_question = n_run * n_block * n_trial
 
@@ -79,18 +79,18 @@ output_intensity = init_intensity
 init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
 
-instruction_flag = 0
-Cali_de_pre_intro_flag = 0
-Cali_de_pre_rec_flag = 0
+instruction_flag = 1
+Cali_de_pre_intro_flag = 1
+Cali_de_pre_rec_flag = 1
 
 fade_in_flag = 0
 fade_out_flag = 0
-RS_intro_flag = 0
-RS_rec_flag = 0
-QA_intro_flag = 0
+RS_intro_flag = 1
+RS_rec_flag = 1
+QA_intro_flag = 1
 QA_rec_flag = 1
 Pause_flag = 0
-Cali_de_post_intro_flag = 0
+Cali_de_post_intro_flag = 1
 Cali_de_post_rec_flag = 1
 end_flag = 1
 
@@ -148,7 +148,7 @@ if init_flag:
     Cali_de_pre_intro_comp_list = [
         textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
         textstim_generator(win=win, name='text', content=Cali_de_pre_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'calibration/cali_de_new.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'calibration/cali_de_new_44100.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -159,11 +159,11 @@ if init_flag:
     Cali_de_pre_rec_text_str = 'PLease read out following sentence.'
     Cali_de_pre_rec_comp_list = [
         textstim_generator(win=win, name='text', content=Cali_de_pre_rec_text_str, pos=title_pos),
-        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder.wav', secs=0.6),
+        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder_44100.wav', secs=0.6),
         textstim_generator(win=win, name='question_text', content=Cali_de_pre_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
+        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new_44100.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
-        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
+        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
         ]
 
@@ -177,7 +177,7 @@ if init_flag:
     RS_intro_comp_list = [
         textstim_generator(win=win, name='title', content='REST STATE BLOCK', pos=title_pos),
         textstim_generator(win=win, name='text', content=RS_intro_text_str, pos=text_pos),
-        audio_generator(name='audio_close', loc=audio_root+'resting_state/rs_close_new.wav', secs=-1),
+        audio_generator(name='audio_close', loc=audio_root+'resting_state/rs_close_new_44100.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -203,7 +203,7 @@ if init_flag:
     QA_intro_comp_list = [
         textstim_generator(win=win, name='title', content='Q&A BLOCK', pos=title_pos),
         textstim_generator(win=win, name='text', content=QA_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr_44100.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -214,16 +214,16 @@ if init_flag:
     QA_rec_text_str = 'Listening to the question and speaking out your answer!'
     QA_rec_comp_list = [
         textstim_generator(win=win, name='text', content=QA_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_hint', loc=audio_root+'q_a_40Hz/reminder.wav', secs=0.6),
-        audio_generator(name='question', loc=question_root+'article_0/sentence_0/sentence_0_syn.wav', secs=1),
-        audio_generator(name='beep_start', loc=audio_root+'q_a_40Hz/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
+        audio_generator(name='beep_hint', loc=audio_root+'q_a_40Hz/reminder_44100.wav', secs=0.6),
+        audio_generator(name='question', loc=question_root+'old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=1),
+        audio_generator(name='beep_start', loc=audio_root+'q_a_40Hz/C3A_C4A_tone_decrease_1s_new_44100.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
-        audio_generator(name='beep_end', loc=audio_root+'q_a_40Hz/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
+        audio_generator(name='beep_end', loc=audio_root+'q_a_40Hz/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=annot_pos),
         trigger_generator(win=win, name='censor_word')
         ]
     QA_rec = routine_init('QA_rec', QA_rec_comp_list)
-    QA_rec['time'] = {'text':[0, 25], 'beep_hint':[0, 3], 'question':[3, 14.3], 'beep_start':[15, 1],
+    QA_rec['time'] = {'text':[0, 25], 'beep_hint':[hint_start, hint_dur], 'question':[3, 14.3], 'beep_start':[15, 1],
         'recording':[16, q_a_rec_sec], 'beep_end':[24, 1], 'break':[24, 5], 'censor_word':[0, 0]}
 
     # Initialize components for Routine "Pause"
@@ -241,7 +241,7 @@ if init_flag:
     Cali_de_post_intro_comp_list = [
         textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
         textstim_generator(win=win, name='text', content=Cali_de_post_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'calibration/cali_de_new.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'calibration/cali_de_new_44100.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -253,16 +253,16 @@ if init_flag:
     Cali_de_post_rec_text_str = 'Please read out following sentence.'
     Cali_de_post_rec_comp_list = [
         textstim_generator(win=win, name='text', content=Cali_de_post_rec_text_str, pos=title_pos),
-        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder.wav', secs=0.6),
+        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder_44100.wav', secs=0.6),
         textstim_generator(win=win, name='question_text', content=Cali_de_pre_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
+        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new_44100.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
-        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
+        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
         ]
 
     Cali_de_post_rec = routine_init('Cali_de_post_rec', Cali_de_post_rec_comp_list)
-    Cali_de_post_rec['time'] = {'text':[0, 30], 'beep_hint':[0, 0.6], 'question_text':[0.6, 14.4], 'beep_start':[18, 1],
+    Cali_de_post_rec['time'] = {'text':[0, 30], 'beep_hint':[hint_start, hint_dur], 'question_text':[0.6, 14.4], 'beep_start':[18, 1],
         'recording':[19, 8], 'beep_end':[27, 1], 'break':[28.2, 2]}
 
 
@@ -360,7 +360,7 @@ if Cali_de_pre_intro_flag:
     trigger_mat = np.zeros((len(Cali_de_pre_introComponents) - 1, 2))
     comp_list = np.asarray([*Cali_de_pre_intro['time'].keys()])
 
-    Cali_de_pre_intro['audio'].setSound(audio_root+'calibration/cali_de_new.wav',secs=-1, hamming=True)
+    Cali_de_pre_intro['audio'].setSound(audio_root+'calibration/cali_de_new_44100.wav',secs=-1, hamming=True)
     # -------Run Routine "Cali_de_pre_intro"-------
     
     trigger_sending(10)  # Sending trigger 0 (Pre-Run Start)
@@ -694,7 +694,7 @@ for thisRun in run:
 
         if RS_intro_flag:
             # ------Prepare to start Routine "RS_intro"-------
-            RS_intro['audio_close'].setSound(audio_root+'resting_state/rs_' + RS_order[RS_loop] + '.wav', secs=-1, hamming=True)
+            RS_intro['audio_close'].setSound(audio_root+'resting_state/rs_' + RS_order[RS_loop] + '_44100.wav', secs=-1, hamming=True)
                 
             # update component parameters for each repeat
             RS_intro['key_resp'].keys = []
@@ -956,7 +956,7 @@ for thisRun in run:
                     QA_rec['time']['question'][1] = sen_duration[question_cnt] - 0.016
                     QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], ques_start + censor_question_duration[question_cnt]]
                 else:
-                    QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/article_0/sentence_0/sentence_0_syn.wav', secs=-1, hamming=True)
+                    QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=-1, hamming=True)
                     QA_rec['time']['censor_word'] = [ques_start + 0.706, ques_start + 0.694]
                     QA_rec['time']['question'][1] = 4
 
@@ -1007,6 +1007,7 @@ for thisRun in run:
                         win, QA_rec['censor_word'], 'trigger', frameN, t, tThisFlip, tThisFlipGlobal, 
                         start_time=QA_rec['time']['censor_word'][0], duration=QA_rec['time']['censor_word'][1])
 
+                    print('loop')
                     win, continueRoutine, break_flag = continue_justification(
                         win, endExpNow, defaultKeyboard, continueRoutine, QA_recComponents)
                     
