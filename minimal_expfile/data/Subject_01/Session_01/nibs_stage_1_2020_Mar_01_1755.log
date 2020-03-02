@@ -1,0 +1,134 @@
+4.8811 	EXP 	Created QA_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+5.1408 	EXP 	Created QA_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+5.1411 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+5.1413 	EXP 	New trial (rep=0, index=0): None
+5.1415 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+5.1416 	EXP 	New trial (rep=0, index=0): None
+5.2435 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+5.2444 	EXP 	New trial (rep=0, index=0): None
+5.3746 	EXP 	QA_rec_text: autoDraw = True
+29.3755 	EXP 	QA_rec_break: autoDraw = True
+30.3763 	EXP 	QA_rec_text: autoDraw = False
+34.4688 	EXP 	New trial (rep=1, index=0): None
+34.5929 	EXP 	QA_rec_break: autoDraw = False
+34.5929 	EXP 	QA_rec_text: autoDraw = False
+34.5929 	EXP 	QA_rec_break: autoDraw = False
+34.5929 	EXP 	QA_rec_text: autoDraw = True
+58.5938 	EXP 	QA_rec_break: autoDraw = True
+59.5944 	EXP 	QA_rec_text: autoDraw = False
+63.6879 	EXP 	New trial (rep=2, index=0): None
+63.8113 	EXP 	QA_rec_break: autoDraw = False
+63.8113 	EXP 	QA_rec_text: autoDraw = False
+63.8113 	EXP 	QA_rec_break: autoDraw = False
+63.8113 	EXP 	QA_rec_text: autoDraw = True
+87.8120 	EXP 	QA_rec_break: autoDraw = True
+88.8126 	EXP 	QA_rec_text: autoDraw = False
+92.9072 	EXP 	New trial (rep=3, index=0): None
+93.0290 	EXP 	QA_rec_break: autoDraw = False
+93.0290 	EXP 	QA_rec_text: autoDraw = False
+93.0290 	EXP 	QA_rec_break: autoDraw = False
+93.0290 	EXP 	QA_rec_text: autoDraw = True
+117.0311 	EXP 	QA_rec_break: autoDraw = True
+118.0307 	EXP 	QA_rec_text: autoDraw = False
+119.4119 	DATA 	Mouse: Left button down, pos=(761,375)
+119.5126 	DATA 	Mouse:  Left button up, pos=(761,375)
+122.1310 	EXP 	New trial (rep=4, index=0): None
+122.2657 	EXP 	QA_rec_break: autoDraw = False
+122.2657 	EXP 	QA_rec_text: autoDraw = False
+122.2657 	EXP 	QA_rec_break: autoDraw = False
+122.2657 	EXP 	QA_rec_text: autoDraw = True
+146.2657 	EXP 	QA_rec_break: autoDraw = True
+147.2983 	EXP 	QA_rec_text: autoDraw = False
+151.3664 	EXP 	New trial (rep=5, index=0): None
+151.5030 	EXP 	QA_rec_break: autoDraw = False
+151.5030 	EXP 	QA_rec_text: autoDraw = False
+151.5030 	EXP 	QA_rec_break: autoDraw = False
+151.5030 	EXP 	QA_rec_text: autoDraw = True
+175.5006 	EXP 	QA_rec_break: autoDraw = True
+176.5339 	EXP 	QA_rec_text: autoDraw = False
+180.6192 	EXP 	New trial (rep=6, index=0): None
+180.7674 	EXP 	QA_rec_break: autoDraw = False
+180.7674 	EXP 	QA_rec_text: autoDraw = False
+180.7674 	EXP 	QA_rec_break: autoDraw = False
+180.7674 	EXP 	QA_rec_text: autoDraw = True
+204.7687 	EXP 	QA_rec_break: autoDraw = True
+205.8024 	EXP 	QA_rec_text: autoDraw = False
+209.8869 	EXP 	New trial (rep=7, index=0): None
+210.0358 	EXP 	QA_rec_break: autoDraw = False
+210.0358 	EXP 	QA_rec_text: autoDraw = False
+210.0358 	EXP 	QA_rec_break: autoDraw = False
+210.0358 	EXP 	QA_rec_text: autoDraw = True
+234.0038 	EXP 	QA_rec_break: autoDraw = True
+235.0691 	EXP 	QA_rec_text: autoDraw = False
+239.1389 	EXP 	New trial (rep=8, index=0): None
+239.2704 	EXP 	QA_rec_break: autoDraw = False
+239.2704 	EXP 	QA_rec_text: autoDraw = False
+239.2704 	EXP 	QA_rec_break: autoDraw = False
+239.2704 	EXP 	QA_rec_text: autoDraw = True
+263.2719 	EXP 	QA_rec_break: autoDraw = True
+264.3051 	EXP 	QA_rec_text: autoDraw = False
+268.3910 	EXP 	New trial (rep=9, index=0): None
+268.5384 	EXP 	QA_rec_break: autoDraw = False
+268.5384 	EXP 	QA_rec_text: autoDraw = False
+268.5384 	EXP 	QA_rec_break: autoDraw = False
+268.5384 	EXP 	QA_rec_text: autoDraw = True
+292.5066 	EXP 	QA_rec_break: autoDraw = True
+293.5721 	EXP 	QA_rec_text: autoDraw = False
+297.6253 	EXP 	New trial (rep=10, index=0): None
+297.7732 	EXP 	QA_rec_break: autoDraw = False
+297.7732 	EXP 	QA_rec_text: autoDraw = False
+297.7732 	EXP 	QA_rec_break: autoDraw = False
+297.7732 	EXP 	QA_rec_text: autoDraw = True
+321.7413 	EXP 	QA_rec_break: autoDraw = True
+322.8069 	EXP 	QA_rec_text: autoDraw = False
+326.8595 	EXP 	New trial (rep=11, index=0): None
+327.0081 	EXP 	QA_rec_break: autoDraw = False
+327.0081 	EXP 	QA_rec_text: autoDraw = False
+327.0081 	EXP 	QA_rec_break: autoDraw = False
+327.0081 	EXP 	QA_rec_text: autoDraw = True
+350.9762 	EXP 	QA_rec_break: autoDraw = True
+352.0418 	EXP 	QA_rec_text: autoDraw = False
+356.0950 	EXP 	New trial (rep=12, index=0): None
+356.2433 	EXP 	QA_rec_break: autoDraw = False
+356.2433 	EXP 	QA_rec_text: autoDraw = False
+356.2433 	EXP 	QA_rec_break: autoDraw = False
+356.2433 	EXP 	QA_rec_text: autoDraw = True
+380.2444 	EXP 	QA_rec_break: autoDraw = True
+381.2766 	EXP 	QA_rec_text: autoDraw = False
+385.3631 	EXP 	New trial (rep=13, index=0): None
+385.5111 	EXP 	QA_rec_break: autoDraw = False
+385.5111 	EXP 	QA_rec_text: autoDraw = False
+385.5111 	EXP 	QA_rec_break: autoDraw = False
+385.5111 	EXP 	QA_rec_text: autoDraw = True
+409.4793 	EXP 	QA_rec_break: autoDraw = True
+410.5448 	EXP 	QA_rec_text: autoDraw = False
+414.5989 	EXP 	New trial (rep=14, index=0): None
+414.7286 	EXP 	QA_rec_break: autoDraw = False
+414.7286 	EXP 	QA_rec_text: autoDraw = False
+414.7286 	EXP 	QA_rec_break: autoDraw = False
+414.7286 	EXP 	QA_rec_text: autoDraw = True
+438.7310 	EXP 	QA_rec_break: autoDraw = True
+439.7646 	EXP 	QA_rec_text: autoDraw = False
+443.8486 	EXP 	New trial (rep=15, index=0): None
+443.9975 	EXP 	QA_rec_break: autoDraw = False
+443.9975 	EXP 	QA_rec_text: autoDraw = False
+443.9975 	EXP 	QA_rec_break: autoDraw = False
+443.9975 	EXP 	QA_rec_text: autoDraw = True
+467.9992 	EXP 	QA_rec_break: autoDraw = True
+469.0316 	EXP 	QA_rec_text: autoDraw = False
+473.1198 	EXP 	New trial (rep=16, index=0): None
+473.2659 	EXP 	QA_rec_break: autoDraw = False
+473.2659 	EXP 	QA_rec_text: autoDraw = False
+473.2659 	EXP 	QA_rec_break: autoDraw = False
+473.2659 	EXP 	QA_rec_text: autoDraw = True
+497.2340 	EXP 	QA_rec_break: autoDraw = True
+498.2994 	EXP 	QA_rec_text: autoDraw = False
+502.3522 	EXP 	New trial (rep=17, index=0): None
+502.5006 	EXP 	QA_rec_break: autoDraw = False
+502.5006 	EXP 	QA_rec_text: autoDraw = False
+502.5006 	EXP 	QA_rec_break: autoDraw = False
+502.5006 	EXP 	QA_rec_text: autoDraw = True
+506.6172 	DATA 	Mouse: Left button down, pos=(399,257)
+506.7185 	DATA 	Mouse:  Left button up, pos=(399,257)
+507.3173 	DATA 	Keypress: escape
+507.3577 	EXP 	window1: mouseVisible = True

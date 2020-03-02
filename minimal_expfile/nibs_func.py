@@ -3,7 +3,7 @@ from __future__ import absolute_import, division
 
 from psychopy import locale_setup
 from psychopy import prefs
-prefs.hardware['audioLib'] = ['PTB']
+prefs.hardware['audioLib'] = ['sounddevice']
 from psychopy import sound, gui, visual, core, data, event, logging, clock
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
@@ -255,7 +255,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
             obj.status = STARTED
             try:
                 print('Recording start!')
-                obj.file = sd.rec(int(duration * obj.fs), samplerate=obj.fs, channels=obj.channels)
+                obj.file = sd.rec(int(duration * obj.fs), samplerate=obj.fs, channels=obj.channels, blocking=True)
             except:
                 obj.file = None
                 print('No predefined duration of recording!')

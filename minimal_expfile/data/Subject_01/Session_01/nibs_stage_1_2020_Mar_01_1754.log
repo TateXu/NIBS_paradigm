@@ -1,0 +1,22 @@
+5.9404 	EXP 	Created QA_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+6.2176 	EXP 	Created QA_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.3]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+6.2193 	EXP 	Created sequence: random, trialTypes=1, nReps=4, seed=None
+6.2201 	EXP 	New trial (rep=0, index=0): None
+6.2212 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+6.2218 	EXP 	New trial (rep=0, index=0): None
+6.3236 	EXP 	Created sequence: random, trialTypes=1, nReps=20, seed=None
+6.3245 	EXP 	New trial (rep=0, index=0): None
+6.4475 	EXP 	QA_rec_text: autoDraw = True
+30.4498 	EXP 	QA_rec_break: autoDraw = True
+31.4498 	EXP 	QA_rec_text: autoDraw = False
+35.5438 	EXP 	New trial (rep=1, index=0): None
+35.6666 	EXP 	QA_rec_break: autoDraw = False
+35.6666 	EXP 	QA_rec_text: autoDraw = False
+35.6666 	EXP 	QA_rec_break: autoDraw = False
+35.6666 	EXP 	QA_rec_text: autoDraw = True
+59.6672 	EXP 	QA_rec_break: autoDraw = True
+60.6680 	EXP 	QA_rec_text: autoDraw = False
+61.9417 	DATA 	Mouse: Left button down, pos=(780,259)
+62.0085 	DATA 	Mouse:  Left button up, pos=(780,259)
+62.2253 	DATA 	Keypress: escape
+62.3028 	EXP 	window1: mouseVisible = True
