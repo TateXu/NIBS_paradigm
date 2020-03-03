@@ -616,8 +616,7 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
 
 
     from numpy.random import default_rng
-    import pdb
-    pdb.set_trace()
+
     numbers = default_rng().choice(len(unique_sen_df.index), size=n_question, replace=False)
     randomize_indices = unique_sen_df.index[np.sort(numbers)]
     extract_df = unique_sen_df.loc[randomize_indices]
@@ -625,14 +624,15 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     censor_start = extract_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
     censor_dur = extract_df['SENTENCE_INFO']['beeped_word_duration'].values
     sen_duration = extract_df['SENTENCE_INFO']['sentence_duration'].values
+    sen_text = extract_df['SENTENCE_INFO']['sen_content'].values
 
     if overwrite:
         for ind, value in enumerate(randomize_indices):
             all_df.at[value,('EXP_INFO','S' + str(subject).zfill(2))] = session
-    print('Following indices are going to be set as question:')
-    print(randomize_indices.values)
-    all_df.to_pickle(dataframe_path)
+            print('Following indices are going to be set as question:')
+            print(randomize_indices.values)
+            all_df.to_pickle(dataframe_path)
 
-    return extract_df, file_loc_list, censor_start, censor_dur, sen_duration
+    return extract_df, file_loc_list, censor_start, censor_dur, sen_duration, sen_text
 
 

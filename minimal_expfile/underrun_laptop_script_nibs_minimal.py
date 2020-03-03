@@ -60,10 +60,10 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 5  # 10 mins
+n_trial = 1  # 10 mins
 n_cali_trial = 1
 
-n_question = n_run * n_block * n_trial
+n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
 fs = 44100  # Sample rate of audio
 cali_pre_rec_sec = 8  # Duration of recording
@@ -86,14 +86,14 @@ output_intensity = init_intensity
 init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
 Instruction_flag = 1
-Cali_de_pre_intro_flag = 0
-Cali_de_pre_rec_flag = 0
+Cali_de_pre_intro_flag = 1
+Cali_de_pre_rec_flag = 1
 
 fade_in_flag = 0
 fade_out_flag = 0
 RS_intro_flag = 0
 RS_rec_flag = 0
-QA_intro_flag = 0
+QA_intro_flag = 1
 QA_rec_flag = 1
 Pause_flag = 0
 Cali_de_post_intro_flag = 1
@@ -102,14 +102,14 @@ end_flag = 1
 
 break_cali_pre_trial = None
 break_cali_post_trial = None
-break_run = 2
+break_run = None
 break_rs_block = None
-break_qa_block = 1
-break_qa_trial = 4
+break_qa_block = None
+break_qa_trial = None
 
-external_question_flag = 0
-question_cnt = 0
-word_type = 'NN'
+external_question_flag = 1
+question_cnt = -1
+word_type = 'NOUN'
 
 
 hint_start, hint_dur = 0, 2
@@ -161,7 +161,8 @@ if init_flag:
     folder_path, filename = path_init(expInfo)
 
     if external_question_flag:
-        extract_df, question_path, censor_question_start, censor_question_duration, sen_duration= extract_qa(subject=int(expInfo['participant']),
+        extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
+            subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question)
         pdb.set_trace()
 
@@ -562,7 +563,7 @@ for thisCali_pre_trial in cali_pre_trial:
         # update component parameters for each repeat
         if external_question_flag:
             question_cnt += 1
-            Cali_de_pre_rec['question_text'].setText(question_path[question_cnt])
+            Cali_de_pre_rec['question_text'].setText(sen_text[question_cnt])
         else:
             Cali_de_pre_rec['question_text'].setText('Text ' + str(cali_pre_trial.thisN))
 
