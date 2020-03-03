@@ -32,6 +32,13 @@ from scipy.io.wavfile import write
 from nibs_func import *
 from jxu.hardware.signal import SignalGenerator as SG
 import time
+import logging as jxu_logging
+
+jxu_logging.basicConfig(level=logging.INFO,
+                        format='%(asctime)s  %(message)s',
+                        datefmt='%a, %d %b %Y %H:%M:%S +0000',
+                        filename='/home/jxu/File/Experiment/NIBS/Sync/NIBS_paradigm/minimal_expfile/main.log',
+                        filemode='w')
 
 # -----------------------------------------------------------------------------------
 # ------------------------- Setting: Parameter --------------------------------------
@@ -53,7 +60,7 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 1   # 10 mins
+n_trial = 5  # 10 mins
 n_cali_trial = 1
 
 n_question = n_run * n_block * n_trial
@@ -78,8 +85,7 @@ output_intensity = init_intensity
 ######## Component switch ########
 init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
-
-instruction_flag = 0
+Instruction_flag = 1
 Cali_de_pre_intro_flag = 0
 Cali_de_pre_rec_flag = 0
 
@@ -93,6 +99,13 @@ Pause_flag = 0
 Cali_de_post_intro_flag = 1
 Cali_de_post_rec_flag = 1
 end_flag = 1
+
+break_cali_pre_trial = None
+break_cali_post_trial = None
+break_run = 2
+break_rs_block = None
+break_qa_block = 1
+break_qa_trial = 4
 
 external_question_flag = 0
 question_cnt = 0
@@ -124,8 +137,9 @@ fade_in_auto_incre = 10
 rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 14, None
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
-rs_rec_text_start, rs_rec_text_dur, rs_rec_cont_dur = 0, 10, None
-rs_rec_cont_start = rs_rec_text_start + rs_rec_text_dur + comp_gap
+rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None
+rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap 
+rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 
 QA_intro_title_start, QA_intro_title_dur, QA_intro_audio_dur, QA_intro_cont_dur = 0, 32, 32, None
 QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
@@ -161,7 +175,7 @@ if init_flag:
         'brain stimulation\n\nTask introductrion: \n\n'
     instruction_comp_list = [
         textstim_generator(win=win, name='text', content=instruction_text_str, pos=text_pos),
-        key_resp_generator(name='key_resp'),
+        key_resp_generator(name='key_resp'), 
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
     instruction = routine_init('instruction', instruction_comp_list)
@@ -199,7 +213,7 @@ if init_flag:
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
         audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
-        ]
+        ] 
 
     Cali_de_pre_rec = routine_init('Cali_de_pre_rec', Cali_de_pre_rec_comp_list)
     Cali_de_pre_rec['time'] = {'text':[0, cali_text_dur],
@@ -247,11 +261,13 @@ if init_flag:
     RS_rec_text_str = 'Please keep relaxed and open your eyes.\nNote: Blinking is allowed.'
     RS_rec_comp_list = [
         textstim_generator(win=win, name='text', content=RS_rec_text_str, pos=text_pos),
+        audio_generator(name='beep_end', loc=audio_root+'resting_state/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
     RS_rec = routine_init('RS_rec', RS_rec_comp_list)
     RS_rec['time'] = {'text':[rs_rec_text_start, rs_rec_text_dur],
+                      'beep_end': [rs_rec_beep_e_start, rs_rec_beep_e_dur], 
                       'key_resp':[rs_rec_cont_start, rs_rec_cont_dur],
                       'cont':[rs_rec_cont_start, rs_rec_cont_dur]}
 
@@ -369,11 +385,15 @@ thisExp = data.ExperimentHandler(name=expInfo['expName'], version='',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 
-
+def breakpoint_logger(comp, value, run, block, trial):
+    jxu_logging.info('%s %d %s %s %s' %(comp, value, run, block, trial) )
 # ---------------------------------------------------
 # ----------------- instruction ---------------------
 # ---------------------------------------------------
-if instruction_flag:
+if Instruction_flag:
+    print('Log: instruction start')
+
+    breakpoint_logger(comp='Instruction', value=1, run=None, block=None, trial=None)
     # ------Prepare to start Routine "instruction"-------
     # update component parameters for each repeat
     instruction['key_resp'].keys = []
@@ -421,15 +441,20 @@ if instruction_flag:
             thisComponent.setAutoDraw(False)
 
     thisExp = data_writer(thisExp, instruction, 'instruction', ['text', 'cont'])
+    print('Log: instruction finish')
+    breakpoint_logger(comp='Instruction', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
 
 
 
 trigger_sending(0)  # Sending trigger 0 (Pre-Run Intro Start)
+time.sleep(0.003)
 # ---------------------------------------------------
 # -------------- Cali_de_pre_intro ------------------
 # ---------------------------------------------------
 if Cali_de_pre_intro_flag:
+    print('Log: cali_pre_intro start')
+    breakpoint_logger(comp='Cali_de_pre_intro', value=1, run=None, block=None, trial=None)
     # ------Prepare to start Routine "Cali_de_pre_intro"-------
     # update component parameters for each repeat
     Cali_de_pre_intro['key_resp'].keys = []
@@ -490,6 +515,8 @@ if Cali_de_pre_intro_flag:
     thisExp = data_writer(thisExp, Cali_de_pre_intro, 'Cali_de_pre_intro', ['title', 'text', 'audio', 'cont'])
     trigger_sending(11)  # Sending trigger 0 (Pre-Run Intro End)
     # the Routine "Cali_de_pre_intro" was not non-slip safe, so reset the non-slip timer
+    print('Log: cali_pre_intro finish')
+    breakpoint_logger(comp='Cali_de_pre_intro', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
 
 
@@ -511,17 +538,24 @@ if thisCali_pre_trial != None:
         exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
 
 for thisCali_pre_trial in cali_pre_trial:
+
+    if break_cali_pre_trial != None and cali_pre_trial.thisN < break_cali_pre_trial:
+        continue
+    break_cali_pre_trial = None   # clear the breakpoint
+
     currentLoop = cali_pre_trial
     # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
     if thisCali_pre_trial != None:
         for paramName in thisCali_pre_trial:
             exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
     trigger_sending(12)
-
+    time.sleep(0.003)
     # ---------------------------------------------------
     # --------------- Cali_de_pre_rec -------------------
     # ---------------------------------------------------
     if Cali_de_pre_rec_flag:
+        print('Log: cali_pre_rec start: Trial ' + str(cali_pre_trial.thisN))
+        breakpoint_logger(comp='Cali_de_pre_rec', value=1, run=None, block=None, trial=cali_pre_trial.thisN)
         # ------Prepare to start Routine "Cali_de_pre_rec"-------
         # ------Prepare to start Routine "QA_rec"-------
         routineTimer.add(30.000000)
@@ -601,9 +635,13 @@ for thisCali_pre_trial in cali_pre_trial:
         thisExp.addData('filename', cali_pre_rec_file)
         
         thisExp.nextEntry()
+        print('Log: cali_pre_rec finish: Trial' + str(cali_pre_trial.thisN))
+        breakpoint_logger(comp='Cali_de_pre_rec', value=0, run=None, block=None, trial=cali_pre_trial.thisN)
         # the Routine "Cali_de_pre_rec" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
+    time.sleep(0.003)
     trigger_sending(13)
+    time.sleep(0.003)
 
 
 
@@ -656,6 +694,7 @@ if Pause_flag:
 
 
 trigger_sending(1)  # Sending trigger 1 (Pre-Run End)
+time.sleep(0.003)
 # -----------------------------------------------------------------------------------
 # ------------------------------ Start Run ------------------------------------------
 # -----------------------------------------------------------------------------------
@@ -674,7 +713,14 @@ if thisRun != None:
         exec('{} = thisRun[paramName]'.format(paramName))
 
 for thisRun in run:
+
+    if break_run != None and run.thisN < break_run:
+        continue
+    break_run = None   # clear the breakpoint
+
+
     trigger_sending(4)   # Sending trigger 4 (Run Start)
+    time.sleep(0.003)
     currentLoop = run
 
     # abbreviate parameter names if possible (e.g. rgb = thisRun.rgb)
@@ -686,8 +732,11 @@ for thisRun in run:
     # --------------------- fade in ---------------------
     # ---------------------------------------------------
     if fade_in_flag:
+        breakpoint_logger(comp='fade_in', value=1, run=run.thisN, block=None, trial=None)
+        print('Log: fade in start: Run ' + str(run.thisN))
         if stim_freq == 0:
             trigger_sending(22)
+            time.sleep(0.003)
         else:
             if run.thisN == stim_run[0]:
                 trigger_sending(20)
@@ -755,23 +804,32 @@ for thisRun in run:
 
                 thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
                 trigger_sending(25)
-            
+                time.sleep(0.003)
+        print('Log: fade in end: Run ' + str(run.thisN))
+        breakpoint_logger(comp='fade_in', value=0, run=run.thisN, block=None, trial=None)
         routineTimer.reset()
-        time.sleep(0.1)
         trigger_sending(28)
+        time.sleep(0.003)
 
     # ---------------------------------------------------
     # ---------------- Resting state --------------------
     # ---------------------------------------------------
-    time.sleep(0.1)
     trigger_sending(6)
-    for RS_loop in range(2):   
+    time.sleep(0.003)
+    for RS_loop in range(2):
+
+        if break_rs_block != None and RS_loop < break_rs_block:
+            continue
+        break_rs_block = None   # clear the breakpoint
+
         RS_order = ['open', 'close']
         # ---------------------------------------------------
         # ------------------- RS_intro ----------------------
         # ---------------------------------------------------
 
         if RS_intro_flag:
+            print('Log: RS intro start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_intro', value=1, run=run.thisN, block=RS_loop, trial=None)
             # ------Prepare to start Routine "RS_intro"-------
             RS_intro['audio'].setSound(audio_root+'resting_state/rs_' + RS_order[RS_loop] + '_new_44100.wav', secs=-1, hamming=True)
                 
@@ -830,12 +888,16 @@ for thisRun in run:
             run = data_writer(run, RS_intro, 'RS_intro', ['title', 'text', 'audio', 'cont'])
             trigger_sending(31)   # Sending trigger 30 (Resting State Intro End)
             # the Routine "RS_intro" was not non-slip safe, so reset the non-slip timer
+            print('Log: RS intro finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_intro', value=0, run=run.thisN, block=RS_loop, trial=None)
             routineTimer.reset()
 
         # ---------------------------------------------------
         # --------------------- RS_rec ----------------------
         # ---------------------------------------------------
         if RS_rec_flag:
+            print('Log: RS rec start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_rec', value=1, run=run.thisN, block=RS_loop, trial=None)
             if RS_order[RS_loop] == 'open':
                 trigger_sending(32)
                 RS_rec_text_str = 'Please keep relaxed and open your eyes.\nNote: Blinking is allowed.'
@@ -874,6 +936,10 @@ for thisRun in run:
                     win, RS_rec['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
                     start_time=RS_rec['time']['cont'][0], duration=RS_rec['time']['cont'][1],
                     repeat_per_frame=True, repeat_content=continue_str)
+                # *QA_rec["beep_end"]* updates
+                win, RS_rec['beep_end'], trigger_mat[3] = run_comp(
+                    win, RS_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_rec['time']['beep_end'][0], duration=RS_rec['time']['beep_end'][1])
 
                 win, continueRoutine, break_flag = continue_justification(
                     win, endExpNow, defaultKeyboard, continueRoutine, RS_recComponents)
@@ -893,15 +959,17 @@ for thisRun in run:
             elif RS_order[RS_loop] == 'close':
                 trigger_sending(35) 
             # the Routine "RS_rec" was not non-slip safe, so reset the non-slip timer
+            print('Log: RS rec finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_rec', value=0, run=run.thisN, block=RS_loop, trial=None)
             routineTimer.reset()
 
-    time.sleep(0.1)
+    time.sleep(0.003)
     trigger_sending(7)
 
     # ---------------------------------------------------
     # ------------------- QA_intro ----------------------
     # ---------------------------------------------------
-    time.sleep(0.1)
+    time.sleep(0.003)
     trigger_sending(40) 
     if QA_intro_flag:
         # ------Prepare to start Routine "QA_intro"-------
@@ -916,7 +984,8 @@ for thisRun in run:
         win, QA_intro, QA_introComponents, t, frameN, continueRoutine = pre_run_comp(win, QA_intro)
         trigger_mat = np.zeros((len(QA_introComponents) - 1, 2))
         comp_list = np.asarray([*QA_intro['time'].keys()])
-
+        print('Log: QA intro start: Run ' + str(run.thisN))
+        breakpoint_logger(comp='QA_intro', value=1, run=run.thisN, block=None, trial=None)
         # -------Run Routine "QA_intro"-------
         while continueRoutine:
             # get current time
@@ -963,8 +1032,10 @@ for thisRun in run:
                 thisComponent.setAutoDraw(False)
         run = data_writer(run, QA_intro, 'QA_intro', ['title', 'text', 'audio', 'cont'])
         # the Routine "QA_intro" was not non-slip safe, so reset the non-slip timer
+        print('Log: QA intro finish: Run ' + str(run.thisN))
+        breakpoint_logger(comp='QA_intro', value=0, run=run.thisN, block=None, trial=None)
         routineTimer.reset()
-    time.sleep(0.1)
+    time.sleep(0.003)
     trigger_sending(41) 
     # -------------------------------------------------------------------------------
     # ------------------------------ Start Block ------------------------------------
@@ -987,7 +1058,13 @@ for thisRun in run:
             exec('{} = thisQA_block[paramName]'.format(paramName))
     
     for thisQA_block in QA_block:
-        time.sleep(0.1)
+
+        if break_qa_block != None and QA_block.thisN < break_qa_block:
+            continue
+        break_qa_block = None   # clear the breakpoint
+
+
+        time.sleep(0.003)
         trigger_sending(6)
         currentLoop = QA_block
         # abbreviate parameter names if possible (e.g. rgb = thisQA_block.rgb)
@@ -1012,7 +1089,20 @@ for thisRun in run:
                 exec('{} = thisQA_trial[paramName]'.format(paramName))
         
         for thisQA_trial in QA_trial:
-            time.sleep(0.1)
+
+            if break_qa_trial != None and QA_trial.thisN < break_qa_trial:
+                continue
+            if break_qa_trial != None:
+                if RS_intro_flag == 0:
+                    RS_intro_flag = 1
+                if RS_rec_flag == 0:
+                    RS_rec_flag = 1
+                if QA_intro_flag == 0:
+                    QA_intro_flag = 1
+
+            break_qa_trial = None   # clear the breakpoint
+
+            time.sleep(0.003)
             trigger_sending(42)
             currentLoop = QA_trial
             # abbreviate parameter names if possible (e.g. rgb = thisQA_trial.rgb)
@@ -1025,6 +1115,8 @@ for thisRun in run:
             # ---------------------------------------------------
 
             if QA_rec_flag:
+                print('Log: QA rec start: Run ' + str(run.thisN) + ' Block ' + str(QA_block.thisN) + 'Trial ' + str(QA_trial.thisN))
+                breakpoint_logger(comp='QA_rec', value=1, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
                 # ------Prepare to start Routine "QA_rec"-------
                 routineTimer.add(30.000000)
                 # update component parameters for each repeat
@@ -1037,7 +1129,7 @@ for thisRun in run:
                 else:
                     QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=-1, hamming=True)
                     QA_rec['time']['censor_word'] = [ques_start + 0.706, 0.694]
-                    # QA_rec['time']['question'][1] = 4
+                    QA_rec['time']['question'][1] = 5.63 - 0.02
 
 
                 # QA_rec['question'].setVolume(1, log=False)
@@ -1053,7 +1145,7 @@ for thisRun in run:
                     frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
                         QA_rec["clock"], win, frameN)
                     # update/draw components on each frame
-                    print(routineTimer.getTime())
+
                     # *QA_rec["text"]* updates
                     win, QA_rec['text'], trigger_mat[0] = run_comp(
                         win, QA_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
@@ -1103,13 +1195,16 @@ for thisRun in run:
                 q_a_rec_file = folder_path + 'rec_cali_de_pre.wav'
                 q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_block.thisN).zfill(3) + '_trial_' + str(QA_trial.thisN).zfill(3)  + '.wav' 
                 write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file 
+                print('Recording is saved!' + q_a_rec_file)
                 thisExp.addData('filename', q_a_rec_file)
                 thisExp.nextEntry()
+                print('Log: QA rec finish: Run ' + str(run.thisN) + ' Block ' + str(QA_block.thisN) + 'Trial ' + str(QA_trial.thisN))
+                breakpoint_logger(comp='QA_rec', value=0, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
 
-            time.sleep(0.1)
+            time.sleep(0.003)
             trigger_sending(43)
         
-        time.sleep(0.1)
+        time.sleep(0.003)
         trigger_sending(7)
         # completed 3 repeats of 'QA_trial'
         # ---------------------------------------------------
@@ -1162,9 +1257,9 @@ for thisRun in run:
     # completed 2 repeats of 'QA_block'
 
     if fade_out_flag:
-
+        print('Log: fade out start: Run ' + str(run.thisN))
         trigger_sending(29)
-        time.sleep(0.1)
+        time.sleep(0.003)
         if stim_freq == 0:
             trigger_sending(23)
         else:
@@ -1224,6 +1319,7 @@ for thisRun in run:
                     # print('here input' + str(input_intensity))
 
                 trigger_sending(27)
+                time.sleep(0.003)
                 # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=2)
                 # -------Ending Routine "fade_in"-------
                 for thisComponent in fade_inComponents:
@@ -1239,20 +1335,25 @@ for thisRun in run:
                     fg.off()
             
                 trigger_sending(21)
+                time.sleep(0.003)
             routineTimer.reset()
+        print('Log: fade out finish: Run ' + str(run.thisN))
 
-    time.sleep(0.1)
     trigger_sending(5)   # Sending trigger 4 (Run End)
+    time.sleep(0.003)
     thisExp.nextEntry()
     
 # completed 3 repeats of 'run'
 
 
 trigger_sending(2)  # Sending trigger 0 (Post-Run Start)
+time.sleep(0.003)
 # ---------------------------------------------------
 # -------------- Cali_de_post_intro -----------------
 # ---------------------------------------------------
 if Cali_de_post_intro_flag:
+    print('Log: cali_post_intro start')
+    breakpoint_logger(comp='Cali_de_post_rec', value=1, run=None, block=None, trial=None)
     # ------Prepare to start Routine "Cali_de_post_intro"-------
     # update component parameters for each repeat
     Cali_de_post_intro['key_resp'].keys = []
@@ -1261,7 +1362,7 @@ if Cali_de_post_intro_flag:
     win, Cali_de_post_intro, Cali_de_post_introComponents, t, frameN, continueRoutine = pre_run_comp(win, Cali_de_post_intro)
     trigger_mat = np.zeros((len(Cali_de_post_introComponents) - 1, 2))
     comp_list = np.asarray([*Cali_de_post_intro['time'].keys()])
-    trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=0, input_event=0)
+    trigger_sending(10)  # Sending trigger 0 (Pre-Run Start)
     # -------Run Routine "Cali_de_post_intro"-------
     while continueRoutine:
         # get current time
@@ -1297,10 +1398,11 @@ if Cali_de_post_intro_flag:
             win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_post_introComponents)
         
         if trigger_mat.sum(axis=0)[0]:
-            trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=0, input_event=trigger_mat)
+            pass # trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=0, input_event=trigger_mat)
         if break_flag:
             break
-    trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=0, input_event=2)
+    trigger_sending(11)  # Sending trigger 0 (Pre-Run Start)
+    time.sleep(0.003)
     # -------Ending Routine "Cali_de_post_intro"-------
     for thisComponent in Cali_de_post_introComponents:
         if hasattr(thisComponent, "setAutoDraw"):
@@ -1308,6 +1410,8 @@ if Cali_de_post_intro_flag:
 
     thisExp = data_writer(thisExp, Cali_de_post_intro, 'Cali_de_post_intro', ['title', 'text', 'audio', 'cont'])
     # the Routine "Cali_de_post_intro" was not non-slip safe, so reset the non-slip timer
+    print('Log: cali_post_intro finish')
+    breakpoint_logger(comp='Cali_de_post_rec', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
 
 
@@ -1329,17 +1433,23 @@ if thisCali_post_trial != None:
         exec('{} = thisCali_post_trial[paramName]'.format(paramName))
 
 for thisCali_post_trial in cali_post_trial:
+
+    if break_cali_post_trial != None and cali_post_trial.thisN < break_cali_post_trial:
+        continue
+
     currentLoop = cali_post_trial
     # abbreviate parameter names if possible (e.g. rgb = thisCali_post_trial.rgb)
     if thisCali_post_trial != None:
         for paramName in thisCali_post_trial:
             exec('{} = thisCali_post_trial[paramName]'.format(paramName))
     trigger_sending(12)
-
+    time.sleep(0.003)
     # ---------------------------------------------------
     # --------------- Cali_de_post_rec -------------------
     # ---------------------------------------------------
     if Cali_de_post_rec_flag:
+        print('Log: cali_post_rec start: Trial ' + str(cali_post_trial.thisN))
+        breakpoint_logger(comp='Cali_de_post_rec', value=1, run=None, block=None, trial=cali_post_trial.thisN)
         # ------Prepare to start Routine "Cali_de_post_rec"-------
         # ------Prepare to start Routine "QA_rec"-------
         routineTimer.add(30.000000)
@@ -1419,9 +1529,11 @@ for thisCali_post_trial in cali_post_trial:
         
         thisExp.nextEntry()
         # the Routine "Cali_de_post_rec" was not non-slip safe, so reset the non-slip timer
+        print('Log: cali_post_rec finish: Trial ' + str(cali_post_trial.thisN))
+        breakpoint_logger(comp='Cali_de_post_rec', value=0, run=None, block=None, trial=cali_post_trial.thisN)
         routineTimer.reset()
     trigger_sending(13)
-
+    time.sleep(0.003)
 
 
 # ---------------------------------------------------
@@ -1480,7 +1592,7 @@ if Pause_flag:
 # ------------------- THE END -----------------------
 # ---------------------------------------------------
 trigger_sending(3)  # Sending trigger 0 (Post-Run Start)
-
+time.sleep(0.003)
 
 if end_flag:
     # ------Prepare to start Routine "the_end"-------

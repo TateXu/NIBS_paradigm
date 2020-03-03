@@ -255,8 +255,6 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
             obj.status = STARTED
             try:
                 print('Recording start!')
-                print(obj.fs)
-                print(duration)
                 try:
                     obj.file = sd.rec(int(duration * obj.fs), samplerate=obj.fs, channels=obj.channels)
                 except:
@@ -282,9 +280,6 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                     obj.status = FINISHED
                 elif obj_property == 'recording':
                     # print(sd.wait())
-                    print(obj.file)
-                    import pdb
-                    pdb.set_trace()
                     obj.status = FINISHED
             elif repeat_per_frame:
                 if obj_property == 'text':
@@ -418,7 +413,7 @@ def trigger_sending(data, port='/dev/parport0'):
     try:
         value = np.uint8(data)
     except:
-        return print('Silent trigger!')
+        return None  # print('Silent trigger!')
 
     try: 
         ext_port = parallel.Parallel(port=port)
@@ -591,7 +586,6 @@ def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
     else:
         for ind in np.where(input_event[:, 0] == 1)[0]:
             digit_event = input_event[ind, 1]
-            print(ind)
             if ind == trigger_table.shape[0] - 1:
                 data = trigger_table[ind, int(digit_event)]
             else:
@@ -603,8 +597,8 @@ def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
             trigger_sending(data, port=port)
 
 
-def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type='VB', n_question=3,
-    file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'):
+def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type='VERB', n_question=3,
+    file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/', overwrite=False):
     
     if input_all_df == None: 
         dataframe_path = file_root + 'all_beep_df.pkl'
@@ -632,8 +626,9 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     censor_dur = extract_df['SENTENCE_INFO']['beeped_word_duration'].values
     sen_duration = extract_df['SENTENCE_INFO']['sentence_duration'].values
 
-    for ind, value in enumerate(randomize_indices):
-        all_df.at[value,('EXP_INFO','S' + str(subject).zfill(2))] = session
+    if overwrite:
+        for ind, value in enumerate(randomize_indices):
+            all_df.at[value,('EXP_INFO','S' + str(subject).zfill(2))] = session
     print('Following indices are going to be set as question:')
     print(randomize_indices.values)
     all_df.to_pickle(dataframe_path)
