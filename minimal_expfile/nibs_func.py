@@ -257,7 +257,10 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                 print('Recording start!')
                 print(obj.fs)
                 print(duration)
-                obj.file = sd.rec(int(duration * obj.fs), samplerate=obj.fs, channels=obj.channels)
+                try:
+                    obj.file = sd.rec(int(duration * obj.fs), samplerate=obj.fs, channels=obj.channels)
+                except:
+                    print('here?')
             except:
                 obj.file = None
                 print('No predefined duration of recording!')
@@ -279,6 +282,9 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                     obj.status = FINISHED
                 elif obj_property == 'recording':
                     # print(sd.wait())
+                    print(obj.file)
+                    import pdb
+                    pdb.set_trace()
                     obj.status = FINISHED
             elif repeat_per_frame:
                 if obj_property == 'text':
