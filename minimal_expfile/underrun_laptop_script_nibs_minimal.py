@@ -274,11 +274,11 @@ if init_flag:
 
     # Initialize components for Routine "QA_intro"
     QA_intro_text_str = '1. You will hear one German sentence with a censored missing word in every trial and ' + \
-        'you are expected to fill this sentence.\n' + \
+        'you are expected to fill in this sentence.\n' + \
         '2. These sentences will be played after a flat tonal beeping.\n' + \
         '3. You should speak out your answer after hearing an increasing tonal beeping.\n' + \
         '4. A decreasing tonal beeping sound indicates this trial is finished.'
-    QA_intro_comp_list = [
+    QA_intro_comp_list = [ 
         textstim_generator(win=win, name='title', content='Q&A BLOCK', pos=title_pos),
         textstim_generator(win=win, name='text', content=QA_intro_text_str, pos=text_pos),
         audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr_44100.wav', secs=-1),
@@ -1455,9 +1455,10 @@ for thisCali_post_trial in cali_post_trial:
         # ------Prepare to start Routine "QA_rec"-------
         routineTimer.add(30.000000)
         # update component parameters for each repeat
+
         if external_question_flag:
             question_cnt += 1
-            Cali_de_post_rec['question_text'].setText(question_path[question_cnt])
+            Cali_de_post_rec['question_text'].setText(sen_text[question_cnt])
         else:
             Cali_de_post_rec['question_text'].setText('Text ' + str(cali_post_trial.thisN))
 
