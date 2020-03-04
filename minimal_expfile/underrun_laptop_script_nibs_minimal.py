@@ -49,9 +49,10 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 continue_str = 'Press [space] key to continue.'
 font_type = 'Airal'
-font_size = 0.06  # font size
+font_size = 0.11  # font size
 
 title_pos = [0.5, 0.3]
+qa_inrto_title_pos = [0.5, 0.5]
 text_pos = [0.5, 0]
 annot_pos = [0.5, -0.3]
 audio_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Soundeffect/'
@@ -89,10 +90,10 @@ Instruction_flag = 1
 Cali_de_pre_intro_flag = 1
 Cali_de_pre_rec_flag = 1
 
-fade_in_flag = 0
-fade_out_flag = 0
-RS_intro_flag = 0
-RS_rec_flag = 0
+fade_in_flag = 1
+fade_out_flag = 1
+RS_intro_flag = 1
+RS_rec_flag = 1
 QA_intro_flag = 1
 QA_rec_flag = 1
 Pause_flag = 0
@@ -164,7 +165,7 @@ if init_flag:
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
             subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question)
-        pdb.set_trace()
+        
 
 
     # save a log file for detail verbose info
@@ -279,7 +280,7 @@ if init_flag:
         '3. You should speak out your answer after hearing an increasing tonal beeping.\n' + \
         '4. A decreasing tonal beeping sound indicates this trial is finished.'
     QA_intro_comp_list = [ 
-        textstim_generator(win=win, name='title', content='Q&A BLOCK', pos=title_pos),
+        textstim_generator(win=win, name='title', content='Q&A BLOCK', pos=qa_inrto_title_pos),
         textstim_generator(win=win, name='text', content=QA_intro_text_str, pos=text_pos),
         audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr_44100.wav', secs=-1),
         key_resp_generator(name='key_resp'),

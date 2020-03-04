@@ -43,7 +43,7 @@ def exp_init():
 
     # Setup the Window
     win = visual.Window(
-        size=[960, 540], fullscr=False, screen=0, 
+        size=[1920, 1080], fullscr=False, screen=0, 
         winType='pyglet', allowGUI=True, allowStencil=False,
         monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
         blendMode='avg', useFBO=True)
