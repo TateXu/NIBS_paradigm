@@ -4,7 +4,7 @@
 # Code: NIBS_Paradigm
 # Author: Jiachen XU <jiachen.xu.94@gmail.com>
 #
-# Last Update: 2020-02-25
+# Last Update: 2020-03-05
 #============================================================================
  
 from __future__ import absolute_import, division
@@ -47,14 +47,18 @@ jxu_logging.basicConfig(level=logging.INFO,
 ######## Psychopy basic setting ########
 endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
-continue_str = 'Press [space] key to continue.'
+continue_str = '       Press [space] key to continue.'
 font_type = 'Airal'
 font_size = 0.11  # font size
+full_screen = True
+font_size = (0.06 if not full_screen else 0.15)
 
-title_pos = [0.5, 0.3]
+instruction_pos = [0.5, 0.1]
+instruction_annot_pos = [0.5, -0.4]
+title_pos = [0.5, 0.4]
 qa_inrto_title_pos = [0.5, 0.5]
 text_pos = [0.5, 0]
-annot_pos = [0.5, -0.3]
+annot_pos = [0.5, 0.0]
 audio_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Soundeffect/'
 question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 
@@ -86,14 +90,14 @@ output_intensity = init_intensity
 ######## Component switch ########
 init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
-Instruction_flag = 1
-Cali_de_pre_intro_flag = 1
-Cali_de_pre_rec_flag = 1
+Instruction_flag = 0
+Cali_de_pre_intro_flag = 0
+Cali_de_pre_rec_flag = 0
 
-fade_in_flag = 1
-fade_out_flag = 1
-RS_intro_flag = 1
-RS_rec_flag = 1
+fade_in_flag = 0
+fade_out_flag = 0
+RS_intro_flag = 0
+RS_rec_flag = 0
 QA_intro_flag = 1
 QA_rec_flag = 1
 Pause_flag = 0
@@ -112,17 +116,13 @@ external_question_flag = 1
 question_cnt = -1
 word_type = 'NOUN'
 
-
-hint_start, hint_dur = 0, 2
-hint_q_gap = 0.2
-q_dur = 14
-
+fade_in_out_show = False
+always_dislpay = True
 
 comp_gap = 0.4
-
 instruction_cont_start, instruction_cont_dur = 5, None
 
-cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 23, None
+cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
 cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 14, 1, 8, 1, 2
@@ -133,16 +133,20 @@ cali_a_beep_e_start = cali_rec_start + cali_rec_dur + comp_gap
 cali_break_start = cali_a_beep_e_start + cali_a_beep_e_dur + comp_gap
 cali_text_dur = cali_break_start + cali_break_dur
 
+
+if always_dislpay:
+    cali_q_dur = cali_text_dur - cali_q_start
+
 fade_in_auto_incre = 10
 
-rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 14, None
+rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 25, None
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
 rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None
 rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap 
 rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 
-QA_intro_title_start, QA_intro_title_dur, QA_intro_audio_dur, QA_intro_cont_dur = 0, 32, 32, None
+QA_intro_title_start, QA_intro_title_dur, QA_intro_audio_dur, QA_intro_cont_dur = 0, 40, 40, None
 QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 14, 1, 8, 1, 2
@@ -153,48 +157,66 @@ QA_a_beep_e_start = QA_rec_start + QA_rec_dur + comp_gap
 QA_break_start = QA_a_beep_e_start + QA_a_beep_e_dur + comp_gap
 QA_text_dur = QA_break_start + QA_break_dur
 
+flexible_qa_rec_start = True
+if flexible_qa_rec_start and external_question_flag:
+    QA_trial_dur = 30.00
+    QA_text_dur = QA_trial_dur
+    QA_break_start = QA_text_dur - QA_break_dur
+    QA_a_beep_e_start = QA_break_start - QA_a_beep_e_dur - comp_gap
+
+
+    
+    
 # -----------------------------------------------------------------------------------
 # ------------------------ Setting: Initialization ----------------------------------
 # -----------------------------------------------------------------------------------
 if init_flag:
 
-    expInfo, win, frameDur, defaultKeyboard  = exp_init()
+    expInfo, win, frameDur, defaultKeyboard  = exp_init(full_screen=full_screen)
     folder_path, filename = path_init(expInfo)
 
     if external_question_flag:
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
             subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question)
-        
 
 
     # save a log file for detail verbose info
     logFile = logging.LogFile(filename+'.log', level=logging.EXP)
     logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
 
-    instruction_text_str = 'Welcome to participate our experiment: causal ' + \
-        'prediction model for non-invasive ' + \
-        'brain stimulation\n\nTask introductrion: \n\n'
+    instruction_text_str = '       Welcome for participating the experiment:  \n\n' + \
+        '       Personalized non-invasive brain stimulation  \n' + \
+        '              for second language learning          \n' + \
+        '                                                    \n' + \
+        '       - Task 1: Read Out German Sentence           \n' + \
+        '       - Task 2: Keeping Relax                     \n' + \
+        '       - Task 3: Question & Answer                  \n'
+
     instruction_comp_list = [
-        textstim_generator(win=win, name='text', content=instruction_text_str, pos=text_pos),
+        textstim_generator(win=win, name='text', content=instruction_text_str, pos=instruction_pos),
+        audio_generator(name='audio', loc=audio_root+'Instruction.wav', secs=-1),
         key_resp_generator(name='key_resp'), 
-        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        textstim_generator(win=win, name='cont', content=continue_str, pos=instruction_annot_pos)
         ]
     instruction = routine_init('instruction', instruction_comp_list)
     instruction['time'] = {'text':[0, instruction_cont_dur],
+    					   'audio':[0, instruction_cont_dur],
                            'key_resp':[instruction_cont_start, instruction_cont_dur],
                            'cont':[instruction_cont_start, instruction_cont_dur]}
 
 
 
     # Initialize components for Routine "Cali_de_pre_intro
-    Cali_de_pre_intro_text_str = '1. Several sentences written in German on the screen,' + \
-        ' and please read out them loudly after hearing an increasing tonal beeping sound.\n ' + \
-        '2. A decreasing tonal beeping sound indicates the recording is finished.'
+    Cali_de_pre_intro_text_str = '  - Task: Read out the displayed German sentence   \n' + \
+        '  - Melodious beep sound: Trial start              \n' + \
+        '  - Beep sound with increasing pitch: Rec. start   \n' + \
+        '  - Beep sound with decreasing pitch: Rec. finish  \n'
+
     Cali_de_pre_intro_comp_list = [
         textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
         textstim_generator(win=win, name='text', content=Cali_de_pre_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'calibration/cali_de_new_44100.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'calibration/calibration.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -206,15 +228,15 @@ if init_flag:
                                  'cont':[cali_intro_cont_start, cali_intro_cont_dur]}
 
     # Initialize components for Routine "Cali_de_pre_rec"
-    Cali_de_pre_rec_text_str = 'PLease read out following sentence.'
+    Cali_de_pre_rec_text_str = ''  # Please read out following sentence.
     Cali_de_pre_rec_comp_list = [
         textstim_generator(win=win, name='text', content=Cali_de_pre_rec_text_str, pos=title_pos),
-        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder_44100.wav', secs=0.6),
+        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder.wav', secs=0.6),
         textstim_generator(win=win, name='question_text', content=Cali_de_pre_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new_44100.wav', secs=1),
+        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
-        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
-        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
+        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
+        textstim_generator(win=win, name='break', content='Short break', pos=instruction_annot_pos)
         ] 
 
     Cali_de_pre_rec = routine_init('Cali_de_pre_rec', Cali_de_pre_rec_comp_list)
@@ -230,7 +252,7 @@ if init_flag:
     fade_str_func = lambda x: 'The stimulation is starting now and we will gradually increase the intensity to '  + \
         str(x*2) + 'mA. \n\n Current current intensity is '
 
-    fade_in_str = fade_str_func(max_intensity)
+    fade_in_str = '' #  fade_str_func(max_intensity)
     fade_cont_str = 'Increase current intensity press i. \n' + \
         'Remain current intensity and start stimulation press space key. \n' + \
         'Decrease current intensity press d \n'
@@ -243,27 +265,26 @@ if init_flag:
     
 
     # Initialize components for Routine "RS_intro"
-    RS_intro_text_str = '1. Please remain seated and keep relaxed while opening your eyes.\n' + \
-        '2. A decreasing tonal beeping sound will be played to indicate this block is finished'
+
+    RS_intro_text_str = ' - Task: Keep seated and relaxed with either      \n' + \
+        '             opening or closing eyes                  \n' + \
+        ' - Beep sound with decreasing pitch: Block finish \n'
+
     RS_intro_comp_list = [
         textstim_generator(win=win, name='title', content='REST STATE BLOCK', pos=title_pos),
         textstim_generator(win=win, name='text', content=RS_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'resting_state/rs_close_new_44100.wav', secs=-1),
-        key_resp_generator(name='key_resp'),
-        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        audio_generator(name='audio', loc=audio_root+'resting_state/rs.wav', secs=-1)
         ]
     RS_intro = routine_init('RS_intro', RS_intro_comp_list)
     RS_intro['time'] = {'title':[rs_intro_text_start, rs_intro_text_dur],
                         'text':[rs_intro_text_start, rs_intro_text_dur],
-                        'audio':[rs_intro_text_start, rs_intro_text_dur],
-                        'key_resp':[rs_intro_cont_start, rs_intro_cont_dur],
-                        'cont':[rs_intro_cont_start, rs_intro_cont_dur]}
+                        'audio':[rs_intro_text_start, rs_intro_text_dur]}
 
     # Initialize components for Routine "RS_rec"
     RS_rec_text_str = 'Please keep relaxed and open your eyes.\nNote: Blinking is allowed.'
     RS_rec_comp_list = [
         textstim_generator(win=win, name='text', content=RS_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_end', loc=audio_root+'resting_state/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
+        audio_generator(name='beep_end', loc=audio_root+'resting_state/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -274,15 +295,15 @@ if init_flag:
                       'cont':[rs_rec_cont_start, rs_rec_cont_dur]}
 
     # Initialize components for Routine "QA_intro"
-    QA_intro_text_str = '1. You will hear one German sentence with a censored missing word in every trial and ' + \
-        'you are expected to fill in this sentence.\n' + \
-        '2. These sentences will be played after a flat tonal beeping.\n' + \
-        '3. You should speak out your answer after hearing an increasing tonal beeping.\n' + \
-        '4. A decreasing tonal beeping sound indicates this trial is finished.'
+    QA_intro_text_str = ' - Task: Listen to the question& Speak out answer \n' + \
+        ' - Melodious beep sound: Trial start              \n' + \
+        ' - 40 Hz beep (blank): censored word              \n' + \
+        ' - Beep sound with increasing pitch: Rec. start   \n' + \
+        ' - Beep sound with decreasing pitch: Rec. finish  \n'
     QA_intro_comp_list = [ 
         textstim_generator(win=win, name='title', content='Q&A BLOCK', pos=qa_inrto_title_pos),
         textstim_generator(win=win, name='text', content=QA_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr_44100.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -298,11 +319,11 @@ if init_flag:
     QA_rec_text_str = 'Listening to the question and speaking out your answer!'
     QA_rec_comp_list = [
         textstim_generator(win=win, name='text', content=QA_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_hint', loc=audio_root+'q_a_40Hz/reminder_44100.wav', secs=0.6),
+        audio_generator(name='beep_hint', loc=audio_root+'q_a_40Hz/reminder.wav', secs=0.6),
         audio_generator(name='question', loc=question_root+'old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=1),
-        audio_generator(name='beep_start', loc=audio_root+'q_a_40Hz/C3A_C4A_tone_decrease_1s_new_44100.wav', secs=1),
+        audio_generator(name='beep_start', loc=audio_root+'q_a_40Hz/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
-        audio_generator(name='beep_end', loc=audio_root+'q_a_40Hz/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
+        audio_generator(name='beep_end', loc=audio_root+'q_a_40Hz/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=annot_pos),
         trigger_generator(win=win, name='censor_word')
         ]
@@ -318,20 +339,23 @@ if init_flag:
 
     # Initialize components for Routine "Pause"
     Pause_comp_list = [
+        audio_generator(name='audio', loc=audio_root+'block_finish.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content='Pause: '+ continue_str, pos=annot_pos)
         ]
     Pause = routine_init('Pause', Pause_comp_list)
-    Pause['time'] = {'key_resp':[0, None], 'cont':[0, None]}
+    Pause['time'] = {'audio': [0, 12], 'key_resp':[12, None], 'cont':[12, None]}
 
     # Initialize components for Routine "Cali_de_post_intro"
-    Cali_de_post_intro_text_str = '1. Several sentences written in German on the screen,' + \
-        ' and please read out them loudly after hearing an increasing tonal beeping sound.\n ' + \
-        '2. A decreasing tonal beeping sound indicates the recording is finished.'
+    Cali_de_post_intro_text_str = '   - Task: Read out the displayed German sentence   \n' + \
+        '   - Melodious beep sound: Trial start              \n' + \
+        '   - Beep sound with increasing pitch: Rec. start   \n' + \
+        '   - Beep sound with decreasing pitch: Rec. finish  \n'
+
     Cali_de_post_intro_comp_list = [
         textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
         textstim_generator(win=win, name='text', content=Cali_de_post_intro_text_str, pos=text_pos),
-        audio_generator(name='audio', loc=audio_root+'calibration/cali_de_new_44100.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'calibration/calibration.wav', secs=-1),
         key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
         ]
@@ -346,12 +370,12 @@ if init_flag:
     Cali_de_post_rec_text_str = 'Please read out following sentence.'
     Cali_de_post_rec_comp_list = [
         textstim_generator(win=win, name='text', content=Cali_de_post_rec_text_str, pos=title_pos),
-        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder_44100.wav', secs=0.6),
+        audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder.wav', secs=0.6),
         textstim_generator(win=win, name='question_text', content=Cali_de_pre_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new_44100.wav', secs=1),
+        audio_generator(name='beep_start', loc=audio_root+'calibration/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
-        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new_44100.wav', secs=1),
-        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos)
+        audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
+        textstim_generator(win=win, name='break', content='Short break', pos=instruction_annot_pos)
         ]
 
     Cali_de_post_rec = routine_init('Cali_de_post_rec', Cali_de_post_rec_comp_list)
@@ -372,6 +396,16 @@ if init_flag:
         color='white', colorSpace='rgb', opacity=1, 
         languageStyle='LTR',
         depth=0.0);
+
+    the_end_comp_list = [
+        textstim_generator(win=win, name='text', content=instruction_text_str, pos=instruction_pos),
+        key_resp_generator(name='key_resp'), 
+        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        ]
+    the_end = routine_init('instruction', instruction_comp_list)
+    the_end['time'] = {'text':[0, instruction_cont_dur],
+                       'key_resp':[instruction_cont_start, instruction_cont_dur],
+                       'cont':[instruction_cont_start, instruction_cont_dur]}
 
     # Create some handy timers
     globalClock = core.Clock()  # to track the time since experiment started
@@ -415,16 +449,20 @@ if Instruction_flag:
         win, instruction['text'], trigger_mat[0] = run_comp(
             win, instruction['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=instruction['time']['text'][0], duration=instruction['time']['text'][1])
+
+        # *instruction["audio"]* updates
+        win, instruction['audio'], trigger_mat[1] = run_comp(
+            win, instruction['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=instruction['time']['audio'][0], duration=instruction['time']['audio'][1])
         # *instruction['key_resp']* updates
-        
         waitOnFlip=False
-        win, instruction['key_resp'], continueRoutine, endExpNow, trigger_mat[1] = run_comp(
+        win, instruction['key_resp'], continueRoutine, endExpNow, trigger_mat[2] = run_comp(
             win, instruction['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=instruction['time']['key_resp'][0], duration=instruction['time']['key_resp'][1],
             waitOnFlip=waitOnFlip)   
         
         # *instruction['cont']* updates
-        win, instruction['cont'], trigger_mat[2] = run_comp(
+        win, instruction['cont'], trigger_mat[3] = run_comp(
             win, instruction['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=instruction['time']['cont'][0], duration=instruction['time']['cont'][1])
 
@@ -466,7 +504,7 @@ if Cali_de_pre_intro_flag:
     trigger_mat = np.zeros((len(Cali_de_pre_introComponents) - 1, 2))
     comp_list = np.asarray([*Cali_de_pre_intro['time'].keys()])
 
-    Cali_de_pre_intro['audio'].setSound(audio_root+'calibration/cali_de_new_44100.wav',secs=-1, hamming=True)
+    Cali_de_pre_intro['audio'].setSound(audio_root+'calibration/calibration.wav',secs=-1, hamming=True)
     # -------Run Routine "Cali_de_pre_intro"-------
     
     trigger_sending(10)  # Sending trigger 0 (Pre-Run Start)
@@ -665,14 +703,17 @@ if Pause_flag:
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
             Pause["clock"], win, frameN)
         # update/draw components on each frame
+        # *Pause['audio']* updates
+        win, Pause['audio'], trigger = run_comp(
+            win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
 
-        # *Cali_de_pre_intro['key_resp']* updates
         waitOnFlip=False
         win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
             win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
             waitOnFlip=waitOnFlip)   
-        # *Cali_de_pre_intro['cont']* updates
+        # *Pause['cont']* updates
         win, Pause['cont'], trigger = run_comp(
             win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
@@ -767,7 +808,11 @@ for thisRun in run:
                         print('initial ' + str(input_intensity))
 
                     fade_in_str = fade_str_func(intensity_goal[run.thisN])
-                    fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
+
+                    if fade_in_out_show:
+                        fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
+                    else:
+                        fade_in['text'].setText('The stimulation signal is fading in. Please remain seated and report any discomfort you may feel to the experimenter.')
                     routineTimer.reset()
                     routineTimer.add(2.000000)
                     intensity_change_flag = 'i'
@@ -833,11 +878,8 @@ for thisRun in run:
             print('Log: RS intro start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
             breakpoint_logger(comp='RS_intro', value=1, run=run.thisN, block=RS_loop, trial=None)
             # ------Prepare to start Routine "RS_intro"-------
-            RS_intro['audio'].setSound(audio_root+'resting_state/rs_' + RS_order[RS_loop] + '_new_44100.wav', secs=-1, hamming=True)
+            RS_intro['audio'].setSound(audio_root+'resting_state/rs_intro_' + RS_order[RS_loop] + '.wav', secs=-1, hamming=True)
                 
-            # update component parameters for each repeat
-            RS_intro['key_resp'].keys = []
-            RS_intro['key_resp'].rt = []
             # keep track of which components have finished
             win, RS_intro, RS_introComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_intro)
             trigger_mat = np.zeros((len(RS_introComponents) - 1, 2))
@@ -862,17 +904,6 @@ for thisRun in run:
                     win, RS_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
                     start_time=RS_intro['time']['audio'][0], duration=RS_intro['time']['audio'][1])
 
-                # *Cali_de_pre_intro['key_resp']* updates
-                waitOnFlip=False
-                win, RS_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
-                    win, RS_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_intro['time']['key_resp'][0], duration=RS_intro['time']['key_resp'][1],
-                    waitOnFlip=waitOnFlip)   
-                # *Cali_de_pre_intro['cont']* updates
-                win, RS_intro['cont'], trigger_mat[4] = run_comp(
-                    win, RS_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_intro['time']['cont'][0], duration=RS_intro['time']['cont'][1],
-                    repeat_per_frame=True, repeat_content=continue_str)
 
                 win, continueRoutine, break_flag = continue_justification(
                     win, endExpNow, defaultKeyboard, continueRoutine, RS_introComponents)
@@ -887,7 +918,7 @@ for thisRun in run:
                 if hasattr(thisComponent, "setAutoDraw"):
                     thisComponent.setAutoDraw(False)
 
-            run = data_writer(run, RS_intro, 'RS_intro', ['title', 'text', 'audio', 'cont'])
+            run = data_writer(run, RS_intro, 'RS_intro', ['title', 'text', 'audio'])
             trigger_sending(31)   # Sending trigger 30 (Resting State Intro End)
             # the Routine "RS_intro" was not non-slip safe, so reset the non-slip timer
             print('Log: RS intro finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
@@ -1128,10 +1159,18 @@ for thisRun in run:
                     QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
                     QA_rec['time']['question'][1] = sen_duration[question_cnt] - 0.016
                     QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], censor_question_duration[question_cnt]]
+                    if flexible_qa_rec_start:
+                        QA_trial_dur = 30.00
+                        QA_rec['time']['beep_start'][0] = QA_q_start + sen_duration[question_cnt] + comp_gap
+                        QA_rec['time']['recording'][0] = QA_rec['time']['beep_start'][0] + QA_a_beep_s_dur + comp_gap
+                        QA_rec['time']['recording'][1] = QA_a_beep_e_start - QA_rec['time']['recording'][0] - comp_gap
+
                 else:
                     QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=-1, hamming=True)
                     QA_rec['time']['censor_word'] = [ques_start + 0.706, 0.694]
                     QA_rec['time']['question'][1] = 5.63 - 0.02
+
+
 
 
                 # QA_rec['question'].setVolume(1, log=False)
@@ -1226,7 +1265,10 @@ for thisRun in run:
                 frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
                     Pause["clock"], win, frameN)
                 # update/draw components on each frame
-
+                # *Pause['audio']* updates
+                win, Pause['audio'], trigger = run_comp(
+                    win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
                 # *Cali_de_pre_intro['key_resp']* updates
                 waitOnFlip=False
                 win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
@@ -1286,6 +1328,13 @@ for thisRun in run:
 
                     fade_in_str = fade_str_func(intensity_goal[run.thisN + 1])
                     fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
+
+                    if fade_in_out_show:
+                        fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
+                    else:
+                        fade_in['text'].setText('The stimulation signal is fading out. Please remain seated and report any discomfort you may feel to the experimenter.')
+                    
+
                     routineTimer.reset()
                     routineTimer.add(2.000000)
                     intensity_change_flag = 'd'

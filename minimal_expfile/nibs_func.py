@@ -27,7 +27,7 @@ import numbers
 import pandas as pd
 
 
-def exp_init():
+def exp_init(full_screen=False):
     # -----------------------------------------------------------------------------------
     # -------------------- Experiment & Device initialization ---------------------------
     # -----------------------------------------------------------------------------------
@@ -41,9 +41,14 @@ def exp_init():
     Info['expName'] = expName
     Info['psychopyVersion'] = '3.2.3'
 
+    if full_screen:
+        win_size = [3840, 2160]
+    else:
+        win_size = [960, 540]
+
     # Setup the Window
     win = visual.Window(
-        size=[1920, 1080], fullscr=False, screen=0, 
+        size=win_size, fullscr=False, screen=0, 
         winType='pyglet', allowGUI=True, allowStencil=False,
         monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
         blendMode='avg', useFBO=True)
