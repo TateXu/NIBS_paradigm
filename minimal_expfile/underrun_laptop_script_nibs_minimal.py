@@ -47,7 +47,7 @@ jxu_logging.basicConfig(level=logging.INFO,
 ######## Psychopy basic setting ########
 endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
-continue_str = '       Press [space] key to continue.'
+continue_str = '          Press [space] key to continue.'
 font_type = 'Airal'
 font_size = 0.11  # font size
 full_screen = True
@@ -94,23 +94,23 @@ Instruction_flag = 0
 Cali_de_pre_intro_flag = 0
 Cali_de_pre_rec_flag = 0
 
-fade_in_flag = 0
-fade_out_flag = 0
+fade_in_flag = 1
+fade_out_flag = 1
 RS_intro_flag = 0
 RS_rec_flag = 0
-QA_intro_flag = 1
+QA_intro_flag = 0
 QA_rec_flag = 1
-Pause_flag = 0
+Pause_flag = 1
 Cali_de_post_intro_flag = 1
 Cali_de_post_rec_flag = 1
 end_flag = 1
 
 break_cali_pre_trial = None
 break_cali_post_trial = None
-break_run = None
+break_run = 2
 break_rs_block = None
-break_qa_block = None
-break_qa_trial = None
+break_qa_block = 2
+break_qa_trial = 1
 
 external_question_flag = 1
 question_cnt = -1
@@ -324,7 +324,7 @@ if init_flag:
         audio_generator(name='beep_start', loc=audio_root+'q_a_40Hz/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
         audio_generator(name='beep_end', loc=audio_root+'q_a_40Hz/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
-        textstim_generator(win=win, name='break', content='Short break', pos=annot_pos),
+        textstim_generator(win=win, name='break', content='Short break', pos=instruction_annot_pos),
         trigger_generator(win=win, name='censor_word')
         ]
     QA_rec = routine_init('QA_rec', QA_rec_comp_list)
@@ -338,19 +338,20 @@ if init_flag:
                       'censor_word':[0, 0]}
 
     # Initialize components for Routine "Pause"
+    Pause_str = 'Pause: Please have some rest and \n'+ continue_str
     Pause_comp_list = [
         audio_generator(name='audio', loc=audio_root+'block_finish.wav', secs=-1),
         key_resp_generator(name='key_resp'),
-        textstim_generator(win=win, name='cont', content='Pause: '+ continue_str, pos=annot_pos)
+        textstim_generator(win=win, name='cont', content=Pause_str, pos=annot_pos)
         ]
     Pause = routine_init('Pause', Pause_comp_list)
-    Pause['time'] = {'audio': [0, 12], 'key_resp':[12, None], 'cont':[12, None]}
+    Pause['time'] = {'audio': [0, 12], 'key_resp':[12, None], 'cont':[0, None]}
 
     # Initialize components for Routine "Cali_de_post_intro"
-    Cali_de_post_intro_text_str = '   - Task: Read out the displayed German sentence   \n' + \
-        '   - Melodious beep sound: Trial start              \n' + \
-        '   - Beep sound with increasing pitch: Rec. start   \n' + \
-        '   - Beep sound with decreasing pitch: Rec. finish  \n'
+    Cali_de_post_intro_text_str = '  - Task: Read out the displayed German sentence   \n' + \
+        '  - Melodious beep sound: Trial start              \n' + \
+        '  - Beep sound with increasing pitch: Rec. start   \n' + \
+        '  - Beep sound with decreasing pitch: Rec. finish  \n'
 
     Cali_de_post_intro_comp_list = [
         textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
@@ -367,7 +368,7 @@ if init_flag:
                                   'cont':[cali_intro_cont_start, cali_intro_cont_dur]}
 
     # Initialize components for Routine "Cali_de_post_rec"
-    Cali_de_post_rec_text_str = 'Please read out following sentence.'
+    Cali_de_post_rec_text_str = ''
     Cali_de_post_rec_comp_list = [
         textstim_generator(win=win, name='text', content=Cali_de_post_rec_text_str, pos=title_pos),
         audio_generator(name='beep_hint', loc=audio_root+'calibration/reminder.wav', secs=0.6),
@@ -387,25 +388,19 @@ if init_flag:
                                 'beep_end':[cali_a_beep_e_start, cali_a_beep_e_dur],
                                 'break':[cali_break_start, cali_break_dur]}
 
-    # Initialize components for Routine "the_end"
-    the_endClock = core.Clock()
-    text_3 = visual.TextStim(win=win, name='text_3',
-        text='The end.\n\nData + recordings are in folder data/',
-        font='Arial',
-        pos=[0, 0], height=0.07, wrapWidth=None, ori=0, 
-        color='white', colorSpace='rgb', opacity=1, 
-        languageStyle='LTR',
-        depth=0.0);
 
+    # Initialize components for Routine "the_end"
     the_end_comp_list = [
-        textstim_generator(win=win, name='text', content=instruction_text_str, pos=instruction_pos),
-        key_resp_generator(name='key_resp'), 
-        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        audio_generator(name='audio', loc=audio_root+'exp_finish.wav', secs=-1),
+        textstim_generator(win=win, name='text', content=' This experiment is finished. \nThanks for your participation.', pos=[0.7, 0.0])
         ]
-    the_end = routine_init('instruction', instruction_comp_list)
-    the_end['time'] = {'text':[0, instruction_cont_dur],
-                       'key_resp':[instruction_cont_start, instruction_cont_dur],
-                       'cont':[instruction_cont_start, instruction_cont_dur]}
+    the_end = routine_init('the_end', the_end_comp_list)
+    the_end['time'] = {'audio': [0, 10],  'text':[0, 10]}
+
+
+
+
+
 
     # Create some handy timers
     globalClock = core.Clock()  # to track the time since experiment started
@@ -694,7 +689,8 @@ if Pause_flag:
     # update component parameters for each repeat
     Pause['key_resp'].keys = []
     Pause['key_resp'].rt = []
-    Pause['cont'].setText('Press [space] key to continue.')
+    Pause['cont'].setText('Pause: Please have some rest and '+ continue_str)
+
     # keep track of which components have finished
     win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
     # -------Run Routine "Pause"-------
@@ -717,7 +713,7 @@ if Pause_flag:
         win, Pause['cont'], trigger = run_comp(
             win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
-            repeat_per_frame=True, repeat_content=continue_str)
+            repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
         win, continueRoutine, break_flag = continue_justification(
             win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
@@ -937,7 +933,7 @@ for thisRun in run:
                 RS_rec['text'].setText(RS_rec_text_str)
             elif RS_order[RS_loop] == 'close':
                 trigger_sending(34)
-                RS_rec_text_str = 'Please keep relaxed and close your eyes.\nNote: Blinking is allowed.'
+                RS_rec_text_str = 'Please keep relaxed and close your eyes.\n'
                 RS_rec['text'].setText(RS_rec_text_str) 
             # ------Prepare to start Routine "RS_rec"-------
             # update component parameters for each repeat
@@ -995,6 +991,59 @@ for thisRun in run:
             print('Log: RS rec finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
             breakpoint_logger(comp='RS_rec', value=0, run=run.thisN, block=RS_loop, trial=None)
             routineTimer.reset()
+
+    # ---------------------------------------------------
+    # --------------------- Pause -----------------------
+    # ---------------------------------------------------
+    if Pause_flag:
+        trigger_sending(60)
+        # ------Prepare to start Routine "Pause"-------
+        # update component parameters for each repeat
+        Pause['key_resp'].keys = []
+        Pause['key_resp'].rt = []
+        Pause['cont'].setText('Press [space] key to continue.')
+        # keep track of which components have finished
+        win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
+        # -------Run Routine "Pause"-------
+        while continueRoutine:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                Pause["clock"], win, frameN)
+            # update/draw components on each frame
+            # *Pause['audio']* updates
+            win, Pause['audio'], trigger = run_comp(
+                win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
+
+            waitOnFlip=False
+            win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
+                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
+                waitOnFlip=waitOnFlip)   
+            # *Pause['cont']* updates
+            win, Pause['cont'], trigger = run_comp(
+                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
+                repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
+
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
+            if break_flag:
+                break
+        # -------Ending Routine "Pause"-------
+        for thisComponent in PauseComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        thisExp.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
+        thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
+
+        thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
+        trigger_sending(61)
+        # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+
+
+
 
     time.sleep(0.003)
     trigger_sending(7)
@@ -1279,7 +1328,7 @@ for thisRun in run:
                 win, Pause['cont'], trigger = run_comp(
                     win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
                     start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
-                    repeat_per_frame=True, repeat_content=continue_str)
+                    repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
                 win, continueRoutine, break_flag = continue_justification(
                     win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
@@ -1617,7 +1666,7 @@ if Pause_flag:
         win, Pause['cont'], trigger = run_comp(
             win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
             start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
-            repeat_per_frame=True, repeat_content=continue_str)
+            repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
         win, continueRoutine, break_flag = continue_justification(
             win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
@@ -1635,86 +1684,60 @@ if Pause_flag:
     # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
 
-
-
-
-
-
-# ---------------------------------------------------
-# ------------------- THE END -----------------------
-# ---------------------------------------------------
-trigger_sending(3)  # Sending trigger 0 (Post-Run Start)
+trigger_sending(3)  # Sending trigger 0 (Post-Run Finish)
 time.sleep(0.003)
 
+
+# ---------------------------------------------------
+# ---------------------- End ------------------------
+# ---------------------------------------------------
 if end_flag:
+
     # ------Prepare to start Routine "the_end"-------
-    routineTimer.add(3.000000)
     # update component parameters for each repeat
     # keep track of which components have finished
-    the_endComponents = [text_3]
-    for thisComponent in the_endComponents:
-        thisComponent.tStart = None
-        thisComponent.tStop = None
-        thisComponent.tStartRefresh = None
-        thisComponent.tStopRefresh = None
-        if hasattr(thisComponent, 'status'):
-            thisComponent.status = NOT_STARTED
-    # reset timers
-    t = 0
-    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    the_endClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
-    frameN = -1
-    continueRoutine = True
-
+    win, the_end, the_endComponents, t, frameN, continueRoutine = pre_run_comp(win, the_end)
     # -------Run Routine "the_end"-------
-    while continueRoutine and routineTimer.getTime() > 0:
+    while continueRoutine:
         # get current time
-        t = the_endClock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=the_endClock)
-        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
-        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+            the_end["clock"], win, frameN)
         # update/draw components on each frame
-        
-        # *text_3* updates
-        if text_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            text_3.frameNStart = frameN  # exact frame index
-            text_3.tStart = t  # local t and not account for scr refresh
-            text_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(text_3, 'tStartRefresh')  # time at next scr refresh
-            text_3.setAutoDraw(True)
-        if text_3.status == STARTED:
-            # is it time to stop? (based on global clock, using actual start)
-            if tThisFlipGlobal > text_3.tStartRefresh + 3.0-frameTolerance:
-                # keep track of stop time/frame for later
-                text_3.tStop = t  # not accounting for scr refresh
-                text_3.frameNStop = frameN  # exact frame index
-                win.timeOnFlip(text_3, 'tStopRefresh')  # time at next scr refresh
-                text_3.setAutoDraw(False)
-        
-        # check for quit (typically the Esc key)
-        if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
-            core.quit()
-        
-        # check if all components have finished
-        if not continueRoutine:  # a component has requested a forced-end of Routine
-            break
-        continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in the_endComponents:
-            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
-                continueRoutine = True
-                break  # at least one component has not yet finished
-        
-        # refresh the screen
-        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
-            win.flip()
+        # *the_end['audio']* updates
+        win, the_end['audio'], trigger = run_comp(
+            win, the_end['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=the_end['time']['audio'][0], duration=the_end['time']['audio'][1])
 
-    # -------Ending Routine "the_end"-------
+        # *the_end['cont']* updates
+        win, the_end['text'], trigger = run_comp(
+            win, the_end['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=the_end['time']['text'][0], duration=the_end['time']['text'][1],
+            repeat_per_frame=True, repeat_content=the_end['text'].text)
+
+        win, continueRoutine, break_flag = continue_justification(
+            win, endExpNow, defaultKeyboard, continueRoutine, the_endComponents)
+        if break_flag:
+            break
+    # -------Ending Routine "Pause"-------
     for thisComponent in the_endComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    thisExp.addData('text_3.started', text_3.tStartRefresh)
-    thisExp.addData('text_3.stopped', text_3.tStopRefresh)
+    thisExp.addData('the_end_text.started', the_end['text'].tStartRefresh)
+    thisExp.addData('the_end_text.stopped', the_end['text'].tStopRefresh)
+
+    thisExp = data_writer(thisExp, Pause, 'the_end', ['text'])
+
+    # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+trigger_sending(255)
+
+
+
+
+
+
+
+
 
 # Flip one final time so any remaining win.callOnFlip() 
 # and win.timeOnFlip() tasks get executed before quitting
