@@ -27,13 +27,33 @@ import numbers
 import pandas as pd
 
 
-def exp_init(full_screen=False):
+def exp_init(Name='nibs_stage_1'):
     # -----------------------------------------------------------------------------------
     # -------------------- Experiment & Device initialization ---------------------------
     # -----------------------------------------------------------------------------------
     # Store info about the experiment session
-    expName = 'nibs_stage_1'  # from the Builder filename that created this script
-    Info = {'participant': '01', 'session': '01', 'First language':'', 'German level':''}
+    expName = Name  # from the Builder filename that created this script
+    
+    Info = {'participant': '01',
+            'session': '01',
+            'First language': '',
+            'German level': ['A1', 'A2', 'B1', 'B2'],
+            'Full_screen': True,
+            'Instruction': True,
+            'Cali_pre': True,
+            'Resting_State': True,
+            'Fade_in_out': True,
+            'QA': True,
+            'Pause': True,
+            'Cali_post': True,
+            'End': True,
+            'Breakpoint_Cali_pre_trial': 'No',
+            'Breakpoint_Run': ['No', 0, 1, 2, 3],
+            'Breakpoint_RS_block': ['No', 0, 1],
+            'Breakpoint_QA_block': ['No', 0, 1],
+            'Breakpoint_QA_trial': 'No',
+            'Breakpoint_Cali_post_trial': 'No'
+            }
     dlg = gui.DlgFromDict(dictionary=Info, sortKeys=False, title=expName)
     if dlg.OK == False:
         core.quit()  # user pressed cancel
@@ -41,7 +61,7 @@ def exp_init(full_screen=False):
     Info['expName'] = expName
     Info['psychopyVersion'] = '3.2.3'
 
-    if full_screen:
+    if Info['Full_screen']:
         win_size = [3840, 2160]
     else:
         win_size = [960, 540]
