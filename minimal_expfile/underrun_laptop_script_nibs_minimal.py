@@ -49,8 +49,9 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 continue_str = '          Press [space] key to continue.'
 font_type = 'Airal'
-
-
+font_size = 0.11  # font size
+full_screen = True
+font_size = (0.06 if not full_screen else 0.15)
 
 instruction_pos = [0.5, 0.1]
 instruction_annot_pos = [0.5, -0.4]
@@ -89,10 +90,31 @@ output_intensity = init_intensity
 ######## Component switch ########
 init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
+Instruction_flag = 0
+Cali_de_pre_intro_flag = 0
+Cali_de_pre_rec_flag = 0
+
+fade_in_flag = 1
+fade_out_flag = 1
+RS_intro_flag = 0
+RS_rec_flag = 0
+QA_intro_flag = 0
+QA_rec_flag = 1
+Pause_flag = 1
+Cali_de_post_intro_flag = 1
+Cali_de_post_rec_flag = 1
+end_flag = 1
+
+break_cali_pre_trial = None
+break_cali_post_trial = None
+break_run = 2
+break_rs_block = None
+break_qa_block = 2
+break_qa_trial = 1
 
 external_question_flag = 1
 question_cnt = -1
-word_type = 'VERB'
+word_type = 'NOUN'
 
 fade_in_out_show = False
 always_dislpay = True
@@ -144,39 +166,14 @@ if flexible_qa_rec_start and external_question_flag:
 
 
     
-trigger_sending(254)   # trigger 254 represents real experiment
-
+    
 # -----------------------------------------------------------------------------------
 # ------------------------ Setting: Initialization ----------------------------------
 # -----------------------------------------------------------------------------------
 if init_flag:
 
-    expInfo, win, frameDur, defaultKeyboard  = exp_init()
+    expInfo, win, frameDur, defaultKeyboard  = exp_init(full_screen=full_screen)
     folder_path, filename = path_init(expInfo)
-
-    font_size = (0.06 if not expInfo['Full_screen'] else 0.15)
-
-    Instruction_flag = expInfo['Instruction']
-    Cali_de_pre_intro_flag = expInfo['Cali_pre']
-    Cali_de_pre_rec_flag = expInfo['Cali_pre']
-    fade_in_flag = expInfo['Fade_in_out']
-    fade_out_flag = expInfo['Fade_in_out']
-    RS_intro_flag = expInfo['Resting_State']
-    RS_rec_flag = expInfo['Resting_State']
-    QA_intro_flag = expInfo['QA']
-    QA_rec_flag = expInfo['QA']
-    Pause_flag = expInfo['Pause']
-    Cali_de_post_intro_flag = expInfo['Cali_post']
-    Cali_de_post_rec_flag = expInfo['Cali_post']
-    end_flag = expInfo['End']
-
-    break_cali_pre_trial = (None if expInfo['Breakpoint_Cali_pre_trial'] == 'No' else expInfo['Breakpoint_Cali_pre_trial'])
-    break_cali_post_trial = (None if expInfo['Breakpoint_Cali_post_trial'] == 'No' else expInfo['Breakpoint_Cali_post_trial'])
-    break_run = (None if expInfo['Breakpoint_Run'] == 'No' else expInfo['Breakpoint_Run'])
-    break_rs_block = (None if expInfo['Breakpoint_RS_block'] == 'No' else expInfo['Breakpoint_RS_block']) 
-    break_qa_block = (None if expInfo['Breakpoint_QA_block'] == 'No' else expInfo['Breakpoint_QA_block'])  
-    break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else expInfo['Breakpoint_QA_trial']) 
-    
 
     if external_question_flag:
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
@@ -188,23 +185,23 @@ if init_flag:
     logFile = logging.LogFile(filename+'.log', level=logging.EXP)
     logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
 
-    instruction_text_str = '     Thank you for participating in the experiment: \n\n' + \
-        '     Personalized non-invasive brain stimulation    \n' + \
-        '            for second language learning            \n' + \
+    instruction_text_str = '       Welcome for participating the experiment:  \n\n' + \
+        '       Personalized non-invasive brain stimulation  \n' + \
+        '              for second language learning          \n' + \
         '                                                    \n' + \
-        '     - Task 1: Read Out German Sentence             \n' + \
-        '     - Task 2: Keeping Relax                        \n' + \
-        '     - Task 3: Question & Answer                    \n'
+        '       - Task 1: Read Out German Sentence           \n' + \
+        '       - Task 2: Keeping Relax                     \n' + \
+        '       - Task 3: Question & Answer                  \n'
 
     instruction_comp_list = [
         textstim_generator(win=win, name='text', content=instruction_text_str, pos=instruction_pos),
-        audio_generator(name='audio', loc=audio_root+'Instruction_main.wav', secs=-1),
+        audio_generator(name='audio', loc=audio_root+'Instruction.wav', secs=-1),
         key_resp_generator(name='key_resp'), 
         textstim_generator(win=win, name='cont', content=continue_str, pos=instruction_annot_pos)
         ]
     instruction = routine_init('instruction', instruction_comp_list)
     instruction['time'] = {'text':[0, instruction_cont_dur],
-                           'audio':[0, instruction_cont_dur],
+    					   'audio':[0, instruction_cont_dur],
                            'key_resp':[instruction_cont_start, instruction_cont_dur],
                            'cont':[instruction_cont_start, instruction_cont_dur]}
 
@@ -424,10 +421,6 @@ def breakpoint_logger(comp, value, run, block, trial):
 # ---------------------------------------------------
 # ----------------- instruction ---------------------
 # ---------------------------------------------------
-
-
-
-
 if Instruction_flag:
     print('Log: instruction start')
 

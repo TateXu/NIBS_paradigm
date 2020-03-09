@@ -1733,7 +1733,7 @@ if end_flag:
     thisExp.addData('the_end_text.started', the_end['text'].tStartRefresh)
     thisExp.addData('the_end_text.stopped', the_end['text'].tStopRefresh)
 
-    thisExp = data_writer(thisExp, Pause, 'the_end', ['text'])
+    thisExp = data_writer(thisExp, the_end, 'the_end', ['text'])
 
     # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
