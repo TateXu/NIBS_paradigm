@@ -98,7 +98,7 @@ fade_in_out_show = False
 always_dislpay = True
 
 comp_gap = 0.4
-instruction_cont_start, instruction_cont_dur = 5, None
+instruction_cont_start, instruction_cont_dur = 40, None
 
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
@@ -602,6 +602,24 @@ for thisCali_pre_trial in cali_pre_trial:
         # ------Prepare to start Routine "QA_rec"-------
         routineTimer.add(30.000000)
         # update component parameters for each repeat
+
+        """
+            # update component parameters for each repeat
+            ques_start = QA_rec['time']['question'][0]
+            if external_question_flag:
+                question_cnt += 1
+                Cali_de_pre_rec['question_text'].setText(sen_text[question_cnt])
+                Cali_de_pre_rec['time']['question'][1] = sen_duration[question_cnt] - 0.016
+                if flexible_qa_rec_start:
+                    QA_trial_dur = 30.00
+                    QA_rec['time']['beep_start'][0] = QA_q_start + sen_duration[question_cnt] + comp_gap
+                    QA_rec['time']['recording'][0] = QA_rec['time']['beep_start'][0] + QA_a_beep_s_dur + comp_gap
+                    QA_rec['time']['recording'][1] = QA_a_beep_e_start - QA_rec['time']['recording'][0] - comp_gap
+            else:
+                QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=-1, hamming=True)
+                QA_rec['time']['question'][1] = 5.63 - 0.02
+        """
+
         if external_question_flag:
             question_cnt += 1
             Cali_de_pre_rec['question_text'].setText(sen_text[question_cnt])
