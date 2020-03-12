@@ -320,7 +320,7 @@ if init_flag:
     
 
     # Initialize components for Routine "QA_rec"
-    QA_rec_text_str = 'Listening to the question and speaking out your answer!'
+    QA_rec_text_str = 'Listen to the question and speak out your answer!'
     QA_rec_comp_list = [
         textstim_generator(win=win, name='text', content=QA_rec_text_str, pos=text_pos),
         audio_generator(name='beep_hint', loc=audio_root+'q_a_40Hz/reminder.wav', secs=0.6),

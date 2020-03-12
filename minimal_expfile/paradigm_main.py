@@ -33,6 +33,7 @@ from nibs_func import *
 from jxu.hardware.signal import SignalGenerator as SG
 import time
 import logging as jxu_logging
+import random
 
 jxu_logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s  %(message)s',
@@ -78,7 +79,7 @@ n_rec_chn = 1
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session 
-stim_freq = 20
+stim_freq = 0
 
 n_step_fade_stim = 5
 min_intensity, max_intensity = 0, 0.5
@@ -103,7 +104,7 @@ instruction_cont_start, instruction_cont_dur = 40, None
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
-cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 14, 1, 8, 1, 2
+cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 17, 1, 2
 cali_q_start = cali_hint_start + cali_hint_dur + comp_gap
 cali_a_beep_s_start = cali_q_start + cali_q_dur + comp_gap
 cali_rec_start = cali_a_beep_s_start + cali_a_beep_s_dur + comp_gap
@@ -190,11 +191,7 @@ if init_flag:
 
     instruction_text_str = '     Thank you for participating in the experiment: \n\n' + \
         '     Personalized non-invasive brain stimulation    \n' + \
-        '            for second language learning            \n' + \
-        '                                                    \n' + \
-        '     - Task 1: Read Out German Sentence             \n' + \
-        '     - Task 2: Keeping Relax                        \n' + \
-        '     - Task 3: Question & Answer                    \n'
+        '            for second language learning            \n'
 
     instruction_comp_list = [
         textstim_generator(win=win, name='text', content=instruction_text_str, pos=instruction_pos),
@@ -319,7 +316,7 @@ if init_flag:
     
 
     # Initialize components for Routine "QA_rec"
-    QA_rec_text_str = 'Listening to the question and speaking out your answer!'
+    QA_rec_text_str = 'Listen to the question and speak out your answer!'
     QA_rec_comp_list = [
         textstim_generator(win=win, name='text', content=QA_rec_text_str, pos=text_pos),
         audio_generator(name='beep_hint', loc=audio_root+'q_a_40Hz/reminder.wav', secs=0.6),
@@ -801,6 +798,7 @@ for thisRun in run:
         if stim_freq == 0:
             trigger_sending(22)
             time.sleep(0.003)
+            time.sleep(60.000)
         else:
             if run.thisN == stim_run[0]:
                 trigger_sending(20)
@@ -810,6 +808,8 @@ for thisRun in run:
                 time.sleep(1.0)
                 fg.on()
                 time.sleep(1.0)
+
+                time.sleep(60.000)
             if run.thisN == stim_run[0]:
                 # ------Prepare to start Routine "fade_in"-------
                 # keep track of which components have finished
@@ -833,7 +833,8 @@ for thisRun in run:
                     if fade_in_out_show:
                         fade_in['text'].setText(fade_in_str + str(input_intensity*2) + 'mA')
                     else:
-                        fade_in['text'].setText('The stimulation signal is fading in. Please remain seated and report any discomfort you may feel to the experimenter.')
+                        fade_in['text'].setText('')
+                        # fade_in['text'].setText('The stimulation signal is fading in. Please remain seated and report any discomfort you may feel to the experimenter.')
                     routineTimer.reset()
                     routineTimer.add(2.000000)
                     intensity_change_flag = 'i'
@@ -891,6 +892,7 @@ for thisRun in run:
         break_rs_block = None   # clear the breakpoint
 
         RS_order = ['open', 'close']
+        random.shuffle(RS_order)
         # ---------------------------------------------------
         # ------------------- RS_intro ----------------------
         # ---------------------------------------------------
@@ -1378,8 +1380,11 @@ for thisRun in run:
         print('Log: fade out start: Run ' + str(run.thisN))
         trigger_sending(29)
         time.sleep(0.003)
+
+        time.sleep(60.000)
         if stim_freq == 0:
             trigger_sending(23)
+            time.sleep(60.000)
         else:
             if run.thisN == stim_run[-1]:
                 # ------Prepare to start Routine "fade_in"-------
