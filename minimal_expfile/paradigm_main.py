@@ -65,25 +65,23 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 1  # 10 mins
-n_cali_trial = 1
+n_trial = 20  # 10 mins
+n_cali_trial = 10
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
 fs = 44100  # Sample rate of audio
-cali_pre_rec_sec = 8  # Duration of recording
-cali_post_rec_sec = 8  # Duration of recording
-q_a_rec_sec = 8
 n_rec_chn = 1
 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
-init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
+init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.25
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session 
 stim_freq = 0
-
+fade_in_auto_incre = 12
 n_step_fade_stim = 5
-min_intensity, max_intensity = 0, 0.5
+
 step_intensity = max_intensity / n_step_fade_stim
+
 input_intensity = init_intensity
 output_intensity = init_intensity
 
@@ -116,7 +114,7 @@ cali_text_dur = cali_break_start + cali_break_dur
 if always_dislpay:
     cali_q_dur = cali_text_dur - cali_q_start
 
-fade_in_auto_incre = 10
+
 
 rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 25, None
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
@@ -180,9 +178,11 @@ if init_flag:
     
 
     if external_question_flag:
+        pre_load_df = pd.read_pickle('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/Q_Session_' + str(int(expInfo['session'])) + '_exp_' + str(n_question) + '.pkl')
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
+            input_all_df=pre_load_df,
             subject=int(expInfo['participant']),
-            session=int(expInfo['session']), word_type=word_type, n_question=n_question)
+            session=int(expInfo['session']), word_type=word_type, n_question=n_question, shuffle_flag=True)
 
 
     # save a log file for detail verbose info
@@ -798,6 +798,7 @@ for thisRun in run:
         if stim_freq == 0:
             trigger_sending(22)
             time.sleep(0.003)
+            win.flip()
             time.sleep(60.000)
         else:
             if run.thisN == stim_run[0]:
@@ -809,7 +810,6 @@ for thisRun in run:
                 fg.on()
                 time.sleep(1.0)
 
-                time.sleep(60.000)
             if run.thisN == stim_run[0]:
                 # ------Prepare to start Routine "fade_in"-------
                 # keep track of which components have finished
@@ -865,6 +865,9 @@ for thisRun in run:
                         if break_flag:
                             break
                         input_intensity = output_intensity
+            else:
+                win.flip()
+                time.sleep(60.000)
 
                 # -------Ending Routine "fade_in"-------
                 for thisComponent in fade_inComponents:
@@ -1384,6 +1387,8 @@ for thisRun in run:
         time.sleep(60.000)
         if stim_freq == 0:
             trigger_sending(23)
+            win.flip()
+
             time.sleep(60.000)
         else:
             if run.thisN == stim_run[-1]:
@@ -1463,9 +1468,13 @@ for thisRun in run:
                     pdb.set_trace()
                 else:
                     fg.off()
-            
+
+
                 trigger_sending(21)
                 time.sleep(0.003)
+            else:
+                win.flip()
+                time.sleep(60.000)
             routineTimer.reset()
         print('Log: fade out finish: Run ' + str(run.thisN))
 

@@ -63,10 +63,10 @@ audio_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Soundeffect/'
 question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 
 ######## Paradigm setting ########
-n_run = 4
+n_run = 1
 n_block = 2
-n_trial = 1  # 10 mins
-n_cali_trial = 1
+n_trial = 3  # 10 mins
+n_cali_trial = 2
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
@@ -104,7 +104,7 @@ instruction_cont_start, instruction_cont_dur = 5, None
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
-cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 14, 1, 8, 1, 2
+cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 17, 1, 2
 cali_q_start = cali_hint_start + cali_hint_dur + comp_gap
 cali_a_beep_s_start = cali_q_start + cali_q_dur + comp_gap
 cali_rec_start = cali_a_beep_s_start + cali_a_beep_s_dur + comp_gap
@@ -160,13 +160,13 @@ if init_flag:
     Instruction_flag = expInfo['Instruction']
     Cali_de_pre_intro_flag = expInfo['Cali_pre']
     Cali_de_pre_rec_flag = expInfo['Cali_pre']
-    fade_in_flag = expInfo['Fade_in_out']
-    fade_out_flag = expInfo['Fade_in_out']
+    fade_in_flag = 0
+    fade_out_flag = 0
     RS_intro_flag = expInfo['Resting_State']
     RS_rec_flag = expInfo['Resting_State']
     QA_intro_flag = expInfo['QA']
     QA_rec_flag = expInfo['QA']
-    Pause_flag = expInfo['Pause']
+    Pause_flag = 0
     Cali_de_post_intro_flag = expInfo['Cali_post']
     Cali_de_post_rec_flag = expInfo['Cali_post']
     end_flag = expInfo['End']
@@ -183,6 +183,14 @@ if init_flag:
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
             subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question)
+
+        pre_load_df = pd.read_pickle('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/Q_Session_' + str(int(expInfo['session'])) + '_practice_' + str(n_question) + '.pkl')
+        extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
+            input_all_df=pre_load_df,
+            subject=int(expInfo['participant']),
+            session=int(expInfo['session']), word_type=word_type, n_question=n_question, shuffle_flag=True)
+
+
 
 
     # save a log file for detail verbose info

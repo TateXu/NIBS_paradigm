@@ -622,14 +622,15 @@ def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
             trigger_sending(data, port=port)
 
 
-def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type='VERB', n_question=3,
-    file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/', overwrite=False):
-    
-    if input_all_df == None: 
-        dataframe_path = file_root + 'all_beep_df.pkl'
-        all_df = pd.read_pickle(dataframe_path)
-    else:
-        all_df = input_all_df
+def extract_qa(input_all_df=None, label='practice', subject=1, session=1, word_type='VERB', n_question=3,
+    file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/', df_file='all_beep_df.pkl', overwrite=False, shuffle_flag=False):
+    try:
+        if input_all_df == None: 
+            dataframe_path = file_root + df_file
+            all_df = pd.read_pickle(dataframe_path)
+    except:
+        if not input_all_df.empty:
+            all_df = input_all_df
     # No repeat questions for same subject
     # all_df['META_INFO']['tag_list'].str.len()
     no_repeat_df = all_df[all_df['EXP_INFO']['S' + str(subject).zfill(2)].isnull()]
@@ -643,7 +644,12 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
     from numpy.random import default_rng
 
     numbers = default_rng().choice(len(unique_sen_df.index), size=n_question, replace=False)
-    randomize_indices = unique_sen_df.index[np.sort(numbers)]
+    if shuffle_flag:
+        randomize_indices = unique_sen_df.index[numbers]
+    else:
+        randomize_indices = unique_sen_df.index[np.sort(numbers)]
+    import pdb
+    pdb.set_trace()
     extract_df = unique_sen_df.loc[randomize_indices]
     file_loc_list = extract_df['PATH']['file_root_syn'].values
     censor_start = extract_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
@@ -657,6 +663,12 @@ def extract_qa(input_all_df=None, type='train', subject=0, session=1, word_type=
             print('Following indices are going to be set as question:')
             print(randomize_indices.values)
             all_df.to_pickle(dataframe_path)
+    
+        extract_df_new_index = extract_df.reset_index()
+        extract_df_new_index.drop(columns='index')
+
+        extract_df_new_index.to_pickle(file_root + 'Q_Session_' + str(session) + '_' + label + '_' + str(n_question) + '.pkl')
+
 
     return extract_df, file_loc_list, censor_start, censor_dur, sen_duration, sen_text
 
