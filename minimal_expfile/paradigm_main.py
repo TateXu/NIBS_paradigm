@@ -76,7 +76,7 @@ n_rec_chn = 1
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.25
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session 
-stim_freq = 0
+stim_freq = 10
 fade_in_auto_incre = 12
 n_step_fade_stim = 5
 
@@ -102,7 +102,7 @@ instruction_cont_start, instruction_cont_dur = 40, None
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
-cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 17, 1, 2
+cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 18, 1, 2
 cali_q_start = cali_hint_start + cali_hint_dur + comp_gap
 cali_a_beep_s_start = cali_q_start + cali_q_dur + comp_gap
 cali_rec_start = cali_a_beep_s_start + cali_a_beep_s_dur + comp_gap
