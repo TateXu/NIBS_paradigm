@@ -74,10 +74,10 @@ fs = 44100  # Sample rate of audio
 n_rec_chn = 1
 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
-init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.25
+init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session 
 stim_freq = 10
-fade_in_auto_incre = 12
+fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
 step_intensity = max_intensity / n_step_fade_stim
@@ -97,12 +97,12 @@ fade_in_out_show = False
 always_dislpay = True
 
 comp_gap = 0.4
-instruction_cont_start, instruction_cont_dur = 40, None
+instruction_cont_start, instruction_cont_dur = 20, None
 
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
-cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 18, 1, 2
+cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 17, 1, 2
 cali_q_start = cali_hint_start + cali_hint_dur + comp_gap
 cali_a_beep_s_start = cali_q_start + cali_q_dur + comp_gap
 cali_rec_start = cali_a_beep_s_start + cali_a_beep_s_dur + comp_gap
@@ -116,7 +116,7 @@ if always_dislpay:
 
 
 
-rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 25, None
+rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 180, None
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
 rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None
@@ -169,16 +169,16 @@ if init_flag:
     Cali_de_post_rec_flag = expInfo['Cali_post']
     end_flag = expInfo['End']
 
-    break_cali_pre_trial = (None if expInfo['Breakpoint_Cali_pre_trial'] == 'No' else expInfo['Breakpoint_Cali_pre_trial'])
-    break_cali_post_trial = (None if expInfo['Breakpoint_Cali_post_trial'] == 'No' else expInfo['Breakpoint_Cali_post_trial'])
-    break_run = (None if expInfo['Breakpoint_Run'] == 'No' else expInfo['Breakpoint_Run'])
-    break_rs_block = (None if expInfo['Breakpoint_RS_block'] == 'No' else expInfo['Breakpoint_RS_block']) 
-    break_qa_block = (None if expInfo['Breakpoint_QA_block'] == 'No' else expInfo['Breakpoint_QA_block'])  
-    break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else expInfo['Breakpoint_QA_trial']) 
+    break_cali_pre_trial = (None if expInfo['Breakpoint_Cali_pre_trial'] == 'No' else int(expInfo['Breakpoint_Cali_pre_trial']))
+    break_cali_post_trial = (None if expInfo['Breakpoint_Cali_post_trial'] == 'No' else int(expInfo['Breakpoint_Cali_post_trial']))
+    break_run = (None if expInfo['Breakpoint_Run'] == 'No' else int(expInfo['Breakpoint_Run']))
+    break_rs_block = (None if expInfo['Breakpoint_RS_block'] == 'No' else int(expInfo['Breakpoint_RS_block'])) 
+    break_qa_block = (None if expInfo['Breakpoint_QA_block'] == 'No' else int(expInfo['Breakpoint_QA_block']))  
+    break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial'])) 
     
 
     if external_question_flag:
-        pre_load_df = pd.read_pickle('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/Q_Session_' + str(int(expInfo['session'])) + '_exp_' + str(n_question) + '.pkl')
+        pre_load_df = pd.read_pickle('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/Q_Session_' + str(int(expInfo['session'])) + '_exp_' + str(180) + '.pkl')
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text = extract_qa(
             input_all_df=pre_load_df,
             subject=int(expInfo['participant']),
@@ -865,9 +865,7 @@ for thisRun in run:
                         if break_flag:
                             break
                         input_intensity = output_intensity
-            else:
-                win.flip()
-                time.sleep(60.000)
+
 
                 # -------Ending Routine "fade_in"-------
                 for thisComponent in fade_inComponents:
@@ -877,6 +875,10 @@ for thisRun in run:
                 thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
                 trigger_sending(25)
                 time.sleep(0.003)
+            else:
+                win.flip()
+                time.sleep(30.000)
+
         print('Log: fade in end: Run ' + str(run.thisN))
         breakpoint_logger(comp='fade_in', value=0, run=run.thisN, block=None, trial=None)
         routineTimer.reset()
@@ -888,14 +890,15 @@ for thisRun in run:
     # ---------------------------------------------------
     trigger_sending(6)
     time.sleep(0.003)
+    RS_order = ['open', 'close']
+    random.shuffle(RS_order)
     for RS_loop in range(2):
 
         if break_rs_block != None and RS_loop < break_rs_block:
             continue
         break_rs_block = None   # clear the breakpoint
 
-        RS_order = ['open', 'close']
-        random.shuffle(RS_order)
+
         # ---------------------------------------------------
         # ------------------- RS_intro ----------------------
         # ---------------------------------------------------
@@ -1474,7 +1477,7 @@ for thisRun in run:
                 time.sleep(0.003)
             else:
                 win.flip()
-                time.sleep(60.000)
+                time.sleep(30.000)
             routineTimer.reset()
         print('Log: fade out finish: Run ' + str(run.thisN))
 

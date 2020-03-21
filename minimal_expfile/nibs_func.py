@@ -648,8 +648,7 @@ def extract_qa(input_all_df=None, label='practice', subject=1, session=1, word_t
         randomize_indices = unique_sen_df.index[numbers]
     else:
         randomize_indices = unique_sen_df.index[np.sort(numbers)]
-    import pdb
-    pdb.set_trace()
+
     extract_df = unique_sen_df.loc[randomize_indices]
     file_loc_list = extract_df['PATH']['file_root_syn'].values
     censor_start = extract_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
