@@ -34,7 +34,7 @@ def exp_init(Name='nibs_stage_1'):
     # Store info about the experiment session
     expName = Name  # from the Builder filename that created this script
     
-    Info = {'participant': '01',
+    Info = {'participant': '00',
             'session': '01',
             'First language': '',
             'German level': ['A1', 'A2', 'B1', 'B2'],
@@ -155,8 +155,10 @@ def component_init(routine, comp, comp_index):
 def routine_init(routine_name, comp_list):
     routine = {}
     routine["clock"] = core.Clock()
+    routine['property'] = {}
     for comp_ind, comp in enumerate(comp_list):
         routine[comp['comp_name']] = component_init(routine_name, comp, comp_ind)
+        # routine['property'].update({comp['comp_name']: comp['property']})
     return routine
 
 
@@ -315,7 +317,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
             stim_min_intensity, stim_full_intensity = stim_intensity_limit
             stim_continue_flag = stim_continue_flag
             if intensity_change_flag == None:
-                raise ValueError("For auto_stim, a flag is needed which is either 'i' or 'd'")
+                raise ValueError("For auto_stim, a flag is needed which is either 'i' or 'd' or 'keep'")
             else:         
                 if "i" == intensity_change_flag:
                     stim_current_intensity += stim_step_intensity
@@ -333,7 +335,7 @@ def run_comp(win, obj, obj_property, current_frame, current_time, current_routin
                         stim_current_intensity = stim_current_intensity
 
                     if stim_current_intensity < 0.01:
-                        stim_current_intensity = np.round(stim_current_intensity, 3)  # lower limit of waveform generator
+                        stim_current_intensity = np.round(stim_current_intensity, 3)  # lowest limit of waveform generator
                     else:
                         stim_current_intensity = np.round(stim_current_intensity, 2)
                     stim_obj.amp(stim_current_intensity)
@@ -407,6 +409,7 @@ def continue_justification(win, endExpNow_flag, defaultKeyboard, continueRoutine
     break_flag=False):
     # check for quit (typically the Esc key)
     if endExpNow_flag or defaultKeyboard.getKeys(keyList=["escape"]):
+        trigger_sending(1)  # Permanent reserved for exit
         core.quit()
     
     # check if all components have finished
@@ -429,6 +432,10 @@ def data_writer(target, obj, obj_str, list_kwgs):
     for kwgs in list_kwgs:
         if 'audio' in kwgs or 'beep' in kwgs or kwgs == 'question':
             obj[kwgs].stop() # ensure sound has stopped at end of routine
+        if kwgs == 'question':  # For audio stimuli
+            target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text) 
+        if kwgs == 'question_text':   # For visual stimuli
+            target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text)
         target.addData(obj_str + '_' + kwgs + '.started', obj[kwgs].tStartRefresh)
         target.addData(obj_str + '_' + kwgs + '.stopped', obj[kwgs].tStopRefresh)
     return target
@@ -655,6 +662,7 @@ def extract_qa(input_all_df=None, label='practice', subject=1, session=1, word_t
     censor_dur = extract_df['SENTENCE_INFO']['beeped_word_duration'].values
     sen_duration = extract_df['SENTENCE_INFO']['sentence_duration'].values
     sen_text = extract_df['SENTENCE_INFO']['sen_content'].values
+    cen_text = extract_df['SENTENCE_INFO']['beeped_word'].values
 
     if overwrite:
         for ind, value in enumerate(randomize_indices):
@@ -669,6 +677,72 @@ def extract_qa(input_all_df=None, label='practice', subject=1, session=1, word_t
         extract_df_new_index.to_pickle(file_root + 'Q_Session_' + str(session) + '_' + label + '_' + str(n_question) + '.pkl')
 
 
-    return extract_df, file_loc_list, censor_start, censor_dur, sen_duration, sen_text
+    return extract_df, file_loc_list, censor_start, censor_dur, sen_duration, sen_text, cen_text
 
 
+def intro_run(win, obj, name):
+    print('Log: ' + name + ' start')
+
+    breakpoint_logger(comp=name, value=1, run=None, block=None, trial=None)
+    # ------Prepare to start Routine "instruction"-------
+    # update component parameters for each repeat
+    if 'key_resp' in obj.keys():
+        obj['key_resp'].keys = []
+        obj['key_resp'].rt = []
+    # keep track of which components have finished
+    win, obj, objComponents, t, frameN, continueRoutine = pre_run_comp(win, obj)
+    trigger_mat = np.zeros((len(objComponents) - 1, 2))
+    comp_list = np.asarray([*obj['time'].keys()])
+    # trigger_encoding_sending('instruction', input_run=0, input_block=0, intro_rec=0, input_event=0)
+    # -------Run Routine "instruction"-------
+    enumerate_list = [*instruction.keys()]
+    for current_comp in enumerate_list.remove('clock'):
+        if current_comp != 'key_resp':
+            win, obj[current_comp], trigger_mat[0] = run_comp(
+            win, obj[current_comp], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=instruction['time']['text'][0], duration=instruction['time']['text'][1])
+
+    while continueRoutine:
+        # get current time
+        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+            instruction["clock"], win, frameN)
+
+        # *instruction["text"]* updates
+        win, instruction['text'], trigger_mat[0] = run_comp(
+            win, instruction['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=instruction['time']['text'][0], duration=instruction['time']['text'][1])
+
+        # *instruction["audio"]* updates
+        win, instruction['audio'], trigger_mat[1] = run_comp(
+            win, instruction['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=instruction['time']['audio'][0], duration=instruction['time']['audio'][1])
+        # *instruction['key_resp']* updates
+        waitOnFlip=False
+        win, instruction['key_resp'], continueRoutine, endExpNow, trigger_mat[2] = run_comp(
+            win, instruction['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=instruction['time']['key_resp'][0], duration=instruction['time']['key_resp'][1],
+            waitOnFlip=waitOnFlip)   
+        
+        # *instruction['cont']* updates
+        win, instruction['cont'], trigger_mat[3] = run_comp(
+            win, instruction['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=instruction['time']['cont'][0], duration=instruction['time']['cont'][1])
+
+        break_flag = False
+        win, continueRoutine, break_flag = continue_justification(
+            win, endExpNow, defaultKeyboard, continueRoutine, instructionComponents)
+
+        if trigger_mat.sum(axis=0)[0]:
+            pass # trigger_encoding_sending('instruction', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
+        if break_flag:
+            break
+    # trigger_encoding_sending('instruction', input_run=0, input_block=0, intro_rec=0, input_event=2)
+    # -------Ending Routine "instruction"-------
+    for thisComponent in instructionComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+
+    thisExp = data_writer(thisExp, instruction, 'instruction', ['text', 'cont'])
+    print('Log: instruction finish')
+    breakpoint_logger(comp='Instruction', value=0, run=None, block=None, trial=None)
+    routineTimer.reset()

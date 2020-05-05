@@ -7,7 +7,7 @@ Main: 254-255
 | ------------- HEADER -------------- | ----------------------- DATA ------------------- | -FOOTER- |
 | START Exp. | Instruction | Practice | Pre-Run | Run 0 | Run 1 | ... | Run 3 | Post-Run | END Exp. |
 | ................................... | ^     ^ | ^   ^ | ^   ^ | ... | ^   ^ | ^      ^ | ........ |
-| ................................... | 0     1 | 4   5 | 4   5 | ... | 4   5 | 2      3 | ........ |
+| ................................... | 2     3 | 4   5 | 4   5 | ... | 4   5 | 8      9 | ........ |
 =====================================================================================================
 
 
@@ -94,11 +94,13 @@ Plan B: (adopted)  --> Argument: Shorter duration (40 mins less than A) and RS i
 =============================
 |--- General Trigger (0) ---|
 =============================
-Pre-run   start/end: 0/1
-Post-Run  start/end: 2/3
+# Trigger 0 is illegal
+ESC terminate:       1
+
+Pre-Run   start/end: 2/3
 Run       start/end: 4/5
 Block     start/end: 6/7
-
+Post-run  start/end: 8/9  
 
 ========================================
 |--- Calibration Trial Trigger (10) ---|
