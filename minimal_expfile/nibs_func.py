@@ -25,6 +25,7 @@ from scipy.io.wavfile import write
 import parallel
 import numbers
 import pandas as pd
+import time
 
 
 def exp_init(Name='nibs_stage_1'):
@@ -434,14 +435,15 @@ def data_writer(target, obj, obj_str, list_kwgs):
             obj[kwgs].stop() # ensure sound has stopped at end of routine
         if kwgs == 'question':  # For audio stimuli
             target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text) 
-        if kwgs == 'question_text':   # For visual stimuli
+        if kwgs == 'question_text' or kwgs == 'text':   # For visual stimuli
             target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text)
+
         target.addData(obj_str + '_' + kwgs + '.started', obj[kwgs].tStartRefresh)
         target.addData(obj_str + '_' + kwgs + '.stopped', obj[kwgs].tStopRefresh)
     return target
 
 
-def trigger_sending(data, port='/dev/parport0'):
+def trigger_sending(data, port='/dev/parport0', default_sleep=None):
     try:
         value = np.uint8(data)
     except:
@@ -450,6 +452,8 @@ def trigger_sending(data, port='/dev/parport0'):
     try: 
         ext_port = parallel.Parallel(port=port)
         ext_port.setData(value)
+        if default_sleep is not None:
+            time.sleep(default_sleep) 
         return print('successfully send trigger: ' + str(value))
     except:
         return print('No device! Planned to send trigger: ' + str(value))

@@ -51,6 +51,38 @@ frameTolerance = 0.001  # how close to onset before 'same' frame
 continue_str = '          Press [space] key to continue.'
 font_type = 'Airal'
 
+# will be replaced as event_dict from jxu.data.utils.nibs_event_dict()[2]
+event_dict = {'ESC': 1,
+              'Test': 253,
+              'Main': 254,
+              'End':255,
+              'Pre_run': [2, 3],
+              'Post_run': [8, 9],
+              'Run': [4, 5],
+              'Block': [6, 7],
+              'Cali_intro': [10, 11],
+              'Cali_trial': [12, 13],
+              'Cali_display': [14, 15],
+              'Cali_ans': [16, 17],
+              'Cali_rec': [18, 19],
+              'Stim': [20, 21],
+              'Sham': [22, 23],
+              'Fade_in': [24, 25],
+              'Fade_out': [26, 27],
+              'Stable_stim': [28, 29],
+              'RS_intro': [30, 31],
+              'RS_open': [32, 33],
+              'RS_close': [34, 35],
+              'QA_intro': [40, 41],
+              'QA_trial': [42, 43],
+              'QA_audio': [44, 45],
+              'QA_ans': [46, 47],
+              'QA_rec': [48, 49],
+              'QA_cen_word': [50, 51],
+              'Pause': [60, 61],
+              'Break': [62, 63]}
+
+
 
 
 instruction_pos = [0.5, 0.1]
@@ -142,9 +174,7 @@ if flexible_qa_rec_start and external_question_flag:
     QA_a_beep_e_start = QA_break_start - QA_a_beep_e_dur - comp_gap
 
 
-    
-trigger_sending(254)   # trigger 254 represents real experiment
-
+trigger_sending(event_dict['Main'], default_sleep=True)  # trigger 254 represents main experiment
 # -----------------------------------------------------------------------------------
 # ------------------------ Setting: Initialization ----------------------------------
 # -----------------------------------------------------------------------------------
@@ -485,13 +515,12 @@ if Instruction_flag:
     breakpoint_logger(comp='Instruction', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
 
-
-
-trigger_sending(2)  # Sending trigger 0 (Pre-Run Intro Start)
-time.sleep(0.003)
 # ---------------------------------------------------
 # -------------- Cali_de_pre_intro ------------------
 # ---------------------------------------------------
+
+trigger_sending(event_dict['Pre_run'][0], default_sleep=True) # Sending trigger 2 (Pre-Run Start)
+
 if Cali_de_pre_intro_flag:
     print('Log: cali_pre_intro start')
     breakpoint_logger(comp='Cali_de_pre_intro', value=1, run=None, block=None, trial=None)
@@ -499,15 +528,16 @@ if Cali_de_pre_intro_flag:
     # update component parameters for each repeat
     Cali_de_pre_intro['key_resp'].keys = []
     Cali_de_pre_intro['key_resp'].rt = []
+    Cali_de_pre_intro['audio'].setSound(audio_root+'calibration/calibration.wav',secs=-1, hamming=True)
+
     # keep track of which components have finished
     win, Cali_de_pre_intro, Cali_de_pre_introComponents, t, frameN, continueRoutine = pre_run_comp(win, Cali_de_pre_intro)
     trigger_mat = np.zeros((len(Cali_de_pre_introComponents) - 1, 2))
     comp_list = np.asarray([*Cali_de_pre_intro['time'].keys()])
 
-    Cali_de_pre_intro['audio'].setSound(audio_root+'calibration/calibration.wav',secs=-1, hamming=True)
     # -------Run Routine "Cali_de_pre_intro"-------
     
-    trigger_sending(10)  # Sending trigger 0 (Pre-Run Start)
+    trigger_sending(event_dict['Cali_intro'][0], default_sleep=True) # Sending trigger 10 (Cali_de_pre_intro Start)
     while continueRoutine:
         # get current time
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -551,89 +581,65 @@ if Cali_de_pre_intro_flag:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
 
-
     thisExp = data_writer(thisExp, Cali_de_pre_intro, 'Cali_de_pre_intro', ['title', 'text', 'audio', 'cont'])
-    trigger_sending(11)  # Sending trigger 0 (Pre-Run Intro End)
-    # the Routine "Cali_de_pre_intro" was not non-slip safe, so reset the non-slip timer
+
+    trigger_sending(event_dict['Cali_intro'][1], default_sleep=True) # Sending trigger 11 (Cali_de_pre_intro End)
     print('Log: cali_pre_intro finish')
     breakpoint_logger(comp='Cali_de_pre_intro', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
 
+# ---------------------------------------------------
+# -------------- Cali_de_pre_rec ------------------
+# ---------------------------------------------------
 
 
-# ---------------------------------------------------------------------------
-# ------------------------ Start Calibration Trial --------------------------
-# ---------------------------------------------------------------------------
-# set up handler to look after randomisation of conditions etc
+if Cali_de_pre_rec_flag:
 
-cali_pre_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
-    extraInfo=expInfo, originPath=-1,
-    trialList=[None],
-    seed=None, name='pre_trial')
-thisExp.addLoop(cali_pre_trial)  # add the loop to the experiment
-thisCali_pre_trial = cali_pre_trial.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
-if thisCali_pre_trial != None:
-    for paramName in thisCali_pre_trial:
-        exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
+    # ---------------------------------------------------------------------------
+    # ------------------------ Start Calibration Trial --------------------------
+    # ---------------------------------------------------------------------------
+    # set up handler to look after randomisation of conditions etc
 
-for thisCali_pre_trial in cali_pre_trial:
-
-    if break_cali_pre_trial != None and cali_pre_trial.thisN < break_cali_pre_trial:
-        continue
-    break_cali_pre_trial = None   # clear the breakpoint
-
-    currentLoop = cali_pre_trial
+    cali_pre_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
+        extraInfo=expInfo, originPath=-1,
+        trialList=[None],
+        seed=None, name='pre_trial')
+    thisExp.addLoop(cali_pre_trial)  # add the loop to the experiment
+    thisCali_pre_trial = cali_pre_trial.trialList[0]  # so we can initialise stimuli with some values
     # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
     if thisCali_pre_trial != None:
         for paramName in thisCali_pre_trial:
             exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
-    trigger_sending(12)
-    time.sleep(0.003)
-    # ---------------------------------------------------
-    # --------------- Cali_de_pre_rec -------------------
-    # ---------------------------------------------------
-    if Cali_de_pre_rec_flag:
+
+    for thisCali_pre_trial in cali_pre_trial:
+
+        if break_cali_pre_trial != None and cali_pre_trial.thisN < break_cali_pre_trial:
+            continue
+        break_cali_pre_trial = None   # clear the breakpoint
+
+        currentLoop = cali_pre_trial
+        # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
+        if thisCali_pre_trial != None:
+            for paramName in thisCali_pre_trial:
+                exec('{} = thisCali_pre_trial[paramName]'.format(paramName))
+
+        # ------Prepare to start Routine "Cali_de_pre_rec"-------
         print('Log: cali_pre_rec start: Trial ' + str(cali_pre_trial.thisN))
         breakpoint_logger(comp='Cali_de_pre_rec', value=1, run=None, block=None, trial=cali_pre_trial.thisN)
-        # ------Prepare to start Routine "Cali_de_pre_rec"-------
-        # ------Prepare to start Routine "QA_rec"-------
-        routineTimer.add(30.000000)
-        # update component parameters for each repeat
-
-        """
-            # update component parameters for each repeat
-            ques_start = QA_rec['time']['question'][0]
-            if external_question_flag:
-                question_cnt += 1
-                Cali_de_pre_rec['question_text'].setText(sen_text[question_cnt])
-                Cali_de_pre_rec['time']['question'][1] = sen_duration[question_cnt] - 0.016
-                if flexible_qa_rec_start:
-                    QA_trial_dur = 30.00
-                    QA_rec['time']['beep_start'][0] = QA_q_start + sen_duration[question_cnt] + comp_gap
-                    QA_rec['time']['recording'][0] = QA_rec['time']['beep_start'][0] + QA_a_beep_s_dur + comp_gap
-                    QA_rec['time']['recording'][1] = QA_a_beep_e_start - QA_rec['time']['recording'][0] - comp_gap
-            else:
-                QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=-1, hamming=True)
-                QA_rec['time']['question'][1] = 5.63 - 0.02
-        """
-
+        
         if external_question_flag:
             question_cnt += 1
             Cali_de_pre_rec['question_text'].setText(sen_text[question_cnt])
         else:
             Cali_de_pre_rec['question_text'].setText('Text ' + str(cali_pre_trial.thisN))
-
-        # update component parameters for each repeat 
-        # Cali_de_pre_rec['key_resp'].keys = []
-        # Cali_de_pre_rec['key_resp'].rt = []
-
         # keep track of which components have finished
         win, Cali_de_pre_rec, Cali_de_pre_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Cali_de_pre_rec)
         trigger_mat = np.zeros((len(Cali_de_pre_recComponents) - 1, 2))
         comp_list = np.asarray([*Cali_de_pre_rec['time'].keys()])
-        # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=1, input_event=0)
+
         # -------Run Routine "Cali_de_pre_rec"-------
+        trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
+        routineTimer.add(30.000000)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -691,357 +697,27 @@ for thisCali_pre_trial in cali_pre_trial:
         print('Recording is saved!' + cali_pre_rec_file)
         # Add the detected time into the PsychoPy data file:
         thisExp.addData('filename', cali_pre_rec_file)
-        
         thisExp.nextEntry()
+
+        trigger_sending(event_dict['Cali_trial'][1], default_sleep=True) # Sending trigger 13 (Cali_trial End)
         print('Log: cali_pre_rec finish: Trial' + str(cali_pre_trial.thisN))
         breakpoint_logger(comp='Cali_de_pre_rec', value=0, run=None, block=None, trial=cali_pre_trial.thisN)
         # the Routine "Cali_de_pre_rec" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
-    time.sleep(0.003)
-    trigger_sending(13)
-    time.sleep(0.003)
 
-
-
-# ---------------------------------------------------
-# --------------------- Pause -----------------------
-# ---------------------------------------------------
-if Pause_flag:
-    trigger_sending(60)
-    # ------Prepare to start Routine "Pause"-------
-    # update component parameters for each repeat
-    Pause['key_resp'].keys = []
-    Pause['key_resp'].rt = []
-    Pause['cont'].setText('Pause: Please have some rest and '+ continue_str)
-
-    # keep track of which components have finished
-    win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
-    # -------Run Routine "Pause"-------
-    while continueRoutine:
-        # get current time
-        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-            Pause["clock"], win, frameN)
-        # update/draw components on each frame
-        # *Pause['audio']* updates
-        win, Pause['audio'], trigger = run_comp(
-            win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
-
-        waitOnFlip=False
-        win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
-            win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
-            waitOnFlip=waitOnFlip)   
-        # *Pause['cont']* updates
-        win, Pause['cont'], trigger = run_comp(
-            win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
-            repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
-
-        win, continueRoutine, break_flag = continue_justification(
-            win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
-        if break_flag:
-            break
-    # -------Ending Routine "Pause"-------
-    for thisComponent in PauseComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    thisExp.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
-    thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
-
-    thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
-    trigger_sending(61)
-    # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
-
-
-trigger_sending(3)  # Sending trigger 1 (Pre-Run End)
-time.sleep(0.003)
-# -----------------------------------------------------------------------------------
-# ------------------------------ Start Run ------------------------------------------
-# -----------------------------------------------------------------------------------
-
-
-# set up handler to look after randomisation of conditions etc
-run = data.TrialHandler(nReps=n_run, method='random', 
-    extraInfo=expInfo, originPath=-1,
-    trialList=[None],
-    seed=None, name='run')
-thisExp.addLoop(run)  # add the loop to the experiment
-thisRun = run.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisRun.rgb)
-if thisRun != None:
-    for paramName in thisRun:
-        exec('{} = thisRun[paramName]'.format(paramName))
-
-for thisRun in run:
-
-    if break_run != None and run.thisN < break_run:
-        continue
-    break_run = None   # clear the breakpoint
-
-
-    trigger_sending(4)   # Sending trigger 4 (Run Start)
-    time.sleep(0.003)
-    currentLoop = run
-
-    # abbreviate parameter names if possible (e.g. rgb = thisRun.rgb)
-    if thisRun != None:
-        for paramName in thisRun:
-            exec('{} = thisRun[paramName]'.format(paramName))
-
-    # ---------------------------------------------------
-    # --------------------- fade in ---------------------
-    # ---------------------------------------------------
-    if fade_in_flag:
-        breakpoint_logger(comp='fade_in', value=1, run=run.thisN, block=None, trial=None)
-        print('Log: fade in start: Run ' + str(run.thisN))
-
-        fade_in['text'].setText('Please remain seated until further notice via the earphone.')
-        # Instantiate the object for signal generator
-        try:
-            if isinstance(fg, SG()):
-                pass
-        except:
-            fg = SG()
-
-        # Fade in trigger: If sham stim, send trigger 22, otherwise 24
-        if run.thisN == stim_run[0]:
-            intensity_change_flag = 'i'
-            if stim_freq == 0:
-                trigger_sending(22)
-                time.sleep(0.003)
-                win.flip()
-                time.sleep(2.000)
-            else:
-                trigger_sending(20)
-                fg.amp(init_intensity)
-                fg.frequency(stim_freq)
-                time.sleep(1.0)
-                fg.on()
-                time.sleep(1.0)
-        else:
-            intensity_change_flag = 'keep'
-        # if np.abs(fg.get_amp()- max) > 0.01 and run.thisN in stim_run:
-        #     intensity_change_flag = 'i'
-        if intensity_change_flag == 'i':
-            trigger_sending(24)
-
-        # ------Prepare to start Routine "fade_in"-------
-        # keep track of which components have finished
-        win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
-        trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
-        comp_list = np.asarray([*fade_in['time'].keys()])
-
-
-        # To be able to enter to loop of maintain/update intensity
-        tmp_intensity = None
-        if not input_intensity < max_intensity:
-            tmp_intensity = input_intensity
-            input_intensity = max_intensity - 0.05  
-            
-        while input_intensity < max_intensity:
-            if tmp_intensity != None:
-                input_intensity = tmp_intensity
-                tmp_intensity = None
-                print('initial ' + str(input_intensity))
-
-            routineTimer.reset()
-            routineTimer.add(fade_in['time']['auto_stim'][1])
-            # -------Run Routine "fade_in"-------
-            while continueRoutine and routineTimer.getTime() > 0:
-                # get current time
-                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-                    fade_in["clock"], win, frameN)
-                # *fade_in["text"]* updates
-                win, fade_in['text'], trigger_mat[0] = run_comp(
-                    win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
-
-                # Only maintain or update the stim intensity during stim run
-                if stim_freq != 0 and run.thisN in stim_run:
-                    win, fade_in['auto_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, intensity_change_flag, trigger_mat[1] = run_comp(
-                        win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
-                        start_time=fade_in['time']['auto_stim'][0], duration=fade_in['time']['auto_stim'][1],
-                        stim_current_intensity=input_intensity, stim_intensity_limit=[min_intensity, max_intensity],
-                        stim_step_intensity=step_intensity, stim_obj=fg, intensity_change_flag=intensity_change_flag,
-                        stim=True)
-                    input_intensity = output_intensity
-
-                break_flag = False
-                win, continueRoutine, break_flag = continue_justification(
-                    win, endExpNow, defaultKeyboard, continueRoutine, fade_inComponents)
-
-                if trigger_mat.sum(axis=0)[0]:
-                    pass
-                if break_flag:
-                    break
-
-        # -------Ending Routine "fade_in"-------
-        for thisComponent in fade_inComponents:
-            if hasattr(thisComponent, "setAutoDraw"):
-                thisComponent.setAutoDraw(False)
-
-        thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
-        trigger_sending(25)
-        time.sleep(0.003)                    
-
-        print('Log: fade in end: Run ' + str(run.thisN))
-        breakpoint_logger(comp='fade_in', value=0, run=run.thisN, block=None, trial=None)
-        routineTimer.reset()
-        trigger_sending(28)
-        time.sleep(0.003)
-
-    # ---------------------------------------------------
-    # ---------------- Resting state --------------------
-    # ---------------------------------------------------
-    trigger_sending(6)
-    time.sleep(0.003)
-    RS_order = ['open', 'close']
-    random.shuffle(RS_order)
-    for RS_loop in range(2):
-
-        if break_rs_block != None and RS_loop < break_rs_block:
-            continue
-        break_rs_block = None   # clear the breakpoint
-
-
-        # ---------------------------------------------------
-        # ------------------- RS_intro ----------------------
-        # ---------------------------------------------------
-
-        if RS_intro_flag:
-            print('Log: RS intro start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
-            breakpoint_logger(comp='RS_intro', value=1, run=run.thisN, block=RS_loop, trial=None)
-            # ------Prepare to start Routine "RS_intro"-------
-            RS_intro['audio'].setSound(audio_root+'resting_state/rs_intro_' + RS_order[RS_loop] + '.wav', secs=-1, hamming=True)
-                
-            # keep track of which components have finished
-            win, RS_intro, RS_introComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_intro)
-            trigger_mat = np.zeros((len(RS_introComponents) - 1, 2))
-            comp_list = np.asarray([*RS_intro['time'].keys()])
-            trigger_sending(30)   # Sending trigger 30 (Resting State Intro Start)
-            # -------Run Routine "RS_intro"-------
-            while continueRoutine:
-                # get current time
-                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-                    RS_intro["clock"], win, frameN)
-
-                # *RS_intro["title"]* updates
-                win, RS_intro['title'], trigger_mat[0] = run_comp(
-                    win, RS_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_intro['time']['title'][0], duration=RS_intro['time']['title'][1])
-                # *Cali_de_pre_intro["title"]* updates
-                win, RS_intro['text'], trigger_mat[1] = run_comp(
-                    win, RS_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_intro['time']['text'][0], duration=RS_intro['time']['text'][1])
-                # *Cali_de_pre_intro["audio"]* updates
-                win, RS_intro['audio'], trigger_mat[2] = run_comp(
-                    win, RS_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_intro['time']['audio'][0], duration=RS_intro['time']['audio'][1])
-
-
-                win, continueRoutine, break_flag = continue_justification(
-                    win, endExpNow, defaultKeyboard, continueRoutine, RS_introComponents)
-                
-                if trigger_mat.sum(axis=0)[0]:
-                    pass # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=0, input_event=trigger_mat)
-                if break_flag:
-                    break
-            # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=0, input_event=2)
-            # -------Ending Routine "RS_intro"-------
-            for thisComponent in RS_introComponents:
-                if hasattr(thisComponent, "setAutoDraw"):
-                    thisComponent.setAutoDraw(False)
-
-            run = data_writer(run, RS_intro, 'RS_intro', ['title', 'text', 'audio'])
-            trigger_sending(31)   # Sending trigger 30 (Resting State Intro End)
-            # the Routine "RS_intro" was not non-slip safe, so reset the non-slip timer
-            print('Log: RS intro finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
-            breakpoint_logger(comp='RS_intro', value=0, run=run.thisN, block=RS_loop, trial=None)
-            routineTimer.reset()
-
-        # ---------------------------------------------------
-        # --------------------- RS_rec ----------------------
-        # ---------------------------------------------------
-        if RS_rec_flag:
-            print('Log: RS rec start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
-            breakpoint_logger(comp='RS_rec', value=1, run=run.thisN, block=RS_loop, trial=None)
-            if RS_order[RS_loop] == 'open':
-                trigger_sending(32)
-                RS_rec_text_str = 'Please keep relaxed and open your eyes.\nNote: Blinking is allowed.'
-                RS_rec['text'].setText(RS_rec_text_str)
-            elif RS_order[RS_loop] == 'close':
-                trigger_sending(34)
-                RS_rec_text_str = 'Please keep relaxed and close your eyes.\n'
-                RS_rec['text'].setText(RS_rec_text_str) 
-            # ------Prepare to start Routine "RS_rec"-------
-            # update component parameters for each repeat
-            RS_rec['key_resp'].keys = []
-            RS_rec['key_resp'].rt = []
-            # keep track of which components have finished
-            win, RS_rec, RS_recComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_rec)
-            trigger_mat = np.zeros((len(RS_recComponents) - 1, 2))
-            comp_list = np.asarray([*RS_rec['time'].keys()])
-            # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=0)
-            # -------Run Routine "RS_rec"-------
-            while continueRoutine:
-                # get current time
-                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-                    RS_rec["clock"], win, frameN)
-
-                # *RS_rec["text"]* updates
-                win, RS_rec['text'], trigger_mat[0] = run_comp(
-                    win, RS_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_rec['time']['text'][0], duration=RS_rec['time']['text'][1])
-                # *Cali_de_pre_rec['key_resp']* updates
-                waitOnFlip=False
-                win, RS_rec['key_resp'], continueRoutine, endExpNow, trigger_mat[1] = run_comp(
-                    win, RS_rec['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_rec['time']['key_resp'][0], duration=RS_rec['time']['key_resp'][1],
-                    waitOnFlip=waitOnFlip)   
-                # *Cali_de_pre_rec['cont']* updates
-                win, RS_rec['cont'], trigger_mat[2] = run_comp(
-                    win, RS_rec['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_rec['time']['cont'][0], duration=RS_rec['time']['cont'][1],
-                    repeat_per_frame=True, repeat_content=continue_str)
-                # *QA_rec["beep_end"]* updates
-                win, RS_rec['beep_end'], trigger_mat[3] = run_comp(
-                    win, RS_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_rec['time']['beep_end'][0], duration=RS_rec['time']['beep_end'][1])
-
-                win, continueRoutine, break_flag = continue_justification(
-                    win, endExpNow, defaultKeyboard, continueRoutine, RS_recComponents)
-                
-                if trigger_mat.sum(axis=0)[0]:
-                    pass # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=trigger_mat)
-                if break_flag:
-                    break
-            # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=2)
-            # -------Ending Routine "RS_rec"-------
-            for thisComponent in RS_recComponents:
-                if hasattr(thisComponent, "setAutoDraw"):
-                    thisComponent.setAutoDraw(False)
-            run = data_writer(run, RS_rec, 'RS_rec', ['text', 'cont'])
-            if RS_order[RS_loop] == 'open':
-                trigger_sending(33) 
-            elif RS_order[RS_loop] == 'close':
-                trigger_sending(35) 
-            # the Routine "RS_rec" was not non-slip safe, so reset the non-slip timer
-            print('Log: RS rec finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
-            breakpoint_logger(comp='RS_rec', value=0, run=run.thisN, block=RS_loop, trial=None)
-            routineTimer.reset()
 
     # ---------------------------------------------------
     # --------------------- Pause -----------------------
     # ---------------------------------------------------
     if Pause_flag:
-        trigger_sending(60)
+
+        trigger_sending(event_dict['Pause'][0], default_sleep=True) # Sending trigger 60 (Pause Start)
         # ------Prepare to start Routine "Pause"-------
         # update component parameters for each repeat
         Pause['key_resp'].keys = []
         Pause['key_resp'].rt = []
-        Pause['cont'].setText('Press [space] key to continue.')
+        Pause['cont'].setText('Pause: Please have some rest and '+ continue_str)
+
         # keep track of which components have finished
         win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
         # -------Run Routine "Pause"-------
@@ -1078,21 +754,349 @@ for thisRun in run:
         thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
 
         thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
-        trigger_sending(61)
+        trigger_sending(event_dict['Pause'][1], default_sleep=True) # Sending trigger 61 (Pause End)
+        # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+
+trigger_sending(event_dict['Pre_run'][1], default_sleep=True) # Sending trigger 3 (Pre-Run End)
+
+# -----------------------------------------------------------------------------------
+# ------------------------------ Start Run ------------------------------------------
+# -----------------------------------------------------------------------------------
+
+
+# set up handler to look after randomisation of conditions etc
+run = data.TrialHandler(nReps=n_run, method='random', 
+    extraInfo=expInfo, originPath=-1,
+    trialList=[None],
+    seed=None, name='run')
+thisExp.addLoop(run)  # add the loop to the experiment
+thisRun = run.trialList[0]  # so we can initialise stimuli with some values
+# abbreviate parameter names if possible (e.g. rgb = thisRun.rgb)
+if thisRun != None:
+    for paramName in thisRun:
+        exec('{} = thisRun[paramName]'.format(paramName))
+
+for thisRun in run:
+
+    if break_run != None and run.thisN < break_run:
+        continue
+    break_run = None   # clear the breakpoint
+
+    trigger_sending(event_dict['Run'][0], default_sleep=True) # Sending trigger 4 (Run Start)
+    currentLoop = run
+
+    # abbreviate parameter names if possible (e.g. rgb = thisRun.rgb)
+    if thisRun != None:
+        for paramName in thisRun:
+            exec('{} = thisRun[paramName]'.format(paramName))
+
+    # ---------------------------------------------------
+    # --------------------- fade in ---------------------
+    # ---------------------------------------------------
+    if fade_in_flag:
+        breakpoint_logger(comp='fade_in', value=1, run=run.thisN, block=None, trial=None)
+        print('Log: fade in start: Run ' + str(run.thisN))
+
+        fade_in['text'].setText('Please remain seated until further notice via the earphone.')
+        # Instantiate the object for signal generator
+        try:
+            if isinstance(fg, SG()):
+                pass
+        except:
+            fg = SG()
+
+        # Fade in trigger: If sham stim, send trigger 22, otherwise 24
+        if run.thisN == stim_run[0]:
+            intensity_change_flag = 'i'
+            if stim_freq == 0:
+                trigger_sending(event_dict['Sham'][0], default_sleep=True) # Sending trigger 22 (Sham stim Start)
+                win.flip()
+                time.sleep(2.000)
+            else:
+                trigger_sending(event_dict['Stim'][0], default_sleep=True) # Sending trigger 20 (Real stim Start)
+                fg.amp(init_intensity)
+                fg.frequency(stim_freq)
+                time.sleep(1.0)
+                fg.on()
+                time.sleep(1.0)
+        else:
+            intensity_change_flag = 'keep'
+        # if np.abs(fg.get_amp()- max) > 0.01 and run.thisN in stim_run:
+        #     intensity_change_flag = 'i'
+
+
+        # ------Prepare to start Routine "fade_in"-------
+        # keep track of which components have finished
+        win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
+        trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
+        comp_list = np.asarray([*fade_in['time'].keys()])
+
+
+        # To be able to enter to loop of maintain/update intensity
+        tmp_intensity = None
+        if not input_intensity < max_intensity:
+            tmp_intensity = input_intensity
+            input_intensity = max_intensity - 0.05  
+
+        if intensity_change_flag == 'i':
+            trigger_sending(event_dict['Fade_in'][0], default_sleep=True) # Sending trigger 24 (Fade_in Start)
+        while input_intensity < max_intensity:
+            if tmp_intensity != None:
+                input_intensity = tmp_intensity
+                tmp_intensity = None
+                print('initial ' + str(input_intensity))
+
+            routineTimer.reset()
+            routineTimer.add(fade_in['time']['auto_stim'][1])
+            # -------Run Routine "fade_in"-------
+            while continueRoutine and routineTimer.getTime() > 0:
+                # get current time
+                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                    fade_in["clock"], win, frameN)
+                # *fade_in["text"]* updates
+                win, fade_in['text'], trigger_mat[0] = run_comp(
+                    win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
+
+                # Only maintain or update the stim intensity during stim run
+                if stim_freq != 0 and run.thisN == stim_run[0]:
+                    win, fade_in['auto_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, intensity_change_flag, trigger_mat[1] = run_comp(
+                        win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        start_time=fade_in['time']['auto_stim'][0], duration=fade_in['time']['auto_stim'][1],
+                        stim_current_intensity=input_intensity, stim_intensity_limit=[min_intensity, max_intensity],
+                        stim_step_intensity=step_intensity, stim_obj=fg, intensity_change_flag=intensity_change_flag,
+                        stim=True)
+                    input_intensity = output_intensity
+
+                break_flag = False
+                win, continueRoutine, break_flag = continue_justification(
+                    win, endExpNow, defaultKeyboard, continueRoutine, fade_inComponents)
+
+                if trigger_mat.sum(axis=0)[0]:
+                    pass
+                if break_flag:
+                    break
+            if stim_freq != 0 and run.thisN == stim_run[0]:
+                intensity_change_flag == 'i'
+            else:
+                intensity_change_flag == 'keep'
+
+        # -------Ending Routine "fade_in"-------
+        for thisComponent in fade_inComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+
+        thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
+        if intensity_change_flag == 'i':
+            trigger_sending(event_dict['Fade_in'][1], default_sleep=True) # Sending trigger 25 (Fade_in End)
+                 
+
+        print('Log: fade in end: Run ' + str(run.thisN))
+        breakpoint_logger(comp='fade_in', value=0, run=run.thisN, block=None, trial=None)
+        routineTimer.reset()
+    
+    trigger_sending(event_dict['Stable_stim'][0], default_sleep=True) # Sending trigger 28 (Stable stim Start)
+
+    # ---------------------------------------------------------
+    # ---------------- Resting state block --------------------
+    # ---------------------------------------------------------
+
+    trigger_sending(event_dict['Block'][0], default_sleep=True) # Sending trigger 6 (Block Start)
+    RS_order = ['open', 'close']
+    random.shuffle(RS_order)
+    for RS_loop in range(2):
+
+        if break_rs_block != None and RS_loop < break_rs_block:
+            continue
+        break_rs_block = None   # clear the breakpoint
+
+        # ---------------------------------------------------
+        # ------------------- RS_intro ----------------------
+        # ---------------------------------------------------
+
+        if RS_intro_flag:
+            print('Log: RS intro start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_intro', value=1, run=run.thisN, block=RS_loop, trial=None)
+            # ------Prepare to start Routine "RS_intro"-------
+            RS_intro['audio'].setSound(audio_root+'resting_state/rs_intro_' + RS_order[RS_loop] + '.wav', secs=-1, hamming=True)
+                
+            # keep track of which components have finished
+            win, RS_intro, RS_introComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_intro)
+            trigger_mat = np.zeros((len(RS_introComponents) - 1, 2))
+            comp_list = np.asarray([*RS_intro['time'].keys()])
+
+            trigger_sending(event_dict['RS_intro'][0], default_sleep=True) # Sending trigger 30 (RS_intro Start)
+            # -------Run Routine "RS_intro"-------
+            while continueRoutine:
+                # get current time
+                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                    RS_intro["clock"], win, frameN)
+
+                # *RS_intro["title"]* updates
+                win, RS_intro['title'], trigger_mat[0] = run_comp(
+                    win, RS_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_intro['time']['title'][0], duration=RS_intro['time']['title'][1])
+                # *Cali_de_pre_intro["title"]* updates
+                win, RS_intro['text'], trigger_mat[1] = run_comp(
+                    win, RS_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_intro['time']['text'][0], duration=RS_intro['time']['text'][1])
+                # *Cali_de_pre_intro["audio"]* updates
+                win, RS_intro['audio'], trigger_mat[2] = run_comp(
+                    win, RS_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_intro['time']['audio'][0], duration=RS_intro['time']['audio'][1])
+
+
+                win, continueRoutine, break_flag = continue_justification(
+                    win, endExpNow, defaultKeyboard, continueRoutine, RS_introComponents)
+                
+                if trigger_mat.sum(axis=0)[0]:
+                    pass
+                if break_flag:
+                    break
+
+            # -------Ending Routine "RS_intro"-------
+            for thisComponent in RS_introComponents:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+
+            run = data_writer(run, RS_intro, 'RS_intro', ['title', 'text', 'audio'])
+            trigger_sending(event_dict['RS_intro'][1], default_sleep=True) # Sending trigger 31 (RS_intro Start)
+            # the Routine "RS_intro" was not non-slip safe, so reset the non-slip timer
+            print('Log: RS intro finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_intro', value=0, run=run.thisN, block=RS_loop, trial=None)
+            routineTimer.reset()
+
+        # ---------------------------------------------------
+        # --------------------- RS_rec ----------------------
+        # ---------------------------------------------------
+        if RS_rec_flag:
+            print('Log: RS rec start: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_rec', value=1, run=run.thisN, block=RS_loop, trial=None)
+            if RS_order[RS_loop] == 'open':
+                trigger_sending(event_dict['RS_open'][0], default_sleep=True) # Sending trigger 32 (RS_open Start)
+                RS_rec_text_str = 'Please keep relaxed and open your eyes.\nNote: Blinking is allowed.'
+                RS_rec['text'].setText(RS_rec_text_str)
+            elif RS_order[RS_loop] == 'close':
+                trigger_sending(event_dict['RS_close'][0], default_sleep=True) # Sending trigger 34 (RS_close Start)
+                RS_rec_text_str = 'Please keep relaxed and close your eyes.\n'
+                RS_rec['text'].setText(RS_rec_text_str) 
+            # ------Prepare to start Routine "RS_rec"-------
+            # update component parameters for each repeat
+            RS_rec['key_resp'].keys = []
+            RS_rec['key_resp'].rt = []
+            # keep track of which components have finished
+            win, RS_rec, RS_recComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_rec)
+            trigger_mat = np.zeros((len(RS_recComponents) - 1, 2))
+            comp_list = np.asarray([*RS_rec['time'].keys()])
+            # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=0)
+            # -------Run Routine "RS_rec"-------
+            while continueRoutine:
+                # get current time
+                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                    RS_rec["clock"], win, frameN)
+
+                # *RS_rec["text"]* updates
+                win, RS_rec['text'], trigger_mat[0] = run_comp(
+                    win, RS_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_rec['time']['text'][0], duration=RS_rec['time']['text'][1])
+                # *Cali_de_pre_rec['key_resp']* updates
+                waitOnFlip=False
+                win, RS_rec['key_resp'], continueRoutine, endExpNow, trigger_mat[1] = run_comp(
+                    win, RS_rec['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_rec['time']['key_resp'][0], duration=RS_rec['time']['key_resp'][1],
+                    waitOnFlip=waitOnFlip)
+                # *Cali_de_pre_rec['cont']* updates
+                win, RS_rec['cont'], trigger_mat[2] = run_comp(
+                    win, RS_rec['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_rec['time']['cont'][0], duration=RS_rec['time']['cont'][1],
+                    repeat_per_frame=True, repeat_content=continue_str)
+                # *QA_rec["beep_end"]* updates
+                win, RS_rec['beep_end'], trigger_mat[3] = run_comp(
+                    win, RS_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    start_time=RS_rec['time']['beep_end'][0], duration=RS_rec['time']['beep_end'][1])
+
+                win, continueRoutine, break_flag = continue_justification(
+                    win, endExpNow, defaultKeyboard, continueRoutine, RS_recComponents)
+                
+                if trigger_mat.sum(axis=0)[0]:
+                    pass # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=trigger_mat)
+                if break_flag:
+                    break
+            # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=2)
+            # -------Ending Routine "RS_rec"-------
+            for thisComponent in RS_recComponents:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+            run = data_writer(run, RS_rec, 'RS_rec', ['text', 'cont'])
+            if RS_order[RS_loop] == 'open':
+                trigger_sending(event_dict['RS_open'][1], default_sleep=True) # Sending trigger 34 (RS_open End) 
+            elif RS_order[RS_loop] == 'close':
+                trigger_sending(event_dict['RS_close'][1], default_sleep=True) # Sending trigger 35 (RS_close End) 
+            # the Routine "RS_rec" was not non-slip safe, so reset the non-slip timer
+            print('Log: RS rec finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
+            breakpoint_logger(comp='RS_rec', value=0, run=run.thisN, block=RS_order[RS_loop], trial=None)
+            routineTimer.reset()
+
+    # ---------------------------------------------------
+    # --------------------- Pause -----------------------
+    # ---------------------------------------------------
+    if Pause_flag:
+
+        # ------Prepare to start Routine "Pause"-------
+        # update component parameters for each repeat
+        Pause['key_resp'].keys = []
+        Pause['key_resp'].rt = []
+        Pause['cont'].setText('Press [space] key to continue.')
+        # keep track of which components have finished
+        win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
+        # -------Run Routine "Pause"-------
+        trigger_sending(event_dict['Pause'][0], default_sleep=True) # Sending trigger 60 (Pause Start)
+        while continueRoutine:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                Pause["clock"], win, frameN)
+            # update/draw components on each frame
+            # *Pause['audio']* updates
+            win, Pause['audio'], trigger = run_comp(
+                win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
+
+            waitOnFlip=False
+            win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
+                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
+                waitOnFlip=waitOnFlip)   
+            # *Pause['cont']* updates
+            win, Pause['cont'], trigger = run_comp(
+                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
+                repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
+
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
+            if break_flag:
+                break
+        # -------Ending Routine "Pause"-------
+        for thisComponent in PauseComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        thisExp.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
+        thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
+
+        thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
+        trigger_sending(event_dict['Pause'][1], default_sleep=True) # Sending trigger 61 (Pause End)
         # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
 
 
-
-
-    time.sleep(0.003)
-    trigger_sending(7)
+    trigger_sending(event_dict['Block'][1], default_sleep=True) # Sending trigger 7 (Block End)
 
     # ---------------------------------------------------
     # ------------------- QA_intro ----------------------
     # ---------------------------------------------------
-    time.sleep(0.003)
-    trigger_sending(40) 
+    # (ps. For QA_intro, it is unnecessary to repeat twice, hence no block trigger sent here)
+
     if QA_intro_flag:
         # ------Prepare to start Routine "QA_intro"-------
         # update component parameters for each repeat
@@ -1109,6 +1113,7 @@ for thisRun in run:
         print('Log: QA intro start: Run ' + str(run.thisN))
         breakpoint_logger(comp='QA_intro', value=1, run=run.thisN, block=None, trial=None)
         # -------Run Routine "QA_intro"-------
+        trigger_sending(event_dict['QA_intro'][0], default_sleep=True) # Sending trigger 40 (QA_intro Start)
         while continueRoutine:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -1157,8 +1162,7 @@ for thisRun in run:
         print('Log: QA intro finish: Run ' + str(run.thisN))
         breakpoint_logger(comp='QA_intro', value=0, run=run.thisN, block=None, trial=None)
         routineTimer.reset()
-    time.sleep(0.003)
-    trigger_sending(41) 
+        trigger_sending(event_dict['QA_intro'][1], default_sleep=True) # Sending trigger 41 (QA_intro End)
     # -------------------------------------------------------------------------------
     # ------------------------------ Start Block ------------------------------------
     # -------------------------------------------------------------------------------
@@ -1185,9 +1189,7 @@ for thisRun in run:
             continue
         break_qa_block = None   # clear the breakpoint
 
-
-        time.sleep(0.003)
-        trigger_sending(6)
+        trigger_sending(event_dict['Block'][0], default_sleep=True) # Sending trigger 6 (Block Start)
         currentLoop = QA_block
         # abbreviate parameter names if possible (e.g. rgb = thisQA_block.rgb)
         if thisQA_block != None:
@@ -1223,9 +1225,6 @@ for thisRun in run:
                     QA_intro_flag = 1
 
             break_qa_trial = None   # clear the breakpoint
-
-            time.sleep(0.003)
-            trigger_sending(42)
             currentLoop = QA_trial
             # abbreviate parameter names if possible (e.g. rgb = thisQA_trial.rgb)
             if thisQA_trial != None:
@@ -1239,11 +1238,9 @@ for thisRun in run:
             if QA_rec_flag:
                 print('Log: QA rec start: Run ' + str(run.thisN) + ' Block ' + str(QA_block.thisN) + 'Trial ' + str(QA_trial.thisN))
                 breakpoint_logger(comp='QA_rec', value=1, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
-                # ------Prepare to start Routine "QA_rec"-------
-                routineTimer.add(30.000000)
+
                 # update component parameters for each repeat
                 ques_start = QA_rec['time']['question'][0]
-
                 if external_question_flag:
                     question_cnt += 1
                     QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
@@ -1251,28 +1248,24 @@ for thisRun in run:
                     QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], censor_question_duration[question_cnt]]
                     QA_rec['question'].sen_text = sen_text[question_cnt]
                     QA_rec['question'].cen_text = cen_text[question_cnt]
-
                     if flexible_qa_rec_start:
                         QA_trial_dur = 30.00
                         QA_rec['time']['beep_start'][0] = QA_q_start + sen_duration[question_cnt] + comp_gap
                         QA_rec['time']['recording'][0] = QA_rec['time']['beep_start'][0] + QA_a_beep_s_dur + comp_gap
                         QA_rec['time']['recording'][1] = QA_a_beep_e_start - QA_rec['time']['recording'][0] - comp_gap
-
                 else:
                     QA_rec['question'].setSound('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/old_data/article_0/sentence_0/sentence_0_syn_44100.wav', secs=-1, hamming=True)
                     QA_rec['time']['censor_word'] = [ques_start + 0.706, 0.694]
                     QA_rec['time']['question'][1] = 5.63 - 0.02
-
-
-
-
                 # QA_rec['question'].setVolume(1, log=False)
 
                 # keep track of which components have finished
                 win, QA_rec, QA_recComponents, t, frameN, continueRoutine = pre_run_comp(win, QA_rec)
                 trigger_mat = np.zeros((len(QA_recComponents) - 1, 2))
                 comp_list = np.asarray([*QA_rec['time'].keys()])
-
+                # ------Prepare to start Routine "QA_rec"-------
+                routineTimer.add(30.000000)
+                trigger_sending(event_dict['QA_trial'][0], default_sleep=True) # Sending trigger 42 (QA_trial Start)
                 # -------Run Routine "QA_rec"-------
                 while continueRoutine and routineTimer.getTime() > 0:
                     # get current time
@@ -1330,16 +1323,17 @@ for thisRun in run:
                 q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_block.thisN).zfill(3) + '_trial_' + str(QA_trial.thisN).zfill(3)  + '.wav' 
                 write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file 
                 print('Recording is saved!' + q_a_rec_file)
-                thisExp.addData('filename', q_a_rec_file)
-                thisExp.nextEntry()
+ 
                 print('Log: QA rec finish: Run ' + str(run.thisN) + ' Block ' + str(QA_block.thisN) + 'Trial ' + str(QA_trial.thisN))
                 breakpoint_logger(comp='QA_rec', value=0, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
-
-            time.sleep(0.003)
-            trigger_sending(43)
+                jxu_logging.info(
+                    'Run-%s, Block-%s, Trial-%s, Q_cnt-%s, Q_sen-%s, Q_cen-%s' %(
+                        run, block, trial, question_cnt, QA_rec['question'].sen_text, QA_rec['question'].cen_text ))
+                thisExp.addData('filename', q_a_rec_file)
+                thisExp.nextEntry()
+                trigger_sending(event_dict['QA_trial'][1], default_sleep=True) # Sending trigger 43 (QA_trial End)
         
-        time.sleep(0.003)
-        trigger_sending(7)
+        trigger_sending(event_dict['Block'][1], default_sleep=True) # Sending trigger 7 (Block End)
         # completed 3 repeats of 'QA_trial'
         # ---------------------------------------------------
         # --------------------- Pause -----------------------
@@ -1353,6 +1347,7 @@ for thisRun in run:
             # keep track of which components have finished
             win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
             # -------Run Routine "Pause"-------
+            trigger_sending(event_dict['Pause'][0], default_sleep=True) # Sending trigger 60 (Pause Start)
             while continueRoutine:
                 # get current time
                 frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -1387,7 +1382,7 @@ for thisRun in run:
 
             QA_block = data_writer(QA_block, Pause, 'Pause', ['cont'])
             # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
-
+            trigger_sending(event_dict['Pause'][1], default_sleep=True) # Sending trigger 60 (Pause End)
             routineTimer.reset()
         thisExp.nextEntry()
         
@@ -1395,15 +1390,15 @@ for thisRun in run:
 
     if fade_out_flag:
         print('Log: fade out start: Run ' + str(run.thisN))
-        trigger_sending(29)
-        time.sleep(0.003)
+        trigger_sending(event_dict['Stable_stim'][1], default_sleep=True) # Sending trigger 29 (Stable_stim End)
 
         time.sleep(60.000)
         if stim_freq == 0:
-            trigger_sending(23)
-            win.flip()
 
+            win.flip()
             time.sleep(60.000)
+            if run.thisN == stim_run[-1]:
+                trigger_sending(event_dict['Sham'][1], default_sleep=True) # Sending trigger 23 (Sham End)
         else:
             if run.thisN == stim_run[-1]:
                 # ------Prepare to start Routine "fade_in"-------
@@ -1414,7 +1409,7 @@ for thisRun in run:
                 comp_list = np.asarray([*fade_in['time'].keys()])
                 # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=0)
                 stim_continue = False
-                trigger_sending(26)
+                trigger_sending(event_dict['Fade_out'][0], default_sleep=True) # Sending trigger 26 (Fade_out Start)
                 if run.thisN >= stim_run[0] + 1:
                     tmp_intensity = input_intensity
                     input_intensity = max_intensity - 0.05  # To be able to enter to loop of decreasing intensity
@@ -1467,8 +1462,7 @@ for thisRun in run:
                     
                     # print('here input' + str(input_intensity))
 
-                trigger_sending(27)
-                time.sleep(0.003)
+                trigger_sending(event_dict['Fade_out'][1], default_sleep=True) # Sending trigger 27 (Fade_out End)
                 # trigger_encoding_sending('fade_in', input_run=0, input_block=0, intro_rec=0, input_event=2)
                 # -------Ending Routine "fade_in"-------
                 for thisComponent in fade_inComponents:
@@ -1484,23 +1478,19 @@ for thisRun in run:
                     fg.off()
 
 
-                trigger_sending(21)
-                time.sleep(0.003)
+                trigger_sending(event_dict['Stim'][1], default_sleep=True) # Sending trigger 21 (Stim End)
             else:
                 win.flip()
                 time.sleep(30.000)
             routineTimer.reset()
         print('Log: fade out finish: Run ' + str(run.thisN))
 
-    trigger_sending(5)   # Sending trigger 4 (Run End)
-    time.sleep(0.003)
+    trigger_sending(event_dict['Run'][1], default_sleep=True) # Sending trigger 5 (Run End)
     thisExp.nextEntry()
     
 # completed 3 repeats of 'run'
 
-
-trigger_sending(8)  # Sending trigger 0 (Post-Run Start)
-time.sleep(0.003)
+trigger_sending(event_dict['Post_run'][0], default_sleep=True) # Sending trigger 8 (Post_run Start)
 # ---------------------------------------------------
 # -------------- Cali_de_post_intro -----------------
 # ---------------------------------------------------
@@ -1568,45 +1558,39 @@ if Cali_de_post_intro_flag:
     routineTimer.reset()
 
 
+# ---------------------------------------------------
+# --------------- Cali_de_post_rec -------------------
+# ---------------------------------------------------
+if Cali_de_post_rec_flag:
+    # ---------------------------------------------------------------------------
+    # ------------------------ Start Calibration Trial --------------------------
+    # ---------------------------------------------------------------------------
+    # set up handler to look after randomisation of conditions etc
 
-# ---------------------------------------------------------------------------
-# ------------------------ Start Calibration Trial --------------------------
-# ---------------------------------------------------------------------------
-# set up handler to look after randomisation of conditions etc
-
-cali_post_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
-    extraInfo=expInfo, originPath=-1,
-    trialList=[None],
-    seed=None, name='post_trial')
-thisExp.addLoop(cali_post_trial)  # add the loop to the experiment
-thisCali_post_trial = cali_post_trial.trialList[0]  # so we can initialise stimuli with some values
-# abbreviate parameter names if possible (e.g. rgb = thisCali_post_trial.rgb)
-if thisCali_post_trial != None:
-    for paramName in thisCali_post_trial:
-        exec('{} = thisCali_post_trial[paramName]'.format(paramName))
-
-for thisCali_post_trial in cali_post_trial:
-
-    if break_cali_post_trial != None and cali_post_trial.thisN < break_cali_post_trial:
-        continue
-
-    currentLoop = cali_post_trial
+    cali_post_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
+        extraInfo=expInfo, originPath=-1,
+        trialList=[None],
+        seed=None, name='post_trial')
+    thisExp.addLoop(cali_post_trial)  # add the loop to the experiment
+    thisCali_post_trial = cali_post_trial.trialList[0]  # so we can initialise stimuli with some values
     # abbreviate parameter names if possible (e.g. rgb = thisCali_post_trial.rgb)
     if thisCali_post_trial != None:
         for paramName in thisCali_post_trial:
             exec('{} = thisCali_post_trial[paramName]'.format(paramName))
-    trigger_sending(12)
-    time.sleep(0.003)
-    # ---------------------------------------------------
-    # --------------- Cali_de_post_rec -------------------
-    # ---------------------------------------------------
-    if Cali_de_post_rec_flag:
+
+    for thisCali_post_trial in cali_post_trial:
+
+        if break_cali_post_trial != None and cali_post_trial.thisN < break_cali_post_trial:
+            continue
+
+        currentLoop = cali_post_trial
+        # abbreviate parameter names if possible (e.g. rgb = thisCali_post_trial.rgb)
+        if thisCali_post_trial != None:
+            for paramName in thisCali_post_trial:
+                exec('{} = thisCali_post_trial[paramName]'.format(paramName))
+
         print('Log: cali_post_rec start: Trial ' + str(cali_post_trial.thisN))
         breakpoint_logger(comp='Cali_de_post_rec', value=1, run=None, block=None, trial=cali_post_trial.thisN)
-        # ------Prepare to start Routine "Cali_de_post_rec"-------
-        # ------Prepare to start Routine "QA_rec"-------
-        routineTimer.add(30.000000)
-        # update component parameters for each repeat
 
         if external_question_flag:
             question_cnt += 1
@@ -1614,15 +1598,14 @@ for thisCali_post_trial in cali_post_trial:
         else:
             Cali_de_post_rec['question_text'].setText('Text ' + str(cali_post_trial.thisN))
 
-        # update component parameters for each repeat 
-
-
         # keep track of which components have finished
         win, Cali_de_post_rec, Cali_de_post_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Cali_de_post_rec)
         trigger_mat = np.zeros((len(Cali_de_post_recComponents) - 1, 2))
         comp_list = np.asarray([*Cali_de_post_rec['time'].keys()])
-        # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=1, input_event=0)
+
         # -------Run Routine "Cali_de_post_rec"-------
+        routineTimer.add(30.000000)
+        trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -1686,60 +1669,58 @@ for thisCali_post_trial in cali_post_trial:
         print('Log: cali_post_rec finish: Trial ' + str(cali_post_trial.thisN))
         breakpoint_logger(comp='Cali_de_post_rec', value=0, run=None, block=None, trial=cali_post_trial.thisN)
         routineTimer.reset()
-    trigger_sending(13)
-    time.sleep(0.003)
+        trigger_sending(event_dict['Cali_trial'][1], default_sleep=True) # Sending trigger 13 (Cali_trial End)
 
 
-# ---------------------------------------------------
-# --------------------- Pause -----------------------
-# ---------------------------------------------------
-if Pause_flag:
-    trigger_sending(60)
-    # ------Prepare to start Routine "Pause"-------
-    # update component parameters for each repeat
-    Pause['key_resp'].keys = []
-    Pause['key_resp'].rt = []
-    Pause['cont'].setText('Press [space] key to continue.')
-    # keep track of which components have finished
-    win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
-    # -------Run Routine "Pause"-------
-    while continueRoutine:
-        # get current time
-        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
-            Pause["clock"], win, frameN)
-        # update/draw components on each frame
+    # ---------------------------------------------------
+    # --------------------- Pause -----------------------
+    # ---------------------------------------------------
+    if Pause_flag:
+        # ------Prepare to start Routine "Pause"-------
+        # update component parameters for each repeat
+        Pause['key_resp'].keys = []
+        Pause['key_resp'].rt = []
+        Pause['cont'].setText('Press [space] key to continue.')
+        # keep track of which components have finished
+        win, Pause, PauseComponents, t, frameN, continueRoutine = pre_run_comp(win, Pause)
+        # -------Run Routine "Pause"-------
+        trigger_sending(event_dict['Pause'][0], default_sleep=True) # Sending trigger 60 (Pause Start)
+        while continueRoutine:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                Pause["clock"], win, frameN)
+            # update/draw components on each frame
 
-        # *Cali_de_pre_intro['key_resp']* updates
-        waitOnFlip=False
-        win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
-            win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
-            waitOnFlip=waitOnFlip)   
-        # *Cali_de_pre_intro['cont']* updates
-        win, Pause['cont'], trigger = run_comp(
-            win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-            start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
-            repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
+            # *Cali_de_pre_intro['key_resp']* updates
+            waitOnFlip=False
+            win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
+                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
+                waitOnFlip=waitOnFlip)   
+            # *Cali_de_pre_intro['cont']* updates
+            win, Pause['cont'], trigger = run_comp(
+                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
+                repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
-        win, continueRoutine, break_flag = continue_justification(
-            win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
-        if break_flag:
-            break
-    # -------Ending Routine "Pause"-------
-    for thisComponent in PauseComponents:
-        if hasattr(thisComponent, "setAutoDraw"):
-            thisComponent.setAutoDraw(False)
-    thisExp.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
-    thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, PauseComponents)
+            if break_flag:
+                break
+        # -------Ending Routine "Pause"-------
+        for thisComponent in PauseComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+        thisExp.addData('Pause_cont.started', Pause['cont'].tStartRefresh)
+        thisExp.addData('Pause_cont.stopped', Pause['cont'].tStopRefresh)
 
-    thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
-    trigger_sending(61)
-    # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset()
+        thisExp = data_writer(thisExp, Pause, 'Pause', ['cont'])
+        trigger_sending(event_dict['Pause'][1], default_sleep=True) # Sending trigger 61 (Pause End)
 
-trigger_sending(9)  # Sending trigger 0 (Post-Run Finish)
-time.sleep(0.003)
+        # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
 
+trigger_sending(event_dict['Post_run'][1], default_sleep=True) # Sending trigger 9 (Post_run End)
 
 # ---------------------------------------------------
 # ---------------------- End ------------------------
@@ -1782,7 +1763,8 @@ if end_flag:
 
     # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
-trigger_sending(255)
+
+trigger_sending(event_dict['End'], default_sleep=True)  # trigger 255 represents experiment ends
 
 
 
