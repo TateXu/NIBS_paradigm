@@ -1,0 +1,51 @@
+Mi, 06 Mai 2020 20:30:47 +0000  Cali_de_pre_intro 1 None None None
+Mi, 06 Mai 2020 20:33:24 +0000  Cali_de_pre_intro 0 None None None
+Mi, 06 Mai 2020 20:33:24 +0000  Cali_de_pre_rec 1 None None 0
+Mi, 06 Mai 2020 20:33:44 +0000  Cali_de_pre_rec 0 None None 0
+Mi, 06 Mai 2020 20:33:44 +0000  Cali_de_pre_rec 1 None None 1
+Mi, 06 Mai 2020 20:34:04 +0000  Cali_de_pre_rec 0 None None 1
+Mi, 06 Mai 2020 20:34:04 +0000  RS_intro 1 0 0 None
+Mi, 06 Mai 2020 20:34:25 +0000  RS_intro 0 0 0 None
+Mi, 06 Mai 2020 20:34:25 +0000  RS_rec 1 0 0 None
+Mi, 06 Mai 2020 20:35:06 +0000  RS_rec 0 0 open None
+Mi, 06 Mai 2020 20:35:06 +0000  RS_intro 1 0 1 None
+Mi, 06 Mai 2020 20:35:27 +0000  RS_intro 0 0 1 None
+Mi, 06 Mai 2020 20:35:27 +0000  RS_rec 1 0 1 None
+Mi, 06 Mai 2020 20:35:51 +0000  RS_rec 0 0 close None
+Mi, 06 Mai 2020 20:35:51 +0000  QA_intro 1 0 None None
+Mi, 06 Mai 2020 20:36:38 +0000  QA_intro 0 0 None None
+Mi, 06 Mai 2020 20:36:38 +0000  QA_rec 1 0 0 0
+Mi, 06 Mai 2020 20:37:08 +0000  QA_rec 0 0 0 0
+Mi, 06 Mai 2020 20:37:08 +0000  Run-0, Block-0, Trial-0, Q_cnt-2, Q_sen-Und Maggie deckt den Mittagstisch ., Q_cen-deckt
+Mi, 06 Mai 2020 20:37:08 +0000  QA_rec 1 0 0 1
+Mi, 06 Mai 2020 20:37:38 +0000  QA_rec 0 0 0 1
+Mi, 06 Mai 2020 20:37:38 +0000  Run-0, Block-0, Trial-1, Q_cnt-3, Q_sen-Dieses Brot ist maschinell hergestellt worden ., Q_cen-hergestellt
+Mi, 06 Mai 2020 20:37:38 +0000  QA_rec 1 0 1 0
+Mi, 06 Mai 2020 20:38:08 +0000  QA_rec 0 0 1 0
+Mi, 06 Mai 2020 20:38:08 +0000  Run-0, Block-1, Trial-0, Q_cnt-4, Q_sen-In Neuseeland und Irland ist es so grün , weil es besonders oft regnet ., Q_cen-regnet
+Mi, 06 Mai 2020 20:38:08 +0000  QA_rec 1 0 1 1
+Mi, 06 Mai 2020 20:38:38 +0000  QA_rec 0 0 1 1
+Mi, 06 Mai 2020 20:38:38 +0000  Run-0, Block-1, Trial-1, Q_cnt-5, Q_sen-Nun geht sie jeden Tag in den Prater zum Laufen ., Q_cen-geht
+Mi, 06 Mai 2020 20:38:38 +0000  RS_intro 1 1 0 None
+Mi, 06 Mai 2020 20:38:59 +0000  RS_intro 0 1 0 None
+Mi, 06 Mai 2020 20:38:59 +0000  RS_rec 1 1 0 None
+Mi, 06 Mai 2020 20:39:21 +0000  RS_rec 0 1 close None
+Mi, 06 Mai 2020 20:39:21 +0000  RS_intro 1 1 1 None
+Mi, 06 Mai 2020 20:39:42 +0000  RS_intro 0 1 1 None
+Mi, 06 Mai 2020 20:39:42 +0000  RS_rec 1 1 1 None
+Mi, 06 Mai 2020 20:40:10 +0000  RS_rec 0 1 open None
+Mi, 06 Mai 2020 20:40:10 +0000  QA_intro 1 1 None None
+Mi, 06 Mai 2020 20:40:51 +0000  QA_intro 0 1 None None
+Mi, 06 Mai 2020 20:40:51 +0000  QA_rec 1 1 0 0
+Mi, 06 Mai 2020 20:41:21 +0000  QA_rec 0 1 0 0
+Mi, 06 Mai 2020 20:41:21 +0000  Run-1, Block-0, Trial-0, Q_cnt-6, Q_sen-Wie lange muss Pat heute noch arbeiten ?, Q_cen-muss
+Mi, 06 Mai 2020 20:41:21 +0000  QA_rec 1 1 0 1
+Mi, 06 Mai 2020 20:41:51 +0000  QA_rec 0 1 0 1
+Mi, 06 Mai 2020 20:41:51 +0000  Run-1, Block-0, Trial-1, Q_cnt-7, Q_sen-Wie siehst du denn aus !, Q_cen-siehst
+Mi, 06 Mai 2020 20:41:51 +0000  QA_rec 1 1 1 0
+Mi, 06 Mai 2020 20:42:21 +0000  QA_rec 0 1 1 0
+Mi, 06 Mai 2020 20:42:21 +0000  Run-1, Block-1, Trial-0, Q_cnt-8, Q_sen-Bei dem Gewitter letzte Woche hat der Blitz in ein Boot eingeschlagen ., Q_cen-eingeschlagen
+Mi, 06 Mai 2020 20:42:21 +0000  QA_rec 1 1 1 1
+Mi, 06 Mai 2020 20:42:51 +0000  QA_rec 0 1 1 1
+Mi, 06 Mai 2020 20:42:51 +0000  Run-1, Block-1, Trial-1, Q_cnt-9, Q_sen-Bananen finden wir in der Obstabteilung ., Q_cen-finden
+Mi, 06 Mai 2020 20:42:51 +0000  RS_intro 1 2 0 None

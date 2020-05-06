@@ -1,2 +1,6 @@
-Tue, 05 May 2020 13:42:20 +0000  Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-Tue, 05 May 2020 13:42:20 +0000  NumExpr defaulting to 8 threads.
+Mi, 06 Mai 2020 15:45:23 +0000  Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Mi, 06 Mai 2020 15:45:23 +0000  NumExpr defaulting to 8 threads.
+Mi, 06 Mai 2020 15:45:23 +0000  Instruction 1 None None None
+Mi, 06 Mai 2020 15:47:48 +0000  Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Mi, 06 Mai 2020 15:47:48 +0000  NumExpr defaulting to 8 threads.
+Mi, 06 Mai 2020 15:47:48 +0000  Instruction 1 None None None

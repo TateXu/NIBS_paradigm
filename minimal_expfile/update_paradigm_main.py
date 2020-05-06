@@ -32,14 +32,9 @@ from scipy.io.wavfile import write
 from nibs_func import *
 from jxu.hardware.signal import SignalGenerator as SG
 import time
+from datetime import datetime
 import logging as jxu_logging
 import random
-
-jxu_logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s  %(message)s',
-                        datefmt='%a, %d %b %Y %H:%M:%S +0000',
-                        filename='/home/jxu/File/Experiment/NIBS/Sync/NIBS_paradigm/minimal_expfile/main.log',
-                        filemode='w')
 
 # -----------------------------------------------------------------------------------
 # ------------------------- Setting: Parameter --------------------------------------
@@ -82,9 +77,6 @@ event_dict = {'ESC': 1,
               'Pause': [60, 61],
               'Break': [62, 63]}
 
-
-
-
 instruction_pos = [0.5, 0.1]
 instruction_annot_pos = [0.5, -0.4]
 title_pos = [0.5, 0.4]
@@ -97,8 +89,8 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 20  # 10 mins
-n_cali_trial = 10
+n_trial = 2  #20- 10 mins
+n_cali_trial = 2  #10
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
@@ -127,14 +119,17 @@ word_type = 'VERB'
 
 fade_in_out_show = False
 always_dislpay = True
+flexible_qa_rec_start = True
 
 comp_gap = 0.4
-instruction_cont_start, instruction_cont_dur = 20, None
+instruction_cont_start, instruction_cont_dur = 15, None  # Audio 14s
 
-cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None
+cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None  # Audio 29s
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
-cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 5, 1, 17, 1, 2
+# 30s version: 0, 2, 5, 1, 17, 1, 2
+# 20s version: 0, 2, 1, 1, 11, 1, 2
+cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 1, 1, 11, 1, 2
 cali_q_start = cali_hint_start + cali_hint_dur + comp_gap
 cali_a_beep_s_start = cali_q_start + cali_q_dur + comp_gap
 cali_rec_start = cali_a_beep_s_start + cali_a_beep_s_dur + comp_gap
@@ -142,20 +137,20 @@ cali_a_beep_e_start = cali_rec_start + cali_rec_dur + comp_gap
 cali_break_start = cali_a_beep_e_start + cali_a_beep_e_dur + comp_gap
 cali_text_dur = cali_break_start + cali_break_dur
 
-
+# Previous cali_q_dur is for sequencially setting subsequent comp, this is the true diaplay
 if always_dislpay:
     cali_q_dur = cali_text_dur - cali_q_start
 
 
 
-rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 180, None
+rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 21, None    # Audio 20s
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
-rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None
+rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 20, 1, None     # 180s!
 rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap 
 rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 
-QA_intro_title_start, QA_intro_title_dur, QA_intro_audio_dur, QA_intro_cont_dur = 0, 40, 40, None
+QA_intro_title_start, QA_intro_title_dur, QA_intro_cont_dur = 0, 40, None # Audio 39s
 QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 14, 1, 8, 1, 2
@@ -166,7 +161,6 @@ QA_a_beep_e_start = QA_rec_start + QA_rec_dur + comp_gap
 QA_break_start = QA_a_beep_e_start + QA_a_beep_e_dur + comp_gap
 QA_text_dur = QA_break_start + QA_break_dur
 
-flexible_qa_rec_start = True
 if flexible_qa_rec_start and external_question_flag:
     QA_trial_dur = 30.00
     QA_text_dur = QA_trial_dur
@@ -206,7 +200,6 @@ if init_flag:
     break_qa_block = (None if expInfo['Breakpoint_QA_block'] == 'No' else int(expInfo['Breakpoint_QA_block']))  
     break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial'])) 
     
-
     if external_question_flag:
         pre_load_df = pd.read_pickle('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/Q_Session_' + str(int(expInfo['session'])) + '_exp_' + str(180) + '.pkl')
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text = extract_qa(
@@ -214,6 +207,16 @@ if init_flag:
             subject=int(expInfo['participant']),
             session=int(expInfo['session']), word_type=word_type, n_question=n_question, shuffle_flag=True)
 
+    # save a log file for key info
+    now = datetime.now()
+    time_exp_start = now.strftime("%Y_%m_%d_%H_%M%S")
+    log_name = '/home/jxu/File/Experiment/NIBS/Sync/NIBS_paradigm/minimal_expfile/jxu_log/' + \
+        'Subject_' + expInfo['participant'] +'_Session_' + expInfo['session'] + '_' + time_exp_start + '.log'
+    jxu_logging.basicConfig(level=logging.INFO,
+                            format='%(asctime)s  %(message)s',
+                            datefmt='%a, %d %b %Y %H:%M:%S +0000',
+                            filename=log_name,
+                            filemode='a')
 
     # save a log file for detail verbose info
     logFile = logging.LogFile(filename+'.log', level=logging.EXP)
@@ -459,7 +462,7 @@ if Instruction_flag:
     print('Log: instruction start')
 
     breakpoint_logger(comp='Instruction', value=1, run=None, block=None, trial=None)
-    pdb.set_trace()
+
     # ------Prepare to start Routine "instruction"-------
     # update component parameters for each repeat
     instruction['key_resp'].keys = []
@@ -828,9 +831,7 @@ for thisRun in run:
 
         # ------Prepare to start Routine "fade_in"-------
         # keep track of which components have finished
-        win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
-        trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
-        comp_list = np.asarray([*fade_in['time'].keys()])
+
 
 
         # To be able to enter to loop of maintain/update intensity
@@ -841,14 +842,20 @@ for thisRun in run:
 
         if intensity_change_flag == 'i':
             trigger_sending(event_dict['Fade_in'][0], default_sleep=True) # Sending trigger 24 (Fade_in Start)
-        while input_intensity < max_intensity:
+        fade_itr_cnt = 0
+        while input_intensity < max_intensity and fade_itr_cnt < n_step_fade_stim:
             if tmp_intensity != None:
                 input_intensity = tmp_intensity
                 tmp_intensity = None
                 print('initial ' + str(input_intensity))
 
+            win, fade_in, fade_inComponents, t, frameN, continueRoutine = pre_run_comp(win, fade_in)
+            trigger_mat = np.zeros((len(fade_inComponents) - 1, 2))
+            comp_list = np.asarray([*fade_in['time'].keys()])
+
             routineTimer.reset()
             routineTimer.add(fade_in['time']['auto_stim'][1])
+
             # -------Run Routine "fade_in"-------
             while continueRoutine and routineTimer.getTime() > 0:
                 # get current time
@@ -878,9 +885,10 @@ for thisRun in run:
                 if break_flag:
                     break
             if stim_freq != 0 and run.thisN == stim_run[0]:
-                intensity_change_flag == 'i'
+                intensity_change_flag = 'i'
             else:
-                intensity_change_flag == 'keep'
+                intensity_change_flag = 'keep'
+            fade_itr_cnt += 1
 
         # -------Ending Routine "fade_in"-------
         for thisComponent in fade_inComponents:
@@ -1317,18 +1325,19 @@ for thisRun in run:
                 for thisComponent in QA_recComponents:
                     if hasattr(thisComponent, "setAutoDraw"):
                         thisComponent.setAutoDraw(False)
-                QA_trial = data_writer(QA_trial, QA_rec, 'QA_rec',
-                    ['text', 'beep_hint', 'question', 'beep_start', 'beep_end', 'break'])
+                
                 q_a_rec_file = folder_path + 'rec_cali_de_pre.wav'
                 q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_block.thisN).zfill(3) + '_trial_' + str(QA_trial.thisN).zfill(3)  + '.wav' 
                 write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file 
                 print('Recording is saved!' + q_a_rec_file)
+                QA_trial = data_writer(QA_trial, QA_rec, 'QA_rec',
+                    ['text', 'beep_hint', 'question', 'beep_start', 'beep_end', 'break'])
  
                 print('Log: QA rec finish: Run ' + str(run.thisN) + ' Block ' + str(QA_block.thisN) + 'Trial ' + str(QA_trial.thisN))
                 breakpoint_logger(comp='QA_rec', value=0, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
                 jxu_logging.info(
                     'Run-%s, Block-%s, Trial-%s, Q_cnt-%s, Q_sen-%s, Q_cen-%s' %(
-                        run, block, trial, question_cnt, QA_rec['question'].sen_text, QA_rec['question'].cen_text ))
+                        run.thisN, QA_block.thisN, QA_trial.thisN, question_cnt, QA_rec['question'].sen_text, QA_rec['question'].cen_text ))
                 thisExp.addData('filename', q_a_rec_file)
                 thisExp.nextEntry()
                 trigger_sending(event_dict['QA_trial'][1], default_sleep=True) # Sending trigger 43 (QA_trial End)

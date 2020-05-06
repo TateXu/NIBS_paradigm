@@ -1,0 +1,11 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+No device! Planned to send trigger: 254
+Traget folder is already created! Path: 
+./data/Subject_01/Session_01/Exp_data/
+Log: instruction start
+Log: instruction finish
+No device! Planned to send trigger: 2
+Log: cali_pre_intro start
+No device! Planned to send trigger: 10
+No device! Planned to send trigger: 1

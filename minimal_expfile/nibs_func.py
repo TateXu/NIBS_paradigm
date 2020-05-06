@@ -26,6 +26,10 @@ import parallel
 import numbers
 import pandas as pd
 import time
+from datetime import datetime
+
+
+
 
 
 def exp_init(Name='nibs_stage_1'):
@@ -35,11 +39,11 @@ def exp_init(Name='nibs_stage_1'):
     # Store info about the experiment session
     expName = Name  # from the Builder filename that created this script
     
-    Info = {'participant': '00',
+    Info = {'participant': '01',
             'session': '01',
             'First language': '',
             'German level': ['A1', 'A2', 'B1', 'B2'],
-            'Full_screen': True,
+            'Full_screen': False,
             'Instruction': True,
             'Cali_pre': True,
             'Resting_State': True,
@@ -82,7 +86,7 @@ def exp_init(Name='nibs_stage_1'):
 
     # create a default keyboard (e.g. to check for escape)
     defaultKeyboard = keyboard.Keyboard()
-    
+
     return Info, win, frameDur, defaultKeyboard 
 
 
@@ -429,14 +433,16 @@ def continue_justification(win, endExpNow_flag, defaultKeyboard, continueRoutine
     return win, continueRoutine_flag, break_flag
 
 
-def data_writer(target, obj, obj_str, list_kwgs):
+def data_writer(target, obj, obj_str, list_kwgs, text_append=True):
     for kwgs in list_kwgs:
         if 'audio' in kwgs or 'beep' in kwgs or kwgs == 'question':
             obj[kwgs].stop() # ensure sound has stopped at end of routine
-        if kwgs == 'question':  # For audio stimuli
-            target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text) 
-        if kwgs == 'question_text' or kwgs == 'text':   # For visual stimuli
-            target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text)
+        if text_append:
+            if kwgs == 'question':  # For audio stimuli
+                target.addData(obj_str + '_' + kwgs + '.sen_text', obj[kwgs].sen_text)
+                target.addData(obj_str + '_' + kwgs + '.cen_text', obj[kwgs].cen_text) 
+            if kwgs == 'question_text' or kwgs == 'text':   # For visual stimuli
+                target.addData(obj_str + '_' + kwgs + '.text', obj[kwgs].text)
 
         target.addData(obj_str + '_' + kwgs + '.started', obj[kwgs].tStartRefresh)
         target.addData(obj_str + '_' + kwgs + '.stopped', obj[kwgs].tStopRefresh)

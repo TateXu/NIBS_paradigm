@@ -1,0 +1,27 @@
+Mi, 06 Mai 2020 19:55:37 +0000  fade_in 1 0 None None
+Mi, 06 Mai 2020 19:56:07 +0000  fade_in 0 0 None None
+Mi, 06 Mai 2020 19:56:07 +0000  RS_intro 1 0 0 None
+Mi, 06 Mai 2020 19:56:28 +0000  RS_intro 0 0 0 None
+Mi, 06 Mai 2020 19:56:28 +0000  RS_rec 1 0 0 None
+Mi, 06 Mai 2020 19:56:56 +0000  RS_rec 0 0 open None
+Mi, 06 Mai 2020 19:56:56 +0000  RS_intro 1 0 1 None
+Mi, 06 Mai 2020 19:57:17 +0000  RS_intro 0 0 1 None
+Mi, 06 Mai 2020 19:57:17 +0000  RS_rec 1 0 1 None
+Mi, 06 Mai 2020 19:57:42 +0000  RS_rec 0 0 close None
+Mi, 06 Mai 2020 19:57:58 +0000  QA_intro 1 0 None None
+Mi, 06 Mai 2020 19:58:40 +0000  QA_intro 0 0 None None
+Mi, 06 Mai 2020 19:58:40 +0000  QA_rec 1 0 0 0
+Mi, 06 Mai 2020 19:59:10 +0000  QA_rec 0 0 0 0
+Mi, 06 Mai 2020 19:59:10 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Briefe und Pakete verschickt man mit der Post ., Q_cen-verschickt
+Mi, 06 Mai 2020 19:59:10 +0000  QA_rec 1 0 0 1
+Mi, 06 Mai 2020 19:59:40 +0000  QA_rec 0 0 0 1
+Mi, 06 Mai 2020 19:59:40 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Die Sonnenbrillen schützen die Augen vor der Sonne ., Q_cen-schützen
+Mi, 06 Mai 2020 20:00:02 +0000  QA_rec 1 0 1 0
+Mi, 06 Mai 2020 20:00:32 +0000  QA_rec 0 0 1 0
+Mi, 06 Mai 2020 20:00:32 +0000  Run-0, Block-1, Trial-0, Q_cnt-2, Q_sen-Leichte Sprache ist eine Hilfe für Menschen , die keine schwierige Sprache verstehen ., Q_cen-verstehen
+Mi, 06 Mai 2020 20:00:32 +0000  QA_rec 1 0 1 1
+Mi, 06 Mai 2020 20:01:02 +0000  QA_rec 0 0 1 1
+Mi, 06 Mai 2020 20:01:02 +0000  Run-0, Block-1, Trial-1, Q_cnt-3, Q_sen-Am Anfang sind die Brüder Wright mit Gleitflugzeugen geflogen ., Q_cen-geflogen
+Mi, 06 Mai 2020 20:02:45 +0000  fade_in 1 1 None None
+Mi, 06 Mai 2020 20:03:17 +0000  fade_in 0 1 None None
+Mi, 06 Mai 2020 20:03:17 +0000  RS_intro 1 1 0 None

@@ -1,0 +1,5 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+No device! Planned to send trigger: 254
+Traget folder is already created! Path: 
+./data/Subject_01/Session_01/Exp_data/

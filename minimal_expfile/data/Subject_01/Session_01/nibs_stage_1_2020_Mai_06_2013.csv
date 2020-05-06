@@ -1,0 +1,27 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,QA_block.thisRepN,QA_block.thisTrialN,QA_block.thisN,QA_block.thisIndex,QA_trial.thisRepN,QA_trial.thisTrialN,QA_trial.thisN,QA_trial.thisIndex,fade_in_text.text,fade_in_text.started,fade_in_text.stopped,RS_intro_title.started,RS_intro_title.stopped,RS_intro_text.text,RS_intro_text.started,RS_intro_text.stopped,RS_intro_audio.started,RS_intro_audio.stopped,RS_rec_text.text,RS_rec_text.started,RS_rec_text.stopped,RS_rec_cont.started,RS_rec_cont.stopped,Pause_cont.started,Pause_cont.stopped,participant,session,First language,German level,Full_screen,Instruction,Cali_pre,Resting_State,Fade_in_out,QA,Pause,Cali_post,End,Breakpoint_Cali_pre_trial,Breakpoint_Run,Breakpoint_RS_block,Breakpoint_QA_block,Breakpoint_QA_trial,Breakpoint_Cali_post_trial,date,expName,psychopyVersion,frameRate,
+0,0,0,0,0,0,0,0,,,,,Please remain seated until further notice via the earphone.,42.34240007400513,None,102.5454580783844,None," - Task: Keep seated and relaxed with either      
+             opening or closing eyes                  
+ - Beep sound with decreasing pitch: Block finish 
+",102.5454580783844,None,102.54542191028595,None,"Please keep relaxed and close your eyes.
+",123.56313705444336,143.56415700912476,145.3476641178131,None,168.28250694274902,None,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+0,0,0,0,1,0,1,0,,,,,,,,,,,,,,,,,,,,183.29975199699402,None,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+1,0,1,0,0,0,0,0,,,,,Please remain seated until further notice via the earphone.,320.9066309928894,None,363.742094039917,None," - Task: Keep seated and relaxed with either      
+             opening or closing eyes                  
+ - Beep sound with decreasing pitch: Block finish 
+",363.742094039917,None,363.72549493312835,None,"Please keep relaxed and open your eyes.
+Note: Blinking is allowed.",384.7599060535431,404.7609679698944,406.561154127121,None,450.0630760192871,None,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+1,0,1,0,1,0,1,0,,,,,,,,,,,,,,,,,,,,463.61381101608276,None,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+1,0,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+2,0,2,0,0,0,0,0,,,,,Please remain seated until further notice via the earphone.,584.1699650287628,None,633.0223460197449,None," - Task: Keep seated and relaxed with either      
+             opening or closing eyes                  
+ - Beep sound with decreasing pitch: Block finish 
+",633.0223460197449,None,633.0057538270951,None,"Please keep relaxed and open your eyes.
+Note: Blinking is allowed.",654.0402529239655,674.0413980484009,675.8413689136505,None,717.0268249511719,None,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+2,0,2,0,1,0,1,0,,,,,,,,,,,,,,,,,,,,750.7285530567169,None,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+2,0,2,0,,,,,,,,,Please remain seated until further notice via the earphone.,828.482666015625,834.482873916626,,,,,,,,,,,,,,,01,01,,A1,False,False,False,True,True,False,True,True,True,No,No,No,No,No,No,2020_Mai_06_2013,nibs_stage_1,3.2.3,60.020406031370335,
+,,,,,,,,,,,,Please remain seated until further notice via the earphone.,868.5512270927429,None,868.5850739479065,None," - Task: Keep seated and relaxed with either      
+             opening or closing eyes                  
+ - Beep sound with decreasing pitch: Block finish 
+",868.5850739479065,None,868.5678869009018,None,"Please keep relaxed and close your eyes.
+",889.618989944458,909.6203269958496,911.4035079479218,None,,,,,,,,,,,,,,,,,,,,,,,,,,

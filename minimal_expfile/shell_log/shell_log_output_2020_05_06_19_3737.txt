@@ -1,0 +1,50 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+No device! Planned to send trigger: 254
+Traget folder is already created! Path: 
+./data/Subject_01/Session_01/Exp_data/
+Log: instruction start
+Log: instruction finish
+No device! Planned to send trigger: 2
+Log: cali_pre_intro start
+No device! Planned to send trigger: 10
+No device! Planned to send trigger: 11
+Log: cali_pre_intro finish
+Log: cali_pre_rec start: Trial 0
+No device! Planned to send trigger: 12
+No device! Planned to send trigger: 14
+No device! Planned to send trigger: 16
+Recording start!
+No device! Planned to send trigger: 18
+No device! Planned to send trigger: 19
+No device! Planned to send trigger: 62
+No device! Planned to send trigger: 15
+No device! Planned to send trigger: 63
+Recording is saved!./data/Subject_01/Session_01/Exp_data/rec_cali_de_pre_trial_000.wav
+No device! Planned to send trigger: 13
+Log: cali_pre_rec finish: Trial0
+Log: cali_pre_rec start: Trial 1
+No device! Planned to send trigger: 12
+No device! Planned to send trigger: 14
+No device! Planned to send trigger: 16
+Recording start!
+No device! Planned to send trigger: 18
+No device! Planned to send trigger: 19
+No device! Planned to send trigger: 62
+No device! Planned to send trigger: 15
+No device! Planned to send trigger: 63
+Recording is saved!./data/Subject_01/Session_01/Exp_data/rec_cali_de_pre_trial_001.wav
+No device! Planned to send trigger: 13
+Log: cali_pre_rec finish: Trial1
+No device! Planned to send trigger: 60
+No device! Planned to send trigger: 61
+No device! Planned to send trigger: 3
+No device! Planned to send trigger: 4
+Log: fade in start: Run 0
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+No device! Planned to send trigger: 1
+39.7229 	WARNING 	Got keycode {} but that code isn't yet known
+39.7229 	WARNING 	Keypress was given unknown key code (134)
+120.5731 	WARNING 	Got keycode {} but that code isn't yet known
+120.5732 	WARNING 	Keypress was given unknown key code (134)
