@@ -1,0 +1,57 @@
+pdfjam A1_SD1_Wortliste_02.pdf 9-27 -o A1_SD1_Wortliste_02_cropped.pdf
+pdfjam --clip true --trim '50mm 25mm 48mm 38mm' A1_SD1_Wortliste_02_cropped.pdf -o A1_SD1_Wortliste_02_cropped_trimmed.pdf
+pdfjam --clip true --trim '0mm 0mm 143mm 0mm' A1_SD1_Wortliste_02_cropped_trimmed.pdf -o A1_SD1_Wortliste_02_cropped_trimmed_word.pdf
+
+
+
+------- A2 --------------
+pdfjam Goethe-Zertifikat_A2_Wortliste.pdf 5-7 -o general_vocab.pdf
+
+pdfjam Goethe-Zertifikat_A2_Wortliste.pdf 8-31 -o Goethe-Zertifikat_A2_Wortliste_cropped.pdf
+pdfjam --clip true --trim '12mm 20mm 12mm 40mm' Goethe-Zertifikat_A2_Wortliste_cropped.pdf -o Goethe-Zertifikat_A2_Wortliste_cropped_trimmed.pdf
+
+
+
+pdfjam --clip true --trim '0mm 0mm 107mm 0mm' Goethe-Zertifikat_A2_Wortliste_cropped_trimmed.pdf -o Goethe-Zertifikat_A2_Wortliste_cropped_trimmed_left.pdf
+
+pdfjam --clip true --trim '107mm 0mm 0mm 0mm' Goethe-Zertifikat_A2_Wortliste_cropped_trimmed.pdf -o Goethe-Zertifikat_A2_Wortliste_cropped_trimmed_right.pdf
+
+pdfjam --clip true --trim '0mm 0mm 128mm 0mm' Goethe-Zertifikat_A2_Wortliste_cropped_trimmed_left.pdf -o Goethe-Zertifikat_A2_Wortliste_cropped_trimmed_left_word.pdf
+
+pdfjam --clip true --trim '0mm 0mm 127mm 0mm' Goethe-Zertifikat_A2_Wortliste_cropped_trimmed_right.pdf -o Goethe-Zertifikat_A2_Wortliste_cropped_trimmed_right_word.pdf
+
+
+
+
+
+
+
+
+------- B1 --------------
+
+
+pdfjam Goethe-Zertifikat_B1_Wortliste.pdf 8-15 -o general_vocab.pdf
+
+pdfjam Goethe-Zertifikat_B1_Wortliste.pdf 16-102 -o Goethe-Zertifikat_B1_Wortliste_cropped.pdf
+pdfjam --clip true --trim '12mm 20mm 12mm 20mm' Goethe-Zertifikat_B1_Wortliste_cropped.pdf -o Goethe-Zertifikat_B1_Wortliste_cropped_trimmed.pdf
+
+
+
+pdfjam --clip true --trim '0mm 0mm 106mm 0mm' Goethe-Zertifikat_B1_Wortliste_cropped_trimmed.pdf -o Goethe-Zertifikat_B1_Wortliste_cropped_trimmed_left.pdf
+
+pdfjam --clip true --trim '106mm 0mm 0mm 0mm' Goethe-Zertifikat_B1_Wortliste_cropped_trimmed.pdf -o Goethe-Zertifikat_B1_Wortliste_cropped_trimmed_right.pdf
+
+pdfjam --clip true --trim '0mm 0mm 118mm 0mm' Goethe-Zertifikat_B1_Wortliste_cropped_trimmed_left.pdf -o Goethe-Zertifikat_B1_Wortliste_cropped_trimmed_left_word.pdf
+
+pdfjam --clip true --trim '0mm 0mm 127mm 0mm' Goethe-Zertifikat_B1_Wortliste_cropped_trimmed_right.pdf -o Goethe-Zertifikat_B1_Wortliste_cropped_trimmed_right_word.pdf
+
+
+
+
+ocrmypdf  (pdf image to searchable pdf)
+
+from tika import parser
+
+rawText = parser.from_file('A1_word.pdf')
+
+rawList = rawText['content'].splitlines()
