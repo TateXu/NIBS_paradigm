@@ -1,7 +1,7 @@
 import re
 import pickle
 
-filename = 'B1_word'
+filename = 'general_vocab'
 
 with open(filename + '.txt', 'r') as f:
     ori_list = f.read().splitlines()
