@@ -153,6 +153,9 @@ rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 QA_intro_title_start, QA_intro_title_dur, QA_intro_cont_dur = 0, 40, None # Audio 39s
 QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
+
+# 30s version: 0, 2, 14, 1, 8, 1, 2
+# 25s version: 0, 2, 12, 1, 6, 1, 1
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 14, 1, 8, 1, 2
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
@@ -162,7 +165,7 @@ QA_break_start = QA_a_beep_e_start + QA_a_beep_e_dur + comp_gap
 QA_text_dur = QA_break_start + QA_break_dur
 
 if flexible_qa_rec_start and external_question_flag:
-    QA_trial_dur = 30.00
+    QA_trial_dur = 25.00  # 30.00
     QA_text_dur = QA_trial_dur
     QA_break_start = QA_text_dur - QA_break_dur
     QA_a_beep_e_start = QA_break_start - QA_a_beep_e_dur - comp_gap
