@@ -1,0 +1,3 @@
+Der ganze Kurs bestand die Prüfung. 
+ 
+<speak>Der ganze Kurs <break time="1000ms"/>bestand<break time="1000ms"/> die Prüfung . </speak>

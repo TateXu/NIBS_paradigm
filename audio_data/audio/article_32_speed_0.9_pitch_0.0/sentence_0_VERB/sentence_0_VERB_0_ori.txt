@@ -1,0 +1,3 @@
+Morgen werden wir um sieben Uhr aufstehen. 
+ 
+<speak>Morgen werden wir um sieben Uhr <break time="1000ms"/>aufstehen<break time="1000ms"/> . </speak>

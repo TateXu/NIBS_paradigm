@@ -1,0 +1,3 @@
+Man wird damit bargeldlos bezahlen können. 
+ 
+<speak>Man wird damit bargeldlos <break time="1000ms"/>bezahlen<break time="1000ms"/> können . </speak>

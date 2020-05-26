@@ -1,0 +1,3 @@
+Der Spender möchte anonym bleiben. 
+ 
+<speak>Der Spender möchte anonym <break time="1000ms"/>bleiben<break time="1000ms"/> . </speak>

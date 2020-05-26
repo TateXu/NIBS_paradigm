@@ -1,0 +1,3 @@
+Ich will nicht mein ganzes Geld für ein neues Auto ausgeben. 
+ 
+<speak>Ich will nicht mein ganzes Geld für ein neues Auto <break time="1000ms"/>ausgeben<break time="1000ms"/> . </speak>

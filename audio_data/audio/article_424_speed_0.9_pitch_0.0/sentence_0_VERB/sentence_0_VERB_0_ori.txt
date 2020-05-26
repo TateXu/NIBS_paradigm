@@ -1,0 +1,3 @@
+Ich habe einen Platz für die Oper reserviert. 
+ 
+<speak>Ich habe einen Platz für die Oper <break time="1000ms"/>reserviert<break time="1000ms"/> . </speak>

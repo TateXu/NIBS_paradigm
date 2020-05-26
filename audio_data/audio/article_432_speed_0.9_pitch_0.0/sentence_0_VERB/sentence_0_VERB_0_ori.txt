@@ -1,0 +1,3 @@
+Entschuldigung, können Sie mir ein Taxi rufen? 
+ 
+<speak>Entschuldigung , können Sie mir ein Taxi <break time="1000ms"/>rufen<break time="1000ms"/> ? </speak>

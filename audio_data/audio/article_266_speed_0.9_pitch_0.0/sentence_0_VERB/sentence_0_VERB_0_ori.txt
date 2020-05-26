@@ -1,0 +1,3 @@
+Das iPhone wurde von Kalifornien entworfen und in China hergestellt.  
+ 
+<speak>Das iPhone wurde von Kalifornien entworfen und in China <break time="1000ms"/>hergestellt<break time="1000ms"/> . </speak>

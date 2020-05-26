@@ -1,0 +1,3 @@
+Alle Wege führen nach Rom. 
+ 
+<speak>Alle Wege <break time="1000ms"/>führen<break time="1000ms"/> nach Rom . </speak>

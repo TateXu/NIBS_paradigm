@@ -1,0 +1,3 @@
+Morgen ändert sich das Wetter ganz bestimmt. 
+ 
+<speak>Morgen ändert sich das Wetter ganz <break time="1000ms"/>bestimmt<break time="1000ms"/> . </speak>

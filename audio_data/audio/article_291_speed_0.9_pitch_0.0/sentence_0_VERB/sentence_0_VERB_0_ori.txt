@@ -1,0 +1,3 @@
+Er hat Kartoffeln mit der Schale gekocht. 
+ 
+<speak>Er hat Kartoffeln mit der Schale <break time="1000ms"/>gekocht<break time="1000ms"/> . </speak>

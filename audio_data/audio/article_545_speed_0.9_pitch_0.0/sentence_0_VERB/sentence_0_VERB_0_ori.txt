@@ -1,0 +1,3 @@
+Der Sturm entlaubte alle Bäume in unserem Garten. 
+ 
+<speak>Der Sturm <break time="1000ms"/>entlaubte<break time="1000ms"/> alle Bäume in unserem Garten . </speak>

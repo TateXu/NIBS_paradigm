@@ -1,0 +1,3 @@
+Ich darf Sie bitten, meinem Antrag zu entsprechen. 
+ 
+<speak>Ich darf Sie <break time="1000ms"/>bitten<break time="1000ms"/> , meinem Antrag zu entsprechen . </speak>

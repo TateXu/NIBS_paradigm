@@ -1,0 +1,3 @@
+In den Zeitungen , im Radio und im Fernsehen wird regelmäßig über Sport berichtet. 
+ 
+<speak>In den Zeitungen , im Radio und im Fernsehen wird regelmäßig über Sport <break time="1000ms"/>berichtet<break time="1000ms"/> . </speak>

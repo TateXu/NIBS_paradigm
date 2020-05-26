@@ -1,0 +1,3 @@
+Flora hat Musik studiert und dirigiert jetzt das Orchester. 
+ 
+<speak>Flora hat Musik <break time="1000ms"/>studiert<break time="1000ms"/> und dirigiert jetzt das Orchester . </speak>

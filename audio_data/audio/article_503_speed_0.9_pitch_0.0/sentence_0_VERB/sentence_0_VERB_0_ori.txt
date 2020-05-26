@@ -1,0 +1,3 @@
+Plastik Müll belastet die Umwelt. 
+ 
+<speak>Plastik Müll <break time="1000ms"/>belastet<break time="1000ms"/> die Umwelt . </speak>

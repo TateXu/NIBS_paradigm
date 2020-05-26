@@ -1,0 +1,3 @@
+Bitte reservieren Sie einen Platz, bevor Sie ins Restaurant gehen. 
+ 
+<speak>Bitte <break time="1000ms"/>reservieren<break time="1000ms"/> Sie einen Platz , bevor Sie ins Restaurant gehen . </speak>

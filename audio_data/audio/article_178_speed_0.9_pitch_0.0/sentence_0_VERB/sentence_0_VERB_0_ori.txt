@@ -1,0 +1,3 @@
+Ich muss mich bemühen, das Ziel des Projektes zu erreichen. 
+ 
+<speak>Ich muss mich bemühen , das Ziel des Projektes zu <break time="1000ms"/>erreichen<break time="1000ms"/> . </speak>

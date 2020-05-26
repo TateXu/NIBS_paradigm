@@ -1,0 +1,3 @@
+Ein Fußball Team besteht aus zehn Spielern und einem Tormann. 
+ 
+<speak>Ein Fußball Team <break time="1000ms"/>besteht<break time="1000ms"/> aus zehn Spielern und einem Tormann . </speak>

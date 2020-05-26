@@ -1,0 +1,3 @@
+Planeten kreisen um eine Sonne. 
+ 
+<speak>Planeten <break time="1000ms"/>kreisen<break time="1000ms"/> um eine Sonne . </speak>

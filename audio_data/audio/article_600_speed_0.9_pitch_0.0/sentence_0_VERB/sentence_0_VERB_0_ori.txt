@@ -1,0 +1,3 @@
+Zu den hundeartigen Tieren, die in Österreich leben, gehört der Wolf. 
+ 
+<speak>Zu den hundeartigen Tieren , die in Österreich leben , <break time="1000ms"/>gehört<break time="1000ms"/> der Wolf . </speak>

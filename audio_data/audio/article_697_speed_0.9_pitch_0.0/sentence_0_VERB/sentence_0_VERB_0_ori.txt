@@ -1,0 +1,3 @@
+Ich sitze weit entfernt von der Bühne, also muss ich durch ein Fernglas schauen. 
+ 
+<speak>Ich sitze weit entfernt von der Bühne , also muss ich durch ein Fernglas <break time="1000ms"/>schauen<break time="1000ms"/> . </speak>

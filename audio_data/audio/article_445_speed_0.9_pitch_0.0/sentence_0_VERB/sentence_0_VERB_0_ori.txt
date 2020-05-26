@@ -1,0 +1,3 @@
+Rauchen schadet deiner Lunge. 
+ 
+<speak>Rauchen <break time="1000ms"/>schadet<break time="1000ms"/> deiner Lunge . </speak>

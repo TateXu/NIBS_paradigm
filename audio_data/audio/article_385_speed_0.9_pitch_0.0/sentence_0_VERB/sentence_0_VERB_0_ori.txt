@@ -1,0 +1,3 @@
+Wir müssen ein Treffen planen, um die Änderungen zu besprechen. 
+ 
+<speak>Wir müssen ein Treffen <break time="1000ms"/>planen<break time="1000ms"/> , um die Änderungen zu besprechen . </speak>

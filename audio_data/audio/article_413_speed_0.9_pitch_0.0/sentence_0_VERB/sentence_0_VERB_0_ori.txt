@@ -1,0 +1,3 @@
+Während meines Urlaubs werde ich nach China und Japan reisen. 
+ 
+<speak>Während meines Urlaubs werde ich nach China und Japan <break time="1000ms"/>reisen<break time="1000ms"/> . </speak>

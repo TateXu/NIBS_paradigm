@@ -1,0 +1,3 @@
+Ich drückte den Knopf, um den Computer einzuschalten. 
+ 
+<speak>Ich <break time="1000ms"/>drückte<break time="1000ms"/> den Knopf , um den Computer einzuschalten . </speak>

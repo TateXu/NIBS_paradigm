@@ -1,0 +1,3 @@
+Die Atmosphäre der Erde besteht aus Luft. 
+ 
+<speak>Die Atmosphäre der Erde <break time="1000ms"/>besteht<break time="1000ms"/> aus Luft . </speak>

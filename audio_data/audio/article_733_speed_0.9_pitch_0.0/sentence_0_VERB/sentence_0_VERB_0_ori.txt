@@ -1,0 +1,3 @@
+Man nennt Klima-Wandel , dass die Temperaturen auf unserer Erde steigen. 
+ 
+<speak>Man nennt Klima-Wandel , dass die Temperaturen auf unserer Erde <break time="1000ms"/>steigen<break time="1000ms"/> . </speak>

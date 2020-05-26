@@ -1,0 +1,3 @@
+Er legte das Messer und die Gabel neben den Teller. 
+ 
+<speak>Er <break time="1000ms"/>legte<break time="1000ms"/> das Messer und die Gabel neben den Teller . </speak>

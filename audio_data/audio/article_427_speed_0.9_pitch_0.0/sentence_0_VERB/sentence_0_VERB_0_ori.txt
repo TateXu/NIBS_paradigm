@@ -1,0 +1,3 @@
+Die Milch riecht verdorben. 
+ 
+<speak>Die Milch <break time="1000ms"/>riecht<break time="1000ms"/> verdorben . </speak>

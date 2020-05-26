@@ -1,0 +1,3 @@
+Wenn der Wind stark bläst, ziehen die Wolken schnell über den Himmel. 
+ 
+<speak>Wenn der Wind stark <break time="1000ms"/>bläst<break time="1000ms"/> , ziehen die Wolken schnell über den Himmel . </speak>

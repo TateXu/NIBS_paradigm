@@ -1,0 +1,3 @@
+Ich möchte dich nicht täuschen, also werde ich dir die Wahrheit sagen. 
+ 
+<speak>Ich möchte dich nicht <break time="1000ms"/>täuschen<break time="1000ms"/> , also werde ich dir die Wahrheit sagen . </speak>

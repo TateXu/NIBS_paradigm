@@ -1,0 +1,3 @@
+Die Wassermelone schmeckt sehr süß. 
+ 
+<speak>Die Wassermelone <break time="1000ms"/>schmeckt<break time="1000ms"/> sehr süß . </speak>

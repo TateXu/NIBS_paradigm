@@ -1,0 +1,3 @@
+Meine dicke Katze muss abnehmen. 
+ 
+<speak>Meine dicke Katze muss <break time="1000ms"/>abnehmen<break time="1000ms"/> . </speak>

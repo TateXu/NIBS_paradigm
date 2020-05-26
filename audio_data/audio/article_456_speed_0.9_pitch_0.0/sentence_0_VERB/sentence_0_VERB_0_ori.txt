@@ -1,0 +1,3 @@
+Du solltest deiner Geliebten Blumen zum Geburtstag schenken. 
+ 
+<speak>Du solltest deiner Geliebten Blumen zum Geburtstag <break time="1000ms"/>schenken<break time="1000ms"/> . </speak>

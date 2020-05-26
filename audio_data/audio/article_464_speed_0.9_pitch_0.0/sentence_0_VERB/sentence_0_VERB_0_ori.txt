@@ -1,0 +1,3 @@
+Das Fenster ist offen, aber ich werde es schließen. 
+ 
+<speak>Das Fenster ist offen , aber ich werde es <break time="1000ms"/>schließen<break time="1000ms"/> . </speak>

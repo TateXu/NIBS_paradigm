@@ -1,0 +1,3 @@
+Melanie sieht so schlecht, sie braucht eine Brille. 
+ 
+<speak>Melanie sieht so schlecht , sie <break time="1000ms"/>braucht<break time="1000ms"/> eine Brille . </speak>

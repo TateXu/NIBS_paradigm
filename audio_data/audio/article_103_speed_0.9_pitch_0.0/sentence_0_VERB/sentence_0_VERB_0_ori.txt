@@ -1,0 +1,3 @@
+Diesen Irrtum musste er teuer bezahlen. 
+ 
+<speak>Diesen Irrtum musste er teuer <break time="1000ms"/>bezahlen<break time="1000ms"/> . </speak>

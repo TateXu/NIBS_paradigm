@@ -1,0 +1,3 @@
+Ich möchte einen weiteren Test durchführen, um die Ergebnisse zu prüfen. 
+ 
+<speak>Ich möchte einen weiteren Test durchführen , um die Ergebnisse zu <break time="1000ms"/>prüfen<break time="1000ms"/> . </speak>

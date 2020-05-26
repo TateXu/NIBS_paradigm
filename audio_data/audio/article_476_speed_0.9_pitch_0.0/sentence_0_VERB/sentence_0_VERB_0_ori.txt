@@ -1,0 +1,3 @@
+Mani ist ins Kino gegangen und hat sich einen guten Film angesehen. 
+ 
+<speak>Mani ist ins Kino gegangen und hat sich einen guten Film <break time="1000ms"/>angesehen<break time="1000ms"/> . </speak>

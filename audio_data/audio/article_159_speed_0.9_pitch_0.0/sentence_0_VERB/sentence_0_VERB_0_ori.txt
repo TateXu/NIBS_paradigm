@@ -1,0 +1,3 @@
+Können Sie mir einen guten Augenarzt empfehlen? 
+ 
+<speak>Können Sie mir einen guten Augenarzt <break time="1000ms"/>empfehlen<break time="1000ms"/> ? </speak>

@@ -1,0 +1,3 @@
+Der Fischer musste das Netz einziehen, ohne etwas gefangen zu haben. 
+ 
+<speak>Der Fischer musste das Netz <break time="1000ms"/>einziehen<break time="1000ms"/> , ohne etwas gefangen zu haben . </speak>

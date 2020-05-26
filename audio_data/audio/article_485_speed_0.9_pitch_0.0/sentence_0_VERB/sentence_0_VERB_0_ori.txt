@@ -1,0 +1,3 @@
+Mein Vater arbeitet in einer Papierfabrik. 
+ 
+<speak>Mein Vater <break time="1000ms"/>arbeitet<break time="1000ms"/> in einer Papierfabrik . </speak>

@@ -1,0 +1,3 @@
+Das neue Teammitglied wurde über die Situation informiert. 
+ 
+<speak>Das neue Teammitglied wurde über die Situation <break time="1000ms"/>informiert<break time="1000ms"/> . </speak>

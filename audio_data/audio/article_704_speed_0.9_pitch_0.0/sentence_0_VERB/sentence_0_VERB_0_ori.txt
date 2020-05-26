@@ -1,0 +1,3 @@
+„Ich heiße Sam“, war der erste Satz, den er in großen Buchstaben schreiben konnte. 
+ 
+<speak>„ Ich heiße Sam “ , war der erste Satz , den er in großen Buchstaben <break time="1000ms"/>schreiben<break time="1000ms"/> konnte . </speak>

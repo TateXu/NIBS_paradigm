@@ -1,0 +1,3 @@
+Ich musste für meinen Vortrag eine Menge Informationen sammeln. 
+ 
+<speak>Ich musste für meinen Vortrag eine Menge Informationen <break time="1000ms"/>sammeln<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Wissen Sie, wer als erster Bergsteiger den Mount Everest bestiegen hat? 
+ 
+<speak>Wissen Sie , wer als erster Bergsteiger den Mount Everest <break time="1000ms"/>bestiegen<break time="1000ms"/> hat ? </speak>

@@ -1,0 +1,3 @@
+Die Lampe hängt über dem Bett. 
+ 
+<speak>Die Lampe <break time="1000ms"/>hängt<break time="1000ms"/> über dem Bett . </speak>

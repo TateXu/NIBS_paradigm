@@ -1,0 +1,3 @@
+Ich werde mich nicht entschuldigen, schließlich habe ich den Streit nicht angefangen. 
+ 
+<speak>Ich werde mich nicht <break time="1000ms"/>entschuldigen<break time="1000ms"/> , schließlich habe ich den Streit nicht angefangen . </speak>

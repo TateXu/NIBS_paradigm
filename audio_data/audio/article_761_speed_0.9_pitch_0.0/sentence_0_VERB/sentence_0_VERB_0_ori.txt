@@ -1,0 +1,3 @@
+Ein Flüchtling ist jemand , der aus Not seine Heimat verlässt. 
+ 
+<speak>Ein Flüchtling ist jemand , der aus Not seine Heimat <break time="1000ms"/>verlässt<break time="1000ms"/> . </speak>

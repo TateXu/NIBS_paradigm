@@ -1,0 +1,3 @@
+Da Elena arbeiten muss, überlässt sie ihre Kinder seiner Mutter. 
+ 
+<speak>Da Elena arbeiten muss , <break time="1000ms"/>überlässt<break time="1000ms"/> sie ihre Kinder seiner Mutter . </speak>

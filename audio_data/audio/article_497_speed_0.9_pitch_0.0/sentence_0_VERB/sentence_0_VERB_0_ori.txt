@@ -1,0 +1,3 @@
+Meine Großtante starb letztes Jahr und wurde neben ihrem Mann begraben. 
+ 
+<speak>Meine Großtante starb letztes Jahr und wurde neben ihrem Mann <break time="1000ms"/>begraben<break time="1000ms"/> . </speak>

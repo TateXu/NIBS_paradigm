@@ -1,0 +1,3 @@
+Dieses Zelt wurde für extreme Wetterlagen, z.B. Sturm, Schneesturm, gebaut. 
+ 
+<speak>Dieses Zelt wurde für extreme Wetterlagen , z.B. Sturm , Schneesturm , <break time="1000ms"/>gebaut<break time="1000ms"/> . </speak>

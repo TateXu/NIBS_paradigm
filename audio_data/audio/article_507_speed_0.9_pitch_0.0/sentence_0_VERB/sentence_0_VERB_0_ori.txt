@@ -1,0 +1,3 @@
+Martin geht in ein Reisebüro und lässt sich von einem Angestellten beraten. 
+ 
+<speak>Martin geht in ein Reisebüro und lässt sich von einem Angestellten <break time="1000ms"/>beraten<break time="1000ms"/> . </speak>

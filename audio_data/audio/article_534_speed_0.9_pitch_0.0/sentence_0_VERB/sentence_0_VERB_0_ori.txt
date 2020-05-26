@@ -1,0 +1,3 @@
+Die Sonne brennt im Sommer auf der Haut. 
+ 
+<speak>Die Sonne <break time="1000ms"/>brennt<break time="1000ms"/> im Sommer auf der Haut . </speak>

@@ -1,0 +1,3 @@
+In Österreich darf ein Präsident sechs Jahre regieren. 
+ 
+<speak>In Österreich darf ein Präsident sechs Jahre <break time="1000ms"/>regieren<break time="1000ms"/> . </speak>

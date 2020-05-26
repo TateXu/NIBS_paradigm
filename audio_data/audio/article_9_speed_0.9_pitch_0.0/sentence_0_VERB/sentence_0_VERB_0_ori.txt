@@ -1,0 +1,3 @@
+Die Produkte, die ich bestellt hatte, kamen drei Tage später an. 
+ 
+<speak>Die Produkte , die ich bestellt hatte , <break time="1000ms"/>kamen<break time="1000ms"/> drei Tage später an . </speak>

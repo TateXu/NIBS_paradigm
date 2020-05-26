@@ -1,0 +1,3 @@
+Marie mag lieber Sport. 
+ 
+<speak>Marie <break time="1000ms"/>mag<break time="1000ms"/> lieber Sport . </speak>

@@ -1,0 +1,3 @@
+Ich nehme nie Dinge, die anderen gehören. 
+ 
+<speak>Ich nehme nie Dinge , die anderen <break time="1000ms"/>gehören<break time="1000ms"/> . </speak>

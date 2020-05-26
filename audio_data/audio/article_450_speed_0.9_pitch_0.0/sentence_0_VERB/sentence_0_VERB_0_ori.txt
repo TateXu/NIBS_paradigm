@@ -1,0 +1,3 @@
+Ich bin der Überzeugung, dass er es rechtzeitig schaffen kann. 
+ 
+<speak>Ich bin der Überzeugung , dass er es rechtzeitig <break time="1000ms"/>schaffen<break time="1000ms"/> kann . </speak>

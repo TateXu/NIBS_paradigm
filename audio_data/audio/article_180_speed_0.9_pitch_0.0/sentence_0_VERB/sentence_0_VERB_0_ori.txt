@@ -1,0 +1,3 @@
+Seine Großmutter kann ganz spannend erzählen. 
+ 
+<speak>Seine Großmutter kann ganz spannend <break time="1000ms"/>erzählen<break time="1000ms"/> . </speak>

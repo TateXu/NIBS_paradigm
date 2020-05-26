@@ -1,0 +1,3 @@
+Solange es regnet, bleiben wir hier. 
+ 
+<speak>Solange es regnet , <break time="1000ms"/>bleiben<break time="1000ms"/> wir hier . </speak>

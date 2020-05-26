@@ -1,0 +1,3 @@
+Sebastian mag lieber ein schwarzes Brot mit Butter und Marmelade. 
+ 
+<speak>Sebastian <break time="1000ms"/>mag<break time="1000ms"/> lieber ein schwarzes Brot mit Butter und Marmelade . </speak>

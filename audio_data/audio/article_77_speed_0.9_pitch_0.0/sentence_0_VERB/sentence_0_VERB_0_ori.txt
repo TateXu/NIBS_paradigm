@@ -1,0 +1,3 @@
+Er hat den Vorgang im Tagebuch beschrieben. 
+ 
+<speak>Er hat den Vorgang im Tagebuch <break time="1000ms"/>beschrieben<break time="1000ms"/> . </speak>

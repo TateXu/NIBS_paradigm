@@ -1,0 +1,3 @@
+Sie gehen diese Straße geradeaus und biegen an der ersten Kreuzung rechts ab. 
+ 
+<speak>Sie gehen diese Straße geradeaus und <break time="1000ms"/>biegen<break time="1000ms"/> an der ersten Kreuzung rechts ab . </speak>

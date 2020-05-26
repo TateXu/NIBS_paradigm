@@ -1,0 +1,3 @@
+Wenn ich mich gestresst fühle, muss ich mich selbst daran erinnern, ruhig zu bleiben. 
+ 
+<speak>Wenn ich mich gestresst fühle , muss ich mich selbst daran <break time="1000ms"/>erinnern<break time="1000ms"/> , ruhig zu bleiben . </speak>

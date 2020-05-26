@@ -1,0 +1,3 @@
+Menschen und Firmen können ein Konto bei der Bank eröffnen. 
+ 
+<speak>Menschen und Firmen können ein Konto bei der Bank <break time="1000ms"/>eröffnen<break time="1000ms"/> . </speak>

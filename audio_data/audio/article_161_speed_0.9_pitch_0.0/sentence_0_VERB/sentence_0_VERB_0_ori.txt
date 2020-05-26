@@ -1,0 +1,3 @@
+Ich empfehle Ihnen unbedingt die traditionale Speise. 
+ 
+<speak>Ich <break time="1000ms"/>empfehle<break time="1000ms"/> Ihnen unbedingt die traditionale Speise . </speak>

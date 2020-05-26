@@ -1,0 +1,3 @@
+Wir sind verlobt und wollen nächstes Jahr heiraten. 
+ 
+<speak>Wir sind verlobt und wollen nächstes Jahr <break time="1000ms"/>heiraten<break time="1000ms"/> . </speak>

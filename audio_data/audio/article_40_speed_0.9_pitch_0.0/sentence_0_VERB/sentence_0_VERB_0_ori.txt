@@ -1,0 +1,3 @@
+Wenn du dich einen Moment ausruhst, kannst du mehr leisten. 
+ 
+<speak>Wenn du dich einen Moment <break time="1000ms"/>ausruhst<break time="1000ms"/> , kannst du mehr leisten . </speak>

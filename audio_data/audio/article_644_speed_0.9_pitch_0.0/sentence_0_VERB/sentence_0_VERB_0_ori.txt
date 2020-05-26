@@ -1,0 +1,3 @@
+Mein Opa war beim Ohren-Arzt, weil er so schlecht hört. 
+ 
+<speak>Mein Opa war beim Ohren-Arzt , weil er so schlecht <break time="1000ms"/>hört<break time="1000ms"/> . </speak>

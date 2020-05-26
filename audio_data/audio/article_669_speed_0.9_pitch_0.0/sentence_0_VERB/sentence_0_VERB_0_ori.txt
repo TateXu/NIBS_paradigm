@@ -1,0 +1,3 @@
+Ihre Kinder liegen noch im Bett. 
+ 
+<speak>Ihre Kinder <break time="1000ms"/>liegen<break time="1000ms"/> noch im Bett . </speak>

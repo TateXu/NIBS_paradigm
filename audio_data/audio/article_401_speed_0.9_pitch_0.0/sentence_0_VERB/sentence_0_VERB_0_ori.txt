@@ -1,0 +1,3 @@
+Ich habe keine Ahnung, wie viel du für das Auto gezahlt hast, aber lass mich mal raten. 
+ 
+<speak>Ich habe keine Ahnung , wie viel du für das Auto gezahlt hast , aber lass mich mal <break time="1000ms"/>raten<break time="1000ms"/> . </speak>

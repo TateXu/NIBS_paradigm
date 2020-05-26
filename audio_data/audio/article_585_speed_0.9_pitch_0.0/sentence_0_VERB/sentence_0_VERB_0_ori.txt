@@ -1,0 +1,3 @@
+Karneval wird jedes Jahr im Februar oder im März gefeiert. 
+ 
+<speak>Karneval wird jedes Jahr im Februar oder im März <break time="1000ms"/>gefeiert<break time="1000ms"/> . </speak>

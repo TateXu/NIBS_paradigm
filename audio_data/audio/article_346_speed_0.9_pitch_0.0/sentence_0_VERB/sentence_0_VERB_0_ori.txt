@@ -1,0 +1,3 @@
+Seine Freunde können seinen Worten nicht trauen, weil er immer lügt. 
+ 
+<speak>Seine Freunde können seinen Worten nicht trauen , weil er immer <break time="1000ms"/>lügt<break time="1000ms"/> . </speak>

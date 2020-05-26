@@ -1,0 +1,3 @@
+Ich gehe gerne alles in dem Geschäft um die Ecke einkaufen. 
+ 
+<speak>Ich gehe gerne alles in dem Geschäft um die Ecke <break time="1000ms"/>einkaufen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Ich kann dir gerne mein Fahrrad leihen, wenn du möchtest. 
+ 
+<speak>Ich kann dir gerne mein Fahrrad <break time="1000ms"/>leihen<break time="1000ms"/> , wenn du möchtest . </speak>

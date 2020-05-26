@@ -1,0 +1,3 @@
+Felix muss schon um sechs Uhr früh aufstehen. 
+ 
+<speak>Felix muss schon um sechs Uhr früh <break time="1000ms"/>aufstehen<break time="1000ms"/> . </speak>

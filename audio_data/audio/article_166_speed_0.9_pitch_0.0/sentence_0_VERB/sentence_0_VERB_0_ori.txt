@@ -1,0 +1,3 @@
+Ich entschuldige bitte meine Verspätung. 
+ 
+<speak>Ich <break time="1000ms"/>entschuldige<break time="1000ms"/> bitte meine Verspätung . </speak>

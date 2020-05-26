@@ -1,0 +1,3 @@
+Ich versuche, jede Woche ein Buch zu lesen. 
+ 
+<speak>Ich versuche , jede Woche ein Buch zu <break time="1000ms"/>lesen<break time="1000ms"/> . </speak>

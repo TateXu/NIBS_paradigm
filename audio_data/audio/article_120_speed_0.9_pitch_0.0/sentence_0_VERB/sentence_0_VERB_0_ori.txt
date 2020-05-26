@@ -1,0 +1,3 @@
+Ich möchte einen Flug nach Spanien buchen. 
+ 
+<speak>Ich möchte einen Flug nach Spanien <break time="1000ms"/>buchen<break time="1000ms"/> . </speak>

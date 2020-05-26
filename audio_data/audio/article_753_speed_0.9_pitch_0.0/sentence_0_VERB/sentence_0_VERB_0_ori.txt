@@ -1,0 +1,3 @@
+Der Lehrer unterrichtet Schüler und bringt ihnen verschiedene Dinge bei. 
+ 
+<speak>Der Lehrer <break time="1000ms"/>unterrichtet<break time="1000ms"/> Schüler und bringt ihnen verschiedene Dinge bei . </speak>

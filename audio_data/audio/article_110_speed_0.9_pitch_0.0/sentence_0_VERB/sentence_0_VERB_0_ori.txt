@@ -1,0 +1,3 @@
+Sie hat das Gemüse in Olivenöl gebraten. 
+ 
+<speak>Sie hat das Gemüse in Olivenöl <break time="1000ms"/>gebraten<break time="1000ms"/> . </speak>

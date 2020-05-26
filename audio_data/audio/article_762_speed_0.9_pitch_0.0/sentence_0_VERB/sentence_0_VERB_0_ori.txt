@@ -1,0 +1,3 @@
+Briefe und Pakete verschickt man mit der Post. 
+ 
+<speak>Briefe und Pakete <break time="1000ms"/>verschickt<break time="1000ms"/> man mit der Post . </speak>

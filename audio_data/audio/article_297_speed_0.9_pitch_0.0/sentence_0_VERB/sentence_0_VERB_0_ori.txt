@@ -1,0 +1,3 @@
+Das Kleid wird fünfzehn Euro kosten. 
+ 
+<speak>Das Kleid wird fünfzehn Euro <break time="1000ms"/>kosten<break time="1000ms"/> . </speak>

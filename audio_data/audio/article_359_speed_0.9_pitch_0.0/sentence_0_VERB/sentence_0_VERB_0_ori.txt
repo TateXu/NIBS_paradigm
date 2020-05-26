@@ -1,0 +1,3 @@
+Wenn wir ein Auto mieten möchten, müssen wir Führerschein vorlegen und die Kaution bezahlen. 
+ 
+<speak>Wenn wir ein Auto <break time="1000ms"/>mieten<break time="1000ms"/> möchten , müssen wir Führerschein vorlegen und die Kaution bezahlen . </speak>

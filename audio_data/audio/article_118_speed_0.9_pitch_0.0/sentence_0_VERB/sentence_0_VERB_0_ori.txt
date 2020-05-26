@@ -1,0 +1,3 @@
+Die schwarze Wolken werden Regen bringen. 
+ 
+<speak>Die schwarze Wolken werden Regen <break time="1000ms"/>bringen<break time="1000ms"/> . </speak>

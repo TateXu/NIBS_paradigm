@@ -1,0 +1,3 @@
+Man bezahlt für den Naturschutz. 
+ 
+<speak>Man <break time="1000ms"/>bezahlt<break time="1000ms"/> für den Naturschutz . </speak>

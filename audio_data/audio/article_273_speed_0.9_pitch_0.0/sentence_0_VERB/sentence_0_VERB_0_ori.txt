@@ -1,0 +1,3 @@
+Der Assistent ging zurück ins Büro, um die Dokumente zu holen. 
+ 
+<speak>Der Assistent ging zurück ins Büro , um die Dokumente zu <break time="1000ms"/>holen<break time="1000ms"/> . </speak>

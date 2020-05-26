@@ -1,0 +1,3 @@
+Die Kinder haben ihrer Mutter im Haushalt geholfen. 
+ 
+<speak>Die Kinder haben ihrer Mutter im Haushalt <break time="1000ms"/>geholfen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Sie brauchen ein ärztliches Zeugnis. 
+ 
+<speak>Sie <break time="1000ms"/>brauchen<break time="1000ms"/> ein ärztliches Zeugnis . </speak>

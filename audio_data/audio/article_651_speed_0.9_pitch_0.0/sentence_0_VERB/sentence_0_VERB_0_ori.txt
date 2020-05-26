@@ -1,0 +1,3 @@
+Sein Versprechen klingt glaubwürdig. 
+ 
+<speak>Sein Versprechen <break time="1000ms"/>klingt<break time="1000ms"/> glaubwürdig . </speak>

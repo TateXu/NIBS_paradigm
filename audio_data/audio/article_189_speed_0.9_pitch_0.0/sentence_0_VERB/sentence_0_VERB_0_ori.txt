@@ -1,0 +1,3 @@
+Der Bus fährt jede Stunde. 
+ 
+<speak>Der Bus <break time="1000ms"/>fährt<break time="1000ms"/> jede Stunde . </speak>

@@ -1,0 +1,3 @@
+Vor dem Supermarkt kann man auf einer großen Fläche parken.  
+ 
+<speak>Vor dem Supermarkt kann man auf einer großen Fläche <break time="1000ms"/>parken<break time="1000ms"/> . </speak>

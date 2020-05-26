@@ -1,0 +1,3 @@
+Befristete Verträge enden automatisch, wenn sie nicht erneuert werden. 
+ 
+<speak>Befristete Verträge <break time="1000ms"/>enden<break time="1000ms"/> automatisch , wenn sie nicht erneuert werden . </speak>

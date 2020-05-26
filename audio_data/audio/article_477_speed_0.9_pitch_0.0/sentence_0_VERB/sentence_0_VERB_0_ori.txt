@@ -1,0 +1,3 @@
+Mit der Benzin wird der Motor des Autos angetrieben. 
+ 
+<speak>Mit der Benzin wird der Motor des Autos <break time="1000ms"/>angetrieben<break time="1000ms"/> . </speak>

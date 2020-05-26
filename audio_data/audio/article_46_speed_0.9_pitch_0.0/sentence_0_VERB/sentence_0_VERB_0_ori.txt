@@ -1,0 +1,3 @@
+Das Volleyballspiel wird in einer Sporthalle ausgetragen. 
+ 
+<speak>Das Volleyballspiel wird in einer Sporthalle <break time="1000ms"/>ausgetragen<break time="1000ms"/> . </speak>

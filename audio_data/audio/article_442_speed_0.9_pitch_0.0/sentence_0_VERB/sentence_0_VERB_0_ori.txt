@@ -1,0 +1,3 @@
+Wir haben im Wald Beeren und Pilze gesammelt. 
+ 
+<speak>Wir haben im Wald Beeren und Pilze <break time="1000ms"/>gesammelt<break time="1000ms"/> . </speak>

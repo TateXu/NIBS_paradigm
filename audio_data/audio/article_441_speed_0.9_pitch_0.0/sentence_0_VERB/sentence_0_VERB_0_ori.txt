@@ -1,0 +1,3 @@
+Die Polizei sammelte alle verfügbaren Informationen. 
+ 
+<speak>Die Polizei <break time="1000ms"/>sammelte<break time="1000ms"/> alle verfügbaren Informationen . </speak>

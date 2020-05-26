@@ -1,0 +1,3 @@
+Er hat die Verbindung zwischen zwei Zufälligkeiten hergestellt. 
+ 
+<speak>Er hat die Verbindung zwischen zwei Zufälligkeiten <break time="1000ms"/>hergestellt<break time="1000ms"/> . </speak>

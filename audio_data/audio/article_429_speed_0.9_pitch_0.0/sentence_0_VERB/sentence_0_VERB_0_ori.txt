@@ -1,0 +1,3 @@
+Man kann die salzige Luft riechen. 
+ 
+<speak>Man kann die salzige Luft <break time="1000ms"/>riechen<break time="1000ms"/> . </speak>

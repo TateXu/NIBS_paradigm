@@ -1,0 +1,3 @@
+Es ist Zeit, diesen Ort zu verlassen. 
+ 
+<speak>Es ist Zeit , diesen Ort zu <break time="1000ms"/>verlassen<break time="1000ms"/> . </speak>

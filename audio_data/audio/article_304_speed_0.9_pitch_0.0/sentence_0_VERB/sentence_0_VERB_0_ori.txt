@@ -1,0 +1,3 @@
+Ich musste meine Mitgliedschaft kündigen, weil sie zu teuer war. 
+ 
+<speak>Ich musste meine Mitgliedschaft <break time="1000ms"/>kündigen<break time="1000ms"/> , weil sie zu teuer war . </speak>

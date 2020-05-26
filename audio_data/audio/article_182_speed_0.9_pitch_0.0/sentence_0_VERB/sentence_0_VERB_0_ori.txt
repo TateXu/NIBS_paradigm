@@ -1,0 +1,3 @@
+Meine Mutter erzählte mir immer eine Gutenachtgeschichte. 
+ 
+<speak>Meine Mutter <break time="1000ms"/>erzählte<break time="1000ms"/> mir immer eine Gutenachtgeschichte . </speak>

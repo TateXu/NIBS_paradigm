@@ -1,0 +1,3 @@
+Arbeitslos-sein bedeutet: man hat keinen Arbeits-Platz. 
+ 
+<speak>Arbeitslos-sein <break time="1000ms"/>bedeutet<break time="1000ms"/> : man hat keinen Arbeits-Platz . </speak>

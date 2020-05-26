@@ -1,0 +1,3 @@
+Leichte Sprache ist eine Hilfe für Menschen , die keine schwierige Sprache verstehen. 
+ 
+<speak>Leichte Sprache ist eine Hilfe für Menschen , die keine schwierige Sprache <break time="1000ms"/>verstehen<break time="1000ms"/> . </speak>

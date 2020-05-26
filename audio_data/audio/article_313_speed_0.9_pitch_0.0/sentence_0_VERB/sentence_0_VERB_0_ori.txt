@@ -1,0 +1,3 @@
+Wir leben alle auf der Erde. 
+ 
+<speak>Wir <break time="1000ms"/>leben<break time="1000ms"/> alle auf der Erde . </speak>

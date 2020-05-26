@@ -1,0 +1,3 @@
+Ich muss meinen Nachnamen oft langsam buchstabieren, weil er zu selten ist. 
+ 
+<speak>Ich muss meinen Nachnamen oft langsam <break time="1000ms"/>buchstabieren<break time="1000ms"/> , weil er zu selten ist . </speak>

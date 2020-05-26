@@ -1,0 +1,3 @@
+Wenn eine Erkältung hat, kann mann niesen oder husten. 
+ 
+<speak>Wenn eine Erkältung hat , kann mann niesen oder <break time="1000ms"/>husten<break time="1000ms"/> . </speak>

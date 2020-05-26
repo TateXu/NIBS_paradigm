@@ -1,0 +1,3 @@
+Sie sollten mehr Obst essen, Vitamin C wird Ihnen bei Erkältungen helfen. 
+ 
+<speak>Sie sollten mehr Obst essen , Vitamin C wird Ihnen bei Erkältungen <break time="1000ms"/>helfen<break time="1000ms"/> . </speak>

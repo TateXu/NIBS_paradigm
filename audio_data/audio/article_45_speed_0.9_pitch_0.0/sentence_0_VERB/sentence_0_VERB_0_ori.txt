@@ -1,0 +1,3 @@
+Alle Passagiere müssen an der Endstation aus dem Zug aussteigen. 
+ 
+<speak>Alle Passagiere müssen an der Endstation aus dem Zug <break time="1000ms"/>aussteigen<break time="1000ms"/> . </speak>

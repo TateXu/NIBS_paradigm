@@ -1,0 +1,3 @@
+Die Ausbildung besteht aus mehreren Modulen. 
+ 
+<speak>Die Ausbildung <break time="1000ms"/>besteht<break time="1000ms"/> aus mehreren Modulen . </speak>

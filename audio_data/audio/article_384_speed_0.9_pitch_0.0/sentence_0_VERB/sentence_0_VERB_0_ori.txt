@@ -1,0 +1,3 @@
+Es ist mir einfach unbegreiflich, wie so etwas Dummes passiert. 
+ 
+<speak>Es ist mir einfach unbegreiflich , wie so etwas Dummes <break time="1000ms"/>passiert<break time="1000ms"/> . </speak>

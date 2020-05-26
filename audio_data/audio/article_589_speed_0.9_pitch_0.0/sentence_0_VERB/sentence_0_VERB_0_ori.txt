@@ -1,0 +1,3 @@
+Josi hat letzte Nacht nur wenig Schlaf gefunden. 
+ 
+<speak>Josi hat letzte Nacht nur wenig Schlaf <break time="1000ms"/>gefunden<break time="1000ms"/> . </speak>

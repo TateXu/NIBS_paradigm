@@ -1,0 +1,3 @@
+Dort an der Ampel kannst du die Straße überqueren. 
+ 
+<speak>Dort an der Ampel kannst du die Straße <break time="1000ms"/>überqueren<break time="1000ms"/> . </speak>

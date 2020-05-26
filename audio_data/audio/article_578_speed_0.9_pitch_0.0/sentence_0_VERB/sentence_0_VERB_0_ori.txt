@@ -1,0 +1,3 @@
+Das Lagerfeuer hat zwei Stunden lang gebrannt. 
+ 
+<speak>Das Lagerfeuer hat zwei Stunden lang <break time="1000ms"/>gebrannt<break time="1000ms"/> . </speak>

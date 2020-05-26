@@ -1,0 +1,3 @@
+Ich bin krank und bleibe heute im Bett. 
+ 
+<speak>Ich bin krank und <break time="1000ms"/>bleibe<break time="1000ms"/> heute im Bett . </speak>

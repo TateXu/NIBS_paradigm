@@ -1,0 +1,3 @@
+Lisa tanzt im Ballett. 
+ 
+<speak>Lisa <break time="1000ms"/>tanzt<break time="1000ms"/> im Ballett . </speak>

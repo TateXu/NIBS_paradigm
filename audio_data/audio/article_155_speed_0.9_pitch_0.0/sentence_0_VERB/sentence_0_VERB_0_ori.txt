@@ -1,0 +1,3 @@
+Ein junges Ehepaar ist gerade in das neue Haus neben unserem eingezogen. 
+ 
+<speak>Ein junges Ehepaar ist gerade in das neue Haus neben unserem <break time="1000ms"/>eingezogen<break time="1000ms"/> . </speak>

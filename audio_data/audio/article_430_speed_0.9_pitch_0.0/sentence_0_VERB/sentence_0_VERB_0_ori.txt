@@ -1,0 +1,3 @@
+Wenn du dich in einer gefährlichen Situation befindest, rufe nach Hilfe. 
+ 
+<speak>Wenn du dich in einer gefährlichen Situation befindest , <break time="1000ms"/>rufe<break time="1000ms"/> nach Hilfe . </speak>

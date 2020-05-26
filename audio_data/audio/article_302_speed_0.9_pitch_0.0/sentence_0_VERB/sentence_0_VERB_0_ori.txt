@@ -1,0 +1,3 @@
+Sie kümmert sich nur um ihre eigenen Angelegenheiten. 
+ 
+<speak>Sie <break time="1000ms"/>kümmert<break time="1000ms"/> sich nur um ihre eigenen Angelegenheiten . </speak>

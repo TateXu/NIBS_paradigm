@@ -1,0 +1,3 @@
+Ich bin von New York nach München geflogen. 
+ 
+<speak>Ich bin von New York nach München <break time="1000ms"/>geflogen<break time="1000ms"/> . </speak>

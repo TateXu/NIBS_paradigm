@@ -1,0 +1,3 @@
+Jeden Tag lesen wir die Zeitung. 
+ 
+<speak>Jeden Tag <break time="1000ms"/>lesen<break time="1000ms"/> wir die Zeitung . </speak>

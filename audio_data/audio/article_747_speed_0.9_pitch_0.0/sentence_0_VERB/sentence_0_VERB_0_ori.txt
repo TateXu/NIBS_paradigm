@@ -1,0 +1,3 @@
+Vater trägt den großen Rucksack auf dem Rücken. 
+ 
+<speak>Vater <break time="1000ms"/>trägt<break time="1000ms"/> den großen Rucksack auf dem Rücken . </speak>

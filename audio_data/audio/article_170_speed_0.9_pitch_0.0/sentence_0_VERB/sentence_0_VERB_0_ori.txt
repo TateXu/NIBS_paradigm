@@ -1,0 +1,3 @@
+Ich möchte, dass Sie das Wort mit Ihren eigenen Worten erklären! 
+ 
+<speak>Ich möchte , dass Sie das Wort mit Ihren eigenen Worten <break time="1000ms"/>erklären<break time="1000ms"/> ! </speak>

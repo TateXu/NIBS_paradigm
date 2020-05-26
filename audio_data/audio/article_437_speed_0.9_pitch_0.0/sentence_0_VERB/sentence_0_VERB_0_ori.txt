@@ -1,0 +1,3 @@
+Siehst du! Ich habe dir gesagt, dass es regnen würde. 
+ 
+<speak>Siehst du ! Ich habe dir <break time="1000ms"/>gesagt<break time="1000ms"/> , dass es regnen würde . </speak>

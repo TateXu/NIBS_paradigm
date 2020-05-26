@@ -1,0 +1,3 @@
+Wenn ich einmal angefangen habe, kann mich nichts mehr aufhalten. 
+ 
+<speak>Wenn ich einmal angefangen habe , kann mich nichts mehr <break time="1000ms"/>aufhalten<break time="1000ms"/> . </speak>

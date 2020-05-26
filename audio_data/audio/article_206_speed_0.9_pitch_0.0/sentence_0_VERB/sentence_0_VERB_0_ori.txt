@@ -1,0 +1,3 @@
+Der Donau fließt ins Schwarze Meer. 
+ 
+<speak>Der Donau <break time="1000ms"/>fließt<break time="1000ms"/> ins Schwarze Meer . </speak>

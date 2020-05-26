@@ -1,0 +1,3 @@
+Meine kleine Schwester spielt draußen im Garten. 
+ 
+<speak>Meine kleine Schwester <break time="1000ms"/>spielt<break time="1000ms"/> draußen im Garten . </speak>

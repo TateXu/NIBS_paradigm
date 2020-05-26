@@ -1,0 +1,3 @@
+Bevor man ein Haus baut, zeichnet der Architekt einen Plan. 
+ 
+<speak>Bevor man ein Haus baut , <break time="1000ms"/>zeichnet<break time="1000ms"/> der Architekt einen Plan . </speak>

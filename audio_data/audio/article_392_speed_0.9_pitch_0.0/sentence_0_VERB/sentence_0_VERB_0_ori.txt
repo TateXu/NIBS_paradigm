@@ -1,0 +1,3 @@
+Ich kann prüfen, ob wir diese Hose auf Lager haben. 
+ 
+<speak>Ich kann <break time="1000ms"/>prüfen<break time="1000ms"/> , ob wir diese Hose auf Lager haben . </speak>

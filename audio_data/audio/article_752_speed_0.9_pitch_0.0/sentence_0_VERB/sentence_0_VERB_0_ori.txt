@@ -1,0 +1,3 @@
+Unser Biolehrer unterrichtet uns auch machmal im Grünen. 
+ 
+<speak>Unser Biolehrer <break time="1000ms"/>unterrichtet<break time="1000ms"/> uns auch machmal im Grünen . </speak>

@@ -1,0 +1,3 @@
+Für dieses Produkt wird keine technische Unterstützung mehr angeboten. 
+ 
+<speak>Für dieses Produkt wird keine technische Unterstützung mehr <break time="1000ms"/>angeboten<break time="1000ms"/> . </speak>

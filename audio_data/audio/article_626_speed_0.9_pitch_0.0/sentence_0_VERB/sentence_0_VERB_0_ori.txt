@@ -1,0 +1,3 @@
+Zu Ostern gibt es für Kinder Ostereier und Süßigkeiten. 
+ 
+<speak>Zu Ostern <break time="1000ms"/>gibt<break time="1000ms"/> es für Kinder Ostereier und Süßigkeiten . </speak>

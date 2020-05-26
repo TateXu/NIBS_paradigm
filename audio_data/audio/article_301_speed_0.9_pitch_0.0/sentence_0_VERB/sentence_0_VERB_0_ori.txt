@@ -1,0 +1,3 @@
+Das Mädchen kümmert sich um seine erkältete Mutter. 
+ 
+<speak>Das Mädchen <break time="1000ms"/>kümmert<break time="1000ms"/> sich um seine erkältete Mutter . </speak>

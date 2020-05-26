@@ -1,0 +1,3 @@
+Beim Spinat und Kohl wird man die Blätter essen. 
+ 
+<speak>Beim Spinat und Kohl wird man die Blätter <break time="1000ms"/>essen<break time="1000ms"/> . </speak>

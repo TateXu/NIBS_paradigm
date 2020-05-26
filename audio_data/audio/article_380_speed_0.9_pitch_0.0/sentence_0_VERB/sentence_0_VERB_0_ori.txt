@@ -1,0 +1,3 @@
+Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken. 
+ 
+<speak>Es ist nicht erlaubt für alle Autos , vor dem Notausgang zu <break time="1000ms"/>parken<break time="1000ms"/> . </speak>

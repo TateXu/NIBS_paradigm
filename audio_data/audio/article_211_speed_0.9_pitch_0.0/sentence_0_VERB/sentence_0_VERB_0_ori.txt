@@ -1,0 +1,3 @@
+Tut mir leid, darf ich fragen warum? 
+ 
+<speak>Tut mir leid , darf ich <break time="1000ms"/>fragen<break time="1000ms"/> warum ? </speak>

@@ -1,0 +1,3 @@
+Der Präsident diskutierte das Thema auf der Pressekonferenz nicht. 
+ 
+<speak>Der Präsident <break time="1000ms"/>diskutierte<break time="1000ms"/> das Thema auf der Pressekonferenz nicht . </speak>

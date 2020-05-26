@@ -1,0 +1,3 @@
+Ich habe das Bild an die Wand gehängt.  
+ 
+<speak>Ich habe das Bild an die Wand <break time="1000ms"/>gehängt<break time="1000ms"/> . </speak>

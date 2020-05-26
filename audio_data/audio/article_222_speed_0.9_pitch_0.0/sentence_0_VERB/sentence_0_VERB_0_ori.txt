@@ -1,0 +1,3 @@
+Diese Dame ist US-Bürgerin, wurde aber in Deutschland geboren. 
+ 
+<speak>Diese Dame ist US-Bürgerin , wurde aber in Deutschland <break time="1000ms"/>geboren<break time="1000ms"/> . </speak>

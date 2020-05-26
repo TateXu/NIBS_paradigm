@@ -1,0 +1,3 @@
+Das Abkommen läuft noch fünf Monate.  
+ 
+<speak>Das Abkommen <break time="1000ms"/>läuft<break time="1000ms"/> noch fünf Monate . </speak>

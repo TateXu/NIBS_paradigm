@@ -1,0 +1,3 @@
+An Regentagen benutzen die Leute einen Regenschirm. 
+ 
+<speak>An Regentagen <break time="1000ms"/>benutzen<break time="1000ms"/> die Leute einen Regenschirm . </speak>

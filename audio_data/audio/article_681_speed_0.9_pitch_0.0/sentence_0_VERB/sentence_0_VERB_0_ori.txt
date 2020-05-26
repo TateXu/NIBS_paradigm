@@ -1,0 +1,3 @@
+Das verstehe ich nicht, was meinst du damit? 
+ 
+<speak>Das verstehe ich nicht , was <break time="1000ms"/>meinst<break time="1000ms"/> du damit ? </speak>

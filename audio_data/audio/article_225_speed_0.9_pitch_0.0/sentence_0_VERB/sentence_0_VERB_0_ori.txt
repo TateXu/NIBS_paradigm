@@ -1,0 +1,3 @@
+Bewegung und gesunde Ernährung gehören zu einer gesunden Lebensweise. 
+ 
+<speak>Bewegung und gesunde Ernährung <break time="1000ms"/>gehören<break time="1000ms"/> zu einer gesunden Lebensweise . </speak>

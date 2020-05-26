@@ -1,0 +1,3 @@
+Ich habe meine Schuhe für die Hochzeit geputzt. 
+ 
+<speak>Ich habe meine Schuhe für die Hochzeit <break time="1000ms"/>geputzt<break time="1000ms"/> . </speak>

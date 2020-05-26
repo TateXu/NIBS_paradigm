@@ -1,0 +1,3 @@
+Alkoholsucht schadet der Gesundheit. 
+ 
+<speak>Alkoholsucht <break time="1000ms"/>schadet<break time="1000ms"/> der Gesundheit . </speak>

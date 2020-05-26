@@ -1,0 +1,3 @@
+Wir haben den Empfang der Sendung bestätigt. 
+ 
+<speak>Wir haben den Empfang der Sendung <break time="1000ms"/>bestätigt<break time="1000ms"/> . </speak>

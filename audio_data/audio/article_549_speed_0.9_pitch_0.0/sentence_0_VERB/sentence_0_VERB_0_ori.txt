@@ -1,0 +1,3 @@
+Alexander Bell hat das Telefon erfunden. 
+ 
+<speak>Alexander Bell hat das Telefon <break time="1000ms"/>erfunden<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Eine Stunde kann man in Minuten und Sekunden unterteilen. 
+ 
+<speak>Eine Stunde kann man in Minuten und Sekunden <break time="1000ms"/>unterteilen<break time="1000ms"/> . </speak>

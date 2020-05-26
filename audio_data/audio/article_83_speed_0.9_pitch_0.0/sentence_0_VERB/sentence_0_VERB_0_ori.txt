@@ -1,0 +1,3 @@
+Wir haben die Buchung per E-Mail bestätigt. 
+ 
+<speak>Wir haben die Buchung per E-Mail <break time="1000ms"/>bestätigt<break time="1000ms"/> . </speak>

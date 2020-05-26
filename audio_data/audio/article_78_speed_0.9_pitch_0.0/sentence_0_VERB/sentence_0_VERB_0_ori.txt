@@ -1,0 +1,3 @@
+Sie beschrieb der Polizei den Dieb so genau, dass diese ihn festnehmen konnnte. 
+ 
+<speak>Sie <break time="1000ms"/>beschrieb<break time="1000ms"/> der Polizei den Dieb so genau , dass diese ihn festnehmen konnnte . </speak>

@@ -1,0 +1,3 @@
+Du kannst auf meine Unterstützung rechnen. 
+ 
+<speak>Du kannst auf meine Unterstützung <break time="1000ms"/>rechnen<break time="1000ms"/> . </speak>

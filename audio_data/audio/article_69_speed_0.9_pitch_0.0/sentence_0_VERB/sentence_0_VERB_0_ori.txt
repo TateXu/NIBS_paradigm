@@ -1,0 +1,3 @@
+Es gibt viele Vorteile, wenn man die öffentlichen Verkehrsmittel benutzt. 
+ 
+<speak>Es gibt viele Vorteile , wenn man die öffentlichen Verkehrsmittel <break time="1000ms"/>benutzt<break time="1000ms"/> . </speak>

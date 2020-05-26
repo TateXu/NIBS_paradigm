@@ -1,0 +1,3 @@
+Ich habe das Formular ausgefüllt, um mich für den Kurs anzumelden. 
+ 
+<speak>Ich habe das Formular <break time="1000ms"/>ausgefüllt<break time="1000ms"/> , um mich für den Kurs anzumelden . </speak>

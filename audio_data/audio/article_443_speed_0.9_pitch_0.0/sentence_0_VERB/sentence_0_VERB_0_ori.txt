@@ -1,0 +1,3 @@
+Es dauerte lange, alle nötigen Informationen zu sammeln. 
+ 
+<speak>Es dauerte lange , alle nötigen Informationen zu <break time="1000ms"/>sammeln<break time="1000ms"/> . </speak>

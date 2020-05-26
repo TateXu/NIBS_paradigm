@@ -1,0 +1,3 @@
+Auf Lavaerde wachsen sehr gute Weintrauben. 
+ 
+<speak>Auf Lavaerde <break time="1000ms"/>wachsen<break time="1000ms"/> sehr gute Weintrauben . </speak>

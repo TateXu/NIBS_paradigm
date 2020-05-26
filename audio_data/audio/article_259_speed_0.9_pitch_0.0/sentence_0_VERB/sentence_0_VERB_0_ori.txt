@@ -1,0 +1,3 @@
+Ein gutes Gehalt heißt oft harte Arbeit. 
+ 
+<speak>Ein gutes Gehalt <break time="1000ms"/>heißt<break time="1000ms"/> oft harte Arbeit . </speak>

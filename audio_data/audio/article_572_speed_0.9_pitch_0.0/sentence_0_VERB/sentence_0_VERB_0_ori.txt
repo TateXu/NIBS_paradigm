@@ -1,0 +1,3 @@
+An der Tankstelle kann man Benzin in den Tank füllen. 
+ 
+<speak>An der Tankstelle kann man Benzin in den Tank <break time="1000ms"/>füllen<break time="1000ms"/> . </speak>

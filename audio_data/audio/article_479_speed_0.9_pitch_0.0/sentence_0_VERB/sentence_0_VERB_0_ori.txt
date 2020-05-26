@@ -1,0 +1,3 @@
+Auf der Youtube kann man Videos anschauen. 
+ 
+<speak>Auf der Youtube kann man Videos <break time="1000ms"/>anschauen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Bitte öffnen Sie das Fenster, um frische Luft hereinzulassen. 
+ 
+<speak>Bitte <break time="1000ms"/>öffnen<break time="1000ms"/> Sie das Fenster , um frische Luft hereinzulassen . </speak>

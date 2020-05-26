@@ -1,0 +1,3 @@
+Ich habe den schrecklichen Verdacht, dass Hans das Geld gestohlen hat. 
+ 
+<speak>Ich habe den schrecklichen Verdacht , dass Hans das Geld <break time="1000ms"/>gestohlen<break time="1000ms"/> hat . </speak>

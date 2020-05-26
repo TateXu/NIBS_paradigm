@@ -1,0 +1,3 @@
+Manche Menschen kann mehr Fleisch als Gemüse essen. 
+ 
+<speak>Manche Menschen kann mehr Fleisch als Gemüse <break time="1000ms"/>essen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Die Präsentation dauert eine halbe Stunde. 
+ 
+<speak>Die Präsentation <break time="1000ms"/>dauert<break time="1000ms"/> eine halbe Stunde . </speak>

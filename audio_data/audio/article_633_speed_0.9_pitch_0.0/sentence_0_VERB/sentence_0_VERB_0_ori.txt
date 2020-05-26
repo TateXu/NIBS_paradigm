@@ -1,0 +1,3 @@
+Araber lieben es, auf den Märkten zu handeln. 
+ 
+<speak>Araber lieben es , auf den Märkten zu <break time="1000ms"/>handeln<break time="1000ms"/> . </speak>

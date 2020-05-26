@@ -1,0 +1,3 @@
+Rom wurde nicht an einem Tag erbaut. 
+ 
+<speak>Rom wurde nicht an einem Tag <break time="1000ms"/>erbaut<break time="1000ms"/> . </speak>

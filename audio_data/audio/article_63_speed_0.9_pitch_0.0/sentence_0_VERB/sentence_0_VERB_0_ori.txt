@@ -1,0 +1,3 @@
+Bei der Bewerbung müssen Sie Ihre Motivation begründen. 
+ 
+<speak>Bei der Bewerbung müssen Sie Ihre Motivation <break time="1000ms"/>begründen<break time="1000ms"/> . </speak>

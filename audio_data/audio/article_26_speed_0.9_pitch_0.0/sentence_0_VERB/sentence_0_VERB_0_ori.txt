@@ -1,0 +1,3 @@
+Er muss arbeiten, um seine beiden Kinder großzuziehen. 
+ 
+<speak>Er muss <break time="1000ms"/>arbeiten<break time="1000ms"/> , um seine beiden Kinder großzuziehen . </speak>

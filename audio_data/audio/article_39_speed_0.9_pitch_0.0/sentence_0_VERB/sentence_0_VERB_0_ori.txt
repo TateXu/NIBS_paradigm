@@ -1,0 +1,3 @@
+Die Universität hat meinen Studentenausweis ausgestellt. 
+ 
+<speak>Die Universität hat meinen Studentenausweis <break time="1000ms"/>ausgestellt<break time="1000ms"/> . </speak>

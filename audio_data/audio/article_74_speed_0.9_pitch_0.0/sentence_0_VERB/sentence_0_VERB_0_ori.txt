@@ -1,0 +1,3 @@
+Die Medien und Reporter sollten die Wahrheit berichten. 
+ 
+<speak>Die Medien und Reporter sollten die Wahrheit <break time="1000ms"/>berichten<break time="1000ms"/> . </speak>

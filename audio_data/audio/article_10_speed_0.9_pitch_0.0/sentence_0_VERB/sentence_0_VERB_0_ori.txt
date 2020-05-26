@@ -1,0 +1,3 @@
+Die Teilnehmer müssen sich im Voraus für den Kurs anmelden. 
+ 
+<speak>Die Teilnehmer müssen sich im Voraus für den Kurs <break time="1000ms"/>anmelden<break time="1000ms"/> . </speak>

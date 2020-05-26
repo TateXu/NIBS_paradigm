@@ -1,0 +1,3 @@
+Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit belohnt. 
+ 
+<speak>Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit <break time="1000ms"/>belohnt<break time="1000ms"/> . </speak>

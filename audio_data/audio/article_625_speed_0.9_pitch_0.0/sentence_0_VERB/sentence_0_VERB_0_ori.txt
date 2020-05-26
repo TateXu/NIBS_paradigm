@@ -1,0 +1,3 @@
+Bitte gib mir ein Stück Kuchen und eine Schale mit Obst. 
+ 
+<speak>Bitte <break time="1000ms"/>gib<break time="1000ms"/> mir ein Stück Kuchen und eine Schale mit Obst . </speak>

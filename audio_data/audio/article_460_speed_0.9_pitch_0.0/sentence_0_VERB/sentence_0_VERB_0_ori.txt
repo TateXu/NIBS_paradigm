@@ -1,0 +1,3 @@
+Ich schicke die Dateien als E-Mail-Anhang. 
+ 
+<speak>Ich <break time="1000ms"/>schicke<break time="1000ms"/> die Dateien als E-Mail-Anhang . </speak>

@@ -1,0 +1,3 @@
+Wir hoffen, dass die Verhandlungen zu einem erfolgreichen Abschluss kommen. 
+ 
+<speak>Wir <break time="1000ms"/>hoffen<break time="1000ms"/> , dass die Verhandlungen zu einem erfolgreichen Abschluss kommen . </speak>

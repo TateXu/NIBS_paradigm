@@ -1,0 +1,3 @@
+Wenn es wärmer wird, werde ich die Fenster öffnen. 
+ 
+<speak>Wenn es wärmer wird , werde ich die Fenster <break time="1000ms"/>öffnen<break time="1000ms"/> . </speak>

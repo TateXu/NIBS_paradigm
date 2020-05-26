@@ -1,0 +1,3 @@
+Die Gäste gratulieren dem jungen Paar herzlich zur Hochzeit. 
+ 
+<speak>Die Gäste <break time="1000ms"/>gratulieren<break time="1000ms"/> dem jungen Paar herzlich zur Hochzeit . </speak>

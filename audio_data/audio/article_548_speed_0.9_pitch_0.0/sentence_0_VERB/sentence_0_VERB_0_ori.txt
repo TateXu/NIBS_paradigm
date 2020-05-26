@@ -1,0 +1,3 @@
+Charles Darwin hat die Natur erforscht. 
+ 
+<speak>Charles Darwin hat die Natur <break time="1000ms"/>erforscht<break time="1000ms"/> . </speak>

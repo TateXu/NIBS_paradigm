@@ -1,0 +1,3 @@
+Der Fallschirm wird im Fall geöffnet. 
+ 
+<speak>Der Fallschirm wird im Fall <break time="1000ms"/>geöffnet<break time="1000ms"/> . </speak>

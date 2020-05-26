@@ -1,0 +1,3 @@
+Der ganze Kursus besichtigte die Ausstellung. 
+ 
+<speak>Der ganze Kursus <break time="1000ms"/>besichtigte<break time="1000ms"/> die Ausstellung . </speak>

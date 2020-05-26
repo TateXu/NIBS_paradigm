@@ -1,0 +1,3 @@
+Er pflegte jeden Abend auf Pferden zu reiten und durch die Wälder zu gehen. 
+ 
+<speak>Er pflegte jeden Abend auf Pferden zu <break time="1000ms"/>reiten<break time="1000ms"/> und durch die Wälder zu gehen . </speak>

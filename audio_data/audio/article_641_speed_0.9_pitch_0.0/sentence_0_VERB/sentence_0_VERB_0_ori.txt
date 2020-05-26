@@ -1,0 +1,3 @@
+Ein Bauer hält auf seinem Tiere wie Kühe, Hühner oder Schweine. 
+ 
+<speak>Ein Bauer <break time="1000ms"/>hält<break time="1000ms"/> auf seinem Tiere wie Kühe , Hühner oder Schweine . </speak>

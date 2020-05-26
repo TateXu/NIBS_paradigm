@@ -1,0 +1,3 @@
+Da drüben raucht es, wir sollten die Feuerwehr holen. 
+ 
+<speak>Da drüben <break time="1000ms"/>raucht<break time="1000ms"/> es , wir sollten die Feuerwehr holen . </speak>

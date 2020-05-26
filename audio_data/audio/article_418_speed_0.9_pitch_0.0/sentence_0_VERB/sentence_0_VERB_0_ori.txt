@@ -1,0 +1,3 @@
+Die Firma hat einen Fachmann hinzugezogen, um das Netzwerk zu reparieren. 
+ 
+<speak>Die Firma hat einen Fachmann hinzugezogen , um das Netzwerk zu <break time="1000ms"/>reparieren<break time="1000ms"/> . </speak>

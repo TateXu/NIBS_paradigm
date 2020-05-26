@@ -1,0 +1,3 @@
+Sie hat die Äpfel vom Baum geholt. 
+ 
+<speak>Sie hat die Äpfel vom Baum <break time="1000ms"/>geholt<break time="1000ms"/> . </speak>

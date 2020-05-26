@@ -1,0 +1,3 @@
+Die Zähne werden geputzt und der Bart rasiert. 
+ 
+<speak>Die Zähne werden geputzt und der Bart <break time="1000ms"/>rasiert<break time="1000ms"/> . </speak>

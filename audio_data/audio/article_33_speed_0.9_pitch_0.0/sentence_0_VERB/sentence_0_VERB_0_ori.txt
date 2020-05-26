@@ -1,0 +1,3 @@
+Mein Bett ist gemütlich und warm, ich möchte nicht aufstehen. 
+ 
+<speak>Mein Bett ist gemütlich und warm , ich möchte nicht <break time="1000ms"/>aufstehen<break time="1000ms"/> . </speak>

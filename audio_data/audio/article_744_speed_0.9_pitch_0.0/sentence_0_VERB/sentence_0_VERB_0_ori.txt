@@ -1,0 +1,3 @@
+Vater trinkt morgens eine Tasse Kaffee. 
+ 
+<speak>Vater <break time="1000ms"/>trinkt<break time="1000ms"/> morgens eine Tasse Kaffee . </speak>

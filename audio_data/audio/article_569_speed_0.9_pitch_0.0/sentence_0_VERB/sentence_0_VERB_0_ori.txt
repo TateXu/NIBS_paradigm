@@ -1,0 +1,3 @@
+Der Vogel flog zurück zu seinem Nest. 
+ 
+<speak>Der Vogel <break time="1000ms"/>flog<break time="1000ms"/> zurück zu seinem Nest . </speak>

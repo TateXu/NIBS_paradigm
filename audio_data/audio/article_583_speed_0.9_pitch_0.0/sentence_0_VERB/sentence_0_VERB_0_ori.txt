@@ -1,0 +1,3 @@
+Wir sind mit dem Jeep auf Safari in Kenia gefahren. 
+ 
+<speak>Wir sind mit dem Jeep auf Safari in Kenia <break time="1000ms"/>gefahren<break time="1000ms"/> . </speak>

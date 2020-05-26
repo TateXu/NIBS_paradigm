@@ -1,0 +1,3 @@
+Der Test dauert nur fünfzehn Minuten. 
+ 
+<speak>Der Test <break time="1000ms"/>dauert<break time="1000ms"/> nur fünfzehn Minuten . </speak>

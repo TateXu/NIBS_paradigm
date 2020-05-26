@@ -1,0 +1,3 @@
+Die Schüler sind begeistert, denn ihre Schule hat eine Exkursion organisiert. 
+ 
+<speak>Die Schüler sind begeistert , denn ihre Schule hat eine Exkursion <break time="1000ms"/>organisiert<break time="1000ms"/> . </speak>

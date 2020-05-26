@@ -1,0 +1,3 @@
+Bitte waschen Sie Ihre Hände mit Seife. 
+ 
+<speak>Bitte <break time="1000ms"/>waschen<break time="1000ms"/> Sie Ihre Hände mit Seife . </speak>

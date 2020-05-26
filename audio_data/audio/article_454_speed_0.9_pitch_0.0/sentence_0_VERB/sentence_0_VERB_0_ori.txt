@@ -1,0 +1,3 @@
+Sie scheinen nicht zu wissen, mit wem Sie es zu tun haben. 
+ 
+<speak>Sie <break time="1000ms"/>scheinen<break time="1000ms"/> nicht zu wissen , mit wem Sie es zu tun haben . </speak>

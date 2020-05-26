@@ -1,0 +1,3 @@
+Er hat jahrzehntelang geraucht und seine Lunge schwer geschädigt. 
+ 
+<speak>Er hat jahrzehntelang <break time="1000ms"/>geraucht<break time="1000ms"/> und seine Lunge schwer geschädigt . </speak>

@@ -1,0 +1,3 @@
+Wenn es am Sonntag Morgen regnet, bleibt Franz den ganzen Tag im Bett. 
+ 
+<speak>Wenn es am Sonntag Morgen regnet , <break time="1000ms"/>bleibt<break time="1000ms"/> Franz den ganzen Tag im Bett . </speak>

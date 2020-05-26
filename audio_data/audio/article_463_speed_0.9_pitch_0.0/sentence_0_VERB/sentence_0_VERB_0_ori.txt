@@ -1,0 +1,3 @@
+Sie hat Schlafmittel genommen, damit sie gut schlafen kann. 
+ 
+<speak>Sie hat Schlafmittel genommen , damit sie gut <break time="1000ms"/>schlafen<break time="1000ms"/> kann . </speak>

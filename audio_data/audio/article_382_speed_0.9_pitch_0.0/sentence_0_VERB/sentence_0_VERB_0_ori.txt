@@ -1,0 +1,3 @@
+Mir ist etwas Unangenehmes passiert. 
+ 
+<speak>Mir ist etwas Unangenehmes <break time="1000ms"/>passiert<break time="1000ms"/> . </speak>

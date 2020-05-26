@@ -1,0 +1,3 @@
+Wenn Sie mit diesem Produkt nicht zufrieden sind, können wir eine Alternative anbieten. 
+ 
+<speak>Wenn Sie mit diesem Produkt nicht zufrieden sind , können wir eine Alternative <break time="1000ms"/>anbieten<break time="1000ms"/> . </speak>

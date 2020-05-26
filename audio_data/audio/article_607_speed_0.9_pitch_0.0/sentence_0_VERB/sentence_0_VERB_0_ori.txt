@@ -1,0 +1,3 @@
+Ich sollte aufstehen, wenn morgens der Wecker geläutet. 
+ 
+<speak>Ich sollte aufstehen , wenn morgens der Wecker <break time="1000ms"/>geläutet<break time="1000ms"/> . </speak>

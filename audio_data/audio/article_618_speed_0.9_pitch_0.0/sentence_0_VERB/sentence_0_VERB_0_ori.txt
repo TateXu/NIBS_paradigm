@@ -1,0 +1,3 @@
+Nach dem großen Essen war mein Hunger gestillt. 
+ 
+<speak>Nach dem großen Essen war mein Hunger <break time="1000ms"/>gestillt<break time="1000ms"/> . </speak>

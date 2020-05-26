@@ -1,0 +1,3 @@
+Die vier Jahreszeiten heißen Frühling, Sommer, Herbst und Winter. 
+ 
+<speak>Die vier Jahreszeiten <break time="1000ms"/>heißen<break time="1000ms"/> Frühling , Sommer , Herbst und Winter . </speak>

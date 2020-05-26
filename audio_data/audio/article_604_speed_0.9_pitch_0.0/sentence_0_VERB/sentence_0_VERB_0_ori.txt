@@ -1,0 +1,3 @@
+Einige Eltern haben ihren Töchtern rosa Kleider gekauft. 
+ 
+<speak>Einige Eltern haben ihren Töchtern rosa Kleider <break time="1000ms"/>gekauft<break time="1000ms"/> . </speak>

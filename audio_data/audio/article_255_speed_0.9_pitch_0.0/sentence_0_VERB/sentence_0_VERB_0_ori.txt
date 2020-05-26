@@ -1,0 +1,3 @@
+Er bekam eine neue Mutter, als sein Vater wieder heiratete. 
+ 
+<speak>Er bekam eine neue Mutter , als sein Vater wieder <break time="1000ms"/>heiratete<break time="1000ms"/> . </speak>

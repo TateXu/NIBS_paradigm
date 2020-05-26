@@ -1,0 +1,3 @@
+Um Mitternacht schließt das Lokal. 
+ 
+<speak>Um Mitternacht <break time="1000ms"/>schließt<break time="1000ms"/> das Lokal . </speak>

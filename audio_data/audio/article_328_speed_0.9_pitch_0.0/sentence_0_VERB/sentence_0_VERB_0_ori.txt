@@ -1,0 +1,3 @@
+Ich muss für meine wichtige Prüfung morgen lernen. 
+ 
+<speak>Ich muss für meine wichtige Prüfung morgen <break time="1000ms"/>lernen<break time="1000ms"/> . </speak>

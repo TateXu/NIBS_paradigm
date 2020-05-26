@@ -1,0 +1,3 @@
+Bitte zerstören Sie nicht die Natur! 
+ 
+<speak>Bitte <break time="1000ms"/>zerstören<break time="1000ms"/> Sie nicht die Natur ! </speak>

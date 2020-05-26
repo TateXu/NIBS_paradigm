@@ -1,0 +1,3 @@
+Die U-Bahn ist gerade kaputt, also muss ich aussteigen.  
+ 
+<speak>Die U-Bahn ist gerade kaputt , also muss ich <break time="1000ms"/>aussteigen<break time="1000ms"/> . </speak>

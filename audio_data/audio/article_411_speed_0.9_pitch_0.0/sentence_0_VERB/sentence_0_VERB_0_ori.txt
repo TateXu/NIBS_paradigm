@@ -1,0 +1,3 @@
+Er ist durch die ganze Welt gereist. 
+ 
+<speak>Er ist durch die ganze Welt <break time="1000ms"/>gereist<break time="1000ms"/> . </speak>

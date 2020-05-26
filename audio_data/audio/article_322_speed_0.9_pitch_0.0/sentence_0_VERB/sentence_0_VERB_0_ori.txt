@@ -1,0 +1,3 @@
+Ich möchte mir ein Buch aus der Bibliothek leihen. 
+ 
+<speak>Ich möchte mir ein Buch aus der Bibliothek <break time="1000ms"/>leihen<break time="1000ms"/> . </speak>

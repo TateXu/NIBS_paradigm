@@ -1,0 +1,3 @@
+Können Sie die Kleidung des Täters beschreiben? 
+ 
+<speak>Können Sie die Kleidung des Täters <break time="1000ms"/>beschreiben<break time="1000ms"/> ? </speak>

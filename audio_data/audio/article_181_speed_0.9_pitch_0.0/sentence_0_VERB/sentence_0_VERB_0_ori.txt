@@ -1,0 +1,3 @@
+Jede Nacht muss ich den Kindern ein Märchen erzählen. 
+ 
+<speak>Jede Nacht muss ich den Kindern ein Märchen <break time="1000ms"/>erzählen<break time="1000ms"/> . </speak>

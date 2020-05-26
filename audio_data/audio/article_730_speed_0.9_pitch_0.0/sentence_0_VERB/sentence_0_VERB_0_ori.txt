@@ -1,0 +1,3 @@
+In der Küche steht noch das schumutzige Geschirr vom Frühstück. 
+ 
+<speak>In der Küche <break time="1000ms"/>steht<break time="1000ms"/> noch das schumutzige Geschirr vom Frühstück . </speak>

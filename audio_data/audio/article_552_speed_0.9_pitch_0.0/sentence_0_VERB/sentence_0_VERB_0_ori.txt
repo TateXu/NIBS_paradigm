@@ -1,0 +1,3 @@
+Das Auge ermöglicht Tieren das Sehen. 
+ 
+<speak>Das Auge <break time="1000ms"/>ermöglicht<break time="1000ms"/> Tieren das Sehen . </speak>

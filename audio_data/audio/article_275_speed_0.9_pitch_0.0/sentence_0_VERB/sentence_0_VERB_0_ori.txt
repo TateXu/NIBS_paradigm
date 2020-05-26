@@ -1,0 +1,3 @@
+Sie holte ihre Einkäufe aus dem Korb. 
+ 
+<speak>Sie <break time="1000ms"/>holte<break time="1000ms"/> ihre Einkäufe aus dem Korb . </speak>

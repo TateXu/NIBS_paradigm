@@ -1,0 +1,3 @@
+Bevor man eine Orange essen kann, muss man sie erst schneiden oder schälen. 
+ 
+<speak>Bevor man eine Orange essen kann , muss man sie erst schneiden oder <break time="1000ms"/>schälen<break time="1000ms"/> . </speak>

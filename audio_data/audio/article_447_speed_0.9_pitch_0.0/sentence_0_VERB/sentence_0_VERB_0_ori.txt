@@ -1,0 +1,3 @@
+Die technologische Entwicklung schafft immer kleinere Computer. 
+ 
+<speak>Die technologische Entwicklung <break time="1000ms"/>schafft<break time="1000ms"/> immer kleinere Computer . </speak>

@@ -1,0 +1,3 @@
+Der Arbeiter repariert eine Panne. 
+ 
+<speak>Der Arbeiter <break time="1000ms"/>repariert<break time="1000ms"/> eine Panne . </speak>

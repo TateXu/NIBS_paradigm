@@ -1,0 +1,3 @@
+Sie müssen vorsichtig die Anleitung für Elektrogeräte lesen. 
+ 
+<speak>Sie müssen vorsichtig die Anleitung für Elektrogeräte <break time="1000ms"/>lesen<break time="1000ms"/> . </speak>

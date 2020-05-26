@@ -1,0 +1,3 @@
+Bitte zahlen Sie an Kasse Nummer Zwei. 
+ 
+<speak>Bitte <break time="1000ms"/>zahlen<break time="1000ms"/> Sie an Kasse Nummer Zwei . </speak>

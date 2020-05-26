@@ -1,0 +1,3 @@
+Wir bleiben heute zu Hause, weil wir zu müde sind. 
+ 
+<speak>Wir <break time="1000ms"/>bleiben<break time="1000ms"/> heute zu Hause , weil wir zu müde sind . </speak>

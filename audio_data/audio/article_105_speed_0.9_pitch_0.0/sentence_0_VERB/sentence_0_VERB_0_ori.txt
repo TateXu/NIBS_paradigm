@@ -1,0 +1,3 @@
+Sie war zu stolz, um ihn um Hilfe zu bitten. 
+ 
+<speak>Sie war zu stolz , um ihn um Hilfe zu <break time="1000ms"/>bitten<break time="1000ms"/> . </speak>

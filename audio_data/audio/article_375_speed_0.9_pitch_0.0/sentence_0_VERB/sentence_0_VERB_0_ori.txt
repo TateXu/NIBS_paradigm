@@ -1,0 +1,3 @@
+Mit dem neuen System können wir Dokumente effizienter organisieren. 
+ 
+<speak>Mit dem neuen System können wir Dokumente effizienter <break time="1000ms"/>organisieren<break time="1000ms"/> . </speak>

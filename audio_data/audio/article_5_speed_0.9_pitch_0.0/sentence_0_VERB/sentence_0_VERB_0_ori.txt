@@ -1,0 +1,3 @@
+Das Sprachinstitut bietet Kurse für Anfänger an. 
+ 
+<speak>Das Sprachinstitut <break time="1000ms"/>bietet<break time="1000ms"/> Kurse für Anfänger an . </speak>

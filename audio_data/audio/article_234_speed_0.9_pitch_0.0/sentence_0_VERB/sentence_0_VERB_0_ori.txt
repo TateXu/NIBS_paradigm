@@ -1,0 +1,3 @@
+Manchmal glaube ich, ich bin zu pessimistisch. 
+ 
+<speak>Manchmal <break time="1000ms"/>glaube<break time="1000ms"/> ich , ich bin zu pessimistisch . </speak>

@@ -1,0 +1,3 @@
+Der Hotelier buchte zwei Übernachtungen für uns 
+ 
+<speak>Der Hotelier <break time="1000ms"/>buchte<break time="1000ms"/> zwei Übernachtungen für uns </speak>

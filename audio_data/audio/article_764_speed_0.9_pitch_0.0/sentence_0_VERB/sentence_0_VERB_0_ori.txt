@@ -1,0 +1,3 @@
+Plastikabfälle werden die Meere verschmutzen. 
+ 
+<speak>Plastikabfälle werden die Meere <break time="1000ms"/>verschmutzen<break time="1000ms"/> . </speak>

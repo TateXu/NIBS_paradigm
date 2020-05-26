@@ -1,0 +1,3 @@
+In der Arktis leben gefährliche Eisbären. 
+ 
+<speak>In der Arktis <break time="1000ms"/>leben<break time="1000ms"/> gefährliche Eisbären . </speak>

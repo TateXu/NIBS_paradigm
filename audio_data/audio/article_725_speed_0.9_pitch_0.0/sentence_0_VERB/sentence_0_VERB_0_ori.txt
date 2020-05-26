@@ -1,0 +1,3 @@
+Hans spielt gerne mit Lego. 
+ 
+<speak>Hans <break time="1000ms"/>spielt<break time="1000ms"/> gerne mit Lego . </speak>

@@ -1,0 +1,3 @@
+Es hat die ganze Woche geregnet, aber heute scheint endlich die Sonne.  
+ 
+<speak>Es hat die ganze Woche geregnet , aber heute <break time="1000ms"/>scheint<break time="1000ms"/> endlich die Sonne . </speak>

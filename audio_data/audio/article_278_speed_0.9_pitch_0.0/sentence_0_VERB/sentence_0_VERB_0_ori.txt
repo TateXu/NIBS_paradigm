@@ -1,0 +1,3 @@
+Die meisten Jugendlichen hören gerne Musik. 
+ 
+<speak>Die meisten Jugendlichen <break time="1000ms"/>hören<break time="1000ms"/> gerne Musik . </speak>

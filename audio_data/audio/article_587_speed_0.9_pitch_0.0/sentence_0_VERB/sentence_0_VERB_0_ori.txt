@@ -1,0 +1,3 @@
+Am Anfang sind die Brüder Wright mit Gleitflugzeugen geflogen. 
+ 
+<speak>Am Anfang sind die Brüder Wright mit Gleitflugzeugen <break time="1000ms"/>geflogen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Das Abendessen wird pünktlich um 12 Uhr auf den Tisch stehen. 
+ 
+<speak>Das Abendessen wird pünktlich um 12 Uhr auf den Tisch <break time="1000ms"/>stehen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Der Autohändler hat auf der Messe zehn Sportwagen eingekauft. 
+ 
+<speak>Der Autohändler hat auf der Messe zehn Sportwagen <break time="1000ms"/>eingekauft<break time="1000ms"/> . </speak>

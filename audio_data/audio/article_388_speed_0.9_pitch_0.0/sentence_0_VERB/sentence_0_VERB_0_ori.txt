@@ -1,0 +1,3 @@
+Die Deutschen sind immer organisiert und werden alles planen, bevor sie irgendetwas tun. 
+ 
+<speak>Die Deutschen sind immer organisiert und werden alles <break time="1000ms"/>planen<break time="1000ms"/> , bevor sie irgendetwas tun . </speak>

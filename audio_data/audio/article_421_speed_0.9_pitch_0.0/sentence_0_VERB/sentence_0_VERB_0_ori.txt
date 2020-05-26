@@ -1,0 +1,3 @@
+Er beschäftigt sich damit, diese kaputte Maschine zu reparieren. 
+ 
+<speak>Er beschäftigt sich damit , diese kaputte Maschine zu <break time="1000ms"/>reparieren<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Sam ist ein ehrlicher Mann und sagt immer die Wahrheit. 
+ 
+<speak>Sam ist ein ehrlicher Mann und <break time="1000ms"/>sagt<break time="1000ms"/> immer die Wahrheit . </speak>

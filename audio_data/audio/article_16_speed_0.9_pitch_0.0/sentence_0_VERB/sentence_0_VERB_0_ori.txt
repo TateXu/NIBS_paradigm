@@ -1,0 +1,3 @@
+Mein Handy ist schon eingeschaltet, so dass Sie mich jederzeit anrufen können. 
+ 
+<speak>Mein Handy ist schon eingeschaltet , so dass Sie mich jederzeit <break time="1000ms"/>anrufen<break time="1000ms"/> können . </speak>

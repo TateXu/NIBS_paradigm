@@ -1,0 +1,3 @@
+Der Schmied klopft immer wieder mit dem Hammer auf das heiße Eisen. 
+ 
+<speak>Der Schmied <break time="1000ms"/>klopft<break time="1000ms"/> immer wieder mit dem Hammer auf das heiße Eisen . </speak>

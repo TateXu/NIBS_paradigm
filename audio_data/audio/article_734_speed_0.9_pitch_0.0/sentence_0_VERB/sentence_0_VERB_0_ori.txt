@@ -1,0 +1,3 @@
+Die Eisberge lösen sich auf, und der Wasserpegel steigt. 
+ 
+<speak>Die Eisberge lösen sich auf , und der Wasserpegel <break time="1000ms"/>steigt<break time="1000ms"/> . </speak>

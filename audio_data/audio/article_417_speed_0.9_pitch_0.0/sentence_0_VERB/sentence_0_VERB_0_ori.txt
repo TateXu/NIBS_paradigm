@@ -1,0 +1,3 @@
+Das Staatstheater ist s ist zu alt und wird dieses Jahr renoviert. 
+ 
+<speak>Das Staatstheater ist s ist zu alt und wird dieses Jahr <break time="1000ms"/>renoviert<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Mein Hund hat ein paar Tricks gelernt.  
+ 
+<speak>Mein Hund hat ein paar Tricks <break time="1000ms"/>gelernt<break time="1000ms"/> . </speak>

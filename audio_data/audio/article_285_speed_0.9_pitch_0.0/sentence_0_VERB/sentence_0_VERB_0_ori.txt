@@ -1,0 +1,3 @@
+Wir müssen die Kunden jeden Monat über ihren finanziellen Status informieren. 
+ 
+<speak>Wir müssen die Kunden jeden Monat über ihren finanziellen Status <break time="1000ms"/>informieren<break time="1000ms"/> . </speak>

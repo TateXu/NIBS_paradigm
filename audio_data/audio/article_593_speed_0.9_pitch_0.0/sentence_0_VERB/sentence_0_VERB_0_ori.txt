@@ -1,0 +1,3 @@
+Lenas Hund Tobi wird immer am Abend gefüttert. 
+ 
+<speak>Lenas Hund Tobi wird immer am Abend <break time="1000ms"/>gefüttert<break time="1000ms"/> . </speak>

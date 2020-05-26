@@ -1,0 +1,3 @@
+Aufgrund der globalen Erwärmung werden die Häuser der Inselbewohner im Meer versinken. 
+ 
+<speak>Aufgrund der globalen Erwärmung werden die Häuser der Inselbewohner im Meer <break time="1000ms"/>versinken<break time="1000ms"/> . </speak>

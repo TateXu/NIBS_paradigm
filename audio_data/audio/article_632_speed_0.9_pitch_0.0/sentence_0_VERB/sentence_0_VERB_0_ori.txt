@@ -1,0 +1,3 @@
+Damit Pflanzen gut wachsen, müssen wir sie mehr Wasser gießen. 
+ 
+<speak>Damit Pflanzen gut wachsen , müssen wir sie mehr Wasser <break time="1000ms"/>gießen<break time="1000ms"/> . </speak>

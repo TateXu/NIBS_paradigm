@@ -1,0 +1,3 @@
+Die Mieter wollen die Vertragsbedingungen ändern. 
+ 
+<speak>Die Mieter wollen die Vertragsbedingungen <break time="1000ms"/>ändern<break time="1000ms"/> . </speak>

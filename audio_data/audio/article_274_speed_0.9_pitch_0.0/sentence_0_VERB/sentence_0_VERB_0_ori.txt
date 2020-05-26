@@ -1,0 +1,3 @@
+Ich muss einen Schirm holen, weil es regnet. 
+ 
+<speak>Ich muss einen Schirm <break time="1000ms"/>holen<break time="1000ms"/> , weil es regnet . </speak>

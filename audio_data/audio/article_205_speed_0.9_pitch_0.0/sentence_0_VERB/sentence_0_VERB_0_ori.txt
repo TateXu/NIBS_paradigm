@@ -1,0 +1,3 @@
+Das Flugzeug fliegt den vorgeschriebenen Kurs. 
+ 
+<speak>Das Flugzeug <break time="1000ms"/>fliegt<break time="1000ms"/> den vorgeschriebenen Kurs . </speak>

@@ -1,0 +1,3 @@
+Wir werden jedes Paket innerhalb von fünf Arbeitstagen liefern. 
+ 
+<speak>Wir werden jedes Paket innerhalb von fünf Arbeitstagen <break time="1000ms"/>liefern<break time="1000ms"/> . </speak>

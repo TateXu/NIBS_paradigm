@@ -1,0 +1,3 @@
+Ja, das Wasser aus der Leitung kann man trinken. 
+ 
+<speak>Ja , das Wasser aus der Leitung kann man <break time="1000ms"/>trinken<break time="1000ms"/> . </speak>

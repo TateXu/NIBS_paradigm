@@ -1,0 +1,3 @@
+Viele Indianer leben in Reservaten. 
+ 
+<speak>Viele Indianer <break time="1000ms"/>leben<break time="1000ms"/> in Reservaten . </speak>

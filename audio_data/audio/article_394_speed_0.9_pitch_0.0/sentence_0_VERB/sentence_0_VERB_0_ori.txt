@@ -1,0 +1,3 @@
+Ob die bereitgestellte Information korrekt ist, müssen wir prüfen. 
+ 
+<speak>Ob die bereitgestellte Information korrekt ist , müssen wir <break time="1000ms"/>prüfen<break time="1000ms"/> . </speak>

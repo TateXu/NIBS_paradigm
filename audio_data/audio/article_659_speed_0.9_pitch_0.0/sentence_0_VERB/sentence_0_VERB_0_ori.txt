@@ -1,0 +1,3 @@
+Thomas hat schon so kurze Haare, er muss sich nicht kämmen. 
+ 
+<speak>Thomas hat schon so kurze Haare , er muss sich nicht <break time="1000ms"/>kämmen<break time="1000ms"/> . </speak>

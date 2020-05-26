@@ -1,0 +1,3 @@
+Alchemisten haben geglaubt, sie können Gold herstellen. 
+ 
+<speak>Alchemisten haben geglaubt , sie können Gold <break time="1000ms"/>herstellen<break time="1000ms"/> . </speak>

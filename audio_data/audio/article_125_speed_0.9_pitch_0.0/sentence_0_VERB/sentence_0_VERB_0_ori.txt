@@ -1,0 +1,3 @@
+Die Reparaturen werden ungefähr drei Stunden dauern. 
+ 
+<speak>Die Reparaturen werden ungefähr drei Stunden <break time="1000ms"/>dauern<break time="1000ms"/> . </speak>

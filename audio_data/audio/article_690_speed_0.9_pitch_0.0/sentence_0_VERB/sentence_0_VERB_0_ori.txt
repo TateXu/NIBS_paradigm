@@ -1,0 +1,3 @@
+In Neuseeland und Irland ist es so grün, weil es besonders oft regnet. 
+ 
+<speak>In Neuseeland und Irland ist es so grün , weil es besonders oft <break time="1000ms"/>regnet<break time="1000ms"/> . </speak>

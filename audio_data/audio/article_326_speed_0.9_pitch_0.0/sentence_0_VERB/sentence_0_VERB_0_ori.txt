@@ -1,0 +1,3 @@
+Man kann oft aus Fehlern lernen. 
+ 
+<speak>Man kann oft aus Fehlern <break time="1000ms"/>lernen<break time="1000ms"/> . </speak>

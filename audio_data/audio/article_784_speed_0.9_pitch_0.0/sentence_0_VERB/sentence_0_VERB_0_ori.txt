@@ -1,0 +1,3 @@
+Die sieben kleinen Äpfel sollen ungefähr zwei Kilo wiegen. 
+ 
+<speak>Die sieben kleinen Äpfel sollen ungefähr zwei Kilo <break time="1000ms"/>wiegen<break time="1000ms"/> . </speak>

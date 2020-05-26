@@ -1,0 +1,3 @@
+Sie haben Beeren gesammelt und wilde Tiere gejagt. 
+ 
+<speak>Sie haben Beeren gesammelt und wilde Tiere <break time="1000ms"/>gejagt<break time="1000ms"/> . </speak>

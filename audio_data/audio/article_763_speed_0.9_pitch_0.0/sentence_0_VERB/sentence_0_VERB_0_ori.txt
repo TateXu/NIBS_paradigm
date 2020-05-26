@@ -1,0 +1,3 @@
+Die Abgase der Benzinmotoren werden die Luft verschmutzen. 
+ 
+<speak>Die Abgase der Benzinmotoren werden die Luft <break time="1000ms"/>verschmutzen<break time="1000ms"/> . </speak>

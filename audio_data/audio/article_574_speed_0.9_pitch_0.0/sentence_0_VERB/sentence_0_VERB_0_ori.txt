@@ -1,0 +1,3 @@
+Chris hat Zahnschmerzen, aber er fürchtet sich vor dem Zahnarzt. 
+ 
+<speak>Chris hat Zahnschmerzen , aber er <break time="1000ms"/>fürchtet<break time="1000ms"/> sich vor dem Zahnarzt . </speak>

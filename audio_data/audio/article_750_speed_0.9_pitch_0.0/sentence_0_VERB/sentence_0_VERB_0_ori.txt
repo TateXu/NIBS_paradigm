@@ -1,0 +1,3 @@
+Ferdinand Magellan hat als Erster die Welt umsegelt. 
+ 
+<speak>Ferdinand Magellan hat als Erster die Welt <break time="1000ms"/>umsegelt<break time="1000ms"/> . </speak>

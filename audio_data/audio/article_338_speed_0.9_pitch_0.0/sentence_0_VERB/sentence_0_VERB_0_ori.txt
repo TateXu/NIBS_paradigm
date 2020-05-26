@@ -1,0 +1,3 @@
+Der Artikel hat bereits genügend nützliche Hintergrundinformationen geliefert. 
+ 
+<speak>Der Artikel hat bereits genügend nützliche Hintergrundinformationen <break time="1000ms"/>geliefert<break time="1000ms"/> . </speak>

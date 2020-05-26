@@ -1,0 +1,3 @@
+Um Omeltte zu machen, werde ich die Eier verrühren und dann braten. 
+ 
+<speak>Um Omeltte zu machen , werde ich die Eier verrühren und dann <break time="1000ms"/>braten<break time="1000ms"/> . </speak>

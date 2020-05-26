@@ -1,0 +1,3 @@
+Das Thema interessierte sie, daher hörte sie genau zu. 
+ 
+<speak>Das Thema <break time="1000ms"/>interessierte<break time="1000ms"/> sie , daher hörte sie genau zu . </speak>

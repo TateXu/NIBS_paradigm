@@ -1,0 +1,3 @@
+Er kann zwanzig Zigarattes pro Tag rauchen, was sehr ungesund ist. 
+ 
+<speak>Er kann zwanzig Zigarattes pro Tag <break time="1000ms"/>rauchen<break time="1000ms"/> , was sehr ungesund ist . </speak>

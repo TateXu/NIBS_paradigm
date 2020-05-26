@@ -1,0 +1,3 @@
+Sam glaubt an eine marxistische Weltanschauung. 
+ 
+<speak>Sam <break time="1000ms"/>glaubt<break time="1000ms"/> an eine marxistische Weltanschauung . </speak>

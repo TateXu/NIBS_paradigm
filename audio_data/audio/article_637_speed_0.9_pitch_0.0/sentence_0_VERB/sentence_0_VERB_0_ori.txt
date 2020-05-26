@@ -1,0 +1,3 @@
+Können Sie mir auf Hundert Euro herausgeben? 
+ 
+<speak>Können Sie mir auf Hundert Euro <break time="1000ms"/>herausgeben<break time="1000ms"/> ? </speak>

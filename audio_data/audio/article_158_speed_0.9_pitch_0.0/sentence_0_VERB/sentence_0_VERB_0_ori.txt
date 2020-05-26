@@ -1,0 +1,3 @@
+Es wird nicht empfohlen, die Batterie völlig zu entladen. 
+ 
+<speak>Es wird nicht <break time="1000ms"/>empfohlen<break time="1000ms"/> , die Batterie völlig zu entladen . </speak>

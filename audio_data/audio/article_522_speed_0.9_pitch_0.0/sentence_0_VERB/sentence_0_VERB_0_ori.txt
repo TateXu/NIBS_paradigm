@@ -1,0 +1,3 @@
+Er bevorzugt die Farben gelb, orange und rot. 
+ 
+<speak>Er <break time="1000ms"/>bevorzugt<break time="1000ms"/> die Farben gelb , orange und rot . </speak>

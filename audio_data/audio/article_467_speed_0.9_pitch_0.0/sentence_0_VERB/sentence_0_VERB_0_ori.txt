@@ -1,0 +1,3 @@
+Diese Speise schmeckt sauer. 
+ 
+<speak>Diese Speise <break time="1000ms"/>schmeckt<break time="1000ms"/> sauer . </speak>

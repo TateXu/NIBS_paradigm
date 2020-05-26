@@ -1,0 +1,3 @@
+Meine Eltern schauten vorbei, um sich meinen neuen Garten anzusehen. 
+ 
+<speak>Meine Eltern schauten vorbei , um sich meinen neuen Garten <break time="1000ms"/>anzusehen<break time="1000ms"/> . </speak>

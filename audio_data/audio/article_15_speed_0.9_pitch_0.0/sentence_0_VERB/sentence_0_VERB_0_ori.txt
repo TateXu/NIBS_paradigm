@@ -1,0 +1,3 @@
+Die Studenten müssen sich für den Kurs anmelden. 
+ 
+<speak>Die Studenten müssen sich für den Kurs <break time="1000ms"/>anmelden<break time="1000ms"/> . </speak>

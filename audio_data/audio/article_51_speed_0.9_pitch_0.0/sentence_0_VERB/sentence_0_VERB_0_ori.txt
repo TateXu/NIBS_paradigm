@@ -1,0 +1,3 @@
+Er möchte sich für meine Hilfe bedanken. 
+ 
+<speak>Er möchte sich für meine Hilfe <break time="1000ms"/>bedanken<break time="1000ms"/> . </speak>

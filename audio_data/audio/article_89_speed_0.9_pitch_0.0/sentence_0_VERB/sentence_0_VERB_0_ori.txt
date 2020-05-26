@@ -1,0 +1,3 @@
+Es ist vorstellbar, dass er diese schwierige Prüfung nicht bestehen kann.  
+ 
+<speak>Es ist vorstellbar , dass er diese schwierige Prüfung nicht <break time="1000ms"/>bestehen<break time="1000ms"/> kann . </speak>

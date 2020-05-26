@@ -1,0 +1,3 @@
+Der Dieb wurde für sein Verbrechen bestraft. 
+ 
+<speak>Der Dieb wurde für sein Verbrechen <break time="1000ms"/>bestraft<break time="1000ms"/> . </speak>

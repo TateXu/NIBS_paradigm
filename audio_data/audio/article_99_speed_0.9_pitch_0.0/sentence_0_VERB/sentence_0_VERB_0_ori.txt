@@ -1,0 +1,3 @@
+Sam hat gerade das Abitur bestanden und wird sich für die Universität Wien bewerben.  
+ 
+<speak>Sam hat gerade das Abitur bestanden und wird sich für die Universität Wien <break time="1000ms"/>bewerben<break time="1000ms"/> . </speak>

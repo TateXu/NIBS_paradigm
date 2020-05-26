@@ -1,0 +1,3 @@
+Florian habe so lange Beine, deshalb trage er nur lange Hosen. 
+ 
+<speak>Florian habe so lange Beine , deshalb <break time="1000ms"/>trage<break time="1000ms"/> er nur lange Hosen . </speak>

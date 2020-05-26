@@ -1,0 +1,3 @@
+Ich kenne dieses Wort nicht, was bedeutet es also? 
+ 
+<speak>Ich kenne dieses Wort nicht , was <break time="1000ms"/>bedeutet<break time="1000ms"/> es also ? </speak>

@@ -1,0 +1,3 @@
+Das gute Wetter wird halten, weil ich keine Wolken sehe. 
+ 
+<speak>Das gute Wetter wird <break time="1000ms"/>halten<break time="1000ms"/> , weil ich keine Wolken sehe . </speak>

@@ -1,0 +1,3 @@
+In wenigen Minuten erreichen wir Hamburg. 
+ 
+<speak>In wenigen Minuten <break time="1000ms"/>erreichen<break time="1000ms"/> wir Hamburg . </speak>

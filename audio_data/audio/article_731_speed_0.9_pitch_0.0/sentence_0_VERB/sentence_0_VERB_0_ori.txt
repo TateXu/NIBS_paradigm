@@ -1,0 +1,3 @@
+Die Flasche steht auf dem Tisch. 
+ 
+<speak>Die Flasche <break time="1000ms"/>steht<break time="1000ms"/> auf dem Tisch . </speak>

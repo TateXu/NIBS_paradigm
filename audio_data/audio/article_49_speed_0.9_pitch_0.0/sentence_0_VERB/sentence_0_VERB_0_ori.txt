@@ -1,0 +1,3 @@
+Wir brauchen Bretter, um ein Regal zu bauen. 
+ 
+<speak>Wir brauchen Bretter , um ein Regal zu <break time="1000ms"/>bauen<break time="1000ms"/> . </speak>

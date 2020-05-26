@@ -1,0 +1,3 @@
+Ich kann in meiner Badewanne duschen. 
+ 
+<speak>Ich kann in meiner Badewanne <break time="1000ms"/>duschen<break time="1000ms"/> . </speak>

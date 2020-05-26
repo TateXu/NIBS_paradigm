@@ -1,0 +1,3 @@
+Aus Fehlern kann man lernen. 
+ 
+<speak>Aus Fehlern kann man <break time="1000ms"/>lernen<break time="1000ms"/> . </speak>

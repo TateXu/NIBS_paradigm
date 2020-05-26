@@ -1,0 +1,3 @@
+Die Absolventen feiern ihren erfolgreichen Abschluss an der Universität. 
+ 
+<speak>Die Absolventen <break time="1000ms"/>feiern<break time="1000ms"/> ihren erfolgreichen Abschluss an der Universität . </speak>

@@ -1,0 +1,3 @@
+Die Mutter rührt in ihren Töpfen und Pfannen. 
+ 
+<speak>Die Mutter <break time="1000ms"/>rührt<break time="1000ms"/> in ihren Töpfen und Pfannen . </speak>

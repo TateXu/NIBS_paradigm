@@ -1,0 +1,3 @@
+Der Regenbogen besteht aus vielen Farben. 
+ 
+<speak>Der Regenbogen <break time="1000ms"/>besteht<break time="1000ms"/> aus vielen Farben . </speak>

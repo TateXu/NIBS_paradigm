@@ -1,0 +1,3 @@
+Wenn der Vulkan aktiv ist, wird Lava herausfließen. 
+ 
+<speak>Wenn der Vulkan aktiv ist , wird Lava <break time="1000ms"/>herausfließen<break time="1000ms"/> . </speak>

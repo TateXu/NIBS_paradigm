@@ -1,0 +1,3 @@
+Die Brille bekommst du beim Optiker, dann kannst du wieder perfekt sehen. 
+ 
+<speak>Die Brille bekommst du beim Optiker , dann kannst du wieder perfekt <break time="1000ms"/>sehen<break time="1000ms"/> . </speak>

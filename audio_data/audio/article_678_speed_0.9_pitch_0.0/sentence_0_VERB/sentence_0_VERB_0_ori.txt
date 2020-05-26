@@ -1,0 +1,3 @@
+Danke für den Smoothie, den Sie mir machten. 
+ 
+<speak>Danke für den Smoothie , den Sie mir <break time="1000ms"/>machten<break time="1000ms"/> . </speak>

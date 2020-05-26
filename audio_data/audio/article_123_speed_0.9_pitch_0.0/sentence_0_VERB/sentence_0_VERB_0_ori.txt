@@ -1,0 +1,3 @@
+Ich surfe gern im Internet und chatte mit Freunden. 
+ 
+<speak>Ich surfe gern im Internet und <break time="1000ms"/>chatte<break time="1000ms"/> mit Freunden . </speak>

@@ -1,0 +1,3 @@
+Die Wissenschaftler aus der Physik heißen Physiker. 
+ 
+<speak>Die Wissenschaftler aus der Physik <break time="1000ms"/>heißen<break time="1000ms"/> Physiker . </speak>

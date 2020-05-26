@@ -1,0 +1,3 @@
+In der Parfümerie riecht es sehr stark nach verschiedenen Düften. 
+ 
+<speak>In der Parfümerie <break time="1000ms"/>riecht<break time="1000ms"/> es sehr stark nach verschiedenen Düften . </speak>

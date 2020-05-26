@@ -1,0 +1,3 @@
+Mit dem Rezept kann man die Medizin in der Apotheke kaufen. 
+ 
+<speak>Mit dem Rezept kann man die Medizin in der Apotheke <break time="1000ms"/>kaufen<break time="1000ms"/> . </speak>

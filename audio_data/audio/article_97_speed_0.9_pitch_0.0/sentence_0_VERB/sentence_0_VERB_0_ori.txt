@@ -1,0 +1,3 @@
+Um eine Kreditkarte zu bewerben, muss man älter als 18 werden.  
+ 
+<speak>Um eine Kreditkarte zu <break time="1000ms"/>bewerben<break time="1000ms"/> , muss man älter als 18 werden . </speak>

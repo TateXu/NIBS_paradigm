@@ -1,0 +1,3 @@
+Ein König wohnt in einem Schloss. 
+ 
+<speak>Ein König <break time="1000ms"/>wohnt<break time="1000ms"/> in einem Schloss . </speak>

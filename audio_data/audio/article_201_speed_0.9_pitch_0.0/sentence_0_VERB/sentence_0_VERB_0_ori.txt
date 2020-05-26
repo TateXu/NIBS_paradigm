@@ -1,0 +1,3 @@
+Ich konnte meine Brille nicht finden. 
+ 
+<speak>Ich konnte meine Brille nicht <break time="1000ms"/>finden<break time="1000ms"/> . </speak>

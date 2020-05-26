@@ -1,0 +1,3 @@
+Ich habe gestern Abend mit meiner Mutter geredet. 
+ 
+<speak>Ich habe gestern Abend mit meiner Mutter <break time="1000ms"/>geredet<break time="1000ms"/> . </speak>

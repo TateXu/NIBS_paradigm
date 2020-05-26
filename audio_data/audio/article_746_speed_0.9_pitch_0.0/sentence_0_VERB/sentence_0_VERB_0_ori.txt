@@ -1,0 +1,3 @@
+Sam trinkt gerne eine Tasse Kaffee mit einem Stück Kuchen 
+ 
+<speak>Sam <break time="1000ms"/>trinkt<break time="1000ms"/> gerne eine Tasse Kaffee mit einem Stück Kuchen </speak>

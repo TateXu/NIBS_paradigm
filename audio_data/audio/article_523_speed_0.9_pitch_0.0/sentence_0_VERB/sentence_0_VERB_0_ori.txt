@@ -1,0 +1,3 @@
+Leni bewegt beim Lesen die Lippen. 
+ 
+<speak>Leni <break time="1000ms"/>bewegt<break time="1000ms"/> beim Lesen die Lippen . </speak>

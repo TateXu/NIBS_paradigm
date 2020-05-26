@@ -1,0 +1,3 @@
+Das Kind kann die Tischkante noch nicht erreichen. 
+ 
+<speak>Das Kind kann die Tischkante noch nicht <break time="1000ms"/>erreichen<break time="1000ms"/> . </speak>

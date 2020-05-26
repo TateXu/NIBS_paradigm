@@ -1,0 +1,3 @@
+Ich habe eine verletzte Hand, kannst du bitte die Knöpfe meiner Jacke öffnen? 
+ 
+<speak>Ich habe eine verletzte Hand , kannst du bitte die Knöpfe meiner Jacke <break time="1000ms"/>öffnen<break time="1000ms"/> ? </speak>

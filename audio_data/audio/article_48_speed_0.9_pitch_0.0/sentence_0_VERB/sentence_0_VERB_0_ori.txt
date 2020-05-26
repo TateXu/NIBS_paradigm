@@ -1,0 +1,3 @@
+Die Kinder basteln Puppen aus Filz und Watte. 
+ 
+<speak>Die Kinder <break time="1000ms"/>basteln<break time="1000ms"/> Puppen aus Filz und Watte . </speak>

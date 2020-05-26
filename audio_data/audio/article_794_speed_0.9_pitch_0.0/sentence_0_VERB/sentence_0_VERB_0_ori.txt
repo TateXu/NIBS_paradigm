@@ -1,0 +1,3 @@
+Ich werde Ihnen das Kapital mit Zinsen zurückgegeben. 
+ 
+<speak>Ich werde Ihnen das Kapital mit Zinsen <break time="1000ms"/>zurückgegeben<break time="1000ms"/> . </speak>

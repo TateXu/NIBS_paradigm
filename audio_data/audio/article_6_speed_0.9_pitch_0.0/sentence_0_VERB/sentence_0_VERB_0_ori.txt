@@ -1,0 +1,3 @@
+Die Schneiderin änderte das Kleid, weil das Kleid zu groß ist. 
+ 
+<speak>Die Schneiderin <break time="1000ms"/>änderte<break time="1000ms"/> das Kleid , weil das Kleid zu groß ist . </speak>

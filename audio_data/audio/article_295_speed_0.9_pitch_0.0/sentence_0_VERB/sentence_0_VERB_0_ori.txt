@@ -1,0 +1,3 @@
+Der Konzern kontrolliert die Mehrheit der Aktion. 
+ 
+<speak>Der Konzern <break time="1000ms"/>kontrolliert<break time="1000ms"/> die Mehrheit der Aktion . </speak>

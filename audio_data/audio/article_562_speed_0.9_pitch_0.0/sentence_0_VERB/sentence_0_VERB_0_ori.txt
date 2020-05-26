@@ -1,0 +1,3 @@
+Der frühe Vogel kann den Wurm fangen. 
+ 
+<speak>Der frühe Vogel kann den Wurm <break time="1000ms"/>fangen<break time="1000ms"/> . </speak>

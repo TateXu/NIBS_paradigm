@@ -1,0 +1,3 @@
+Blut fließt aus einer Wunde. 
+ 
+<speak>Blut <break time="1000ms"/>fließt<break time="1000ms"/> aus einer Wunde . </speak>

@@ -1,0 +1,3 @@
+Ich habe probiert, ihn zu überreden, aber er will nicht uns gehen.  
+ 
+<speak>Ich habe <break time="1000ms"/>probiert<break time="1000ms"/> , ihn zu überreden , aber er will nicht uns gehen . </speak>

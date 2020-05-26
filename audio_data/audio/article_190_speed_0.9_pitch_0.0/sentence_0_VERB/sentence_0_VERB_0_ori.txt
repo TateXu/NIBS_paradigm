@@ -1,0 +1,3 @@
+Im Herbst verfärben sich die Blätter gelb und fallen auf den Boden. 
+ 
+<speak>Im Herbst verfärben sich die Blätter gelb und <break time="1000ms"/>fallen<break time="1000ms"/> auf den Boden . </speak>

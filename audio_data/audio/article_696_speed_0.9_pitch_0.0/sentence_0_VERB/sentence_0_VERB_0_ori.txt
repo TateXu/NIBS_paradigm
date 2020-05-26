@@ -1,0 +1,3 @@
+Tim sammelt Briefmarken und Münzen. 
+ 
+<speak>Tim <break time="1000ms"/>sammelt<break time="1000ms"/> Briefmarken und Münzen . </speak>

@@ -1,0 +1,3 @@
+Um die Prüfung zu bestehen, hat er viel gelernt. 
+ 
+<speak>Um die Prüfung zu bestehen , hat er viel <break time="1000ms"/>gelernt<break time="1000ms"/> . </speak>

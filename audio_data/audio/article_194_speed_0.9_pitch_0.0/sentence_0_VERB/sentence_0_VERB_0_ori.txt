@@ -1,0 +1,3 @@
+Ihr fehlt es an ausreichender Berufserfahrung für diese Position. 
+ 
+<speak>Ihr <break time="1000ms"/>fehlt<break time="1000ms"/> es an ausreichender Berufserfahrung für diese Position . </speak>

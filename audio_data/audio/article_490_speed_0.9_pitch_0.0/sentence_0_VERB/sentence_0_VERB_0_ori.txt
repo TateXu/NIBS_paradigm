@@ -1,0 +1,3 @@
+Sarah badet lieber abends in der Wanne. 
+ 
+<speak>Sarah <break time="1000ms"/>badet<break time="1000ms"/> lieber abends in der Wanne . </speak>

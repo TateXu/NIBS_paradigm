@@ -1,0 +1,3 @@
+Viele Tiere leben in Afrika. 
+ 
+<speak>Viele Tiere <break time="1000ms"/>leben<break time="1000ms"/> in Afrika . </speak>

@@ -1,0 +1,3 @@
+Die Kellnerin schenkte den Kunden Wein nach. 
+ 
+<speak>Die Kellnerin <break time="1000ms"/>schenkte<break time="1000ms"/> den Kunden Wein nach . </speak>

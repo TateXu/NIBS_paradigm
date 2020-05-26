@@ -1,0 +1,3 @@
+Christoph Kolumbus hat am vierzehn zweiundneunzig Amerika entdeckt. 
+ 
+<speak>Christoph Kolumbus hat am vierzehn zweiundneunzig Amerika <break time="1000ms"/>entdeckt<break time="1000ms"/> . </speak>

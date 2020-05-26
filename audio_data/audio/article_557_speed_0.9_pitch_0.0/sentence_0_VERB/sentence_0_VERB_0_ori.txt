@@ -1,0 +1,3 @@
+Obst sollte man täglich essen, weil es wegen den Vitaminen sehr gesund ist. 
+ 
+<speak>Obst sollte man täglich <break time="1000ms"/>essen<break time="1000ms"/> , weil es wegen den Vitaminen sehr gesund ist . </speak>

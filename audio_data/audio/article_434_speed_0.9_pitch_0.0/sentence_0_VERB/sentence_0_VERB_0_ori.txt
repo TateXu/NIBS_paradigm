@@ -1,0 +1,3 @@
+Das Mädchen wollte etwas sagen, also hob sie ihre Hand. 
+ 
+<speak>Das Mädchen wollte etwas <break time="1000ms"/>sagen<break time="1000ms"/> , also hob sie ihre Hand . </speak>

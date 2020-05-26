@@ -1,0 +1,3 @@
+Wir sollen unsere Hände täglich aus Hygiene waschen. 
+ 
+<speak>Wir sollen unsere Hände täglich aus Hygiene <break time="1000ms"/>waschen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Peter interessiert sich sehr für Geschichte. 
+ 
+<speak>Peter <break time="1000ms"/>interessiert<break time="1000ms"/> sich sehr für Geschichte . </speak>

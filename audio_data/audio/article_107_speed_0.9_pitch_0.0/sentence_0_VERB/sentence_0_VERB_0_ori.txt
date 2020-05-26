@@ -1,0 +1,3 @@
+Der Ausgang muss frei bleiben.  
+ 
+<speak>Der Ausgang muss frei <break time="1000ms"/>bleiben<break time="1000ms"/> . </speak>

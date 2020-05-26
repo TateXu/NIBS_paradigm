@@ -1,0 +1,3 @@
+Die Oper endet mit dem Tod des Helden. 
+ 
+<speak>Die Oper <break time="1000ms"/>endet<break time="1000ms"/> mit dem Tod des Helden . </speak>

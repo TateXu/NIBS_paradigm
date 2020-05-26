@@ -1,0 +1,3 @@
+In den großen Ferien wandern wir gerne in den Bergen. 
+ 
+<speak>In den großen Ferien <break time="1000ms"/>wandern<break time="1000ms"/> wir gerne in den Bergen . </speak>

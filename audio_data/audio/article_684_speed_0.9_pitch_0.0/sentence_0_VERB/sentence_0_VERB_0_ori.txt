@@ -1,0 +1,3 @@
+Linda packt immer viel zu viele Kleidung in ihren Koffer. 
+ 
+<speak>Linda <break time="1000ms"/>packt<break time="1000ms"/> immer viel zu viele Kleidung in ihren Koffer . </speak>

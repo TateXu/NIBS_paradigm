@@ -1,0 +1,3 @@
+Marco hat gestern einen Brief an seine Eltern geschrieben. 
+ 
+<speak>Marco hat gestern einen Brief an seine Eltern <break time="1000ms"/>geschrieben<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Du musst die Verantwortung für deine Taten übernehmen. 
+ 
+<speak>Du musst die Verantwortung für deine Taten <break time="1000ms"/>übernehmen<break time="1000ms"/> . </speak>

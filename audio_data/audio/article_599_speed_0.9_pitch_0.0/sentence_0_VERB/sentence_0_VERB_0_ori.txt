@@ -1,0 +1,3 @@
+Muss ich mit dem Bus fahren oder kann ich zu Fuß gehen? 
+ 
+<speak>Muss ich mit dem Bus fahren oder kann ich zu Fuß <break time="1000ms"/>gehen<break time="1000ms"/> ? </speak>

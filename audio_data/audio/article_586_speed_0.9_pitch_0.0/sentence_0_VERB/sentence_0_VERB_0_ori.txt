@@ -1,0 +1,3 @@
+Halloween wurde schon von den Kelten gefeiert. 
+ 
+<speak>Halloween wurde schon von den Kelten <break time="1000ms"/>gefeiert<break time="1000ms"/> . </speak>

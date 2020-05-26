@@ -1,0 +1,3 @@
+Diese Grafik hat die Ergebnisse deutlich dargestellt. 
+ 
+<speak>Diese Grafik hat die Ergebnisse deutlich <break time="1000ms"/>dargestellt<break time="1000ms"/> . </speak>

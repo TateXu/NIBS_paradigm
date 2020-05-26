@@ -1,0 +1,3 @@
+In der Therapie lernte er, mit Angst und Stress umzugehen. 
+ 
+<speak>In der Therapie lernte er , mit Angst und Stress <break time="1000ms"/>umzugehen<break time="1000ms"/> . </speak>

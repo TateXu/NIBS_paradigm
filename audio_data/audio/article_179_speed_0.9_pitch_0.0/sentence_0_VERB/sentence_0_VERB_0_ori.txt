@@ -1,0 +1,3 @@
+Ich habe mir ein neues Ziel gesetzt, das ich erreichen möchte. 
+ 
+<speak>Ich habe mir ein neues Ziel gesetzt , das ich <break time="1000ms"/>erreichen<break time="1000ms"/> möchte . </speak>

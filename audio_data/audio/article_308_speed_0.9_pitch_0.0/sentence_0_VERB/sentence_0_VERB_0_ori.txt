@@ -1,0 +1,3 @@
+Das Buch war witzig, ich habe stundenlang gelacht. 
+ 
+<speak>Das Buch war witzig , ich habe stundenlang <break time="1000ms"/>gelacht<break time="1000ms"/> . </speak>

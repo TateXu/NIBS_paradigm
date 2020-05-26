@@ -1,0 +1,3 @@
+Bananen wachsen auf Palmen. 
+ 
+<speak>Bananen <break time="1000ms"/>wachsen<break time="1000ms"/> auf Palmen . </speak>

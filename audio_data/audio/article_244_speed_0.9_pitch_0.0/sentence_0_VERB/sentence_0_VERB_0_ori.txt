@@ -1,0 +1,3 @@
+Alle Schüler müssen die Vorschrift halten. 
+ 
+<speak>Alle Schüler müssen die Vorschrift <break time="1000ms"/>halten<break time="1000ms"/> . </speak>

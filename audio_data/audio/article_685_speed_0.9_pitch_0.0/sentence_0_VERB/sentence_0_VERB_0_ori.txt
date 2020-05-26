@@ -1,0 +1,3 @@
+Wir planen eine Route durch das ganze Land, von Westen bis Osten. 
+ 
+<speak>Wir <break time="1000ms"/>planen<break time="1000ms"/> eine Route durch das ganze Land , von Westen bis Osten . </speak>

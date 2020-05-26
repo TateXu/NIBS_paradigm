@@ -1,0 +1,3 @@
+Er ist ein ehrlicher Mann, der nie lügt. 
+ 
+<speak>Er ist ein ehrlicher Mann , der nie <break time="1000ms"/>lügt<break time="1000ms"/> . </speak>

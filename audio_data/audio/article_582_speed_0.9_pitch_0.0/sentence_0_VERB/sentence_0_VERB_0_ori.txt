@@ -1,0 +1,3 @@
+Ist der Tisch schon gedeckt? 
+ 
+<speak>Ist der Tisch schon <break time="1000ms"/>gedeckt<break time="1000ms"/> ? </speak>

@@ -1,0 +1,3 @@
+Der Detektiv ist ihm bis zu seinem Haus gefolgt. 
+ 
+<speak>Der Detektiv ist ihm bis zu seinem Haus <break time="1000ms"/>gefolgt<break time="1000ms"/> . </speak>

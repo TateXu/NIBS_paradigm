@@ -1,0 +1,3 @@
+Junge Leute machen gerne Partys. 
+ 
+<speak>Junge Leute <break time="1000ms"/>machen<break time="1000ms"/> gerne Partys . </speak>

@@ -1,0 +1,3 @@
+Das Zimmer kostet ein Hundert Euro pro Nacht. 
+ 
+<speak>Das Zimmer <break time="1000ms"/>kostet<break time="1000ms"/> ein Hundert Euro pro Nacht . </speak>

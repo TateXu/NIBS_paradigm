@@ -1,0 +1,3 @@
+Darf ich mit einem Scheck bezahlen? 
+ 
+<speak>Darf ich mit einem Scheck <break time="1000ms"/>bezahlen<break time="1000ms"/> ? </speak>

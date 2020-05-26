@@ -1,0 +1,3 @@
+Wenn genug Schnee liegt, fahren sie gerne Schi. 
+ 
+<speak>Wenn genug Schnee liegt , <break time="1000ms"/>fahren<break time="1000ms"/> sie gerne Schi . </speak>

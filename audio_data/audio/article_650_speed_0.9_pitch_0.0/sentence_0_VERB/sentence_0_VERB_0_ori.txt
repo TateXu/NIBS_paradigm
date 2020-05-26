@@ -1,0 +1,3 @@
+Sie kann noch immer nicht schlafen, weil ihre Ohren wie Türglocken klingeln. 
+ 
+<speak>Sie kann noch immer nicht schlafen , weil ihre Ohren wie Türglocken <break time="1000ms"/>klingeln<break time="1000ms"/> . </speak>

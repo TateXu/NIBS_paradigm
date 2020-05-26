@@ -1,0 +1,3 @@
+Die Blumen in meinem Garten riechen gut. 
+ 
+<speak>Die Blumen in meinem Garten <break time="1000ms"/>riechen<break time="1000ms"/> gut . </speak>

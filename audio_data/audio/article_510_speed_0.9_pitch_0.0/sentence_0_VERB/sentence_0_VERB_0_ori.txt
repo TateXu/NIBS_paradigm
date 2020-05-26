@@ -1,0 +1,3 @@
+Sie besichtigen die Sehenswürdigkeiten. 
+ 
+<speak>Sie <break time="1000ms"/>besichtigen<break time="1000ms"/> die Sehenswürdigkeiten . </speak>

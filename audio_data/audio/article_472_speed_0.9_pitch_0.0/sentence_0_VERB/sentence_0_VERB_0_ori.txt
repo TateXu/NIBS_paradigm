@@ -1,0 +1,3 @@
+Ich habe die Zitrone in Scheiben geschnitten. 
+ 
+<speak>Ich habe die Zitrone in Scheiben <break time="1000ms"/>geschnitten<break time="1000ms"/> . </speak>

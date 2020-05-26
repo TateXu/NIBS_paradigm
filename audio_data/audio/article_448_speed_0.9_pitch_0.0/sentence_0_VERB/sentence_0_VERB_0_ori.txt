@@ -1,0 +1,3 @@
+Wir schafften es, das Projekt nach Plan abzuschließen. 
+ 
+<speak>Wir <break time="1000ms"/>schafften<break time="1000ms"/> es , das Projekt nach Plan abzuschließen . </speak>

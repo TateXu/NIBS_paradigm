@@ -1,0 +1,3 @@
+Die Eltern haben das Geburtstagsgeschenk ihrer Tochter eingepackt. 
+ 
+<speak>Die Eltern haben das Geburtstagsgeschenk ihrer Tochter <break time="1000ms"/>eingepackt<break time="1000ms"/> . </speak>

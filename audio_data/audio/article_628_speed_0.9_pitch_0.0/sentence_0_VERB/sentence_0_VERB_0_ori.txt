@@ -1,0 +1,3 @@
+Beim Bäcker gibt es täglich frisches Brot. 
+ 
+<speak>Beim Bäcker <break time="1000ms"/>gibt<break time="1000ms"/> es täglich frisches Brot . </speak>

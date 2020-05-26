@@ -1,0 +1,3 @@
+Ich gratuliere dir zum Abschluss mit höchster Auszeichnung.  
+ 
+<speak>Ich <break time="1000ms"/>gratuliere<break time="1000ms"/> dir zum Abschluss mit höchster Auszeichnung . </speak>

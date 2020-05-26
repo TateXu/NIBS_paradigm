@@ -1,0 +1,3 @@
+Ich benutze mein Handy, um Textnachrichten zu senden. 
+ 
+<speak>Ich benutze mein Handy , um Textnachrichten zu <break time="1000ms"/>senden<break time="1000ms"/> . </speak>

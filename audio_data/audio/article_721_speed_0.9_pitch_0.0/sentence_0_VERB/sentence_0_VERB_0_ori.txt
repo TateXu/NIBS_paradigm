@@ -1,0 +1,3 @@
+Er sieht endlich ein Licht am Ende des Tunnels. 
+ 
+<speak>Er <break time="1000ms"/>sieht<break time="1000ms"/> endlich ein Licht am Ende des Tunnels . </speak>

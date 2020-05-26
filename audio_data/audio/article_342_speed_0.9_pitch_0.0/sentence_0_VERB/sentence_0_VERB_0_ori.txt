@@ -1,0 +1,3 @@
+Das Schloss liegt innerhalb der Stadtmauern. 
+ 
+<speak>Das Schloss <break time="1000ms"/>liegt<break time="1000ms"/> innerhalb der Stadtmauern . </speak>

@@ -1,0 +1,3 @@
+Können Sie fünfzig Euro wechseln? 
+ 
+<speak>Können Sie fünfzig Euro <break time="1000ms"/>wechseln<break time="1000ms"/> ? </speak>

@@ -1,0 +1,3 @@
+Dieser Supermarkt hat nur am Tage geöffnet. 
+ 
+<speak>Dieser Supermarkt hat nur am Tage <break time="1000ms"/>geöffnet<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Ich muss das Buch zurückgeben, das mir ein Freund geliehen hat. 
+ 
+<speak>Ich muss das Buch zurückgeben , das mir ein Freund <break time="1000ms"/>geliehen<break time="1000ms"/> hat . </speak>

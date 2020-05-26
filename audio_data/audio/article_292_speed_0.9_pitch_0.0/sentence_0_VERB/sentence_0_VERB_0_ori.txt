@@ -1,0 +1,3 @@
+Zur Not kann ich noch was kochen, aber ich würde lieber im Restaurant essen 
+ 
+<speak>Zur Not kann ich noch was <break time="1000ms"/>kochen<break time="1000ms"/> , aber ich würde lieber im Restaurant essen </speak>

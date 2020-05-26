@@ -1,0 +1,3 @@
+Der Arzt wollte ihm verwehren, seinen Vater zu besuchen. 
+ 
+<speak>Der Arzt wollte ihm verwehren , seinen Vater zu <break time="1000ms"/>besuchen<break time="1000ms"/> . </speak>

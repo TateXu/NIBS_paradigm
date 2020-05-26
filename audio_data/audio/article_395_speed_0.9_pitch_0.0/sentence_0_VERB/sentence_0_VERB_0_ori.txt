@@ -1,0 +1,3 @@
+Kunden sollten Produkte sorgfältig prüfen, bevor sie sie kaufen. 
+ 
+<speak>Kunden sollten Produkte sorgfältig <break time="1000ms"/>prüfen<break time="1000ms"/> , bevor sie sie kaufen . </speak>

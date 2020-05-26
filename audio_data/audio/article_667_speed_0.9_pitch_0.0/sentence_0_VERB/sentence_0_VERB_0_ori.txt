@@ -1,0 +1,3 @@
+In der Schule lernen die Kinder lesen, schreiben und rechnen. 
+ 
+<speak>In der Schule <break time="1000ms"/>lernen<break time="1000ms"/> die Kinder lesen , schreiben und rechnen . </speak>

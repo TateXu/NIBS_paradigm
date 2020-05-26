@@ -1,0 +1,3 @@
+Morgens stehe ich um kurz vor sieben Uhr auf. 
+ 
+<speak>Morgens <break time="1000ms"/>stehe<break time="1000ms"/> ich um kurz vor sieben Uhr auf . </speak>

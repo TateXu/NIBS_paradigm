@@ -1,0 +1,3 @@
+Ich legte meine Geldbörse auf den Tisch. 
+ 
+<speak>Ich <break time="1000ms"/>legte<break time="1000ms"/> meine Geldbörse auf den Tisch . </speak>

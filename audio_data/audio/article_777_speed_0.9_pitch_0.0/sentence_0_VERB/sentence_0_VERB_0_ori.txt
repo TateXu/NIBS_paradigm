@@ -1,0 +1,3 @@
+In der Morgen wasche ich mein Gesicht. 
+ 
+<speak>In der Morgen <break time="1000ms"/>wasche<break time="1000ms"/> ich mein Gesicht . </speak>

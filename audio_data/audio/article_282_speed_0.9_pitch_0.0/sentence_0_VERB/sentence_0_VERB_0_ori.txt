@@ -1,0 +1,3 @@
+Das Radio informiert Autofahrer über Staus. 
+ 
+<speak>Das Radio <break time="1000ms"/>informiert<break time="1000ms"/> Autofahrer über Staus . </speak>

@@ -1,0 +1,3 @@
+Wir haben eine Testversion heruntergeladen, um die Nutzbarkeit der Software zu testen. 
+ 
+<speak>Wir haben eine Testversion <break time="1000ms"/>heruntergeladen<break time="1000ms"/> , um die Nutzbarkeit der Software zu testen . </speak>

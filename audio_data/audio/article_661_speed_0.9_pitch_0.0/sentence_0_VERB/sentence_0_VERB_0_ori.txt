@@ -1,0 +1,3 @@
+Ich musste heute Morgen richtig schnell nach der Busstation laufen. 
+ 
+<speak>Ich musste heute Morgen richtig schnell nach der Busstation <break time="1000ms"/>laufen<break time="1000ms"/> . </speak>

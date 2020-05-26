@@ -1,0 +1,3 @@
+Das Friedensabkommen hat den Krieg beendet. 
+ 
+<speak>Das Friedensabkommen hat den Krieg <break time="1000ms"/>beendet<break time="1000ms"/> . </speak>

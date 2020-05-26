@@ -1,0 +1,3 @@
+Ich kann nicht mit dem Auto fahren. 
+ 
+<speak>Ich kann nicht mit dem Auto <break time="1000ms"/>fahren<break time="1000ms"/> . </speak>

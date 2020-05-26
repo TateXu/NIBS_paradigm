@@ -1,0 +1,3 @@
+Ein Arzt behandelt kranke Leute in einer Praxis oder im Krankenhaus. 
+ 
+<speak>Ein Arzt <break time="1000ms"/>behandelt<break time="1000ms"/> kranke Leute in einer Praxis oder im Krankenhaus . </speak>

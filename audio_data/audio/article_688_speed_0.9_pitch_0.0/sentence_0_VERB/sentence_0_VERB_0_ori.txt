@@ -1,0 +1,3 @@
+Lisa kann schon mit großen Zahlen rechnen. 
+ 
+<speak>Lisa kann schon mit großen Zahlen <break time="1000ms"/>rechnen<break time="1000ms"/> . </speak>

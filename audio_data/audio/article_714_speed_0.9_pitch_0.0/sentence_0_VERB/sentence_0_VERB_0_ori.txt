@@ -1,0 +1,3 @@
+Ihr Regenschirm kann Sie vor dem Regen schützen. 
+ 
+<speak>Ihr Regenschirm kann Sie vor dem Regen <break time="1000ms"/>schützen<break time="1000ms"/> . </speak>

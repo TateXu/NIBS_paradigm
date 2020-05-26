@@ -1,0 +1,3 @@
+Ihm ist jedes Mittel recht, um sein Ziel zu erreichen. 
+ 
+<speak>Ihm ist jedes Mittel recht , um sein Ziel zu <break time="1000ms"/>erreichen<break time="1000ms"/> . </speak>

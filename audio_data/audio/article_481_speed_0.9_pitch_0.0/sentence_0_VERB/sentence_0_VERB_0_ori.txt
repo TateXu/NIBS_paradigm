@@ -1,0 +1,3 @@
+Warum antwortest du nicht auf meine Frage? 
+ 
+<speak>Warum <break time="1000ms"/>antwortest<break time="1000ms"/> du nicht auf meine Frage ? </speak>

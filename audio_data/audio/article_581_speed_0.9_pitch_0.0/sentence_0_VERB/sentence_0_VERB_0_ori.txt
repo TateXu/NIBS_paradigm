@@ -1,0 +1,3 @@
+Das Experiment hat eine Woche lang gedauert. 
+ 
+<speak>Das Experiment hat eine Woche lang <break time="1000ms"/>gedauert<break time="1000ms"/> . </speak>

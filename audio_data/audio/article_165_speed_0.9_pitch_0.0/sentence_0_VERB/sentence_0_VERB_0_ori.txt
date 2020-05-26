@@ -1,0 +1,3 @@
+Er entschuldigte sich für seinen Fehler. 
+ 
+<speak>Er <break time="1000ms"/>entschuldigte<break time="1000ms"/> sich für seinen Fehler . </speak>

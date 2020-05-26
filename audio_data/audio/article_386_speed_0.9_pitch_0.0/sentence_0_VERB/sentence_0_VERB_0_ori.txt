@@ -1,0 +1,3 @@
+Wir müssen genau planen, was wir tun wollen. 
+ 
+<speak>Wir müssen genau <break time="1000ms"/>planen<break time="1000ms"/> , was wir tun wollen . </speak>

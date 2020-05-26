@@ -1,0 +1,3 @@
+Sie brauchen kein Ticket, das Konzert ist kostenlos. 
+ 
+<speak>Sie <break time="1000ms"/>brauchen<break time="1000ms"/> kein Ticket , das Konzert ist kostenlos . </speak>

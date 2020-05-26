@@ -1,0 +1,3 @@
+Die zwei Männer bewerben sich um einen gleichen Arbeitsplatz. 
+ 
+<speak>Die zwei Männer <break time="1000ms"/>bewerben<break time="1000ms"/> sich um einen gleichen Arbeitsplatz . </speak>

@@ -1,0 +1,3 @@
+Bevor es Autos gab, sind die Leute mit der Eisenbahn gefahren. 
+ 
+<speak>Bevor es Autos gab , sind die Leute mit der Eisenbahn <break time="1000ms"/>gefahren<break time="1000ms"/> . </speak>

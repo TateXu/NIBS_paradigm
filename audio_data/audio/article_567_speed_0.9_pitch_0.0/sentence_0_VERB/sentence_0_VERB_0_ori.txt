@@ -1,0 +1,3 @@
+Wir entschieden uns dafür, mit dem Flugzeug nach Stockholm zu fliegen. 
+ 
+<speak>Wir entschieden uns dafür , mit dem Flugzeug nach Stockholm zu <break time="1000ms"/>fliegen<break time="1000ms"/> . </speak>

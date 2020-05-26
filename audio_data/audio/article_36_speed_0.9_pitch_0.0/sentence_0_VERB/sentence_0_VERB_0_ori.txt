@@ -1,0 +1,3 @@
+Zur Registrierung meines Kontos musste ich ein Formular ausfüllen. 
+ 
+<speak>Zur Registrierung meines Kontos musste ich ein Formular <break time="1000ms"/>ausfüllen<break time="1000ms"/> . </speak>

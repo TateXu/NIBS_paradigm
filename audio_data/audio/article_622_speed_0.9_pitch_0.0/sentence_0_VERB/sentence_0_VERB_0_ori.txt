@@ -1,0 +1,3 @@
+In der Vergangenheit war Berlin in zwei Hälften geteilt. 
+ 
+<speak>In der Vergangenheit war Berlin in zwei Hälften <break time="1000ms"/>geteilt<break time="1000ms"/> . </speak>

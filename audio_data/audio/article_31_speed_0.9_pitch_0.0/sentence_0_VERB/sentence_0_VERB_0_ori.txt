@@ -1,0 +1,3 @@
+Nach der Party mussten wir das Haus aufräumen. 
+ 
+<speak>Nach der Party mussten wir das Haus <break time="1000ms"/>aufräumen<break time="1000ms"/> . </speak>

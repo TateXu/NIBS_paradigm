@@ -1,0 +1,3 @@
+Das Brot schmeckt lecker.  
+ 
+<speak>Das Brot <break time="1000ms"/>schmeckt<break time="1000ms"/> lecker . </speak>

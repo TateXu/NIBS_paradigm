@@ -1,0 +1,3 @@
+Das Programm kannst Du kostenlos herunterladen. 
+ 
+<speak>Das Programm kannst Du kostenlos <break time="1000ms"/>herunterladen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+An unserem Baum hängen viele reife Birnen 
+ 
+<speak>An unserem Baum <break time="1000ms"/>hängen<break time="1000ms"/> viele reife Birnen </speak>

@@ -1,0 +1,3 @@
+Meine Uhr zeigt die aktuelle Uhrzeit in Berlin und New York an. 
+ 
+<speak>Meine Uhr <break time="1000ms"/>zeigt<break time="1000ms"/> die aktuelle Uhrzeit in Berlin und New York an . </speak>

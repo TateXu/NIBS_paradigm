@@ -1,0 +1,3 @@
+Der Tourist fragte nach dem Weg zum Opernhaus. 
+ 
+<speak>Der Tourist <break time="1000ms"/>fragte<break time="1000ms"/> nach dem Weg zum Opernhaus . </speak>

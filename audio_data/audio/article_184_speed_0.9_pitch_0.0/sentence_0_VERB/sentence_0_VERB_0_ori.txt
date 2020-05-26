@@ -1,0 +1,3 @@
+Kann man gekeimte Kartoffeln noch essen? 
+ 
+<speak>Kann man gekeimte Kartoffeln noch <break time="1000ms"/>essen<break time="1000ms"/> ? </speak>

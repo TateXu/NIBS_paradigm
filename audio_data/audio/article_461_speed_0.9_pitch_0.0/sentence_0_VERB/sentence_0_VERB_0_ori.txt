@@ -1,0 +1,3 @@
+Der Mann läuft zu schell, um die Post zu schicken. 
+ 
+<speak>Der Mann läuft zu schell , um die Post zu <break time="1000ms"/>schicken<break time="1000ms"/> . </speak>

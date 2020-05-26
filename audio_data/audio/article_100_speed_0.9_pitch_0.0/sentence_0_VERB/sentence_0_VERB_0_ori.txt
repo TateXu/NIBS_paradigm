@@ -1,0 +1,3 @@
+Das Unternehmen wird nächste Woche die Jahresprämie bezahlen. 
+ 
+<speak>Das Unternehmen wird nächste Woche die Jahresprämie <break time="1000ms"/>bezahlen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Kann ich mich um das Stipendium bewerben? 
+ 
+<speak>Kann ich mich um das Stipendium <break time="1000ms"/>bewerben<break time="1000ms"/> ? </speak>

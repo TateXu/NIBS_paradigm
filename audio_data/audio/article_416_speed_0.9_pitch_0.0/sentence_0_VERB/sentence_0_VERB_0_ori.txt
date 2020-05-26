@@ -1,0 +1,3 @@
+Die alte Zimmerdecke muss man renovieren. 
+ 
+<speak>Die alte Zimmerdecke muss man <break time="1000ms"/>renovieren<break time="1000ms"/> . </speak>

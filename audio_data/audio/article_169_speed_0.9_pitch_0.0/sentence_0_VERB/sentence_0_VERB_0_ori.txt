@@ -1,0 +1,3 @@
+Bitte, erinnern Sie mich daran, wenn ich es vergessen sollte. 
+ 
+<speak>Bitte , <break time="1000ms"/>erinnern<break time="1000ms"/> Sie mich daran , wenn ich es vergessen sollte . </speak>

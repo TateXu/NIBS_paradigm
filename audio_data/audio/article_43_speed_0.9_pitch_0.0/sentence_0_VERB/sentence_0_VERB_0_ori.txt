@@ -1,0 +1,3 @@
+Am nächsten Bahnhof muss ich aus dem Zug aussteigen. 
+ 
+<speak>Am nächsten Bahnhof muss ich aus dem Zug <break time="1000ms"/>aussteigen<break time="1000ms"/> . </speak>

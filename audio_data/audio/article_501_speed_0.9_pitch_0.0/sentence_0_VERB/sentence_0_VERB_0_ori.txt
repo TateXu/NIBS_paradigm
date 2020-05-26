@@ -1,0 +1,3 @@
+Sie hat neue Laufschuhe bekommen. 
+ 
+<speak>Sie hat neue Laufschuhe <break time="1000ms"/>bekommen<break time="1000ms"/> . </speak>

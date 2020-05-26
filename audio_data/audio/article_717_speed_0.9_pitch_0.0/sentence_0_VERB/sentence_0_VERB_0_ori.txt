@@ -1,0 +1,3 @@
+Durch ein Fernrohr kann man manchmal sogar die Venus sehen. 
+ 
+<speak>Durch ein Fernrohr kann man manchmal sogar die Venus <break time="1000ms"/>sehen<break time="1000ms"/> . </speak>

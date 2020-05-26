@@ -1,0 +1,3 @@
+Er hat seine Katze oft mit Fisch gefüttert. 
+ 
+<speak>Er hat seine Katze oft mit Fisch <break time="1000ms"/>gefüttert<break time="1000ms"/> . </speak>

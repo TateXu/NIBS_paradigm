@@ -1,0 +1,3 @@
+Im Mittelalter öffnete das erste Kaufhaus in Europa. 
+ 
+<speak>Im Mittelalter <break time="1000ms"/>öffnete<break time="1000ms"/> das erste Kaufhaus in Europa . </speak>

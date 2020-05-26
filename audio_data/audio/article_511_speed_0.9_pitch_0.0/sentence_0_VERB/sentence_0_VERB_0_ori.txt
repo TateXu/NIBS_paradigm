@@ -1,0 +1,3 @@
+Die äußeren Planeten bestehen aus Gas. 
+ 
+<speak>Die äußeren Planeten <break time="1000ms"/>bestehen<break time="1000ms"/> aus Gas . </speak>

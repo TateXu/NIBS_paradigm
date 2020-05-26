@@ -1,0 +1,3 @@
+Im Weltraum kann man keinen Ton hören. 
+ 
+<speak>Im Weltraum kann man keinen Ton <break time="1000ms"/>hören<break time="1000ms"/> . </speak>

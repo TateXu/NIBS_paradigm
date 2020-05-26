@@ -1,0 +1,3 @@
+Neue Sterne entstehen in den Magellan-Wolken. 
+ 
+<speak>Neue Sterne <break time="1000ms"/>entstehen<break time="1000ms"/> in den Magellan-Wolken . </speak>

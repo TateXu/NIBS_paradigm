@@ -1,0 +1,3 @@
+Ich gehe ins Museum, um mir die Gemälde anzusehen. 
+ 
+<speak>Ich gehe ins Museum , um mir die Gemälde <break time="1000ms"/>anzusehen<break time="1000ms"/> . </speak>

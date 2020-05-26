@@ -1,0 +1,3 @@
+Hans arbeitet in einer Schule, er ist der Direktor. 
+ 
+<speak>Hans <break time="1000ms"/>arbeitet<break time="1000ms"/> in einer Schule , er ist der Direktor . </speak>

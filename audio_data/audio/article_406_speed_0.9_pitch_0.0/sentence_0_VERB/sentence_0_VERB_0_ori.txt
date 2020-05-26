@@ -1,0 +1,3 @@
+Unter solchen Bedingungen kann man den Umfang des Kreises leicht berechnen. 
+ 
+<speak>Unter solchen Bedingungen kann man den Umfang des Kreises leicht <break time="1000ms"/>berechnen<break time="1000ms"/> . </speak>

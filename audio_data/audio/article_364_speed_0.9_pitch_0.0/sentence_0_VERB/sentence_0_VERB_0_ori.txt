@@ -1,0 +1,3 @@
+Jede nennt sie Nini, aber ihr wirklicher Name ist Martina. 
+ 
+<speak>Jede <break time="1000ms"/>nennt<break time="1000ms"/> sie Nini , aber ihr wirklicher Name ist Martina . </speak>

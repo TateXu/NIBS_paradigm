@@ -1,0 +1,3 @@
+Mutters Einkäufe sind so schwer, deshalb bittet sie Jon, die Tasche zu tragen. 
+ 
+<speak>Mutters Einkäufe sind so schwer , deshalb bittet sie Jon , die Tasche zu <break time="1000ms"/>tragen<break time="1000ms"/> . </speak>

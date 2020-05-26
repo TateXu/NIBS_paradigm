@@ -1,0 +1,3 @@
+Im gleichen Jahr hat der amerikanische Bürgerkrieg begonnen. 
+ 
+<speak>Im gleichen Jahr hat der amerikanische Bürgerkrieg <break time="1000ms"/>begonnen<break time="1000ms"/> . </speak>

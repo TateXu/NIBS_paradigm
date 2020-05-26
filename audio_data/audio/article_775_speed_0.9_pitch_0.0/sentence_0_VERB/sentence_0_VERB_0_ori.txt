@@ -1,0 +1,3 @@
+Deine Haare sind so kurz, warst du beim Friseur? 
+ 
+<speak>Deine Haare sind so kurz , <break time="1000ms"/>warst<break time="1000ms"/> du beim Friseur ? </speak>

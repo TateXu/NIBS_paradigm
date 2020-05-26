@@ -1,0 +1,3 @@
+Viele Zettel sind an der Wand gehängt. 
+ 
+<speak>Viele Zettel sind an der Wand <break time="1000ms"/>gehängt<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Der Ton macht die Musik. 
+ 
+<speak>Der Ton <break time="1000ms"/>macht<break time="1000ms"/> die Musik . </speak>

@@ -1,0 +1,3 @@
+Der Läufer hat seine Konkurrenten mühelos geschlagen. 
+ 
+<speak>Der Läufer hat seine Konkurrenten mühelos <break time="1000ms"/>geschlagen<break time="1000ms"/> . </speak>

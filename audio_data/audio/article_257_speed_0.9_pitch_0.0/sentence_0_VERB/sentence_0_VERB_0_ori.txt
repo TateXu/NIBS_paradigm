@@ -1,0 +1,3 @@
+Der Wirkstoff im Kaffee heißt Koffein. 
+ 
+<speak>Der Wirkstoff im Kaffee <break time="1000ms"/>heißt<break time="1000ms"/> Koffein . </speak>

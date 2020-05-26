@@ -1,0 +1,3 @@
+Hans und Tina heirateten am Donnerstag in der Kirche. 
+ 
+<speak>Hans und Tina <break time="1000ms"/>heirateten<break time="1000ms"/> am Donnerstag in der Kirche . </speak>

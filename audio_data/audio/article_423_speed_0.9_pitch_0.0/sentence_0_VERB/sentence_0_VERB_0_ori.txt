@@ -1,0 +1,3 @@
+Ich möchte gerne ein Zimmer im Hilton-Hotel reservieren. 
+ 
+<speak>Ich möchte gerne ein Zimmer im Hilton-Hotel <break time="1000ms"/>reservieren<break time="1000ms"/> . </speak>

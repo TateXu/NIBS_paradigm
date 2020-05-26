@@ -1,0 +1,3 @@
+Die Tür bewegt sich nur, wenn man mit viel Kraft dagegen drückt. 
+ 
+<speak>Die Tür bewegt sich nur , wenn man mit viel Kraft dagegen <break time="1000ms"/>drückt<break time="1000ms"/> . </speak>

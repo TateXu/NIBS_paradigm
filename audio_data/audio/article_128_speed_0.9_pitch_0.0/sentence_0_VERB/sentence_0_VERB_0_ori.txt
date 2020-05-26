@@ -1,0 +1,3 @@
+Er war so betrunken, dass er nicht mehr vernünftig denken konnte. 
+ 
+<speak>Er war so betrunken , dass er nicht mehr vernünftig <break time="1000ms"/>denken<break time="1000ms"/> konnte . </speak>

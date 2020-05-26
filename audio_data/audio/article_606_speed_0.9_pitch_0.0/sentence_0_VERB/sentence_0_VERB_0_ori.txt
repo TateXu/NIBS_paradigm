@@ -1,0 +1,3 @@
+Früher haben in Europa und Asien Neandertaler gelebt. 
+ 
+<speak>Früher haben in Europa und Asien Neandertaler <break time="1000ms"/>gelebt<break time="1000ms"/> . </speak>

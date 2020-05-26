@@ -1,0 +1,3 @@
+Im Herbst werden die Blätter von den Bäumen fallen. 
+ 
+<speak>Im Herbst werden die Blätter von den Bäumen <break time="1000ms"/>fallen<break time="1000ms"/> . </speak>

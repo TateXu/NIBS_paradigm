@@ -1,0 +1,3 @@
+Ihre Freundlichkeit gab mir ein Gefühl von Sicherheit. 
+ 
+<speak>Ihre Freundlichkeit <break time="1000ms"/>gab<break time="1000ms"/> mir ein Gefühl von Sicherheit . </speak>

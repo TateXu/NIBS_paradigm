@@ -1,0 +1,3 @@
+Diese beiden Handschuhe gehören zusammen. 
+ 
+<speak>Diese beiden Handschuhe <break time="1000ms"/>gehören<break time="1000ms"/> zusammen . </speak>

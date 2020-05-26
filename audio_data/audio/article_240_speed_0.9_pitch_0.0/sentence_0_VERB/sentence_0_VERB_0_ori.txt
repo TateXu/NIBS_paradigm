@@ -1,0 +1,3 @@
+Wir können das Fleisch grillen oder braten. 
+ 
+<speak>Wir können das Fleisch <break time="1000ms"/>grillen<break time="1000ms"/> oder braten . </speak>

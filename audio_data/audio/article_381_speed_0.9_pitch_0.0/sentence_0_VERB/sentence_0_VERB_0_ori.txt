@@ -1,0 +1,3 @@
+Das Auto hatte die Grenze passiert. 
+ 
+<speak>Das Auto hatte die Grenze <break time="1000ms"/>passiert<break time="1000ms"/> . </speak>

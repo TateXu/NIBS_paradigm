@@ -1,0 +1,3 @@
+Brot kann man in der Bäckerei kaufen. 
+ 
+<speak>Brot kann man in der Bäckerei <break time="1000ms"/>kaufen<break time="1000ms"/> . </speak>

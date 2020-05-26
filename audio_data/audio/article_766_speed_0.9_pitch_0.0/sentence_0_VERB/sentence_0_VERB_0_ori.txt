@@ -1,0 +1,3 @@
+Am Ostersonntag suchen die Kinder bunte Eier, die ihre Eltern verstecken. 
+ 
+<speak>Am Ostersonntag suchen die Kinder bunte Eier , die ihre Eltern <break time="1000ms"/>verstecken<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Bitte zieh deinen Mantel an, es ist kalt draußen. 
+ 
+<speak>Bitte <break time="1000ms"/>zieh<break time="1000ms"/> deinen Mantel an , es ist kalt draußen . </speak>

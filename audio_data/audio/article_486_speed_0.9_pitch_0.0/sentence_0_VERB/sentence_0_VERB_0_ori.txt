@@ -1,0 +1,3 @@
+Bitten aufpassen, zu viel Zucker schadet der Gesundheit. 
+ 
+<speak>Bitten <break time="1000ms"/>aufpassen<break time="1000ms"/> , zu viel Zucker schadet der Gesundheit . </speak>

@@ -1,0 +1,3 @@
+Der Arzt hat gesagt, ich sähe völlig gesund aus. 
+ 
+<speak>Der Arzt hat <break time="1000ms"/>gesagt<break time="1000ms"/> , ich sähe völlig gesund aus . </speak>

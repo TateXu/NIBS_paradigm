@@ -1,0 +1,3 @@
+Ich habe gestern einen interessanten Mann kennen gelernt. 
+ 
+<speak>Ich habe gestern einen interessanten Mann <break time="1000ms"/>kennen<break time="1000ms"/> gelernt . </speak>

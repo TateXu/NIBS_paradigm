@@ -1,0 +1,3 @@
+Die Band beendete das Konzert unter großem Beifall. 
+ 
+<speak>Die Band <break time="1000ms"/>beendete<break time="1000ms"/> das Konzert unter großem Beifall . </speak>

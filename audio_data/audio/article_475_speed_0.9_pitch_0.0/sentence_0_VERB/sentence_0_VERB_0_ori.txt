@@ -1,0 +1,3 @@
+Ich kann es kaum abwarten, das Video meiner Hochzeit zu sehen. 
+ 
+<speak>Ich kann es kaum <break time="1000ms"/>abwarten<break time="1000ms"/> , das Video meiner Hochzeit zu sehen . </speak>

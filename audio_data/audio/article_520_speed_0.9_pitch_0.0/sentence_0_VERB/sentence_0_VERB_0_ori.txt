@@ -1,0 +1,3 @@
+Im Frühling besuchen viele Touristen unserer Hauptstadt. 
+ 
+<speak>Im Frühling <break time="1000ms"/>besuchen<break time="1000ms"/> viele Touristen unserer Hauptstadt . </speak>

@@ -1,0 +1,3 @@
+Sein Kommentar ist immer so vage, dass niemand weiß, was er meint. 
+ 
+<speak>Sein Kommentar ist immer so vage , dass niemand weiß , was er <break time="1000ms"/>meint<break time="1000ms"/> . </speak>

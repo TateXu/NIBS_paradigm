@@ -1,0 +1,3 @@
+Lebensmittel sind die Dinge, die man essen kann. 
+ 
+<speak>Lebensmittel sind die Dinge , die man <break time="1000ms"/>essen<break time="1000ms"/> kann . </speak>

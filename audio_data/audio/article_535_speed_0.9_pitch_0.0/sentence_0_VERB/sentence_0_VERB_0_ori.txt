@@ -1,0 +1,3 @@
+Marco möchte den Brief zur Post bringen. 
+ 
+<speak>Marco möchte den Brief zur Post <break time="1000ms"/>bringen<break time="1000ms"/> . </speak>

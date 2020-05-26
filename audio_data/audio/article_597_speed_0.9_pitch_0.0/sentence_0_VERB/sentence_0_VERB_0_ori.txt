@@ -1,0 +1,3 @@
+Seit der Urzeit haben die Menschen an Götter geglaubt. 
+ 
+<speak>Seit der Urzeit haben die Menschen an Götter <break time="1000ms"/>geglaubt<break time="1000ms"/> . </speak>

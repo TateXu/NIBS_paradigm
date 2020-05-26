@@ -1,0 +1,3 @@
+Mit dieser neuen Kamera kann man bei jedem Licht fotografieren. 
+ 
+<speak>Mit dieser neuen Kamera kann man bei jedem Licht <break time="1000ms"/>fotografieren<break time="1000ms"/> . </speak>

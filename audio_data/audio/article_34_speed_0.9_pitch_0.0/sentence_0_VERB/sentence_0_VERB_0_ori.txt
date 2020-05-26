@@ -1,0 +1,3 @@
+Antragsteller für ein Visum können online ein Formular ausfüllen. 
+ 
+<speak>Antragsteller für ein Visum können online ein Formular <break time="1000ms"/>ausfüllen<break time="1000ms"/> . </speak>

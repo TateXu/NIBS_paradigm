@@ -1,0 +1,3 @@
+Nur mit der Fahrkarte kann man einsteigen. 
+ 
+<speak>Nur mit der Fahrkarte kann man <break time="1000ms"/>einsteigen<break time="1000ms"/> . </speak>

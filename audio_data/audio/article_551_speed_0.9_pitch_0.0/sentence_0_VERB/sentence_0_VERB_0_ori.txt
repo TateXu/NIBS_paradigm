@@ -1,0 +1,3 @@
+Ich kann mich noch gut an meinen ersten Schultag erinnern. 
+ 
+<speak>Ich kann mich noch gut an meinen ersten Schultag <break time="1000ms"/>erinnern<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Wir freuen uns sehr über Ihren Besuch. 
+ 
+<speak>Wir <break time="1000ms"/>freuen<break time="1000ms"/> uns sehr über Ihren Besuch . </speak>

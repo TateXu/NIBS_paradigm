@@ -1,0 +1,3 @@
+Paul hat zum Abendessen Kartoffelsuppe gegessen. 
+ 
+<speak>Paul hat zum Abendessen Kartoffelsuppe <break time="1000ms"/>gegessen<break time="1000ms"/> . </speak>

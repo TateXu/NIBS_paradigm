@@ -1,0 +1,3 @@
+Die ausgehende Post muss noch eintragen werden, da sie strenge Datenschutzrichtlinien haben. 
+ 
+<speak>Die ausgehende Post muss noch <break time="1000ms"/>eintragen<break time="1000ms"/> werden , da sie strenge Datenschutzrichtlinien haben . </speak>

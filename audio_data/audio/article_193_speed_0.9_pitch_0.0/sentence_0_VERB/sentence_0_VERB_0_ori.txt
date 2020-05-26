@@ -1,0 +1,3 @@
+Wir werden später bestellen, denn es fehlen noch einige Gäste. 
+ 
+<speak>Wir werden später bestellen , denn es <break time="1000ms"/>fehlen<break time="1000ms"/> noch einige Gäste . </speak>

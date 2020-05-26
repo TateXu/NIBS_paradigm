@@ -1,0 +1,3 @@
+Der Arzt hat mir empfohlen, auf Alkohol zu verzichten. 
+ 
+<speak>Der Arzt hat mir empfohlen , auf Alkohol zu <break time="1000ms"/>verzichten<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Simon hat riesige Bilder gemalt. 
+ 
+<speak>Simon hat riesige Bilder <break time="1000ms"/>gemalt<break time="1000ms"/> . </speak>

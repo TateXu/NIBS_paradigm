@@ -1,0 +1,3 @@
+Mit meinem Wagen kann ich nach Tibet reisen. 
+ 
+<speak>Mit meinem Wagen kann ich nach Tibet <break time="1000ms"/>reisen<break time="1000ms"/> . </speak>

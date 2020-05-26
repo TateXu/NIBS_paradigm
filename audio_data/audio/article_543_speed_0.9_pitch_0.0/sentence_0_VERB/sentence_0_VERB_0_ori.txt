@@ -1,0 +1,3 @@
+Wir müssen jemanden mit mehr Erfahrung für diese wichtige Position einstellen. 
+ 
+<speak>Wir müssen jemanden mit mehr Erfahrung für diese wichtige Position <break time="1000ms"/>einstellen<break time="1000ms"/> . </speak>

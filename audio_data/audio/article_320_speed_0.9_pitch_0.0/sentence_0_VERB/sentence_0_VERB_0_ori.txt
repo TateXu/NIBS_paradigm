@@ -1,0 +1,3 @@
+Das Huhn legt jeden Tag ein Ei. 
+ 
+<speak>Das Huhn <break time="1000ms"/>legt<break time="1000ms"/> jeden Tag ein Ei . </speak>

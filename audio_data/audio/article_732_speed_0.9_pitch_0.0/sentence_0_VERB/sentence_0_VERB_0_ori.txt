@@ -1,0 +1,3 @@
+Durch die Klimaveränderung steigen die Temperaturen auf der Erde. 
+ 
+<speak>Durch die Klimaveränderung <break time="1000ms"/>steigen<break time="1000ms"/> die Temperaturen auf der Erde . </speak>

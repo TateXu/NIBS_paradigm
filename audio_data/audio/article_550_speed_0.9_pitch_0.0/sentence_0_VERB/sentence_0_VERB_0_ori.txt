@@ -1,0 +1,3 @@
+Die Erklärungen des Lehrers haben absolut Sinn ergeben. 
+ 
+<speak>Die Erklärungen des Lehrers haben absolut Sinn <break time="1000ms"/>ergeben<break time="1000ms"/> . </speak>

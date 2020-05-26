@@ -1,0 +1,3 @@
+Er hat eine gerade Linie von einem Punkt zum anderen gezogen. 
+ 
+<speak>Er hat eine gerade Linie von einem Punkt zum anderen <break time="1000ms"/>gezogen<break time="1000ms"/> . </speak>

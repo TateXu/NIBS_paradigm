@@ -1,0 +1,3 @@
+Er probierte, die Tür mit dem falschen Schlüssel zu öffnen. 
+ 
+<speak>Er probierte , die Tür mit dem falschen Schlüssel zu <break time="1000ms"/>öffnen<break time="1000ms"/> . </speak>

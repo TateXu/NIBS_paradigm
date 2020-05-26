@@ -1,0 +1,3 @@
+Grossbritannien hat die EU verlassen. 
+ 
+<speak>Grossbritannien hat die EU <break time="1000ms"/>verlassen<break time="1000ms"/> . </speak>

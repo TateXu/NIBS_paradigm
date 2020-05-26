@@ -1,0 +1,3 @@
+Die Fische leben in Flüssen , Seen und Meeren. 
+ 
+<speak>Die Fische <break time="1000ms"/>leben<break time="1000ms"/> in Flüssen , Seen und Meeren . </speak>

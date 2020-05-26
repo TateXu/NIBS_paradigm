@@ -1,0 +1,3 @@
+Ich nahm meinen Stift und begann zu schreiben. 
+ 
+<speak>Ich nahm meinen Stift und <break time="1000ms"/>begann<break time="1000ms"/> zu schreiben . </speak>

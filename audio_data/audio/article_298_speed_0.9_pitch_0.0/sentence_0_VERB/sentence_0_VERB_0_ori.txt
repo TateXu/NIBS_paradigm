@@ -1,0 +1,3 @@
+Wie hoch kosten der Wahren ？ 
+ 
+<speak>Wie hoch <break time="1000ms"/>kosten<break time="1000ms"/> der Wahren ？ </speak>

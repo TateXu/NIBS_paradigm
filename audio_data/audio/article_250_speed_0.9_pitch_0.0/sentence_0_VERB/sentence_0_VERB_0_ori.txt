@@ -1,0 +1,3 @@
+Er kann mit den Händen an einem Baum hängen. 
+ 
+<speak>Er kann mit den Händen an einem Baum <break time="1000ms"/>hängen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Morgen will er probieren, ob seine Theorie auch in der Praxis stimmt. 
+ 
+<speak>Morgen will er <break time="1000ms"/>probieren<break time="1000ms"/> , ob seine Theorie auch in der Praxis stimmt . </speak>

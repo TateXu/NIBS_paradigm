@@ -1,0 +1,3 @@
+Sam ist nicht da, soll ich ihm sagen, dass Sie nachher zurück rufen? 
+ 
+<speak>Sam ist nicht da , soll ich ihm sagen , dass Sie nachher zurück <break time="1000ms"/>rufen<break time="1000ms"/> ? </speak>

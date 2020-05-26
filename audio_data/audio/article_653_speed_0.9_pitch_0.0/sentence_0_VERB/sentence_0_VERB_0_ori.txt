@@ -1,0 +1,3 @@
+Das Essen riecht so gut, was kochst du heute? 
+ 
+<speak>Das Essen riecht so gut , was <break time="1000ms"/>kochst<break time="1000ms"/> du heute ? </speak>

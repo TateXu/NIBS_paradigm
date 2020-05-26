@@ -1,0 +1,3 @@
+Der Prüfer hat die Erfüllung gesetzlicher Auflagen durch das Unternehmen kontrolliert. 
+ 
+<speak>Der Prüfer hat die Erfüllung gesetzlicher Auflagen durch das Unternehmen <break time="1000ms"/>kontrolliert<break time="1000ms"/> . </speak>

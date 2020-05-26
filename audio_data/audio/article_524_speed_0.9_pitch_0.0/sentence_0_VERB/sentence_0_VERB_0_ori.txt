@@ -1,0 +1,3 @@
+Pinguine bewohnen die Antarktis, wie auch Robben und große Seelöwen. 
+ 
+<speak>Pinguine <break time="1000ms"/>bewohnen<break time="1000ms"/> die Antarktis , wie auch Robben und große Seelöwen . </speak>

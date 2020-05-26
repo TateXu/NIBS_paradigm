@@ -1,0 +1,3 @@
+Da Sie keine andere Wahl haben, können Sie nicht wählen. 
+ 
+<speak>Da Sie keine andere Wahl haben , können Sie nicht <break time="1000ms"/>wählen<break time="1000ms"/> . </speak>

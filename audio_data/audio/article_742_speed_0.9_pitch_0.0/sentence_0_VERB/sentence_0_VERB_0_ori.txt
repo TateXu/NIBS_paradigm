@@ -1,0 +1,3 @@
+Keine Sorge, du wirst für diesen Fehler nicht die Schuld tragen. 
+ 
+<speak>Keine Sorge , du wirst für diesen Fehler nicht die Schuld <break time="1000ms"/>tragen<break time="1000ms"/> . </speak>

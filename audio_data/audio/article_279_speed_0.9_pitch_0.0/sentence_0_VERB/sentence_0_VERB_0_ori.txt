@@ -1,0 +1,3 @@
+Es ist ratsam, auch das Urteil anderer zu hören. 
+ 
+<speak>Es ist ratsam , auch das Urteil anderer zu <break time="1000ms"/>hören<break time="1000ms"/> . </speak>

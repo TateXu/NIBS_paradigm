@@ -1,0 +1,3 @@
+Die Bergsteiger sind in die Wand eingestiegen. 
+ 
+<speak>Die Bergsteiger sind in die Wand <break time="1000ms"/>eingestiegen<break time="1000ms"/> . </speak>

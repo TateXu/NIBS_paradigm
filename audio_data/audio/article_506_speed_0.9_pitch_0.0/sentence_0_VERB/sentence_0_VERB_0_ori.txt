@@ -1,0 +1,3 @@
+Wie lange benötigt die Erde, um die Sonne zu umrunden? 
+ 
+<speak>Wie lange <break time="1000ms"/>benötigt<break time="1000ms"/> die Erde , um die Sonne zu umrunden ? </speak>

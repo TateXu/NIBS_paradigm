@@ -1,0 +1,3 @@
+Kollegen versammelt sich zusammen, um ein neues Projekt zu planen. 
+ 
+<speak>Kollegen versammelt sich zusammen , um ein neues Projekt zu <break time="1000ms"/>planen<break time="1000ms"/> . </speak>

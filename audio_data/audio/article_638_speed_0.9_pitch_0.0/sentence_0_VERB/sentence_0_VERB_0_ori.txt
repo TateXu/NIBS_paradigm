@@ -1,0 +1,3 @@
+Dieses Brot ist maschinell hergestellt worden. 
+ 
+<speak>Dieses Brot ist maschinell <break time="1000ms"/>hergestellt<break time="1000ms"/> worden . </speak>

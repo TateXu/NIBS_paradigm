@@ -1,0 +1,3 @@
+Während oder nach einem Regen kann man einen Regenbogen vorsehen. 
+ 
+<speak>Während oder nach einem Regen kann man einen Regenbogen <break time="1000ms"/>vorsehen<break time="1000ms"/> . </speak>

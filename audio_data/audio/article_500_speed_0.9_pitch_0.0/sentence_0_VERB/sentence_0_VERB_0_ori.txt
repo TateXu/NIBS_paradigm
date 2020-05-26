@@ -1,0 +1,3 @@
+Du kannst den Hund streicheln, er wird dich nicht beißen. 
+ 
+<speak>Du kannst den Hund streicheln , er wird dich nicht <break time="1000ms"/>beißen<break time="1000ms"/> . </speak>

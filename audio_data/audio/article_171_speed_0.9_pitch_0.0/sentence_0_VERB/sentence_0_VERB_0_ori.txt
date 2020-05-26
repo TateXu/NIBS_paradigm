@@ -1,0 +1,3 @@
+Kannst du mir das mit einem konkreten Beispiel erklären? 
+ 
+<speak>Kannst du mir das mit einem konkreten Beispiel <break time="1000ms"/>erklären<break time="1000ms"/> ? </speak>

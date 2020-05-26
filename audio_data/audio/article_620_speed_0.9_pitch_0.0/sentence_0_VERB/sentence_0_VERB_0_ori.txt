@@ -1,0 +1,3 @@
+Weil er so hungrig war, hat Franz einmal einen Apfel gestohlen. 
+ 
+<speak>Weil er so hungrig war , hat Franz einmal einen Apfel <break time="1000ms"/>gestohlen<break time="1000ms"/> . </speak>

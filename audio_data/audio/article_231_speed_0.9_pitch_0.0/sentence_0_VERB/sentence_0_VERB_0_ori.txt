@@ -1,0 +1,3 @@
+Ich war begeistert, als ich das Spiel fast gewonnen hätte. 
+ 
+<speak>Ich war begeistert , als ich das Spiel fast <break time="1000ms"/>gewonnen<break time="1000ms"/> hätte . </speak>

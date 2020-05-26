@@ -1,0 +1,3 @@
+Die Katzen jagen Mäuse. 
+ 
+<speak>Die Katzen <break time="1000ms"/>jagen<break time="1000ms"/> Mäuse . </speak>

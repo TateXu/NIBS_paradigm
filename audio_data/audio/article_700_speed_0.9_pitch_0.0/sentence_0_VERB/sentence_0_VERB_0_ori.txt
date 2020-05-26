@@ -1,0 +1,3 @@
+Das Brot vom Bäcker schmeckt viel besser. 
+ 
+<speak>Das Brot vom Bäcker <break time="1000ms"/>schmeckt<break time="1000ms"/> viel besser . </speak>

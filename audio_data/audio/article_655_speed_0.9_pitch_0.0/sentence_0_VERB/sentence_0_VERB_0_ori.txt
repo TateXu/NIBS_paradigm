@@ -1,0 +1,3 @@
+Die friedlichen Pandas kommen aus China. 
+ 
+<speak>Die friedlichen Pandas <break time="1000ms"/>kommen<break time="1000ms"/> aus China . </speak>

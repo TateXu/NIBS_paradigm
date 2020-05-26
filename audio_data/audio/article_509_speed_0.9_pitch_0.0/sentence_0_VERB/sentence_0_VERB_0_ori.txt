@@ -1,0 +1,3 @@
+Nikolaus Kopernikus beschreibt das heliozentrische Weltbild. 
+ 
+<speak>Nikolaus Kopernikus <break time="1000ms"/>beschreibt<break time="1000ms"/> das heliozentrische Weltbild . </speak>

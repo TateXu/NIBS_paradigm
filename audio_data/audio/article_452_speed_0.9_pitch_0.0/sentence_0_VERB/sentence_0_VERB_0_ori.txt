@@ -1,0 +1,3 @@
+Die Sonne scheint durch die grauen Wolken. 
+ 
+<speak>Die Sonne <break time="1000ms"/>scheint<break time="1000ms"/> durch die grauen Wolken . </speak>

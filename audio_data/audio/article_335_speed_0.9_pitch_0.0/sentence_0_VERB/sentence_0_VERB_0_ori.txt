@@ -1,0 +1,3 @@
+In der Bibliothek kann man viele seltsame Bücher lesen. 
+ 
+<speak>In der Bibliothek kann man viele seltsame Bücher <break time="1000ms"/>lesen<break time="1000ms"/> . </speak>

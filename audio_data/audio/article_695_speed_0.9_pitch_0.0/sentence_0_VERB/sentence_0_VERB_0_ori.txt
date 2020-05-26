@@ -1,0 +1,3 @@
+Die Augen meines Sohnes glänzten, als er das Geschenk sah. 
+ 
+<speak>Die Augen meines Sohnes glänzten , als er das Geschenk <break time="1000ms"/>sah<break time="1000ms"/> . </speak>

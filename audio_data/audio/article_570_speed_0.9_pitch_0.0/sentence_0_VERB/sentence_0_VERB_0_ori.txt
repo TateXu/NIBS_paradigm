@@ -1,0 +1,3 @@
+Die Bergarbeiter fuhren jeden Tag in die Grube. 
+ 
+<speak>Die Bergarbeiter <break time="1000ms"/>fuhren<break time="1000ms"/> jeden Tag in die Grube . </speak>

@@ -1,0 +1,3 @@
+Howard Carter hat viele Schätze im Grab von Tutanchamun gefunden. 
+ 
+<speak>Howard Carter hat viele Schätze im Grab von Tutanchamun <break time="1000ms"/>gefunden<break time="1000ms"/> . </speak>

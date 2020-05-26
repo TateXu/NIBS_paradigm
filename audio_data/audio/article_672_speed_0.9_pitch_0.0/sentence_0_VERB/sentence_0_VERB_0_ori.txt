@@ -1,0 +1,3 @@
+Normalerweise lese ich Zeitungen online. 
+ 
+<speak>Normalerweise <break time="1000ms"/>lese<break time="1000ms"/> ich Zeitungen online . </speak>

@@ -1,0 +1,3 @@
+Mein Ziel ist, in der Prüfung gute Ergebnisse zu bekommen. 
+ 
+<speak>Mein Ziel ist , in der Prüfung gute Ergebnisse zu <break time="1000ms"/>bekommen<break time="1000ms"/> . </speak>

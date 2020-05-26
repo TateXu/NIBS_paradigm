@@ -1,0 +1,3 @@
+Der Artikel hat uns über die Ursache des Erderwärmung informiert. 
+ 
+<speak>Der Artikel hat uns über die Ursache des Erderwärmung <break time="1000ms"/>informiert<break time="1000ms"/> . </speak>

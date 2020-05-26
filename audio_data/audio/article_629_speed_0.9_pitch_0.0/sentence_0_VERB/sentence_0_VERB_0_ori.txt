@@ -1,0 +1,3 @@
+Ich nehme lieber den Bus, da gibt es nicht so viele Haltestellen. 
+ 
+<speak>Ich nehme lieber den Bus , da <break time="1000ms"/>gibt<break time="1000ms"/> es nicht so viele Haltestellen . </speak>

@@ -1,0 +1,3 @@
+Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht. 
+ 
+<speak>Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca <break time="1000ms"/>gebucht<break time="1000ms"/> . </speak>

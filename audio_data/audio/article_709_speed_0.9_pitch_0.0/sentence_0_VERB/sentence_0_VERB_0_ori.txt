@@ -1,0 +1,3 @@
+Abgase werden das Klima schädigen. 
+ 
+<speak>Abgase werden das Klima <break time="1000ms"/>schädigen<break time="1000ms"/> . </speak>

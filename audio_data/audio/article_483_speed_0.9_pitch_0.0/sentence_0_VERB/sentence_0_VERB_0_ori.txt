@@ -1,0 +1,3 @@
+Fabienne ist Ärztin und arbeitet im Krankenhaus. 
+ 
+<speak>Fabienne ist Ärztin und <break time="1000ms"/>arbeitet<break time="1000ms"/> im Krankenhaus . </speak>

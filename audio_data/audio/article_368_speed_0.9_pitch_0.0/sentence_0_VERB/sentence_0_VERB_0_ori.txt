@@ -1,0 +1,3 @@
+Die Geheimzahl sollte nicht notiert werden, vor allem nicht auf der Bankomatkarte. 
+ 
+<speak>Die Geheimzahl sollte nicht <break time="1000ms"/>notiert<break time="1000ms"/> werden , vor allem nicht auf der Bankomatkarte . </speak>

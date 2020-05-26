@@ -1,0 +1,3 @@
+In diesem Krankenhaus werden viele Patienten behandelt. 
+ 
+<speak>In diesem Krankenhaus werden viele Patienten <break time="1000ms"/>behandelt<break time="1000ms"/> . </speak>

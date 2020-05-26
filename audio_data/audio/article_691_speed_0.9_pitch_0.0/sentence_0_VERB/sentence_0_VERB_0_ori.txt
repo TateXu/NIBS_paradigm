@@ -1,0 +1,3 @@
+Während einer Trocken-Zeit regnet es sehr selten. 
+ 
+<speak>Während einer Trocken-Zeit <break time="1000ms"/>regnet<break time="1000ms"/> es sehr selten . </speak>

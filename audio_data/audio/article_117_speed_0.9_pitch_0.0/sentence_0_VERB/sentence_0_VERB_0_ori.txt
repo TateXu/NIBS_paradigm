@@ -1,0 +1,3 @@
+Das Messer ist so stumpf, dass wir nicht mehr brauchen. 
+ 
+<speak>Das Messer ist so stumpf , dass wir nicht mehr <break time="1000ms"/>brauchen<break time="1000ms"/> . </speak>

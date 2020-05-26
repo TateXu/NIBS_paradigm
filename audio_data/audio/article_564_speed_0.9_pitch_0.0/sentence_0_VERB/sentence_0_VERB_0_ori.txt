@@ -1,0 +1,3 @@
+Bananen können wir in der Obstabteilung finden. 
+ 
+<speak>Bananen können wir in der Obstabteilung <break time="1000ms"/>finden<break time="1000ms"/> . </speak>

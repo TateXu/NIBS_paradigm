@@ -1,0 +1,3 @@
+Im Sommer gehen Alice und Tom gerne in die Bäder schwimmen. 
+ 
+<speak>Im Sommer gehen Alice und Tom gerne in die Bäder <break time="1000ms"/>schwimmen<break time="1000ms"/> . </speak>

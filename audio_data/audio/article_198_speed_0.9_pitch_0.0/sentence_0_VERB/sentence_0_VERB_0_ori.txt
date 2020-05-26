@@ -1,0 +1,3 @@
+Ich konnte die Lärmquelle finden. 
+ 
+<speak>Ich konnte die Lärmquelle <break time="1000ms"/>finden<break time="1000ms"/> . </speak>

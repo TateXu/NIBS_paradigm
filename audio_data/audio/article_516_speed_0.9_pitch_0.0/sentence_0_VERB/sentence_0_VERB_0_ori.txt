@@ -1,0 +1,3 @@
+Wir bestellten ein stück Hassnuss Kuchen zum Dessert. 
+ 
+<speak>Wir <break time="1000ms"/>bestellten<break time="1000ms"/> ein stück Hassnuss Kuchen zum Dessert . </speak>

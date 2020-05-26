@@ -1,0 +1,3 @@
+Zum Geburtstag hat ihm Oma ein Buch mit vielen Bildern geschenkt. 
+ 
+<speak>Zum Geburtstag hat ihm Oma ein Buch mit vielen Bildern <break time="1000ms"/>geschenkt<break time="1000ms"/> . </speak>

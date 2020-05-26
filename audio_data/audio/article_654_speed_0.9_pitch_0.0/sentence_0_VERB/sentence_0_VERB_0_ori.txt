@@ -1,0 +1,3 @@
+Meine Mutter kocht heute Mittag nicht, wir gehen aus zum Essen. 
+ 
+<speak>Meine Mutter <break time="1000ms"/>kocht<break time="1000ms"/> heute Mittag nicht , wir gehen aus zum Essen . </speak>

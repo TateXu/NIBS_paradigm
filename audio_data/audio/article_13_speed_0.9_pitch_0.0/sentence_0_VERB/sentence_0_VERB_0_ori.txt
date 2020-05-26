@@ -1,0 +1,3 @@
+Ich habe meinen Sohn für den Kurs angemeldet. 
+ 
+<speak>Ich habe meinen Sohn für den Kurs <break time="1000ms"/>angemeldet<break time="1000ms"/> . </speak>

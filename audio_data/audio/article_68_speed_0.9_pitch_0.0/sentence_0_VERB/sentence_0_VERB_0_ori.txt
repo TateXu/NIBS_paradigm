@@ -1,0 +1,3 @@
+Er benutzt Twitter, um mit anderen zu chatten. 
+ 
+<speak>Er <break time="1000ms"/>benutzt<break time="1000ms"/> Twitter , um mit anderen zu chatten . </speak>

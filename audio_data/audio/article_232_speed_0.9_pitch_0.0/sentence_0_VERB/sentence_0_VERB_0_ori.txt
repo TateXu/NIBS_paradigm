@@ -1,0 +1,3 @@
+Nachdem er nach dem Flugzeugunglück gerettet wurde, hat er an Gott geglaubt. 
+ 
+<speak>Nachdem er nach dem Flugzeugunglück gerettet wurde , hat er an Gott <break time="1000ms"/>geglaubt<break time="1000ms"/> . </speak>

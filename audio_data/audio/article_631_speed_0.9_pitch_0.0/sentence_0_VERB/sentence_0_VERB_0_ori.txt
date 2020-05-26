@@ -1,0 +1,3 @@
+In Österreich gibt es eine richtige Kaffeehauskultur. 
+ 
+<speak>In Österreich <break time="1000ms"/>gibt<break time="1000ms"/> es eine richtige Kaffeehauskultur . </speak>

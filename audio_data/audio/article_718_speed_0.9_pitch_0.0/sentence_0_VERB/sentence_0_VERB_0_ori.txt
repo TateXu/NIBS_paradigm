@@ -1,0 +1,3 @@
+Fortschritt und Naturschutz sollten kein Gegensatz sein. 
+ 
+<speak>Fortschritt und Naturschutz sollten kein Gegensatz <break time="1000ms"/>sein<break time="1000ms"/> . </speak>

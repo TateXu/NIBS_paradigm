@@ -1,0 +1,3 @@
+Sonja nimmt ihren Tee mit Milch und Zucker. 
+ 
+<speak>Sonja <break time="1000ms"/>nimmt<break time="1000ms"/> ihren Tee mit Milch und Zucker . </speak>

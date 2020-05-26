@@ -1,0 +1,3 @@
+Das Fleisch wurde über dem offenen Feuer gegrillt. 
+ 
+<speak>Das Fleisch wurde über dem offenen Feuer <break time="1000ms"/>gegrillt<break time="1000ms"/> . </speak>

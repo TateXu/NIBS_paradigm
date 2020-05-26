@@ -1,0 +1,3 @@
+Ich ging zum Arzt, weil ich mich unangenehm fühlte. 
+ 
+<speak>Ich ging zum Arzt , weil ich mich unangenehm <break time="1000ms"/>fühlte<break time="1000ms"/> . </speak>

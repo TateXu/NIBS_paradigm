@@ -1,0 +1,3 @@
+Ich habe den Knopf gedrückt, um die Kaffeemaschine einzuschalten. 
+ 
+<speak>Ich habe den Knopf <break time="1000ms"/>gedrückt<break time="1000ms"/> , um die Kaffeemaschine einzuschalten . </speak>

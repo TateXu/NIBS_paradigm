@@ -1,0 +1,3 @@
+In Wien besuchen die Touristen am liebsten den Stephansdom und das Schloss Schönbrunn. 
+ 
+<speak>In Wien <break time="1000ms"/>besuchen<break time="1000ms"/> die Touristen am liebsten den Stephansdom und das Schloss Schönbrunn . </speak>

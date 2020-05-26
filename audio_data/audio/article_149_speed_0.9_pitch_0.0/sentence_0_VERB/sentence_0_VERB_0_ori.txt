@@ -1,0 +1,3 @@
+Ich muss den Anzug vor der Geschäftsreise in den Koffer einpacken. 
+ 
+<speak>Ich muss den Anzug vor der Geschäftsreise in den Koffer <break time="1000ms"/>einpacken<break time="1000ms"/> . </speak>

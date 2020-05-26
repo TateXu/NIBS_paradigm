@@ -1,0 +1,3 @@
+Nach einem Match hat sie keine Stimme mehr,  weil sie so laut schreit. 
+ 
+<speak>Nach einem Match hat sie keine Stimme mehr ,   weil sie so laut <break time="1000ms"/>schreit<break time="1000ms"/> . </speak>

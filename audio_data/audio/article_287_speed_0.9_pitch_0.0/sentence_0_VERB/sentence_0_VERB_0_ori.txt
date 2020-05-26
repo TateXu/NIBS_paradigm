@@ -1,0 +1,3 @@
+Ich habe dieses Fach als mein Hauptfach gewählt, weil es mich interessiert. 
+ 
+<speak>Ich habe dieses Fach als mein Hauptfach gewählt , weil es mich <break time="1000ms"/>interessiert<break time="1000ms"/> . </speak>

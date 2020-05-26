@@ -1,0 +1,3 @@
+Susi isst zum Frühstück gerne ein weiches Ei. 
+ 
+<speak>Susi <break time="1000ms"/>isst<break time="1000ms"/> zum Frühstück gerne ein weiches Ei . </speak>

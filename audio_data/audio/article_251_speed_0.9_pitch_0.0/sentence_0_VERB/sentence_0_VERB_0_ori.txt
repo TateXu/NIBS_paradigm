@@ -1,0 +1,3 @@
+Der Baum hängt voller Früchte. 
+ 
+<speak>Der Baum <break time="1000ms"/>hängt<break time="1000ms"/> voller Früchte . </speak>

@@ -1,0 +1,3 @@
+Ist es für den Vermieter möglich, den Mieter nach der Rechtslage zu kündigen? 
+ 
+<speak>Ist es für den Vermieter möglich , den Mieter nach der Rechtslage zu <break time="1000ms"/>kündigen<break time="1000ms"/> ? </speak>

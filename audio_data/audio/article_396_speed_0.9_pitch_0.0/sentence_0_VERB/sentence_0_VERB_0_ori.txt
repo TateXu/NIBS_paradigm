@@ -1,0 +1,3 @@
+Meine Fenster sind schmutzig, ich muss sie putzen. 
+ 
+<speak>Meine Fenster sind schmutzig , ich muss sie <break time="1000ms"/>putzen<break time="1000ms"/> . </speak>

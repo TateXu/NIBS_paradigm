@@ -1,0 +1,3 @@
+Hier gibt es viele Tiere, die auf verschiedenen Kontinenten leben. 
+ 
+<speak>Hier gibt es viele Tiere , die auf verschiedenen Kontinenten <break time="1000ms"/>leben<break time="1000ms"/> . </speak>

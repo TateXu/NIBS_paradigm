@@ -1,0 +1,3 @@
+Herr Becker hat den Zug nach Deutschland genommen. 
+ 
+<speak>Herr Becker hat den Zug nach Deutschland <break time="1000ms"/>genommen<break time="1000ms"/> . </speak>

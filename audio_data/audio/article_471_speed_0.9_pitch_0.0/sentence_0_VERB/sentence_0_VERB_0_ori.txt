@@ -1,0 +1,3 @@
+Wir schneiden den Apfel in zwei Hälften.  
+ 
+<speak>Wir <break time="1000ms"/>schneiden<break time="1000ms"/> den Apfel in zwei Hälften . </speak>

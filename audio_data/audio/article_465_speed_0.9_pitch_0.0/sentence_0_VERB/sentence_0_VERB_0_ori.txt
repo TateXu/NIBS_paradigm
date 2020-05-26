@@ -1,0 +1,3 @@
+Es ist zu windig, können Sie bitte das Fenster schließen. 
+ 
+<speak>Es ist zu windig , können Sie bitte das Fenster <break time="1000ms"/>schließen<break time="1000ms"/> . </speak>

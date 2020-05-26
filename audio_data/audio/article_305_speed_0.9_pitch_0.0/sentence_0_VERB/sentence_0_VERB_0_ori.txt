@@ -1,0 +1,3 @@
+Wenn Sie mit dem Vertrag nicht zufrieden sind, können Sie ihn vor seinem Ablauf kündigen. 
+ 
+<speak>Wenn Sie mit dem Vertrag nicht zufrieden sind , können Sie ihn vor seinem Ablauf <break time="1000ms"/>kündigen<break time="1000ms"/> . </speak>

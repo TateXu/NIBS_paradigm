@@ -1,0 +1,3 @@
+Die Reparatur wird um ein hundert Euro kosten. 
+ 
+<speak>Die Reparatur wird um ein hundert Euro <break time="1000ms"/>kosten<break time="1000ms"/> . </speak>

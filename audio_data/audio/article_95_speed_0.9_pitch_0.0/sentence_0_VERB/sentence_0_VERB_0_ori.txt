@@ -1,0 +1,3 @@
+Der Verletzte braucht dringend einen Arzt zu besuchen. 
+ 
+<speak>Der Verletzte braucht dringend einen Arzt zu <break time="1000ms"/>besuchen<break time="1000ms"/> . </speak>

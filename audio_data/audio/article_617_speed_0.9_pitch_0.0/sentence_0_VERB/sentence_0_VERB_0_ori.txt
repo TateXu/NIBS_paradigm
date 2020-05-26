@@ -1,0 +1,3 @@
+Auf einer CD sind der Musik oder gesprochener Text gespeichert. 
+ 
+<speak>Auf einer CD sind der Musik oder gesprochener Text <break time="1000ms"/>gespeichert<break time="1000ms"/> . </speak>

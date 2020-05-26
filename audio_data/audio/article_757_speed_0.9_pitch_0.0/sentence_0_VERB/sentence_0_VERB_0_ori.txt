@@ -1,0 +1,3 @@
+Sam verkauft in diesem Geschäft Herren- und Damenschuhe. 
+ 
+<speak>Sam <break time="1000ms"/>verkauft<break time="1000ms"/> in diesem Geschäft Herren- und Damenschuhe . </speak>

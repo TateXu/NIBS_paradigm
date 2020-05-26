@@ -1,0 +1,3 @@
+Der Zahnarzt untersuchte meine Zunge genau. 
+ 
+<speak>Der Zahnarzt <break time="1000ms"/>untersuchte<break time="1000ms"/> meine Zunge genau . </speak>

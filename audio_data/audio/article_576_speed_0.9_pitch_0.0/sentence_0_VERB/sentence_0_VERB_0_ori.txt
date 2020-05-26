@@ -1,0 +1,3 @@
+Mama hat einen Kuchen gebacken. 
+ 
+<speak>Mama hat einen Kuchen <break time="1000ms"/>gebacken<break time="1000ms"/> . </speak>

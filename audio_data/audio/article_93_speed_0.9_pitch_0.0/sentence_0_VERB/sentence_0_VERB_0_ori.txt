@@ -1,0 +1,3 @@
+Wir haben einige sehr schöne Orte besucht. 
+ 
+<speak>Wir haben einige sehr schöne Orte <break time="1000ms"/>besucht<break time="1000ms"/> . </speak>

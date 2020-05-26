@@ -1,0 +1,3 @@
+Oma hat Probleme mit den Zähnen, aber sie fürchtet sich vorm Zahnarzt. 
+ 
+<speak>Oma hat Probleme mit den Zähnen , aber sie <break time="1000ms"/>fürchtet<break time="1000ms"/> sich vorm Zahnarzt . </speak>

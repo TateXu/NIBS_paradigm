@@ -1,0 +1,3 @@
+Er ist ein Experte für Computer und kennt alle technischen Details. 
+ 
+<speak>Er ist ein Experte für Computer und <break time="1000ms"/>kennt<break time="1000ms"/> alle technischen Details . </speak>

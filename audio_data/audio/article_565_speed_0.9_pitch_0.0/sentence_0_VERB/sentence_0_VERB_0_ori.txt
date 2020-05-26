@@ -1,0 +1,3 @@
+Die Meere sollte man nicht so leer fischen. 
+ 
+<speak>Die Meere sollte man nicht so leer <break time="1000ms"/>fischen<break time="1000ms"/> . </speak>

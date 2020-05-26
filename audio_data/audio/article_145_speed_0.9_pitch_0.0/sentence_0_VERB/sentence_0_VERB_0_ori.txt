@@ -1,0 +1,3 @@
+Ich habe alle meine Freunde zu meiner Geburtstags Party eingeladen. 
+ 
+<speak>Ich habe alle meine Freunde zu meiner Geburtstags Party <break time="1000ms"/>eingeladen<break time="1000ms"/> . </speak>

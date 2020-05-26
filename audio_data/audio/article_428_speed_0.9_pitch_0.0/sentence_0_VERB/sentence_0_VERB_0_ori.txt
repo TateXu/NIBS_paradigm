@@ -1,0 +1,3 @@
+Ihre Kleider riechen nach Rauch. 
+ 
+<speak>Ihre Kleider <break time="1000ms"/>riechen<break time="1000ms"/> nach Rauch . </speak>

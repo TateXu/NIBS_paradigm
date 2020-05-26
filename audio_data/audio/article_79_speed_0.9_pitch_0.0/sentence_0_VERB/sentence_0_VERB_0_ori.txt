@@ -1,0 +1,3 @@
+Ich habe mich schon oft über den schrecklichen Service beschwert. 
+ 
+<speak>Ich habe mich schon oft über den schrecklichen Service <break time="1000ms"/>beschwert<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Korn wird zur Herstellung von Mehl verwendet. 
+ 
+<speak>Korn wird zur Herstellung von Mehl <break time="1000ms"/>verwendet<break time="1000ms"/> . </speak>

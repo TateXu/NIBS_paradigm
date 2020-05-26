@@ -1,0 +1,3 @@
+Er verwendet einen Bleistift auf der Wand zu malen. 
+ 
+<speak>Er verwendet einen Bleistift auf der Wand zu <break time="1000ms"/>malen<break time="1000ms"/> . </speak>

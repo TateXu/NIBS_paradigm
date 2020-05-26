@@ -1,0 +1,3 @@
+Im botanischen Garten kann mann wir exotische Pflanzen sehen. 
+ 
+<speak>Im botanischen Garten kann mann wir exotische Pflanzen <break time="1000ms"/>sehen<break time="1000ms"/> . </speak>

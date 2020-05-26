@@ -1,0 +1,3 @@
+Der moderne Mensch ist ursprünglich aus Afrika gekommen. 
+ 
+<speak>Der moderne Mensch ist ursprünglich aus Afrika <break time="1000ms"/>gekommen<break time="1000ms"/> . </speak>

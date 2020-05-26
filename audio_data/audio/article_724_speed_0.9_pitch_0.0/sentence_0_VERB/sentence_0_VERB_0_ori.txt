@@ -1,0 +1,3 @@
+Am Strand spielt ständig laute Musik. 
+ 
+<speak>Am Strand <break time="1000ms"/>spielt<break time="1000ms"/> ständig laute Musik . </speak>

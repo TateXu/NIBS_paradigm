@@ -1,0 +1,3 @@
+Der Arzt sagt, mein Knie ist in Ordnung, aber meine Beine scheinen gebrochen zu sein. 
+ 
+<speak>Der Arzt sagt , mein Knie ist in Ordnung , aber meine Beine <break time="1000ms"/>scheinen<break time="1000ms"/> gebrochen zu sein . </speak>

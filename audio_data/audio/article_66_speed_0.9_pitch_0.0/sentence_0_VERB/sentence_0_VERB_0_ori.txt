@@ -1,0 +1,3 @@
+Es ist nicht zulässig, bei der Prüfung Hilfsmittel zu benutzen. 
+ 
+<speak>Es ist nicht zulässig , bei der Prüfung Hilfsmittel zu <break time="1000ms"/>benutzen<break time="1000ms"/> . </speak>

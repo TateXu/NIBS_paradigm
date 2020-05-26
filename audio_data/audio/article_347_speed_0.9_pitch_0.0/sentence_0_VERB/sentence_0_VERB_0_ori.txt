@@ -1,0 +1,3 @@
+Salz und Pfeffer machten das Steak genießbar. 
+ 
+<speak>Salz und Pfeffer <break time="1000ms"/>machten<break time="1000ms"/> das Steak genießbar . </speak>

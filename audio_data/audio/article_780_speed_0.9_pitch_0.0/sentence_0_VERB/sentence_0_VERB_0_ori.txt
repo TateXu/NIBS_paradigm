@@ -1,0 +1,3 @@
+Du muss deine schmutzige Kleidung in der Wäscherei waschen. 
+ 
+<speak>Du muss deine schmutzige Kleidung in der Wäscherei <break time="1000ms"/>waschen<break time="1000ms"/> . </speak>

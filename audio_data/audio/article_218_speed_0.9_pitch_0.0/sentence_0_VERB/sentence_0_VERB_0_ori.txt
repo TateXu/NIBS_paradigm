@@ -1,0 +1,3 @@
+Er ist zu schwach, um eine Firma zu führen. 
+ 
+<speak>Er ist zu schwach , um eine Firma zu <break time="1000ms"/>führen<break time="1000ms"/> . </speak>

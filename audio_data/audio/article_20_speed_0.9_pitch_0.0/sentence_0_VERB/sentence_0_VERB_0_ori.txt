@@ -1,0 +1,3 @@
+Er konnte auf alle Fragen des Quiz antworten. 
+ 
+<speak>Er konnte auf alle Fragen des Quiz <break time="1000ms"/>antworten<break time="1000ms"/> . </speak>

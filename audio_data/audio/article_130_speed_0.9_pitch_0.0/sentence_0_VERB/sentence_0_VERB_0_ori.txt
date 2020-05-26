@@ -1,0 +1,3 @@
+Wir haben auf der Konferenz einige grundlegende Fragen zum Klimaschutz diskutiert. 
+ 
+<speak>Wir haben auf der Konferenz einige grundlegende Fragen zum Klimaschutz <break time="1000ms"/>diskutiert<break time="1000ms"/> . </speak>

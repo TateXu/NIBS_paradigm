@@ -1,0 +1,3 @@
+Als ein vertrauenswürdiger Mann hält Sam immer sein Versprechen. 
+ 
+<speak>Als ein vertrauenswürdiger Mann <break time="1000ms"/>hält<break time="1000ms"/> Sam immer sein Versprechen . </speak>

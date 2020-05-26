@@ -1,0 +1,3 @@
+Wir freuen uns von Herzen über seine ausgezeichnete Leistung. 
+ 
+<speak>Wir <break time="1000ms"/>freuen<break time="1000ms"/> uns von Herzen über seine ausgezeichnete Leistung . </speak>

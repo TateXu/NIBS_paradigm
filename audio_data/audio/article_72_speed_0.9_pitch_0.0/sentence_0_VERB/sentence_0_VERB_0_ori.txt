@@ -1,0 +1,3 @@
+Im Kongress wird über Probleme der Klima beraten. 
+ 
+<speak>Im Kongress wird über Probleme der Klima <break time="1000ms"/>beraten<break time="1000ms"/> . </speak>

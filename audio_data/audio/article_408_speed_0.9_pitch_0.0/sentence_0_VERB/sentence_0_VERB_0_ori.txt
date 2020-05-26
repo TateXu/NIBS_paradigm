@@ -1,0 +1,3 @@
+Er wird seinem Traum folgen, egal was die Leute reden. 
+ 
+<speak>Er wird seinem Traum folgen , egal was die Leute <break time="1000ms"/>reden<break time="1000ms"/> . </speak>

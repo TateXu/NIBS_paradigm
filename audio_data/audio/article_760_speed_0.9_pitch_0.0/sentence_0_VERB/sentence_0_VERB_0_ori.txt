@@ -1,0 +1,3 @@
+Entweder hat mir jemand die Geldtasche gestohlen oder ich habe sie verloren. 
+ 
+<speak>Entweder hat mir jemand die Geldtasche gestohlen oder ich habe sie <break time="1000ms"/>verloren<break time="1000ms"/> . </speak>

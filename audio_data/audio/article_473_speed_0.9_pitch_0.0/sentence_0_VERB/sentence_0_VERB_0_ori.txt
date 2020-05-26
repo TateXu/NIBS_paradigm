@@ -1,0 +1,3 @@
+An der nächsten Kreuzung müssen Sie rechts abbiegen. 
+ 
+<speak>An der nächsten Kreuzung müssen Sie rechts <break time="1000ms"/>abbiegen<break time="1000ms"/> . </speak>

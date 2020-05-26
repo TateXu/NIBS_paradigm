@@ -1,0 +1,3 @@
+Die Armbanduhr ist aus rostfreiem Stahl gefertigt und wird nicht rosten. 
+ 
+<speak>Die Armbanduhr ist aus rostfreiem Stahl gefertigt und wird nicht <break time="1000ms"/>rosten<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Das Handbuch liefert eine Beschreibung des Geräts. 
+ 
+<speak>Das Handbuch <break time="1000ms"/>liefert<break time="1000ms"/> eine Beschreibung des Geräts . </speak>

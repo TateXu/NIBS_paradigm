@@ -1,0 +1,3 @@
+Es besteht eine starke Verbindung zwischen Musik und Kunst. 
+ 
+<speak>Es <break time="1000ms"/>besteht<break time="1000ms"/> eine starke Verbindung zwischen Musik und Kunst . </speak>

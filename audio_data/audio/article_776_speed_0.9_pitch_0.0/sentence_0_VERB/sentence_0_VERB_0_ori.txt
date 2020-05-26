@@ -1,0 +1,3 @@
+Ich warte seit drei Tagen auf Sie, wo waren Sie denn? 
+ 
+<speak>Ich <break time="1000ms"/>warte<break time="1000ms"/> seit drei Tagen auf Sie , wo waren Sie denn ? </speak>

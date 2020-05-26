@@ -1,0 +1,3 @@
+Das sind Wörter, die vor allem junge Leute benutzen. 
+ 
+<speak>Das sind Wörter , die vor allem junge Leute <break time="1000ms"/>benutzen<break time="1000ms"/> . </speak>

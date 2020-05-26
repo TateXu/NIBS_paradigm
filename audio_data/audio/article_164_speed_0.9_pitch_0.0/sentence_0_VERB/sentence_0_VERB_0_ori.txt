@@ -1,0 +1,3 @@
+Als das Spiel unentschieden endete, wurde es um zweimal 15 Minuten verlängert. 
+ 
+<speak>Als das Spiel unentschieden <break time="1000ms"/>endete<break time="1000ms"/> , wurde es um zweimal 15 Minuten verlängert . </speak>

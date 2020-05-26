@@ -1,0 +1,3 @@
+Manche Politiker wollen den Frieden auf Erden sichern. 
+ 
+<speak>Manche Politiker wollen den Frieden auf Erden <break time="1000ms"/>sichern<break time="1000ms"/> . </speak>

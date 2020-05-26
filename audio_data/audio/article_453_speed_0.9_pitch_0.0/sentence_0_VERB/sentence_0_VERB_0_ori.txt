@@ -1,0 +1,3 @@
+Der Mond scheint hell. 
+ 
+<speak>Der Mond <break time="1000ms"/>scheint<break time="1000ms"/> hell . </speak>

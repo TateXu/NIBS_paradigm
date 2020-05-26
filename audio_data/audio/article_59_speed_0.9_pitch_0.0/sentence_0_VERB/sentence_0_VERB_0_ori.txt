@@ -1,0 +1,3 @@
+Das Eingreifen des Lehrers beendete den Kampf  der Schüler. 
+ 
+<speak>Das Eingreifen des Lehrers <break time="1000ms"/>beendete<break time="1000ms"/> den Kampf   der Schüler . </speak>

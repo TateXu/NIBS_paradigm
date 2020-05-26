@@ -1,0 +1,3 @@
+Das Bild kann mir die Uhrzeitangabe verstehen helfen. 
+ 
+<speak>Das Bild kann mir die Uhrzeitangabe verstehen <break time="1000ms"/>helfen<break time="1000ms"/> . </speak>

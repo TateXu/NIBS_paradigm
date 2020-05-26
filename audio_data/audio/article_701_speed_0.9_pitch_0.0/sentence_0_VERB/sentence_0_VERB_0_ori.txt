@@ -1,0 +1,3 @@
+Wie schmeckt Iris die Melone, die ich im Geschäft gekauft habe? 
+ 
+<speak>Wie <break time="1000ms"/>schmeckt<break time="1000ms"/> Iris die Melone , die ich im Geschäft gekauft habe ? </speak>

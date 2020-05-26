@@ -1,0 +1,3 @@
+Es macht Spaß, mit Freunden philosophische Fragen zu diskutieren. 
+ 
+<speak>Es macht Spaß , mit Freunden philosophische Fragen zu <break time="1000ms"/>diskutieren<break time="1000ms"/> . </speak>

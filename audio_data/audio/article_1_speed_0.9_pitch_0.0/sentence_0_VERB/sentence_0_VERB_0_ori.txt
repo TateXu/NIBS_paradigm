@@ -1,0 +1,3 @@
+Der Amazon Kurier hat das Paket geliefert. 
+ 
+<speak>Der Amazon Kurier hat das Paket <break time="1000ms"/>geliefert<break time="1000ms"/> . </speak>

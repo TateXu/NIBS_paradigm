@@ -1,0 +1,3 @@
+Sie hat Jogurt, Milch, Banana, Brot etc. im Supermarkt eingekauft. 
+ 
+<speak>Sie hat Jogurt , Milch , Banana , Brot etc. im Supermarkt <break time="1000ms"/>eingekauft<break time="1000ms"/> . </speak>

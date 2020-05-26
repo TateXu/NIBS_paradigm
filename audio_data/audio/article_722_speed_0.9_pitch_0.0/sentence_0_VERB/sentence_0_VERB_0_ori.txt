@@ -1,0 +1,3 @@
+Peter sitzt den ganzen Tag am Computer. 
+ 
+<speak>Peter <break time="1000ms"/>sitzt<break time="1000ms"/> den ganzen Tag am Computer . </speak>

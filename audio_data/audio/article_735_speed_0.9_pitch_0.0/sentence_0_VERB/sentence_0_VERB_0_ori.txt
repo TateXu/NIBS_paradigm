@@ -1,0 +1,3 @@
+Willi möchte gerne an der Universität Informatik studieren. 
+ 
+<speak>Willi möchte gerne an der Universität Informatik <break time="1000ms"/>studieren<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Der Mörder wollte die Gründe für seine Tat nicht nennen. 
+ 
+<speak>Der Mörder wollte die Gründe für seine Tat nicht <break time="1000ms"/>nennen<break time="1000ms"/> . </speak>

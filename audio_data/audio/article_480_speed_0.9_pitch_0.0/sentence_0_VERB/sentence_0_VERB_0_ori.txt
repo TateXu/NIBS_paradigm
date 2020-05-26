@@ -1,0 +1,3 @@
+Wollen wir morgen zu Hause bleiben oder uns einen Film im Kino ansehen? 
+ 
+<speak>Wollen wir morgen zu Hause bleiben oder uns einen Film im Kino <break time="1000ms"/>ansehen<break time="1000ms"/> ? </speak>

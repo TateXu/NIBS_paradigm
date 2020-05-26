@@ -1,0 +1,3 @@
+Da hier nur sehr wenige Parkplätze sind, nur Anwohner dürfen in dieser Straße parken. 
+ 
+<speak>Da hier nur sehr wenige Parkplätze sind , nur Anwohner dürfen in dieser Straße <break time="1000ms"/>parken<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Einige NGOs schützen die Rechte der Menschen. 
+ 
+<speak>Einige NGOs <break time="1000ms"/>schützen<break time="1000ms"/> die Rechte der Menschen . </speak>

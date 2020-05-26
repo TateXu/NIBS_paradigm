@@ -1,0 +1,3 @@
+Habt ihr eine Ahnung, wie der Unfall passiert ist? 
+ 
+<speak>Habt ihr eine Ahnung , wie der Unfall <break time="1000ms"/>passiert<break time="1000ms"/> ist ? </speak>

@@ -1,0 +1,3 @@
+Während der Weihnachtszeit gibt es unter dem Weihnachtsbaum Geschenke für die Kinder. 
+ 
+<speak>Während der Weihnachtszeit <break time="1000ms"/>gibt<break time="1000ms"/> es unter dem Weihnachtsbaum Geschenke für die Kinder . </speak>

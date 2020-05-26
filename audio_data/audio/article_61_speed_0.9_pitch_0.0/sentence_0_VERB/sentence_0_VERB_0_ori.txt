@@ -1,0 +1,3 @@
+Da ich gestern Abend übergewichtig war, werde ich morgen eine neue Diät beginnen. 
+ 
+<speak>Da ich gestern Abend übergewichtig war , werde ich morgen eine neue Diät <break time="1000ms"/>beginnen<break time="1000ms"/> . </speak>

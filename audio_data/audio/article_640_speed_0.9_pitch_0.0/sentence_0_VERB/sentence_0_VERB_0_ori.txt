@@ -1,0 +1,3 @@
+Die Taxifahrer sollten während Mitternacht nicht hupen. 
+ 
+<speak>Die Taxifahrer sollten während Mitternacht nicht <break time="1000ms"/>hupen<break time="1000ms"/> . </speak>

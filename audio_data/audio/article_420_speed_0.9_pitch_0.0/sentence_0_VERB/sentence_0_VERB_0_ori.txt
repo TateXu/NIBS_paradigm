@@ -1,0 +1,3 @@
+Der Aufzug ist repariert, jetzt funktioniert er wieder. 
+ 
+<speak>Der Aufzug ist <break time="1000ms"/>repariert<break time="1000ms"/> , jetzt funktioniert er wieder . </speak>

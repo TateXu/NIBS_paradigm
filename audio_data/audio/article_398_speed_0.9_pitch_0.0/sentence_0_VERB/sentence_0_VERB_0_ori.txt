@@ -1,0 +1,3 @@
+Ich habe meine Lederschuhe mit einem Lappen geputzt. 
+ 
+<speak>Ich habe meine Lederschuhe mit einem Lappen <break time="1000ms"/>geputzt<break time="1000ms"/> . </speak>

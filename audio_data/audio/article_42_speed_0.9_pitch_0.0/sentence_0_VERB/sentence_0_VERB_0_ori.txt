@@ -1,0 +1,3 @@
+Ich kann endlich den Namen dieser französischen Stadt aussprechen. 
+ 
+<speak>Ich kann endlich den Namen dieser französischen Stadt <break time="1000ms"/>aussprechen<break time="1000ms"/> . </speak>

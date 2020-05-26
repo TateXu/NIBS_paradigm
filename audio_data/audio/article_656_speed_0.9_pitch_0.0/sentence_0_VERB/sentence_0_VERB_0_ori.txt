@@ -1,0 +1,3 @@
+Jeder Topf kommt mit seinen Deckel beim Einkaufen. 
+ 
+<speak>Jeder Topf <break time="1000ms"/>kommt<break time="1000ms"/> mit seinen Deckel beim Einkaufen . </speak>

@@ -1,0 +1,3 @@
+Nachdem mein erster Versuch gescheitert war, probierte ich es noch einmal. 
+ 
+<speak>Nachdem mein erster Versuch gescheitert war , <break time="1000ms"/>probierte<break time="1000ms"/> ich es noch einmal . </speak>

@@ -1,0 +1,3 @@
+An seinem Mantel fehlt ein Knopf. 
+ 
+<speak>An seinem Mantel <break time="1000ms"/>fehlt<break time="1000ms"/> ein Knopf . </speak>

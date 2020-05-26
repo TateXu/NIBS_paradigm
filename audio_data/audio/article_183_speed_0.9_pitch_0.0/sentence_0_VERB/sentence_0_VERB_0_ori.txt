@@ -1,0 +1,3 @@
+Meine Geschichte ist wahr, ich habe keine Lügen erzählt. 
+ 
+<speak>Meine Geschichte ist wahr , ich habe keine Lügen <break time="1000ms"/>erzählt<break time="1000ms"/> . </speak>

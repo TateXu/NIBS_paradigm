@@ -1,0 +1,3 @@
+Sie müssen mehr bezahlen, es fehlen noch ein paar Cent. 
+ 
+<speak>Sie müssen mehr bezahlen , es <break time="1000ms"/>fehlen<break time="1000ms"/> noch ein paar Cent . </speak>

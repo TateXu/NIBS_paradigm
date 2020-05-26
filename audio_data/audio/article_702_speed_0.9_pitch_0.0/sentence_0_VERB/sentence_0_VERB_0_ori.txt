@@ -1,0 +1,3 @@
+Wenn das Klima immer wärmer wird, werden auch die Gletscher schmelzen. 
+ 
+<speak>Wenn das Klima immer wärmer wird , werden auch die Gletscher <break time="1000ms"/>schmelzen<break time="1000ms"/> . </speak>

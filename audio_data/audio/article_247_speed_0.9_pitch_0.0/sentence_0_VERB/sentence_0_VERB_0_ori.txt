@@ -1,0 +1,3 @@
+Er hängte seine Jacke über die Lehne des Stuhls. 
+ 
+<speak>Er <break time="1000ms"/>hängte<break time="1000ms"/> seine Jacke über die Lehne des Stuhls . </speak>

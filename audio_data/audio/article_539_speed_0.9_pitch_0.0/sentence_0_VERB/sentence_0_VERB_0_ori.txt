@@ -1,0 +1,3 @@
+Der Unterricht dauert meistens bis um dreizehn Uhr. 
+ 
+<speak>Der Unterricht <break time="1000ms"/>dauert<break time="1000ms"/> meistens bis um dreizehn Uhr . </speak>

@@ -1,0 +1,3 @@
+Da er sehr reich ist, hat der Club ihn als Mitglied aufgenommen.  
+ 
+<speak>Da er sehr reich ist , hat der Club ihn als Mitglied <break time="1000ms"/>aufgenommen<break time="1000ms"/> . </speak>

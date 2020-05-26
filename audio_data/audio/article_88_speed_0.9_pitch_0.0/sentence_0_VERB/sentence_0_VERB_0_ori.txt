@@ -1,0 +1,3 @@
+Das juristische Staatsexamen in Deutschland ist schwer zu bestehen. 
+ 
+<speak>Das juristische Staatsexamen in Deutschland ist schwer zu <break time="1000ms"/>bestehen<break time="1000ms"/> . </speak>

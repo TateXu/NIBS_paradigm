@@ -1,0 +1,3 @@
+Ich komme, soweit es meine Zeit erlaubt. 
+ 
+<speak>Ich komme , soweit es meine Zeit <break time="1000ms"/>erlaubt<break time="1000ms"/> . </speak>

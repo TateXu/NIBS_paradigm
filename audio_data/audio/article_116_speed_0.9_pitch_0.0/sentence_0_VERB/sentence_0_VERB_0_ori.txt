@@ -1,0 +1,3 @@
+Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium. 
+ 
+<speak>Ausländische Studenten , die wenig Geld haben , <break time="1000ms"/>brauchen<break time="1000ms"/> ein Stipendium . </speak>

@@ -1,0 +1,3 @@
+Der Zug fährt gleich ab, wir müssen uns beeilen. 
+ 
+<speak>Der Zug fährt gleich ab , wir müssen uns <break time="1000ms"/>beeilen<break time="1000ms"/> . </speak>

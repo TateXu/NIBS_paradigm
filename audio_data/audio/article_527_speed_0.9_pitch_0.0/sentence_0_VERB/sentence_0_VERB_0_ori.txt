@@ -1,0 +1,3 @@
+Bitte bilden Sie einfache Sätze. 
+ 
+<speak>Bitte <break time="1000ms"/>bilden<break time="1000ms"/> Sie einfache Sätze . </speak>

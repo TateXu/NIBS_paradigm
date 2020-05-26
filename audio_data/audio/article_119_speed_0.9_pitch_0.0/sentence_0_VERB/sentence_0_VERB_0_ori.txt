@@ -1,0 +1,3 @@
+Dieser Bus bringt dich zum Strand. 
+ 
+<speak>Dieser Bus <break time="1000ms"/>bringt<break time="1000ms"/> dich zum Strand . </speak>

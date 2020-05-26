@@ -1,0 +1,3 @@
+Die Ergebnisse werden auf einer Skala von eins bis zehn angezeigt. 
+ 
+<speak>Die Ergebnisse werden auf einer Skala von eins bis zehn <break time="1000ms"/>angezeigt<break time="1000ms"/> . </speak>

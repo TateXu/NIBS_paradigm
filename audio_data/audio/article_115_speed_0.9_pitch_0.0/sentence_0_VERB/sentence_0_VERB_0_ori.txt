@@ -1,0 +1,3 @@
+Im Sommer brauchen wir ein Moskitonetz, damit wir nicht gestochen werden. 
+ 
+<speak>Im Sommer <break time="1000ms"/>brauchen<break time="1000ms"/> wir ein Moskitonetz , damit wir nicht gestochen werden . </speak>

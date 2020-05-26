@@ -1,0 +1,3 @@
+Keine Sorge, ich werde mich um Ihr Kind kümmern. 
+ 
+<speak>Keine Sorge , ich werde mich um Ihr Kind <break time="1000ms"/>kümmern<break time="1000ms"/> . </speak>

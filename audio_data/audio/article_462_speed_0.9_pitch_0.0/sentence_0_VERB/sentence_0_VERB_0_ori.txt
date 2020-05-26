@@ -1,0 +1,3 @@
+Ich geht auf das Postamt, um ein Paket meinem Freund zu schicken. 
+ 
+<speak>Ich geht auf das Postamt , um ein Paket meinem Freund zu <break time="1000ms"/>schicken<break time="1000ms"/> . </speak>

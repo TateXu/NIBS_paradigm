@@ -1,0 +1,3 @@
+Er merkte sofort, dass wir versuchten, ihn zu belügen. 
+ 
+<speak>Er <break time="1000ms"/>merkte<break time="1000ms"/> sofort , dass wir versuchten , ihn zu belügen . </speak>

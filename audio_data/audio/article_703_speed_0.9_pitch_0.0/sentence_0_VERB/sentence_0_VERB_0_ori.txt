@@ -1,0 +1,3 @@
+Morgen werde ich eine Schularbeit schreiben. 
+ 
+<speak>Morgen werde ich eine Schularbeit <break time="1000ms"/>schreiben<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Ein Gewitter besteht aus Blitz und Donner. 
+ 
+<speak>Ein Gewitter <break time="1000ms"/>besteht<break time="1000ms"/> aus Blitz und Donner . </speak>

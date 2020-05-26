@@ -1,0 +1,3 @@
+Sie hat den Newsletter abonniert, um weitere Informationen zu erhalten. 
+ 
+<speak>Sie hat den Newsletter <break time="1000ms"/>abonniert<break time="1000ms"/> , um weitere Informationen zu erhalten . </speak>

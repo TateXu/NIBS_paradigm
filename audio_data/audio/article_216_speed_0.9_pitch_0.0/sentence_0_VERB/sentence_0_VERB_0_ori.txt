@@ -1,0 +1,3 @@
+Sie fühlt sich während der Quarantäne sehr langweilig. 
+ 
+<speak>Sie <break time="1000ms"/>fühlt<break time="1000ms"/> sich während der Quarantäne sehr langweilig . </speak>

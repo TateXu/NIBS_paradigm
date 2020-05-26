@@ -1,0 +1,3 @@
+Mein Zimmer ist zu unordentlich, also muss ich es aufräumen. 
+ 
+<speak>Mein Zimmer ist zu unordentlich , also muss ich es <break time="1000ms"/>aufräumen<break time="1000ms"/> . </speak>

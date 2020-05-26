@@ -1,0 +1,3 @@
+Das Herz kann Blut durch den Körper pumpen. 
+ 
+<speak>Das Herz kann Blut durch den Körper <break time="1000ms"/>pumpen<break time="1000ms"/> . </speak>

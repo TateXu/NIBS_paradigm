@@ -1,0 +1,3 @@
+Ein rotes Signal bedeutet, dass ich warten muss. 
+ 
+<speak>Ein rotes Signal <break time="1000ms"/>bedeutet<break time="1000ms"/> , dass ich warten muss . </speak>

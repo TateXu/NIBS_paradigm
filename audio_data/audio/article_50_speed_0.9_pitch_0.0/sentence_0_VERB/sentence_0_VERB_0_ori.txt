@@ -1,0 +1,3 @@
+Sie beantwortete meine E-Mail schnell. 
+ 
+<speak>Sie <break time="1000ms"/>beantwortete<break time="1000ms"/> meine E-Mail schnell . </speak>

@@ -1,0 +1,3 @@
+Wir haben während des Urlaubs ein gemütliches Zimmer in Meeresnähe gemietet. 
+ 
+<speak>Wir haben während des Urlaubs ein gemütliches Zimmer in Meeresnähe <break time="1000ms"/>gemietet<break time="1000ms"/> . </speak>

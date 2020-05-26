@@ -1,0 +1,3 @@
+Am Geburtstag hat mein Vater mir einen Geschenk geschenkt. 
+ 
+<speak>Am Geburtstag hat mein Vater mir einen Geschenk <break time="1000ms"/>geschenkt<break time="1000ms"/> . </speak>

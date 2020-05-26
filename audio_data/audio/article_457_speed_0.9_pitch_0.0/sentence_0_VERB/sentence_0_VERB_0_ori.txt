@@ -1,0 +1,3 @@
+Mein Freund schenkt mir eine Schachtel mit Schokolade. 
+ 
+<speak>Mein Freund <break time="1000ms"/>schenkt<break time="1000ms"/> mir eine Schachtel mit Schokolade . </speak>

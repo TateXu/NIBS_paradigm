@@ -1,0 +1,3 @@
+Bald wird in den USA ein neuer Präsident gewählt. 
+ 
+<speak>Bald wird in den USA ein neuer Präsident <break time="1000ms"/>gewählt<break time="1000ms"/> . </speak>

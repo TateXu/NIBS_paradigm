@@ -1,0 +1,3 @@
+Der Fluss fließt an der Grenze entlang. 
+ 
+<speak>Der Fluss <break time="1000ms"/>fließt<break time="1000ms"/> an der Grenze entlang . </speak>

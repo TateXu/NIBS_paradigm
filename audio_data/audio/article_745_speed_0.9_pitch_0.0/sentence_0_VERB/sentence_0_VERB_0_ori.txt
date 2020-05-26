@@ -1,0 +1,3 @@
+Linda trinkt lieber eine heiße Schokolade. 
+ 
+<speak>Linda <break time="1000ms"/>trinkt<break time="1000ms"/> lieber eine heiße Schokolade . </speak>

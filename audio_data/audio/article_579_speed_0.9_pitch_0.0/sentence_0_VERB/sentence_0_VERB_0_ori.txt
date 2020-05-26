@@ -1,0 +1,3 @@
+Das Fleisch wird klein geschnitten, und dann in der Pfanne gebraten. 
+ 
+<speak>Das Fleisch wird klein geschnitten , und dann in der Pfanne <break time="1000ms"/>gebraten<break time="1000ms"/> . </speak>

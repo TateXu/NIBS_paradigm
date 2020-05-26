@@ -1,0 +1,3 @@
+Die Tulpen stammen eigentlich aus Persien und der Türkei. 
+ 
+<speak>Die Tulpen <break time="1000ms"/>stammen<break time="1000ms"/> eigentlich aus Persien und der Türkei . </speak>

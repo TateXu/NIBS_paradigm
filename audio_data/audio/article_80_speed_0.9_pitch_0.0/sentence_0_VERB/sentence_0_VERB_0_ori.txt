@@ -1,0 +1,3 @@
+Sie besichtigten das Haus, bevor sie es kauften. 
+ 
+<speak>Sie <break time="1000ms"/>besichtigten<break time="1000ms"/> das Haus , bevor sie es kauften . </speak>

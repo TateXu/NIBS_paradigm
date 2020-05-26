@@ -1,0 +1,3 @@
+Alle diese Probleme scheinen in dieselbe große Frage zu münden. 
+ 
+<speak>Alle diese Probleme <break time="1000ms"/>scheinen<break time="1000ms"/> in dieselbe große Frage zu münden . </speak>

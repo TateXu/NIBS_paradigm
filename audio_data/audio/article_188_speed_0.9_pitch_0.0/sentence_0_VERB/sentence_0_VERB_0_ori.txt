@@ -1,0 +1,3 @@
+Er kann fast so gut Fahrrad fahren wie sein älterer Bruder. 
+ 
+<speak>Er kann fast so gut Fahrrad <break time="1000ms"/>fahren<break time="1000ms"/> wie sein älterer Bruder . </speak>

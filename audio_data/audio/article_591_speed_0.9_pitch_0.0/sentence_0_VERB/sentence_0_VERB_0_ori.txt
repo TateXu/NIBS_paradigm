@@ -1,0 +1,3 @@
+Im Kaffeehaus sitzen und Zeitung lesen, das gefällt den Österreichern. 
+ 
+<speak>Im Kaffeehaus sitzen und Zeitung lesen , das <break time="1000ms"/>gefällt<break time="1000ms"/> den Österreichern . </speak>

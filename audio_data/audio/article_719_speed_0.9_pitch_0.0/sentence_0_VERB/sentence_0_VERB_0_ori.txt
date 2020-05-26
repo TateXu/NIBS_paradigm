@@ -1,0 +1,3 @@
+In der Pause werden kleine Brötchen serviert. 
+ 
+<speak>In der Pause werden kleine Brötchen <break time="1000ms"/>serviert<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Diese Telefinnummer ist leicht zu merken. 
+ 
+<speak>Diese Telefinnummer ist leicht zu <break time="1000ms"/>merken<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Leo ist schon zur Arbeit gegangen. 
+ 
+<speak>Leo ist schon zur Arbeit <break time="1000ms"/>gegangen<break time="1000ms"/> . </speak>

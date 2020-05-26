@@ -1,0 +1,3 @@
+Bitte schließ die Tür! 
+ 
+<speak>Bitte <break time="1000ms"/>schließ<break time="1000ms"/> die Tür ! </speak>

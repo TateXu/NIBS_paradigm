@@ -1,0 +1,3 @@
+Bitte nimm meinen Mantel mit in die Garderobe. 
+ 
+<speak>Bitte <break time="1000ms"/>nimm<break time="1000ms"/> meinen Mantel mit in die Garderobe . </speak>

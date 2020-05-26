@@ -1,0 +1,3 @@
+Die Verkäuferin beantwortete meine Fragen und konnte mich beraten. 
+ 
+<speak>Die Verkäuferin beantwortete meine Fragen und konnte mich <break time="1000ms"/>beraten<break time="1000ms"/> . </speak>

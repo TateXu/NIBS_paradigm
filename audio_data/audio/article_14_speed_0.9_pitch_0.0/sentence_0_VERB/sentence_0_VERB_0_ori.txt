@@ -1,0 +1,3 @@
+Ich habe mich bei einem Kurs angemeldet, um Deutsch zu lernen. 
+ 
+<speak>Ich habe mich bei einem Kurs <break time="1000ms"/>angemeldet<break time="1000ms"/> , um Deutsch zu lernen . </speak>

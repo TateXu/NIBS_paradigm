@@ -1,0 +1,3 @@
+Die Näherin hat ein Kleid für den Abschlussball genäht. 
+ 
+<speak>Die Näherin hat ein Kleid für den Abschlussball <break time="1000ms"/>genäht<break time="1000ms"/> . </speak>

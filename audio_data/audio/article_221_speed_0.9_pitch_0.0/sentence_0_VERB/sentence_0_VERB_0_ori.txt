@@ -1,0 +1,3 @@
+Mein Sohn wurde letztes Jahr geboren. 
+ 
+<speak>Mein Sohn wurde letztes Jahr <break time="1000ms"/>geboren<break time="1000ms"/> . </speak>

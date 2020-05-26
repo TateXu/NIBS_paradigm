@@ -1,0 +1,3 @@
+Da Mark gestern sehr spät aufgestanden ist, wird er heute nicht früh aufstehen. 
+ 
+<speak>Da Mark gestern sehr spät aufgestanden ist , wird er heute nicht früh <break time="1000ms"/>aufstehen<break time="1000ms"/> . </speak>

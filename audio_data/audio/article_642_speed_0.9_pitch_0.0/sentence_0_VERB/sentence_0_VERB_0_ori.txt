@@ -1,0 +1,3 @@
+Kannst du bitte die Wäsche in die Sonne hängen? 
+ 
+<speak>Kannst du bitte die Wäsche in die Sonne <break time="1000ms"/>hängen<break time="1000ms"/> ? </speak>

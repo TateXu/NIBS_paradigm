@@ -1,0 +1,3 @@
+Bei der Ausreise wird der Pass kontrolliert. 
+ 
+<speak>Bei der Ausreise wird der Pass <break time="1000ms"/>kontrolliert<break time="1000ms"/> . </speak>

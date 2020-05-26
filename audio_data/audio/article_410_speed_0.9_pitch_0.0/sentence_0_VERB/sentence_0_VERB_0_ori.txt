@@ -1,0 +1,3 @@
+Sie redete leise und unverständlich. 
+ 
+<speak>Sie <break time="1000ms"/>redete<break time="1000ms"/> leise und unverständlich . </speak>

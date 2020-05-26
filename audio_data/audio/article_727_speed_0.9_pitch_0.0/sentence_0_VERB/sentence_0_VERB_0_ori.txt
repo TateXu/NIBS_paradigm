@@ -1,0 +1,3 @@
+In Monaten ohne Regen trocknet die Erde so aus, dass sie ganz staubig wird. 
+ 
+<speak>In Monaten ohne Regen trocknet die Erde so aus , dass sie ganz <break time="1000ms"/>staubig<break time="1000ms"/> wird . </speak>

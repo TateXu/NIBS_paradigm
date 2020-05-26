@@ -1,0 +1,3 @@
+Der Klima Schutz soll verhindern, dass es auf der Erde immer wärmer wird. 
+ 
+<speak>Der Klima Schutz soll <break time="1000ms"/>verhindern<break time="1000ms"/> , dass es auf der Erde immer wärmer wird . </speak>

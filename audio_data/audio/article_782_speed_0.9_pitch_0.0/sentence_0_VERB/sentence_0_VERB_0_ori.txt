@@ -1,0 +1,3 @@
+Früh übt sich, wer ein Meister werden will. 
+ 
+<speak>Früh übt sich , wer ein Meister <break time="1000ms"/>werden<break time="1000ms"/> will . </speak>

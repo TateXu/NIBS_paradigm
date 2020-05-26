@@ -1,0 +1,3 @@
+In Europa gibt es vier Jahrezeiten, am Zentralafrika nur eine. 
+ 
+<speak>In Europa <break time="1000ms"/>gibt<break time="1000ms"/> es vier Jahrezeiten , am Zentralafrika nur eine . </speak>

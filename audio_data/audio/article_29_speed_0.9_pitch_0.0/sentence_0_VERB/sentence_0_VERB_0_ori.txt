@@ -1,0 +1,3 @@
+Wenn Sie nicht aufpassen, könnten Sie sich die Finger verletzen. 
+ 
+<speak>Wenn Sie nicht <break time="1000ms"/>aufpassen<break time="1000ms"/> , könnten Sie sich die Finger verletzen . </speak>

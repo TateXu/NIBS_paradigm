@@ -1,0 +1,3 @@
+Hiermit wird bestätigt, dass Frau Müller das Praktikum bei uns absolviert hat. 
+ 
+<speak>Hiermit wird <break time="1000ms"/>bestätigt<break time="1000ms"/> , dass Frau Müller das Praktikum bei uns absolviert hat . </speak>

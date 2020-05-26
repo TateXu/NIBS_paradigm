@@ -1,0 +1,3 @@
+Im Nil schwimmen heilige Krokodile. 
+ 
+<speak>Im Nil <break time="1000ms"/>schwimmen<break time="1000ms"/> heilige Krokodile . </speak>

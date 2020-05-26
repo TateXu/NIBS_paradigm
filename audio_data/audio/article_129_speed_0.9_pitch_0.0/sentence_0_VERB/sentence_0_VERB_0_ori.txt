@@ -1,0 +1,3 @@
+Ich denke immer an meine Kindheit zurück. 
+ 
+<speak>Ich <break time="1000ms"/>denke<break time="1000ms"/> immer an meine Kindheit zurück . </speak>

@@ -1,0 +1,3 @@
+Du kannst alle Lehrmaterialien von moodle herunterladen. 
+ 
+<speak>Du kannst alle Lehrmaterialien von moodle <break time="1000ms"/>herunterladen<break time="1000ms"/> . </speak>

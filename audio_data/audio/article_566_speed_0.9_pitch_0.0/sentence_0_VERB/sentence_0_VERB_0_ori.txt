@@ -1,0 +1,3 @@
+Tomas fischt im Fluss und wird Fisch zum Abendessen essen. 
+ 
+<speak>Tomas <break time="1000ms"/>fischt<break time="1000ms"/> im Fluss und wird Fisch zum Abendessen essen . </speak>

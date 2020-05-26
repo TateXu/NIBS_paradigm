@@ -1,0 +1,3 @@
+Wenn ich im Unterricht aufpasse, werde ich den Test sicher bestehen. 
+ 
+<speak>Wenn ich im Unterricht <break time="1000ms"/>aufpasse<break time="1000ms"/> , werde ich den Test sicher bestehen . </speak>

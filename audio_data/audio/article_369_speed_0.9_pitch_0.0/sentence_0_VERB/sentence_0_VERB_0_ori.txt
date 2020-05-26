@@ -1,0 +1,3 @@
+Ich habe seine Telefonnummer auf einem Zettel notiert. 
+ 
+<speak>Ich habe seine Telefonnummer auf einem Zettel <break time="1000ms"/>notiert<break time="1000ms"/> . </speak>

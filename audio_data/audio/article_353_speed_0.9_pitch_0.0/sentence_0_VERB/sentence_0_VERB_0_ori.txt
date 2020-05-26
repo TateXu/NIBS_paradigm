@@ -1,0 +1,3 @@
+Sie hat schon eine ganze Reihe Bilder gemalt. 
+ 
+<speak>Sie hat schon eine ganze Reihe Bilder <break time="1000ms"/>gemalt<break time="1000ms"/> . </speak>

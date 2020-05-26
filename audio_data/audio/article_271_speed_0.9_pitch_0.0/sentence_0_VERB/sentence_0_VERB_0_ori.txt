@@ -1,0 +1,3 @@
+Ich hoffe, dass ich und meine Tante gute Freunde für immer bleiben können. 
+ 
+<speak>Ich <break time="1000ms"/>hoffe<break time="1000ms"/> , dass ich und meine Tante gute Freunde für immer bleiben können . </speak>

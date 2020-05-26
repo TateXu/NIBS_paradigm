@@ -1,0 +1,3 @@
+Um den Bus noch zu erwischen, musste ich heute Morgen sehr schnell laufen. 
+ 
+<speak>Um den Bus noch zu erwischen , musste ich heute Morgen sehr schnell <break time="1000ms"/>laufen<break time="1000ms"/> . </speak>

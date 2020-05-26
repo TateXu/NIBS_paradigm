@@ -1,0 +1,3 @@
+Die Kinder haben sich wegen eines Spielzeugs gequält und gestritten. 
+ 
+<speak>Die Kinder haben sich wegen eines Spielzeugs gequält und <break time="1000ms"/>gestritten<break time="1000ms"/> . </speak>

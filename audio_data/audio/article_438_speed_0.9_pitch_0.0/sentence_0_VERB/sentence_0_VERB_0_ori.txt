@@ -1,0 +1,3 @@
+Das Geheimnis darfst du niemand sagen. 
+ 
+<speak>Das Geheimnis darfst du niemand <break time="1000ms"/>sagen<break time="1000ms"/> . </speak>

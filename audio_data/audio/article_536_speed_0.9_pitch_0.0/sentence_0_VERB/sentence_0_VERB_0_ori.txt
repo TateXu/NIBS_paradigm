@@ -1,0 +1,3 @@
+Denk nicht so viel darüber nach, das wird nichts bringen. 
+ 
+<speak>Denk nicht so viel darüber nach , das wird nichts <break time="1000ms"/>bringen<break time="1000ms"/> . </speak>

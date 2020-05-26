@@ -1,0 +1,3 @@
+Sie schulden mir noch Geld von gestern. 
+ 
+<speak>Sie <break time="1000ms"/>schulden<break time="1000ms"/> mir noch Geld von gestern . </speak>

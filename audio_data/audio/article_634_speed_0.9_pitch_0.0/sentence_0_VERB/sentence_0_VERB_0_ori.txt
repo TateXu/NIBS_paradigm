@@ -1,0 +1,3 @@
+Ich heiße Tibor, wie ist dein Name? 
+ 
+<speak>Ich <break time="1000ms"/>heiße<break time="1000ms"/> Tibor , wie ist dein Name ? </speak>

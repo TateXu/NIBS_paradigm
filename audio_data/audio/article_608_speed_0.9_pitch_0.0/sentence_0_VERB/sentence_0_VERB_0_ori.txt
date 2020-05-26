@@ -1,0 +1,3 @@
+Eric ist ein guter Fahrer, obwohl er gerade erst seinen Führerschein gemacht hat. 
+ 
+<speak>Eric ist ein guter Fahrer , obwohl er gerade erst seinen Führerschein <break time="1000ms"/>gemacht<break time="1000ms"/> hat . </speak>

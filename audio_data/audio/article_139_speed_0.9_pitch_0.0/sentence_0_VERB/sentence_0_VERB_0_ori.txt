@@ -1,0 +1,3 @@
+Alex duscht morgens gerne im Badezimmer. 
+ 
+<speak>Alex <break time="1000ms"/>duscht<break time="1000ms"/> morgens gerne im Badezimmer . </speak>

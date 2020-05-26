@@ -1,0 +1,3 @@
+Er legte das Buch auf den Tisch. 
+ 
+<speak>Er <break time="1000ms"/>legte<break time="1000ms"/> das Buch auf den Tisch . </speak>

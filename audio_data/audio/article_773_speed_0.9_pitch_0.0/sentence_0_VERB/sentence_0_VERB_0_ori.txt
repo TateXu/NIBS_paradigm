@@ -1,0 +1,3 @@
+Dank genügend Sonnenschein und Wasser können im Amazonaswald riesige Bäume wachsen. 
+ 
+<speak>Dank genügend Sonnenschein und Wasser können im Amazonaswald riesige Bäume <break time="1000ms"/>wachsen<break time="1000ms"/> . </speak>

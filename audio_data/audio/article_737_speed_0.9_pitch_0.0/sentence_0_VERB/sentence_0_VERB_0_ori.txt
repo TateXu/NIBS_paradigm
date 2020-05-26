@@ -1,0 +1,3 @@
+In Wien tanzt man gerne Walzer. 
+ 
+<speak>In Wien <break time="1000ms"/>tanzt<break time="1000ms"/> man gerne Walzer . </speak>

@@ -1,0 +1,3 @@
+Trotz meines Verbots hat er sein Auto vor meinem Haus geparkt. 
+ 
+<speak>Trotz meines Verbots hat er sein Auto vor meinem Haus <break time="1000ms"/>geparkt<break time="1000ms"/> . </speak>

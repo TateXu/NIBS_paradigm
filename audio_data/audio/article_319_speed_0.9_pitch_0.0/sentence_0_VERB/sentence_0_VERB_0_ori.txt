@@ -1,0 +1,3 @@
+Wir sollen großen Wert auf die Sparsamkeit beim Wasser legen. 
+ 
+<speak>Wir sollen großen Wert auf die Sparsamkeit beim Wasser <break time="1000ms"/>legen<break time="1000ms"/> . </speak>

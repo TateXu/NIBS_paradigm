@@ -1,0 +1,3 @@
+Der Bau des Gebäudes hat 3 Jahre gedauert und ist endlich fast abgeschlossen. 
+ 
+<speak>Der Bau des Gebäudes hat 3 Jahre gedauert und ist endlich fast <break time="1000ms"/>abgeschlossen<break time="1000ms"/> . </speak>

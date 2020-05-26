@@ -1,0 +1,3 @@
+Der Mond umkreist die Erde in ungefähr achtundzwanzig Tagen. 
+ 
+<speak>Der Mond <break time="1000ms"/>umkreist<break time="1000ms"/> die Erde in ungefähr achtundzwanzig Tagen . </speak>

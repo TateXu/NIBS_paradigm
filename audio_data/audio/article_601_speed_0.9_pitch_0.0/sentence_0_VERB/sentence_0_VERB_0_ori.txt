@@ -1,0 +1,3 @@
+Biologie gehört zu den Natur-Wissenschaften. 
+ 
+<speak>Biologie <break time="1000ms"/>gehört<break time="1000ms"/> zu den Natur-Wissenschaften . </speak>

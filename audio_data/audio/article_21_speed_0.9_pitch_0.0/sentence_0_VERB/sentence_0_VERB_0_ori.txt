@@ -1,0 +1,3 @@
+Er antwortete schnell auf meine Frage. 
+ 
+<speak>Er <break time="1000ms"/>antwortete<break time="1000ms"/> schnell auf meine Frage . </speak>

@@ -1,0 +1,3 @@
+Zu Beginn der Konferenz wird der Präsident eine Rede halten. 
+ 
+<speak>Zu Beginn der Konferenz wird der Präsident eine Rede <break time="1000ms"/>halten<break time="1000ms"/> . </speak>

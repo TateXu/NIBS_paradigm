@@ -1,0 +1,3 @@
+Das laute Auto meines Nachbarn stört mich jeden Tag. 
+ 
+<speak>Das laute Auto meines Nachbarn <break time="1000ms"/>stört<break time="1000ms"/> mich jeden Tag . </speak>

@@ -1,0 +1,3 @@
+Schauen Sie nach draußen, der Schnee fällt. 
+ 
+<speak>Schauen Sie nach draußen , der Schnee <break time="1000ms"/>fällt<break time="1000ms"/> . </speak>

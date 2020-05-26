@@ -1,0 +1,3 @@
+Die Suppe wird nicht so heiß gegessen, wie sie gekocht wird. 
+ 
+<speak>Die Suppe wird nicht so heiß <break time="1000ms"/>gegessen<break time="1000ms"/> , wie sie gekocht wird . </speak>

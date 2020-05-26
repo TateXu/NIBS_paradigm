@@ -1,0 +1,3 @@
+Doris ist leider zu spät gekommen, die Apotheke hat heute schon geschlossen. 
+ 
+<speak>Doris ist leider zu spät gekommen , die Apotheke hat heute schon <break time="1000ms"/>geschlossen<break time="1000ms"/> . </speak>

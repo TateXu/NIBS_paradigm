@@ -1,0 +1,3 @@
+Die Ärztin hat Andrea ein Rezept ausgestellt. 
+ 
+<speak>Die Ärztin hat Andrea ein Rezept <break time="1000ms"/>ausgestellt<break time="1000ms"/> . </speak>

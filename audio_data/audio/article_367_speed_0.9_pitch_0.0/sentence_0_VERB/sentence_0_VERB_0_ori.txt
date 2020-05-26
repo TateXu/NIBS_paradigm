@@ -1,0 +1,3 @@
+Im Unterricht habe ich das Wichtige notiert, was der Lehrer gesagt. 
+ 
+<speak>Im Unterricht habe ich das Wichtige <break time="1000ms"/>notiert<break time="1000ms"/> , was der Lehrer gesagt . </speak>

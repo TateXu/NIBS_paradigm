@@ -1,0 +1,3 @@
+Die Touristen besichtigten alle Sehenswürdigkeiten der Stadt. 
+ 
+<speak>Die Touristen <break time="1000ms"/>besichtigten<break time="1000ms"/> alle Sehenswürdigkeiten der Stadt . </speak>

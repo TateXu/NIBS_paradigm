@@ -1,0 +1,3 @@
+Du darfst diese Bücher aufeinander liegen. 
+ 
+<speak>Du darfst diese Bücher aufeinander <break time="1000ms"/>liegen<break time="1000ms"/> . </speak>

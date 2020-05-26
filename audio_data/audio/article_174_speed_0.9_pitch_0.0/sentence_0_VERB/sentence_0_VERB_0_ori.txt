@@ -1,0 +1,3 @@
+Dem Patienten geht es viel besser, so dass der Arzt ihm das Rauchen erlaubte. 
+ 
+<speak>Dem Patienten geht es viel besser , so dass der Arzt ihm das Rauchen <break time="1000ms"/>erlaubte<break time="1000ms"/> . </speak>

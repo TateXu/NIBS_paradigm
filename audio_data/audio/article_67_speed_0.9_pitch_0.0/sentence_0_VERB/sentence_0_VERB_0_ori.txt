@@ -1,0 +1,3 @@
+Sie benutzt die Arbeit als Vorwand. 
+ 
+<speak>Sie <break time="1000ms"/>benutzt<break time="1000ms"/> die Arbeit als Vorwand . </speak>

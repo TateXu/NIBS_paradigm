@@ -1,0 +1,3 @@
+Ich habe gerade meine Bewerbung bei der Universität eingereicht.  
+ 
+<speak>Ich habe gerade meine Bewerbung bei der Universität <break time="1000ms"/>eingereicht<break time="1000ms"/> . </speak>

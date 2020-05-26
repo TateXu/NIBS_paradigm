@@ -1,0 +1,3 @@
+Wenn man seine Zähne putzt, muss er die Zahnpasta auf Zahnbürste pressen. 
+ 
+<speak>Wenn man seine Zähne <break time="1000ms"/>putzt<break time="1000ms"/> , muss er die Zahnpasta auf Zahnbürste pressen . </speak>

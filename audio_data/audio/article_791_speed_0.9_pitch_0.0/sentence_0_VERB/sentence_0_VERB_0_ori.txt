@@ -1,0 +1,3 @@
+Die Uhr kann den zwölf Stunden Rhythmus zeigen. 
+ 
+<speak>Die Uhr kann den zwölf Stunden Rhythmus <break time="1000ms"/>zeigen<break time="1000ms"/> . </speak>

@@ -1,0 +1,3 @@
+Meine Oma hat mir Frühstück gekocht. 
+ 
+<speak>Meine Oma hat mir Frühstück <break time="1000ms"/>gekocht<break time="1000ms"/> . </speak>

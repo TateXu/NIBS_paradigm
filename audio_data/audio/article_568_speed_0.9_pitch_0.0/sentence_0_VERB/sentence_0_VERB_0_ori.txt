@@ -1,0 +1,3 @@
+Toni fliegt mit dem Flugzeug nach. 
+ 
+<speak>Toni <break time="1000ms"/>fliegt<break time="1000ms"/> mit dem Flugzeug nach . </speak>
