@@ -156,7 +156,7 @@ QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 # 30s version: 0, 2, 14, 1, 8, 1, 2
 # 25s version: 0, 2, 12, 1, 6, 1, 1
-QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 14, 1, 8, 1, 2
+QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 12, 1, 6, 1, 1
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
 QA_rec_start = QA_a_beep_s_start + QA_a_beep_s_dur + comp_gap
@@ -169,6 +169,7 @@ if flexible_qa_rec_start and external_question_flag:
     QA_text_dur = QA_trial_dur
     QA_break_start = QA_text_dur - QA_break_dur
     QA_a_beep_e_start = QA_break_start - QA_a_beep_e_dur - comp_gap
+    # beep_s_start is defined differently depending on sentence length.
 
 
 trigger_sending(event_dict['Main'], default_sleep=True)  # trigger 254 represents main experiment
@@ -1254,8 +1255,9 @@ for thisRun in run:
                 ques_start = QA_rec['time']['question'][0]
                 if external_question_flag:
                     question_cnt += 1
-                    QA_rec['question'].setSound(question_path[question_cnt], secs=14.4, hamming=True)
-                    QA_rec['time']['question'][1] = sen_duration[question_cnt] - 0.016
+
+                    QA_rec['question'].setSound(question_path[question_cnt], secs=sen_duration[question_cnt] - 0.016, hamming=True)
+                    QA_rec['time']['question'][1] = sen_duration[question_cnt]  - 0.016  # 1 frame.
                     QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], censor_question_duration[question_cnt]]
                     QA_rec['question'].sen_text = sen_text[question_cnt]
                     QA_rec['question'].cen_text = cen_text[question_cnt]
