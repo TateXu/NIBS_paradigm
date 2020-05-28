@@ -75,7 +75,10 @@ event_dict = {'ESC': 1,
               'QA_rec': [48, 49],
               'QA_cen_word': [50, 51],
               'Pause': [60, 61],
-              'Break': [62, 63]}
+              'Break': [62, 63],
+              'Arti_intro': [70, 71],
+              'Arti_trial': [72, 73],
+              'Arti_action': [74, 75]}
 
 instruction_pos = [0.5, 0.1]
 instruction_annot_pos = [0.5, -0.4]
@@ -91,6 +94,7 @@ n_run = 4
 n_block = 2
 n_trial = 2  #20- 10 mins
 n_cali_trial = 2  #10
+n_arti_trial = 11
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
@@ -116,6 +120,9 @@ init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 external_question_flag = 1
 cali_question_cnt = -1
 qa_question_cnt = -1
+artifact_action_cnt = -1
+
+
 word_type = 'VERB'
 
 fade_in_out_show = False
@@ -124,6 +131,20 @@ flexible_qa_rec_start = True
 
 comp_gap = 0.4
 instruction_cont_start, instruction_cont_dur = 15, None  # Audio 14s
+
+
+artifact_intro_start, artifact_intro_dur, artifact_intro_cont_dur = 0, 30, None  # Audio 29s
+artifact_intro_cont_start = artifact_intro_start + artifact_intro_dur + comp_gap
+
+artifact_total_time = 20.0
+artifact_hint_start, artifact_hint_dur, artifact_action_dur, artifact_a_beep_s_dur, artifact_rec_dur, artifact_a_beep_e_dur, artifact_break_dur = 0, 2, 3, 1, 10, 1, 1
+artifact_action_start = artifact_hint_start + artifact_hint_dur + comp_gap
+artifact_a_beep_s_start = artifact_action_start + artifact_action_dur + comp_gap
+artifact_rec_start = artifact_a_beep_s_start + artifact_a_beep_s_dur + comp_gap
+artifact_a_beep_e_start = artifact_rec_start + artifact_rec_dur + comp_gap
+artifact_break_start = artifact_a_beep_e_start + artifact_a_beep_e_dur + comp_gap
+artifact_text_dur = artifact_break_start + artifact_break_dur
+
 
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None  # Audio 29s
 cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
@@ -187,6 +208,8 @@ if init_flag:
     font_size = (0.06 if not expInfo['Full_screen'] else 0.15)
 
     Instruction_flag = expInfo['Instruction']
+    Artifact_intro_flag = expInfo['Artifact']
+    Artifact_rec_flag = expInfo['Artifact']
     Cali_de_pre_intro_flag = expInfo['Cali_pre']
     Cali_de_pre_rec_flag = expInfo['Cali_pre']
     fade_in_flag = expInfo['Fade_in_out']
@@ -218,6 +241,8 @@ if init_flag:
         pre_load_cali_df = pd.read_pickle(
             './cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
         _, _, _, _, _, cali_sen_text, _ = extract_qa(input_all_df=pre_load_cali_df)
+
+        action_path_list=[]# loc of audio files
 
 
 
@@ -253,6 +278,44 @@ if init_flag:
                            'cont':[instruction_cont_start, instruction_cont_dur]}
 
 
+    # Initialize components for Routine "Artifact_intro"
+    Artifact_intro_text_str = '  - Task: Artifacts collection   \n' + \
+        '  - Please follow audio instruction              \n'
+
+    Artifact_intro_comp_list = [
+        textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
+        textstim_generator(win=win, name='text', content=Artifact_intro_text_str, pos=text_pos),
+        audio_generator(name='audio', loc=audio_root+'artifact/intro.wav', secs=-1),
+        key_resp_generator(name='key_resp'),
+        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        ]
+    Artifact_intro = routine_init('Artifact_intro', Artifact_intro_comp_list)
+    Artifact_intro['time'] = {'title':[artifact_intro_start, artifact_intro_dur],
+                              'text':[artifact_intro_start, artifact_intro_dur],
+                              'audio':[artifact_intro_start, artifact_intro_dur],
+                              'key_resp':[artifact_intro_cont_start, artifact_intro_cont_dur],
+                              'cont':[artifact_intro_cont_start, artifact_intro_cont_dur]}
+
+    # Initialize components for Routine "Artifact_rec"
+    Artifact_rec_text_str = ''  # Please read out following sentence.
+    Artifact_rec_comp_list = [
+        textstim_generator(win=win, name='text', content=Artifact_rec_text_str, pos=title_pos),
+        audio_generator(name='beep_hint', loc=audio_root+'artifact/reminder.wav', secs=0.6),
+        audio_generator(name='action', loc=audio_root+'artifact/action.wav', secs=0.6),
+        audio_generator(name='beep_start', loc=audio_root+'artifact/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
+        textstim_generator(win=win, name='recording', content='', pos=instruction_annot_pos),
+        audio_generator(name='beep_end', loc=audio_root+'artifact/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
+        textstim_generator(win=win, name='break', content='Short break', pos=instruction_annot_pos)
+        ] 
+
+    Artifact_rec = routine_init('Artifact_rec', Artifact_rec_comp_list)
+    Artifact_rec['time'] = {'text':[0, artifact_text_dur],
+                            'beep_hint':[artifact_hint_start, artifact_hint_dur],
+                            'action':[artifact_action_start, artifact_action_dur],
+                            'beep_start':[artifact_a_beep_s_start, artifact_a_beep_s_dur],
+                            'recording':[artifact_rec_start, artifact_rec_dur],
+                            'beep_end':[artifact_a_beep_e_start, artifact_a_beep_e_dur],
+                            'break':[artifact_break_start, artifact_break_dur]}
 
     # Initialize components for Routine "Cali_de_pre_intro
     Cali_de_pre_intro_text_str = '  - Task: Read out the displayed German sentence   \n' + \
@@ -524,6 +587,188 @@ if Instruction_flag:
     breakpoint_logger(comp='Instruction', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
 
+
+
+
+# ---------------------------------------------------
+# ---------------- Artifact_intro -------------------
+# ---------------------------------------------------
+
+if Artifact_intro_flag:
+    print('Log: artifact_intro start')
+    breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
+    # ------Prepare to start Routine "Cali_de_pre_intro"-------
+    # update component parameters for each repeat
+    Artifact_intro['key_resp'].keys = []
+    Artifact_intro['key_resp'].rt = []
+    Artifact_intro['audio'].setSound(audio_root+'artifact/intro.wav',secs=-1, hamming=True)
+
+    # keep track of which components have finished
+    win, Artifact_intro, Artifact_introComponents, t, frameN, continueRoutine = pre_run_comp(win, Artifact_intro)
+    trigger_mat = np.zeros((len(Artifact_introComponents) - 1, 2))
+    comp_list = np.asarray([*Artifact_intro['time'].keys()])
+
+    # -------Run Routine "Artifact_intro"-------
+    
+    trigger_sending(event_dict['Artifact_intro'][0], default_sleep=True) # Sending trigger 70 (Artifact_intro Start)
+    while continueRoutine:
+        # get current time
+        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+            Artifact_intro["clock"], win, frameN)
+        # update/draw components on each frame
+        
+        # *Artifact_intro["title"]* updates
+        win, Artifact_intro['title'], trigger_mat[0] = run_comp(
+            win, Artifact_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Artifact_intro['time']['title'][0], duration=Artifact_intro['time']['title'][1])
+        # *Artifact_intro["title"]* updates
+        win, Artifact_intro['text'], trigger_mat[1] = run_comp(
+            win, Artifact_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Artifact_intro['time']['text'][0], duration=Artifact_intro['time']['text'][1])
+        # *Artifact_intro["audio"]* updates
+        win, Artifact_intro['audio'], trigger_mat[2] = run_comp(
+            win, Artifact_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Artifact_intro['time']['audio'][0], duration=Artifact_intro['time']['audio'][1])
+
+        # *Artifact_intro['key_resp']* updates
+        waitOnFlip=False
+        win, Artifact_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
+            win, Artifact_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Artifact_intro['time']['key_resp'][0], duration=Artifact_intro['time']['key_resp'][1],
+            waitOnFlip=waitOnFlip)   
+        # *Artifact_intro['cont']* updates
+        win, Artifact_intro['cont'], trigger_mat[4] = run_comp(
+            win, Artifact_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            start_time=Artifact_intro['time']['cont'][0], duration=Artifact_intro['time']['cont'][1],
+            repeat_per_frame=True, repeat_content=continue_str)
+        
+        win, continueRoutine, break_flag = continue_justification(
+            win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_pre_introComponents)
+        if trigger_mat.sum(axis=0)[0]:
+            pass # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
+        if break_flag:
+            break
+
+    # -------Ending Routine "Artifact_intro"-------
+    for thisComponent in Cali_de_pre_introComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+
+    thisExp = data_writer(thisExp, Artifact_intro, 'Artifact_intro', ['title', 'text', 'audio', 'cont'])
+
+    trigger_sending(event_dict['Artifact_intro'][1], default_sleep=True) # Sending trigger 71 (Artifact_intro End)
+    print('Log: artifact_intro finish')
+    breakpoint_logger(comp='Artifact_intro', value=0, run=None, block=None, trial=None)
+    routineTimer.reset()
+
+
+
+# ---------------------------------------------------
+# ----------------- Artifact_rec --------------------
+# ---------------------------------------------------
+
+
+if Artifact_rec_flag:
+    n_arti_trial = 11
+    artifact_action_cnt = -1
+    action_path_list=[]# loc of audio files
+
+    # ---------------------------------------------------------------------------
+    # ------------------------ Start Artifact_rec Trial --------------------------
+    # ---------------------------------------------------------------------------
+    # set up handler to look after randomisation of conditions etc
+
+    artifact_trial = data.TrialHandler(nReps=n_arti_trial, method='random', 
+        extraInfo=expInfo, originPath=-1,
+        trialList=[None],
+        seed=None, name='artifact_trial')
+    thisExp.addLoop(artifact_trial)  # add the loop to the experiment
+    thisArtifact_trial = artifact_trial.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
+    if thisArtifact_trial != None:
+        for paramName in thisArtifact_trial:
+            exec('{} = thisArtifact_trial[paramName]'.format(paramName))
+
+    for thisArtifact_trial in artifact_trial:
+
+        currentLoop = artifact_trial
+        # abbreviate parameter names if possible (e.g. rgb = thisArtifact_trial.rgb)
+        if thisArtifact_trial != None:
+            for paramName in thisArtifact_trial:
+                exec('{} = thisArtifact_trial[paramName]'.format(paramName))
+
+        # ------Prepare to start Routine "Artifact_rec"-------
+        print('Log: artifact_rec start: Trial ' + str(artifact_trial.thisN))
+        breakpoint_logger(comp='Artifact_rec', value=1, run=None, block=None, trial=artifact_trial.thisN)
+        
+        artifact_action_cnt += 1
+        Artifact_rec['action'].setSound(action_path_list[artifact_action_cnt], secs=-1, hamming=True)
+
+        # keep track of which components have finished
+        win, Artifact_rec, Artifact_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Artifact_rec)
+        trigger_mat = np.zeros((len(Artifact_recComponents) - 1, 2))
+        comp_list = np.asarray([*Artifact_rec['time'].keys()])
+
+        # -------Run Routine "Artifact_rec"-------
+        trigger_sending(event_dict['Artifact_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+        routineTimer.add(artifact_total_time) 
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                Artifact_rec["clock"], win, frameN)
+            
+            # *Artifact_rec["text"]* updates
+            win, Artifact_rec['text'], trigger_mat[0] = run_comp(
+                win, Artifact_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['text'][0], duration=Artifact_rec['time']['text'][1])
+            # *Artifact_rec["beep_hint"]* updates
+            win, Artifact_rec['beep_hint'], trigger_mat[1] = run_comp(
+                win, Artifact_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['beep_hint'][0], duration=Artifact_rec['time']['beep_hint'][1])
+            # *Artifact_rec["action"]* updates
+            win, Artifact_rec['action'], trigger_mat[2] = run_comp(
+                win, Artifact_rec['action'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['action'][0], duration=Artifact_rec['time']['action'][1])
+            
+            # *Artifact_rec["beep_start"]* updates
+            win, Artifact_rec['beep_start'], trigger_mat[3] = run_comp(
+                win, Artifact_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['beep_start'][0], duration=Artifact_rec['time']['beep_start'][1])
+            # *Artifact_rec["recording"]* updates
+            win, Artifact_rec['recording'], trigger_mat[4] = run_comp(
+                win, Artifact_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['recording'][0], duration=Artifact_rec['time']['recording'][1])
+            # *Artifact_rec["beep_end"]* updates
+            win, Artifact_rec['beep_end'], trigger_mat[5] = run_comp(
+                win, Artifact_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['beep_end'][0], duration=Artifact_rec['time']['beep_end'][1])
+
+            win, Artifact_rec['break'], trigger_mat[6] = run_comp(
+                win, Artifact_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                start_time=Artifact_rec['time']['break'][0], duration=Artifact_rec['time']['break'][1])
+
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_pre_recComponents)
+
+            if trigger_mat.sum(axis=0)[0]:
+                trigger_encoding_sending('Artifact', input_event=trigger_mat)
+            if break_flag:
+                break
+        # -------Ending Routine "Artifact_rec"-------
+        for thisComponent in Cali_de_pre_recComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+
+        thisExp = data_writer(thisExp, Artifact_rec, 'Artifact_rec', ['text', 'beep_hint', 'question_text', 'beep_start', 'beep_end', 'break'])
+        thisExp.nextEntry()
+
+        trigger_sending(event_dict['Artifact_trial'][1], default_sleep=True) # Sending trigger 73 (Artifact_trial End)
+        print('Log: artifact_rec finish: Trial' + str(artifact_trial.thisN))
+        breakpoint_logger(comp='Artifact_rec', value=0, run=None, block=None, trial=artifact_trial.thisN)
+        # the Routine "Artifact_rec" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+
+
 # ---------------------------------------------------
 # -------------- Cali_de_pre_intro ------------------
 # ---------------------------------------------------
@@ -794,7 +1039,7 @@ if thisRun != None:
 for thisRun in run:
 
     if break_run != None and run.thisN < break_run:
-        qa_question_cnt += n_trial * n_block  # For rerun
+        qa_question_cnt += n_trial * n_block  # In case rerun
         continue
     break_run = None   # clear the breakpoint
 

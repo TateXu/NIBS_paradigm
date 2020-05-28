@@ -45,9 +45,10 @@ def exp_init(Name='nibs_stage_1'):
             'German level': ['A1', 'A2', 'B1', 'B2'],
             'Full_screen': False,
             'Instruction': True,
+            'Artifact': True,
             'Cali_pre': True,
-            'Resting_State': True,
             'Fade_in_out': True,
+            'Resting_State': True,
             'QA': True,
             'Pause': True,
             'Cali_post': True,
@@ -608,10 +609,20 @@ def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
     ===================================
     Pause  start/end: 0/1
     Break  start/end: 2/3 
+    
+    ==========================================  
+    |--- Artifact collection Trigger (70) ---|
+    ==========================================
+    Intro             start/end: 0/1
+    Trial             start/end: 2/3
+    Q-audio           start/end: 4/5
+    Answer            start/end: 6/7
+    Answer recording  start/end: 8/9
+    Censored word     start/end: 10/11
 
     """
 
-    task = {'Calibration': 10, 'QA': 40}
+    task = {'Calibration': 10, 'QA': 40, 'Artifact': 70}
     digit_task = task[obj_name]
     trigger_table = np.array([[None, None],
                               [None, None],
