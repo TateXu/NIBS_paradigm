@@ -639,8 +639,8 @@ def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
             trigger_sending(data, port=port)
 
 
-def extract_qa(input_all_df=None, label='practice', subject=1, session=1, word_type='VERB', n_question=3,
-    file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/', df_file='all_beep_df.pkl', overwrite=False, shuffle_flag=False):
+def extract_qa(input_all_df=None, label='practice', subject=1, session=0, word_type='VERB',
+    file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/', df_file='all_beep_df.pkl'):
     try:
         if input_all_df == None: 
             dataframe_path = file_root + df_file
@@ -648,46 +648,20 @@ def extract_qa(input_all_df=None, label='practice', subject=1, session=1, word_t
     except:
         if not input_all_df.empty:
             all_df = input_all_df
+        else:
+            raise ValueError('No such file!')
     # No repeat questions for same subject
-    # all_df['META_INFO']['tag_list'].str.len()
-    no_repeat_df = all_df[all_df['EXP_INFO']['S' + str(subject).zfill(2)].isnull()]
-    word_type_df = no_repeat_df[no_repeat_df['SENTENCE_INFO']['beep_word_type'] == word_type]
+    if word_type != 'VERB'
+        word_type_df = all_df[all_df['SENTENCE_INFO']['beep_word_type'] == word_type]
     
-    # col_name = [('SENTENCE_INFO', 'article_id'), ('SENTENCE_INFO', 'sen_id'), ('SENTENCE_INFO', 'beeped_word'), ('META_INFO', 'audio_rate'), ('META_INFO', 'pitch')]
-    col_name = [('SENTENCE_INFO', 'article_id'), ('SENTENCE_INFO', 'sen_id'), ('META_INFO', 'audio_rate'), ('META_INFO', 'pitch')]
-    unique_sen_df = word_type_df.drop_duplicates(subset=col_name, keep='first')
+    file_loc_list = all_df['PATH']['file_root_syn'].values
+    censor_start = all_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
+    censor_dur = all_df['SENTENCE_INFO']['beeped_word_duration'].values
+    sen_duration = all_df['SENTENCE_INFO']['sentence_duration'].values
+    sen_text = all_df['SENTENCE_INFO']['sen_content'].values
+    cen_text = all_df['SENTENCE_INFO']['beeped_word'].values
 
-
-    from numpy.random import default_rng
-
-    numbers = default_rng().choice(len(unique_sen_df.index), size=n_question, replace=False)
-    if shuffle_flag:
-        randomize_indices = unique_sen_df.index[numbers]
-    else:
-        randomize_indices = unique_sen_df.index[np.sort(numbers)]
-
-    extract_df = unique_sen_df.loc[randomize_indices]
-    file_loc_list = extract_df['PATH']['file_root_syn'].values
-    censor_start = extract_df['SENTENCE_INFO']['beeped_word_timestamp_start'].values
-    censor_dur = extract_df['SENTENCE_INFO']['beeped_word_duration'].values
-    sen_duration = extract_df['SENTENCE_INFO']['sentence_duration'].values
-    sen_text = extract_df['SENTENCE_INFO']['sen_content'].values
-    cen_text = extract_df['SENTENCE_INFO']['beeped_word'].values
-
-    if overwrite:
-        for ind, value in enumerate(randomize_indices):
-            all_df.at[value,('EXP_INFO','S' + str(subject).zfill(2))] = session
-            print('Following indices are going to be set as question:')
-            print(randomize_indices.values)
-            all_df.to_pickle(dataframe_path)
-    
-        extract_df_new_index = extract_df.reset_index()
-        extract_df_new_index.drop(columns='index')
-
-        extract_df_new_index.to_pickle(file_root + 'Q_Session_' + str(session) + '_' + label + '_' + str(n_question) + '.pkl')
-
-
-    return extract_df, file_loc_list, censor_start, censor_dur, sen_duration, sen_text, cen_text
+    return all_df, file_loc_list, censor_start, censor_dur, sen_duration, sen_text, cen_text
 
 
 

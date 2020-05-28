@@ -205,11 +205,12 @@ if init_flag:
     break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial'])) 
     
     if external_question_flag:
-        pre_load_df = pd.read_pickle('/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/Q_Session_' + str(int(expInfo['session'])) + '_exp_' + str(180) + '.pkl')
+        ses_df.to_pickle()
+        pre_load_df = pd.read_pickle(
+            'qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
+                str(int(expInfo['participant'])).zfill(2), str(int(expInfo['session'])) ))
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text = extract_qa(
-            input_all_df=pre_load_df,
-            subject=int(expInfo['participant']),
-            session=int(expInfo['session']), word_type=word_type, n_question=n_question, shuffle_flag=True)
+            input_all_df=pre_load_df, subject=int(expInfo['participant']), session=int(expInfo['session']))
 
     # save a log file for key info
     now = datetime.now()
