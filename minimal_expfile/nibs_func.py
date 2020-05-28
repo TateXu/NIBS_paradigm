@@ -39,8 +39,8 @@ def exp_init(Name='nibs_stage_1'):
     # Store info about the experiment session
     expName = Name  # from the Builder filename that created this script
     
-    Info = {'participant': '01',
-            'session': '01',
+    Info = {'participant': '00',
+            'session': '00',
             'First language': '',
             'German level': ['A1', 'A2', 'B1', 'B2'],
             'Full_screen': False,
@@ -651,7 +651,7 @@ def extract_qa(input_all_df=None, label='practice', word_type='VERB',
         else:
             raise ValueError('No such file!')
     # No repeat questions for same subject
-    if word_type != 'VERB'
+    if word_type != 'VERB':
         word_type_df = all_df[all_df['SENTENCE_INFO']['beep_word_type'] == word_type]
     
     file_loc_list = all_df['PATH']['file_root_syn'].values

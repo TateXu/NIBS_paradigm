@@ -94,7 +94,7 @@ n_cali_trial = 2  #10
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
-fs = 44100  # Sample rate of audio
+fs = 44100  # Sample rate of audio !!! For recording not playing!!!
 n_rec_chn = 1
 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
@@ -158,7 +158,7 @@ QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 # 30s version: 0, 2, 14, 1, 8, 1, 2
 # 25s version: 0, 2, 12, 1, 6, 1, 1
-qa_total_time = 25.0
+qa_total_time = 20.0
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 12, 1, 6, 1, 1
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
@@ -168,7 +168,7 @@ QA_break_start = QA_a_beep_e_start + QA_a_beep_e_dur + comp_gap
 QA_text_dur = QA_break_start + QA_break_dur
 
 if flexible_qa_rec_start and external_question_flag:
-    QA_trial_dur = 25.00  # 30.00
+    QA_trial_dur = qa_total_time
     QA_text_dur = QA_trial_dur
     QA_break_start = QA_text_dur - QA_break_dur
     QA_a_beep_e_start = QA_break_start - QA_a_beep_e_dur - comp_gap
@@ -209,16 +209,15 @@ if init_flag:
     
     if external_question_flag:
         pre_load_qa_df = pd.read_pickle(
-            'qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
+            './qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
                 str(int(expInfo['participant'])).zfill(2), str(int(expInfo['session'])) ))
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text = extract_qa(
-            input_all_df=pre_load_qa_df, subject=int(expInfo['participant']), session=int(expInfo['session']))
+            input_all_df=pre_load_qa_df)
 
         # extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text 
         pre_load_cali_df = pd.read_pickle(
-            'cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
-        _, _, _, _, _, cali_sen_text, _ = extract_qa(
-            input_all_df=pre_load_cali_df)
+            './cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
+        _, _, _, _, _, cali_sen_text, _ = extract_qa(input_all_df=pre_load_cali_df)
 
 
 
@@ -313,7 +312,6 @@ if init_flag:
     
 
     # Initialize components for Routine "RS_intro"
-
     RS_intro_text_str = ' - Task: Keep seated and relaxed with either      \n' + \
         '             opening or closing eyes                  \n' + \
         ' - Beep sound with decreasing pitch: Block finish \n'
@@ -400,7 +398,6 @@ if init_flag:
         '  - Melodious beep sound: Trial start              \n' + \
         '  - Beep sound with increasing pitch: Rec. start   \n' + \
         '  - Beep sound with decreasing pitch: Rec. finish  \n'
-
     Cali_de_post_intro_comp_list = [
         textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
         textstim_generator(win=win, name='text', content=Cali_de_post_intro_text_str, pos=text_pos),
@@ -436,7 +433,6 @@ if init_flag:
                                 'beep_end':[cali_a_beep_e_start, cali_a_beep_e_dur],
                                 'break':[cali_break_start, cali_break_dur]}
 
-
     # Initialize components for Routine "the_end"
     the_end_comp_list = [
         audio_generator(name='audio', loc=audio_root+'exp_finish.wav', secs=-1),
@@ -444,11 +440,6 @@ if init_flag:
         ]
     the_end = routine_init('the_end', the_end_comp_list)
     the_end['time'] = {'audio': [0, 10],  'text':[0, 10]}
-
-
-
-
-
 
     # Create some handy timers
     globalClock = core.Clock()  # to track the time since experiment started
@@ -776,6 +767,11 @@ if Cali_de_pre_rec_flag:
         # the Routine "Pause" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
 
+
+
+
+cali_question_cnt = max(9, cali_question_cnt) # In case rerun, no reuse data
+
 trigger_sending(event_dict['Pre_run'][1], default_sleep=True) # Sending trigger 3 (Pre-Run End)
 
 # -----------------------------------------------------------------------------------
@@ -798,6 +794,7 @@ if thisRun != None:
 for thisRun in run:
 
     if break_run != None and run.thisN < break_run:
+        qa_question_cnt += n_trial * n_block  # For rerun
         continue
     break_run = None   # clear the breakpoint
 
@@ -1209,6 +1206,7 @@ for thisRun in run:
     for thisQA_block in QA_block:
 
         if break_qa_block != None and QA_block.thisN < break_qa_block:
+            qa_question_cnt += n_trial
             continue
         break_qa_block = None   # clear the breakpoint
 
@@ -1238,6 +1236,7 @@ for thisRun in run:
         for thisQA_trial in QA_trial:
 
             if break_qa_trial != None and QA_trial.thisN < break_qa_trial:
+                qa_question_cnt += 1
                 continue
             if break_qa_trial != None:
                 if RS_intro_flag == 0:
@@ -1288,7 +1287,7 @@ for thisRun in run:
                 trigger_mat = np.zeros((len(QA_recComponents) - 1, 2))
                 comp_list = np.asarray([*QA_rec['time'].keys()])
                 # ------Prepare to start Routine "QA_rec"-------
-                routineTimer.add(30.000000)
+                routineTimer.add(qa_total_time)
                 trigger_sending(event_dict['QA_trial'][0], default_sleep=True) # Sending trigger 42 (QA_trial Start)
                 # -------Run Routine "QA_rec"-------
                 while continueRoutine and routineTimer.getTime() > 0:
@@ -1641,7 +1640,7 @@ if Cali_de_post_rec_flag:
         comp_list = np.asarray([*Cali_de_post_rec['time'].keys()])
 
         # -------Run Routine "Cali_de_post_rec"-------
-        routineTimer.add(30.000000)
+        routineTimer.add(cali_total_time)
         trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
