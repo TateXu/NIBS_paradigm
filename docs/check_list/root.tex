@@ -1,0 +1,143 @@
+\documentclass[journal, onecolumn, 11pt]{IEEEtran}
+
+\usepackage{lineno}
+%\usepackage{appendix}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage{multirow}
+\usetikzlibrary{shapes,arrows}
+\usepackage{subcaption}
+\usepackage{algorithm}
+\usepackage[normalem]{ulem}
+\usepackage[algo2e]{algorithm2e}
+
+%\usepackage[bookmarks=false]{hyperref}
+%\usepackage[noend]{algpseudocode}
+
+
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\Tr}[1]{\text{Tr}\left(#1\right) }
+\newcommand{\vt}[1]{\text{vec}\left(#1\right) }
+\newcommand*{\tran}{^{\mkern-1.5mu\mathsf{T}}}
+
+\newcommand{\Logm}[1]{\text{Logm}\left(#1\right) }
+\newcommand{\Expm}[1]{\text{Expm}\left(#1\right) }
+
+%\modulolinenumbers[5]
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+\colorlet{shadecolor}{blue!20}
+\newcommand{\mgw}[1]{\textcolor{orange}{#1}}
+\newcommand{\vj}[1]{\textcolor{blue}{#1}}
+\newcommand{\jxu}[2]{\textcolor{olive}{\sout{#1}} \textcolor{red}{#2}}
+
+\usepackage[style=numeric, sorting=none, giveninits=true, backend=bibtex, maxbibnames=3, url=false, isbn=false, doi=false]{biblatex}
+%style=numeric-comp ,
+\bibliography{library}
+
+\title{Checklist for personalized NIBS for L2 learning}
+
+\makeatletter
+\def\blx@maxline{77}
+\makeatother
+
+
+\nolinenumbers
+\begin{document}
+	
+	%\begin{itemize}
+	%	\item Riemannian methods suffer from poor interpretability and high computational cost
+	%	\item Spatial filters from the tangent space enable interpretable and efficient computation
+	%	\item Applying the filters are equivalent to the original formulation under mild conditions
+	%	\item Proposed pipelines meet/increase the original method's accuracy in a meta-analysis
+	%	\item We include open-source off-the-shelf code for the proposed framework
+	%\end{itemize}
+	
+	\numberwithin{equation}{section}
+	\numberwithin{figure}{section}
+	\numberwithin{table}{section}
+	
+	
+	\begin{center}
+		{ \Large  
+			\textbf{Checklist for personalized NIBS for L2 learning}
+		}
+	\end{center}
+
+\begin{itemize}
+	\item \textbf{Before arrival}
+	
+	\begin{todolist}
+		\item ($>$4h) Charge amp batteries
+		\item ($>$4h) Charge stimulator battery
+		\item ($>$1h) Stimulator battery $>=$ 95 \%
+		\item ($>$1h) Make sure all EEG caps are clean and dry
+		\item ($>$1h) Set up and test equipment
+		\begin{todolist}
+			\item Waveform generator
+			\item Stimulator REMOTE
+			\item Stimulator SIGNAL OUT
+			\item Stimulator Output using oscilloscope
+			\item Audio \& Earphone
+			\item Recording \& Microphone
+			\item EEG system, incl. caps, SIGNAL OUT \& Trigger
+		\end{todolist}
+		\item ($>$1h) Print consent, payment, feedback/quiz and study protocol forms
+		\item ($>$1h) Tissues, 2*cotton swabs, 2*syringes, EEG gel, Ten20 paste, two water-based pens with different color
+	\end{todolist}
+	\item \textbf{Preparation}
+		\begin{todolist}
+			\item Introduce lab (Only for the first time)
+			\item Give consent form to subject and receive it signed
+			\item Assign / look up identifier
+			\item Get a glass of drink and bring snack for subject
+			\item Explain task
+			\item Prepare subject (gelling)
+			\begin{todolist}
+				\item Follow that mat.
+			\end{todolist}
+			\item Put "Do not disturb" signs on both doors
+		\end{todolist}
+	\item \textbf{Recording}
+		\begin{todolist}
+			\item Start NeurOne recording $\Rightarrow$ "paradigm\_practice.py" $\Rightarrow$ Answer question $\Rightarrow$ "paradigm\_main.py"
+						
+			\begin{todolist}
+				\item In practice stage, adjust volume on computer to be comfortable for subject \& confirm they can hear 40 Hz sound within questions.
+			\end{todolist}
+			\item Watch for amplifier battery warning. In case of warning: wait for next break $\Rightarrow$  stop recording $\Rightarrow$  change battery $\Rightarrow$  start recording  $\Rightarrow$  Note down the break. 
+			\item Watch for stimulator battery warning. In case low battery or the subject want to stop: wait for next break $\Rightarrow$ stop recording $\Rightarrow$ run "safe\_stop.sh" $\Rightarrow$ run "safe\_start.sh" $\Rightarrow$  start recording  $\Rightarrow$  Note down the break
+			\item Denote anything out of the ordinary in the study protocol, e.g. loud noises, breaks in recording, faulty equipment 
+			\item During breaks: offer water, ask if everything is ok
+		\end{todolist}
+	
+	\item \textbf{After Recording}
+		\begin{todolist}
+			\item Hand out and receive feedback form
+			\item Make appointment for next session (if applicable)
+			\item Pay subject and receive signed payment form
+			\item Export data and save it to NI share
+			\item Shut down EEG equipment, stimulator and computers
+			\item Clean EEG cap, stimulator rubber electrodes
+			\item Charge batteries
+		\end{todolist}
+\end{itemize}
+	\printbibliography
+	
+	
+	
+	
+	
+\end{document}
