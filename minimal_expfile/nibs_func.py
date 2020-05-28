@@ -639,7 +639,7 @@ def trigger_encoding_sending(obj_name, input_event, port='/dev/parport0'):
             trigger_sending(data, port=port)
 
 
-def extract_qa(input_all_df=None, label='practice', subject=1, session=0, word_type='VERB',
+def extract_qa(input_all_df=None, label='practice', word_type='VERB',
     file_root='/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/', df_file='all_beep_df.pkl'):
     try:
         if input_all_df == None: 

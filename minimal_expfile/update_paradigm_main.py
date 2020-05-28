@@ -114,7 +114,8 @@ init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
 
 
 external_question_flag = 1
-question_cnt = -1
+cali_question_cnt = -1
+qa_question_cnt = -1
 word_type = 'VERB'
 
 fade_in_out_show = False
@@ -129,6 +130,7 @@ cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
 
 # 30s version: 0, 2, 5, 1, 17, 1, 2
 # 20s version: 0, 2, 1, 1, 11, 1, 2
+cali_total_time = 20.0
 cali_hint_start, cali_hint_dur, cali_q_dur, cali_a_beep_s_dur, cali_rec_dur, cali_a_beep_e_dur, cali_break_dur = 0, 2, 1, 1, 11, 1, 2
 cali_q_start = cali_hint_start + cali_hint_dur + comp_gap
 cali_a_beep_s_start = cali_q_start + cali_q_dur + comp_gap
@@ -156,6 +158,7 @@ QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 # 30s version: 0, 2, 14, 1, 8, 1, 2
 # 25s version: 0, 2, 12, 1, 6, 1, 1
+qa_total_time = 25.0
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 12, 1, 6, 1, 1
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
@@ -205,12 +208,19 @@ if init_flag:
     break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial'])) 
     
     if external_question_flag:
-        ses_df.to_pickle()
-        pre_load_df = pd.read_pickle(
+        pre_load_qa_df = pd.read_pickle(
             'qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
                 str(int(expInfo['participant'])).zfill(2), str(int(expInfo['session'])) ))
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text = extract_qa(
-            input_all_df=pre_load_df, subject=int(expInfo['participant']), session=int(expInfo['session']))
+            input_all_df=pre_load_qa_df, subject=int(expInfo['participant']), session=int(expInfo['session']))
+
+        # extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text 
+        pre_load_cali_df = pd.read_pickle(
+            'cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
+        _, _, _, _, _, cali_sen_text, _ = extract_qa(
+            input_all_df=pre_load_cali_df)
+
+
 
     # save a log file for key info
     now = datetime.now()
@@ -636,8 +646,8 @@ if Cali_de_pre_rec_flag:
         breakpoint_logger(comp='Cali_de_pre_rec', value=1, run=None, block=None, trial=cali_pre_trial.thisN)
         
         if external_question_flag:
-            question_cnt += 1
-            Cali_de_pre_rec['question_text'].setText(sen_text[question_cnt])
+            cali_question_cnt += 1
+            Cali_de_pre_rec['question_text'].setText(cali_sen_text[cali_question_cnt])
         else:
             Cali_de_pre_rec['question_text'].setText('Text ' + str(cali_pre_trial.thisN))
         # keep track of which components have finished
@@ -647,7 +657,7 @@ if Cali_de_pre_rec_flag:
 
         # -------Run Routine "Cali_de_pre_rec"-------
         trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
-        routineTimer.add(30.000000)
+        routineTimer.add(cali_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -1255,16 +1265,16 @@ for thisRun in run:
                 # update component parameters for each repeat
                 ques_start = QA_rec['time']['question'][0]
                 if external_question_flag:
-                    question_cnt += 1
+                    qa_question_cnt += 1
 
-                    QA_rec['question'].setSound(question_path[question_cnt], secs=sen_duration[question_cnt] - 0.016, hamming=True)
-                    QA_rec['time']['question'][1] = sen_duration[question_cnt]  - 0.016  # 1 frame.
-                    QA_rec['time']['censor_word'] = [ques_start + censor_question_start[question_cnt], censor_question_duration[question_cnt]]
-                    QA_rec['question'].sen_text = sen_text[question_cnt]
-                    QA_rec['question'].cen_text = cen_text[question_cnt]
+                    QA_rec['question'].setSound(question_path[qa_question_cnt], secs=sen_duration[qa_question_cnt] - 0.016, hamming=True)
+                    QA_rec['time']['question'][1] = sen_duration[qa_question_cnt]  - 0.016  # 1 frame.
+                    QA_rec['time']['censor_word'] = [ques_start + censor_question_start[qa_question_cnt], censor_question_duration[qa_question_cnt]]
+                    QA_rec['question'].sen_text = sen_text[qa_question_cnt]
+                    QA_rec['question'].cen_text = cen_text[qa_question_cnt]
                     if flexible_qa_rec_start:
                         QA_trial_dur = 30.00
-                        QA_rec['time']['beep_start'][0] = QA_q_start + sen_duration[question_cnt] + comp_gap
+                        QA_rec['time']['beep_start'][0] = QA_q_start + sen_duration[qa_question_cnt] + comp_gap
                         QA_rec['time']['recording'][0] = QA_rec['time']['beep_start'][0] + QA_a_beep_s_dur + comp_gap
                         QA_rec['time']['recording'][1] = QA_a_beep_e_start - QA_rec['time']['recording'][0] - comp_gap
                 else:
@@ -1343,7 +1353,7 @@ for thisRun in run:
                 breakpoint_logger(comp='QA_rec', value=0, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
                 jxu_logging.info(
                     'Run-%s, Block-%s, Trial-%s, Q_cnt-%s, Q_sen-%s, Q_cen-%s' %(
-                        run.thisN, QA_block.thisN, QA_trial.thisN, question_cnt, QA_rec['question'].sen_text, QA_rec['question'].cen_text ))
+                        run.thisN, QA_block.thisN, QA_trial.thisN, qa_question_cnt, QA_rec['question'].sen_text, QA_rec['question'].cen_text ))
                 thisExp.addData('filename', q_a_rec_file)
                 thisExp.nextEntry()
                 trigger_sending(event_dict['QA_trial'][1], default_sleep=True) # Sending trigger 43 (QA_trial End)
@@ -1620,8 +1630,8 @@ if Cali_de_post_rec_flag:
         breakpoint_logger(comp='Cali_de_post_rec', value=1, run=None, block=None, trial=cali_post_trial.thisN)
 
         if external_question_flag:
-            question_cnt += 1
-            Cali_de_post_rec['question_text'].setText(sen_text[question_cnt])
+            cali_question_cnt += 1
+            Cali_de_post_rec['question_text'].setText(cali_sen_text[cali_question_cnt])
         else:
             Cali_de_post_rec['question_text'].setText('Text ' + str(cali_post_trial.thisN))
 
