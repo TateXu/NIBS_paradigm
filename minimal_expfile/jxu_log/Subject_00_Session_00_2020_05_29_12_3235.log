@@ -1,0 +1,8 @@
+Fri, 29 May 2020 12:32:48 +0000  QA_intro 1 0 None None
+Fri, 29 May 2020 12:33:32 +0000  QA_intro 0 0 None None
+Fri, 29 May 2020 12:33:32 +0000  QA_rec 1 0 0 0
+Fri, 29 May 2020 12:33:52 +0000  QA_rec 0 0 0 0
+Fri, 29 May 2020 12:33:52 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Ich muss mein Versprechen halten., Q_cen-halten
+Fri, 29 May 2020 12:33:52 +0000  QA_rec 1 0 0 1
+Fri, 29 May 2020 12:34:12 +0000  QA_rec 0 0 0 1
+Fri, 29 May 2020 12:34:12 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken

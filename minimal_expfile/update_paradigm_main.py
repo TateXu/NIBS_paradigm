@@ -132,7 +132,7 @@ comp_gap = 0.4
 instruction_cont_start, instruction_cont_dur = 15, None  # Audio 14s
 
 
-artifact_intro_start, artifact_intro_dur, artifact_intro_cont_dur = 0, 30, None  # Audio 29s
+artifact_intro_start, artifact_intro_dur, artifact_intro_cont_dur = 0, 7, None  # Audio 6s
 artifact_intro_cont_start = artifact_intro_start + artifact_intro_dur + comp_gap
 
 artifact_total_time = 20.0
@@ -297,7 +297,7 @@ if init_flag:
         '  - Please follow audio instruction              \n'
 
     Artifact_intro_comp_list = [
-        textstim_generator(win=win, name='title', content='READ OUT BLOCK (GERMAN)', pos=title_pos),
+        textstim_generator(win=win, name='title', content='Muscular signal recording', pos=title_pos),
         textstim_generator(win=win, name='text', content=Artifact_intro_text_str, pos=text_pos),
         audio_generator(name='audio', loc=audio_root+'artifact/intro.wav', secs=-1),
         key_resp_generator(name='key_resp'),
@@ -315,7 +315,7 @@ if init_flag:
     Artifact_rec_comp_list = [
         textstim_generator(win=win, name='text', content=Artifact_rec_text_str, pos=title_pos),
         audio_generator(name='beep_hint', loc=audio_root+'artifact/reminder.wav', secs=0.6),
-        audio_generator(name='action', loc=audio_root+'artifact/action.wav', secs=0.6),
+        audio_generator(name='action', loc=audio_root+'artifact/reminder.wav', secs=0.6),
         audio_generator(name='beep_start', loc=audio_root+'artifact/C3A_C4A_tone_decrease_1s_new.wav', secs=1),
         textstim_generator(win=win, name='recording', content='', pos=instruction_annot_pos),
         audio_generator(name='beep_end', loc=audio_root+'artifact/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
@@ -420,7 +420,7 @@ if init_flag:
     # Initialize components for Routine "QA_intro"
     QA_intro_text_str = ' - Task: Listen to the question& Speak out answer \n' + \
         ' - Melodious beep sound: Trial start              \n' + \
-        ' - 40 Hz beep (blank): censored word              \n' + \
+        ' - Silent sound (blank): censored word            \n' + \
         ' - Beep sound with increasing pitch: Rec. start   \n' + \
         ' - Beep sound with decreasing pitch: Rec. finish  \n'
     QA_intro_comp_list = [ 
@@ -624,7 +624,7 @@ if Artifact_intro_flag:
 
     # -------Run Routine "Artifact_intro"-------
     
-    trigger_sending(event_dict['Artifact_intro'][0], default_sleep=True) # Sending trigger 70 (Artifact_intro Start)
+    trigger_sending(event_dict['Arti_intro'][0], default_sleep=True) # Sending trigger 70 (Artifact_intro Start)
     while continueRoutine:
         # get current time
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -657,20 +657,20 @@ if Artifact_intro_flag:
             repeat_per_frame=True, repeat_content=continue_str)
         
         win, continueRoutine, break_flag = continue_justification(
-            win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_pre_introComponents)
+            win, endExpNow, defaultKeyboard, continueRoutine, Artifact_introComponents)
         if trigger_mat.sum(axis=0)[0]:
             pass # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
         if break_flag:
             break
 
     # -------Ending Routine "Artifact_intro"-------
-    for thisComponent in Cali_de_pre_introComponents:
+    for thisComponent in Artifact_introComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
 
     thisExp = data_writer(thisExp, Artifact_intro, 'Artifact_intro', ['title', 'text', 'audio', 'cont'])
 
-    trigger_sending(event_dict['Artifact_intro'][1], default_sleep=True) # Sending trigger 71 (Artifact_intro End)
+    trigger_sending(event_dict['Arti_intro'][1], default_sleep=True) # Sending trigger 71 (Artifact_intro End)
     print('Log: artifact_intro finish')
     breakpoint_logger(comp='Artifact_intro', value=0, run=None, block=None, trial=None)
     routineTimer.reset()
@@ -721,7 +721,7 @@ if Artifact_rec_flag:
         comp_list = np.asarray([*Artifact_rec['time'].keys()])
 
         # -------Run Routine "Artifact_rec"-------
-        trigger_sending(event_dict['Artifact_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+        trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
         routineTimer.add(artifact_total_time) 
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
@@ -759,21 +759,21 @@ if Artifact_rec_flag:
                 start_time=Artifact_rec['time']['break'][0], duration=Artifact_rec['time']['break'][1])
 
             win, continueRoutine, break_flag = continue_justification(
-                win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_pre_recComponents)
+                win, endExpNow, defaultKeyboard, continueRoutine, Artifact_recComponents)
 
             if trigger_mat.sum(axis=0)[0]:
                 trigger_encoding_sending('Artifact', input_event=trigger_mat)
             if break_flag:
                 break
         # -------Ending Routine "Artifact_rec"-------
-        for thisComponent in Cali_de_pre_recComponents:
+        for thisComponent in Artifact_recComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
 
-        thisExp = data_writer(thisExp, Artifact_rec, 'Artifact_rec', ['text', 'beep_hint', 'question_text', 'beep_start', 'beep_end', 'break'])
+        thisExp = data_writer(thisExp, Artifact_rec, 'Artifact_rec', ['text', 'beep_hint', 'action', 'beep_start', 'recording', 'beep_end', 'break'])
         thisExp.nextEntry()
 
-        trigger_sending(event_dict['Artifact_trial'][1], default_sleep=True) # Sending trigger 73 (Artifact_trial End)
+        trigger_sending(event_dict['Arti_trial'][1], default_sleep=True) # Sending trigger 73 (Artifact_trial End)
         print('Log: artifact_rec finish: Trial' + str(artifact_trial.thisN))
         breakpoint_logger(comp='Artifact_rec', value=0, run=None, block=None, trial=artifact_trial.thisN)
         # the Routine "Artifact_rec" was not non-slip safe, so reset the non-slip timer
