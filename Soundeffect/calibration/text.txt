@@ -1,0 +1,17 @@
+from jxu.visualization.audiosignal import beep_generator
+beep_generator('A_tone_1s.wav')
+'<speak>In this block, we will display several sentences written in German on the screen, and please read out them loudly after hearing an increasing tonal beeping sound like this.</speak>'
+
+'<speak>And a decreasing tonal beeping sound indicates the recording is finished, which is like this.</speak>'
+
+'<speak>You will have ten seconds of preparation time. Now, please look at the sentences on the screen.</speak>'
+
+
+file_name = '1_de.mp3'
+ssml='<speak>In this block, we will display several sentences written in German on the screen, and please read out them loudly after hearing an increasing tonal beeping sound like this.</speak>'
+
+loc='/home/jxu/File/Data/NIBS/Stage_one/Audio/Soundeffect/calibration/'
+google_text_to_speech(ssml_string=ssml, audio_location=loc+file_name, speed=1.0, pitch=0.0, lang='en-US')
+infiles=['1_de.wav', 'C3A_C4A_tone_decrease_1s.wav', '2.wav', 'C4A_C3A_tone_decrease_1s.wav','3.wav']
+outfile='cali_de.wav'
+
