@@ -94,7 +94,7 @@ n_run = 4
 n_block = 2
 n_trial = 2  #20- 10 mins
 n_cali_trial = 2  #10
-n_arti_trial = 11
+n_arti_trial = 15
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
@@ -115,7 +115,6 @@ output_intensity = init_intensity
 
 ######## Component switch ########
 init_flag = True  # NEVER TURN OFF THIS FLAG!!! For initializing the components
-
 
 external_question_flag = 1
 cali_question_cnt = -1
@@ -242,7 +241,22 @@ if init_flag:
             './cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
         _, _, _, _, _, cali_sen_text, _ = extract_qa(input_all_df=pre_load_cali_df)
 
-        action_path_list=[]# loc of audio files
+        arti_file_name_list = ['eye_horizontal.wav', 
+             'eye_vertical.wav', 
+             'eye_circular.wav', 
+             'eye_blink.wav', 
+             'frown.wav', 
+             'head_horizontal.wav', 
+             'head_vertical.wav', 
+             'arm.wav', 
+             'leg.wav', 
+             'fist.wav', 
+             'wrist.wav', 
+             'upper_body.wav', 
+             'teeth.wav', 
+             'no_respiration.wav',
+             'respiration.wav']
+        action_path_list = [audio_root + 'artifact/' + arti_file for arti_file in arti_file_name_list]
 
 
 
@@ -669,9 +683,6 @@ if Artifact_intro_flag:
 
 
 if Artifact_rec_flag:
-    n_arti_trial = 11
-    artifact_action_cnt = -1
-    action_path_list=[]# loc of audio files
 
     # ---------------------------------------------------------------------------
     # ------------------------ Start Artifact_rec Trial --------------------------
