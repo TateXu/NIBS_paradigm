@@ -78,7 +78,8 @@ event_dict = {'ESC': 1,
               'Break': [62, 63],
               'Arti_intro': [70, 71],
               'Arti_trial': [72, 73],
-              'Arti_action': [74, 75]}
+              'Arti_action': [74, 75],
+              'Arti_rec': [78, 79]}
 
 instruction_pos = [0.5, 0.1]
 instruction_annot_pos = [0.5, -0.4]
@@ -92,9 +93,9 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 2  #20- 10 mins
-n_cali_trial = 2  #10
-n_arti_trial = 15
+n_trial = 2  # 25 - 500 secs
+n_cali_trial = 2  # 10 - 200 secs
+n_arti_trial = 15 # 15 - 300 secs
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
@@ -1069,7 +1070,7 @@ for thisRun in run:
         breakpoint_logger(comp='fade_in', value=1, run=run.thisN, block=None, trial=None)
         print('Log: fade in start: Run ' + str(run.thisN))
 
-        fade_in['text'].setText('Please remain seated until further notice via the earphone.')
+        fade_in['text'].setText('Please remain seated until further instruction via the earphone.')
         # Instantiate the object for signal generator
         try:
             if isinstance(fg, SG()):
@@ -1676,7 +1677,7 @@ for thisRun in run:
         print('Log: fade out start: Run ' + str(run.thisN))
         trigger_sending(event_dict['Stable_stim'][1], default_sleep=True) # Sending trigger 29 (Stable_stim End)
         breakpoint_logger(comp='fade_out', value=1, run=run.thisN, block=None, trial=None)
-        fade_in['text'].setText('Please remain seated until further notice via the earphone.')
+        fade_in['text'].setText('Please remain seated until further instruction via the earphone.')
         # Instantiate the object for signal generator
         try:
             if isinstance(fg, SG()):
