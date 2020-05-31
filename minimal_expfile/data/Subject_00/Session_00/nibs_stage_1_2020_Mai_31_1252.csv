@@ -1,0 +1,7 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,QA_block.thisRepN,QA_block.thisTrialN,QA_block.thisN,QA_block.thisIndex,QA_trial.thisRepN,QA_trial.thisTrialN,QA_trial.thisN,QA_trial.thisIndex,Pause_cont.started,Pause_cont.stopped,QA_intro_title.started,QA_intro_title.stopped,QA_intro_text.text,QA_intro_text.started,QA_intro_text.stopped,QA_intro_audio.started,QA_intro_audio.stopped,QA_intro_cont.started,QA_intro_cont.stopped,participant,session,First language,German level,Full_screen,Instruction,Artifact,Cali_pre,Fade_in_out,Resting_State,QA,Pause,Cali_post,End,Breakpoint_Cali_pre_trial,Breakpoint_Run,Breakpoint_RS_block,Breakpoint_QA_block,Breakpoint_QA_trial,Breakpoint_Cali_post_trial,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,21.83409595489502,None,37.50082302093506,77.53682088851929," - Task: Listen to the question& Speak out answer 
+ - Melodious beep sound: Trial start              
+ - Silent sound (blank): censored word            
+ - Beep sound with increasing pitch: Rec. start   
+ - Beep sound with decreasing pitch: Rec. finish  
+",37.50082302093506,77.53682088851929,37.489967989921574,None,76.9198830127716,None,,,,,,,,,,,,,,,,,,,,,,,,,

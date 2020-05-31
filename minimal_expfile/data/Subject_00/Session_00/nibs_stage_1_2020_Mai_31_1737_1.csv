@@ -1,0 +1,8 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,QA_block.thisRepN,QA_block.thisTrialN,QA_block.thisN,QA_block.thisIndex,QA_trial.thisRepN,QA_trial.thisTrialN,QA_trial.thisN,QA_trial.thisIndex,RS_intro_title.started,RS_intro_title.stopped,RS_intro_text.text,RS_intro_text.started,RS_intro_text.stopped,RS_intro_audio.started,RS_intro_audio.stopped,RS_rec_text.text,RS_rec_text.started,RS_rec_text.stopped,participant,session,First language,German level,Full_screen,Instruction,Intro,Artifact,Cali_pre,Fade_in_out,Resting_State,QA,Pause,Cali_post,End,Breakpoint_Cali_pre_trial,Breakpoint_Run,Breakpoint_RS_block,Breakpoint_QA_block,Breakpoint_QA_trial,Breakpoint_Cali_post_trial,date,expName,psychopyVersion,frameRate,
+0,0,0,0,0,0,0,0,,,,,57.58106303215027,None," - Task: Keep seated and relaxed with either      
+             opening or closing eyes                  
+ - Beep sound with decreasing pitch: Block finish 
+",57.58106303215027,None,57.58058586120606,None,"Please keep relaxed and close your eyes.
+",80.60454607009888,90.6202380657196,00,00,,A1,False,False,True,False,False,False,True,False,False,True,True,No,No,No,No,No,No,2020_Mai_31_1737,nibs_stage_1,3.2.3,60.02401358957369,
+0,0,0,0,1,0,1,0,,,,,,,,,,,,,,,00,00,,A1,False,False,True,False,False,False,True,False,False,True,True,No,No,No,No,No,No,2020_Mai_31_1737,nibs_stage_1,3.2.3,60.02401358957369,
+0,0,0,0,,,,,,,,,,,,,,,,,,,00,00,,A1,False,False,True,False,False,False,True,False,False,True,True,No,No,No,No,No,No,2020_Mai_31_1737,nibs_stage_1,3.2.3,60.02401358957369,

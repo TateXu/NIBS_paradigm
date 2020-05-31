@@ -1,0 +1,699 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+successfully send trigger: 254
+Target folder is successfully created! Path: 
+./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/
+successfully send trigger: 2
+successfully send trigger: 3
+successfully send trigger: 4
+Log: fade in start: Run 2
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+Log: fade in end: Run 2
+successfully send trigger: 28
+successfully send trigger: 6
+Log: RS intro start: Run 2open Block : 0
+successfully send trigger: 30
+successfully send trigger: 31
+Log: RS intro finish: Run 2open Block : 0
+Log: RS rec start: Run 2open Block : 0
+successfully send trigger: 32
+successfully send trigger: 33
+Log: RS rec finish: Run 2open Block : 0
+Log: RS intro start: Run 2close Block : 1
+successfully send trigger: 30
+successfully send trigger: 31
+Log: RS intro finish: Run 2close Block : 1
+Log: RS rec start: Run 2close Block : 1
+successfully send trigger: 34
+successfully send trigger: 35
+Log: RS rec finish: Run 2close Block : 1
+successfully send trigger: 60
+successfully send trigger: 61
+successfully send trigger: 7
+Log: QA intro start: Run 2
+successfully send trigger: 40
+Log: QA intro finish: Run 2
+successfully send trigger: 41
+successfully send trigger: 6
+Log: QA rec start: Run 2 Block 0Trial 0
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_000.wav
+Log: QA rec finish: Run 2 Block 0Trial 0
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 1
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_001.wav
+Log: QA rec finish: Run 2 Block 0Trial 1
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 2
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 45
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_002.wav
+Log: QA rec finish: Run 2 Block 0Trial 2
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 3
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_003.wav
+Log: QA rec finish: Run 2 Block 0Trial 3
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 4
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_004.wav
+Log: QA rec finish: Run 2 Block 0Trial 4
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 5
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+successfully send trigger: 47
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_005.wav
+Log: QA rec finish: Run 2 Block 0Trial 5
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 6
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_006.wav
+Log: QA rec finish: Run 2 Block 0Trial 6
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 7
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_007.wav
+Log: QA rec finish: Run 2 Block 0Trial 7
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 8
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+successfully send trigger: 47
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_008.wav
+Log: QA rec finish: Run 2 Block 0Trial 8
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 9
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_009.wav
+Log: QA rec finish: Run 2 Block 0Trial 9
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 10
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 45
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_010.wav
+Log: QA rec finish: Run 2 Block 0Trial 10
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 11
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_011.wav
+Log: QA rec finish: Run 2 Block 0Trial 11
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 12
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_012.wav
+Log: QA rec finish: Run 2 Block 0Trial 12
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 13
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_013.wav
+Log: QA rec finish: Run 2 Block 0Trial 13
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 14
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 45
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_014.wav
+Log: QA rec finish: Run 2 Block 0Trial 14
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 15
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_015.wav
+Log: QA rec finish: Run 2 Block 0Trial 15
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 16
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_016.wav
+Log: QA rec finish: Run 2 Block 0Trial 16
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 17
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_017.wav
+Log: QA rec finish: Run 2 Block 0Trial 17
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 18
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_018.wav
+Log: QA rec finish: Run 2 Block 0Trial 18
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 19
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_019.wav
+Log: QA rec finish: Run 2 Block 0Trial 19
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 20
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_020.wav
+Log: QA rec finish: Run 2 Block 0Trial 20
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 21
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_021.wav
+Log: QA rec finish: Run 2 Block 0Trial 21
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 22
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_022.wav
+Log: QA rec finish: Run 2 Block 0Trial 22
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 23
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_023.wav
+Log: QA rec finish: Run 2 Block 0Trial 23
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 0Trial 24
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_000_trial_024.wav
+Log: QA rec finish: Run 2 Block 0Trial 24
+successfully send trigger: 43
+successfully send trigger: 7
+successfully send trigger: 60
+successfully send trigger: 61
+successfully send trigger: 6
+Log: QA rec start: Run 2 Block 1Trial 0
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_000.wav
+Log: QA rec finish: Run 2 Block 1Trial 0
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 1
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_001.wav
+Log: QA rec finish: Run 2 Block 1Trial 1
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 2
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_002.wav
+Log: QA rec finish: Run 2 Block 1Trial 2
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 3
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_003.wav
+Log: QA rec finish: Run 2 Block 1Trial 3
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 4
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+successfully send trigger: 47
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_004.wav
+Log: QA rec finish: Run 2 Block 1Trial 4
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 5
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_005.wav
+Log: QA rec finish: Run 2 Block 1Trial 5
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 6
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_006.wav
+Log: QA rec finish: Run 2 Block 1Trial 6
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 7
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_007.wav
+Log: QA rec finish: Run 2 Block 1Trial 7
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 8
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_008.wav
+Log: QA rec finish: Run 2 Block 1Trial 8
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 9
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_009.wav
+Log: QA rec finish: Run 2 Block 1Trial 9
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 10
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_010.wav
+Log: QA rec finish: Run 2 Block 1Trial 10
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 11
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_011.wav
+Log: QA rec finish: Run 2 Block 1Trial 11
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 12
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_012.wav
+Log: QA rec finish: Run 2 Block 1Trial 12
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 13
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_013.wav
+Log: QA rec finish: Run 2 Block 1Trial 13
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 14
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_014.wav
+Log: QA rec finish: Run 2 Block 1Trial 14
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 15
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_015.wav
+Log: QA rec finish: Run 2 Block 1Trial 15
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 16
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_016.wav
+Log: QA rec finish: Run 2 Block 1Trial 16
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 17
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_017.wav
+Log: QA rec finish: Run 2 Block 1Trial 17
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 18
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+successfully send trigger: 47
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_018.wav
+Log: QA rec finish: Run 2 Block 1Trial 18
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 19
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_019.wav
+Log: QA rec finish: Run 2 Block 1Trial 19
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 20
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 45
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_020.wav
+Log: QA rec finish: Run 2 Block 1Trial 20
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 21
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_021.wav
+Log: QA rec finish: Run 2 Block 1Trial 21
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 22
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_022.wav
+Log: QA rec finish: Run 2 Block 1Trial 22
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 23
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 45
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_023.wav
+Log: QA rec finish: Run 2 Block 1Trial 23
+successfully send trigger: 43
+Log: QA rec start: Run 2 Block 1Trial 24
+successfully send trigger: 42
+successfully send trigger: 44
+successfully send trigger: 50
+successfully send trigger: 51
+successfully send trigger: 46
+Recording start!
+successfully send trigger: 48
+successfully send trigger: 49
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1627/rec_QA_run_02_block_001_trial_024.wav
+Log: QA rec finish: Run 2 Block 1Trial 24
+successfully send trigger: 43
+successfully send trigger: 7
+successfully send trigger: 60
+successfully send trigger: 61
+Log: fade out start: Run 2
+successfully send trigger: 29
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+successfully send trigger: 26
+successfully send trigger: 27
+successfully send trigger: 21
+:OUTPut1 OFF
+Log: fade out end: Run 2
+successfully send trigger: 5
+successfully send trigger: 4
+Log: fade in start: Run 3
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+successfully send trigger: 1
+253.2973 	WARNING 	Got keycode {} but that code isn't yet known
+253.2973 	WARNING 	Keypress was given unknown key code (134)
+263.3318 	WARNING 	Got keycode {} but that code isn't yet known
+263.3318 	WARNING 	Keypress was given unknown key code (134)

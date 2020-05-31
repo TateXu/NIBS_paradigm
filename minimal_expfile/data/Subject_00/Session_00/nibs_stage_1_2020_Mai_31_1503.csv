@@ -1,0 +1,8 @@
+﻿artifact_trial.thisRepN,artifact_trial.thisTrialN,artifact_trial.thisN,artifact_trial.thisIndex,instruction_text.text,instruction_text.started,instruction_text.stopped,instruction_cont.started,instruction_cont.stopped,Artifact_intro_title.started,Artifact_intro_title.stopped,Artifact_intro_text.text,Artifact_intro_text.started,Artifact_intro_text.stopped,Artifact_intro_audio.started,Artifact_intro_audio.stopped,Artifact_intro_cont.started,Artifact_intro_cont.stopped,participant,session,First language,German level,Full_screen,Instruction,Intro,Artifact,Cali_pre,Fade_in_out,Resting_State,QA,Pause,Cali_post,End,Breakpoint_Cali_pre_trial,Breakpoint_Run,Breakpoint_RS_block,Breakpoint_QA_block,Breakpoint_QA_trial,Breakpoint_Cali_post_trial,date,expName,psychopyVersion,frameRate,
+,,,,"     Thank you for participating in the experiment: 
+
+     Personalized non-invasive brain stimulation    
+            for second language learning            
+",17.498449087142944,None,32.48347806930542,None,34.133538007736206,41.13389301300049,"  - Task: Artifacts collection   
+  - Please follow audio instruction              
+",34.133538007736206,41.13389301300049,34.133509349823,None,41.51723790168762,None,,,,,,,,,,,,,,,,,,,,,,,,,,

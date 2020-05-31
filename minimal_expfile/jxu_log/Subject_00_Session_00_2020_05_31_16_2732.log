@@ -1,0 +1,165 @@
+So, 31 Mai 2020 16:27:35 +0000  fade_in 1 2 None None
+So, 31 Mai 2020 16:28:05 +0000  fade_in 0 2 None None
+So, 31 Mai 2020 16:28:07 +0000  RS_intro 1 2 0 None
+So, 31 Mai 2020 16:28:30 +0000  RS_intro 0 2 0 None
+So, 31 Mai 2020 16:28:30 +0000  RS_rec 1 2 0 None
+So, 31 Mai 2020 16:34:18 +0000  RS_rec 0 2 open None
+So, 31 Mai 2020 16:34:18 +0000  RS_intro 1 2 1 None
+So, 31 Mai 2020 16:34:41 +0000  RS_intro 0 2 1 None
+So, 31 Mai 2020 16:34:41 +0000  RS_rec 1 2 1 None
+So, 31 Mai 2020 16:39:06 +0000  RS_rec 0 2 close None
+So, 31 Mai 2020 16:41:29 +0000  QA_intro 1 2 None None
+So, 31 Mai 2020 16:42:51 +0000  QA_intro 0 2 None None
+So, 31 Mai 2020 16:42:53 +0000  QA_rec 1 2 0 0
+So, 31 Mai 2020 16:43:11 +0000  QA_rec 0 2 0 0
+So, 31 Mai 2020 16:43:11 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Der Mond scheint hell., Q_cen-scheint
+So, 31 Mai 2020 16:43:12 +0000  QA_rec 1 2 0 1
+So, 31 Mai 2020 16:43:31 +0000  QA_rec 0 2 0 1
+So, 31 Mai 2020 16:43:31 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Der Sturm entlaubte alle Bäume in unserem Garten., Q_cen-entlaubte
+So, 31 Mai 2020 16:43:32 +0000  QA_rec 1 2 0 2
+So, 31 Mai 2020 16:43:51 +0000  QA_rec 0 2 0 2
+So, 31 Mai 2020 16:43:51 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Morgen werden wir um sieben Uhr aufstehen., Q_cen-aufstehen
+So, 31 Mai 2020 16:43:52 +0000  QA_rec 1 2 0 3
+So, 31 Mai 2020 16:44:11 +0000  QA_rec 0 2 0 3
+So, 31 Mai 2020 16:44:11 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Das verstehe ich nicht, was meinst du damit?, Q_cen-meinst
+So, 31 Mai 2020 16:44:12 +0000  QA_rec 1 2 0 4
+So, 31 Mai 2020 16:44:31 +0000  QA_rec 0 2 0 4
+So, 31 Mai 2020 16:44:31 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-„Ich heiße Sam“, war der erste Satz, den er in großen Buchstaben schreiben konnte., Q_cen-schreiben
+So, 31 Mai 2020 16:44:32 +0000  QA_rec 1 2 0 5
+So, 31 Mai 2020 16:44:51 +0000  QA_rec 0 2 0 5
+So, 31 Mai 2020 16:44:51 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Vor dem Supermarkt kann man auf einer großen Fläche parken. , Q_cen-parken
+So, 31 Mai 2020 16:44:52 +0000  QA_rec 1 2 0 6
+So, 31 Mai 2020 16:45:11 +0000  QA_rec 0 2 0 6
+So, 31 Mai 2020 16:45:11 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Er heißt tatsächlich Alexander doch alle nennen ihn Alex., Q_cen-nennen
+So, 31 Mai 2020 16:45:12 +0000  QA_rec 1 2 0 7
+So, 31 Mai 2020 16:45:31 +0000  QA_rec 0 2 0 7
+So, 31 Mai 2020 16:45:31 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Sie war zu stolz, um ihn um Hilfe zu bitten., Q_cen-bitten
+So, 31 Mai 2020 16:45:32 +0000  QA_rec 1 2 0 8
+So, 31 Mai 2020 16:45:51 +0000  QA_rec 0 2 0 8
+So, 31 Mai 2020 16:45:51 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Nachdem ich nicht da war, kann ich nichts dazu sagen., Q_cen-sagen
+So, 31 Mai 2020 16:45:52 +0000  QA_rec 1 2 0 9
+So, 31 Mai 2020 16:46:11 +0000  QA_rec 0 2 0 9
+So, 31 Mai 2020 16:46:11 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Die technologische Entwicklung schafft immer kleinere Computer., Q_cen-schafft
+So, 31 Mai 2020 16:46:12 +0000  QA_rec 1 2 0 10
+So, 31 Mai 2020 16:46:31 +0000  QA_rec 0 2 0 10
+So, 31 Mai 2020 16:46:31 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Menschen und Firmen können ein Konto bei der Bank eröffnen., Q_cen-eröffnen
+So, 31 Mai 2020 16:46:32 +0000  QA_rec 1 2 0 11
+So, 31 Mai 2020 16:46:51 +0000  QA_rec 0 2 0 11
+So, 31 Mai 2020 16:46:51 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Die Polizei sammelte alle verfügbaren Informationen., Q_cen-sammelte
+So, 31 Mai 2020 16:46:52 +0000  QA_rec 1 2 0 12
+So, 31 Mai 2020 16:47:11 +0000  QA_rec 0 2 0 12
+So, 31 Mai 2020 16:47:11 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Ich beendete meine Arbeit und erhielt eine neue Aufgabe., Q_cen-beendete
+So, 31 Mai 2020 16:47:12 +0000  QA_rec 1 2 0 13
+So, 31 Mai 2020 16:47:31 +0000  QA_rec 0 2 0 13
+So, 31 Mai 2020 16:47:31 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Die Präsentation dauert eine halbe Stunde., Q_cen-dauert
+So, 31 Mai 2020 16:47:32 +0000  QA_rec 1 2 0 14
+So, 31 Mai 2020 16:47:51 +0000  QA_rec 0 2 0 14
+So, 31 Mai 2020 16:47:51 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Diese Telefinnummer ist leicht zu merken., Q_cen-merken
+So, 31 Mai 2020 16:47:52 +0000  QA_rec 1 2 0 15
+So, 31 Mai 2020 16:48:11 +0000  QA_rec 0 2 0 15
+So, 31 Mai 2020 16:48:11 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Afrika liegt südlich von Europa ., Q_cen-liegt
+So, 31 Mai 2020 16:48:12 +0000  QA_rec 1 2 0 16
+So, 31 Mai 2020 16:48:31 +0000  QA_rec 0 2 0 16
+So, 31 Mai 2020 16:48:31 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Aus Fehlern kann man lernen., Q_cen-lernen
+So, 31 Mai 2020 16:48:32 +0000  QA_rec 1 2 0 17
+So, 31 Mai 2020 16:48:51 +0000  QA_rec 0 2 0 17
+So, 31 Mai 2020 16:48:51 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Sie besichtigten das Haus, bevor sie es kauften., Q_cen-besichtigten
+So, 31 Mai 2020 16:48:52 +0000  QA_rec 1 2 0 18
+So, 31 Mai 2020 16:49:11 +0000  QA_rec 0 2 0 18
+So, 31 Mai 2020 16:49:11 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Kannst du bitte die Wäsche in die Sonne hängen?, Q_cen-hängen
+So, 31 Mai 2020 16:49:12 +0000  QA_rec 1 2 0 19
+So, 31 Mai 2020 16:49:31 +0000  QA_rec 0 2 0 19
+So, 31 Mai 2020 16:49:31 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Mein Freund führt ein erfolgreiches Geschäft., Q_cen-führt
+So, 31 Mai 2020 16:49:32 +0000  QA_rec 1 2 0 20
+So, 31 Mai 2020 16:49:51 +0000  QA_rec 0 2 0 20
+So, 31 Mai 2020 16:49:51 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Simon hat riesige Bilder gemalt., Q_cen-gemalt
+So, 31 Mai 2020 16:49:52 +0000  QA_rec 1 2 0 21
+So, 31 Mai 2020 16:50:11 +0000  QA_rec 0 2 0 21
+So, 31 Mai 2020 16:50:11 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Der Zug fährt gleich ab, wir müssen uns beeilen., Q_cen-beeilen
+So, 31 Mai 2020 16:50:12 +0000  QA_rec 1 2 0 22
+So, 31 Mai 2020 16:50:31 +0000  QA_rec 0 2 0 22
+So, 31 Mai 2020 16:50:31 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Das Fleisch wurde über dem offenen Feuer gegrillt., Q_cen-gegrillt
+So, 31 Mai 2020 16:50:32 +0000  QA_rec 1 2 0 23
+So, 31 Mai 2020 16:50:51 +0000  QA_rec 0 2 0 23
+So, 31 Mai 2020 16:50:51 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Da Elena arbeiten muss, überlässt sie ihre Kinder seiner Mutter., Q_cen-überlässt
+So, 31 Mai 2020 16:50:52 +0000  QA_rec 1 2 0 24
+So, 31 Mai 2020 16:51:11 +0000  QA_rec 0 2 0 24
+So, 31 Mai 2020 16:51:11 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Wenn ich einmal angefangen habe, kann mich nichts mehr aufhalten., Q_cen-aufhalten
+So, 31 Mai 2020 16:51:27 +0000  QA_rec 1 2 1 0
+So, 31 Mai 2020 16:51:46 +0000  QA_rec 0 2 1 0
+So, 31 Mai 2020 16:51:46 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Bitte öffnen Sie das Fenster, um frische Luft hereinzulassen., Q_cen-öffnen
+So, 31 Mai 2020 16:51:47 +0000  QA_rec 1 2 1 1
+So, 31 Mai 2020 16:52:06 +0000  QA_rec 0 2 1 1
+So, 31 Mai 2020 16:52:06 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Er ist ein ehrlicher Mann, der nie lügt., Q_cen-lügt
+So, 31 Mai 2020 16:52:07 +0000  QA_rec 1 2 1 2
+So, 31 Mai 2020 16:52:26 +0000  QA_rec 0 2 1 2
+So, 31 Mai 2020 16:52:26 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Er antwortete schnell auf meine Frage., Q_cen-antwortete
+So, 31 Mai 2020 16:52:27 +0000  QA_rec 1 2 1 3
+So, 31 Mai 2020 16:52:46 +0000  QA_rec 0 2 1 3
+So, 31 Mai 2020 16:52:46 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Rom wurde nicht an einem Tag erbaut., Q_cen-erbaut
+So, 31 Mai 2020 16:52:47 +0000  QA_rec 1 2 1 4
+So, 31 Mai 2020 16:53:06 +0000  QA_rec 0 2 1 4
+So, 31 Mai 2020 16:53:06 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Korn wird zur Herstellung von Mehl verwendet., Q_cen-verwendet
+So, 31 Mai 2020 16:53:07 +0000  QA_rec 1 2 1 5
+So, 31 Mai 2020 16:53:26 +0000  QA_rec 0 2 1 5
+So, 31 Mai 2020 16:53:26 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Die Eltern haben das Geburtstagsgeschenk ihrer Tochter eingepackt., Q_cen-eingepackt
+So, 31 Mai 2020 16:53:27 +0000  QA_rec 1 2 1 6
+So, 31 Mai 2020 16:53:46 +0000  QA_rec 0 2 1 6
+So, 31 Mai 2020 16:53:46 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Dort an der Ampel kannst du die Straße überqueren., Q_cen-überqueren
+So, 31 Mai 2020 16:53:47 +0000  QA_rec 1 2 1 7
+So, 31 Mai 2020 16:54:06 +0000  QA_rec 0 2 1 7
+So, 31 Mai 2020 16:54:06 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Manchmal glaube ich, ich bin zu pessimistisch., Q_cen-glaube
+So, 31 Mai 2020 16:54:07 +0000  QA_rec 1 2 1 8
+So, 31 Mai 2020 16:54:26 +0000  QA_rec 0 2 1 8
+So, 31 Mai 2020 16:54:26 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Der Schmied klopft immer wieder mit dem Hammer auf das heiße Eisen., Q_cen-klopft
+So, 31 Mai 2020 16:54:27 +0000  QA_rec 1 2 1 9
+So, 31 Mai 2020 16:54:46 +0000  QA_rec 0 2 1 9
+So, 31 Mai 2020 16:54:46 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-In den großen Ferien wandern wir gerne in den Bergen., Q_cen-wandern
+So, 31 Mai 2020 16:54:47 +0000  QA_rec 1 2 1 10
+So, 31 Mai 2020 16:55:06 +0000  QA_rec 0 2 1 10
+So, 31 Mai 2020 16:55:06 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Die Wissenschaftler aus der Physik heißen Physiker., Q_cen-heißen
+So, 31 Mai 2020 16:55:07 +0000  QA_rec 1 2 1 11
+So, 31 Mai 2020 16:55:26 +0000  QA_rec 0 2 1 11
+So, 31 Mai 2020 16:55:26 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Marco hat gestern einen Brief an seine Eltern geschrieben., Q_cen-geschrieben
+So, 31 Mai 2020 16:55:27 +0000  QA_rec 1 2 1 12
+So, 31 Mai 2020 16:55:46 +0000  QA_rec 0 2 1 12
+So, 31 Mai 2020 16:55:46 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Entschuldigung, können Sie mir ein Taxi rufen?, Q_cen-rufen
+So, 31 Mai 2020 16:55:47 +0000  QA_rec 1 2 1 13
+So, 31 Mai 2020 16:56:06 +0000  QA_rec 0 2 1 13
+So, 31 Mai 2020 16:56:06 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Bitte bilden Sie einfache Sätze., Q_cen-bilden
+So, 31 Mai 2020 16:56:07 +0000  QA_rec 1 2 1 14
+So, 31 Mai 2020 16:56:26 +0000  QA_rec 0 2 1 14
+So, 31 Mai 2020 16:56:26 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Ich muss das Buch zurückgeben, das mir ein Freund geliehen hat., Q_cen-geliehen
+So, 31 Mai 2020 16:56:27 +0000  QA_rec 1 2 1 15
+So, 31 Mai 2020 16:56:46 +0000  QA_rec 0 2 1 15
+So, 31 Mai 2020 16:56:46 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Nach einem Match hat sie keine Stimme mehr,  weil sie so laut schreit., Q_cen-schreit
+So, 31 Mai 2020 16:56:47 +0000  QA_rec 1 2 1 16
+So, 31 Mai 2020 16:57:06 +0000  QA_rec 0 2 1 16
+So, 31 Mai 2020 16:57:06 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Das Auto hatte die Grenze passiert., Q_cen-passiert
+So, 31 Mai 2020 16:57:07 +0000  QA_rec 1 2 1 17
+So, 31 Mai 2020 16:57:26 +0000  QA_rec 0 2 1 17
+So, 31 Mai 2020 16:57:26 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Sie beantwortete meine E-Mail schnell., Q_cen-beantwortete
+So, 31 Mai 2020 16:57:27 +0000  QA_rec 1 2 1 18
+So, 31 Mai 2020 16:57:46 +0000  QA_rec 0 2 1 18
+So, 31 Mai 2020 16:57:46 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Wir entschieden uns dafür, mit dem Flugzeug nach Stockholm zu fliegen., Q_cen-fliegen
+So, 31 Mai 2020 16:57:47 +0000  QA_rec 1 2 1 19
+So, 31 Mai 2020 16:58:06 +0000  QA_rec 0 2 1 19
+So, 31 Mai 2020 16:58:06 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Ich kann endlich den Namen dieser französischen Stadt aussprechen., Q_cen-aussprechen
+So, 31 Mai 2020 16:58:07 +0000  QA_rec 1 2 1 20
+So, 31 Mai 2020 16:58:26 +0000  QA_rec 0 2 1 20
+So, 31 Mai 2020 16:58:26 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Mein Sohn wurde letztes Jahr geboren., Q_cen-geboren
+So, 31 Mai 2020 16:58:27 +0000  QA_rec 1 2 1 21
+So, 31 Mai 2020 16:58:46 +0000  QA_rec 0 2 1 21
+So, 31 Mai 2020 16:58:46 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Er bevorzugt die Farben gelb, orange und rot., Q_cen-bevorzugt
+So, 31 Mai 2020 16:58:47 +0000  QA_rec 1 2 1 22
+So, 31 Mai 2020 16:59:06 +0000  QA_rec 0 2 1 22
+So, 31 Mai 2020 16:59:06 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Am Geburtstag hat mein Vater mir einen Geschenk geschenkt., Q_cen-geschenkt
+So, 31 Mai 2020 16:59:07 +0000  QA_rec 1 2 1 23
+So, 31 Mai 2020 16:59:26 +0000  QA_rec 0 2 1 23
+So, 31 Mai 2020 16:59:26 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Das Schloss liegt innerhalb der Stadtmauern., Q_cen-liegt
+So, 31 Mai 2020 16:59:27 +0000  QA_rec 1 2 1 24
+So, 31 Mai 2020 16:59:46 +0000  QA_rec 0 2 1 24
+So, 31 Mai 2020 16:59:46 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-In wenigen Minuten erreichen wir Hamburg., Q_cen-erreichen
+So, 31 Mai 2020 17:00:24 +0000  fade_out 1 2 None None
+So, 31 Mai 2020 17:00:27 +0000  fade_out 0 2 None None
+So, 31 Mai 2020 17:00:29 +0000  fade_in 1 3 None None

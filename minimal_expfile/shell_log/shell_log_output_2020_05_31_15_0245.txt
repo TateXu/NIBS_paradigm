@@ -1,0 +1,19 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+No device! Planned to send trigger: 254
+Target folder is successfully created! Path: 
+./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1503/
+Log: instruction start
+Log: instruction finish
+Log: artifact_intro start
+No device! Planned to send trigger: 70
+No device! Planned to send trigger: 71
+Log: artifact_intro finish
+Log: artifact_rec start: Trial 0
+No device! Planned to send trigger: 72
+No device! Planned to send trigger: 74
+No device! Planned to send trigger: 76
+Recording start!
+here?
+No device! Planned to send trigger: 78
+No device! Planned to send trigger: 1

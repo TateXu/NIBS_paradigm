@@ -1,0 +1,216 @@
+So, 31 Mai 2020 15:21:50 +0000  fade_in 1 0 None None
+So, 31 Mai 2020 15:22:20 +0000  fade_in 0 0 None None
+So, 31 Mai 2020 15:22:22 +0000  RS_intro 1 0 0 None
+So, 31 Mai 2020 15:22:45 +0000  RS_intro 0 0 0 None
+So, 31 Mai 2020 15:22:45 +0000  RS_rec 1 0 0 None
+So, 31 Mai 2020 15:25:55 +0000  RS_rec 0 0 open None
+So, 31 Mai 2020 15:25:55 +0000  RS_intro 1 0 1 None
+So, 31 Mai 2020 15:26:18 +0000  RS_intro 0 0 1 None
+So, 31 Mai 2020 15:26:18 +0000  RS_rec 1 0 1 None
+So, 31 Mai 2020 15:29:24 +0000  RS_rec 0 0 close None
+So, 31 Mai 2020 15:29:43 +0000  QA_intro 1 0 None None
+So, 31 Mai 2020 15:30:26 +0000  QA_intro 0 0 None None
+So, 31 Mai 2020 15:30:28 +0000  QA_rec 1 0 0 0
+So, 31 Mai 2020 15:30:46 +0000  QA_rec 0 0 0 0
+So, 31 Mai 2020 15:30:46 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Ich muss mein Versprechen halten., Q_cen-halten
+So, 31 Mai 2020 15:30:47 +0000  QA_rec 1 0 0 1
+So, 31 Mai 2020 15:31:06 +0000  QA_rec 0 0 0 1
+So, 31 Mai 2020 15:31:06 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken
+So, 31 Mai 2020 15:31:07 +0000  QA_rec 1 0 0 2
+So, 31 Mai 2020 15:31:26 +0000  QA_rec 0 0 0 2
+So, 31 Mai 2020 15:31:26 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Ein rotes Signal bedeutet, dass ich warten muss., Q_cen-bedeutet
+So, 31 Mai 2020 15:31:27 +0000  QA_rec 1 0 0 3
+So, 31 Mai 2020 15:31:46 +0000  QA_rec 0 0 0 3
+So, 31 Mai 2020 15:31:46 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Wir haben während des Urlaubs ein gemütliches Zimmer in Meeresnähe gemietet., Q_cen-gemietet
+So, 31 Mai 2020 15:31:47 +0000  QA_rec 1 0 0 4
+So, 31 Mai 2020 15:32:06 +0000  QA_rec 0 0 0 4
+So, 31 Mai 2020 15:32:06 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Die Fische leben in Flüssen , Seen und Meeren., Q_cen-leben
+So, 31 Mai 2020 15:32:07 +0000  QA_rec 1 0 0 5
+So, 31 Mai 2020 15:32:26 +0000  QA_rec 0 0 0 5
+So, 31 Mai 2020 15:32:26 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Eric ist ein guter Fahrer, obwohl er gerade erst seinen Führerschein gemacht hat., Q_cen-gemacht
+So, 31 Mai 2020 15:32:27 +0000  QA_rec 1 0 0 6
+So, 31 Mai 2020 15:32:46 +0000  QA_rec 0 0 0 6
+So, 31 Mai 2020 15:32:46 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Martin geht in ein Reisebüro und lässt sich von einem Angestellten beraten., Q_cen-beraten
+So, 31 Mai 2020 15:32:47 +0000  QA_rec 1 0 0 7
+So, 31 Mai 2020 15:33:06 +0000  QA_rec 0 0 0 7
+So, 31 Mai 2020 15:33:06 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Die Geheimzahl sollte nicht notiert werden, vor allem nicht auf der Bankomatkarte., Q_cen-notiert
+So, 31 Mai 2020 15:33:07 +0000  QA_rec 1 0 0 8
+So, 31 Mai 2020 15:33:26 +0000  QA_rec 0 0 0 8
+So, 31 Mai 2020 15:33:26 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Bevor man eine Orange essen kann, muss man sie erst schneiden oder schälen., Q_cen-schälen
+So, 31 Mai 2020 15:33:27 +0000  QA_rec 1 0 0 9
+So, 31 Mai 2020 15:33:46 +0000  QA_rec 0 0 0 9
+So, 31 Mai 2020 15:33:46 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Hans spielt gerne mit Lego., Q_cen-spielt
+So, 31 Mai 2020 15:33:47 +0000  QA_rec 1 0 0 10
+So, 31 Mai 2020 15:34:06 +0000  QA_rec 0 0 0 10
+So, 31 Mai 2020 15:34:06 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Die Brille bekommst du beim Optiker, dann kannst du wieder perfekt sehen., Q_cen-sehen
+So, 31 Mai 2020 15:34:07 +0000  QA_rec 1 0 0 11
+So, 31 Mai 2020 15:34:26 +0000  QA_rec 0 0 0 11
+So, 31 Mai 2020 15:34:26 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Sie hat Schlafmittel genommen, damit sie gut schlafen kann., Q_cen-schlafen
+So, 31 Mai 2020 15:34:27 +0000  QA_rec 1 0 0 12
+So, 31 Mai 2020 15:34:46 +0000  QA_rec 0 0 0 12
+So, 31 Mai 2020 15:34:46 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Wir brauchen Bretter, um ein Regal zu bauen., Q_cen-bauen
+So, 31 Mai 2020 15:34:47 +0000  QA_rec 1 0 0 13
+So, 31 Mai 2020 15:35:06 +0000  QA_rec 0 0 0 13
+So, 31 Mai 2020 15:35:06 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Ich komme, soweit es meine Zeit erlaubt., Q_cen-erlaubt
+So, 31 Mai 2020 15:35:07 +0000  QA_rec 1 0 0 14
+So, 31 Mai 2020 15:35:26 +0000  QA_rec 0 0 0 14
+So, 31 Mai 2020 15:35:26 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Die Verkäuferin beantwortete meine Fragen und konnte mich beraten., Q_cen-beraten
+So, 31 Mai 2020 15:35:27 +0000  QA_rec 1 0 0 15
+So, 31 Mai 2020 15:35:46 +0000  QA_rec 0 0 0 15
+So, 31 Mai 2020 15:35:46 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Sebastian mag lieber ein schwarzes Brot mit Butter und Marmelade., Q_cen-mag
+So, 31 Mai 2020 15:35:47 +0000  QA_rec 1 0 0 16
+So, 31 Mai 2020 15:36:06 +0000  QA_rec 0 0 0 16
+So, 31 Mai 2020 15:36:06 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Ich musste heute Morgen richtig schnell nach der Busstation laufen., Q_cen-laufen
+So, 31 Mai 2020 15:36:07 +0000  QA_rec 1 0 0 17
+So, 31 Mai 2020 15:36:26 +0000  QA_rec 0 0 0 17
+So, 31 Mai 2020 15:36:26 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Er ist durch die ganze Welt gereist., Q_cen-gereist
+So, 31 Mai 2020 15:36:27 +0000  QA_rec 1 0 0 18
+So, 31 Mai 2020 15:36:46 +0000  QA_rec 0 0 0 18
+So, 31 Mai 2020 15:36:46 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Ich höre sie den Namen Sam rufen., Q_cen-rufen
+So, 31 Mai 2020 15:36:47 +0000  QA_rec 1 0 0 19
+So, 31 Mai 2020 15:37:06 +0000  QA_rec 0 0 0 19
+So, 31 Mai 2020 15:37:06 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Die Anlage arbeitet vollautomatisch., Q_cen-arbeitet
+So, 31 Mai 2020 15:37:07 +0000  QA_rec 1 0 0 20
+So, 31 Mai 2020 15:37:26 +0000  QA_rec 0 0 0 20
+So, 31 Mai 2020 15:37:26 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-An seinem Mantel fehlt ein Knopf., Q_cen-fehlt
+So, 31 Mai 2020 15:37:27 +0000  QA_rec 1 0 0 21
+So, 31 Mai 2020 15:37:46 +0000  QA_rec 0 0 0 21
+So, 31 Mai 2020 15:37:46 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Der ganze Kurs bestand die Prüfung., Q_cen-bestand
+So, 31 Mai 2020 15:37:47 +0000  QA_rec 1 0 0 22
+So, 31 Mai 2020 15:38:06 +0000  QA_rec 0 0 0 22
+So, 31 Mai 2020 15:38:06 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Der Baum hängt voller Früchte., Q_cen-hängt
+So, 31 Mai 2020 15:38:07 +0000  QA_rec 1 0 0 23
+So, 31 Mai 2020 15:38:26 +0000  QA_rec 0 0 0 23
+So, 31 Mai 2020 15:38:26 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Wir müssen Mittel und Wege finden, um das zu ändern., Q_cen-finden
+So, 31 Mai 2020 15:38:27 +0000  QA_rec 1 0 0 24
+So, 31 Mai 2020 15:38:46 +0000  QA_rec 0 0 0 24
+So, 31 Mai 2020 15:38:46 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Ich habe alle meine Freunde zu meiner Geburtstags Party eingeladen., Q_cen-eingeladen
+So, 31 Mai 2020 15:39:05 +0000  QA_rec 1 0 1 0
+So, 31 Mai 2020 15:39:24 +0000  QA_rec 0 0 1 0
+So, 31 Mai 2020 15:39:24 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht., Q_cen-gebucht
+So, 31 Mai 2020 15:39:25 +0000  QA_rec 1 0 1 1
+So, 31 Mai 2020 15:39:44 +0000  QA_rec 0 0 1 1
+So, 31 Mai 2020 15:39:44 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-An der nächsten Kreuzung müssen Sie rechts abbiegen., Q_cen-abbiegen
+So, 31 Mai 2020 15:39:45 +0000  QA_rec 1 0 1 2
+So, 31 Mai 2020 15:40:04 +0000  QA_rec 0 0 1 2
+So, 31 Mai 2020 15:40:04 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Bitte, erinnern Sie mich daran, wenn ich es vergessen sollte., Q_cen-erinnern
+So, 31 Mai 2020 15:40:05 +0000  QA_rec 1 0 1 3
+So, 31 Mai 2020 15:40:24 +0000  QA_rec 0 0 1 3
+So, 31 Mai 2020 15:40:24 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Seine Großmutter kann ganz spannend erzählen., Q_cen-erzählen
+So, 31 Mai 2020 15:40:25 +0000  QA_rec 1 0 1 4
+So, 31 Mai 2020 15:40:44 +0000  QA_rec 0 0 1 4
+So, 31 Mai 2020 15:40:44 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Bist du schon mal auf einem Pony geritten? , Q_cen-geritten
+So, 31 Mai 2020 15:40:45 +0000  QA_rec 1 0 1 5
+So, 31 Mai 2020 15:41:04 +0000  QA_rec 0 0 1 5
+So, 31 Mai 2020 15:41:04 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Es dauerte lange, alle nötigen Informationen zu sammeln., Q_cen-sammeln
+So, 31 Mai 2020 15:41:05 +0000  QA_rec 1 0 1 6
+So, 31 Mai 2020 15:41:24 +0000  QA_rec 0 0 1 6
+So, 31 Mai 2020 15:41:24 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Ich gratuliere dir zum Abschluss mit höchster Auszeichnung. , Q_cen-gratuliere
+So, 31 Mai 2020 15:41:25 +0000  QA_rec 1 0 1 7
+So, 31 Mai 2020 15:41:44 +0000  QA_rec 0 0 1 7
+So, 31 Mai 2020 15:41:44 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Der Aufzug ist repariert, jetzt funktioniert er wieder., Q_cen-repariert
+So, 31 Mai 2020 15:41:45 +0000  QA_rec 1 0 1 8
+So, 31 Mai 2020 15:42:04 +0000  QA_rec 0 0 1 8
+So, 31 Mai 2020 15:42:04 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Ich bin der Überzeugung, dass er es rechtzeitig schaffen kann., Q_cen-schaffen
+So, 31 Mai 2020 15:42:05 +0000  QA_rec 1 0 1 9
+So, 31 Mai 2020 15:42:24 +0000  QA_rec 0 0 1 9
+So, 31 Mai 2020 15:42:24 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Paul hat zum Abendessen Kartoffelsuppe gegessen., Q_cen-gegessen
+So, 31 Mai 2020 15:42:25 +0000  QA_rec 1 0 1 10
+So, 31 Mai 2020 15:42:44 +0000  QA_rec 0 0 1 10
+So, 31 Mai 2020 15:42:44 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Mein Bett ist gemütlich und warm, ich möchte nicht aufstehen., Q_cen-aufstehen
+So, 31 Mai 2020 15:42:45 +0000  QA_rec 1 0 1 11
+So, 31 Mai 2020 15:43:04 +0000  QA_rec 0 0 1 11
+So, 31 Mai 2020 15:43:04 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Wenn der Vulkan aktiv ist, wird Lava herausfließen., Q_cen-herausfließen
+So, 31 Mai 2020 15:43:05 +0000  QA_rec 1 0 1 12
+So, 31 Mai 2020 15:43:24 +0000  QA_rec 0 0 1 12
+So, 31 Mai 2020 15:43:24 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Der Autor beschrieb Sam als eine sehr nette Person., Q_cen-beschrieb
+So, 31 Mai 2020 15:43:25 +0000  QA_rec 1 0 1 13
+So, 31 Mai 2020 15:43:44 +0000  QA_rec 0 0 1 13
+So, 31 Mai 2020 15:43:44 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Die Ergebnisse werden auf einer Skala von eins bis zehn angezeigt., Q_cen-angezeigt
+So, 31 Mai 2020 15:43:45 +0000  QA_rec 1 0 1 14
+So, 31 Mai 2020 15:44:04 +0000  QA_rec 0 0 1 14
+So, 31 Mai 2020 15:44:04 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Plastik Müll belastet die Umwelt., Q_cen-belastet
+So, 31 Mai 2020 15:44:05 +0000  QA_rec 1 0 1 15
+So, 31 Mai 2020 15:44:24 +0000  QA_rec 0 0 1 15
+So, 31 Mai 2020 15:44:24 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Sie redete leise und unverständlich., Q_cen-redete
+So, 31 Mai 2020 15:44:25 +0000  QA_rec 1 0 1 16
+So, 31 Mai 2020 15:44:44 +0000  QA_rec 0 0 1 16
+So, 31 Mai 2020 15:44:44 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Ich habe das Formular ausgefüllt, um mich für den Kurs anzumelden., Q_cen-ausgefüllt
+So, 31 Mai 2020 15:44:45 +0000  QA_rec 1 0 1 17
+So, 31 Mai 2020 15:45:04 +0000  QA_rec 0 0 1 17
+So, 31 Mai 2020 15:45:04 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Siehst du! Ich habe dir gesagt, dass es regnen würde., Q_cen-gesagt
+So, 31 Mai 2020 15:45:05 +0000  QA_rec 1 0 1 18
+So, 31 Mai 2020 15:45:24 +0000  QA_rec 0 0 1 18
+So, 31 Mai 2020 15:45:24 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Wir werden später bestellen, denn es fehlen noch einige Gäste., Q_cen-fehlen
+So, 31 Mai 2020 15:45:25 +0000  QA_rec 1 0 1 19
+So, 31 Mai 2020 15:45:44 +0000  QA_rec 0 0 1 19
+So, 31 Mai 2020 15:45:44 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Singapore liegt in Südostasien., Q_cen-liegt
+So, 31 Mai 2020 15:45:45 +0000  QA_rec 1 0 1 20
+So, 31 Mai 2020 15:46:04 +0000  QA_rec 0 0 1 20
+So, 31 Mai 2020 15:46:04 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Dem Patienten geht es viel besser, so dass der Arzt ihm das Rauchen erlaubte., Q_cen-erlaubte
+So, 31 Mai 2020 15:46:05 +0000  QA_rec 1 0 1 21
+So, 31 Mai 2020 15:46:24 +0000  QA_rec 0 0 1 21
+So, 31 Mai 2020 15:46:24 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Ich habe mich dieses Semester für einen sehr einfachen Kurs angemeldet., Q_cen-angemeldet
+So, 31 Mai 2020 15:46:25 +0000  QA_rec 1 0 1 22
+So, 31 Mai 2020 15:46:44 +0000  QA_rec 0 0 1 22
+So, 31 Mai 2020 15:46:44 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Einige NGOs schützen die Rechte der Menschen., Q_cen-schützen
+So, 31 Mai 2020 15:46:45 +0000  QA_rec 1 0 1 23
+So, 31 Mai 2020 15:47:04 +0000  QA_rec 0 0 1 23
+So, 31 Mai 2020 15:47:04 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
+So, 31 Mai 2020 15:47:05 +0000  QA_rec 1 0 1 24
+So, 31 Mai 2020 15:47:24 +0000  QA_rec 0 0 1 24
+So, 31 Mai 2020 15:47:24 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Die Kinder haben ihrer Mutter im Haushalt geholfen., Q_cen-geholfen
+So, 31 Mai 2020 15:47:44 +0000  fade_out 1 0 None None
+So, 31 Mai 2020 15:47:44 +0000  fade_out 0 0 None None
+So, 31 Mai 2020 15:47:46 +0000  fade_in 1 1 None None
+So, 31 Mai 2020 15:48:21 +0000  fade_in 0 1 None None
+So, 31 Mai 2020 15:48:23 +0000  RS_intro 1 1 0 None
+So, 31 Mai 2020 15:48:46 +0000  RS_intro 0 1 0 None
+So, 31 Mai 2020 15:48:46 +0000  RS_rec 1 1 0 None
+So, 31 Mai 2020 15:52:04 +0000  RS_rec 0 1 close None
+So, 31 Mai 2020 15:52:04 +0000  RS_intro 1 1 1 None
+So, 31 Mai 2020 15:52:27 +0000  RS_intro 0 1 1 None
+So, 31 Mai 2020 15:52:27 +0000  RS_rec 1 1 1 None
+So, 31 Mai 2020 15:55:37 +0000  RS_rec 0 1 open None
+So, 31 Mai 2020 15:55:55 +0000  QA_intro 1 1 None None
+So, 31 Mai 2020 15:56:40 +0000  QA_intro 0 1 None None
+So, 31 Mai 2020 15:56:42 +0000  QA_rec 1 1 0 0
+So, 31 Mai 2020 15:57:00 +0000  QA_rec 0 1 0 0
+So, 31 Mai 2020 15:57:00 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Der Test dauert nur fünfzehn Minuten., Q_cen-dauert
+So, 31 Mai 2020 15:57:01 +0000  QA_rec 1 1 0 1
+So, 31 Mai 2020 15:57:20 +0000  QA_rec 0 1 0 1
+So, 31 Mai 2020 15:57:20 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Dieses Zelt wurde für extreme Wetterlagen, z.B. Sturm, Schneesturm, gebaut., Q_cen-gebaut
+So, 31 Mai 2020 15:57:21 +0000  QA_rec 1 1 0 2
+So, 31 Mai 2020 15:57:40 +0000  QA_rec 0 1 0 2
+So, 31 Mai 2020 15:57:40 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Ich kenne dieses Wort nicht, was bedeutet es also?, Q_cen-bedeutet
+So, 31 Mai 2020 15:57:41 +0000  QA_rec 1 1 0 3
+So, 31 Mai 2020 15:58:00 +0000  QA_rec 0 1 0 3
+So, 31 Mai 2020 15:58:00 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Wir bleiben heute zu Hause, weil wir zu müde sind., Q_cen-bleiben
+So, 31 Mai 2020 15:58:01 +0000  QA_rec 1 1 0 4
+So, 31 Mai 2020 15:58:20 +0000  QA_rec 0 1 0 4
+So, 31 Mai 2020 15:58:20 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Das Buch war witzig, ich habe stundenlang gelacht., Q_cen-gelacht
+So, 31 Mai 2020 15:58:21 +0000  QA_rec 1 1 0 5
+So, 31 Mai 2020 15:58:40 +0000  QA_rec 0 1 0 5
+So, 31 Mai 2020 15:58:40 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Dieser Supermarkt hat nur am Tage geöffnet., Q_cen-geöffnet
+So, 31 Mai 2020 15:58:41 +0000  QA_rec 1 1 0 6
+So, 31 Mai 2020 15:59:00 +0000  QA_rec 0 1 0 6
+So, 31 Mai 2020 15:59:00 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Er hängte seine Jacke über die Lehne des Stuhls., Q_cen-hängte
+So, 31 Mai 2020 15:59:01 +0000  QA_rec 1 1 0 7
+So, 31 Mai 2020 15:59:20 +0000  QA_rec 0 1 0 7
+So, 31 Mai 2020 15:59:20 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Früh übt sich, wer ein Meister werden will., Q_cen-werden
+So, 31 Mai 2020 15:59:21 +0000  QA_rec 1 1 0 8
+So, 31 Mai 2020 15:59:40 +0000  QA_rec 0 1 0 8
+So, 31 Mai 2020 15:59:40 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Beim Spinat und Kohl wird man die Blätter essen., Q_cen-essen
+So, 31 Mai 2020 15:59:41 +0000  QA_rec 1 1 0 9
+So, 31 Mai 2020 16:00:00 +0000  QA_rec 0 1 0 9
+So, 31 Mai 2020 16:00:00 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Er hat den Vorgang im Tagebuch beschrieben., Q_cen-beschrieben
+So, 31 Mai 2020 16:00:01 +0000  QA_rec 1 1 0 10
+So, 31 Mai 2020 16:00:20 +0000  QA_rec 0 1 0 10
+So, 31 Mai 2020 16:00:20 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Wir leben alle auf der Erde., Q_cen-leben
+So, 31 Mai 2020 16:00:21 +0000  QA_rec 1 1 0 11
+So, 31 Mai 2020 16:00:40 +0000  QA_rec 0 1 0 11
+So, 31 Mai 2020 16:00:40 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+So, 31 Mai 2020 16:00:41 +0000  QA_rec 1 1 0 12
+So, 31 Mai 2020 16:01:00 +0000  QA_rec 0 1 0 12
+So, 31 Mai 2020 16:01:00 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Sie sollten mehr Obst essen, Vitamin C wird Ihnen bei Erkältungen helfen., Q_cen-helfen
+So, 31 Mai 2020 16:01:01 +0000  QA_rec 1 1 0 13

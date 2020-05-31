@@ -1,0 +1,31 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+successfully send trigger: 254
+Target folder is successfully created! Path: 
+./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1507/
+Log: instruction start
+Log: instruction finish
+Log: artifact_intro start
+successfully send trigger: 70
+successfully send trigger: 71
+Log: artifact_intro finish
+Log: artifact_rec start: Trial 0
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 63
+successfully send trigger: 73
+Log: artifact_rec finish: Trial0
+Log: artifact_rec start: Trial 1
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 1

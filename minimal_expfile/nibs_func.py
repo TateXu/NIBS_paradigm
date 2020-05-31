@@ -45,6 +45,7 @@ def exp_init(Name='nibs_stage_1'):
             'German level': ['A1', 'A2', 'B1', 'B2'],
             'Full_screen': False,
             'Instruction': True,
+            'Intro': True,
             'Artifact': True,
             'Cali_pre': True,
             'Fade_in_out': True,
@@ -119,8 +120,8 @@ def path_init(expInfo):
     _thisDir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(_thisDir)
 
-    folder_path = './data/Subject_%s/Session_%s/Exp_data/' %(
-        expInfo['participant'], expInfo['session'])
+    folder_path = './data/Subject_%s/Session_%s/Exp_data/%s/' %(
+        expInfo['participant'], expInfo['session'], expInfo['date'])
     filename = _thisDir + os.sep + 'data/Subject_%s/Session_%s/%s_%s' %(
         expInfo['participant'], expInfo['session'], expInfo['expName'], expInfo['date'])
     create_folder(folder_path)
