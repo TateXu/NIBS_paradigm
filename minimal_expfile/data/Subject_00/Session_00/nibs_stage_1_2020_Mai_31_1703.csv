@@ -1,0 +1,6 @@
+﻿run.thisRepN,run.thisTrialN,run.thisN,run.thisIndex,fade_in_text.text,fade_in_text.started,fade_in_text.stopped,RS_intro_title.started,RS_intro_title.stopped,RS_intro_text.text,RS_intro_text.started,RS_intro_text.stopped,RS_intro_audio.started,RS_intro_audio.stopped,RS_rec_text.text,RS_rec_text.started,RS_rec_text.stopped,RS_rec_cont.started,RS_rec_cont.stopped,participant,session,First language,German level,Full_screen,Instruction,Intro,Artifact,Cali_pre,Fade_in_out,Resting_State,QA,Pause,Cali_post,End,Breakpoint_Cali_pre_trial,Breakpoint_Run,Breakpoint_RS_block,Breakpoint_QA_block,Breakpoint_QA_trial,Breakpoint_Cali_post_trial,date,expName,psychopyVersion,frameRate,
+,,,,Please remain seated until further instruction via the earphone.,57.533588886260986,None,369.681382894516,None," - Task: Keep seated and relaxed with either      
+             opening or closing eyes                  
+ - Beep sound with decreasing pitch: Block finish 
+",369.681382894516,None,369.66264128685,None,"Please keep relaxed and open your eyes.
+Note: Blinking is allowed.",392.7158029079437,572.7416698932648,574.5248379707336,None,,,,,,,,,,,,,,,,,,,,,,,,,,

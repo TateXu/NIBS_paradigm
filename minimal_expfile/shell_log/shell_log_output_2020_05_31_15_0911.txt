@@ -1,0 +1,326 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+successfully send trigger: 254
+Target folder is successfully created! Path: 
+./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/
+Log: instruction start
+Log: instruction finish
+Log: artifact_intro start
+successfully send trigger: 70
+successfully send trigger: 71
+Log: artifact_intro finish
+Log: artifact_rec start: Trial 0
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 63
+successfully send trigger: 73
+Log: artifact_rec finish: Trial0
+Log: artifact_rec start: Trial 1
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 63
+successfully send trigger: 73
+Log: artifact_rec finish: Trial1
+Log: artifact_rec start: Trial 2
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 77
+successfully send trigger: 62
+successfully send trigger: 63
+successfully send trigger: 73
+Log: artifact_rec finish: Trial2
+Log: artifact_rec start: Trial 3
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 63
+successfully send trigger: 73
+Log: artifact_rec finish: Trial3
+Log: artifact_rec start: Trial 4
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 63
+successfully send trigger: 73
+Log: artifact_rec finish: Trial4
+Log: artifact_rec start: Trial 5
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 77
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial5
+Log: artifact_rec start: Trial 6
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial6
+Log: artifact_rec start: Trial 7
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 75
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial7
+Log: artifact_rec start: Trial 8
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 75
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial8
+Log: artifact_rec start: Trial 9
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 75
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 77
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial9
+Log: artifact_rec start: Trial 10
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial10
+Log: artifact_rec start: Trial 11
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial11
+Log: artifact_rec start: Trial 12
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 75
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial12
+Log: artifact_rec start: Trial 13
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial13
+Log: artifact_rec start: Trial 14
+successfully send trigger: 72
+successfully send trigger: 74
+successfully send trigger: 76
+Recording start!
+here?
+successfully send trigger: 78
+successfully send trigger: 79
+successfully send trigger: 62
+successfully send trigger: 73
+Log: artifact_rec finish: Trial14
+successfully send trigger: 2
+Log: cali_pre_intro start
+successfully send trigger: 10
+successfully send trigger: 11
+Log: cali_pre_intro finish
+Log: cali_pre_rec start: Trial 0
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 17
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_000.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial0
+Log: cali_pre_rec start: Trial 1
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_001.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial1
+Log: cali_pre_rec start: Trial 2
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_002.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial2
+Log: cali_pre_rec start: Trial 3
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_003.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial3
+Log: cali_pre_rec start: Trial 4
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_004.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial4
+Log: cali_pre_rec start: Trial 5
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_005.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial5
+Log: cali_pre_rec start: Trial 6
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_006.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial6
+Log: cali_pre_rec start: Trial 7
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_007.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial7
+Log: cali_pre_rec start: Trial 8
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_008.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial8
+Log: cali_pre_rec start: Trial 9
+successfully send trigger: 12
+successfully send trigger: 14
+successfully send trigger: 16
+Recording start!
+successfully send trigger: 18
+successfully send trigger: 19
+successfully send trigger: 17
+successfully send trigger: 62
+Recording is saved!./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1509/rec_cali_de_pre_trial_009.wav
+successfully send trigger: 13
+Log: cali_pre_rec finish: Trial9
+successfully send trigger: 60
+successfully send trigger: 61
+successfully send trigger: 3
+successfully send trigger: 4
+Log: fade in start: Run 0
+*IDN?
+b'Rigol Technologies,DG1062Z,DG1ZA211401213,03.01.12  '
+Log: fade in end: Run 0
+successfully send trigger: 28
+successfully send trigger: 6
+Log: RS intro start: Run 0close Block : 0
+successfully send trigger: 30
+successfully send trigger: 31
+Log: RS intro finish: Run 0close Block : 0
+Log: RS rec start: Run 0close Block : 0
+successfully send trigger: 34
+successfully send trigger: 35
+Log: RS rec finish: Run 0close Block : 0
+Log: RS intro start: Run 0open Block : 1
+successfully send trigger: 30
+successfully send trigger: 1

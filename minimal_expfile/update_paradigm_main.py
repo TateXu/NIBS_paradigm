@@ -78,7 +78,8 @@ event_dict = {'ESC': 1,
               'Break': [62, 63],
               'Arti_intro': [70, 71],
               'Arti_trial': [72, 73],
-              'Arti_action': [74, 75]}
+              'Arti_action': [74, 75],
+              'Arti_rec': [78, 79]}
 
 instruction_pos = [0.5, 0.1]
 instruction_annot_pos = [0.5, -0.4]
@@ -92,9 +93,9 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 2  #20- 10 mins
-n_cali_trial = 2  #10
-n_arti_trial = 15
+n_trial = 25  # 25 - 500 secs
+n_cali_trial = 10  # 10 - 200 secs
+n_arti_trial = 15 # 15 - 300 secs
 
 n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
@@ -168,7 +169,7 @@ if always_dislpay:
 rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 21, None    # Audio 20s
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
-rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 20, 1, None     # 180s!
+rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None     # 180s!
 rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap 
 rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 
@@ -207,18 +208,19 @@ if init_flag:
     font_size = (0.06 if not expInfo['Full_screen'] else 0.15)
 
     Instruction_flag = expInfo['Instruction']
-    Artifact_intro_flag = expInfo['Artifact']
+    Intro_flag = expInfo['Intro']
+    Artifact_intro_flag = expInfo['Artifact']  & Intro_flag
     Artifact_rec_flag = expInfo['Artifact']
-    Cali_de_pre_intro_flag = expInfo['Cali_pre']
+    Cali_de_pre_intro_flag = expInfo['Cali_pre']  & Intro_flag
     Cali_de_pre_rec_flag = expInfo['Cali_pre']
     fade_in_flag = expInfo['Fade_in_out']
     fade_out_flag = expInfo['Fade_in_out']
-    RS_intro_flag = expInfo['Resting_State']
+    RS_intro_flag = expInfo['Resting_State'] & Intro_flag
     RS_rec_flag = expInfo['Resting_State']
-    QA_intro_flag = expInfo['QA']
+    QA_intro_flag = expInfo['QA']  & Intro_flag
     QA_rec_flag = expInfo['QA']
     Pause_flag = expInfo['Pause']
-    Cali_de_post_intro_flag = expInfo['Cali_post']
+    Cali_de_post_intro_flag = expInfo['Cali_post'] & Intro_flag
     Cali_de_post_rec_flag = expInfo['Cali_post']
     end_flag = expInfo['End']
 
@@ -407,15 +409,11 @@ if init_flag:
     RS_rec_text_str = 'Please keep relaxed and open your eyes.\nNote: Blinking is allowed.'
     RS_rec_comp_list = [
         textstim_generator(win=win, name='text', content=RS_rec_text_str, pos=text_pos),
-        audio_generator(name='beep_end', loc=audio_root+'resting_state/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
-        key_resp_generator(name='key_resp'),
-        textstim_generator(win=win, name='cont', content=continue_str, pos=annot_pos)
+        audio_generator(name='beep_end', loc=audio_root+'resting_state/C4A_C3A_tone_decrease_1s_new.wav', secs=1)
         ]
     RS_rec = routine_init('RS_rec', RS_rec_comp_list)
     RS_rec['time'] = {'text':[rs_rec_text_start, rs_rec_text_dur],
-                      'beep_end': [rs_rec_beep_e_start, rs_rec_beep_e_dur], 
-                      'key_resp':[rs_rec_cont_start, rs_rec_cont_dur],
-                      'cont':[rs_rec_cont_start, rs_rec_cont_dur]}
+                      'beep_end': [rs_rec_beep_e_start, rs_rec_beep_e_dur]}
 
     # Initialize components for Routine "QA_intro"
     QA_intro_text_str = ' - Task: Listen to the question& Speak out answer \n' + \
@@ -1069,7 +1067,7 @@ for thisRun in run:
         breakpoint_logger(comp='fade_in', value=1, run=run.thisN, block=None, trial=None)
         print('Log: fade in start: Run ' + str(run.thisN))
 
-        fade_in['text'].setText('Please remain seated until further notice via the earphone.')
+        fade_in['text'].setText('Please remain seated until further instruction via the earphone.')
         # Instantiate the object for signal generator
         try:
             if isinstance(fg, SG()):
@@ -1259,8 +1257,6 @@ for thisRun in run:
                 RS_rec['text'].setText(RS_rec_text_str) 
             # ------Prepare to start Routine "RS_rec"-------
             # update component parameters for each repeat
-            RS_rec['key_resp'].keys = []
-            RS_rec['key_resp'].rt = []
             # keep track of which components have finished
             win, RS_rec, RS_recComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_rec)
             trigger_mat = np.zeros((len(RS_recComponents) - 1, 2))
@@ -1276,19 +1272,8 @@ for thisRun in run:
                 win, RS_rec['text'], trigger_mat[0] = run_comp(
                     win, RS_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
                     start_time=RS_rec['time']['text'][0], duration=RS_rec['time']['text'][1])
-                # *Cali_de_pre_rec['key_resp']* updates
-                waitOnFlip=False
-                win, RS_rec['key_resp'], continueRoutine, endExpNow, trigger_mat[1] = run_comp(
-                    win, RS_rec['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_rec['time']['key_resp'][0], duration=RS_rec['time']['key_resp'][1],
-                    waitOnFlip=waitOnFlip)
-                # *Cali_de_pre_rec['cont']* updates
-                win, RS_rec['cont'], trigger_mat[2] = run_comp(
-                    win, RS_rec['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
-                    start_time=RS_rec['time']['cont'][0], duration=RS_rec['time']['cont'][1],
-                    repeat_per_frame=True, repeat_content=continue_str)
                 # *QA_rec["beep_end"]* updates
-                win, RS_rec['beep_end'], trigger_mat[3] = run_comp(
+                win, RS_rec['beep_end'], trigger_mat[1] = run_comp(
                     win, RS_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
                     start_time=RS_rec['time']['beep_end'][0], duration=RS_rec['time']['beep_end'][1])
 
@@ -1304,7 +1289,7 @@ for thisRun in run:
             for thisComponent in RS_recComponents:
                 if hasattr(thisComponent, "setAutoDraw"):
                     thisComponent.setAutoDraw(False)
-            run = data_writer(run, RS_rec, 'RS_rec', ['text', 'cont'])
+            run = data_writer(run, RS_rec, 'RS_rec', ['text'])
             if RS_order[RS_loop] == 'open':
                 trigger_sending(event_dict['RS_open'][1], default_sleep=True) # Sending trigger 34 (RS_open End) 
             elif RS_order[RS_loop] == 'close':
@@ -1676,7 +1661,7 @@ for thisRun in run:
         print('Log: fade out start: Run ' + str(run.thisN))
         trigger_sending(event_dict['Stable_stim'][1], default_sleep=True) # Sending trigger 29 (Stable_stim End)
         breakpoint_logger(comp='fade_out', value=1, run=run.thisN, block=None, trial=None)
-        fade_in['text'].setText('Please remain seated until further notice via the earphone.')
+        fade_in['text'].setText('Please remain seated until further instruction via the earphone.')
         # Instantiate the object for signal generator
         try:
             if isinstance(fg, SG()):

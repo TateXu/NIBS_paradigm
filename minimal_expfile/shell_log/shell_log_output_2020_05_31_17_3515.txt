@@ -1,0 +1,12 @@
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+successfully send trigger: 254
+Target folder is successfully created! Path: 
+./data/Subject_00/Session_00/Exp_data/2020_Mai_31_1735/
+successfully send trigger: 2
+successfully send trigger: 3
+successfully send trigger: 4
+successfully send trigger: 28
+successfully send trigger: 6
+Log: RS rec start: Run 0open Block : 0
+successfully send trigger: 32
