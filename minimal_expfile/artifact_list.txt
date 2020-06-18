@@ -1,0 +1,12 @@
+
+Eyeball movement: horizontal, vertical, circular, 
+Eye muscle movement: blink, frown
+Mouth movement: clench teeth
+Neck Rotation: horizontal& vertical
+Limb Extension& Flexion : arm, leg
+Hand movement: fist& let it go, rotating wrist
+Body movement: upper body 
+Respiration: holding breathe,  breathe in and out deeply
+
+
+
