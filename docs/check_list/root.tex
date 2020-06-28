@@ -17,7 +17,13 @@
 
 %\usepackage[bookmarks=false]{hyperref}
 %\usepackage[noend]{algpseudocode}
+\usepackage{afterpage}
 
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
 
 \usepackage{enumitem,amssymb}
 \newlist{todolist}{itemize}{2}
@@ -80,34 +86,28 @@
 	\item \textbf{Before arrival}
 	
 	\begin{todolist}
-		\item ($>$4h) Charge amp batteries
-		\item ($>$4h) Charge stimulator battery
-		\item ($>$1h) Stimulator battery $>=$ 95 \%
-		\item ($>$1h) Make sure all EEG caps are clean and dry
-		\item ($>$1h) Set up and test equipment
+		\item ($>$4h) \textbf{Battery check}: Amplifier, Stimulator
+		\item ($>$1h) \textbf{Equipment check}: 
 		\begin{todolist}
-			\item Waveform generator
-			\item Stimulator REMOTE
-			\item Stimulator SIGNAL OUT
-			\item Stimulator Output using oscilloscope
-			\item Audio \& Earphone
-			\item Recording \& Microphone
-			\item EEG system, incl. caps, SIGNAL OUT \& Trigger
+			\item EEG: dry clean cap, trigger sending, task manager \textbf{(port permission)}
+			\item Waveform generator: (\textbf{port permission})
+			\item Stimulator: REMOTE, SIGNAL OUT, Output using oscilloscope
+			\item Earphone \& Microphone: play audio file and recording voice.
 		\end{todolist}
-		\item ($>$1h) Print consent, payment, feedback/quiz and study protocol forms
-		\item ($>$1h) Tissues, 2*cotton swabs, 2*syringes, EEG gel, Ten20 paste, two water-based pens with different color
+		\item ($>$1h) \textbf{Docs check}: 
+		\begin{todolist}
+			\item Docs: Consent, payment, feedback/quiz and protocol forms
+			\item Identifier \& Stim. frequency
+		\end{todolist}
+		\item ($>$1h) \textbf{Tools check}: Tissues, 2*cotton swabs, 2*syringes, EEG gel, Ten20 paste, 4*EOG stickers
 	\end{todolist}
 	\item \textbf{Preparation}
 		\begin{todolist}
 			\item Introduce lab (Only for the first time)
 			\item Give consent form to subject and receive it signed
-			\item Assign / look up identifier
 			\item Get a glass of drink and bring snack for subject
 			\item Explain task
-			\item Prepare subject (gelling)
-			\begin{todolist}
-				\item Follow that mat.
-			\end{todolist}
+			\item \textbf{Follow EEG setup}
 			\item Put "Do not disturb" signs on both doors
 		\end{todolist}
 	\item \textbf{Recording}
@@ -115,10 +115,13 @@
 			\item Start NeurOne recording $\Rightarrow$ "paradigm\_practice.py" $\Rightarrow$ Answer question $\Rightarrow$ "paradigm\_main.py"
 						
 			\begin{todolist}
-				\item In practice stage, adjust volume on computer to be comfortable for subject \& confirm they can hear 40 Hz sound within questions.
+				\item In practice stage, \textbf{adjust volume} on computer to be comfortable for subject 
 			\end{todolist}
-			\item Watch for amplifier battery warning. In case of warning: wait for next break $\Rightarrow$  stop recording $\Rightarrow$  change battery $\Rightarrow$  start recording  $\Rightarrow$  Note down the break. 
-			\item Watch for stimulator battery warning. In case low battery or the subject want to stop: wait for next break $\Rightarrow$ stop recording $\Rightarrow$ run "safe\_stop.sh" $\Rightarrow$ run "safe\_start.sh" $\Rightarrow$  start recording  $\Rightarrow$  Note down the break
+			\item Battery warning
+			\begin{todolist}
+				\item Amplifier: wait for next break $\Rightarrow$  stop recording $\Rightarrow$  change battery $\Rightarrow$  start recording  $\Rightarrow$  Note down the break. 
+				\item Stimulator: wait for next break $\Rightarrow$ stop recording $\Rightarrow$ run "safe\_stop.sh" $\Rightarrow$ run "safe\_start.sh" $\Rightarrow$  start recording  $\Rightarrow$  Note down the break
+			\end{todolist}
 			\item Denote anything out of the ordinary in the study protocol, e.g. loud noises, breaks in recording, faulty equipment 
 			\item During breaks: offer water, ask if everything is ok
 		\end{todolist}
@@ -130,12 +133,14 @@
 			\item Pay subject and receive signed payment form
 			\item Export data and save it to NI share
 			\item Shut down EEG equipment, stimulator and computers
+			\item Definfection EEG equipment, stimulator and computers
 			\item Clean EEG cap, stimulator rubber electrodes
 			\item Charge batteries
 		\end{todolist}
 \end{itemize}
-	\printbibliography
+\blankpage
 	
+	\blankpage
 	
 	
 	

@@ -18,7 +18,13 @@
 %\usepackage[bookmarks=false]{hyperref}
 %\usepackage[noend]{algpseudocode}
 
+\usepackage{afterpage}
 
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
 \usepackage{enumitem,amssymb}
 \newlist{todolist}{itemize}{2}
 \setlist[todolist]{label=$\square$}
@@ -80,24 +86,19 @@
 	\item \textbf{Montage}
 	
 	\begin{todolist}
-		\item TP7: Anode (Red) \& TP8: Cathode (Blue)
+		\item FC3: Anode (Red) \& T7: Cathode (Blue)
+		\item Stim. elec. Vicinity: FFC3h, FFC5h, FCC3h, FCC5h \& None
 	\end{todolist}
 	\item \textbf{Preparation tACS Electrodes}
 	\begin{todolist}
-		\item Measure brain size (circumference) $\Rightarrow$ Choose and put on EEG cap $\Rightarrow$ Adjust position (10-20 system) $\Rightarrow$ Fasten the chin strap
-		\item Mark the position of tACS electrodes, i.e., TP7/8
-		\item Confirm the marked area and remove the caps 
-		\item Mark the circle area with some arc of diameter 36mm 
-		\item Remove the hair in that area as much as possible
-		\item Connect the wire but DO NOT turn the stimulator on.
-		\item Apply a thin layer of Ten20 gel on the tACS electrodes (a sparse application is recommended) and place it in the correct location as marked area indicate.
-		\item Turn on stimulator and monitor the impedance. In the meantime, carefully putting some pressure on the tACS electrodes while paying close attention to the location of tACS electrodes 
-		\item Add more paste if necessary, but still, as less as possible. And make sure the electrodes are within the marked area.
-		\item Continue putting pressure until the impedance is under 10k$\Omega$
-		\item Remove the excess gel with a cotton swab
-		\item Make sure the electrodes are firmly located on the scalp
-		\item Double-check the impedance under 10k$\Omega$
-		\item Turn off the stimulator
+		\item \textbf{EEG cap}: Measure brain size (circumference) $\Rightarrow$ Choose and put on EEG cap $\Rightarrow$ Adjust position (10-20 system) $\Rightarrow$ \textbf{Fasten the chin strap}
+		\item \textbf{Location marking}: Use EOG sticker to mark FC3 \& T7 $\Rightarrow$ Remove the caps $\Rightarrow$ Remove the hair in marked area 
+
+		\item \textbf{Stimulator:} OFF $\Rightarrow$  Connect the wire $\Rightarrow$  Apply Ten20 gel on the tACS electrodes $\Rightarrow$ Place it in the marked area $\Rightarrow$  Turn ON stimulator
+
+		\item \textbf{Impedance check (10k Ohm)}: Add more paste or press until the impedance is under 10k$\Omega$ and carefully pressing on the tACS electrodes to avoid tACS electrodes sliding. 
+		\item\textbf{Remove the excess gel with a cotton swab}
+		\item Turn OFF the stimulator
 	\end{todolist}
 	\item \textbf{Mounting the EEG cap}
 		\begin{todolist}
@@ -107,17 +108,21 @@
 	
 	\item \textbf{Preparation for EEG electrodes}
 		\begin{todolist}
-			\item Gel the ground and reference EEG electrodes first.
-			\item Proceed with the EEG electrodes located in the vicinity of the tACS electrodes: Inject the gel with the needle tip pointing in a direction away from the tACS electrode and apply as LESS GEL as possible.
-			\item Apply gel to the rest EEG electrodes (First round)
-			\item In the second round, for the electrodes at the vicinity of tACS electrodes, use the cotton swab to increase contact between scalp and electrodes. DO NOT USE SYRINGE to do the second round for these electrodes.
-			\item Use syringe do the second round gelling for all rest electrodes
-			\item Check the impedance and thrifty gel the electrodes which do not show a green/yellow impedance.
-			\item Test any bridging effect exist between tACS and EEG electrodes, i.e., apply 1mA sinusoidial signal and observe any saturation of EEG electrodes from recording signal.
-			\item Check impedance again and start recording.
+			\item\textbf{Gel electrode:} ground\&ref   $\Rightarrow$ Vicinity of the tACS electrodes $\Rightarrow$ Rest
+			\item \textbf{Note for vicinity}: Inject the gel with the needle tip pointing in a direction away from the tACS electrode and apply as LESS GEL as possible.
+			\item First round
+			\item Second round: In the second round use the \textbf{cotton swab for the vicinity}
+			\item \textbf{EEG impedance check}: gel until green/yellow
+			\item \textbf{!!! Hardware check:} DC mode + 1Kz sampling frequency
+			\item \textbf{!!! Stimulator setting:} Signal out ON, REMOTE ON
+			\item \textbf{Saturation test}, i.e., apply 1mA sinusoidial signal and observe any saturation of EEG electrodes from recording signal. (safe\_start.py \& safe\_end.py)
+			\item \textbf{Check EEG AND tACS impedance again and start recording.}
+			
 		\end{todolist}
 \end{itemize}
-	\printbibliography
+\blankpage
+
+\blankpage
 	
 	
 	

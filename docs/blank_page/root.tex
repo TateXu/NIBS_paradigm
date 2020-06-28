@@ -1,0 +1,87 @@
+\documentclass[journal, onecolumn, 11pt]{IEEEtran}
+
+\usepackage{lineno}
+%\usepackage{appendix}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage{multirow}
+\usetikzlibrary{shapes,arrows}
+\usepackage{subcaption}
+\usepackage{algorithm}
+\usepackage[normalem]{ulem}
+\usepackage[algo2e]{algorithm2e}
+
+%\usepackage[bookmarks=false]{hyperref}
+%\usepackage[noend]{algpseudocode}
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\Tr}[1]{\text{Tr}\left(#1\right) }
+\newcommand{\vt}[1]{\text{vec}\left(#1\right) }
+\newcommand*{\tran}{^{\mkern-1.5mu\mathsf{T}}}
+
+\newcommand{\Logm}[1]{\text{Logm}\left(#1\right) }
+\newcommand{\Expm}[1]{\text{Expm}\left(#1\right) }
+
+%\modulolinenumbers[5]
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+\colorlet{shadecolor}{blue!20}
+\newcommand{\mgw}[1]{\textcolor{orange}{#1}}
+\newcommand{\vj}[1]{\textcolor{blue}{#1}}
+\newcommand{\jxu}[2]{\textcolor{olive}{\sout{#1}} \textcolor{red}{#2}}
+
+\usepackage[style=numeric, sorting=none, giveninits=true, backend=bibtex, maxbibnames=3, url=false, isbn=false, doi=false]{biblatex}
+%style=numeric-comp ,
+\bibliography{library}
+
+\title{Checklist for personalized NIBS for L2 learning}
+
+\makeatletter
+\def\blx@maxline{77}
+\makeatother
+
+
+\nolinenumbers
+\begin{document}
+	
+	%\begin{itemize}
+	%	\item Riemannian methods suffer from poor interpretability and high computational cost
+	%	\item Spatial filters from the tangent space enable interpretable and efficient computation
+	%	\item Applying the filters are equivalent to the original formulation under mild conditions
+	%	\item Proposed pipelines meet/increase the original method's accuracy in a meta-analysis
+	%	\item We include open-source off-the-shelf code for the proposed framework
+	%\end{itemize}
+	
+	\numberwithin{equation}{section}
+	\numberwithin{figure}{section}
+	\numberwithin{table}{section}
+	
+
+\blankpage
+
+
+	
+	
+	
+	
+	
+\end{document}
