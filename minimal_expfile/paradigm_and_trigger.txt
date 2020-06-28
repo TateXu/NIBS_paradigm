@@ -146,3 +146,33 @@ Censored word     start/end: 10/11
 Pause  start/end: 0/1
 Break  start/end: 2/3 
 
+
+==========================================  
+|--- Artifact collection Trigger (70) ---|
+==========================================
+Intro             start/end: 0/1
+Trial             start/end: 2/3
+Q-audio           start/end: 4/5
+Answer            start/end: 6/7
+Answer recording  start/end: 8/9
+Censored word     start/end: 10/11
+
+==========================================  
+|--- Artifact Collection Order (70) ---|
+==========================================
+'eye_horizontal.wav',
+'eye_vertical.wav',
+'eye_circular.wav',
+'eye_blink.wav',
+'frown.wav',
+'head_horizontal.wav',
+'head_vertical.wav',
+'arm.wav',
+'leg.wav',
+'fist.wav',
+'wrist.wav',
+'upper_body.wav',
+'teeth.wav',
+'no_respiration.wav',
+'respiration.wav'
+
