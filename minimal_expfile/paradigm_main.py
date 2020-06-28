@@ -93,7 +93,7 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 25  # 25 - 500 secs
+n_trial = 1  # 25 - 500 secs
 n_cali_trial = 10  # 10 - 200 secs
 n_arti_trial = 15 # 15 - 300 secs
 
@@ -169,7 +169,7 @@ if always_dislpay:
 rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 21, None    # Audio 20s
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
-rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None     # 180s!
+rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 180, 1, None     # 180s!
 rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap
 rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 
@@ -179,7 +179,7 @@ QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 # 30s version: 0, 2, 14, 1, 8, 1, 2
 # 25s version: 0, 2, 12, 1, 6, 1, 1
-qa_total_time = 20.0
+qa_total_time = 25.0
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 12, 1, 6, 1, 1
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
@@ -2189,6 +2189,7 @@ trigger_sending(event_dict['Post_run'][1], default_sleep=True) # Sending trigger
 # ---------------------------------------------------
 
 if Artifact_intro_flag:
+    
     print('Log: artifact_intro start')
     breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
     # ------Prepare to start Routine "Cali_de_pre_intro"-------
@@ -2263,7 +2264,7 @@ if Artifact_intro_flag:
 
 
 if Artifact_rec_flag:
-
+    artifact_action_cnt = -1
     # ---------------------------------------------------------------------------
     # ------------------------ Start Artifact_rec Trial --------------------------
     # ---------------------------------------------------------------------------

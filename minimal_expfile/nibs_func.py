@@ -32,7 +32,7 @@ from datetime import datetime
 
 
 
-def exp_init(Name='nibs_stage_1'):
+def exp_init(Name='nibs_stage_1', fade_flag=True, pause_flag=True):
     # -----------------------------------------------------------------------------------
     # -------------------- Experiment & Device initialization ---------------------------
     # -----------------------------------------------------------------------------------
@@ -48,10 +48,10 @@ def exp_init(Name='nibs_stage_1'):
             'Intro': True,
             'Artifact': True,
             'Cali_pre': True,
-            'Fade_in_out': True,
+            'Fade_in_out': fade_flag,
             'Resting_State': True,
             'QA': True,
-            'Pause': True,
+            'Pause': pause_flag,
             'Cali_post': True,
             'End': True,
             'Breakpoint_Cali_pre_trial': 'No',
