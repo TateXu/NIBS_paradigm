@@ -4,9 +4,9 @@
 # Code: NIBS_Paradigm
 # Author: Jiachen XU <jiachen.xu.94@gmail.com>
 #
-# Last Update: 2020-03-05
+# Last Update: 2020-06-28
 #============================================================================
- 
+
 from __future__ import absolute_import, division
 import pdb
 from psychopy import locale_setup
@@ -104,7 +104,7 @@ n_rec_chn = 1
 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
-intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session 
+intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session
 stim_freq = 10
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
@@ -170,7 +170,7 @@ rs_intro_text_start, rs_intro_text_dur, rs_intro_cont_dur = 0, 21, None    # Aud
 rs_intro_cont_start = rs_intro_text_start + rs_intro_text_dur + comp_gap
 
 rs_rec_text_start, rs_rec_text_dur, rs_rec_beep_e_dur, rs_rec_cont_dur = 0, 10, 1, None     # 180s!
-rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap 
+rs_rec_beep_e_start = rs_rec_text_start + rs_rec_text_dur + comp_gap
 rs_rec_cont_start = rs_rec_beep_e_start + rs_rec_beep_e_dur + comp_gap
 
 QA_intro_title_start, QA_intro_title_dur, QA_intro_cont_dur = 0, 40, None # Audio 39s
@@ -227,10 +227,10 @@ if init_flag:
     break_cali_pre_trial = (None if expInfo['Breakpoint_Cali_pre_trial'] == 'No' else int(expInfo['Breakpoint_Cali_pre_trial']))
     break_cali_post_trial = (None if expInfo['Breakpoint_Cali_post_trial'] == 'No' else int(expInfo['Breakpoint_Cali_post_trial']))
     break_run = (None if expInfo['Breakpoint_Run'] == 'No' else int(expInfo['Breakpoint_Run']))
-    break_rs_block = (None if expInfo['Breakpoint_RS_block'] == 'No' else int(expInfo['Breakpoint_RS_block'])) 
-    break_qa_block = (None if expInfo['Breakpoint_QA_block'] == 'No' else int(expInfo['Breakpoint_QA_block']))  
-    break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial'])) 
-    
+    break_rs_block = (None if expInfo['Breakpoint_RS_block'] == 'No' else int(expInfo['Breakpoint_RS_block']))
+    break_qa_block = (None if expInfo['Breakpoint_QA_block'] == 'No' else int(expInfo['Breakpoint_QA_block']))
+    break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial']))
+
     if external_question_flag:
         pre_load_qa_df = pd.read_pickle(
             './qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
@@ -238,24 +238,24 @@ if init_flag:
         extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text = extract_qa(
             input_all_df=pre_load_qa_df)
 
-        # extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text 
+        # extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text
         pre_load_cali_df = pd.read_pickle(
             './cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
         _, _, _, _, _, cali_sen_text, _ = extract_qa(input_all_df=pre_load_cali_df)
 
-        arti_file_name_list = ['eye_horizontal.wav', 
-             'eye_vertical.wav', 
-             'eye_circular.wav', 
-             'eye_blink.wav', 
-             'frown.wav', 
-             'head_horizontal.wav', 
-             'head_vertical.wav', 
-             'arm.wav', 
-             'leg.wav', 
-             'fist.wav', 
-             'wrist.wav', 
-             'upper_body.wav', 
-             'teeth.wav', 
+        arti_file_name_list = ['eye_horizontal.wav',
+             'eye_vertical.wav',
+             'eye_circular.wav',
+             'eye_blink.wav',
+             'frown.wav',
+             'head_horizontal.wav',
+             'head_vertical.wav',
+             'arm.wav',
+             'leg.wav',
+             'fist.wav',
+             'wrist.wav',
+             'upper_body.wav',
+             'teeth.wav',
              'no_respiration.wav',
              'respiration.wav']
         action_path_list = [audio_root + 'artifact/' + arti_file for arti_file in arti_file_name_list]
@@ -284,7 +284,7 @@ if init_flag:
     instruction_comp_list = [
         textstim_generator(win=win, name='text', content=instruction_text_str, pos=instruction_pos),
         audio_generator(name='audio', loc=audio_root+'Instruction_main.wav', secs=-1),
-        key_resp_generator(name='key_resp'), 
+        key_resp_generator(name='key_resp'),
         textstim_generator(win=win, name='cont', content=continue_str, pos=instruction_annot_pos)
         ]
     instruction = routine_init('instruction', instruction_comp_list)
@@ -322,7 +322,7 @@ if init_flag:
         textstim_generator(win=win, name='recording', content='', pos=instruction_annot_pos),
         audio_generator(name='beep_end', loc=audio_root+'artifact/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=instruction_annot_pos)
-        ] 
+        ]
 
     Artifact_rec = routine_init('Artifact_rec', Artifact_rec_comp_list)
     Artifact_rec['time'] = {'text':[0, artifact_text_dur],
@@ -363,7 +363,7 @@ if init_flag:
         rec_generator(name='recording', sps=fs, loc='./data/', n_rec_chn=n_rec_chn),
         audio_generator(name='beep_end', loc=audio_root+'calibration/C4A_C3A_tone_decrease_1s_new.wav', secs=1),
         textstim_generator(win=win, name='break', content='Short break', pos=instruction_annot_pos)
-        ] 
+        ]
 
     Cali_de_pre_rec = routine_init('Cali_de_pre_rec', Cali_de_pre_rec_comp_list)
     Cali_de_pre_rec['time'] = {'text':[0, cali_text_dur],
@@ -388,7 +388,7 @@ if init_flag:
         ]
     fade_in = routine_init('fade_in', fade_in_list)
     fade_in['time'] = {'text':[0, fade_in_auto_incre], 'auto_stim':[0, fade_in_auto_incre]}
-    
+
 
     # Initialize components for Routine "RS_intro"
     RS_intro_text_str = ' - Task: Keep seated and relaxed with either      \n' + \
@@ -421,7 +421,7 @@ if init_flag:
         ' - Silent sound (blank): censored word            \n' + \
         ' - Beep sound with increasing pitch: Rec. start   \n' + \
         ' - Beep sound with decreasing pitch: Rec. finish  \n'
-    QA_intro_comp_list = [ 
+    QA_intro_comp_list = [
         textstim_generator(win=win, name='title', content='Q&A BLOCK', pos=qa_inrto_title_pos),
         textstim_generator(win=win, name='text', content=QA_intro_text_str, pos=text_pos),
         audio_generator(name='audio', loc=audio_root+'q_a_40Hz/q_a_update_assr.wav', secs=-1),
@@ -434,7 +434,7 @@ if init_flag:
                         'audio':[QA_intro_title_start, QA_intro_title_dur],
                         'key_resp':[QA_intro_cont_start, QA_intro_cont_dur],
                         'cont':[QA_intro_cont_start, QA_intro_cont_dur]}
-    
+
 
     # Initialize components for Routine "QA_rec"
     QA_rec_text_str = 'Listen to the question and speak out your answer!'
@@ -518,7 +518,7 @@ if init_flag:
 
     # Create some handy timers
     globalClock = core.Clock()  # to track the time since experiment started
-    routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
+    routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine
 
 # -----------------------------------------------------------------------------------
 # ------------------------------ Start Exp. -----------------------------------------
@@ -561,23 +561,23 @@ if Instruction_flag:
 
         # *instruction["text"]* updates
         win, instruction['text'], trigger_mat[0] = run_comp(
-            win, instruction['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, instruction['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=instruction['time']['text'][0], duration=instruction['time']['text'][1])
 
         # *instruction["audio"]* updates
         win, instruction['audio'], trigger_mat[1] = run_comp(
-            win, instruction['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, instruction['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=instruction['time']['audio'][0], duration=instruction['time']['audio'][1])
         # *instruction['key_resp']* updates
         waitOnFlip=False
         win, instruction['key_resp'], continueRoutine, endExpNow, trigger_mat[2] = run_comp(
-            win, instruction['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, instruction['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=instruction['time']['key_resp'][0], duration=instruction['time']['key_resp'][1],
-            waitOnFlip=waitOnFlip)   
-        
+            waitOnFlip=waitOnFlip)
+
         # *instruction['cont']* updates
         win, instruction['cont'], trigger_mat[3] = run_comp(
-            win, instruction['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, instruction['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=instruction['time']['cont'][0], duration=instruction['time']['cont'][1])
 
         break_flag = False
@@ -607,6 +607,7 @@ if Instruction_flag:
 # ---------------------------------------------------
 
 if Artifact_intro_flag:
+    artifact_action_cnt = -1
     print('Log: artifact_intro start')
     breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
     # ------Prepare to start Routine "Cali_de_pre_intro"-------
@@ -621,39 +622,39 @@ if Artifact_intro_flag:
     comp_list = np.asarray([*Artifact_intro['time'].keys()])
 
     # -------Run Routine "Artifact_intro"-------
-    
+
     trigger_sending(event_dict['Arti_intro'][0], default_sleep=True) # Sending trigger 70 (Artifact_intro Start)
     while continueRoutine:
         # get current time
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
             Artifact_intro["clock"], win, frameN)
         # update/draw components on each frame
-        
+
         # *Artifact_intro["title"]* updates
         win, Artifact_intro['title'], trigger_mat[0] = run_comp(
-            win, Artifact_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Artifact_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Artifact_intro['time']['title'][0], duration=Artifact_intro['time']['title'][1])
         # *Artifact_intro["title"]* updates
         win, Artifact_intro['text'], trigger_mat[1] = run_comp(
-            win, Artifact_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Artifact_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Artifact_intro['time']['text'][0], duration=Artifact_intro['time']['text'][1])
         # *Artifact_intro["audio"]* updates
         win, Artifact_intro['audio'], trigger_mat[2] = run_comp(
-            win, Artifact_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Artifact_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Artifact_intro['time']['audio'][0], duration=Artifact_intro['time']['audio'][1])
 
         # *Artifact_intro['key_resp']* updates
         waitOnFlip=False
         win, Artifact_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
-            win, Artifact_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Artifact_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Artifact_intro['time']['key_resp'][0], duration=Artifact_intro['time']['key_resp'][1],
-            waitOnFlip=waitOnFlip)   
+            waitOnFlip=waitOnFlip)
         # *Artifact_intro['cont']* updates
         win, Artifact_intro['cont'], trigger_mat[4] = run_comp(
-            win, Artifact_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Artifact_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Artifact_intro['time']['cont'][0], duration=Artifact_intro['time']['cont'][1],
             repeat_per_frame=True, repeat_content=continue_str)
-        
+
         win, continueRoutine, break_flag = continue_justification(
             win, endExpNow, defaultKeyboard, continueRoutine, Artifact_introComponents)
         if trigger_mat.sum(axis=0)[0]:
@@ -687,7 +688,7 @@ if Artifact_rec_flag:
     # ---------------------------------------------------------------------------
     # set up handler to look after randomisation of conditions etc
 
-    artifact_trial = data.TrialHandler(nReps=n_arti_trial, method='random', 
+    artifact_trial = data.TrialHandler(nReps=n_arti_trial, method='random',
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
         seed=None, name='artifact_trial')
@@ -709,7 +710,7 @@ if Artifact_rec_flag:
         # ------Prepare to start Routine "Artifact_rec"-------
         print('Log: artifact_rec start: Trial ' + str(artifact_trial.thisN))
         breakpoint_logger(comp='Artifact_rec', value=1, run=None, block=None, trial=artifact_trial.thisN)
-        
+
         artifact_action_cnt += 1
         Artifact_rec['action'].setSound(action_path_list[artifact_action_cnt], secs=-1, hamming=True)
 
@@ -720,40 +721,40 @@ if Artifact_rec_flag:
 
         # -------Run Routine "Artifact_rec"-------
         trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
-        routineTimer.add(artifact_total_time) 
+        routineTimer.add(artifact_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
                 Artifact_rec["clock"], win, frameN)
-            
+
             # *Artifact_rec["text"]* updates
             win, Artifact_rec['text'], trigger_mat[0] = run_comp(
-                win, Artifact_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['text'][0], duration=Artifact_rec['time']['text'][1])
             # *Artifact_rec["beep_hint"]* updates
             win, Artifact_rec['beep_hint'], trigger_mat[1] = run_comp(
-                win, Artifact_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['beep_hint'][0], duration=Artifact_rec['time']['beep_hint'][1])
             # *Artifact_rec["action"]* updates
             win, Artifact_rec['action'], trigger_mat[2] = run_comp(
-                win, Artifact_rec['action'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['action'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['action'][0], duration=Artifact_rec['time']['action'][1])
-            
+
             # *Artifact_rec["beep_start"]* updates
             win, Artifact_rec['beep_start'], trigger_mat[3] = run_comp(
-                win, Artifact_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['beep_start'][0], duration=Artifact_rec['time']['beep_start'][1])
             # *Artifact_rec["recording"]* updates
             win, Artifact_rec['recording'], trigger_mat[4] = run_comp(
-                win, Artifact_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['recording'][0], duration=Artifact_rec['time']['recording'][1])
             # *Artifact_rec["beep_end"]* updates
             win, Artifact_rec['beep_end'], trigger_mat[5] = run_comp(
-                win, Artifact_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['beep_end'][0], duration=Artifact_rec['time']['beep_end'][1])
 
             win, Artifact_rec['break'], trigger_mat[6] = run_comp(
-                win, Artifact_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Artifact_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Artifact_rec['time']['break'][0], duration=Artifact_rec['time']['break'][1])
 
             win, continueRoutine, break_flag = continue_justification(
@@ -799,39 +800,39 @@ if Cali_de_pre_intro_flag:
     comp_list = np.asarray([*Cali_de_pre_intro['time'].keys()])
 
     # -------Run Routine "Cali_de_pre_intro"-------
-    
+
     trigger_sending(event_dict['Cali_intro'][0], default_sleep=True) # Sending trigger 10 (Cali_de_pre_intro Start)
     while continueRoutine:
         # get current time
         frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
             Cali_de_pre_intro["clock"], win, frameN)
         # update/draw components on each frame
-        
+
         # *Cali_de_pre_intro["title"]* updates
         win, Cali_de_pre_intro['title'], trigger_mat[0] = run_comp(
-            win, Cali_de_pre_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_pre_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_pre_intro['time']['title'][0], duration=Cali_de_pre_intro['time']['title'][1])
         # *Cali_de_pre_intro["title"]* updates
         win, Cali_de_pre_intro['text'], trigger_mat[1] = run_comp(
-            win, Cali_de_pre_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_pre_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_pre_intro['time']['text'][0], duration=Cali_de_pre_intro['time']['text'][1])
         # *Cali_de_pre_intro["audio"]* updates
         win, Cali_de_pre_intro['audio'], trigger_mat[2] = run_comp(
-            win, Cali_de_pre_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_pre_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_pre_intro['time']['audio'][0], duration=Cali_de_pre_intro['time']['audio'][1])
 
         # *Cali_de_pre_intro['key_resp']* updates
         waitOnFlip=False
         win, Cali_de_pre_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
-            win, Cali_de_pre_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_pre_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_pre_intro['time']['key_resp'][0], duration=Cali_de_pre_intro['time']['key_resp'][1],
-            waitOnFlip=waitOnFlip)   
+            waitOnFlip=waitOnFlip)
         # *Cali_de_pre_intro['cont']* updates
         win, Cali_de_pre_intro['cont'], trigger_mat[4] = run_comp(
-            win, Cali_de_pre_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_pre_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_pre_intro['time']['cont'][0], duration=Cali_de_pre_intro['time']['cont'][1],
             repeat_per_frame=True, repeat_content=continue_str)
-        
+
         win, continueRoutine, break_flag = continue_justification(
             win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_pre_introComponents)
         if trigger_mat.sum(axis=0)[0]:
@@ -863,7 +864,7 @@ if Cali_de_pre_rec_flag:
     # ---------------------------------------------------------------------------
     # set up handler to look after randomisation of conditions etc
 
-    cali_pre_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
+    cali_pre_trial = data.TrialHandler(nReps=n_cali_trial, method='random',
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
         seed=None, name='pre_trial')
@@ -889,7 +890,7 @@ if Cali_de_pre_rec_flag:
         # ------Prepare to start Routine "Cali_de_pre_rec"-------
         print('Log: cali_pre_rec start: Trial ' + str(cali_pre_trial.thisN))
         breakpoint_logger(comp='Cali_de_pre_rec', value=1, run=None, block=None, trial=cali_pre_trial.thisN)
-        
+
         if external_question_flag:
             cali_question_cnt += 1
             Cali_de_pre_rec['question_text'].setText(cali_sen_text[cali_question_cnt])
@@ -907,36 +908,36 @@ if Cali_de_pre_rec_flag:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
                 Cali_de_pre_rec["clock"], win, frameN)
-            
+
             # *Cali_de_pre_rec["text"]* updates
             win, Cali_de_pre_rec['text'], trigger_mat[0] = run_comp(
-                win, Cali_de_pre_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['text'][0], duration=Cali_de_pre_rec['time']['text'][1])
             # *Cali_de_pre_rec["beep_hint"]* updates
             win, Cali_de_pre_rec['beep_hint'], trigger_mat[1] = run_comp(
-                win, Cali_de_pre_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['beep_hint'][0], duration=Cali_de_pre_rec['time']['beep_hint'][1])
 
             # *Cali_de_pre_rec["question_text"]* updates
             win, Cali_de_pre_rec['question_text'], trigger_mat[2] = run_comp(
-                win, Cali_de_pre_rec['question_text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['question_text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['question_text'][0], duration=Cali_de_pre_rec['time']['question_text'][1])
 
             # *Cali_de_pre_rec["beep_start"]* updates
             win, Cali_de_pre_rec['beep_start'], trigger_mat[3] = run_comp(
-                win, Cali_de_pre_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['beep_start'][0], duration=Cali_de_pre_rec['time']['beep_start'][1])
             # *Cali_de_pre_rec["recording"]* updates
             win, Cali_de_pre_rec['recording'], trigger_mat[4] = run_comp(
-                win, Cali_de_pre_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['recording'][0], duration=Cali_de_pre_rec['time']['recording'][1])
             # *Cali_de_pre_rec["beep_end"]* updates
             win, Cali_de_pre_rec['beep_end'], trigger_mat[5] = run_comp(
-                win, Cali_de_pre_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['beep_end'][0], duration=Cali_de_pre_rec['time']['beep_end'][1])
 
             win, Cali_de_pre_rec['break'], trigger_mat[6] = run_comp(
-                win, Cali_de_pre_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_pre_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_pre_rec['time']['break'][0], duration=Cali_de_pre_rec['time']['break'][1])
 
             win, continueRoutine, break_flag = continue_justification(
@@ -955,8 +956,8 @@ if Cali_de_pre_rec_flag:
         thisExp = data_writer(thisExp, Cali_de_pre_rec, 'Cali_de_pre_rec', ['text', 'beep_hint', 'question_text', 'beep_start', 'beep_end', 'break'])
 
         # cali_pre_rec_file = folder_path + 'rec_cali_de_pre_' + + ' .wav'
-        cali_pre_rec_file = folder_path + 'rec_cali_de_pre_' + 'trial_' + str(cali_pre_trial.thisN).zfill(3)  + '.wav' 
-        write(cali_pre_rec_file, fs, Cali_de_pre_rec['recording'].file)  # Save as WAV file 
+        cali_pre_rec_file = folder_path + 'rec_cali_de_pre_' + 'trial_' + str(cali_pre_trial.thisN).zfill(3)  + '.wav'
+        write(cali_pre_rec_file, fs, Cali_de_pre_rec['recording'].file)  # Save as WAV file
         print('Recording is saved!' + cali_pre_rec_file)
         # Add the detected time into the PsychoPy data file:
         thisExp.addData('filename', cali_pre_rec_file)
@@ -991,17 +992,17 @@ if Cali_de_pre_rec_flag:
             # update/draw components on each frame
             # *Pause['audio']* updates
             win, Pause['audio'], trigger = run_comp(
-                win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
 
             waitOnFlip=False
             win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
-                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
-                waitOnFlip=waitOnFlip)   
+                waitOnFlip=waitOnFlip)
             # *Pause['cont']* updates
             win, Pause['cont'], trigger = run_comp(
-                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
                 repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
@@ -1034,7 +1035,7 @@ trigger_sending(event_dict['Pre_run'][1], default_sleep=True) # Sending trigger 
 
 
 # set up handler to look after randomisation of conditions etc
-run = data.TrialHandler(nReps=n_run, method='random', 
+run = data.TrialHandler(nReps=n_run, method='random',
     extraInfo=expInfo, originPath=-1,
     trialList=[None],
     seed=None, name='run')
@@ -1104,7 +1105,7 @@ for thisRun in run:
         tmp_intensity = None
         if not input_intensity < max_intensity:
             tmp_intensity = input_intensity
-            input_intensity = max_intensity - 0.05  
+            input_intensity = max_intensity - 0.05
 
         if intensity_change_flag == 'i':
             trigger_sending(event_dict['Fade_in'][0], default_sleep=True) # Sending trigger 24 (Fade_in Start)
@@ -1129,13 +1130,13 @@ for thisRun in run:
                     fade_in["clock"], win, frameN)
                 # *fade_in["text"]* updates
                 win, fade_in['text'], trigger_mat[0] = run_comp(
-                    win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
 
                 # Only maintain or update the stim intensity during stim run
                 if stim_freq != 0 and run.thisN == stim_run[0]:
                     win, fade_in['auto_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, intensity_change_flag, trigger_mat[1] = run_comp(
-                        win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=fade_in['time']['auto_stim'][0], duration=fade_in['time']['auto_stim'][1],
                         stim_current_intensity=input_intensity, stim_intensity_limit=[min_intensity, max_intensity],
                         stim_step_intensity=step_intensity, stim_obj=fg, intensity_change_flag=intensity_change_flag,
@@ -1164,13 +1165,191 @@ for thisRun in run:
         thisExp = data_writer(thisExp, fade_in, 'fade_in', ['text'])
         if intensity_change_flag == 'i':
             trigger_sending(event_dict['Fade_in'][1], default_sleep=True) # Sending trigger 25 (Fade_in End)
-                 
+
 
         print('Log: fade in end: Run ' + str(run.thisN))
         breakpoint_logger(comp='fade_in', value=0, run=run.thisN, block=None, trial=None)
         routineTimer.reset()
-    
+
     trigger_sending(event_dict['Stable_stim'][0], default_sleep=True) # Sending trigger 28 (Stable stim Start)
+
+    if run.thisN == 2:
+        artifact_action_cnt = -1
+        # ---------------------------------------------------
+        # ---------------- Artifact_intro -------------------
+        # ---------------------------------------------------
+
+        if Artifact_intro_flag:
+            print('Log: artifact_intro start')
+            breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
+            # ------Prepare to start Routine "Cali_de_pre_intro"-------
+            # update component parameters for each repeat
+            Artifact_intro['key_resp'].keys = []
+            Artifact_intro['key_resp'].rt = []
+            Artifact_intro['audio'].setSound(audio_root+'artifact/intro.wav',secs=-1, hamming=True)
+
+            # keep track of which components have finished
+            win, Artifact_intro, Artifact_introComponents, t, frameN, continueRoutine = pre_run_comp(win, Artifact_intro)
+            trigger_mat = np.zeros((len(Artifact_introComponents) - 1, 2))
+            comp_list = np.asarray([*Artifact_intro['time'].keys()])
+
+            # -------Run Routine "Artifact_intro"-------
+
+            trigger_sending(event_dict['Arti_intro'][0], default_sleep=True) # Sending trigger 70 (Artifact_intro Start)
+            while continueRoutine:
+                # get current time
+                frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                    Artifact_intro["clock"], win, frameN)
+                # update/draw components on each frame
+
+                # *Artifact_intro["title"]* updates
+                win, Artifact_intro['title'], trigger_mat[0] = run_comp(
+                    win, Artifact_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                    start_time=Artifact_intro['time']['title'][0], duration=Artifact_intro['time']['title'][1])
+                # *Artifact_intro["title"]* updates
+                win, Artifact_intro['text'], trigger_mat[1] = run_comp(
+                    win, Artifact_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                    start_time=Artifact_intro['time']['text'][0], duration=Artifact_intro['time']['text'][1])
+                # *Artifact_intro["audio"]* updates
+                win, Artifact_intro['audio'], trigger_mat[2] = run_comp(
+                    win, Artifact_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                    start_time=Artifact_intro['time']['audio'][0], duration=Artifact_intro['time']['audio'][1])
+
+                # *Artifact_intro['key_resp']* updates
+                waitOnFlip=False
+                win, Artifact_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
+                    win, Artifact_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
+                    start_time=Artifact_intro['time']['key_resp'][0], duration=Artifact_intro['time']['key_resp'][1],
+                    waitOnFlip=waitOnFlip)
+                # *Artifact_intro['cont']* updates
+                win, Artifact_intro['cont'], trigger_mat[4] = run_comp(
+                    win, Artifact_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                    start_time=Artifact_intro['time']['cont'][0], duration=Artifact_intro['time']['cont'][1],
+                    repeat_per_frame=True, repeat_content=continue_str)
+
+                win, continueRoutine, break_flag = continue_justification(
+                    win, endExpNow, defaultKeyboard, continueRoutine, Artifact_introComponents)
+                if trigger_mat.sum(axis=0)[0]:
+                    pass # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
+                if break_flag:
+                    break
+
+            # -------Ending Routine "Artifact_intro"-------
+            for thisComponent in Artifact_introComponents:
+                if hasattr(thisComponent, "setAutoDraw"):
+                    thisComponent.setAutoDraw(False)
+
+            thisExp = data_writer(thisExp, Artifact_intro, 'Artifact_intro', ['title', 'text', 'audio', 'cont'])
+
+            trigger_sending(event_dict['Arti_intro'][1], default_sleep=True) # Sending trigger 71 (Artifact_intro End)
+            print('Log: artifact_intro finish')
+            breakpoint_logger(comp='Artifact_intro', value=0, run=None, block=None, trial=None)
+            routineTimer.reset()
+
+
+
+        # ---------------------------------------------------
+        # ----------------- Artifact_rec --------------------
+        # ---------------------------------------------------
+
+
+        if Artifact_rec_flag:
+
+            # ---------------------------------------------------------------------------
+            # ------------------------ Start Artifact_rec Trial --------------------------
+            # ---------------------------------------------------------------------------
+            # set up handler to look after randomisation of conditions etc
+
+            artifact_trial = data.TrialHandler(nReps=n_arti_trial, method='random',
+                extraInfo=expInfo, originPath=-1,
+                trialList=[None],
+                seed=None, name='artifact_trial')
+            thisExp.addLoop(artifact_trial)  # add the loop to the experiment
+            thisArtifact_trial = artifact_trial.trialList[0]  # so we can initialise stimuli with some values
+            # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
+            if thisArtifact_trial != None:
+                for paramName in thisArtifact_trial:
+                    exec('{} = thisArtifact_trial[paramName]'.format(paramName))
+
+            for thisArtifact_trial in artifact_trial:
+
+                currentLoop = artifact_trial
+                # abbreviate parameter names if possible (e.g. rgb = thisArtifact_trial.rgb)
+                if thisArtifact_trial != None:
+                    for paramName in thisArtifact_trial:
+                        exec('{} = thisArtifact_trial[paramName]'.format(paramName))
+
+                # ------Prepare to start Routine "Artifact_rec"-------
+                print('Log: artifact_rec start: Trial ' + str(artifact_trial.thisN))
+                breakpoint_logger(comp='Artifact_rec', value=1, run=None, block=None, trial=artifact_trial.thisN)
+
+                artifact_action_cnt += 1
+                Artifact_rec['action'].setSound(action_path_list[artifact_action_cnt], secs=-1, hamming=True)
+
+                # keep track of which components have finished
+                win, Artifact_rec, Artifact_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Artifact_rec)
+                trigger_mat = np.zeros((len(Artifact_recComponents) - 1, 2))
+                comp_list = np.asarray([*Artifact_rec['time'].keys()])
+
+                # -------Run Routine "Artifact_rec"-------
+                trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+                routineTimer.add(artifact_total_time)
+                while continueRoutine and routineTimer.getTime() > 0:
+                    # get current time
+                    frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                        Artifact_rec["clock"], win, frameN)
+
+                    # *Artifact_rec["text"]* updates
+                    win, Artifact_rec['text'], trigger_mat[0] = run_comp(
+                        win, Artifact_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['text'][0], duration=Artifact_rec['time']['text'][1])
+                    # *Artifact_rec["beep_hint"]* updates
+                    win, Artifact_rec['beep_hint'], trigger_mat[1] = run_comp(
+                        win, Artifact_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['beep_hint'][0], duration=Artifact_rec['time']['beep_hint'][1])
+                    # *Artifact_rec["action"]* updates
+                    win, Artifact_rec['action'], trigger_mat[2] = run_comp(
+                        win, Artifact_rec['action'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['action'][0], duration=Artifact_rec['time']['action'][1])
+
+                    # *Artifact_rec["beep_start"]* updates
+                    win, Artifact_rec['beep_start'], trigger_mat[3] = run_comp(
+                        win, Artifact_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['beep_start'][0], duration=Artifact_rec['time']['beep_start'][1])
+                    # *Artifact_rec["recording"]* updates
+                    win, Artifact_rec['recording'], trigger_mat[4] = run_comp(
+                        win, Artifact_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['recording'][0], duration=Artifact_rec['time']['recording'][1])
+                    # *Artifact_rec["beep_end"]* updates
+                    win, Artifact_rec['beep_end'], trigger_mat[5] = run_comp(
+                        win, Artifact_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['beep_end'][0], duration=Artifact_rec['time']['beep_end'][1])
+
+                    win, Artifact_rec['break'], trigger_mat[6] = run_comp(
+                        win, Artifact_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                        start_time=Artifact_rec['time']['break'][0], duration=Artifact_rec['time']['break'][1])
+
+                    win, continueRoutine, break_flag = continue_justification(
+                        win, endExpNow, defaultKeyboard, continueRoutine, Artifact_recComponents)
+
+                    if trigger_mat.sum(axis=0)[0]:
+                        trigger_encoding_sending('Artifact', input_event=trigger_mat)
+                    if break_flag:
+                        break
+                # -------Ending Routine "Artifact_rec"-------
+                for thisComponent in Artifact_recComponents:
+                    if hasattr(thisComponent, "setAutoDraw"):
+                        thisComponent.setAutoDraw(False)
+
+                thisExp = data_writer(thisExp, Artifact_rec, 'Artifact_rec', ['text', 'beep_hint', 'action', 'beep_start', 'recording', 'beep_end', 'break'])
+                thisExp.nextEntry()
+
+                trigger_sending(event_dict['Arti_trial'][1], default_sleep=True) # Sending trigger 73 (Artifact_trial End)
+                print('Log: artifact_rec finish: Trial' + str(artifact_trial.thisN))
+                breakpoint_logger(comp='Artifact_rec', value=0, run=None, block=None, trial=artifact_trial.thisN)
+                # the Routine "Artifact_rec" was not non-slip safe, so reset the non-slip timer
+                routineTimer.reset()
+
 
     # ---------------------------------------------------------
     # ---------------- Resting state block --------------------
@@ -1194,7 +1373,7 @@ for thisRun in run:
             breakpoint_logger(comp='RS_intro', value=1, run=run.thisN, block=RS_loop, trial=None)
             # ------Prepare to start Routine "RS_intro"-------
             RS_intro['audio'].setSound(audio_root+'resting_state/rs_intro_' + RS_order[RS_loop] + '.wav', secs=-1, hamming=True)
-                
+
             # keep track of which components have finished
             win, RS_intro, RS_introComponents, t, frameN, continueRoutine = pre_run_comp(win, RS_intro)
             trigger_mat = np.zeros((len(RS_introComponents) - 1, 2))
@@ -1209,21 +1388,21 @@ for thisRun in run:
 
                 # *RS_intro["title"]* updates
                 win, RS_intro['title'], trigger_mat[0] = run_comp(
-                    win, RS_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, RS_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=RS_intro['time']['title'][0], duration=RS_intro['time']['title'][1])
                 # *Cali_de_pre_intro["title"]* updates
                 win, RS_intro['text'], trigger_mat[1] = run_comp(
-                    win, RS_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, RS_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=RS_intro['time']['text'][0], duration=RS_intro['time']['text'][1])
                 # *Cali_de_pre_intro["audio"]* updates
                 win, RS_intro['audio'], trigger_mat[2] = run_comp(
-                    win, RS_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, RS_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=RS_intro['time']['audio'][0], duration=RS_intro['time']['audio'][1])
 
 
                 win, continueRoutine, break_flag = continue_justification(
                     win, endExpNow, defaultKeyboard, continueRoutine, RS_introComponents)
-                
+
                 if trigger_mat.sum(axis=0)[0]:
                     pass
                 if break_flag:
@@ -1254,7 +1433,7 @@ for thisRun in run:
             elif RS_order[RS_loop] == 'close':
                 trigger_sending(event_dict['RS_close'][0], default_sleep=True) # Sending trigger 34 (RS_close Start)
                 RS_rec_text_str = 'Please keep relaxed and close your eyes.\n'
-                RS_rec['text'].setText(RS_rec_text_str) 
+                RS_rec['text'].setText(RS_rec_text_str)
             # ------Prepare to start Routine "RS_rec"-------
             # update component parameters for each repeat
             # keep track of which components have finished
@@ -1270,16 +1449,16 @@ for thisRun in run:
 
                 # *RS_rec["text"]* updates
                 win, RS_rec['text'], trigger_mat[0] = run_comp(
-                    win, RS_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, RS_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=RS_rec['time']['text'][0], duration=RS_rec['time']['text'][1])
                 # *QA_rec["beep_end"]* updates
                 win, RS_rec['beep_end'], trigger_mat[1] = run_comp(
-                    win, RS_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, RS_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=RS_rec['time']['beep_end'][0], duration=RS_rec['time']['beep_end'][1])
 
                 win, continueRoutine, break_flag = continue_justification(
                     win, endExpNow, defaultKeyboard, continueRoutine, RS_recComponents)
-                
+
                 if trigger_mat.sum(axis=0)[0]:
                     pass # trigger_encoding_sending('RS', input_run=run.thisRepN, input_block=0, intro_rec=1, input_event=trigger_mat)
                 if break_flag:
@@ -1291,9 +1470,9 @@ for thisRun in run:
                     thisComponent.setAutoDraw(False)
             run = data_writer(run, RS_rec, 'RS_rec', ['text'])
             if RS_order[RS_loop] == 'open':
-                trigger_sending(event_dict['RS_open'][1], default_sleep=True) # Sending trigger 34 (RS_open End) 
+                trigger_sending(event_dict['RS_open'][1], default_sleep=True) # Sending trigger 34 (RS_open End)
             elif RS_order[RS_loop] == 'close':
-                trigger_sending(event_dict['RS_close'][1], default_sleep=True) # Sending trigger 35 (RS_close End) 
+                trigger_sending(event_dict['RS_close'][1], default_sleep=True) # Sending trigger 35 (RS_close End)
             # the Routine "RS_rec" was not non-slip safe, so reset the non-slip timer
             print('Log: RS rec finish: Run ' + str(run.thisN) + RS_order[RS_loop] + ' Block ' + ': ' + str(RS_loop))
             breakpoint_logger(comp='RS_rec', value=0, run=run.thisN, block=RS_order[RS_loop], trial=None)
@@ -1320,17 +1499,17 @@ for thisRun in run:
             # update/draw components on each frame
             # *Pause['audio']* updates
             win, Pause['audio'], trigger = run_comp(
-                win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
 
             waitOnFlip=False
             win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
-                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
-                waitOnFlip=waitOnFlip)   
+                waitOnFlip=waitOnFlip)
             # *Pause['cont']* updates
             win, Pause['cont'], trigger = run_comp(
-                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
                 repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
@@ -1383,37 +1562,37 @@ for thisRun in run:
 
             # *RS_intro["title"]* updates
             win, QA_intro['title'], trigger_mat[0] = run_comp(
-                win, QA_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, QA_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=QA_intro['time']['title'][0], duration=QA_intro['time']['title'][1])
             # *Cali_de_pre_intro["title"]* updates
             win, QA_intro['text'], trigger_mat[1] = run_comp(
-                win, QA_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, QA_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=QA_intro['time']['text'][0], duration=QA_intro['time']['text'][1])
             # *Cali_de_pre_intro["audio"]* updates
             win, QA_intro['audio'], trigger_mat[2] = run_comp(
-                win, QA_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, QA_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=QA_intro['time']['audio'][0], duration=QA_intro['time']['audio'][1])
 
             # *Cali_de_pre_intro['key_resp']* updates
             waitOnFlip=False
             win, QA_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
-                win, QA_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, QA_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=QA_intro['time']['key_resp'][0], duration=QA_intro['time']['key_resp'][1],
-                waitOnFlip=waitOnFlip)   
+                waitOnFlip=waitOnFlip)
             # *Cali_de_pre_intro['cont']* updates
             win, QA_intro['cont'], trigger_mat[4] = run_comp(
-                win, QA_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, QA_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=QA_intro['time']['cont'][0], duration=QA_intro['time']['cont'][1],
                 repeat_per_frame=True, repeat_content=continue_str)
 
             win, continueRoutine, break_flag = continue_justification(
                 win, endExpNow, defaultKeyboard, continueRoutine, QA_introComponents)
-            
+
             if trigger_mat.sum(axis=0)[0]:
                 pass
             if break_flag:
                 break
-        
+
         # -------Ending Routine "QA_intro"-------
         for thisComponent in QA_introComponents:
             if hasattr(thisComponent, "setAutoDraw"):
@@ -1433,7 +1612,7 @@ for thisRun in run:
     else:
         n_block_parsed = n_block
 
-    QA_block = data.TrialHandler(nReps=n_block_parsed, method='random', 
+    QA_block = data.TrialHandler(nReps=n_block_parsed, method='random',
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
         seed=None, name='QA_block')
@@ -1443,7 +1622,7 @@ for thisRun in run:
     if thisQA_block != None:
         for paramName in thisQA_block:
             exec('{} = thisQA_block[paramName]'.format(paramName))
-    
+
     for thisQA_block in QA_block:
 
         if break_qa_block != None and QA_block.thisN < break_qa_block:
@@ -1463,7 +1642,7 @@ for thisRun in run:
         # ---------------------------------------------------------------------------
         # set up handler to look after randomisation of conditions etc
 
-        QA_trial = data.TrialHandler(nReps=n_trial, method='random', 
+        QA_trial = data.TrialHandler(nReps=n_trial, method='random',
             extraInfo=expInfo, originPath=-1,
             trialList=[None],
             seed=None, name='QA_trial')
@@ -1473,7 +1652,7 @@ for thisRun in run:
         if thisQA_trial != None:
             for paramName in thisQA_trial:
                 exec('{} = thisQA_trial[paramName]'.format(paramName))
-        
+
         for thisQA_trial in QA_trial:
 
             if break_qa_trial != None and QA_trial.thisN < break_qa_trial:
@@ -1493,7 +1672,7 @@ for thisRun in run:
             if thisQA_trial != None:
                 for paramName in thisQA_trial:
                     exec('{} = thisQA_trial[paramName]'.format(paramName))
-            
+
             # ---------------------------------------------------
             # -------------------- QA_rec -----------------------
             # ---------------------------------------------------
@@ -1539,39 +1718,39 @@ for thisRun in run:
 
                     # *QA_rec["text"]* updates
                     win, QA_rec['text'], trigger_mat[0] = run_comp(
-                        win, QA_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['text'][0], duration=QA_rec['time']['text'][1])
                     # *QA_rec["beep_hint"]* updates
                     win, QA_rec['beep_hint'], trigger_mat[1] = run_comp(
-                        win, QA_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['beep_hint'][0], duration=QA_rec['time']['beep_hint'][1])
                     # *QA_rec["question"]* updates
                     win, QA_rec['question'], trigger_mat[2] = run_comp(
-                        win, QA_rec['question'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['question'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['question'][0], duration=QA_rec['time']['question'][1])
                     # *QA_rec["beep_start"]* updates
                     win, QA_rec['beep_start'], trigger_mat[3] = run_comp(
-                        win, QA_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['beep_start'][0], duration=QA_rec['time']['beep_start'][1])
                     # *QA_rec["recording"]* updates
                     win, QA_rec['recording'], trigger_mat[4] = run_comp(
-                        win, QA_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['recording'][0], duration=QA_rec['time']['recording'][1])
                     # *QA_rec["beep_end"]* updates
                     win, QA_rec['beep_end'], trigger_mat[5] = run_comp(
-                        win, QA_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['beep_end'][0], duration=QA_rec['time']['beep_end'][1])
 
                     win, QA_rec['break'], trigger_mat[6] = run_comp(
-                        win, QA_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['break'][0], duration=QA_rec['time']['break'][1])
                     win, QA_rec['censor_word'],temp_del =run_comp(
-                        win, QA_rec['censor_word'], 'trigger', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, QA_rec['censor_word'], 'trigger', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=QA_rec['time']['censor_word'][0], duration=QA_rec['time']['censor_word'][1])
 
                     win, continueRoutine, break_flag = continue_justification(
                         win, endExpNow, defaultKeyboard, continueRoutine, QA_recComponents)
-                    
+
                     if trigger_mat.sum(axis=0)[0]:
                         trigger_encoding_sending('QA', input_event=trigger_mat)
                     if break_flag:
@@ -1581,14 +1760,14 @@ for thisRun in run:
                 for thisComponent in QA_recComponents:
                     if hasattr(thisComponent, "setAutoDraw"):
                         thisComponent.setAutoDraw(False)
-                
+
                 q_a_rec_file = folder_path + 'rec_cali_de_pre.wav'
-                q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_block.thisN).zfill(3) + '_trial_' + str(QA_trial.thisN).zfill(3)  + '.wav' 
-                write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file 
+                q_a_rec_file = folder_path + 'rec_QA_run_' + str(run.thisN).zfill(2) + '_block_'+ str(QA_block.thisN).zfill(3) + '_trial_' + str(QA_trial.thisN).zfill(3)  + '.wav'
+                write(q_a_rec_file, fs, QA_rec['recording'].file)  # Save as WAV file
                 print('Recording is saved!' + q_a_rec_file)
                 QA_trial = data_writer(QA_trial, QA_rec, 'QA_rec',
                     ['text', 'beep_hint', 'question', 'beep_start', 'beep_end', 'break'])
- 
+
                 print('Log: QA rec finish: Run ' + str(run.thisN) + ' Block ' + str(QA_block.thisN) + 'Trial ' + str(QA_trial.thisN))
                 breakpoint_logger(comp='QA_rec', value=0, run=run.thisN, block=QA_block.thisN, trial=QA_trial.thisN)
                 jxu_logging.info(
@@ -1597,7 +1776,7 @@ for thisRun in run:
                 thisExp.addData('filename', q_a_rec_file)
                 thisExp.nextEntry()
                 trigger_sending(event_dict['QA_trial'][1], default_sleep=True) # Sending trigger 43 (QA_trial End)
-        
+
         trigger_sending(event_dict['Block'][1], default_sleep=True) # Sending trigger 7 (Block End)
         # completed 3 repeats of 'QA_trial'
         # ---------------------------------------------------
@@ -1620,17 +1799,17 @@ for thisRun in run:
                 # update/draw components on each frame
                 # *Pause['audio']* updates
                 win, Pause['audio'], trigger = run_comp(
-                    win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, Pause['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=Pause['time']['audio'][0], duration=Pause['time']['audio'][1])
                 # *Cali_de_pre_intro['key_resp']* updates
                 waitOnFlip=False
                 win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
-                    win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
-                    waitOnFlip=waitOnFlip)   
+                    waitOnFlip=waitOnFlip)
                 # *Cali_de_pre_intro['cont']* updates
                 win, Pause['cont'], trigger = run_comp(
-                    win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
                     repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
@@ -1650,7 +1829,7 @@ for thisRun in run:
             trigger_sending(event_dict['Pause'][1], default_sleep=True) # Sending trigger 60 (Pause End)
             routineTimer.reset()
         thisExp.nextEntry()
-       
+
     # completed 2 repeats of 'QA_block'
 
 
@@ -1686,7 +1865,7 @@ for thisRun in run:
         tmp_intensity = None
         if not input_intensity < max_intensity:
             tmp_intensity = input_intensity
-            input_intensity = max_intensity - 0.05  
+            input_intensity = max_intensity - 0.05
 
         if intensity_change_flag == 'd':
             trigger_sending(event_dict['Fade_out'][0], default_sleep=True) # Sending trigger 26 (Fade_in Start)
@@ -1711,13 +1890,13 @@ for thisRun in run:
                     fade_in["clock"], win, frameN)
                 # *fade_in["text"]* updates
                 win, fade_in['text'], trigger_mat[0] = run_comp(
-                    win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                    win, fade_in['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                     start_time=fade_in['time']['text'][0], duration=fade_in['time']['text'][1])
 
                 # Only maintain or update the stim intensity during stim run
                 if stim_freq != 0 and run.thisN == stim_run[0]:
                     win, fade_in['auto_stim'], output_intensity, stim_continue, continueRoutine, endExpNow, intensity_change_flag, trigger_mat[1] = run_comp(
-                        win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal, 
+                        win, fade_in['auto_stim'], 'auto_stim', frameN, t, tThisFlip, tThisFlipGlobal,
                         start_time=fade_in['time']['auto_stim'][0], duration=fade_in['time']['auto_stim'][1],
                         stim_current_intensity=input_intensity, stim_intensity_limit=[min_intensity, max_intensity],
                         stim_step_intensity=step_intensity, stim_obj=fg, intensity_change_flag=intensity_change_flag,
@@ -1744,10 +1923,10 @@ for thisRun in run:
                 thisComponent.setAutoDraw(False)
 
         thisExp = data_writer(thisExp, fade_in, 'fade_out', ['text'])
-        
+
         if intensity_change_flag == 'd':
             trigger_sending(event_dict['Fade_out'][1], default_sleep=True) # Sending trigger 27 (Fade_in End)
-                 
+
         # Fade in trigger: If sham stim, send trigger 22, otherwise 24
         if run.thisN == stim_run[-1]:
             if stim_freq == 0:
@@ -1764,7 +1943,7 @@ for thisRun in run:
 
     trigger_sending(event_dict['Run'][1], default_sleep=True) # Sending trigger 5 (Run End)
     thisExp.nextEntry()
-    
+
 # completed 3 repeats of 'run'
 
 trigger_sending(event_dict['Post_run'][0], default_sleep=True) # Sending trigger 8 (Post_run Start)
@@ -1791,32 +1970,32 @@ if Cali_de_post_intro_flag:
         # update/draw components on each frame
         # *Cali_de_post_intro["title"]* updates
         win, Cali_de_post_intro['title'], trigger_mat[0] = run_comp(
-            win, Cali_de_post_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_post_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_post_intro['time']['title'][0], duration=Cali_de_post_intro['time']['title'][1])
         # *Cali_de_post_intro["title"]* updates
         win, Cali_de_post_intro['text'], trigger_mat[1] = run_comp(
-            win, Cali_de_post_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_post_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_post_intro['time']['text'][0], duration=Cali_de_post_intro['time']['text'][1])
         # *Cali_de_post_intro["audio"]* updates
         win, Cali_de_post_intro['audio'], trigger_mat[2] = run_comp(
-            win, Cali_de_post_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_post_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_post_intro['time']['audio'][0], duration=Cali_de_post_intro['time']['audio'][1])
 
         # *Cali_de_post_intro['key_resp']* updates
         waitOnFlip=False
         win, Cali_de_post_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
-            win, Cali_de_post_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_post_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_post_intro['time']['key_resp'][0], duration=Cali_de_post_intro['time']['key_resp'][1],
-            waitOnFlip=waitOnFlip)   
+            waitOnFlip=waitOnFlip)
         # *Cali_de_post_intro['cont']* updates
         win, Cali_de_post_intro['cont'], trigger_mat[4] = run_comp(
-            win, Cali_de_post_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, Cali_de_post_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=Cali_de_post_intro['time']['cont'][0], duration=Cali_de_post_intro['time']['cont'][1],
             repeat_per_frame=True, repeat_content=continue_str)
 
         win, continueRoutine, break_flag = continue_justification(
             win, endExpNow, defaultKeyboard, continueRoutine, Cali_de_post_introComponents)
-        
+
         if trigger_mat.sum(axis=0)[0]:
             pass # trigger_encoding_sending('Calibration', input_run=3, input_block=0, intro_rec=0, input_event=trigger_mat)
         if break_flag:
@@ -1844,7 +2023,7 @@ if Cali_de_post_rec_flag:
     # ---------------------------------------------------------------------------
     # set up handler to look after randomisation of conditions etc
 
-    cali_post_trial = data.TrialHandler(nReps=n_cali_trial, method='random', 
+    cali_post_trial = data.TrialHandler(nReps=n_cali_trial, method='random',
         extraInfo=expInfo, originPath=-1,
         trialList=[None],
         seed=None, name='post_trial')
@@ -1887,36 +2066,36 @@ if Cali_de_post_rec_flag:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
                 Cali_de_post_rec["clock"], win, frameN)
-            
+
             # *Cali_de_post_rec["text"]* updates
             win, Cali_de_post_rec['text'], trigger_mat[0] = run_comp(
-                win, Cali_de_post_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['text'][0], duration=Cali_de_post_rec['time']['text'][1])
             # *Cali_de_post_rec["beep_hint"]* updates
             win, Cali_de_post_rec['beep_hint'], trigger_mat[1] = run_comp(
-                win, Cali_de_post_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['beep_hint'][0], duration=Cali_de_post_rec['time']['beep_hint'][1])
 
             # *Cali_de_post_rec["question_text"]* updates
             win, Cali_de_post_rec['question_text'], trigger_mat[2] = run_comp(
-                win, Cali_de_post_rec['question_text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['question_text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['question_text'][0], duration=Cali_de_post_rec['time']['question_text'][1])
 
             # *Cali_de_post_rec["beep_start"]* updates
             win, Cali_de_post_rec['beep_start'], trigger_mat[3] = run_comp(
-                win, Cali_de_post_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['beep_start'][0], duration=Cali_de_post_rec['time']['beep_start'][1])
             # *Cali_de_post_rec["recording"]* updates
             win, Cali_de_post_rec['recording'], trigger_mat[4] = run_comp(
-                win, Cali_de_post_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['recording'][0], duration=Cali_de_post_rec['time']['recording'][1])
             # *Cali_de_post_rec["beep_end"]* updates
             win, Cali_de_post_rec['beep_end'], trigger_mat[5] = run_comp(
-                win, Cali_de_post_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['beep_end'][0], duration=Cali_de_post_rec['time']['beep_end'][1])
 
             win, Cali_de_post_rec['break'], trigger_mat[6] = run_comp(
-                win, Cali_de_post_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Cali_de_post_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Cali_de_post_rec['time']['break'][0], duration=Cali_de_post_rec['time']['break'][1])
 
             win, continueRoutine, break_flag = continue_justification(
@@ -1935,12 +2114,12 @@ if Cali_de_post_rec_flag:
         thisExp = data_writer(thisExp, Cali_de_post_rec, 'Cali_de_post_rec', ['text', 'beep_hint', 'question_text', 'beep_start', 'beep_end', 'break'])
 
         # cali_post_rec_file = folder_path + 'rec_cali_de_post_' + + ' .wav'
-        cali_post_rec_file = folder_path + 'rec_cali_de_post_' + 'trial_' + str(cali_post_trial.thisN).zfill(3)  + '.wav' 
-        write(cali_post_rec_file, fs, Cali_de_post_rec['recording'].file)  # Save as WAV file 
+        cali_post_rec_file = folder_path + 'rec_cali_de_post_' + 'trial_' + str(cali_post_trial.thisN).zfill(3)  + '.wav'
+        write(cali_post_rec_file, fs, Cali_de_post_rec['recording'].file)  # Save as WAV file
         print('Recording is saved!' + cali_post_rec_file)
         # Add the detected time into the PsychoPy data file:
         thisExp.addData('filename', cali_post_rec_file)
-        
+
         thisExp.nextEntry()
         # the Routine "Cali_de_post_rec" was not non-slip safe, so reset the non-slip timer
         print('Log: cali_post_rec finish: Trial ' + str(cali_post_trial.thisN))
@@ -1971,12 +2150,12 @@ if Cali_de_post_rec_flag:
             # *Cali_de_pre_intro['key_resp']* updates
             waitOnFlip=False
             win, Pause['key_resp'], continueRoutine, endExpNow, trigger = run_comp(
-                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['key_resp'][0], duration=Pause['time']['key_resp'][1],
-                waitOnFlip=waitOnFlip)   
+                waitOnFlip=waitOnFlip)
             # *Cali_de_pre_intro['cont']* updates
             win, Pause['cont'], trigger = run_comp(
-                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+                win, Pause['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
                 start_time=Pause['time']['cont'][0], duration=Pause['time']['cont'][1],
                 repeat_per_frame=True, repeat_content='Please have some rest and press space key to continue')
 
@@ -1999,6 +2178,208 @@ if Cali_de_post_rec_flag:
 
 trigger_sending(event_dict['Post_run'][1], default_sleep=True) # Sending trigger 9 (Post_run End)
 
+
+
+
+
+
+
+# ---------------------------------------------------
+# ---------------- Artifact_intro -------------------
+# ---------------------------------------------------
+
+if Artifact_intro_flag:
+    print('Log: artifact_intro start')
+    breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
+    # ------Prepare to start Routine "Cali_de_pre_intro"-------
+    # update component parameters for each repeat
+    Artifact_intro['key_resp'].keys = []
+    Artifact_intro['key_resp'].rt = []
+    Artifact_intro['audio'].setSound(audio_root+'artifact/intro.wav',secs=-1, hamming=True)
+
+    # keep track of which components have finished
+    win, Artifact_intro, Artifact_introComponents, t, frameN, continueRoutine = pre_run_comp(win, Artifact_intro)
+    trigger_mat = np.zeros((len(Artifact_introComponents) - 1, 2))
+    comp_list = np.asarray([*Artifact_intro['time'].keys()])
+
+    # -------Run Routine "Artifact_intro"-------
+
+    trigger_sending(event_dict['Arti_intro'][0], default_sleep=True) # Sending trigger 70 (Artifact_intro Start)
+    while continueRoutine:
+        # get current time
+        frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+            Artifact_intro["clock"], win, frameN)
+        # update/draw components on each frame
+
+        # *Artifact_intro["title"]* updates
+        win, Artifact_intro['title'], trigger_mat[0] = run_comp(
+            win, Artifact_intro['title'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+            start_time=Artifact_intro['time']['title'][0], duration=Artifact_intro['time']['title'][1])
+        # *Artifact_intro["title"]* updates
+        win, Artifact_intro['text'], trigger_mat[1] = run_comp(
+            win, Artifact_intro['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+            start_time=Artifact_intro['time']['text'][0], duration=Artifact_intro['time']['text'][1])
+        # *Artifact_intro["audio"]* updates
+        win, Artifact_intro['audio'], trigger_mat[2] = run_comp(
+            win, Artifact_intro['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+            start_time=Artifact_intro['time']['audio'][0], duration=Artifact_intro['time']['audio'][1])
+
+        # *Artifact_intro['key_resp']* updates
+        waitOnFlip=False
+        win, Artifact_intro['key_resp'], continueRoutine, endExpNow, trigger_mat[3] = run_comp(
+            win, Artifact_intro['key_resp'], 'key_resp', frameN, t, tThisFlip, tThisFlipGlobal,
+            start_time=Artifact_intro['time']['key_resp'][0], duration=Artifact_intro['time']['key_resp'][1],
+            waitOnFlip=waitOnFlip)
+        # *Artifact_intro['cont']* updates
+        win, Artifact_intro['cont'], trigger_mat[4] = run_comp(
+            win, Artifact_intro['cont'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+            start_time=Artifact_intro['time']['cont'][0], duration=Artifact_intro['time']['cont'][1],
+            repeat_per_frame=True, repeat_content=continue_str)
+
+        win, continueRoutine, break_flag = continue_justification(
+            win, endExpNow, defaultKeyboard, continueRoutine, Artifact_introComponents)
+        if trigger_mat.sum(axis=0)[0]:
+            pass # trigger_encoding_sending('Calibration', input_run=0, input_block=0, intro_rec=0, input_event=trigger_mat)
+        if break_flag:
+            break
+
+    # -------Ending Routine "Artifact_intro"-------
+    for thisComponent in Artifact_introComponents:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+
+    thisExp = data_writer(thisExp, Artifact_intro, 'Artifact_intro', ['title', 'text', 'audio', 'cont'])
+
+    trigger_sending(event_dict['Arti_intro'][1], default_sleep=True) # Sending trigger 71 (Artifact_intro End)
+    print('Log: artifact_intro finish')
+    breakpoint_logger(comp='Artifact_intro', value=0, run=None, block=None, trial=None)
+    routineTimer.reset()
+
+
+
+# ---------------------------------------------------
+# ----------------- Artifact_rec --------------------
+# ---------------------------------------------------
+
+
+if Artifact_rec_flag:
+
+    # ---------------------------------------------------------------------------
+    # ------------------------ Start Artifact_rec Trial --------------------------
+    # ---------------------------------------------------------------------------
+    # set up handler to look after randomisation of conditions etc
+
+    artifact_trial = data.TrialHandler(nReps=n_arti_trial, method='random',
+        extraInfo=expInfo, originPath=-1,
+        trialList=[None],
+        seed=None, name='artifact_trial')
+    thisExp.addLoop(artifact_trial)  # add the loop to the experiment
+    thisArtifact_trial = artifact_trial.trialList[0]  # so we can initialise stimuli with some values
+    # abbreviate parameter names if possible (e.g. rgb = thisCali_pre_trial.rgb)
+    if thisArtifact_trial != None:
+        for paramName in thisArtifact_trial:
+            exec('{} = thisArtifact_trial[paramName]'.format(paramName))
+
+    for thisArtifact_trial in artifact_trial:
+
+        currentLoop = artifact_trial
+        # abbreviate parameter names if possible (e.g. rgb = thisArtifact_trial.rgb)
+        if thisArtifact_trial != None:
+            for paramName in thisArtifact_trial:
+                exec('{} = thisArtifact_trial[paramName]'.format(paramName))
+
+        # ------Prepare to start Routine "Artifact_rec"-------
+        print('Log: artifact_rec start: Trial ' + str(artifact_trial.thisN))
+        breakpoint_logger(comp='Artifact_rec', value=1, run=None, block=None, trial=artifact_trial.thisN)
+
+        artifact_action_cnt += 1
+        Artifact_rec['action'].setSound(action_path_list[artifact_action_cnt], secs=-1, hamming=True)
+
+        # keep track of which components have finished
+        win, Artifact_rec, Artifact_recComponents, t, frameN, continueRoutine = pre_run_comp(win, Artifact_rec)
+        trigger_mat = np.zeros((len(Artifact_recComponents) - 1, 2))
+        comp_list = np.asarray([*Artifact_rec['time'].keys()])
+
+        # -------Run Routine "Artifact_rec"-------
+        trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+        routineTimer.add(artifact_total_time)
+        while continueRoutine and routineTimer.getTime() > 0:
+            # get current time
+            frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
+                Artifact_rec["clock"], win, frameN)
+
+            # *Artifact_rec["text"]* updates
+            win, Artifact_rec['text'], trigger_mat[0] = run_comp(
+                win, Artifact_rec['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['text'][0], duration=Artifact_rec['time']['text'][1])
+            # *Artifact_rec["beep_hint"]* updates
+            win, Artifact_rec['beep_hint'], trigger_mat[1] = run_comp(
+                win, Artifact_rec['beep_hint'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['beep_hint'][0], duration=Artifact_rec['time']['beep_hint'][1])
+            # *Artifact_rec["action"]* updates
+            win, Artifact_rec['action'], trigger_mat[2] = run_comp(
+                win, Artifact_rec['action'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['action'][0], duration=Artifact_rec['time']['action'][1])
+
+            # *Artifact_rec["beep_start"]* updates
+            win, Artifact_rec['beep_start'], trigger_mat[3] = run_comp(
+                win, Artifact_rec['beep_start'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['beep_start'][0], duration=Artifact_rec['time']['beep_start'][1])
+            # *Artifact_rec["recording"]* updates
+            win, Artifact_rec['recording'], trigger_mat[4] = run_comp(
+                win, Artifact_rec['recording'], 'recording', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['recording'][0], duration=Artifact_rec['time']['recording'][1])
+            # *Artifact_rec["beep_end"]* updates
+            win, Artifact_rec['beep_end'], trigger_mat[5] = run_comp(
+                win, Artifact_rec['beep_end'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['beep_end'][0], duration=Artifact_rec['time']['beep_end'][1])
+
+            win, Artifact_rec['break'], trigger_mat[6] = run_comp(
+                win, Artifact_rec['break'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
+                start_time=Artifact_rec['time']['break'][0], duration=Artifact_rec['time']['break'][1])
+
+            win, continueRoutine, break_flag = continue_justification(
+                win, endExpNow, defaultKeyboard, continueRoutine, Artifact_recComponents)
+
+            if trigger_mat.sum(axis=0)[0]:
+                trigger_encoding_sending('Artifact', input_event=trigger_mat)
+            if break_flag:
+                break
+        # -------Ending Routine "Artifact_rec"-------
+        for thisComponent in Artifact_recComponents:
+            if hasattr(thisComponent, "setAutoDraw"):
+                thisComponent.setAutoDraw(False)
+
+        thisExp = data_writer(thisExp, Artifact_rec, 'Artifact_rec', ['text', 'beep_hint', 'action', 'beep_start', 'recording', 'beep_end', 'break'])
+        thisExp.nextEntry()
+
+        trigger_sending(event_dict['Arti_trial'][1], default_sleep=True) # Sending trigger 73 (Artifact_trial End)
+        print('Log: artifact_rec finish: Trial' + str(artifact_trial.thisN))
+        breakpoint_logger(comp='Artifact_rec', value=0, run=None, block=None, trial=artifact_trial.thisN)
+        # the Routine "Artifact_rec" was not non-slip safe, so reset the non-slip timer
+        routineTimer.reset()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ---------------------------------------------------
 # ---------------------- End ------------------------
 # ---------------------------------------------------
@@ -2016,12 +2397,12 @@ if end_flag:
         # update/draw components on each frame
         # *the_end['audio']* updates
         win, the_end['audio'], trigger = run_comp(
-            win, the_end['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, the_end['audio'], 'audio', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=the_end['time']['audio'][0], duration=the_end['time']['audio'][1])
 
         # *the_end['cont']* updates
         win, the_end['text'], trigger = run_comp(
-            win, the_end['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal, 
+            win, the_end['text'], 'text', frameN, t, tThisFlip, tThisFlipGlobal,
             start_time=the_end['time']['text'][0], duration=the_end['time']['text'][1],
             repeat_per_frame=True, repeat_content=the_end['text'].text)
 
@@ -2051,7 +2432,7 @@ trigger_sending(event_dict['End'], default_sleep=True)  # trigger 255 represents
 
 
 
-# Flip one final time so any remaining win.callOnFlip() 
+# Flip one final time so any remaining win.callOnFlip()
 # and win.timeOnFlip() tasks get executed before quitting
 win.flip()
 
