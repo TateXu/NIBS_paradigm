@@ -677,6 +677,21 @@ def extract_qa(input_all_df=None, label='practice', word_type='VERB',
 
 
 
+def extract_cali(input_all_df=None):
+
+    if not input_all_df.empty:
+        all_df = input_all_df
+    else:
+        raise ValueError('No such file!')
+    # No repeat questions for same subject
+
+    
+    sen_text = all_df['sentence'].values
+    sen_order = all_df['sentence'].values
+
+    return sen_text, sen_order
+
+
 def randomization_question():
 
     all_beep_df = pd.read_pickle('../audio_data/all_unshattered_beep_df.pkl')
