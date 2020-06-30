@@ -179,8 +179,9 @@ QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 # 30s version: 0, 2, 14, 1, 8, 1, 2
 # 25s version: 0, 2, 12, 1, 6, 1, 1
-qa_total_time = 25.0
-QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 12, 1, 6, 1, 1
+# 20s version: 0, 2, 5, 1, 8, 1, 1
+qa_total_time = 20.0
+QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 5, 1, 8, 1, 1
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
 QA_rec_start = QA_a_beep_s_start + QA_a_beep_s_dur + comp_gap
