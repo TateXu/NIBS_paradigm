@@ -133,7 +133,7 @@ comp_gap = 0.4
 instruction_cont_start, instruction_cont_dur = 44, None  # Audio 42s
 
 
-artifact_intro_start, artifact_intro_dur, artifact_intro_cont_dur = 0, 7, None  # Audio 6s
+artifact_intro_start, artifact_intro_dur, artifact_intro_cont_dur = 0, 27, None  # Audio 26s
 artifact_intro_cont_start = artifact_intro_start + artifact_intro_dur + comp_gap
 
 artifact_total_time = 20.0
@@ -179,7 +179,7 @@ QA_intro_cont_start = QA_intro_title_start + QA_intro_title_dur + comp_gap
 
 # 30s version: 0, 2, 14, 1, 8, 1, 2
 # 25s version: 0, 2, 12, 1, 6, 1, 1
-qa_total_time = 25.0
+qa_total_time = 20.0
 QA_hint_start, QA_hint_dur, QA_q_dur, QA_a_beep_s_dur, QA_rec_dur, QA_a_beep_e_dur, QA_break_dur = 0, 2, 12, 1, 6, 1, 1
 QA_q_start = QA_hint_start + QA_hint_dur + comp_gap
 QA_a_beep_s_start = QA_q_start + QA_q_dur + comp_gap
@@ -242,7 +242,7 @@ if init_flag:
         pre_load_cali_df = pd.read_pickle(
             './cali_info/S{0}_Session{1}_cali.pkl'.format(str(int(expInfo['participant'])).zfill(2),
                                                           str(int(expInfo['session']))))
-        _, _, _, _, _, cali_sen_text, _ = extract_qa(input_all_df=pre_load_cali_df)
+        cali_sen_text, cali_sen_order = extract_cali(input_all_df=pre_load_cali_df)
 
         arti_file_name_list = ['eye_horizontal.wav',
              'eye_vertical.wav',

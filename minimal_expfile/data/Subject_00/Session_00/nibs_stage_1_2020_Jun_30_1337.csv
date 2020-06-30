@@ -1,0 +1,6 @@
+﻿instruction_text.text,instruction_text.started,instruction_text.stopped,instruction_cont.started,instruction_cont.stopped,participant,session,First language,German level,Full_screen,Instruction,Intro,Artifact,Cali_pre,Fade_in_out,Resting_State,QA,Pause,Cali_post,End,Breakpoint_Cali_pre_trial,Breakpoint_Run,Breakpoint_RS_block,Breakpoint_QA_block,Breakpoint_QA_trial,Breakpoint_Cali_post_trial,date,expName,psychopyVersion,frameRate,
+"     Thank you for participating in the experiment: 
+
+     Personalized non-invasive brain stimulation    
+            for second language learning            
+",43.76000690460205,None,87.74249577522278,None,,,,,,,,,,,,,,,,,,,,,,,,,,
