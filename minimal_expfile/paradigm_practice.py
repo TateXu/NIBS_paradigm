@@ -240,7 +240,8 @@ if init_flag:
 
         # extract_df, question_path, censor_question_start, censor_question_duration, sen_duration, sen_text, cen_text
         pre_load_cali_df = pd.read_pickle(
-            './cali_info/Session{0}_unshattered_beep_df.pkl'.format(str(int(expInfo['session']))))
+            './cali_info/S{0}_Session{1}_cali.pkl'.format(str(int(expInfo['participant'])).zfill(2),
+                                                          str(int(expInfo['session']))))
         _, _, _, _, _, cali_sen_text, _ = extract_qa(input_all_df=pre_load_cali_df)
 
         arti_file_name_list = ['eye_horizontal.wav',
@@ -2189,7 +2190,7 @@ trigger_sending(event_dict['Post_run'][1], default_sleep=True) # Sending trigger
 # ---------------------------------------------------
 
 if Artifact_intro_flag:
-    
+
     print('Log: artifact_intro start')
     breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
     # ------Prepare to start Routine "Cali_de_pre_intro"-------
