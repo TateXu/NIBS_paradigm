@@ -11,6 +11,9 @@ unique_df = all_df.drop_duplicates(subset='complete_sen', keep='first')
 col_name = ['sentence', 'verb', 'noun']
 sen_list = unique_df.complete_sen
 
+
+process_flag = True
+
 restart = None
 if restart is not None:
     prev_df = pd.read_pickle(filename + '_' + str(restart) + '.pkl') 
