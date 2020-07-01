@@ -93,7 +93,7 @@ question_root = '/home/jxu/File/Data/NIBS/Stage_one/Audio/Database/'
 ######## Paradigm setting ########
 n_run = 4
 n_block = 2
-n_trial = 1  # 25 - 500 secs
+n_trial = 25  # 25 - 500 secs
 n_cali_trial = 10  # 10 - 200 secs
 n_arti_trial = 15 # 15 - 300 secs
 
@@ -233,6 +233,7 @@ if init_flag:
     break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial']))
 
     if external_question_flag:
+
         pre_load_qa_df = pd.read_pickle(
             './qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
                 str(int(expInfo['participant'])).zfill(2), str(int(expInfo['session'])) ))
