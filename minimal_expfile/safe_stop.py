@@ -5,7 +5,7 @@ import numpy as np
 
 fg = SG()
 
-for i in enumerate([0.4, 0.3, 0.2, 0.1, 0.002]):
+for i in [0.4, 0.3, 0.2, 0.1, 0.002]:
     fg.amp(i)
     time.sleep(6)
 fg.off()

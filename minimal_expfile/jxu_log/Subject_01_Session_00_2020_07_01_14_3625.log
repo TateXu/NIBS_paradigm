@@ -1,0 +1,143 @@
+Mi, 01 Jul 2020 14:36:26 +0000  Instruction 1 None None None
+Mi, 01 Jul 2020 14:36:42 +0000  Instruction 0 None None None
+Mi, 01 Jul 2020 14:36:42 +0000  Artifact_intro 1 None None None
+Mi, 01 Jul 2020 14:37:10 +0000  Artifact_intro 0 None None None
+Mi, 01 Jul 2020 14:37:10 +0000  Artifact_rec 1 None None 0
+Mi, 01 Jul 2020 14:37:31 +0000  Artifact_rec 0 None None 0
+Mi, 01 Jul 2020 14:37:31 +0000  Artifact_rec 1 None None 1
+Mi, 01 Jul 2020 14:37:52 +0000  Artifact_rec 0 None None 1
+Mi, 01 Jul 2020 14:37:52 +0000  Artifact_rec 1 None None 2
+Mi, 01 Jul 2020 14:38:13 +0000  Artifact_rec 0 None None 2
+Mi, 01 Jul 2020 14:38:13 +0000  Artifact_rec 1 None None 3
+Mi, 01 Jul 2020 14:38:34 +0000  Artifact_rec 0 None None 3
+Mi, 01 Jul 2020 14:38:34 +0000  Artifact_rec 1 None None 4
+Mi, 01 Jul 2020 14:38:55 +0000  Artifact_rec 0 None None 4
+Mi, 01 Jul 2020 14:38:56 +0000  Artifact_rec 1 None None 5
+Mi, 01 Jul 2020 14:39:17 +0000  Artifact_rec 0 None None 5
+Mi, 01 Jul 2020 14:39:17 +0000  Artifact_rec 1 None None 6
+Mi, 01 Jul 2020 14:39:38 +0000  Artifact_rec 0 None None 6
+Mi, 01 Jul 2020 14:39:38 +0000  Artifact_rec 1 None None 7
+Mi, 01 Jul 2020 14:39:59 +0000  Artifact_rec 0 None None 7
+Mi, 01 Jul 2020 14:39:59 +0000  Artifact_rec 1 None None 8
+Mi, 01 Jul 2020 14:40:20 +0000  Artifact_rec 0 None None 8
+Mi, 01 Jul 2020 14:40:20 +0000  Artifact_rec 1 None None 9
+Mi, 01 Jul 2020 14:40:41 +0000  Artifact_rec 0 None None 9
+Mi, 01 Jul 2020 14:40:41 +0000  Artifact_rec 1 None None 10
+Mi, 01 Jul 2020 14:41:02 +0000  Artifact_rec 0 None None 10
+Mi, 01 Jul 2020 14:41:02 +0000  Artifact_rec 1 None None 11
+Mi, 01 Jul 2020 14:41:23 +0000  Artifact_rec 0 None None 11
+Mi, 01 Jul 2020 14:41:23 +0000  Artifact_rec 1 None None 12
+Mi, 01 Jul 2020 14:41:44 +0000  Artifact_rec 0 None None 12
+Mi, 01 Jul 2020 14:41:44 +0000  Artifact_rec 1 None None 13
+Mi, 01 Jul 2020 14:42:05 +0000  Artifact_rec 0 None None 13
+Mi, 01 Jul 2020 14:42:05 +0000  Artifact_rec 1 None None 14
+Mi, 01 Jul 2020 14:42:26 +0000  Artifact_rec 0 None None 14
+Mi, 01 Jul 2020 14:42:27 +0000  Cali_de_pre_intro 1 None None None
+Mi, 01 Jul 2020 14:43:09 +0000  Cali_de_pre_intro 0 None None None
+Mi, 01 Jul 2020 14:43:09 +0000  Cali_de_pre_rec 1 None None 0
+Mi, 01 Jul 2020 14:43:30 +0000  Cali_de_pre_rec 0 None None 0
+Mi, 01 Jul 2020 14:43:30 +0000  Cali_de_pre_rec 1 None None 1
+Mi, 01 Jul 2020 14:43:51 +0000  Cali_de_pre_rec 0 None None 1
+Mi, 01 Jul 2020 14:43:51 +0000  Cali_de_pre_rec 1 None None 2
+Mi, 01 Jul 2020 14:44:12 +0000  Cali_de_pre_rec 0 None None 2
+Mi, 01 Jul 2020 14:44:12 +0000  Cali_de_pre_rec 1 None None 3
+Mi, 01 Jul 2020 14:44:33 +0000  Cali_de_pre_rec 0 None None 3
+Mi, 01 Jul 2020 14:44:33 +0000  Cali_de_pre_rec 1 None None 4
+Mi, 01 Jul 2020 14:44:54 +0000  Cali_de_pre_rec 0 None None 4
+Mi, 01 Jul 2020 14:44:54 +0000  Cali_de_pre_rec 1 None None 5
+Mi, 01 Jul 2020 14:45:15 +0000  Cali_de_pre_rec 0 None None 5
+Mi, 01 Jul 2020 14:45:15 +0000  Cali_de_pre_rec 1 None None 6
+Mi, 01 Jul 2020 14:45:36 +0000  Cali_de_pre_rec 0 None None 6
+Mi, 01 Jul 2020 14:45:36 +0000  Cali_de_pre_rec 1 None None 7
+Mi, 01 Jul 2020 14:45:57 +0000  Cali_de_pre_rec 0 None None 7
+Mi, 01 Jul 2020 14:45:57 +0000  Cali_de_pre_rec 1 None None 8
+Mi, 01 Jul 2020 14:46:18 +0000  Cali_de_pre_rec 0 None None 8
+Mi, 01 Jul 2020 14:46:18 +0000  Cali_de_pre_rec 1 None None 9
+Mi, 01 Jul 2020 14:46:39 +0000  Cali_de_pre_rec 0 None None 9
+Mi, 01 Jul 2020 14:47:40 +0000  fade_in 1 0 None None
+Mi, 01 Jul 2020 14:48:10 +0000  fade_in 0 0 None None
+Mi, 01 Jul 2020 14:48:12 +0000  RS_intro 1 0 0 None
+Mi, 01 Jul 2020 14:48:35 +0000  RS_intro 0 0 0 None
+Mi, 01 Jul 2020 14:48:35 +0000  RS_rec 1 0 0 None
+Mi, 01 Jul 2020 14:51:39 +0000  RS_rec 0 0 close None
+Mi, 01 Jul 2020 14:51:39 +0000  RS_intro 1 0 1 None
+Mi, 01 Jul 2020 14:52:02 +0000  RS_intro 0 0 1 None
+Mi, 01 Jul 2020 14:52:02 +0000  RS_rec 1 0 1 None
+Mi, 01 Jul 2020 14:55:05 +0000  RS_rec 0 0 open None
+Mi, 01 Jul 2020 14:55:32 +0000  QA_intro 1 0 None None
+Mi, 01 Jul 2020 14:56:16 +0000  QA_intro 0 0 None None
+Mi, 01 Jul 2020 14:56:18 +0000  QA_rec 1 0 0 0
+Mi, 01 Jul 2020 14:56:36 +0000  QA_rec 0 0 0 0
+Mi, 01 Jul 2020 14:56:36 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
+Mi, 01 Jul 2020 14:56:37 +0000  QA_rec 1 0 0 1
+Mi, 01 Jul 2020 14:56:56 +0000  QA_rec 0 0 0 1
+Mi, 01 Jul 2020 14:56:56 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Der Ton macht die Musik., Q_cen-macht
+Mi, 01 Jul 2020 14:56:57 +0000  QA_rec 1 0 0 2
+Mi, 01 Jul 2020 14:57:16 +0000  QA_rec 0 0 0 2
+Mi, 01 Jul 2020 14:57:16 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Du muss deine schmutzige Kleidung in der Wäscherei waschen., Q_cen-waschen
+Mi, 01 Jul 2020 14:57:17 +0000  QA_rec 1 0 0 3
+Mi, 01 Jul 2020 14:57:36 +0000  QA_rec 0 0 0 3
+Mi, 01 Jul 2020 14:57:36 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Die friedlichen Pandas kommen aus China., Q_cen-kommen
+Mi, 01 Jul 2020 14:57:37 +0000  QA_rec 1 0 0 4
+Mi, 01 Jul 2020 14:57:56 +0000  QA_rec 0 0 0 4
+Mi, 01 Jul 2020 14:57:56 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Wenn sie sich etwas leiht, bringt sie es immer zurück., Q_cen-leiht
+Mi, 01 Jul 2020 14:57:57 +0000  QA_rec 1 0 0 5
+Mi, 01 Jul 2020 14:58:16 +0000  QA_rec 0 0 0 5
+Mi, 01 Jul 2020 14:58:16 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Ich berichtete der Polizei alles, was ich gesehen hatte., Q_cen-berichtete
+Mi, 01 Jul 2020 14:58:17 +0000  QA_rec 1 0 0 6
+Mi, 01 Jul 2020 14:58:36 +0000  QA_rec 0 0 0 6
+Mi, 01 Jul 2020 14:58:36 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Ich nahm meinen Stift und begann zu schreiben., Q_cen-begann
+Mi, 01 Jul 2020 14:58:37 +0000  QA_rec 1 0 0 7
+Mi, 01 Jul 2020 14:58:56 +0000  QA_rec 0 0 0 7
+Mi, 01 Jul 2020 14:58:56 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Am nächsten Bahnhof muss ich aus dem Zug aussteigen., Q_cen-aussteigen
+Mi, 01 Jul 2020 14:58:57 +0000  QA_rec 1 0 0 8
+Mi, 01 Jul 2020 14:59:16 +0000  QA_rec 0 0 0 8
+Mi, 01 Jul 2020 14:59:16 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Das Geheimnis darfst du niemand sagen., Q_cen-sagen
+Mi, 01 Jul 2020 14:59:17 +0000  QA_rec 1 0 0 9
+Mi, 01 Jul 2020 14:59:36 +0000  QA_rec 0 0 0 9
+Mi, 01 Jul 2020 14:59:36 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Thomas hat schon so kurze Haare, er muss sich nicht kämmen., Q_cen-kämmen
+Mi, 01 Jul 2020 14:59:37 +0000  QA_rec 1 0 0 10
+Mi, 01 Jul 2020 14:59:56 +0000  QA_rec 0 0 0 10
+Mi, 01 Jul 2020 14:59:56 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+Mi, 01 Jul 2020 14:59:57 +0000  QA_rec 1 0 0 11
+Mi, 01 Jul 2020 15:00:16 +0000  QA_rec 0 0 0 11
+Mi, 01 Jul 2020 15:00:16 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Die Mutter rührt in ihren Töpfen und Pfannen., Q_cen-rührt
+Mi, 01 Jul 2020 15:00:17 +0000  QA_rec 1 0 0 12
+Mi, 01 Jul 2020 15:00:36 +0000  QA_rec 0 0 0 12
+Mi, 01 Jul 2020 15:00:36 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Manche Menschen kann mehr Fleisch als Gemüse essen., Q_cen-essen
+Mi, 01 Jul 2020 15:00:37 +0000  QA_rec 1 0 0 13
+Mi, 01 Jul 2020 15:00:56 +0000  QA_rec 0 0 0 13
+Mi, 01 Jul 2020 15:00:56 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Sie hat den Kuchen in einer runden Form gebacken., Q_cen-gebacken
+Mi, 01 Jul 2020 15:00:57 +0000  QA_rec 1 0 0 14
+Mi, 01 Jul 2020 15:01:16 +0000  QA_rec 0 0 0 14
+Mi, 01 Jul 2020 15:01:16 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Rauchen schadet deiner Lunge., Q_cen-schadet
+Mi, 01 Jul 2020 15:01:17 +0000  QA_rec 1 0 0 15
+Mi, 01 Jul 2020 15:01:36 +0000  QA_rec 0 0 0 15
+Mi, 01 Jul 2020 15:01:36 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Ihr Regenschirm kann Sie vor dem Regen schützen., Q_cen-schützen
+Mi, 01 Jul 2020 15:01:37 +0000  QA_rec 1 0 0 16
+Mi, 01 Jul 2020 15:01:56 +0000  QA_rec 0 0 0 16
+Mi, 01 Jul 2020 15:01:56 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Ich drückte den Knopf, um den Computer einzuschalten., Q_cen-drückte
+Mi, 01 Jul 2020 15:01:57 +0000  QA_rec 1 0 0 17
+Mi, 01 Jul 2020 15:02:16 +0000  QA_rec 0 0 0 17
+Mi, 01 Jul 2020 15:02:16 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Sie hat das Gemüse in Olivenöl gebraten., Q_cen-gebraten
+Mi, 01 Jul 2020 15:02:17 +0000  QA_rec 1 0 0 18
+Mi, 01 Jul 2020 15:02:36 +0000  QA_rec 0 0 0 18
+Mi, 01 Jul 2020 15:02:36 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Der Artikel hat bereits genügend nützliche Hintergrundinformationen geliefert., Q_cen-geliefert
+Mi, 01 Jul 2020 15:02:37 +0000  QA_rec 1 0 0 19
+Mi, 01 Jul 2020 15:02:56 +0000  QA_rec 0 0 0 19
+Mi, 01 Jul 2020 15:02:56 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-In der Arktis leben gefährliche Eisbären., Q_cen-leben
+Mi, 01 Jul 2020 15:02:57 +0000  QA_rec 1 0 0 20
+Mi, 01 Jul 2020 15:03:16 +0000  QA_rec 0 0 0 20
+Mi, 01 Jul 2020 15:03:16 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Ich gehe gerne alles in dem Geschäft um die Ecke einkaufen., Q_cen-einkaufen
+Mi, 01 Jul 2020 15:03:17 +0000  QA_rec 1 0 0 21
+Mi, 01 Jul 2020 15:03:36 +0000  QA_rec 0 0 0 21
+Mi, 01 Jul 2020 15:03:36 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Karneval wird jedes Jahr im Februar oder im März gefeiert., Q_cen-gefeiert
+Mi, 01 Jul 2020 15:03:37 +0000  QA_rec 1 0 0 22
+Mi, 01 Jul 2020 15:03:56 +0000  QA_rec 0 0 0 22
+Mi, 01 Jul 2020 15:03:56 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Eltern kümmern sich um ihre Kinder., Q_cen-kümmern
+Mi, 01 Jul 2020 15:03:57 +0000  QA_rec 1 0 0 23
+Mi, 01 Jul 2020 15:04:16 +0000  QA_rec 0 0 0 23
+Mi, 01 Jul 2020 15:04:16 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Die Bergarbeiter fuhren jeden Tag in die Grube., Q_cen-fuhren
+Mi, 01 Jul 2020 15:04:17 +0000  QA_rec 1 0 0 24
+Mi, 01 Jul 2020 15:04:36 +0000  QA_rec 0 0 0 24
+Mi, 01 Jul 2020 15:04:36 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Meine kleine Schwester spielt draußen im Garten., Q_cen-spielt
