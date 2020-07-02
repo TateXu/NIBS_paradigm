@@ -1,0 +1,13 @@
+Do, 02 Jul 2020 10:59:07 +0000  fade_in 1 0 None None
+Do, 02 Jul 2020 10:59:37 +0000  fade_in 0 0 None None
+Do, 02 Jul 2020 10:59:53 +0000  QA_intro 1 0 None None
+Do, 02 Jul 2020 11:00:34 +0000  QA_intro 0 0 None None
+Do, 02 Jul 2020 11:00:36 +0000  QA_rec 1 0 1 22
+Do, 02 Jul 2020 11:00:54 +0000  QA_rec 0 0 1 22
+Do, 02 Jul 2020 11:00:54 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Ich fahre mit dem Zug nach London., Q_cen-fahre
+Do, 02 Jul 2020 11:00:55 +0000  QA_rec 1 0 1 23
+Do, 02 Jul 2020 11:01:14 +0000  QA_rec 0 0 1 23
+Do, 02 Jul 2020 11:01:14 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Mani ist ins Kino gegangen und hat sich einen guten Film angesehen., Q_cen-angesehen
+Do, 02 Jul 2020 11:01:15 +0000  QA_rec 1 0 1 24
+Do, 02 Jul 2020 11:01:34 +0000  QA_rec 0 0 1 24
+Do, 02 Jul 2020 11:01:34 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Die Sonnenbrillen kann die Augen vor der Sonne schützen., Q_cen-schützen

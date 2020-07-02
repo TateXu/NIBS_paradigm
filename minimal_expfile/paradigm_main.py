@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #============================================================================
 # Code: NIBS_Paradigm
@@ -104,8 +104,8 @@ n_rec_chn = 1
 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
-intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each session
-stim_freq = 10
+intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each run
+stim_freq = 40.0
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
@@ -208,10 +208,13 @@ if init_flag:
 
     font_size = (0.06 if not expInfo['Full_screen'] else 0.15)
 
+
     Instruction_flag = expInfo['Instruction']
     Intro_flag = expInfo['Intro']
     Artifact_intro_flag = expInfo['Artifact']  & Intro_flag
     Artifact_rec_flag = expInfo['Artifact']
+    Artifact_intro_within_flag = expInfo['Artifact_within']  & Intro_flag
+    Artifact_rec_within_flag = expInfo['Artifact_within']
     Cali_de_pre_intro_flag = expInfo['Cali_pre']  & Intro_flag
     Cali_de_pre_rec_flag = expInfo['Cali_pre']
     fade_in_flag = expInfo['Fade_in_out']
@@ -1176,13 +1179,14 @@ for thisRun in run:
 
     trigger_sending(event_dict['Stable_stim'][0], default_sleep=True) # Sending trigger 28 (Stable stim Start)
 
+
     if run.thisN == 2:
         artifact_action_cnt = -1
         # ---------------------------------------------------
         # ---------------- Artifact_intro -------------------
         # ---------------------------------------------------
 
-        if Artifact_intro_flag:
+        if Artifact_intro_within_flag:
             print('Log: artifact_intro start')
             breakpoint_logger(comp='Artifact_intro', value=1, run=None, block=None, trial=None)
             # ------Prepare to start Routine "Cali_de_pre_intro"-------
@@ -1256,7 +1260,7 @@ for thisRun in run:
         # ---------------------------------------------------
 
 
-        if Artifact_rec_flag:
+        if Artifact_rec_within_flag:
 
             # ---------------------------------------------------------------------------
             # ------------------------ Start Artifact_rec Trial --------------------------
@@ -2063,8 +2067,11 @@ if Cali_de_post_rec_flag:
         comp_list = np.asarray([*Cali_de_post_rec['time'].keys()])
 
         # -------Run Routine "Cali_de_post_rec"-------
-        routineTimer.add(cali_total_time)
+        
         trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
+        routineTimer.reset()
+        print(routineTimer.getTime())
+        routineTimer.add(cali_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
             frameN, t, tThisFlip, tThisFlipGlobal, win = time_update(
@@ -2118,6 +2125,7 @@ if Cali_de_post_rec_flag:
 
         # cali_post_rec_file = folder_path + 'rec_cali_de_post_' + + ' .wav'
         cali_post_rec_file = folder_path + 'rec_cali_de_post_' + 'trial_' + str(cali_post_trial.thisN).zfill(3)  + '.wav'
+
         write(cali_post_rec_file, fs, Cali_de_post_rec['recording'].file)  # Save as WAV file
         print('Recording is saved!' + cali_post_rec_file)
         # Add the detected time into the PsychoPy data file:
