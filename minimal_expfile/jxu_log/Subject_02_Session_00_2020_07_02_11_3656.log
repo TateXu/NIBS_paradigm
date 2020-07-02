@@ -1,0 +1,199 @@
+Do, 02 Jul 2020 11:37:00 +0000  fade_in 1 2 None None
+Do, 02 Jul 2020 11:37:30 +0000  fade_in 0 2 None None
+Do, 02 Jul 2020 11:37:31 +0000  Artifact_intro 1 None None None
+Do, 02 Jul 2020 11:37:59 +0000  Artifact_intro 0 None None None
+Do, 02 Jul 2020 11:37:59 +0000  Artifact_rec 1 None None 0
+Do, 02 Jul 2020 11:38:20 +0000  Artifact_rec 0 None None 0
+Do, 02 Jul 2020 11:38:20 +0000  Artifact_rec 1 None None 1
+Do, 02 Jul 2020 11:38:41 +0000  Artifact_rec 0 None None 1
+Do, 02 Jul 2020 11:38:41 +0000  Artifact_rec 1 None None 2
+Do, 02 Jul 2020 11:39:02 +0000  Artifact_rec 0 None None 2
+Do, 02 Jul 2020 11:39:02 +0000  Artifact_rec 1 None None 3
+Do, 02 Jul 2020 11:39:23 +0000  Artifact_rec 0 None None 3
+Do, 02 Jul 2020 11:39:23 +0000  Artifact_rec 1 None None 4
+Do, 02 Jul 2020 11:39:44 +0000  Artifact_rec 0 None None 4
+Do, 02 Jul 2020 11:39:44 +0000  Artifact_rec 1 None None 5
+Do, 02 Jul 2020 11:40:05 +0000  Artifact_rec 0 None None 5
+Do, 02 Jul 2020 11:40:05 +0000  Artifact_rec 1 None None 6
+Do, 02 Jul 2020 11:40:26 +0000  Artifact_rec 0 None None 6
+Do, 02 Jul 2020 11:40:26 +0000  Artifact_rec 1 None None 7
+Do, 02 Jul 2020 11:40:47 +0000  Artifact_rec 0 None None 7
+Do, 02 Jul 2020 11:40:47 +0000  Artifact_rec 1 None None 8
+Do, 02 Jul 2020 11:41:08 +0000  Artifact_rec 0 None None 8
+Do, 02 Jul 2020 11:41:08 +0000  Artifact_rec 1 None None 9
+Do, 02 Jul 2020 11:41:29 +0000  Artifact_rec 0 None None 9
+Do, 02 Jul 2020 11:41:29 +0000  Artifact_rec 1 None None 10
+Do, 02 Jul 2020 11:41:50 +0000  Artifact_rec 0 None None 10
+Do, 02 Jul 2020 11:41:50 +0000  Artifact_rec 1 None None 11
+Do, 02 Jul 2020 11:42:11 +0000  Artifact_rec 0 None None 11
+Do, 02 Jul 2020 11:42:11 +0000  Artifact_rec 1 None None 12
+Do, 02 Jul 2020 11:42:32 +0000  Artifact_rec 0 None None 12
+Do, 02 Jul 2020 11:42:32 +0000  Artifact_rec 1 None None 13
+Do, 02 Jul 2020 11:42:53 +0000  Artifact_rec 0 None None 13
+Do, 02 Jul 2020 11:42:53 +0000  Artifact_rec 1 None None 14
+Do, 02 Jul 2020 11:43:14 +0000  Artifact_rec 0 None None 14
+Do, 02 Jul 2020 11:43:15 +0000  RS_intro 1 2 0 None
+Do, 02 Jul 2020 11:43:38 +0000  RS_intro 0 2 0 None
+Do, 02 Jul 2020 11:43:38 +0000  RS_rec 1 2 0 None
+Do, 02 Jul 2020 11:46:42 +0000  RS_rec 0 2 close None
+Do, 02 Jul 2020 11:46:42 +0000  RS_intro 1 2 1 None
+Do, 02 Jul 2020 11:47:05 +0000  RS_intro 0 2 1 None
+Do, 02 Jul 2020 11:47:05 +0000  RS_rec 1 2 1 None
+Do, 02 Jul 2020 11:50:08 +0000  RS_rec 0 2 open None
+Do, 02 Jul 2020 11:50:22 +0000  QA_intro 1 2 None None
+Do, 02 Jul 2020 11:51:03 +0000  QA_intro 0 2 None None
+Do, 02 Jul 2020 11:51:05 +0000  QA_rec 1 2 0 0
+Do, 02 Jul 2020 11:51:23 +0000  QA_rec 0 2 0 0
+Do, 02 Jul 2020 11:51:23 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Die Augen meines Sohnes glänzten, als er das Geschenk sah., Q_cen-sah
+Do, 02 Jul 2020 11:51:24 +0000  QA_rec 1 2 0 1
+Do, 02 Jul 2020 11:51:43 +0000  QA_rec 0 2 0 1
+Do, 02 Jul 2020 11:51:43 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Er probierte, die Tür mit dem falschen Schlüssel zu öffnen., Q_cen-öffnen
+Do, 02 Jul 2020 11:51:44 +0000  QA_rec 1 2 0 2
+Do, 02 Jul 2020 11:52:03 +0000  QA_rec 0 2 0 2
+Do, 02 Jul 2020 11:52:03 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Die technologische Entwicklung schafft immer kleinere Computer., Q_cen-schafft
+Do, 02 Jul 2020 11:52:04 +0000  QA_rec 1 2 0 3
+Do, 02 Jul 2020 11:52:23 +0000  QA_rec 0 2 0 3
+Do, 02 Jul 2020 11:52:23 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-In der Vergangenheit war Berlin in zwei Hälften geteilt., Q_cen-geteilt
+Do, 02 Jul 2020 11:52:24 +0000  QA_rec 1 2 0 4
+Do, 02 Jul 2020 11:52:43 +0000  QA_rec 0 2 0 4
+Do, 02 Jul 2020 11:52:43 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Ich bin krank und bleibe heute im Bett., Q_cen-bleibe
+Do, 02 Jul 2020 11:52:44 +0000  QA_rec 1 2 0 5
+Do, 02 Jul 2020 11:53:03 +0000  QA_rec 0 2 0 5
+Do, 02 Jul 2020 11:53:03 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Wenn wir ein Auto mieten möchten, müssen wir Führerschein vorlegen und die Kaution bezahlen., Q_cen-mieten
+Do, 02 Jul 2020 11:53:04 +0000  QA_rec 1 2 0 6
+Do, 02 Jul 2020 11:53:23 +0000  QA_rec 0 2 0 6
+Do, 02 Jul 2020 11:53:23 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Danke für den Smoothie, den Sie mir machten., Q_cen-machten
+Do, 02 Jul 2020 11:53:24 +0000  QA_rec 1 2 0 7
+Do, 02 Jul 2020 11:53:43 +0000  QA_rec 0 2 0 7
+Do, 02 Jul 2020 11:53:43 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Der ganze Kursus besichtigte die Ausstellung., Q_cen-besichtigte
+Do, 02 Jul 2020 11:53:44 +0000  QA_rec 1 2 0 8
+Do, 02 Jul 2020 11:54:03 +0000  QA_rec 0 2 0 8
+Do, 02 Jul 2020 11:54:03 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-In der Therapie lernte er, mit Angst und Stress umzugehen., Q_cen-umzugehen
+Do, 02 Jul 2020 11:54:04 +0000  QA_rec 1 2 0 9
+Do, 02 Jul 2020 11:54:23 +0000  QA_rec 0 2 0 9
+Do, 02 Jul 2020 11:54:23 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Sonja nimmt ihren Tee mit Milch und Zucker., Q_cen-nimmt
+Do, 02 Jul 2020 11:54:24 +0000  QA_rec 1 2 0 10
+Do, 02 Jul 2020 11:54:43 +0000  QA_rec 0 2 0 10
+Do, 02 Jul 2020 11:54:43 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Das Flugzeug steht kurz vor dem Abflug, wir müssen uns beeilen., Q_cen-beeilen
+Do, 02 Jul 2020 11:54:44 +0000  QA_rec 1 2 0 11
+Do, 02 Jul 2020 11:55:03 +0000  QA_rec 0 2 0 11
+Do, 02 Jul 2020 11:55:03 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Nachdem er nach dem Flugzeugunglück gerettet wurde, hat er an Gott geglaubt., Q_cen-geglaubt
+Do, 02 Jul 2020 11:55:04 +0000  QA_rec 1 2 0 12
+Do, 02 Jul 2020 11:55:23 +0000  QA_rec 0 2 0 12
+Do, 02 Jul 2020 11:55:23 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Die U-Bahn ist gerade kaputt, also muss ich aussteigen. , Q_cen-aussteigen
+Do, 02 Jul 2020 11:55:24 +0000  QA_rec 1 2 0 13
+Do, 02 Jul 2020 11:55:43 +0000  QA_rec 0 2 0 13
+Do, 02 Jul 2020 11:55:43 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Zum Geburtstag hat ihm Oma ein Buch mit vielen Bildern geschenkt., Q_cen-geschenkt
+Do, 02 Jul 2020 11:55:44 +0000  QA_rec 1 2 0 14
+Do, 02 Jul 2020 11:56:03 +0000  QA_rec 0 2 0 14
+Do, 02 Jul 2020 11:56:03 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Auf Lavaerde wachsen sehr gute Weintrauben., Q_cen-wachsen
+Do, 02 Jul 2020 11:56:04 +0000  QA_rec 1 2 0 15
+Do, 02 Jul 2020 11:56:23 +0000  QA_rec 0 2 0 15
+Do, 02 Jul 2020 11:56:23 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Das Zimmer kostet ein Hundert Euro pro Nacht., Q_cen-kostet
+Do, 02 Jul 2020 11:56:24 +0000  QA_rec 1 2 0 16
+Do, 02 Jul 2020 11:56:43 +0000  QA_rec 0 2 0 16
+Do, 02 Jul 2020 11:56:43 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Sam glaubt an eine marxistische Weltanschauung., Q_cen-glaubt
+Do, 02 Jul 2020 11:56:44 +0000  QA_rec 1 2 0 17
+Do, 02 Jul 2020 11:57:03 +0000  QA_rec 0 2 0 17
+Do, 02 Jul 2020 11:57:03 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Wie lange benötigt die Erde, um die Sonne zu umrunden?, Q_cen-benötigt
+Do, 02 Jul 2020 11:57:04 +0000  QA_rec 1 2 0 18
+Do, 02 Jul 2020 11:57:23 +0000  QA_rec 0 2 0 18
+Do, 02 Jul 2020 11:57:23 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Die Präsentation dauert eine halbe Stunde., Q_cen-dauert
+Do, 02 Jul 2020 11:57:24 +0000  QA_rec 1 2 0 19
+Do, 02 Jul 2020 11:57:43 +0000  QA_rec 0 2 0 19
+Do, 02 Jul 2020 11:57:43 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Peter interessiert sich sehr für Geschichte., Q_cen-interessiert
+Do, 02 Jul 2020 11:57:44 +0000  QA_rec 1 2 0 20
+Do, 02 Jul 2020 11:58:03 +0000  QA_rec 0 2 0 20
+Do, 02 Jul 2020 11:58:03 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Rom wurde nicht an einem Tag erbaut., Q_cen-erbaut
+Do, 02 Jul 2020 11:58:04 +0000  QA_rec 1 2 0 21
+Do, 02 Jul 2020 11:58:23 +0000  QA_rec 0 2 0 21
+Do, 02 Jul 2020 11:58:23 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Er verwendet einen Bleistift auf der Wand zu malen., Q_cen-malen
+Do, 02 Jul 2020 11:58:24 +0000  QA_rec 1 2 0 22
+Do, 02 Jul 2020 11:58:43 +0000  QA_rec 0 2 0 22
+Do, 02 Jul 2020 11:58:43 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Sie war zu stolz, um ihn um Hilfe zu bitten., Q_cen-bitten
+Do, 02 Jul 2020 11:58:44 +0000  QA_rec 1 2 0 23
+Do, 02 Jul 2020 11:59:03 +0000  QA_rec 0 2 0 23
+Do, 02 Jul 2020 11:59:03 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Wie hoch kosten der Wahren ？, Q_cen-kosten
+Do, 02 Jul 2020 11:59:04 +0000  QA_rec 1 2 0 24
+Do, 02 Jul 2020 11:59:23 +0000  QA_rec 0 2 0 24
+Do, 02 Jul 2020 11:59:23 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Wenn Sie mit dem Vertrag nicht zufrieden sind, können Sie ihn vor seinem Ablauf kündigen., Q_cen-kündigen
+Do, 02 Jul 2020 11:59:46 +0000  QA_rec 1 2 1 0
+Do, 02 Jul 2020 12:00:05 +0000  QA_rec 0 2 1 0
+Do, 02 Jul 2020 12:00:05 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Sarah badet lieber abends in der Wanne., Q_cen-badet
+Do, 02 Jul 2020 12:00:06 +0000  QA_rec 1 2 1 1
+Do, 02 Jul 2020 12:00:25 +0000  QA_rec 0 2 1 1
+Do, 02 Jul 2020 12:00:25 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Leichte Sprache ist eine Hilfe für Menschen , die keine schwierige Sprache verstehen., Q_cen-verstehen
+Do, 02 Jul 2020 12:00:26 +0000  QA_rec 1 2 1 2
+Do, 02 Jul 2020 12:00:45 +0000  QA_rec 0 2 1 2
+Do, 02 Jul 2020 12:00:45 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Wir schneiden den Apfel in zwei Hälften. , Q_cen-schneiden
+Do, 02 Jul 2020 12:00:46 +0000  QA_rec 1 2 1 3
+Do, 02 Jul 2020 12:01:05 +0000  QA_rec 0 2 1 3
+Do, 02 Jul 2020 12:01:05 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Wir sind stolz auf das, was wir bis jetzt geschafft haben., Q_cen-geschafft
+Do, 02 Jul 2020 12:01:06 +0000  QA_rec 1 2 1 4
+Do, 02 Jul 2020 12:01:25 +0000  QA_rec 0 2 1 4
+Do, 02 Jul 2020 12:01:25 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-An seinem Mantel fehlt ein Knopf., Q_cen-fehlt
+Do, 02 Jul 2020 12:01:26 +0000  QA_rec 1 2 1 5
+Do, 02 Jul 2020 12:01:45 +0000  QA_rec 0 2 1 5
+Do, 02 Jul 2020 12:01:45 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Da ich gestern Abend übergewichtig war, werde ich morgen eine neue Diät beginnen., Q_cen-beginnen
+Do, 02 Jul 2020 12:01:46 +0000  QA_rec 1 2 1 6
+Do, 02 Jul 2020 12:02:05 +0000  QA_rec 0 2 1 6
+Do, 02 Jul 2020 12:02:05 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Wir haben im Wald Beeren und Pilze gesammelt., Q_cen-gesammelt
+Do, 02 Jul 2020 12:02:06 +0000  QA_rec 1 2 1 7
+Do, 02 Jul 2020 12:02:25 +0000  QA_rec 0 2 1 7
+Do, 02 Jul 2020 12:02:25 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Er bevorzugt die Farben gelb, orange und rot., Q_cen-bevorzugt
+Do, 02 Jul 2020 12:02:26 +0000  QA_rec 1 2 1 8
+Do, 02 Jul 2020 12:02:45 +0000  QA_rec 0 2 1 8
+Do, 02 Jul 2020 12:02:45 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Wenn der Wind stark bläst, ziehen die Wolken schnell über den Himmel., Q_cen-bläst
+Do, 02 Jul 2020 12:02:46 +0000  QA_rec 1 2 1 9
+Do, 02 Jul 2020 12:03:05 +0000  QA_rec 0 2 1 9
+Do, 02 Jul 2020 12:03:05 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Bienen liefern Honig., Q_cen-liefern
+Do, 02 Jul 2020 12:03:06 +0000  QA_rec 1 2 1 10
+Do, 02 Jul 2020 12:03:25 +0000  QA_rec 0 2 1 10
+Do, 02 Jul 2020 12:03:25 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Im Herbst werden die Blätter von den Bäumen fallen., Q_cen-fallen
+Do, 02 Jul 2020 12:03:26 +0000  QA_rec 1 2 1 11
+Do, 02 Jul 2020 12:03:45 +0000  QA_rec 0 2 1 11
+Do, 02 Jul 2020 12:03:45 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Nachdem ich nicht da war, kann ich nichts dazu sagen., Q_cen-sagen
+Do, 02 Jul 2020 12:03:46 +0000  QA_rec 1 2 1 12
+Do, 02 Jul 2020 12:04:05 +0000  QA_rec 0 2 1 12
+Do, 02 Jul 2020 12:04:05 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Im gleichen Jahr hat der amerikanische Bürgerkrieg begonnen., Q_cen-begonnen
+Do, 02 Jul 2020 12:04:06 +0000  QA_rec 1 2 1 13
+Do, 02 Jul 2020 12:04:25 +0000  QA_rec 0 2 1 13
+Do, 02 Jul 2020 12:04:25 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Die Touristen besichtigten alle Sehenswürdigkeiten der Stadt., Q_cen-besichtigten
+Do, 02 Jul 2020 12:04:26 +0000  QA_rec 1 2 1 14
+Do, 02 Jul 2020 12:04:45 +0000  QA_rec 0 2 1 14
+Do, 02 Jul 2020 12:04:45 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Morgen ändert sich das Wetter ganz bestimmt., Q_cen-bestimmt
+Do, 02 Jul 2020 12:04:46 +0000  QA_rec 1 2 1 15
+Do, 02 Jul 2020 12:05:05 +0000  QA_rec 0 2 1 15
+Do, 02 Jul 2020 12:05:05 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Der Arzt sagt, mein Knie ist in Ordnung, aber meine Beine scheinen gebrochen zu sein., Q_cen-scheinen
+Do, 02 Jul 2020 12:05:06 +0000  QA_rec 1 2 1 16
+Do, 02 Jul 2020 12:05:25 +0000  QA_rec 0 2 1 16
+Do, 02 Jul 2020 12:05:25 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Ich bekomme ein Gehalt und Nebenleistungen., Q_cen-bekomme
+Do, 02 Jul 2020 12:05:26 +0000  QA_rec 1 2 1 17
+Do, 02 Jul 2020 12:05:45 +0000  QA_rec 0 2 1 17
+Do, 02 Jul 2020 12:05:45 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Vater trägt den großen Rucksack auf dem Rücken., Q_cen-trägt
+Do, 02 Jul 2020 12:05:46 +0000  QA_rec 1 2 1 18
+Do, 02 Jul 2020 12:06:05 +0000  QA_rec 0 2 1 18
+Do, 02 Jul 2020 12:06:05 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Brot kann man in der Bäckerei kaufen., Q_cen-kaufen
+Do, 02 Jul 2020 12:06:06 +0000  QA_rec 1 2 1 19
+Do, 02 Jul 2020 12:06:25 +0000  QA_rec 0 2 1 19
+Do, 02 Jul 2020 12:06:25 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Das verstehe ich nicht, was meinst du damit?, Q_cen-meinst
+Do, 02 Jul 2020 12:06:26 +0000  QA_rec 1 2 1 20
+Do, 02 Jul 2020 12:06:45 +0000  QA_rec 0 2 1 20
+Do, 02 Jul 2020 12:06:45 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Ich komme, soweit es meine Zeit erlaubt., Q_cen-erlaubt
+Do, 02 Jul 2020 12:06:46 +0000  QA_rec 1 2 1 21
+Do, 02 Jul 2020 12:07:05 +0000  QA_rec 0 2 1 21
+Do, 02 Jul 2020 12:07:05 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Morgen machen wir einen Ausflug in den Schönbrunner Tiergarten., Q_cen-machen
+Do, 02 Jul 2020 12:07:06 +0000  QA_rec 1 2 1 22
+Do, 02 Jul 2020 12:07:25 +0000  QA_rec 0 2 1 22
+Do, 02 Jul 2020 12:07:25 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Wollen wir morgen zu Hause bleiben oder uns einen Film im Kino ansehen?, Q_cen-ansehen
+Do, 02 Jul 2020 12:07:26 +0000  QA_rec 1 2 1 23
+Do, 02 Jul 2020 12:07:45 +0000  QA_rec 0 2 1 23
+Do, 02 Jul 2020 12:07:45 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Aus Fehlern kann man lernen., Q_cen-lernen
+Do, 02 Jul 2020 12:07:46 +0000  QA_rec 1 2 1 24
+Do, 02 Jul 2020 12:08:05 +0000  QA_rec 0 2 1 24
+Do, 02 Jul 2020 12:08:05 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Manche Menschen kann mehr Fleisch als Gemüse essen., Q_cen-essen
+Do, 02 Jul 2020 12:08:21 +0000  fade_out 1 2 None None
+Do, 02 Jul 2020 12:08:24 +0000  fade_out 0 2 None None
+Do, 02 Jul 2020 12:08:26 +0000  fade_in 1 3 None None
+Do, 02 Jul 2020 12:08:56 +0000  fade_in 0 3 None None
+Do, 02 Jul 2020 12:08:58 +0000  RS_intro 1 3 0 None

@@ -49,6 +49,7 @@ def exp_init(Name='nibs_stage_1', fade_flag=True, pause_flag=True):
             'Artifact': True,
             'Cali_pre': True,
             'Fade_in_out': fade_flag,
+            'Artifact_within': True,
             'Resting_State': True,
             'QA': True,
             'Pause': pause_flag,
