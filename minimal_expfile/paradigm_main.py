@@ -105,7 +105,7 @@ n_rec_chn = 1
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each run
-stim_freq = 40.0
+stim_freq = 0
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
@@ -727,6 +727,7 @@ if Artifact_rec_flag:
 
         # -------Run Routine "Artifact_rec"-------
         trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+        routineTimer.reset()
         routineTimer.add(artifact_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
@@ -884,6 +885,7 @@ if Cali_de_pre_rec_flag:
     for thisCali_pre_trial in cali_pre_trial:
 
         if break_cali_pre_trial != None and cali_pre_trial.thisN < break_cali_pre_trial:
+            cali_question_cnt += 1
             continue
         break_cali_pre_trial = None   # clear the breakpoint
 
@@ -909,6 +911,7 @@ if Cali_de_pre_rec_flag:
 
         # -------Run Routine "Cali_de_pre_rec"-------
         trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
+        routineTimer.reset()
         routineTimer.add(cali_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
@@ -1300,6 +1303,7 @@ for thisRun in run:
 
                 # -------Run Routine "Artifact_rec"-------
                 trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+                routineTimer.reset()
                 routineTimer.add(artifact_total_time)
                 while continueRoutine and routineTimer.getTime() > 0:
                     # get current time
@@ -1714,6 +1718,7 @@ for thisRun in run:
                 trigger_mat = np.zeros((len(QA_recComponents) - 1, 2))
                 comp_list = np.asarray([*QA_rec['time'].keys()])
                 # ------Prepare to start Routine "QA_rec"-------
+                routineTimer.reset()
                 routineTimer.add(qa_total_time)
                 trigger_sending(event_dict['QA_trial'][0], default_sleep=True) # Sending trigger 42 (QA_trial Start)
                 # -------Run Routine "QA_rec"-------
@@ -2044,6 +2049,7 @@ if Cali_de_post_rec_flag:
     for thisCali_post_trial in cali_post_trial:
 
         if break_cali_post_trial != None and cali_post_trial.thisN < break_cali_post_trial:
+            cali_question_cnt += 1
             continue
 
         currentLoop = cali_post_trial
@@ -2070,7 +2076,6 @@ if Cali_de_post_rec_flag:
         
         trigger_sending(event_dict['Cali_trial'][0], default_sleep=True) # Sending trigger 12 (Cali_trial Start)
         routineTimer.reset()
-        print(routineTimer.getTime())
         routineTimer.add(cali_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time
@@ -2314,6 +2319,7 @@ if Artifact_rec_flag:
 
         # -------Run Routine "Artifact_rec"-------
         trigger_sending(event_dict['Arti_trial'][0], default_sleep=True) # Sending trigger 72 (Artifact_trial Start)
+        routineTimer.reset()
         routineTimer.add(artifact_total_time)
         while continueRoutine and routineTimer.getTime() > 0:
             # get current time

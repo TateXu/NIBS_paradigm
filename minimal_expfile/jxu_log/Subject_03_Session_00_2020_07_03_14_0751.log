@@ -1,0 +1,189 @@
+Fr, 03 Jul 2020 14:07:54 +0000  fade_in 1 2 None None
+Fr, 03 Jul 2020 14:08:24 +0000  fade_in 0 2 None None
+Fr, 03 Jul 2020 14:08:25 +0000  Artifact_rec 1 None None 0
+Fr, 03 Jul 2020 14:08:47 +0000  Artifact_rec 0 None None 0
+Fr, 03 Jul 2020 14:08:47 +0000  Artifact_rec 1 None None 1
+Fr, 03 Jul 2020 14:09:09 +0000  Artifact_rec 0 None None 1
+Fr, 03 Jul 2020 14:09:09 +0000  Artifact_rec 1 None None 2
+Fr, 03 Jul 2020 14:09:31 +0000  Artifact_rec 0 None None 2
+Fr, 03 Jul 2020 14:09:31 +0000  Artifact_rec 1 None None 3
+Fr, 03 Jul 2020 14:09:53 +0000  Artifact_rec 0 None None 3
+Fr, 03 Jul 2020 14:09:53 +0000  Artifact_rec 1 None None 4
+Fr, 03 Jul 2020 14:10:15 +0000  Artifact_rec 0 None None 4
+Fr, 03 Jul 2020 14:10:15 +0000  Artifact_rec 1 None None 5
+Fr, 03 Jul 2020 14:10:37 +0000  Artifact_rec 0 None None 5
+Fr, 03 Jul 2020 14:10:37 +0000  Artifact_rec 1 None None 6
+Fr, 03 Jul 2020 14:10:59 +0000  Artifact_rec 0 None None 6
+Fr, 03 Jul 2020 14:10:59 +0000  Artifact_rec 1 None None 7
+Fr, 03 Jul 2020 14:11:21 +0000  Artifact_rec 0 None None 7
+Fr, 03 Jul 2020 14:11:21 +0000  Artifact_rec 1 None None 8
+Fr, 03 Jul 2020 14:11:43 +0000  Artifact_rec 0 None None 8
+Fr, 03 Jul 2020 14:11:43 +0000  Artifact_rec 1 None None 9
+Fr, 03 Jul 2020 14:12:05 +0000  Artifact_rec 0 None None 9
+Fr, 03 Jul 2020 14:12:05 +0000  Artifact_rec 1 None None 10
+Fr, 03 Jul 2020 14:12:27 +0000  Artifact_rec 0 None None 10
+Fr, 03 Jul 2020 14:12:27 +0000  Artifact_rec 1 None None 11
+Fr, 03 Jul 2020 14:12:49 +0000  Artifact_rec 0 None None 11
+Fr, 03 Jul 2020 14:12:49 +0000  Artifact_rec 1 None None 12
+Fr, 03 Jul 2020 14:13:11 +0000  Artifact_rec 0 None None 12
+Fr, 03 Jul 2020 14:13:11 +0000  Artifact_rec 1 None None 13
+Fr, 03 Jul 2020 14:13:33 +0000  Artifact_rec 0 None None 13
+Fr, 03 Jul 2020 14:13:33 +0000  Artifact_rec 1 None None 14
+Fr, 03 Jul 2020 14:13:55 +0000  Artifact_rec 0 None None 14
+Fr, 03 Jul 2020 14:13:56 +0000  RS_rec 1 2 0 None
+Fr, 03 Jul 2020 14:17:00 +0000  RS_rec 0 2 open None
+Fr, 03 Jul 2020 14:17:00 +0000  RS_rec 1 2 1 None
+Fr, 03 Jul 2020 14:20:03 +0000  RS_rec 0 2 close None
+Fr, 03 Jul 2020 14:20:30 +0000  QA_rec 1 2 0 0
+Fr, 03 Jul 2020 14:20:50 +0000  QA_rec 0 2 0 0
+Fr, 03 Jul 2020 14:20:50 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Es ist Zeit, diesen Ort zu verlassen., Q_cen-verlassen
+Fr, 03 Jul 2020 14:20:51 +0000  QA_rec 1 2 0 1
+Fr, 03 Jul 2020 14:21:11 +0000  QA_rec 0 2 0 1
+Fr, 03 Jul 2020 14:21:11 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Sam ist nicht da, soll ich ihm sagen, dass Sie nachher zurück rufen?, Q_cen-rufen
+Fr, 03 Jul 2020 14:21:12 +0000  QA_rec 1 2 0 2
+Fr, 03 Jul 2020 14:21:32 +0000  QA_rec 0 2 0 2
+Fr, 03 Jul 2020 14:21:32 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Der Ton macht die Musik., Q_cen-macht
+Fr, 03 Jul 2020 14:21:33 +0000  QA_rec 1 2 0 3
+Fr, 03 Jul 2020 14:21:53 +0000  QA_rec 0 2 0 3
+Fr, 03 Jul 2020 14:21:53 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Die Bergarbeiter fuhren jeden Tag in die Grube., Q_cen-fuhren
+Fr, 03 Jul 2020 14:21:54 +0000  QA_rec 1 2 0 4
+Fr, 03 Jul 2020 14:22:14 +0000  QA_rec 0 2 0 4
+Fr, 03 Jul 2020 14:22:14 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-In der Therapie lernte er, mit Angst und Stress umzugehen., Q_cen-umzugehen
+Fr, 03 Jul 2020 14:22:15 +0000  QA_rec 1 2 0 5
+Fr, 03 Jul 2020 14:22:35 +0000  QA_rec 0 2 0 5
+Fr, 03 Jul 2020 14:22:35 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+Fr, 03 Jul 2020 14:22:36 +0000  QA_rec 1 2 0 6
+Fr, 03 Jul 2020 14:22:56 +0000  QA_rec 0 2 0 6
+Fr, 03 Jul 2020 14:22:56 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Wir haben einige sehr schöne Orte besucht., Q_cen-besucht
+Fr, 03 Jul 2020 14:22:57 +0000  QA_rec 1 2 0 7
+Fr, 03 Jul 2020 14:23:18 +0000  QA_rec 0 2 0 7
+Fr, 03 Jul 2020 14:23:18 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Zu Beginn der Konferenz wird der Präsident eine Rede halten., Q_cen-halten
+Fr, 03 Jul 2020 14:23:19 +0000  QA_rec 1 2 0 8
+Fr, 03 Jul 2020 14:23:39 +0000  QA_rec 0 2 0 8
+Fr, 03 Jul 2020 14:23:39 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Ich darf Sie bitten, meinem Antrag zu entsprechen., Q_cen-bitten
+Fr, 03 Jul 2020 14:23:40 +0000  QA_rec 1 2 0 9
+Fr, 03 Jul 2020 14:24:00 +0000  QA_rec 0 2 0 9
+Fr, 03 Jul 2020 14:24:00 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Es ist zu windig, können Sie bitte das Fenster schließen., Q_cen-schließen
+Fr, 03 Jul 2020 14:24:01 +0000  QA_rec 1 2 0 10
+Fr, 03 Jul 2020 14:24:21 +0000  QA_rec 0 2 0 10
+Fr, 03 Jul 2020 14:24:21 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Tomas fischt im Fluss und wird Fisch zum Abendessen essen., Q_cen-fischt
+Fr, 03 Jul 2020 14:24:22 +0000  QA_rec 1 2 0 11
+Fr, 03 Jul 2020 14:24:42 +0000  QA_rec 0 2 0 11
+Fr, 03 Jul 2020 14:24:42 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Wir haben die Buchung per E-Mail bestätigt., Q_cen-bestätigt
+Fr, 03 Jul 2020 14:24:43 +0000  QA_rec 1 2 0 12
+Fr, 03 Jul 2020 14:25:03 +0000  QA_rec 0 2 0 12
+Fr, 03 Jul 2020 14:25:03 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Morgen werde ich eine Schularbeit schreiben., Q_cen-schreiben
+Fr, 03 Jul 2020 14:25:04 +0000  QA_rec 1 2 0 13
+Fr, 03 Jul 2020 14:25:24 +0000  QA_rec 0 2 0 13
+Fr, 03 Jul 2020 14:25:24 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Vater trägt den großen Rucksack auf dem Rücken., Q_cen-trägt
+Fr, 03 Jul 2020 14:25:25 +0000  QA_rec 1 2 0 14
+Fr, 03 Jul 2020 14:25:45 +0000  QA_rec 0 2 0 14
+Fr, 03 Jul 2020 14:25:45 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Unser Biolehrer unterrichtet uns auch machmal im Grünen., Q_cen-unterrichtet
+Fr, 03 Jul 2020 14:25:46 +0000  QA_rec 1 2 0 15
+Fr, 03 Jul 2020 14:26:06 +0000  QA_rec 0 2 0 15
+Fr, 03 Jul 2020 14:26:06 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Nach der Party mussten wir das Haus aufräumen., Q_cen-aufräumen
+Fr, 03 Jul 2020 14:26:07 +0000  QA_rec 1 2 0 16
+Fr, 03 Jul 2020 14:26:27 +0000  QA_rec 0 2 0 16
+Fr, 03 Jul 2020 14:26:27 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Ich habe die Zitrone in Scheiben geschnitten., Q_cen-geschnitten
+Fr, 03 Jul 2020 14:26:28 +0000  QA_rec 1 2 0 17
+Fr, 03 Jul 2020 14:26:48 +0000  QA_rec 0 2 0 17
+Fr, 03 Jul 2020 14:26:48 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Diese Grafik hat die Ergebnisse deutlich dargestellt., Q_cen-dargestellt
+Fr, 03 Jul 2020 14:26:49 +0000  QA_rec 1 2 0 18
+Fr, 03 Jul 2020 14:27:09 +0000  QA_rec 0 2 0 18
+Fr, 03 Jul 2020 14:27:09 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Der Arzt sagt, mein Knie ist in Ordnung, aber meine Beine scheinen gebrochen zu sein., Q_cen-scheinen
+Fr, 03 Jul 2020 14:27:10 +0000  QA_rec 1 2 0 19
+Fr, 03 Jul 2020 14:27:30 +0000  QA_rec 0 2 0 19
+Fr, 03 Jul 2020 14:27:30 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Als das Spiel unentschieden endete, wurde es um zweimal 15 Minuten verlängert., Q_cen-endete
+Fr, 03 Jul 2020 14:27:31 +0000  QA_rec 1 2 0 20
+Fr, 03 Jul 2020 14:27:51 +0000  QA_rec 0 2 0 20
+Fr, 03 Jul 2020 14:27:51 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Thomas hat schon so kurze Haare, er muss sich nicht kämmen., Q_cen-kämmen
+Fr, 03 Jul 2020 14:27:52 +0000  QA_rec 1 2 0 21
+Fr, 03 Jul 2020 14:28:12 +0000  QA_rec 0 2 0 21
+Fr, 03 Jul 2020 14:28:12 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Sie brauchen ein ärztliches Zeugnis., Q_cen-brauchen
+Fr, 03 Jul 2020 14:28:13 +0000  QA_rec 1 2 0 22
+Fr, 03 Jul 2020 14:28:33 +0000  QA_rec 0 2 0 22
+Fr, 03 Jul 2020 14:28:33 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Toni fliegt mit dem Flugzeug nach., Q_cen-fliegt
+Fr, 03 Jul 2020 14:28:34 +0000  QA_rec 1 2 0 23
+Fr, 03 Jul 2020 14:28:54 +0000  QA_rec 0 2 0 23
+Fr, 03 Jul 2020 14:28:54 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Sein Versprechen klingt glaubwürdig., Q_cen-klingt
+Fr, 03 Jul 2020 14:28:55 +0000  QA_rec 1 2 0 24
+Fr, 03 Jul 2020 14:29:15 +0000  QA_rec 0 2 0 24
+Fr, 03 Jul 2020 14:29:15 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Wir sind mit dem Jeep auf Safari in Kenia gefahren., Q_cen-gefahren
+Fr, 03 Jul 2020 14:29:39 +0000  QA_rec 1 2 1 0
+Fr, 03 Jul 2020 14:29:59 +0000  QA_rec 0 2 1 0
+Fr, 03 Jul 2020 14:29:59 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Ist der Tisch schon gedeckt?, Q_cen-gedeckt
+Fr, 03 Jul 2020 14:30:00 +0000  QA_rec 1 2 1 1
+Fr, 03 Jul 2020 14:30:20 +0000  QA_rec 0 2 1 1
+Fr, 03 Jul 2020 14:30:20 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Das Sprachinstitut bietet Kurse für Anfänger an., Q_cen-bietet
+Fr, 03 Jul 2020 14:30:21 +0000  QA_rec 1 2 1 2
+Fr, 03 Jul 2020 14:30:41 +0000  QA_rec 0 2 1 2
+Fr, 03 Jul 2020 14:30:41 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Die Kinder basteln Puppen aus Filz und Watte., Q_cen-basteln
+Fr, 03 Jul 2020 14:30:42 +0000  QA_rec 1 2 1 3
+Fr, 03 Jul 2020 14:31:02 +0000  QA_rec 0 2 1 3
+Fr, 03 Jul 2020 14:31:02 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Ich habe seine Telefonnummer auf einem Zettel notiert., Q_cen-notiert
+Fr, 03 Jul 2020 14:31:03 +0000  QA_rec 1 2 1 4
+Fr, 03 Jul 2020 14:31:23 +0000  QA_rec 0 2 1 4
+Fr, 03 Jul 2020 14:31:23 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Ich möchte mir ein Buch aus der Bibliothek leihen., Q_cen-leihen
+Fr, 03 Jul 2020 14:31:24 +0000  QA_rec 1 2 1 5
+Fr, 03 Jul 2020 14:31:44 +0000  QA_rec 0 2 1 5
+Fr, 03 Jul 2020 14:31:44 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Sie müssen mehr bezahlen, es fehlen noch ein paar Cent., Q_cen-fehlen
+Fr, 03 Jul 2020 14:31:45 +0000  QA_rec 1 2 1 6
+Fr, 03 Jul 2020 14:32:05 +0000  QA_rec 0 2 1 6
+Fr, 03 Jul 2020 14:32:05 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Ich habe gerade meine Bewerbung bei der Universität eingereicht. , Q_cen-eingereicht
+Fr, 03 Jul 2020 14:32:06 +0000  QA_rec 1 2 1 7
+Fr, 03 Jul 2020 14:32:27 +0000  QA_rec 0 2 1 7
+Fr, 03 Jul 2020 14:32:27 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Doris ist leider zu spät gekommen, die Apotheke hat heute schon geschlossen., Q_cen-geschlossen
+Fr, 03 Jul 2020 14:32:28 +0000  QA_rec 1 2 1 8
+Fr, 03 Jul 2020 14:32:48 +0000  QA_rec 0 2 1 8
+Fr, 03 Jul 2020 14:32:48 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Alkoholsucht schadet der Gesundheit., Q_cen-schadet
+Fr, 03 Jul 2020 14:32:49 +0000  QA_rec 1 2 1 9
+Fr, 03 Jul 2020 14:33:09 +0000  QA_rec 0 2 1 9
+Fr, 03 Jul 2020 14:33:09 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Karneval wird jedes Jahr im Februar oder im März gefeiert., Q_cen-gefeiert
+Fr, 03 Jul 2020 14:33:10 +0000  QA_rec 1 2 1 10
+Fr, 03 Jul 2020 14:33:30 +0000  QA_rec 0 2 1 10
+Fr, 03 Jul 2020 14:33:30 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Das Experiment hat eine Woche lang gedauert., Q_cen-gedauert
+Fr, 03 Jul 2020 14:33:31 +0000  QA_rec 1 2 1 11
+Fr, 03 Jul 2020 14:33:51 +0000  QA_rec 0 2 1 11
+Fr, 03 Jul 2020 14:33:51 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Um eine Kreditkarte zu bewerben, muss man älter als 18 werden. , Q_cen-bewerben
+Fr, 03 Jul 2020 14:33:52 +0000  QA_rec 1 2 1 12
+Fr, 03 Jul 2020 14:34:12 +0000  QA_rec 0 2 1 12
+Fr, 03 Jul 2020 14:34:12 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Taktlose Fragen machen mich wütend., Q_cen-machen
+Fr, 03 Jul 2020 14:34:13 +0000  QA_rec 1 2 1 13
+Fr, 03 Jul 2020 14:34:33 +0000  QA_rec 0 2 1 13
+Fr, 03 Jul 2020 14:34:33 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Ich glaube nicht, dass es regnen wird, aber ich werde für alle Fälle einen Schirm mitnehmen., Q_cen-glaube
+Fr, 03 Jul 2020 14:34:34 +0000  QA_rec 1 2 1 14
+Fr, 03 Jul 2020 14:34:54 +0000  QA_rec 0 2 1 14
+Fr, 03 Jul 2020 14:34:54 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Die Kellnerin schenkte den Kunden Wein nach., Q_cen-schenkte
+Fr, 03 Jul 2020 14:34:55 +0000  QA_rec 1 2 1 15
+Fr, 03 Jul 2020 14:35:15 +0000  QA_rec 0 2 1 15
+Fr, 03 Jul 2020 14:35:15 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Ich gehe gerne alles in dem Geschäft um die Ecke einkaufen., Q_cen-einkaufen
+Fr, 03 Jul 2020 14:35:16 +0000  QA_rec 1 2 1 16
+Fr, 03 Jul 2020 14:35:36 +0000  QA_rec 0 2 1 16
+Fr, 03 Jul 2020 14:35:36 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Alle diese Probleme scheinen in dieselbe große Frage zu münden., Q_cen-scheinen
+Fr, 03 Jul 2020 14:35:37 +0000  QA_rec 1 2 1 17
+Fr, 03 Jul 2020 14:35:57 +0000  QA_rec 0 2 1 17
+Fr, 03 Jul 2020 14:35:57 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Leni bewegt beim Lesen die Lippen., Q_cen-bewegt
+Fr, 03 Jul 2020 14:35:58 +0000  QA_rec 1 2 1 18
+Fr, 03 Jul 2020 14:36:18 +0000  QA_rec 0 2 1 18
+Fr, 03 Jul 2020 14:36:18 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Ich geht auf das Postamt, um ein Paket meinem Freund zu schicken., Q_cen-schicken
+Fr, 03 Jul 2020 14:36:19 +0000  QA_rec 1 2 1 19
+Fr, 03 Jul 2020 14:36:39 +0000  QA_rec 0 2 1 19
+Fr, 03 Jul 2020 14:36:39 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Wie schmeckt Iris die Melone, die ich im Geschäft gekauft habe?, Q_cen-schmeckt
+Fr, 03 Jul 2020 14:36:40 +0000  QA_rec 1 2 1 20
+Fr, 03 Jul 2020 14:37:00 +0000  QA_rec 0 2 1 20
+Fr, 03 Jul 2020 14:37:00 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Ich würde sofort meinen Job kündigen und nie mehr arbeiten., Q_cen-kündigen
+Fr, 03 Jul 2020 14:37:01 +0000  QA_rec 1 2 1 21
+Fr, 03 Jul 2020 14:37:21 +0000  QA_rec 0 2 1 21
+Fr, 03 Jul 2020 14:37:21 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Ein Regenbogen besteht aus vielen Farben., Q_cen-besteht
+Fr, 03 Jul 2020 14:37:22 +0000  QA_rec 1 2 1 22
+Fr, 03 Jul 2020 14:37:42 +0000  QA_rec 0 2 1 22
+Fr, 03 Jul 2020 14:37:42 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Ich schicke die Dateien als E-Mail-Anhang., Q_cen-schicke
+Fr, 03 Jul 2020 14:37:43 +0000  QA_rec 1 2 1 23
+Fr, 03 Jul 2020 14:38:03 +0000  QA_rec 0 2 1 23
+Fr, 03 Jul 2020 14:38:03 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Charles Darwin hat die Natur erforscht., Q_cen-erforscht
+Fr, 03 Jul 2020 14:38:04 +0000  QA_rec 1 2 1 24
+Fr, 03 Jul 2020 14:38:24 +0000  QA_rec 0 2 1 24
+Fr, 03 Jul 2020 14:38:24 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Die Augen meines Sohnes glänzten, als er das Geschenk sah., Q_cen-sah
+Fr, 03 Jul 2020 14:38:58 +0000  fade_out 1 2 None None
+Fr, 03 Jul 2020 14:39:01 +0000  fade_out 0 2 None None
+Fr, 03 Jul 2020 14:39:03 +0000  fade_in 1 3 None None
