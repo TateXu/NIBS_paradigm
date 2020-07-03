@@ -1,0 +1,156 @@
+Fr, 03 Jul 2020 13:39:10 +0000  fade_in 1 1 None None
+Fr, 03 Jul 2020 13:39:44 +0000  fade_in 0 1 None None
+Fr, 03 Jul 2020 13:39:46 +0000  RS_rec 1 1 0 None
+Fr, 03 Jul 2020 13:42:49 +0000  RS_rec 0 1 open None
+Fr, 03 Jul 2020 13:42:49 +0000  RS_rec 1 1 1 None
+Fr, 03 Jul 2020 13:45:53 +0000  RS_rec 0 1 close None
+Fr, 03 Jul 2020 13:46:16 +0000  QA_rec 1 1 0 0
+Fr, 03 Jul 2020 13:46:36 +0000  QA_rec 0 1 0 0
+Fr, 03 Jul 2020 13:46:36 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Du kannst den Hund streicheln, er wird dich nicht beißen., Q_cen-beißen
+Fr, 03 Jul 2020 13:46:37 +0000  QA_rec 1 1 0 1
+Fr, 03 Jul 2020 13:46:57 +0000  QA_rec 0 1 0 1
+Fr, 03 Jul 2020 13:46:57 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Ich habe meine Schuhe für die Hochzeit geputzt., Q_cen-geputzt
+Fr, 03 Jul 2020 13:46:58 +0000  QA_rec 1 1 0 2
+Fr, 03 Jul 2020 13:47:18 +0000  QA_rec 0 1 0 2
+Fr, 03 Jul 2020 13:47:18 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit belohnt., Q_cen-belohnt
+Fr, 03 Jul 2020 13:47:19 +0000  QA_rec 1 1 0 3
+Fr, 03 Jul 2020 13:47:39 +0000  QA_rec 0 1 0 3
+Fr, 03 Jul 2020 13:47:39 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Der Test dauert nur fünfzehn Minuten., Q_cen-dauert
+Fr, 03 Jul 2020 13:47:40 +0000  QA_rec 1 1 0 4
+Fr, 03 Jul 2020 13:48:00 +0000  QA_rec 0 1 0 4
+Fr, 03 Jul 2020 13:48:00 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Wir mussten ein amtliches Formular ausfüllen, als wir geheiratet haben., Q_cen-ausfüllen
+Fr, 03 Jul 2020 13:48:01 +0000  QA_rec 1 1 0 5
+Fr, 03 Jul 2020 13:48:21 +0000  QA_rec 0 1 0 5
+Fr, 03 Jul 2020 13:48:21 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Es gibt viele Vorteile, wenn man die öffentlichen Verkehrsmittel benutzt., Q_cen-benutzt
+Fr, 03 Jul 2020 13:48:22 +0000  QA_rec 1 1 0 6
+Fr, 03 Jul 2020 13:48:42 +0000  QA_rec 0 1 0 6
+Fr, 03 Jul 2020 13:48:42 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Bitte zerstören Sie nicht die Natur!, Q_cen-zerstören
+Fr, 03 Jul 2020 13:48:43 +0000  QA_rec 1 1 0 7
+Fr, 03 Jul 2020 13:49:03 +0000  QA_rec 0 1 0 7
+Fr, 03 Jul 2020 13:49:03 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Sie besichtigen die Sehenswürdigkeiten., Q_cen-besichtigen
+Fr, 03 Jul 2020 13:49:04 +0000  QA_rec 1 1 0 8
+Fr, 03 Jul 2020 13:49:24 +0000  QA_rec 0 1 0 8
+Fr, 03 Jul 2020 13:49:24 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-An der nächsten Kreuzung müssen Sie rechts abbiegen., Q_cen-abbiegen
+Fr, 03 Jul 2020 13:49:25 +0000  QA_rec 1 1 0 9
+Fr, 03 Jul 2020 13:49:45 +0000  QA_rec 0 1 0 9
+Fr, 03 Jul 2020 13:49:45 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Er hat meine Sympathie gewonnen., Q_cen-gewonnen
+Fr, 03 Jul 2020 13:49:46 +0000  QA_rec 1 1 0 10
+Fr, 03 Jul 2020 13:50:06 +0000  QA_rec 0 1 0 10
+Fr, 03 Jul 2020 13:50:06 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Rom wurde nicht an einem Tag erbaut., Q_cen-erbaut
+Fr, 03 Jul 2020 13:50:07 +0000  QA_rec 1 1 0 11
+Fr, 03 Jul 2020 13:50:27 +0000  QA_rec 0 1 0 11
+Fr, 03 Jul 2020 13:50:27 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Ich habe mich dieses Semester für einen sehr einfachen Kurs angemeldet., Q_cen-angemeldet
+Fr, 03 Jul 2020 13:50:28 +0000  QA_rec 1 1 0 12
+Fr, 03 Jul 2020 13:50:48 +0000  QA_rec 0 1 0 12
+Fr, 03 Jul 2020 13:50:48 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken
+Fr, 03 Jul 2020 13:50:49 +0000  QA_rec 1 1 0 13
+Fr, 03 Jul 2020 13:51:09 +0000  QA_rec 0 1 0 13
+Fr, 03 Jul 2020 13:51:09 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Das Eingreifen des Lehrers beendete den Streit., Q_cen-beendete
+Fr, 03 Jul 2020 13:51:10 +0000  QA_rec 1 1 0 14
+Fr, 03 Jul 2020 13:51:30 +0000  QA_rec 0 1 0 14
+Fr, 03 Jul 2020 13:51:30 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Ein Fußball Team besteht aus zehn Spielern und einem Tormann., Q_cen-besteht
+Fr, 03 Jul 2020 13:51:31 +0000  QA_rec 1 1 0 15
+Fr, 03 Jul 2020 13:51:51 +0000  QA_rec 0 1 0 15
+Fr, 03 Jul 2020 13:51:51 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Während meines Urlaubs werde ich nach China und Japan reisen., Q_cen-reisen
+Fr, 03 Jul 2020 13:51:52 +0000  QA_rec 1 1 0 16
+Fr, 03 Jul 2020 13:52:12 +0000  QA_rec 0 1 0 16
+Fr, 03 Jul 2020 13:52:12 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Ich werde Ihnen das Kapital mit Zinsen zurückgegeben., Q_cen-zurückgegeben
+Fr, 03 Jul 2020 13:52:13 +0000  QA_rec 1 1 0 17
+Fr, 03 Jul 2020 13:52:34 +0000  QA_rec 0 1 0 17
+Fr, 03 Jul 2020 13:52:34 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Persönliche Daten sollen geheim bleiben., Q_cen-bleiben
+Fr, 03 Jul 2020 13:52:35 +0000  QA_rec 1 1 0 18
+Fr, 03 Jul 2020 13:52:55 +0000  QA_rec 0 1 0 18
+Fr, 03 Jul 2020 13:52:55 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Nikolaus Kopernikus beschreibt das heliozentrische Weltbild., Q_cen-beschreibt
+Fr, 03 Jul 2020 13:52:56 +0000  QA_rec 1 1 0 19
+Fr, 03 Jul 2020 13:53:16 +0000  QA_rec 0 1 0 19
+Fr, 03 Jul 2020 13:53:16 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Er bevorzugt die Farben gelb, orange und rot., Q_cen-bevorzugt
+Fr, 03 Jul 2020 13:53:17 +0000  QA_rec 1 1 0 20
+Fr, 03 Jul 2020 13:53:37 +0000  QA_rec 0 1 0 20
+Fr, 03 Jul 2020 13:53:37 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Der Amazon Kurier hat das Paket geliefert., Q_cen-geliefert
+Fr, 03 Jul 2020 13:53:38 +0000  QA_rec 1 1 0 21
+Fr, 03 Jul 2020 13:53:58 +0000  QA_rec 0 1 0 21
+Fr, 03 Jul 2020 13:53:58 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Die Katzen jagen Mäuse., Q_cen-jagen
+Fr, 03 Jul 2020 13:53:59 +0000  QA_rec 1 1 0 22
+Fr, 03 Jul 2020 13:54:19 +0000  QA_rec 0 1 0 22
+Fr, 03 Jul 2020 13:54:19 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Der Autor beschrieb Sam als eine sehr nette Person., Q_cen-beschrieb
+Fr, 03 Jul 2020 13:54:20 +0000  QA_rec 1 1 0 23
+Fr, 03 Jul 2020 13:54:40 +0000  QA_rec 0 1 0 23
+Fr, 03 Jul 2020 13:54:40 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Sie hat Schlafmittel genommen, damit sie gut schlafen kann., Q_cen-schlafen
+Fr, 03 Jul 2020 13:54:41 +0000  QA_rec 1 1 0 24
+Fr, 03 Jul 2020 13:55:01 +0000  QA_rec 0 1 0 24
+Fr, 03 Jul 2020 13:55:01 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Wenn eine Erkältung hat, kann mann niesen oder husten., Q_cen-husten
+Fr, 03 Jul 2020 13:55:44 +0000  QA_rec 1 1 1 0
+Fr, 03 Jul 2020 13:56:04 +0000  QA_rec 0 1 1 0
+Fr, 03 Jul 2020 13:56:04 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Die Abgase der Benzinmotoren werden die Luft verschmutzen., Q_cen-verschmutzen
+Fr, 03 Jul 2020 13:56:05 +0000  QA_rec 1 1 1 1
+Fr, 03 Jul 2020 13:56:25 +0000  QA_rec 0 1 1 1
+Fr, 03 Jul 2020 13:56:25 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Wir brauchen Bretter, um ein Regal zu bauen., Q_cen-bauen
+Fr, 03 Jul 2020 13:56:26 +0000  QA_rec 1 1 1 2
+Fr, 03 Jul 2020 13:56:46 +0000  QA_rec 0 1 1 2
+Fr, 03 Jul 2020 13:56:46 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Der Klima Schutz soll verhindern, dass es auf der Erde immer wärmer wird., Q_cen-verhindern
+Fr, 03 Jul 2020 13:56:47 +0000  QA_rec 1 1 1 3
+Fr, 03 Jul 2020 13:57:07 +0000  QA_rec 0 1 1 3
+Fr, 03 Jul 2020 13:57:07 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Meine Mutter kocht heute Mittag nicht, wir gehen aus zum Essen., Q_cen-kocht
+Fr, 03 Jul 2020 13:57:08 +0000  QA_rec 1 1 1 4
+Fr, 03 Jul 2020 13:57:28 +0000  QA_rec 0 1 1 4
+Fr, 03 Jul 2020 13:57:28 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Der Läufer hat seine Konkurrenten mühelos geschlagen., Q_cen-geschlagen
+Fr, 03 Jul 2020 13:57:29 +0000  QA_rec 1 1 1 5
+Fr, 03 Jul 2020 13:57:49 +0000  QA_rec 0 1 1 5
+Fr, 03 Jul 2020 13:57:49 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Ich möchte einen Tisch für das Abendessen reservieren., Q_cen-reservieren
+Fr, 03 Jul 2020 13:57:50 +0000  QA_rec 1 1 1 6
+Fr, 03 Jul 2020 13:58:10 +0000  QA_rec 0 1 1 6
+Fr, 03 Jul 2020 13:58:10 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Bei dem Gewitter letzte Woche hat der Blitz in ein Boot eingeschlagen., Q_cen-eingeschlagen
+Fr, 03 Jul 2020 13:58:11 +0000  QA_rec 1 1 1 7
+Fr, 03 Jul 2020 13:58:31 +0000  QA_rec 0 1 1 7
+Fr, 03 Jul 2020 13:58:31 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Wenn du dich in einer gefährlichen Situation befindest, rufe nach Hilfe., Q_cen-rufe
+Fr, 03 Jul 2020 13:58:32 +0000  QA_rec 1 1 1 8
+Fr, 03 Jul 2020 13:58:52 +0000  QA_rec 0 1 1 8
+Fr, 03 Jul 2020 13:58:52 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Die Anlage arbeitet vollautomatisch., Q_cen-arbeitet
+Fr, 03 Jul 2020 13:58:53 +0000  QA_rec 1 1 1 9
+Fr, 03 Jul 2020 13:59:13 +0000  QA_rec 0 1 1 9
+Fr, 03 Jul 2020 13:59:13 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Ich habe probiert, ihn zu überreden, aber er will nicht uns gehen. , Q_cen-probiert
+Fr, 03 Jul 2020 13:59:14 +0000  QA_rec 1 1 1 10
+Fr, 03 Jul 2020 13:59:34 +0000  QA_rec 0 1 1 10
+Fr, 03 Jul 2020 13:59:34 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Die USA gewannen den Zweiten Weltkrieg, nachdem sie mehrere Jahre lang gekämpft hatten., Q_cen-gewannen
+Fr, 03 Jul 2020 13:59:35 +0000  QA_rec 1 1 1 11
+Fr, 03 Jul 2020 13:59:55 +0000  QA_rec 0 1 1 11
+Fr, 03 Jul 2020 13:59:55 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Diesen Irrtum musste er teuer bezahlen., Q_cen-bezahlen
+Fr, 03 Jul 2020 13:59:56 +0000  QA_rec 1 1 1 12
+Fr, 03 Jul 2020 14:00:17 +0000  QA_rec 0 1 1 12
+Fr, 03 Jul 2020 14:00:17 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Ich hoffe, dass alles gut geht. , Q_cen-hoffe
+Fr, 03 Jul 2020 14:00:18 +0000  QA_rec 1 1 1 13
+Fr, 03 Jul 2020 14:00:38 +0000  QA_rec 0 1 1 13
+Fr, 03 Jul 2020 14:00:38 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Nach dem großen Essen war mein Hunger gestillt., Q_cen-gestillt
+Fr, 03 Jul 2020 14:00:39 +0000  QA_rec 1 1 1 14
+Fr, 03 Jul 2020 14:00:59 +0000  QA_rec 0 1 1 14
+Fr, 03 Jul 2020 14:00:59 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Halloween wurde schon von den Kelten gefeiert., Q_cen-gefeiert
+Fr, 03 Jul 2020 14:01:00 +0000  QA_rec 1 1 1 15
+Fr, 03 Jul 2020 14:01:20 +0000  QA_rec 0 1 1 15
+Fr, 03 Jul 2020 14:01:20 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Das Volleyballspiel wird in einer Sporthalle ausgetragen., Q_cen-ausgetragen
+Fr, 03 Jul 2020 14:01:21 +0000  QA_rec 1 1 1 16
+Fr, 03 Jul 2020 14:01:41 +0000  QA_rec 0 1 1 16
+Fr, 03 Jul 2020 14:01:41 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Die Schneiderin änderte das Kleid, weil das Kleid zu groß ist., Q_cen-änderte
+Fr, 03 Jul 2020 14:01:42 +0000  QA_rec 1 1 1 17
+Fr, 03 Jul 2020 14:02:02 +0000  QA_rec 0 1 1 17
+Fr, 03 Jul 2020 14:02:02 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Er konnte auf alle Fragen des Quiz antworten., Q_cen-antworten
+Fr, 03 Jul 2020 14:02:03 +0000  QA_rec 1 1 1 18
+Fr, 03 Jul 2020 14:02:23 +0000  QA_rec 0 1 1 18
+Fr, 03 Jul 2020 14:02:23 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Der Arbeiter repariert eine Panne., Q_cen-repariert
+Fr, 03 Jul 2020 14:02:24 +0000  QA_rec 1 1 1 19
+Fr, 03 Jul 2020 14:02:44 +0000  QA_rec 0 1 1 19
+Fr, 03 Jul 2020 14:02:44 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Wer viele CO2-Emissionen produziert, belastet die Umwelt., Q_cen-belastet
+Fr, 03 Jul 2020 14:02:45 +0000  QA_rec 1 1 1 20
+Fr, 03 Jul 2020 14:03:05 +0000  QA_rec 0 1 1 20
+Fr, 03 Jul 2020 14:03:05 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Es ist vorstellbar, dass er diese schwierige Prüfung nicht bestehen kann. , Q_cen-bestehen
+Fr, 03 Jul 2020 14:03:06 +0000  QA_rec 1 1 1 21
+Fr, 03 Jul 2020 14:03:26 +0000  QA_rec 0 1 1 21
+Fr, 03 Jul 2020 14:03:26 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Er benutzt Twitter, um mit anderen zu chatten., Q_cen-benutzt
+Fr, 03 Jul 2020 14:03:27 +0000  QA_rec 1 1 1 22
+Fr, 03 Jul 2020 14:03:47 +0000  QA_rec 0 1 1 22
+Fr, 03 Jul 2020 14:03:47 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Der Dieb wurde für sein Verbrechen bestraft., Q_cen-bestraft
+Fr, 03 Jul 2020 14:03:48 +0000  QA_rec 1 1 1 23
+Fr, 03 Jul 2020 14:04:08 +0000  QA_rec 0 1 1 23
+Fr, 03 Jul 2020 14:04:08 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Alle Wege führen nach Rom., Q_cen-führen
+Fr, 03 Jul 2020 14:04:09 +0000  QA_rec 1 1 1 24
+Fr, 03 Jul 2020 14:04:29 +0000  QA_rec 0 1 1 24
+Fr, 03 Jul 2020 14:04:29 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Die Geheimzahl sollte nicht notiert werden, vor allem nicht auf der Bankomatkarte., Q_cen-notiert
