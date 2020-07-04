@@ -1,0 +1,162 @@
+Sa, 04 Jul 2020 15:20:01 +0000  fade_in 1 0 None None
+Sa, 04 Jul 2020 15:20:31 +0000  fade_in 0 0 None None
+Sa, 04 Jul 2020 15:20:33 +0000  RS_intro 1 0 0 None
+Sa, 04 Jul 2020 15:20:56 +0000  RS_intro 0 0 0 None
+Sa, 04 Jul 2020 15:20:56 +0000  RS_rec 1 0 0 None
+Sa, 04 Jul 2020 15:23:59 +0000  RS_rec 0 0 open None
+Sa, 04 Jul 2020 15:23:59 +0000  RS_intro 1 0 1 None
+Sa, 04 Jul 2020 15:24:22 +0000  RS_intro 0 0 1 None
+Sa, 04 Jul 2020 15:24:22 +0000  RS_rec 1 0 1 None
+Sa, 04 Jul 2020 15:27:26 +0000  RS_rec 0 0 close None
+Sa, 04 Jul 2020 15:27:41 +0000  QA_intro 1 0 None None
+Sa, 04 Jul 2020 15:28:22 +0000  QA_intro 0 0 None None
+Sa, 04 Jul 2020 15:28:24 +0000  QA_rec 1 0 0 0
+Sa, 04 Jul 2020 15:28:44 +0000  QA_rec 0 0 0 0
+Sa, 04 Jul 2020 15:28:44 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Wir müssen genau planen, was wir tun wollen., Q_cen-planen
+Sa, 04 Jul 2020 15:28:45 +0000  QA_rec 1 0 0 1
+Sa, 04 Jul 2020 15:29:05 +0000  QA_rec 0 0 0 1
+Sa, 04 Jul 2020 15:29:05 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Wenn Sie mit diesem Produkt nicht zufrieden sind, können wir eine Alternative anbieten., Q_cen-anbieten
+Sa, 04 Jul 2020 15:29:06 +0000  QA_rec 1 0 0 2
+Sa, 04 Jul 2020 15:29:26 +0000  QA_rec 0 0 0 2
+Sa, 04 Jul 2020 15:29:26 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Nach einem Match hat sie keine Stimme mehr,  weil sie so laut schreit., Q_cen-schreit
+Sa, 04 Jul 2020 15:29:27 +0000  QA_rec 1 0 0 3
+Sa, 04 Jul 2020 15:29:47 +0000  QA_rec 0 0 0 3
+Sa, 04 Jul 2020 15:29:47 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Sie hat den Newsletter abonniert, um weitere Informationen zu erhalten., Q_cen-abonniert
+Sa, 04 Jul 2020 15:29:48 +0000  QA_rec 1 0 0 4
+Sa, 04 Jul 2020 15:30:08 +0000  QA_rec 0 0 0 4
+Sa, 04 Jul 2020 15:30:08 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Die Armbanduhr ist aus rostfreiem Stahl gefertigt und wird nicht rosten., Q_cen-rosten
+Sa, 04 Jul 2020 15:30:09 +0000  QA_rec 1 0 0 5
+Sa, 04 Jul 2020 15:30:29 +0000  QA_rec 0 0 0 5
+Sa, 04 Jul 2020 15:30:29 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Jeden Tag lesen wir die Zeitung., Q_cen-lesen
+Sa, 04 Jul 2020 15:30:30 +0000  QA_rec 1 0 0 6
+Sa, 04 Jul 2020 15:30:50 +0000  QA_rec 0 0 0 6
+Sa, 04 Jul 2020 15:30:50 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Es dauerte lange, alle nötigen Informationen zu sammeln., Q_cen-sammeln
+Sa, 04 Jul 2020 15:30:51 +0000  QA_rec 1 0 0 7
+Sa, 04 Jul 2020 15:31:11 +0000  QA_rec 0 0 0 7
+Sa, 04 Jul 2020 15:31:11 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Das Unternehmen wird nächste Woche die Jahresprämie bezahlen., Q_cen-bezahlen
+Sa, 04 Jul 2020 15:31:12 +0000  QA_rec 1 0 0 8
+Sa, 04 Jul 2020 15:31:32 +0000  QA_rec 0 0 0 8
+Sa, 04 Jul 2020 15:31:32 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Wo werden Sie Urlaub machen?, Q_cen-machen
+Sa, 04 Jul 2020 15:31:33 +0000  QA_rec 1 0 0 9
+Sa, 04 Jul 2020 15:31:53 +0000  QA_rec 0 0 0 9
+Sa, 04 Jul 2020 15:31:53 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Paul hat zum Abendessen Kartoffelsuppe gegessen., Q_cen-gegessen
+Sa, 04 Jul 2020 15:31:54 +0000  QA_rec 1 0 0 10
+Sa, 04 Jul 2020 15:32:14 +0000  QA_rec 0 0 0 10
+Sa, 04 Jul 2020 15:32:14 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Um den Bus noch zu erwischen, musste ich heute Morgen sehr schnell laufen., Q_cen-laufen
+Sa, 04 Jul 2020 15:32:15 +0000  QA_rec 1 0 0 11
+Sa, 04 Jul 2020 15:32:35 +0000  QA_rec 0 0 0 11
+Sa, 04 Jul 2020 15:32:35 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Wenn das Klima immer wärmer wird, werden auch die Gletscher schmelzen., Q_cen-schmelzen
+Sa, 04 Jul 2020 15:32:36 +0000  QA_rec 1 0 0 12
+Sa, 04 Jul 2020 15:32:56 +0000  QA_rec 0 0 0 12
+Sa, 04 Jul 2020 15:32:56 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Ich möchte, dass Sie das Wort mit Ihren eigenen Worten erklären!, Q_cen-erklären
+Sa, 04 Jul 2020 15:32:57 +0000  QA_rec 1 0 0 13
+Sa, 04 Jul 2020 15:33:17 +0000  QA_rec 0 0 0 13
+Sa, 04 Jul 2020 15:33:17 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Die sieben kleinen Äpfel sollen ungefähr zwei Kilo wiegen., Q_cen-wiegen
+Sa, 04 Jul 2020 15:33:18 +0000  QA_rec 1 0 0 14
+Sa, 04 Jul 2020 15:33:38 +0000  QA_rec 0 0 0 14
+Sa, 04 Jul 2020 15:33:38 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Eric ist ein guter Fahrer, obwohl er gerade erst seinen Führerschein gemacht hat., Q_cen-gemacht
+Sa, 04 Jul 2020 15:33:39 +0000  QA_rec 1 0 0 15
+Sa, 04 Jul 2020 15:33:59 +0000  QA_rec 0 0 0 15
+Sa, 04 Jul 2020 15:33:59 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Sie hat den Kuchen in einer runden Form gebacken., Q_cen-gebacken
+Sa, 04 Jul 2020 15:34:00 +0000  QA_rec 1 0 0 16
+Sa, 04 Jul 2020 15:34:20 +0000  QA_rec 0 0 0 16
+Sa, 04 Jul 2020 15:34:20 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Wer soll den Geschirrspüler einräumen?, Q_cen-einräumen
+Sa, 04 Jul 2020 15:34:21 +0000  QA_rec 1 0 0 17
+Sa, 04 Jul 2020 15:34:42 +0000  QA_rec 0 0 0 17
+Sa, 04 Jul 2020 15:34:42 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Ein gutes Gehalt heißt oft harte Arbeit., Q_cen-heißt
+Sa, 04 Jul 2020 15:34:43 +0000  QA_rec 1 0 0 18
+Sa, 04 Jul 2020 15:35:03 +0000  QA_rec 0 0 0 18
+Sa, 04 Jul 2020 15:35:03 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Ich bin der Überzeugung, dass er es rechtzeitig schaffen kann., Q_cen-schaffen
+Sa, 04 Jul 2020 15:35:04 +0000  QA_rec 1 0 0 19
+Sa, 04 Jul 2020 15:35:24 +0000  QA_rec 0 0 0 19
+Sa, 04 Jul 2020 15:35:24 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Ich berichtete der Polizei alles, was ich gesehen hatte., Q_cen-berichtete
+Sa, 04 Jul 2020 15:35:25 +0000  QA_rec 1 0 0 20
+Sa, 04 Jul 2020 15:35:45 +0000  QA_rec 0 0 0 20
+Sa, 04 Jul 2020 15:35:45 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Wir freuen uns von Herzen über seine ausgezeichnete Leistung., Q_cen-freuen
+Sa, 04 Jul 2020 15:35:46 +0000  QA_rec 1 0 0 21
+Sa, 04 Jul 2020 15:36:06 +0000  QA_rec 0 0 0 21
+Sa, 04 Jul 2020 15:36:06 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Wissen Sie, wer als erster Bergsteiger den Mount Everest bestiegen hat?, Q_cen-bestiegen
+Sa, 04 Jul 2020 15:36:07 +0000  QA_rec 1 0 0 22
+Sa, 04 Jul 2020 15:36:27 +0000  QA_rec 0 0 0 22
+Sa, 04 Jul 2020 15:36:27 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Ich kümmere mich nicht um die Reden der Leute., Q_cen-kümmere
+Sa, 04 Jul 2020 15:36:28 +0000  QA_rec 1 0 0 23
+Sa, 04 Jul 2020 15:36:48 +0000  QA_rec 0 0 0 23
+Sa, 04 Jul 2020 15:36:48 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Ich höre sie den Namen Sam rufen., Q_cen-rufen
+Sa, 04 Jul 2020 15:36:49 +0000  QA_rec 1 0 0 24
+Sa, 04 Jul 2020 15:37:09 +0000  QA_rec 0 0 0 24
+Sa, 04 Jul 2020 15:37:09 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Bitte zahlen Sie an Kasse Nummer Zwei., Q_cen-zahlen
+Sa, 04 Jul 2020 15:37:31 +0000  QA_rec 1 0 1 0
+Sa, 04 Jul 2020 15:37:51 +0000  QA_rec 0 0 1 0
+Sa, 04 Jul 2020 15:37:51 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Wir bleiben heute zu Hause, weil wir zu müde sind., Q_cen-bleiben
+Sa, 04 Jul 2020 15:37:52 +0000  QA_rec 1 0 1 1
+Sa, 04 Jul 2020 15:38:12 +0000  QA_rec 0 0 1 1
+Sa, 04 Jul 2020 15:38:12 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Beim Spinat und Kohl wird man die Blätter essen., Q_cen-essen
+Sa, 04 Jul 2020 15:38:13 +0000  QA_rec 1 0 1 2
+Sa, 04 Jul 2020 15:38:33 +0000  QA_rec 0 0 1 2
+Sa, 04 Jul 2020 15:38:33 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Das Brot vom Bäcker schmeckt viel besser., Q_cen-schmeckt
+Sa, 04 Jul 2020 15:38:34 +0000  QA_rec 1 0 1 3
+Sa, 04 Jul 2020 15:38:54 +0000  QA_rec 0 0 1 3
+Sa, 04 Jul 2020 15:38:54 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Im ganzen Umkreis war kein Haus zu finden., Q_cen-finden
+Sa, 04 Jul 2020 15:38:55 +0000  QA_rec 1 0 1 4
+Sa, 04 Jul 2020 15:39:15 +0000  QA_rec 0 0 1 4
+Sa, 04 Jul 2020 15:39:15 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Im Unterricht habe ich das Wichtige notiert, was der Lehrer gesagt., Q_cen-notiert
+Sa, 04 Jul 2020 15:39:16 +0000  QA_rec 1 0 1 5
+Sa, 04 Jul 2020 15:39:36 +0000  QA_rec 0 0 1 5
+Sa, 04 Jul 2020 15:39:36 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Er hat eine gerade Linie von einem Punkt zum anderen gezogen., Q_cen-gezogen
+Sa, 04 Jul 2020 15:39:37 +0000  QA_rec 1 0 1 6
+Sa, 04 Jul 2020 15:39:57 +0000  QA_rec 0 0 1 6
+Sa, 04 Jul 2020 15:39:57 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Ja, das Wasser aus der Leitung kann man trinken., Q_cen-trinken
+Sa, 04 Jul 2020 15:39:58 +0000  QA_rec 1 0 1 7
+Sa, 04 Jul 2020 15:40:18 +0000  QA_rec 0 0 1 7
+Sa, 04 Jul 2020 15:40:18 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Die Katzen jagen Mäuse., Q_cen-jagen
+Sa, 04 Jul 2020 15:40:19 +0000  QA_rec 1 0 1 8
+Sa, 04 Jul 2020 15:40:39 +0000  QA_rec 0 0 1 8
+Sa, 04 Jul 2020 15:40:39 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-„Ich heiße Sam“, war der erste Satz, den er in großen Buchstaben schreiben konnte., Q_cen-schreiben
+Sa, 04 Jul 2020 15:40:40 +0000  QA_rec 1 0 1 9
+Sa, 04 Jul 2020 15:41:01 +0000  QA_rec 0 0 1 9
+Sa, 04 Jul 2020 15:41:01 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-An unserem Baum hängen viele reife Birnen, Q_cen-hängen
+Sa, 04 Jul 2020 15:41:02 +0000  QA_rec 1 0 1 10
+Sa, 04 Jul 2020 15:41:22 +0000  QA_rec 0 0 1 10
+Sa, 04 Jul 2020 15:41:22 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Das Bild kann mir die Uhrzeitangabe verstehen helfen., Q_cen-helfen
+Sa, 04 Jul 2020 15:41:23 +0000  QA_rec 1 0 1 11
+Sa, 04 Jul 2020 15:41:43 +0000  QA_rec 0 0 1 11
+Sa, 04 Jul 2020 15:41:43 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Bitte nimm meinen Mantel mit in die Garderobe., Q_cen-nimm
+Sa, 04 Jul 2020 15:41:44 +0000  QA_rec 1 0 1 12
+Sa, 04 Jul 2020 15:42:04 +0000  QA_rec 0 0 1 12
+Sa, 04 Jul 2020 15:42:04 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Siehst du! Ich habe dir gesagt, dass es regnen würde., Q_cen-gesagt
+Sa, 04 Jul 2020 15:42:05 +0000  QA_rec 1 0 1 13
+Sa, 04 Jul 2020 15:42:25 +0000  QA_rec 0 0 1 13
+Sa, 04 Jul 2020 15:42:25 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Das Herz kann Blut durch den Körper pumpen., Q_cen-pumpen
+Sa, 04 Jul 2020 15:42:26 +0000  QA_rec 1 0 1 14
+Sa, 04 Jul 2020 15:42:46 +0000  QA_rec 0 0 1 14
+Sa, 04 Jul 2020 15:42:46 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Tim sammelt Briefmarken und Münzen., Q_cen-sammelt
+Sa, 04 Jul 2020 15:42:47 +0000  QA_rec 1 0 1 15
+Sa, 04 Jul 2020 15:43:07 +0000  QA_rec 0 0 1 15
+Sa, 04 Jul 2020 15:43:07 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Das Programm kannst Du kostenlos herunterladen., Q_cen-herunterladen
+Sa, 04 Jul 2020 15:43:08 +0000  QA_rec 1 0 1 16
+Sa, 04 Jul 2020 15:43:28 +0000  QA_rec 0 0 1 16
+Sa, 04 Jul 2020 15:43:28 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Der Bus fährt jede Stunde., Q_cen-fährt
+Sa, 04 Jul 2020 15:43:29 +0000  QA_rec 1 0 1 17
+Sa, 04 Jul 2020 15:43:49 +0000  QA_rec 0 0 1 17
+Sa, 04 Jul 2020 15:43:49 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Kollegen versammelt sich zusammen, um ein neues Projekt zu planen., Q_cen-planen
+Sa, 04 Jul 2020 15:43:50 +0000  QA_rec 1 0 1 18
+Sa, 04 Jul 2020 15:44:10 +0000  QA_rec 0 0 1 18
+Sa, 04 Jul 2020 15:44:10 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Der Läufer hat seine Konkurrenten mühelos geschlagen., Q_cen-geschlagen
+Sa, 04 Jul 2020 15:44:11 +0000  QA_rec 1 0 1 19
+Sa, 04 Jul 2020 15:44:31 +0000  QA_rec 0 0 1 19
+Sa, 04 Jul 2020 15:44:31 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Trotz meines Verbots hat er sein Auto vor meinem Haus geparkt., Q_cen-geparkt
+Sa, 04 Jul 2020 15:44:32 +0000  QA_rec 1 0 1 20
+Sa, 04 Jul 2020 15:44:52 +0000  QA_rec 0 0 1 20
+Sa, 04 Jul 2020 15:44:52 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Ich liebe würzige Saucen. , Q_cen-liebe
+Sa, 04 Jul 2020 15:44:53 +0000  QA_rec 1 0 1 21
+Sa, 04 Jul 2020 15:45:13 +0000  QA_rec 0 0 1 21
+Sa, 04 Jul 2020 15:45:13 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Linda packt immer viel zu viele Kleidung in ihren Koffer., Q_cen-packt
+Sa, 04 Jul 2020 15:45:14 +0000  QA_rec 1 0 1 22
+Sa, 04 Jul 2020 15:45:34 +0000  QA_rec 0 0 1 22
+Sa, 04 Jul 2020 15:45:34 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Ich muss meinen Nachnamen oft langsam buchstabieren, weil er zu selten ist., Q_cen-buchstabieren
+Sa, 04 Jul 2020 15:45:35 +0000  QA_rec 1 0 1 23
+Sa, 04 Jul 2020 15:45:55 +0000  QA_rec 0 0 1 23
+Sa, 04 Jul 2020 15:45:55 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Jetzt will ich eine Vorstellung machen., Q_cen-machen
+Sa, 04 Jul 2020 15:45:56 +0000  QA_rec 1 0 1 24
+Sa, 04 Jul 2020 15:46:16 +0000  QA_rec 0 0 1 24
+Sa, 04 Jul 2020 15:46:16 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Linda trinkt lieber eine heiße Schokolade., Q_cen-trinkt

@@ -1,0 +1,197 @@
+Sa, 04 Jul 2020 16:22:58 +0000  fade_in 1 2 None None
+Sa, 04 Jul 2020 16:23:28 +0000  fade_in 0 2 None None
+Sa, 04 Jul 2020 16:23:29 +0000  Artifact_intro 1 None None None
+Sa, 04 Jul 2020 16:23:57 +0000  Artifact_intro 0 None None None
+Sa, 04 Jul 2020 16:23:57 +0000  Artifact_rec 1 None None 0
+Sa, 04 Jul 2020 16:24:19 +0000  Artifact_rec 0 None None 0
+Sa, 04 Jul 2020 16:24:19 +0000  Artifact_rec 1 None None 1
+Sa, 04 Jul 2020 16:24:41 +0000  Artifact_rec 0 None None 1
+Sa, 04 Jul 2020 16:24:41 +0000  Artifact_rec 1 None None 2
+Sa, 04 Jul 2020 16:25:03 +0000  Artifact_rec 0 None None 2
+Sa, 04 Jul 2020 16:25:03 +0000  Artifact_rec 1 None None 3
+Sa, 04 Jul 2020 16:25:25 +0000  Artifact_rec 0 None None 3
+Sa, 04 Jul 2020 16:25:25 +0000  Artifact_rec 1 None None 4
+Sa, 04 Jul 2020 16:25:47 +0000  Artifact_rec 0 None None 4
+Sa, 04 Jul 2020 16:25:47 +0000  Artifact_rec 1 None None 5
+Sa, 04 Jul 2020 16:26:09 +0000  Artifact_rec 0 None None 5
+Sa, 04 Jul 2020 16:26:09 +0000  Artifact_rec 1 None None 6
+Sa, 04 Jul 2020 16:26:31 +0000  Artifact_rec 0 None None 6
+Sa, 04 Jul 2020 16:26:31 +0000  Artifact_rec 1 None None 7
+Sa, 04 Jul 2020 16:26:53 +0000  Artifact_rec 0 None None 7
+Sa, 04 Jul 2020 16:26:53 +0000  Artifact_rec 1 None None 8
+Sa, 04 Jul 2020 16:27:15 +0000  Artifact_rec 0 None None 8
+Sa, 04 Jul 2020 16:27:15 +0000  Artifact_rec 1 None None 9
+Sa, 04 Jul 2020 16:27:37 +0000  Artifact_rec 0 None None 9
+Sa, 04 Jul 2020 16:27:37 +0000  Artifact_rec 1 None None 10
+Sa, 04 Jul 2020 16:27:59 +0000  Artifact_rec 0 None None 10
+Sa, 04 Jul 2020 16:27:59 +0000  Artifact_rec 1 None None 11
+Sa, 04 Jul 2020 16:28:21 +0000  Artifact_rec 0 None None 11
+Sa, 04 Jul 2020 16:28:21 +0000  Artifact_rec 1 None None 12
+Sa, 04 Jul 2020 16:28:44 +0000  Artifact_rec 0 None None 12
+Sa, 04 Jul 2020 16:28:44 +0000  Artifact_rec 1 None None 13
+Sa, 04 Jul 2020 16:29:06 +0000  Artifact_rec 0 None None 13
+Sa, 04 Jul 2020 16:29:06 +0000  Artifact_rec 1 None None 14
+Sa, 04 Jul 2020 16:29:28 +0000  Artifact_rec 0 None None 14
+Sa, 04 Jul 2020 16:29:29 +0000  RS_intro 1 2 0 None
+Sa, 04 Jul 2020 16:29:52 +0000  RS_intro 0 2 0 None
+Sa, 04 Jul 2020 16:29:52 +0000  RS_rec 1 2 0 None
+Sa, 04 Jul 2020 16:32:55 +0000  RS_rec 0 2 close None
+Sa, 04 Jul 2020 16:32:55 +0000  RS_intro 1 2 1 None
+Sa, 04 Jul 2020 16:33:18 +0000  RS_intro 0 2 1 None
+Sa, 04 Jul 2020 16:33:18 +0000  RS_rec 1 2 1 None
+Sa, 04 Jul 2020 16:36:21 +0000  RS_rec 0 2 open None
+Sa, 04 Jul 2020 16:36:36 +0000  QA_intro 1 2 None None
+Sa, 04 Jul 2020 16:37:17 +0000  QA_intro 0 2 None None
+Sa, 04 Jul 2020 16:37:19 +0000  QA_rec 1 2 0 0
+Sa, 04 Jul 2020 16:37:39 +0000  QA_rec 0 2 0 0
+Sa, 04 Jul 2020 16:37:39 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Mein Vater arbeitet in einer Papierfabrik., Q_cen-arbeitet
+Sa, 04 Jul 2020 16:37:40 +0000  QA_rec 1 2 0 1
+Sa, 04 Jul 2020 16:38:00 +0000  QA_rec 0 2 0 1
+Sa, 04 Jul 2020 16:38:00 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Wir haben auf der Konferenz einige grundlegende Fragen zum Klimaschutz diskutiert., Q_cen-diskutiert
+Sa, 04 Jul 2020 16:38:01 +0000  QA_rec 1 2 0 2
+Sa, 04 Jul 2020 16:38:21 +0000  QA_rec 0 2 0 2
+Sa, 04 Jul 2020 16:38:21 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Bitten aufpassen, zu viel Zucker schadet der Gesundheit., Q_cen-aufpassen
+Sa, 04 Jul 2020 16:38:22 +0000  QA_rec 1 2 0 3
+Sa, 04 Jul 2020 16:38:42 +0000  QA_rec 0 2 0 3
+Sa, 04 Jul 2020 16:38:42 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Wir sind stolz auf das, was wir bis jetzt geschafft haben., Q_cen-geschafft
+Sa, 04 Jul 2020 16:38:43 +0000  QA_rec 1 2 0 4
+Sa, 04 Jul 2020 16:39:03 +0000  QA_rec 0 2 0 4
+Sa, 04 Jul 2020 16:39:03 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Wenn Sie nicht aufpassen, könnten Sie sich die Finger verletzen., Q_cen-aufpassen
+Sa, 04 Jul 2020 16:39:04 +0000  QA_rec 1 2 0 5
+Sa, 04 Jul 2020 16:39:24 +0000  QA_rec 0 2 0 5
+Sa, 04 Jul 2020 16:39:24 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
+Sa, 04 Jul 2020 16:39:25 +0000  QA_rec 1 2 0 6
+Sa, 04 Jul 2020 16:39:45 +0000  QA_rec 0 2 0 6
+Sa, 04 Jul 2020 16:39:45 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Der Junge hat das Mädchen zum Kaffee eingeladen., Q_cen-eingeladen
+Sa, 04 Jul 2020 16:39:46 +0000  QA_rec 1 2 0 7
+Sa, 04 Jul 2020 16:40:06 +0000  QA_rec 0 2 0 7
+Sa, 04 Jul 2020 16:40:06 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Ich empfehle dieses Buch, weil es sehr gut ist., Q_cen-empfehle
+Sa, 04 Jul 2020 16:40:07 +0000  QA_rec 1 2 0 8
+Sa, 04 Jul 2020 16:40:27 +0000  QA_rec 0 2 0 8
+Sa, 04 Jul 2020 16:40:27 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Die Anlage arbeitet vollautomatisch., Q_cen-arbeitet
+Sa, 04 Jul 2020 16:40:28 +0000  QA_rec 1 2 0 9
+Sa, 04 Jul 2020 16:40:48 +0000  QA_rec 0 2 0 9
+Sa, 04 Jul 2020 16:40:48 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Die Ärztin hat Andrea ein Rezept ausgestellt., Q_cen-ausgestellt
+Sa, 04 Jul 2020 16:40:49 +0000  QA_rec 1 2 0 10
+Sa, 04 Jul 2020 16:41:09 +0000  QA_rec 0 2 0 10
+Sa, 04 Jul 2020 16:41:09 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Hans und Tina heirateten am Donnerstag in der Kirche., Q_cen-heirateten
+Sa, 04 Jul 2020 16:41:10 +0000  QA_rec 1 2 0 11
+Sa, 04 Jul 2020 16:41:30 +0000  QA_rec 0 2 0 11
+Sa, 04 Jul 2020 16:41:30 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Ich legte meine Geldbörse auf den Tisch., Q_cen-legte
+Sa, 04 Jul 2020 16:41:31 +0000  QA_rec 1 2 0 12
+Sa, 04 Jul 2020 16:41:51 +0000  QA_rec 0 2 0 12
+Sa, 04 Jul 2020 16:41:51 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Muss ich mit dem Bus fahren oder kann ich zu Fuß gehen?, Q_cen-gehen
+Sa, 04 Jul 2020 16:41:52 +0000  QA_rec 1 2 0 13
+Sa, 04 Jul 2020 16:42:12 +0000  QA_rec 0 2 0 13
+Sa, 04 Jul 2020 16:42:12 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Unser Biolehrer unterrichtet uns auch machmal im Grünen., Q_cen-unterrichtet
+Sa, 04 Jul 2020 16:42:13 +0000  QA_rec 1 2 0 14
+Sa, 04 Jul 2020 16:42:33 +0000  QA_rec 0 2 0 14
+Sa, 04 Jul 2020 16:42:33 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Leichte Sprache ist eine Hilfe für Menschen , die keine schwierige Sprache verstehen., Q_cen-verstehen
+Sa, 04 Jul 2020 16:42:34 +0000  QA_rec 1 2 0 15
+Sa, 04 Jul 2020 16:42:54 +0000  QA_rec 0 2 0 15
+Sa, 04 Jul 2020 16:42:54 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Mutters Einkäufe sind so schwer, deshalb bittet sie Jon, die Tasche zu tragen., Q_cen-tragen
+Sa, 04 Jul 2020 16:42:55 +0000  QA_rec 1 2 0 16
+Sa, 04 Jul 2020 16:43:15 +0000  QA_rec 0 2 0 16
+Sa, 04 Jul 2020 16:43:15 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Sam hat gerade das Abitur bestanden und wird sich für die Universität Wien bewerben. , Q_cen-bewerben
+Sa, 04 Jul 2020 16:43:16 +0000  QA_rec 1 2 0 17
+Sa, 04 Jul 2020 16:43:37 +0000  QA_rec 0 2 0 17
+Sa, 04 Jul 2020 16:43:37 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Zum Geburtstag hat ihm Oma ein Buch mit vielen Bildern geschenkt., Q_cen-geschenkt
+Sa, 04 Jul 2020 16:43:38 +0000  QA_rec 1 2 0 18
+Sa, 04 Jul 2020 16:43:58 +0000  QA_rec 0 2 0 18
+Sa, 04 Jul 2020 16:43:58 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Ich sitze weit entfernt von der Bühne, also muss ich durch ein Fernglas schauen., Q_cen-schauen
+Sa, 04 Jul 2020 16:43:59 +0000  QA_rec 1 2 0 19
+Sa, 04 Jul 2020 16:44:19 +0000  QA_rec 0 2 0 19
+Sa, 04 Jul 2020 16:44:19 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-In der Bibliothek kann man viele seltsame Bücher lesen., Q_cen-lesen
+Sa, 04 Jul 2020 16:44:20 +0000  QA_rec 1 2 0 20
+Sa, 04 Jul 2020 16:44:40 +0000  QA_rec 0 2 0 20
+Sa, 04 Jul 2020 16:44:40 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Der Hotelier buchte zwei Übernachtungen für uns, Q_cen-buchte
+Sa, 04 Jul 2020 16:44:41 +0000  QA_rec 1 2 0 21
+Sa, 04 Jul 2020 16:45:01 +0000  QA_rec 0 2 0 21
+Sa, 04 Jul 2020 16:45:01 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Zu Ostern gibt es für Kinder Ostereier und Süßigkeiten., Q_cen-gibt
+Sa, 04 Jul 2020 16:45:02 +0000  QA_rec 1 2 0 22
+Sa, 04 Jul 2020 16:45:22 +0000  QA_rec 0 2 0 22
+Sa, 04 Jul 2020 16:45:22 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Er wurde zum Leiter der Abteilung befördert., Q_cen-befördert
+Sa, 04 Jul 2020 16:45:23 +0000  QA_rec 1 2 0 23
+Sa, 04 Jul 2020 16:45:43 +0000  QA_rec 0 2 0 23
+Sa, 04 Jul 2020 16:45:43 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Das Friedensabkommen hat den Krieg beendet., Q_cen-beendet
+Sa, 04 Jul 2020 16:45:44 +0000  QA_rec 1 2 0 24
+Sa, 04 Jul 2020 16:46:04 +0000  QA_rec 0 2 0 24
+Sa, 04 Jul 2020 16:46:04 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Wir mussten ein amtliches Formular ausfüllen, als wir geheiratet haben., Q_cen-ausfüllen
+Sa, 04 Jul 2020 16:46:21 +0000  QA_rec 1 2 1 0
+Sa, 04 Jul 2020 16:46:41 +0000  QA_rec 0 2 1 0
+Sa, 04 Jul 2020 16:46:41 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Die Präsentation dauert eine halbe Stunde., Q_cen-dauert
+Sa, 04 Jul 2020 16:46:42 +0000  QA_rec 1 2 1 1
+Sa, 04 Jul 2020 16:47:02 +0000  QA_rec 0 2 1 1
+Sa, 04 Jul 2020 16:47:02 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Sie müssen vorsichtig die Anleitung für Elektrogeräte lesen., Q_cen-lesen
+Sa, 04 Jul 2020 16:47:03 +0000  QA_rec 1 2 1 2
+Sa, 04 Jul 2020 16:47:23 +0000  QA_rec 0 2 1 2
+Sa, 04 Jul 2020 16:47:23 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Nur wenn mein Haar schmutzig ist, werde ich es bürsten., Q_cen-bürsten
+Sa, 04 Jul 2020 16:47:24 +0000  QA_rec 1 2 1 3
+Sa, 04 Jul 2020 16:47:44 +0000  QA_rec 0 2 1 3
+Sa, 04 Jul 2020 16:47:44 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Ich musste heute Morgen richtig schnell nach der Busstation laufen., Q_cen-laufen
+Sa, 04 Jul 2020 16:47:45 +0000  QA_rec 1 2 1 4
+Sa, 04 Jul 2020 16:48:05 +0000  QA_rec 0 2 1 4
+Sa, 04 Jul 2020 16:48:05 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Florian habe so lange Beine, deshalb trage er nur lange Hosen., Q_cen-trage
+Sa, 04 Jul 2020 16:48:06 +0000  QA_rec 1 2 1 5
+Sa, 04 Jul 2020 16:48:26 +0000  QA_rec 0 2 1 5
+Sa, 04 Jul 2020 16:48:26 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Es ist Zeit, diesen Ort zu verlassen., Q_cen-verlassen
+Sa, 04 Jul 2020 16:48:27 +0000  QA_rec 1 2 1 6
+Sa, 04 Jul 2020 16:48:47 +0000  QA_rec 0 2 1 6
+Sa, 04 Jul 2020 16:48:47 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Sie war zu stolz, um ihn um Hilfe zu bitten., Q_cen-bitten
+Sa, 04 Jul 2020 16:48:48 +0000  QA_rec 1 2 1 7
+Sa, 04 Jul 2020 16:49:08 +0000  QA_rec 0 2 1 7
+Sa, 04 Jul 2020 16:49:08 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Er hilft der alten Frau beim Einsteigen ins Auto., Q_cen-hilft
+Sa, 04 Jul 2020 16:49:09 +0000  QA_rec 1 2 1 8
+Sa, 04 Jul 2020 16:49:29 +0000  QA_rec 0 2 1 8
+Sa, 04 Jul 2020 16:49:29 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Er legte das Messer und die Gabel neben den Teller., Q_cen-legte
+Sa, 04 Jul 2020 16:49:30 +0000  QA_rec 1 2 1 9
+Sa, 04 Jul 2020 16:49:50 +0000  QA_rec 0 2 1 9
+Sa, 04 Jul 2020 16:49:50 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Ein Gewitter besteht aus Blitz und Donner., Q_cen-besteht
+Sa, 04 Jul 2020 16:49:51 +0000  QA_rec 1 2 1 10
+Sa, 04 Jul 2020 16:50:11 +0000  QA_rec 0 2 1 10
+Sa, 04 Jul 2020 16:50:11 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Der Assistent ging zurück ins Büro, um die Dokumente zu holen., Q_cen-holen
+Sa, 04 Jul 2020 16:50:12 +0000  QA_rec 1 2 1 11
+Sa, 04 Jul 2020 16:50:32 +0000  QA_rec 0 2 1 11
+Sa, 04 Jul 2020 16:50:32 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Um den Sachverhalt zu erklären, fehlten ihm die treffenden Vokabeln., Q_cen-erklären
+Sa, 04 Jul 2020 16:50:33 +0000  QA_rec 1 2 1 12
+Sa, 04 Jul 2020 16:50:53 +0000  QA_rec 0 2 1 12
+Sa, 04 Jul 2020 16:50:53 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Auf Lavaerde wachsen sehr gute Weintrauben., Q_cen-wachsen
+Sa, 04 Jul 2020 16:50:54 +0000  QA_rec 1 2 1 13
+Sa, 04 Jul 2020 16:51:14 +0000  QA_rec 0 2 1 13
+Sa, 04 Jul 2020 16:51:14 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Sie hat neue Laufschuhe bekommen., Q_cen-bekommen
+Sa, 04 Jul 2020 16:51:15 +0000  QA_rec 1 2 1 14
+Sa, 04 Jul 2020 16:51:35 +0000  QA_rec 0 2 1 14
+Sa, 04 Jul 2020 16:51:35 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Er konnte auf alle Fragen des Quiz antworten., Q_cen-antworten
+Sa, 04 Jul 2020 16:51:36 +0000  QA_rec 1 2 1 15
+Sa, 04 Jul 2020 16:51:57 +0000  QA_rec 0 2 1 15
+Sa, 04 Jul 2020 16:51:57 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Peter interessiert sich sehr für Geschichte., Q_cen-interessiert
+Sa, 04 Jul 2020 16:51:58 +0000  QA_rec 1 2 1 16
+Sa, 04 Jul 2020 16:52:18 +0000  QA_rec 0 2 1 16
+Sa, 04 Jul 2020 16:52:18 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Er hat die Verbindung zwischen zwei Zufälligkeiten hergestellt., Q_cen-hergestellt
+Sa, 04 Jul 2020 16:52:19 +0000  QA_rec 1 2 1 17
+Sa, 04 Jul 2020 16:52:39 +0000  QA_rec 0 2 1 17
+Sa, 04 Jul 2020 16:52:39 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Wir haben im Wald Beeren und Pilze gesammelt., Q_cen-gesammelt
+Sa, 04 Jul 2020 16:52:40 +0000  QA_rec 1 2 1 18
+Sa, 04 Jul 2020 16:53:00 +0000  QA_rec 0 2 1 18
+Sa, 04 Jul 2020 16:53:00 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Sebastian mag lieber ein schwarzes Brot mit Butter und Marmelade., Q_cen-mag
+Sa, 04 Jul 2020 16:53:01 +0000  QA_rec 1 2 1 19
+Sa, 04 Jul 2020 16:53:21 +0000  QA_rec 0 2 1 19
+Sa, 04 Jul 2020 16:53:21 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht., Q_cen-gebucht
+Sa, 04 Jul 2020 16:53:22 +0000  QA_rec 1 2 1 20
+Sa, 04 Jul 2020 16:53:42 +0000  QA_rec 0 2 1 20
+Sa, 04 Jul 2020 16:53:42 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Hans arbeitet in einer Schule, er ist der Direktor., Q_cen-arbeitet
+Sa, 04 Jul 2020 16:53:43 +0000  QA_rec 1 2 1 21
+Sa, 04 Jul 2020 16:54:03 +0000  QA_rec 0 2 1 21
+Sa, 04 Jul 2020 16:54:03 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Ich habe mich dieses Semester für einen sehr einfachen Kurs angemeldet., Q_cen-angemeldet
+Sa, 04 Jul 2020 16:54:04 +0000  QA_rec 1 2 1 22
+Sa, 04 Jul 2020 16:54:24 +0000  QA_rec 0 2 1 22
+Sa, 04 Jul 2020 16:54:24 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Bitte schließ die Tür!, Q_cen-schließ
+Sa, 04 Jul 2020 16:54:25 +0000  QA_rec 1 2 1 23
+Sa, 04 Jul 2020 16:54:45 +0000  QA_rec 0 2 1 23
+Sa, 04 Jul 2020 16:54:45 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Meine Eltern schauten vorbei, um sich meinen neuen Garten anzusehen., Q_cen-anzusehen
+Sa, 04 Jul 2020 16:54:46 +0000  QA_rec 1 2 1 24
+Sa, 04 Jul 2020 16:55:06 +0000  QA_rec 0 2 1 24
+Sa, 04 Jul 2020 16:55:06 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Ein Arzt behandelt kranke Leute in einer Praxis oder im Krankenhaus., Q_cen-behandelt
+Sa, 04 Jul 2020 16:55:23 +0000  fade_out 1 2 None None
+Sa, 04 Jul 2020 16:55:26 +0000  fade_out 0 2 None None
+Sa, 04 Jul 2020 16:55:28 +0000  fade_in 1 3 None None

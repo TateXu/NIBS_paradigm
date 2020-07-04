@@ -1,0 +1,160 @@
+Sa, 04 Jul 2020 15:54:53 +0000  RS_intro 1 1 0 None
+Sa, 04 Jul 2020 15:55:16 +0000  RS_intro 0 1 0 None
+Sa, 04 Jul 2020 15:55:16 +0000  RS_rec 1 1 0 None
+Sa, 04 Jul 2020 15:58:20 +0000  RS_rec 0 1 open None
+Sa, 04 Jul 2020 15:58:20 +0000  RS_intro 1 1 1 None
+Sa, 04 Jul 2020 15:58:43 +0000  RS_intro 0 1 1 None
+Sa, 04 Jul 2020 15:58:43 +0000  RS_rec 1 1 1 None
+Sa, 04 Jul 2020 16:01:46 +0000  RS_rec 0 1 close None
+Sa, 04 Jul 2020 16:02:01 +0000  QA_intro 1 1 None None
+Sa, 04 Jul 2020 16:02:41 +0000  QA_intro 0 1 None None
+Sa, 04 Jul 2020 16:02:43 +0000  QA_rec 1 1 0 0
+Sa, 04 Jul 2020 16:03:03 +0000  QA_rec 0 1 0 0
+Sa, 04 Jul 2020 16:03:03 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Der Fischer musste das Netz einziehen, ohne etwas gefangen zu haben., Q_cen-einziehen
+Sa, 04 Jul 2020 16:03:04 +0000  QA_rec 1 1 0 1
+Sa, 04 Jul 2020 16:03:24 +0000  QA_rec 0 1 0 1
+Sa, 04 Jul 2020 16:03:24 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Der Wirkstoff im Kaffee heißt Koffein., Q_cen-heißt
+Sa, 04 Jul 2020 16:03:25 +0000  QA_rec 1 1 0 2
+Sa, 04 Jul 2020 16:03:45 +0000  QA_rec 0 1 0 2
+Sa, 04 Jul 2020 16:03:45 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Doris ist leider zu spät gekommen, die Apotheke hat heute schon geschlossen., Q_cen-geschlossen
+Sa, 04 Jul 2020 16:03:46 +0000  QA_rec 1 1 0 3
+Sa, 04 Jul 2020 16:04:06 +0000  QA_rec 0 1 0 3
+Sa, 04 Jul 2020 16:04:06 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Ich habe alle meine Freunde zu meiner Geburtstags Party eingeladen., Q_cen-eingeladen
+Sa, 04 Jul 2020 16:04:07 +0000  QA_rec 1 1 0 4
+Sa, 04 Jul 2020 16:04:28 +0000  QA_rec 0 1 0 4
+Sa, 04 Jul 2020 16:04:28 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Um eine Kreditkarte zu bewerben, muss man älter als 18 werden. , Q_cen-bewerben
+Sa, 04 Jul 2020 16:04:29 +0000  QA_rec 1 1 0 5
+Sa, 04 Jul 2020 16:04:49 +0000  QA_rec 0 1 0 5
+Sa, 04 Jul 2020 16:04:49 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Bitte, erinnern Sie mich daran, wenn ich es vergessen sollte., Q_cen-erinnern
+Sa, 04 Jul 2020 16:04:50 +0000  QA_rec 1 1 0 6
+Sa, 04 Jul 2020 16:05:10 +0000  QA_rec 0 1 0 6
+Sa, 04 Jul 2020 16:05:10 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Die zwei Männer bewerben sich um einen gleichen Arbeitsplatz., Q_cen-bewerben
+Sa, 04 Jul 2020 16:05:11 +0000  QA_rec 1 1 0 7
+Sa, 04 Jul 2020 16:05:31 +0000  QA_rec 0 1 0 7
+Sa, 04 Jul 2020 16:05:31 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Mein Bruder hat uns zum Abendessen eingeladen, ich habe bereits zugesagt., Q_cen-eingeladen
+Sa, 04 Jul 2020 16:05:32 +0000  QA_rec 1 1 0 8
+Sa, 04 Jul 2020 16:05:52 +0000  QA_rec 0 1 0 8
+Sa, 04 Jul 2020 16:05:52 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Bitte reservieren Sie einen Platz, bevor Sie ins Restaurant gehen., Q_cen-reservieren
+Sa, 04 Jul 2020 16:05:53 +0000  QA_rec 1 1 0 9
+Sa, 04 Jul 2020 16:06:13 +0000  QA_rec 0 1 0 9
+Sa, 04 Jul 2020 16:06:13 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Lisa kann schon mit großen Zahlen rechnen., Q_cen-rechnen
+Sa, 04 Jul 2020 16:06:14 +0000  QA_rec 1 1 0 10
+Sa, 04 Jul 2020 16:06:34 +0000  QA_rec 0 1 0 10
+Sa, 04 Jul 2020 16:06:34 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Bananen können wir in der Obstabteilung finden., Q_cen-finden
+Sa, 04 Jul 2020 16:06:35 +0000  QA_rec 1 1 0 11
+Sa, 04 Jul 2020 16:06:55 +0000  QA_rec 0 1 0 11
+Sa, 04 Jul 2020 16:06:55 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Die alte Zimmerdecke muss man renovieren., Q_cen-renovieren
+Sa, 04 Jul 2020 16:06:56 +0000  QA_rec 1 1 0 12
+Sa, 04 Jul 2020 16:07:16 +0000  QA_rec 0 1 0 12
+Sa, 04 Jul 2020 16:07:16 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Ich koche die Kartoffeln für die Kartoffelsuppe., Q_cen-koche
+Sa, 04 Jul 2020 16:07:17 +0000  QA_rec 1 1 0 13
+Sa, 04 Jul 2020 16:07:37 +0000  QA_rec 0 1 0 13
+Sa, 04 Jul 2020 16:07:37 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Sein Versprechen klingt glaubwürdig., Q_cen-klingt
+Sa, 04 Jul 2020 16:07:38 +0000  QA_rec 1 1 0 14
+Sa, 04 Jul 2020 16:07:58 +0000  QA_rec 0 1 0 14
+Sa, 04 Jul 2020 16:07:58 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+Sa, 04 Jul 2020 16:07:59 +0000  QA_rec 1 1 0 15
+Sa, 04 Jul 2020 16:08:19 +0000  QA_rec 0 1 0 15
+Sa, 04 Jul 2020 16:08:19 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Araber lieben es, auf den Märkten zu handeln., Q_cen-handeln
+Sa, 04 Jul 2020 16:08:20 +0000  QA_rec 1 1 0 16
+Sa, 04 Jul 2020 16:08:40 +0000  QA_rec 0 1 0 16
+Sa, 04 Jul 2020 16:08:40 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Er hat seine Katze oft mit Fisch gefüttert., Q_cen-gefüttert
+Sa, 04 Jul 2020 16:08:41 +0000  QA_rec 1 1 0 17
+Sa, 04 Jul 2020 16:09:01 +0000  QA_rec 0 1 0 17
+Sa, 04 Jul 2020 16:09:01 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Das iPhone wurde von Kalifornien entworfen und in China hergestellt. , Q_cen-hergestellt
+Sa, 04 Jul 2020 16:09:02 +0000  QA_rec 1 1 0 18
+Sa, 04 Jul 2020 16:09:22 +0000  QA_rec 0 1 0 18
+Sa, 04 Jul 2020 16:09:22 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Jeder Topf kommt mit seinen Deckel beim Einkaufen., Q_cen-kommt
+Sa, 04 Jul 2020 16:09:23 +0000  QA_rec 1 1 0 19
+Sa, 04 Jul 2020 16:09:43 +0000  QA_rec 0 1 0 19
+Sa, 04 Jul 2020 16:09:43 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Die Suppe wird nicht so heiß gegessen, wie sie gekocht wird., Q_cen-gegessen
+Sa, 04 Jul 2020 16:09:44 +0000  QA_rec 1 1 0 20
+Sa, 04 Jul 2020 16:10:04 +0000  QA_rec 0 1 0 20
+Sa, 04 Jul 2020 16:10:04 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium., Q_cen-brauchen
+Sa, 04 Jul 2020 16:10:05 +0000  QA_rec 1 1 0 21
+Sa, 04 Jul 2020 16:10:25 +0000  QA_rec 0 1 0 21
+Sa, 04 Jul 2020 16:10:25 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Die Polizei sammelte alle verfügbaren Informationen., Q_cen-sammelte
+Sa, 04 Jul 2020 16:10:26 +0000  QA_rec 1 1 0 22
+Sa, 04 Jul 2020 16:10:46 +0000  QA_rec 0 1 0 22
+Sa, 04 Jul 2020 16:10:46 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Du musst die Verantwortung für deine Taten übernehmen., Q_cen-übernehmen
+Sa, 04 Jul 2020 16:10:47 +0000  QA_rec 1 1 0 23
+Sa, 04 Jul 2020 16:11:07 +0000  QA_rec 0 1 0 23
+Sa, 04 Jul 2020 16:11:07 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+Sa, 04 Jul 2020 16:11:08 +0000  QA_rec 1 1 0 24
+Sa, 04 Jul 2020 16:11:28 +0000  QA_rec 0 1 0 24
+Sa, 04 Jul 2020 16:11:28 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Im Mittelalter öffnete das erste Kaufhaus in Europa., Q_cen-öffnete
+Sa, 04 Jul 2020 16:11:45 +0000  QA_rec 1 1 1 0
+Sa, 04 Jul 2020 16:12:05 +0000  QA_rec 0 1 1 0
+Sa, 04 Jul 2020 16:12:05 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Ich kann in meiner Badewanne duschen., Q_cen-duschen
+Sa, 04 Jul 2020 16:12:06 +0000  QA_rec 1 1 1 1
+Sa, 04 Jul 2020 16:12:26 +0000  QA_rec 0 1 1 1
+Sa, 04 Jul 2020 16:12:26 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Ich benutze mein Handy, um Textnachrichten zu senden., Q_cen-senden
+Sa, 04 Jul 2020 16:12:27 +0000  QA_rec 1 1 1 2
+Sa, 04 Jul 2020 16:12:47 +0000  QA_rec 0 1 1 2
+Sa, 04 Jul 2020 16:12:47 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Das neue Teammitglied wurde über die Situation informiert., Q_cen-informiert
+Sa, 04 Jul 2020 16:12:48 +0000  QA_rec 1 1 1 3
+Sa, 04 Jul 2020 16:13:08 +0000  QA_rec 0 1 1 3
+Sa, 04 Jul 2020 16:13:08 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Das Schloss liegt innerhalb der Stadtmauern., Q_cen-liegt
+Sa, 04 Jul 2020 16:13:09 +0000  QA_rec 1 1 1 4
+Sa, 04 Jul 2020 16:13:29 +0000  QA_rec 0 1 1 4
+Sa, 04 Jul 2020 16:13:29 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Als ein vertrauenswürdiger Mann hält Sam immer sein Versprechen., Q_cen-hält
+Sa, 04 Jul 2020 16:13:30 +0000  QA_rec 1 1 1 5
+Sa, 04 Jul 2020 16:13:50 +0000  QA_rec 0 1 1 5
+Sa, 04 Jul 2020 16:13:50 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Die Medien und Reporter sollten die Wahrheit berichten., Q_cen-berichten
+Sa, 04 Jul 2020 16:13:51 +0000  QA_rec 1 1 1 6
+Sa, 04 Jul 2020 16:14:11 +0000  QA_rec 0 1 1 6
+Sa, 04 Jul 2020 16:14:11 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Die Reparatur wird um ein hundert Euro kosten., Q_cen-kosten
+Sa, 04 Jul 2020 16:14:12 +0000  QA_rec 1 1 1 7
+Sa, 04 Jul 2020 16:14:32 +0000  QA_rec 0 1 1 7
+Sa, 04 Jul 2020 16:14:32 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Viele Indianer leben in Reservaten., Q_cen-leben
+Sa, 04 Jul 2020 16:14:33 +0000  QA_rec 1 1 1 8
+Sa, 04 Jul 2020 16:14:54 +0000  QA_rec 0 1 1 8
+Sa, 04 Jul 2020 16:14:54 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Die Sonne brennt im Sommer auf der Haut., Q_cen-brennt
+Sa, 04 Jul 2020 16:14:55 +0000  QA_rec 1 1 1 9
+Sa, 04 Jul 2020 16:15:15 +0000  QA_rec 0 1 1 9
+Sa, 04 Jul 2020 16:15:15 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Entschuldigung, können Sie mir ein Taxi rufen?, Q_cen-rufen
+Sa, 04 Jul 2020 16:15:16 +0000  QA_rec 1 1 1 10
+Sa, 04 Jul 2020 16:15:36 +0000  QA_rec 0 1 1 10
+Sa, 04 Jul 2020 16:15:36 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Die Näherin hat ein Kleid für den Abschlussball genäht., Q_cen-genäht
+Sa, 04 Jul 2020 16:15:37 +0000  QA_rec 1 1 1 11
+Sa, 04 Jul 2020 16:15:57 +0000  QA_rec 0 1 1 11
+Sa, 04 Jul 2020 16:15:57 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Die schwarze Wolken werden Regen bringen., Q_cen-bringen
+Sa, 04 Jul 2020 16:15:58 +0000  QA_rec 1 1 1 12
+Sa, 04 Jul 2020 16:16:18 +0000  QA_rec 0 1 1 12
+Sa, 04 Jul 2020 16:16:18 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Die Kinder haben sich wegen eines Spielzeugs gequält und gestritten., Q_cen-gestritten
+Sa, 04 Jul 2020 16:16:19 +0000  QA_rec 1 1 1 13
+Sa, 04 Jul 2020 16:16:39 +0000  QA_rec 0 1 1 13
+Sa, 04 Jul 2020 16:16:39 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Im botanischen Garten kann mann wir exotische Pflanzen sehen., Q_cen-sehen
+Sa, 04 Jul 2020 16:16:40 +0000  QA_rec 1 1 1 14
+Sa, 04 Jul 2020 16:17:00 +0000  QA_rec 0 1 1 14
+Sa, 04 Jul 2020 16:17:00 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Diese Telefinnummer ist leicht zu merken., Q_cen-merken
+Sa, 04 Jul 2020 16:17:01 +0000  QA_rec 1 1 1 15
+Sa, 04 Jul 2020 16:17:21 +0000  QA_rec 0 1 1 15
+Sa, 04 Jul 2020 16:17:21 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ein Bauer hält auf seinem Tiere wie Kühe, Hühner oder Schweine., Q_cen-hält
+Sa, 04 Jul 2020 16:17:22 +0000  QA_rec 1 1 1 16
+Sa, 04 Jul 2020 16:17:42 +0000  QA_rec 0 1 1 16
+Sa, 04 Jul 2020 16:17:42 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Während einer Trocken-Zeit regnet es sehr selten., Q_cen-regnet
+Sa, 04 Jul 2020 16:17:43 +0000  QA_rec 1 1 1 17
+Sa, 04 Jul 2020 16:18:03 +0000  QA_rec 0 1 1 17
+Sa, 04 Jul 2020 16:18:03 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Wie lange benötigt die Erde, um die Sonne zu umrunden?, Q_cen-benötigt
+Sa, 04 Jul 2020 16:18:04 +0000  QA_rec 1 1 1 18
+Sa, 04 Jul 2020 16:18:24 +0000  QA_rec 0 1 1 18
+Sa, 04 Jul 2020 16:18:24 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Die Oper endet mit dem Tod des Helden., Q_cen-endet
+Sa, 04 Jul 2020 16:18:25 +0000  QA_rec 1 1 1 19
+Sa, 04 Jul 2020 16:18:45 +0000  QA_rec 0 1 1 19
+Sa, 04 Jul 2020 16:18:45 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Der Flug nach New York wird mehrere Stunden dauern., Q_cen-dauern
+Sa, 04 Jul 2020 16:18:46 +0000  QA_rec 1 1 1 20
+Sa, 04 Jul 2020 16:19:06 +0000  QA_rec 0 1 1 20
+Sa, 04 Jul 2020 16:19:06 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Sie holte ihre Einkäufe aus dem Korb., Q_cen-holte
+Sa, 04 Jul 2020 16:19:07 +0000  QA_rec 1 1 1 21
+Sa, 04 Jul 2020 16:19:27 +0000  QA_rec 0 1 1 21
+Sa, 04 Jul 2020 16:19:27 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Er bekam eine neue Mutter, als sein Vater wieder heiratete., Q_cen-heiratete
+Sa, 04 Jul 2020 16:19:28 +0000  QA_rec 1 1 1 22
+Sa, 04 Jul 2020 16:19:48 +0000  QA_rec 0 1 1 22
+Sa, 04 Jul 2020 16:19:48 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Morgen ändert sich das Wetter ganz bestimmt., Q_cen-bestimmt
+Sa, 04 Jul 2020 16:19:49 +0000  QA_rec 1 1 1 23
+Sa, 04 Jul 2020 16:20:09 +0000  QA_rec 0 1 1 23
+Sa, 04 Jul 2020 16:20:09 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Am Strand spielt ständig laute Musik., Q_cen-spielt
+Sa, 04 Jul 2020 16:20:10 +0000  QA_rec 1 1 1 24
+Sa, 04 Jul 2020 16:20:30 +0000  QA_rec 0 1 1 24
+Sa, 04 Jul 2020 16:20:30 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Das laute Auto meines Nachbarn stört mich jeden Tag., Q_cen-stört
