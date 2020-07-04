@@ -105,7 +105,7 @@ n_rec_chn = 1
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each run
-stim_freq = 0
+stim_freq = 4.0
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
