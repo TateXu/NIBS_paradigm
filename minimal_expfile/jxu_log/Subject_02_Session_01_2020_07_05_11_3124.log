@@ -1,0 +1,197 @@
+So, 05 Jul 2020 11:31:27 +0000  fade_in 1 2 None None
+So, 05 Jul 2020 11:31:57 +0000  fade_in 0 2 None None
+So, 05 Jul 2020 11:31:58 +0000  Artifact_intro 1 None None None
+So, 05 Jul 2020 11:32:27 +0000  Artifact_intro 0 None None None
+So, 05 Jul 2020 11:32:27 +0000  Artifact_rec 1 None None 0
+So, 05 Jul 2020 11:32:49 +0000  Artifact_rec 0 None None 0
+So, 05 Jul 2020 11:32:49 +0000  Artifact_rec 1 None None 1
+So, 05 Jul 2020 11:33:11 +0000  Artifact_rec 0 None None 1
+So, 05 Jul 2020 11:33:11 +0000  Artifact_rec 1 None None 2
+So, 05 Jul 2020 11:33:33 +0000  Artifact_rec 0 None None 2
+So, 05 Jul 2020 11:33:33 +0000  Artifact_rec 1 None None 3
+So, 05 Jul 2020 11:33:55 +0000  Artifact_rec 0 None None 3
+So, 05 Jul 2020 11:33:55 +0000  Artifact_rec 1 None None 4
+So, 05 Jul 2020 11:34:17 +0000  Artifact_rec 0 None None 4
+So, 05 Jul 2020 11:34:17 +0000  Artifact_rec 1 None None 5
+So, 05 Jul 2020 11:34:39 +0000  Artifact_rec 0 None None 5
+So, 05 Jul 2020 11:34:39 +0000  Artifact_rec 1 None None 6
+So, 05 Jul 2020 11:35:01 +0000  Artifact_rec 0 None None 6
+So, 05 Jul 2020 11:35:01 +0000  Artifact_rec 1 None None 7
+So, 05 Jul 2020 11:35:23 +0000  Artifact_rec 0 None None 7
+So, 05 Jul 2020 11:35:23 +0000  Artifact_rec 1 None None 8
+So, 05 Jul 2020 11:35:45 +0000  Artifact_rec 0 None None 8
+So, 05 Jul 2020 11:35:45 +0000  Artifact_rec 1 None None 9
+So, 05 Jul 2020 11:36:07 +0000  Artifact_rec 0 None None 9
+So, 05 Jul 2020 11:36:07 +0000  Artifact_rec 1 None None 10
+So, 05 Jul 2020 11:36:29 +0000  Artifact_rec 0 None None 10
+So, 05 Jul 2020 11:36:29 +0000  Artifact_rec 1 None None 11
+So, 05 Jul 2020 11:36:51 +0000  Artifact_rec 0 None None 11
+So, 05 Jul 2020 11:36:51 +0000  Artifact_rec 1 None None 12
+So, 05 Jul 2020 11:37:13 +0000  Artifact_rec 0 None None 12
+So, 05 Jul 2020 11:37:13 +0000  Artifact_rec 1 None None 13
+So, 05 Jul 2020 11:37:35 +0000  Artifact_rec 0 None None 13
+So, 05 Jul 2020 11:37:35 +0000  Artifact_rec 1 None None 14
+So, 05 Jul 2020 11:37:57 +0000  Artifact_rec 0 None None 14
+So, 05 Jul 2020 11:37:58 +0000  RS_intro 1 2 0 None
+So, 05 Jul 2020 11:38:21 +0000  RS_intro 0 2 0 None
+So, 05 Jul 2020 11:38:21 +0000  RS_rec 1 2 0 None
+So, 05 Jul 2020 11:41:25 +0000  RS_rec 0 2 close None
+So, 05 Jul 2020 11:41:25 +0000  RS_intro 1 2 1 None
+So, 05 Jul 2020 11:41:48 +0000  RS_intro 0 2 1 None
+So, 05 Jul 2020 11:41:48 +0000  RS_rec 1 2 1 None
+So, 05 Jul 2020 11:44:51 +0000  RS_rec 0 2 open None
+So, 05 Jul 2020 11:45:05 +0000  QA_intro 1 2 None None
+So, 05 Jul 2020 11:45:46 +0000  QA_intro 0 2 None None
+So, 05 Jul 2020 11:45:48 +0000  QA_rec 1 2 0 0
+So, 05 Jul 2020 11:46:08 +0000  QA_rec 0 2 0 0
+So, 05 Jul 2020 11:46:08 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Man kann die salzige Luft riechen., Q_cen-riechen
+So, 05 Jul 2020 11:46:09 +0000  QA_rec 1 2 0 1
+So, 05 Jul 2020 11:46:29 +0000  QA_rec 0 2 0 1
+So, 05 Jul 2020 11:46:29 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Ich habe mich bei einem Kurs angemeldet, um Deutsch zu lernen., Q_cen-angemeldet
+So, 05 Jul 2020 11:46:30 +0000  QA_rec 1 2 0 2
+So, 05 Jul 2020 11:46:50 +0000  QA_rec 0 2 0 2
+So, 05 Jul 2020 11:46:50 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Er lieh mir Geld, ohne Zinsen zu verlangen., Q_cen-lieh
+So, 05 Jul 2020 11:46:51 +0000  QA_rec 1 2 0 3
+So, 05 Jul 2020 11:47:11 +0000  QA_rec 0 2 0 3
+So, 05 Jul 2020 11:47:11 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Die Absolventen feiern ihren erfolgreichen Abschluss an der Universität., Q_cen-feiern
+So, 05 Jul 2020 11:47:12 +0000  QA_rec 1 2 0 4
+So, 05 Jul 2020 11:47:32 +0000  QA_rec 0 2 0 4
+So, 05 Jul 2020 11:47:32 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Meine Fenster sind schmutzig, ich muss sie putzen., Q_cen-putzen
+So, 05 Jul 2020 11:47:33 +0000  QA_rec 1 2 0 5
+So, 05 Jul 2020 11:47:53 +0000  QA_rec 0 2 0 5
+So, 05 Jul 2020 11:47:53 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Wenn es kalt wird, muss ich einen warmen Pullover tragen., Q_cen-tragen
+So, 05 Jul 2020 11:47:54 +0000  QA_rec 1 2 0 6
+So, 05 Jul 2020 11:48:14 +0000  QA_rec 0 2 0 6
+So, 05 Jul 2020 11:48:14 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Alle Wege führen nach Rom., Q_cen-führen
+So, 05 Jul 2020 11:48:15 +0000  QA_rec 1 2 0 7
+So, 05 Jul 2020 11:48:35 +0000  QA_rec 0 2 0 7
+So, 05 Jul 2020 11:48:35 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Ich muss mich bemühen, das Ziel des Projektes zu erreichen., Q_cen-erreichen
+So, 05 Jul 2020 11:48:36 +0000  QA_rec 1 2 0 8
+So, 05 Jul 2020 11:48:56 +0000  QA_rec 0 2 0 8
+So, 05 Jul 2020 11:48:56 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Ich hoffe, dass ich und meine Tante gute Freunde für immer bleiben können., Q_cen-hoffe
+So, 05 Jul 2020 11:48:57 +0000  QA_rec 1 2 0 9
+So, 05 Jul 2020 11:49:17 +0000  QA_rec 0 2 0 9
+So, 05 Jul 2020 11:49:17 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Während meines Urlaubs werde ich nach China und Japan reisen., Q_cen-reisen
+So, 05 Jul 2020 11:49:18 +0000  QA_rec 1 2 0 10
+So, 05 Jul 2020 11:49:38 +0000  QA_rec 0 2 0 10
+So, 05 Jul 2020 11:49:38 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Ich empfehle dieses Buch, weil es sehr gut ist., Q_cen-empfehle
+So, 05 Jul 2020 11:49:39 +0000  QA_rec 1 2 0 11
+So, 05 Jul 2020 11:49:59 +0000  QA_rec 0 2 0 11
+So, 05 Jul 2020 11:49:59 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Ich warte seit drei Tagen auf Sie, wo waren Sie denn?, Q_cen-warte
+So, 05 Jul 2020 11:50:00 +0000  QA_rec 1 2 0 12
+So, 05 Jul 2020 11:50:20 +0000  QA_rec 0 2 0 12
+So, 05 Jul 2020 11:50:20 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Die kluge Gebäudekonstruktion kann das Haus vor Windschäden schützen., Q_cen-schützen
+So, 05 Jul 2020 11:50:21 +0000  QA_rec 1 2 0 13
+So, 05 Jul 2020 11:50:41 +0000  QA_rec 0 2 0 13
+So, 05 Jul 2020 11:50:41 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Ich glaube nicht, dass es regnen wird, aber ich werde für alle Fälle einen Schirm mitnehmen., Q_cen-glaube
+So, 05 Jul 2020 11:50:42 +0000  QA_rec 1 2 0 14
+So, 05 Jul 2020 11:51:02 +0000  QA_rec 0 2 0 14
+So, 05 Jul 2020 11:51:02 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Morgen will er probieren, ob seine Theorie auch in der Praxis stimmt., Q_cen-probieren
+So, 05 Jul 2020 11:51:03 +0000  QA_rec 1 2 0 15
+So, 05 Jul 2020 11:51:23 +0000  QA_rec 0 2 0 15
+So, 05 Jul 2020 11:51:23 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Halloween wurde schon von den Kelten gefeiert., Q_cen-gefeiert
+So, 05 Jul 2020 11:51:24 +0000  QA_rec 1 2 0 16
+So, 05 Jul 2020 11:51:44 +0000  QA_rec 0 2 0 16
+So, 05 Jul 2020 11:51:44 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Sie hat den Newsletter abonniert, um weitere Informationen zu erhalten., Q_cen-abonniert
+So, 05 Jul 2020 11:51:45 +0000  QA_rec 1 2 0 17
+So, 05 Jul 2020 11:52:05 +0000  QA_rec 0 2 0 17
+So, 05 Jul 2020 11:52:05 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Mein älterer Bruder mag Rock spielen und hören., Q_cen-hören
+So, 05 Jul 2020 11:52:06 +0000  QA_rec 1 2 0 18
+So, 05 Jul 2020 11:52:26 +0000  QA_rec 0 2 0 18
+So, 05 Jul 2020 11:52:26 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Ich heiße Tibor, wie ist dein Name?, Q_cen-heiße
+So, 05 Jul 2020 11:52:27 +0000  QA_rec 1 2 0 19
+So, 05 Jul 2020 11:52:48 +0000  QA_rec 0 2 0 19
+So, 05 Jul 2020 11:52:48 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Unter solchen Bedingungen kann man den Umfang des Kreises leicht berechnen., Q_cen-berechnen
+So, 05 Jul 2020 11:52:49 +0000  QA_rec 1 2 0 20
+So, 05 Jul 2020 11:53:09 +0000  QA_rec 0 2 0 20
+So, 05 Jul 2020 11:53:09 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Peter sitzt den ganzen Tag am Computer., Q_cen-sitzt
+So, 05 Jul 2020 11:53:10 +0000  QA_rec 1 2 0 21
+So, 05 Jul 2020 11:53:30 +0000  QA_rec 0 2 0 21
+So, 05 Jul 2020 11:53:30 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Die Geheimzahl sollte nicht notiert werden, vor allem nicht auf der Bankomatkarte., Q_cen-notiert
+So, 05 Jul 2020 11:53:31 +0000  QA_rec 1 2 0 22
+So, 05 Jul 2020 11:53:51 +0000  QA_rec 0 2 0 22
+So, 05 Jul 2020 11:53:51 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Die Teilnehmer müssen sich im Voraus für den Kurs anmelden., Q_cen-anmelden
+So, 05 Jul 2020 11:53:52 +0000  QA_rec 1 2 0 23
+So, 05 Jul 2020 11:54:12 +0000  QA_rec 0 2 0 23
+So, 05 Jul 2020 11:54:12 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Sie müssen mehr bezahlen, es fehlen noch ein paar Cent., Q_cen-fehlen
+So, 05 Jul 2020 11:54:13 +0000  QA_rec 1 2 0 24
+So, 05 Jul 2020 11:54:33 +0000  QA_rec 0 2 0 24
+So, 05 Jul 2020 11:54:33 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Du darfst diese Bücher aufeinander liegen., Q_cen-liegen
+So, 05 Jul 2020 11:55:00 +0000  QA_rec 1 2 1 0
+So, 05 Jul 2020 11:55:20 +0000  QA_rec 0 2 1 0
+So, 05 Jul 2020 11:55:20 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Hier gibt es viele Tiere, die auf verschiedenen Kontinenten leben., Q_cen-leben
+So, 05 Jul 2020 11:55:21 +0000  QA_rec 1 2 1 1
+So, 05 Jul 2020 11:55:41 +0000  QA_rec 0 2 1 1
+So, 05 Jul 2020 11:55:41 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Meine Uhr zeigt die aktuelle Uhrzeit in Berlin und New York an., Q_cen-zeigt
+So, 05 Jul 2020 11:55:42 +0000  QA_rec 1 2 1 2
+So, 05 Jul 2020 11:56:02 +0000  QA_rec 0 2 1 2
+So, 05 Jul 2020 11:56:02 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Ich sollte aufstehen, wenn morgens der Wecker geläutet., Q_cen-geläutet
+So, 05 Jul 2020 11:56:03 +0000  QA_rec 1 2 1 3
+So, 05 Jul 2020 11:56:23 +0000  QA_rec 0 2 1 3
+So, 05 Jul 2020 11:56:23 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Wenn Sie mit diesem Produkt nicht zufrieden sind, können wir eine Alternative anbieten., Q_cen-anbieten
+So, 05 Jul 2020 11:56:24 +0000  QA_rec 1 2 1 4
+So, 05 Jul 2020 11:56:45 +0000  QA_rec 0 2 1 4
+So, 05 Jul 2020 11:56:45 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Das Experiment hat eine Woche lang gedauert., Q_cen-gedauert
+So, 05 Jul 2020 11:56:46 +0000  QA_rec 1 2 1 5
+So, 05 Jul 2020 11:57:06 +0000  QA_rec 0 2 1 5
+So, 05 Jul 2020 11:57:06 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Er beschäftigt sich damit, diese kaputte Maschine zu reparieren., Q_cen-reparieren
+So, 05 Jul 2020 11:57:07 +0000  QA_rec 1 2 1 6
+So, 05 Jul 2020 11:57:27 +0000  QA_rec 0 2 1 6
+So, 05 Jul 2020 11:57:27 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Für dieses Produkt wird keine technische Unterstützung mehr angeboten., Q_cen-angeboten
+So, 05 Jul 2020 11:57:28 +0000  QA_rec 1 2 1 7
+So, 05 Jul 2020 11:57:48 +0000  QA_rec 0 2 1 7
+So, 05 Jul 2020 11:57:48 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Die Erklärungen des Lehrers haben absolut Sinn ergeben., Q_cen-ergeben
+So, 05 Jul 2020 11:57:49 +0000  QA_rec 1 2 1 8
+So, 05 Jul 2020 11:58:09 +0000  QA_rec 0 2 1 8
+So, 05 Jul 2020 11:58:09 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Marie mag lieber Sport., Q_cen-mag
+So, 05 Jul 2020 11:58:10 +0000  QA_rec 1 2 1 9
+So, 05 Jul 2020 11:58:30 +0000  QA_rec 0 2 1 9
+So, 05 Jul 2020 11:58:30 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Wir haben auf der Konferenz einige grundlegende Fragen zum Klimaschutz diskutiert., Q_cen-diskutiert
+So, 05 Jul 2020 11:58:31 +0000  QA_rec 1 2 1 10
+So, 05 Jul 2020 11:58:51 +0000  QA_rec 0 2 1 10
+So, 05 Jul 2020 11:58:51 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Zu Beginn der Konferenz wird der Präsident eine Rede halten., Q_cen-halten
+So, 05 Jul 2020 11:58:52 +0000  QA_rec 1 2 1 11
+So, 05 Jul 2020 11:59:12 +0000  QA_rec 0 2 1 11
+So, 05 Jul 2020 11:59:12 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Während oder nach einem Regen kann man einen Regenbogen vorsehen., Q_cen-vorsehen
+So, 05 Jul 2020 11:59:13 +0000  QA_rec 1 2 1 12
+So, 05 Jul 2020 11:59:33 +0000  QA_rec 0 2 1 12
+So, 05 Jul 2020 11:59:33 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Wir bestellten ein stück Hassnuss Kuchen zum Dessert., Q_cen-bestellten
+So, 05 Jul 2020 11:59:34 +0000  QA_rec 1 2 1 13
+So, 05 Jul 2020 11:59:54 +0000  QA_rec 0 2 1 13
+So, 05 Jul 2020 11:59:54 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Ihre Kleider riechen nach Rauch., Q_cen-riechen
+So, 05 Jul 2020 11:59:55 +0000  QA_rec 1 2 1 14
+So, 05 Jul 2020 12:00:15 +0000  QA_rec 0 2 1 14
+So, 05 Jul 2020 12:00:15 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken
+So, 05 Jul 2020 12:00:16 +0000  QA_rec 1 2 1 15
+So, 05 Jul 2020 12:00:36 +0000  QA_rec 0 2 1 15
+So, 05 Jul 2020 12:00:36 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-An der Kasse bezahlen wir mit Bankomatkarte., Q_cen-bezahlen
+So, 05 Jul 2020 12:00:37 +0000  QA_rec 1 2 1 16
+So, 05 Jul 2020 12:00:57 +0000  QA_rec 0 2 1 16
+So, 05 Jul 2020 12:00:57 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Lisa tanzt im Ballett., Q_cen-tanzt
+So, 05 Jul 2020 12:00:58 +0000  QA_rec 1 2 1 17
+So, 05 Jul 2020 12:01:18 +0000  QA_rec 0 2 1 17
+So, 05 Jul 2020 12:01:18 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Die Produkte, die ich bestellt hatte, kamen drei Tage später an., Q_cen-kamen
+So, 05 Jul 2020 12:01:19 +0000  QA_rec 1 2 1 18
+So, 05 Jul 2020 12:01:39 +0000  QA_rec 0 2 1 18
+So, 05 Jul 2020 12:01:39 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Er muss arbeiten, um seine beiden Kinder großzuziehen., Q_cen-arbeiten
+So, 05 Jul 2020 12:01:40 +0000  QA_rec 1 2 1 19
+So, 05 Jul 2020 12:02:00 +0000  QA_rec 0 2 1 19
+So, 05 Jul 2020 12:02:00 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Da der Koffer bereits zu schwer ist, muss ich leichte Kleidung einpacken., Q_cen-einpacken
+So, 05 Jul 2020 12:02:01 +0000  QA_rec 1 2 1 20
+So, 05 Jul 2020 12:02:21 +0000  QA_rec 0 2 1 20
+So, 05 Jul 2020 12:02:21 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Der Bau des Gebäudes hat 3 Jahre gedauert und ist endlich fast abgeschlossen., Q_cen-abgeschlossen
+So, 05 Jul 2020 12:02:22 +0000  QA_rec 1 2 1 21
+So, 05 Jul 2020 12:02:42 +0000  QA_rec 0 2 1 21
+So, 05 Jul 2020 12:02:42 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Der Arbeiter repariert eine Panne., Q_cen-repariert
+So, 05 Jul 2020 12:02:43 +0000  QA_rec 1 2 1 22
+So, 05 Jul 2020 12:03:03 +0000  QA_rec 0 2 1 22
+So, 05 Jul 2020 12:03:03 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Er hat jahrzehntelang geraucht und seine Lunge schwer geschädigt., Q_cen-geraucht
+So, 05 Jul 2020 12:03:04 +0000  QA_rec 1 2 1 23
+So, 05 Jul 2020 12:03:24 +0000  QA_rec 0 2 1 23
+So, 05 Jul 2020 12:03:24 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Sam ist ein ehrlicher Mann und sagt immer die Wahrheit., Q_cen-sagt
+So, 05 Jul 2020 12:03:25 +0000  QA_rec 1 2 1 24
+So, 05 Jul 2020 12:03:45 +0000  QA_rec 0 2 1 24
+So, 05 Jul 2020 12:03:45 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Die Studenten müssen sich für den Kurs anmelden., Q_cen-anmelden
+So, 05 Jul 2020 12:04:01 +0000  fade_out 1 2 None None
+So, 05 Jul 2020 12:04:04 +0000  fade_out 0 2 None None
+So, 05 Jul 2020 12:04:06 +0000  fade_in 1 3 None None
