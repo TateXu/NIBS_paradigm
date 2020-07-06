@@ -105,7 +105,7 @@ n_rec_chn = 1
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each run
-stim_freq = 40.0
+stim_freq = 4.0
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
@@ -125,7 +125,7 @@ artifact_action_cnt = -1
 
 word_type = 'VERB'
 
-fade_in_out_show = False
+fade_in_out_show = False   
 always_dislpay = True
 flexible_qa_rec_start = True
 
