@@ -1,0 +1,162 @@
+Mo, 06 Jul 2020 11:36:19 +0000  fade_in 1 1 None None
+Mo, 06 Jul 2020 11:36:54 +0000  fade_in 0 1 None None
+Mo, 06 Jul 2020 11:36:56 +0000  RS_intro 1 1 0 None
+Mo, 06 Jul 2020 11:37:19 +0000  RS_intro 0 1 0 None
+Mo, 06 Jul 2020 11:37:19 +0000  RS_rec 1 1 0 None
+Mo, 06 Jul 2020 11:40:22 +0000  RS_rec 0 1 open None
+Mo, 06 Jul 2020 11:40:22 +0000  RS_intro 1 1 1 None
+Mo, 06 Jul 2020 11:40:45 +0000  RS_intro 0 1 1 None
+Mo, 06 Jul 2020 11:40:45 +0000  RS_rec 1 1 1 None
+Mo, 06 Jul 2020 11:43:49 +0000  RS_rec 0 1 close None
+Mo, 06 Jul 2020 11:44:04 +0000  QA_intro 1 1 None None
+Mo, 06 Jul 2020 11:44:44 +0000  QA_intro 0 1 None None
+Mo, 06 Jul 2020 11:44:46 +0000  QA_rec 1 1 0 0
+Mo, 06 Jul 2020 11:45:07 +0000  QA_rec 0 1 0 0
+Mo, 06 Jul 2020 11:45:07 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Wir sollen großen Wert auf die Sparsamkeit beim Wasser legen., Q_cen-legen
+Mo, 06 Jul 2020 11:45:08 +0000  QA_rec 1 1 0 1
+Mo, 06 Jul 2020 11:45:28 +0000  QA_rec 0 1 0 1
+Mo, 06 Jul 2020 11:45:28 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Wenn es wärmer wird, werde ich die Fenster öffnen., Q_cen-öffnen
+Mo, 06 Jul 2020 11:45:29 +0000  QA_rec 1 1 0 2
+Mo, 06 Jul 2020 11:45:49 +0000  QA_rec 0 1 0 2
+Mo, 06 Jul 2020 11:45:49 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Ich beendete meine Arbeit und erhielt eine neue Aufgabe., Q_cen-beendete
+Mo, 06 Jul 2020 11:45:50 +0000  QA_rec 1 1 0 3
+Mo, 06 Jul 2020 11:46:10 +0000  QA_rec 0 1 0 3
+Mo, 06 Jul 2020 11:46:10 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Ich würde sofort meinen Job kündigen und nie mehr arbeiten., Q_cen-kündigen
+Mo, 06 Jul 2020 11:46:11 +0000  QA_rec 1 1 0 4
+Mo, 06 Jul 2020 11:46:31 +0000  QA_rec 0 1 0 4
+Mo, 06 Jul 2020 11:46:31 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Ich möchte mir ein Buch aus der Bibliothek leihen., Q_cen-leihen
+Mo, 06 Jul 2020 11:46:32 +0000  QA_rec 1 1 0 5
+Mo, 06 Jul 2020 11:46:52 +0000  QA_rec 0 1 0 5
+Mo, 06 Jul 2020 11:46:52 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Wir werden jedes Paket innerhalb von fünf Arbeitstagen liefern., Q_cen-liefern
+Mo, 06 Jul 2020 11:46:53 +0000  QA_rec 1 1 0 6
+Mo, 06 Jul 2020 11:47:13 +0000  QA_rec 0 1 0 6
+Mo, 06 Jul 2020 11:47:13 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Korn wird zur Herstellung von Mehl verwendet., Q_cen-verwendet
+Mo, 06 Jul 2020 11:47:14 +0000  QA_rec 1 1 0 7
+Mo, 06 Jul 2020 11:47:34 +0000  QA_rec 0 1 0 7
+Mo, 06 Jul 2020 11:47:34 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Wir brauchen Bretter, um ein Regal zu bauen., Q_cen-bauen
+Mo, 06 Jul 2020 11:47:35 +0000  QA_rec 1 1 0 8
+Mo, 06 Jul 2020 11:47:55 +0000  QA_rec 0 1 0 8
+Mo, 06 Jul 2020 11:47:55 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Die Meere sollte man nicht so leer fischen., Q_cen-fischen
+Mo, 06 Jul 2020 11:47:56 +0000  QA_rec 1 1 0 9
+Mo, 06 Jul 2020 11:48:16 +0000  QA_rec 0 1 0 9
+Mo, 06 Jul 2020 11:48:16 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Viele Zettel sind an der Wand gehängt., Q_cen-gehängt
+Mo, 06 Jul 2020 11:48:17 +0000  QA_rec 1 1 0 10
+Mo, 06 Jul 2020 11:48:37 +0000  QA_rec 0 1 0 10
+Mo, 06 Jul 2020 11:48:37 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Er beschäftigt sich damit, diese kaputte Maschine zu reparieren., Q_cen-reparieren
+Mo, 06 Jul 2020 11:48:38 +0000  QA_rec 1 1 0 11
+Mo, 06 Jul 2020 11:48:58 +0000  QA_rec 0 1 0 11
+Mo, 06 Jul 2020 11:48:58 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Wo werden Sie Urlaub machen?, Q_cen-machen
+Mo, 06 Jul 2020 11:48:59 +0000  QA_rec 1 1 0 12
+Mo, 06 Jul 2020 11:49:19 +0000  QA_rec 0 1 0 12
+Mo, 06 Jul 2020 11:49:19 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Ich würde sehr froh, wenn meine Familie 5 Millionen Euro gewinnen würde., Q_cen-gewinnen
+Mo, 06 Jul 2020 11:49:20 +0000  QA_rec 1 1 0 13
+Mo, 06 Jul 2020 11:49:40 +0000  QA_rec 0 1 0 13
+Mo, 06 Jul 2020 11:49:40 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Der Autor beschrieb Sam als eine sehr nette Person., Q_cen-beschrieb
+Mo, 06 Jul 2020 11:49:41 +0000  QA_rec 1 1 0 14
+Mo, 06 Jul 2020 11:50:01 +0000  QA_rec 0 1 0 14
+Mo, 06 Jul 2020 11:50:01 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Susi isst zum Frühstück gerne ein weiches Ei., Q_cen-isst
+Mo, 06 Jul 2020 11:50:02 +0000  QA_rec 1 1 0 15
+Mo, 06 Jul 2020 11:50:22 +0000  QA_rec 0 1 0 15
+Mo, 06 Jul 2020 11:50:22 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Wir entschieden uns dafür, mit dem Flugzeug nach Stockholm zu fliegen., Q_cen-fliegen
+Mo, 06 Jul 2020 11:50:23 +0000  QA_rec 1 1 0 16
+Mo, 06 Jul 2020 11:50:43 +0000  QA_rec 0 1 0 16
+Mo, 06 Jul 2020 11:50:43 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Dort an der Ampel kannst du die Straße überqueren., Q_cen-überqueren
+Mo, 06 Jul 2020 11:50:44 +0000  QA_rec 1 1 0 17
+Mo, 06 Jul 2020 11:51:04 +0000  QA_rec 0 1 0 17
+Mo, 06 Jul 2020 11:51:04 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Die USA gewannen den Zweiten Weltkrieg, nachdem sie mehrere Jahre lang gekämpft hatten., Q_cen-gewannen
+Mo, 06 Jul 2020 11:51:05 +0000  QA_rec 1 1 0 18
+Mo, 06 Jul 2020 11:51:25 +0000  QA_rec 0 1 0 18
+Mo, 06 Jul 2020 11:51:25 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Er benutzt Twitter, um mit anderen zu chatten., Q_cen-benutzt
+Mo, 06 Jul 2020 11:51:26 +0000  QA_rec 1 1 0 19
+Mo, 06 Jul 2020 11:51:46 +0000  QA_rec 0 1 0 19
+Mo, 06 Jul 2020 11:51:46 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Die Mutter rührt in ihren Töpfen und Pfannen., Q_cen-rührt
+Mo, 06 Jul 2020 11:51:47 +0000  QA_rec 1 1 0 20
+Mo, 06 Jul 2020 11:52:07 +0000  QA_rec 0 1 0 20
+Mo, 06 Jul 2020 11:52:07 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-In Wien tanzt man gerne Walzer., Q_cen-tanzt
+Mo, 06 Jul 2020 11:52:08 +0000  QA_rec 1 1 0 21
+Mo, 06 Jul 2020 11:52:28 +0000  QA_rec 0 1 0 21
+Mo, 06 Jul 2020 11:52:28 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Willi möchte gerne an der Universität Informatik studieren., Q_cen-studieren
+Mo, 06 Jul 2020 11:52:29 +0000  QA_rec 1 1 0 22
+Mo, 06 Jul 2020 11:52:49 +0000  QA_rec 0 1 0 22
+Mo, 06 Jul 2020 11:52:49 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Das Volleyballspiel wird in einer Sporthalle ausgetragen., Q_cen-ausgetragen
+Mo, 06 Jul 2020 11:52:50 +0000  QA_rec 1 1 0 23
+Mo, 06 Jul 2020 11:53:11 +0000  QA_rec 0 1 0 23
+Mo, 06 Jul 2020 11:53:11 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Sie kann noch immer nicht schlafen, weil ihre Ohren wie Türglocken klingeln., Q_cen-klingeln
+Mo, 06 Jul 2020 11:53:12 +0000  QA_rec 1 1 0 24
+Mo, 06 Jul 2020 11:53:32 +0000  QA_rec 0 1 0 24
+Mo, 06 Jul 2020 11:53:32 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Bitte nimm meinen Mantel mit in die Garderobe., Q_cen-nimm
+Mo, 06 Jul 2020 11:54:00 +0000  QA_rec 1 1 1 0
+Mo, 06 Jul 2020 11:54:20 +0000  QA_rec 0 1 1 0
+Mo, 06 Jul 2020 11:54:20 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Das Huhn legt jeden Tag ein Ei., Q_cen-legt
+Mo, 06 Jul 2020 11:54:21 +0000  QA_rec 1 1 1 1
+Mo, 06 Jul 2020 11:54:41 +0000  QA_rec 0 1 1 1
+Mo, 06 Jul 2020 11:54:41 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Der Unterricht dauert meistens bis um dreizehn Uhr., Q_cen-dauert
+Mo, 06 Jul 2020 11:54:42 +0000  QA_rec 1 1 1 2
+Mo, 06 Jul 2020 11:55:02 +0000  QA_rec 0 1 1 2
+Mo, 06 Jul 2020 11:55:02 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Bitte gib mir ein Stück Kuchen und eine Schale mit Obst., Q_cen-gib
+Mo, 06 Jul 2020 11:55:03 +0000  QA_rec 1 1 1 3
+Mo, 06 Jul 2020 11:55:23 +0000  QA_rec 0 1 1 3
+Mo, 06 Jul 2020 11:55:23 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Ein Gewitter besteht aus Blitz und Donner., Q_cen-besteht
+Mo, 06 Jul 2020 11:55:24 +0000  QA_rec 1 1 1 4
+Mo, 06 Jul 2020 11:55:44 +0000  QA_rec 0 1 1 4
+Mo, 06 Jul 2020 11:55:44 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Der Sturm entlaubte alle Bäume in unserem Garten., Q_cen-entlaubte
+Mo, 06 Jul 2020 11:55:45 +0000  QA_rec 1 1 1 5
+Mo, 06 Jul 2020 11:56:05 +0000  QA_rec 0 1 1 5
+Mo, 06 Jul 2020 11:56:05 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Ich kann endlich den Namen dieser französischen Stadt aussprechen., Q_cen-aussprechen
+Mo, 06 Jul 2020 11:56:06 +0000  QA_rec 1 1 1 6
+Mo, 06 Jul 2020 11:56:26 +0000  QA_rec 0 1 1 6
+Mo, 06 Jul 2020 11:56:26 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-In Neuseeland und Irland ist es so grün, weil es besonders oft regnet., Q_cen-regnet
+Mo, 06 Jul 2020 11:56:27 +0000  QA_rec 1 1 1 7
+Mo, 06 Jul 2020 11:56:47 +0000  QA_rec 0 1 1 7
+Mo, 06 Jul 2020 11:56:47 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Ich schnitt das Fleisch in Würfel., Q_cen-schnitt
+Mo, 06 Jul 2020 11:56:48 +0000  QA_rec 1 1 1 8
+Mo, 06 Jul 2020 11:57:08 +0000  QA_rec 0 1 1 8
+Mo, 06 Jul 2020 11:57:08 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Er hat meine Sympathie gewonnen., Q_cen-gewonnen
+Mo, 06 Jul 2020 11:57:09 +0000  QA_rec 1 1 1 9
+Mo, 06 Jul 2020 11:57:29 +0000  QA_rec 0 1 1 9
+Mo, 06 Jul 2020 11:57:29 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Farben machen das Leben bunt., Q_cen-machen
+Mo, 06 Jul 2020 11:57:30 +0000  QA_rec 1 1 1 10
+Mo, 06 Jul 2020 11:57:50 +0000  QA_rec 0 1 1 10
+Mo, 06 Jul 2020 11:57:50 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Ich fühle die warme Sonne auf meiner Haut., Q_cen-fühle
+Mo, 06 Jul 2020 11:57:51 +0000  QA_rec 1 1 1 11
+Mo, 06 Jul 2020 11:58:11 +0000  QA_rec 0 1 1 11
+Mo, 06 Jul 2020 11:58:11 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Die USA haben viele Satelliten in den Weltraum geschickt., Q_cen-geschickt
+Mo, 06 Jul 2020 11:58:12 +0000  QA_rec 1 1 1 12
+Mo, 06 Jul 2020 11:58:32 +0000  QA_rec 0 1 1 12
+Mo, 06 Jul 2020 11:58:32 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Da Elena arbeiten muss, überlässt sie ihre Kinder seiner Mutter., Q_cen-überlässt
+Mo, 06 Jul 2020 11:58:33 +0000  QA_rec 1 1 1 13
+Mo, 06 Jul 2020 11:58:53 +0000  QA_rec 0 1 1 13
+Mo, 06 Jul 2020 11:58:53 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Ich musste meine Mitgliedschaft kündigen, weil sie zu teuer war., Q_cen-kündigen
+Mo, 06 Jul 2020 11:58:54 +0000  QA_rec 1 1 1 14
+Mo, 06 Jul 2020 11:59:14 +0000  QA_rec 0 1 1 14
+Mo, 06 Jul 2020 11:59:14 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Ich hielt das Küken vorsichtig in beiden Händen., Q_cen-hielt
+Mo, 06 Jul 2020 11:59:15 +0000  QA_rec 1 1 1 15
+Mo, 06 Jul 2020 11:59:35 +0000  QA_rec 0 1 1 15
+Mo, 06 Jul 2020 11:59:35 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich nehme zwei Bücher aus dem Regal., Q_cen-nehme
+Mo, 06 Jul 2020 11:59:36 +0000  QA_rec 1 1 1 16
+Mo, 06 Jul 2020 11:59:57 +0000  QA_rec 0 1 1 16
+Mo, 06 Jul 2020 11:59:57 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Trotz meines Verbots hat er sein Auto vor meinem Haus geparkt., Q_cen-geparkt
+Mo, 06 Jul 2020 11:59:58 +0000  QA_rec 1 1 1 17
+Mo, 06 Jul 2020 12:00:18 +0000  QA_rec 0 1 1 17
+Mo, 06 Jul 2020 12:00:18 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Mit dieser neuen Kamera kann man bei jedem Licht fotografieren., Q_cen-fotografieren
+Mo, 06 Jul 2020 12:00:19 +0000  QA_rec 1 1 1 18
+Mo, 06 Jul 2020 12:00:39 +0000  QA_rec 0 1 1 18
+Mo, 06 Jul 2020 12:00:39 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Auf der Youtube kann man Videos anschauen., Q_cen-anschauen
+Mo, 06 Jul 2020 12:00:40 +0000  QA_rec 1 1 1 19
+Mo, 06 Jul 2020 12:01:00 +0000  QA_rec 0 1 1 19
+Mo, 06 Jul 2020 12:01:00 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Ihre Kleider riechen nach Rauch., Q_cen-riechen
+Mo, 06 Jul 2020 12:01:01 +0000  QA_rec 1 1 1 20
+Mo, 06 Jul 2020 12:01:21 +0000  QA_rec 0 1 1 20
+Mo, 06 Jul 2020 12:01:21 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Wir brauchen Obst und Gemüse, also muss ich auf den Markt gehen., Q_cen-gehen
+Mo, 06 Jul 2020 12:01:22 +0000  QA_rec 1 1 1 21
+Mo, 06 Jul 2020 12:01:42 +0000  QA_rec 0 1 1 21
+Mo, 06 Jul 2020 12:01:42 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-In den großen Ferien wandern wir gerne in den Bergen., Q_cen-wandern
+Mo, 06 Jul 2020 12:01:43 +0000  QA_rec 1 1 1 22
+Mo, 06 Jul 2020 12:02:03 +0000  QA_rec 0 1 1 22
+Mo, 06 Jul 2020 12:02:03 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Im Unterricht habe ich das Wichtige notiert, was der Lehrer gesagt., Q_cen-notiert
+Mo, 06 Jul 2020 12:02:04 +0000  QA_rec 1 1 1 23
+Mo, 06 Jul 2020 12:02:24 +0000  QA_rec 0 1 1 23
+Mo, 06 Jul 2020 12:02:24 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Nur wenn mein Haar schmutzig ist, werde ich es bürsten., Q_cen-bürsten
+Mo, 06 Jul 2020 12:02:25 +0000  QA_rec 1 1 1 24
+Mo, 06 Jul 2020 12:02:45 +0000  QA_rec 0 1 1 24
+Mo, 06 Jul 2020 12:02:45 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Ich nehme nie Dinge, die anderen gehören., Q_cen-gehören
