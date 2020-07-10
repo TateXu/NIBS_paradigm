@@ -1,0 +1,162 @@
+Fr, 10 Jul 2020 13:48:29 +0000  fade_in 1 1 None None
+Fr, 10 Jul 2020 13:49:03 +0000  fade_in 0 1 None None
+Fr, 10 Jul 2020 13:49:05 +0000  RS_intro 1 1 0 None
+Fr, 10 Jul 2020 13:49:28 +0000  RS_intro 0 1 0 None
+Fr, 10 Jul 2020 13:49:28 +0000  RS_rec 1 1 0 None
+Fr, 10 Jul 2020 13:52:31 +0000  RS_rec 0 1 open None
+Fr, 10 Jul 2020 13:52:31 +0000  RS_intro 1 1 1 None
+Fr, 10 Jul 2020 13:52:54 +0000  RS_intro 0 1 1 None
+Fr, 10 Jul 2020 13:52:54 +0000  RS_rec 1 1 1 None
+Fr, 10 Jul 2020 13:55:58 +0000  RS_rec 0 1 close None
+Fr, 10 Jul 2020 13:56:14 +0000  QA_intro 1 1 None None
+Fr, 10 Jul 2020 13:56:55 +0000  QA_intro 0 1 None None
+Fr, 10 Jul 2020 13:56:57 +0000  QA_rec 1 1 0 0
+Fr, 10 Jul 2020 13:57:17 +0000  QA_rec 0 1 0 0
+Fr, 10 Jul 2020 13:57:17 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Das Messer ist so stumpf, dass wir nicht mehr brauchen., Q_cen-brauchen
+Fr, 10 Jul 2020 13:57:18 +0000  QA_rec 1 1 0 1
+Fr, 10 Jul 2020 13:57:38 +0000  QA_rec 0 1 0 1
+Fr, 10 Jul 2020 13:57:38 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Alex duscht morgens gerne im Badezimmer., Q_cen-duscht
+Fr, 10 Jul 2020 13:57:39 +0000  QA_rec 1 1 0 2
+Fr, 10 Jul 2020 13:57:59 +0000  QA_rec 0 1 0 2
+Fr, 10 Jul 2020 13:57:59 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Im Herbst verfärben sich die Blätter gelb und fallen auf den Boden., Q_cen-fallen
+Fr, 10 Jul 2020 13:58:00 +0000  QA_rec 1 1 0 3
+Fr, 10 Jul 2020 13:58:20 +0000  QA_rec 0 1 0 3
+Fr, 10 Jul 2020 13:58:20 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Ich arbeite normalerweise von Montag bis Freitag., Q_cen-arbeite
+Fr, 10 Jul 2020 13:58:21 +0000  QA_rec 1 1 0 4
+Fr, 10 Jul 2020 13:58:42 +0000  QA_rec 0 1 0 4
+Fr, 10 Jul 2020 13:58:42 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Meine Geschichte ist wahr, ich habe keine Lügen erzählt., Q_cen-erzählt
+Fr, 10 Jul 2020 13:58:43 +0000  QA_rec 1 1 0 5
+Fr, 10 Jul 2020 13:59:03 +0000  QA_rec 0 1 0 5
+Fr, 10 Jul 2020 13:59:03 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+Fr, 10 Jul 2020 13:59:04 +0000  QA_rec 1 1 0 6
+Fr, 10 Jul 2020 13:59:24 +0000  QA_rec 0 1 0 6
+Fr, 10 Jul 2020 13:59:24 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Kannst du mir das mit einem konkreten Beispiel erklären?, Q_cen-erklären
+Fr, 10 Jul 2020 13:59:25 +0000  QA_rec 1 1 0 7
+Fr, 10 Jul 2020 13:59:45 +0000  QA_rec 0 1 0 7
+Fr, 10 Jul 2020 13:59:45 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Das Bild kann mir die Uhrzeitangabe verstehen helfen., Q_cen-helfen
+Fr, 10 Jul 2020 13:59:46 +0000  QA_rec 1 1 0 8
+Fr, 10 Jul 2020 14:00:06 +0000  QA_rec 0 1 0 8
+Fr, 10 Jul 2020 14:00:06 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Ich bin krank und bleibe heute im Bett., Q_cen-bleibe
+Fr, 10 Jul 2020 14:00:07 +0000  QA_rec 1 1 0 9
+Fr, 10 Jul 2020 14:00:27 +0000  QA_rec 0 1 0 9
+Fr, 10 Jul 2020 14:00:27 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Du solltest deiner Geliebten Blumen zum Geburtstag schenken., Q_cen-schenken
+Fr, 10 Jul 2020 14:00:28 +0000  QA_rec 1 1 0 10
+Fr, 10 Jul 2020 14:00:48 +0000  QA_rec 0 1 0 10
+Fr, 10 Jul 2020 14:00:48 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Wer viele CO2-Emissionen produziert, belastet die Umwelt., Q_cen-belastet
+Fr, 10 Jul 2020 14:00:49 +0000  QA_rec 1 1 0 11
+Fr, 10 Jul 2020 14:01:09 +0000  QA_rec 0 1 0 11
+Fr, 10 Jul 2020 14:01:09 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit belohnt., Q_cen-belohnt
+Fr, 10 Jul 2020 14:01:10 +0000  QA_rec 1 1 0 12
+Fr, 10 Jul 2020 14:01:30 +0000  QA_rec 0 1 0 12
+Fr, 10 Jul 2020 14:01:30 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Viele Indianer leben in Reservaten., Q_cen-leben
+Fr, 10 Jul 2020 14:01:31 +0000  QA_rec 1 1 0 13
+Fr, 10 Jul 2020 14:01:51 +0000  QA_rec 0 1 0 13
+Fr, 10 Jul 2020 14:01:51 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Die Sonne scheint durch die grauen Wolken., Q_cen-scheint
+Fr, 10 Jul 2020 14:01:52 +0000  QA_rec 1 1 0 14
+Fr, 10 Jul 2020 14:02:12 +0000  QA_rec 0 1 0 14
+Fr, 10 Jul 2020 14:02:12 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Das Flugzeug fliegt den vorgeschriebenen Kurs., Q_cen-fliegt
+Fr, 10 Jul 2020 14:02:13 +0000  QA_rec 1 1 0 15
+Fr, 10 Jul 2020 14:02:33 +0000  QA_rec 0 1 0 15
+Fr, 10 Jul 2020 14:02:33 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Lebensmittel sind die Dinge, die man essen kann., Q_cen-essen
+Fr, 10 Jul 2020 14:02:34 +0000  QA_rec 1 1 0 16
+Fr, 10 Jul 2020 14:02:54 +0000  QA_rec 0 1 0 16
+Fr, 10 Jul 2020 14:02:54 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Weil er so hungrig war, hat Franz einmal einen Apfel gestohlen., Q_cen-gestohlen
+Fr, 10 Jul 2020 14:02:55 +0000  QA_rec 1 1 0 17
+Fr, 10 Jul 2020 14:03:15 +0000  QA_rec 0 1 0 17
+Fr, 10 Jul 2020 14:03:15 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Biologie gehört zu den Natur-Wissenschaften., Q_cen-gehört
+Fr, 10 Jul 2020 14:03:16 +0000  QA_rec 1 1 0 18
+Fr, 10 Jul 2020 14:03:36 +0000  QA_rec 0 1 0 18
+Fr, 10 Jul 2020 14:03:36 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Leo ist schon zur Arbeit gegangen., Q_cen-gegangen
+Fr, 10 Jul 2020 14:03:37 +0000  QA_rec 1 1 0 19
+Fr, 10 Jul 2020 14:03:57 +0000  QA_rec 0 1 0 19
+Fr, 10 Jul 2020 14:03:57 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Sie redete leise und unverständlich., Q_cen-redete
+Fr, 10 Jul 2020 14:03:58 +0000  QA_rec 1 1 0 20
+Fr, 10 Jul 2020 14:04:18 +0000  QA_rec 0 1 0 20
+Fr, 10 Jul 2020 14:04:18 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Fabienne ist Ärztin und arbeitet im Krankenhaus., Q_cen-arbeitet
+Fr, 10 Jul 2020 14:04:19 +0000  QA_rec 1 1 0 21
+Fr, 10 Jul 2020 14:04:39 +0000  QA_rec 0 1 0 21
+Fr, 10 Jul 2020 14:04:39 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Ich versuche, jede Woche ein Buch zu lesen., Q_cen-lesen
+Fr, 10 Jul 2020 14:04:40 +0000  QA_rec 1 1 0 22
+Fr, 10 Jul 2020 14:05:00 +0000  QA_rec 0 1 0 22
+Fr, 10 Jul 2020 14:05:00 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Die Hausfrau muss jeden Tag Lebensmittel einkaufen., Q_cen-einkaufen
+Fr, 10 Jul 2020 14:05:01 +0000  QA_rec 1 1 0 23
+Fr, 10 Jul 2020 14:05:21 +0000  QA_rec 0 1 0 23
+Fr, 10 Jul 2020 14:05:21 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Er ist durch die ganze Welt gereist., Q_cen-gereist
+Fr, 10 Jul 2020 14:05:22 +0000  QA_rec 1 1 0 24
+Fr, 10 Jul 2020 14:05:42 +0000  QA_rec 0 1 0 24
+Fr, 10 Jul 2020 14:05:42 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Felix muss schon um sechs Uhr früh aufstehen., Q_cen-aufstehen
+Fr, 10 Jul 2020 14:06:01 +0000  QA_rec 1 1 1 0
+Fr, 10 Jul 2020 14:06:21 +0000  QA_rec 0 1 1 0
+Fr, 10 Jul 2020 14:06:21 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-In der Vergangenheit war Berlin in zwei Hälften geteilt., Q_cen-geteilt
+Fr, 10 Jul 2020 14:06:22 +0000  QA_rec 1 1 1 1
+Fr, 10 Jul 2020 14:06:42 +0000  QA_rec 0 1 1 1
+Fr, 10 Jul 2020 14:06:42 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Hans spielt gerne mit Lego., Q_cen-spielt
+Fr, 10 Jul 2020 14:06:43 +0000  QA_rec 1 1 1 2
+Fr, 10 Jul 2020 14:07:03 +0000  QA_rec 0 1 1 2
+Fr, 10 Jul 2020 14:07:03 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Während der Weihnachtszeit gibt es unter dem Weihnachtsbaum Geschenke für die Kinder., Q_cen-gibt
+Fr, 10 Jul 2020 14:07:04 +0000  QA_rec 1 1 1 3
+Fr, 10 Jul 2020 14:07:24 +0000  QA_rec 0 1 1 3
+Fr, 10 Jul 2020 14:07:24 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Ich hoffe, dass alles gut geht. , Q_cen-hoffe
+Fr, 10 Jul 2020 14:07:25 +0000  QA_rec 1 1 1 4
+Fr, 10 Jul 2020 14:07:45 +0000  QA_rec 0 1 1 4
+Fr, 10 Jul 2020 14:07:45 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Ich habe meine Schuhe für die Hochzeit geputzt., Q_cen-geputzt
+Fr, 10 Jul 2020 14:07:46 +0000  QA_rec 1 1 1 5
+Fr, 10 Jul 2020 14:08:06 +0000  QA_rec 0 1 1 5
+Fr, 10 Jul 2020 14:08:06 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Das Zimmer kostet ein Hundert Euro pro Nacht., Q_cen-kostet
+Fr, 10 Jul 2020 14:08:07 +0000  QA_rec 1 1 1 6
+Fr, 10 Jul 2020 14:08:27 +0000  QA_rec 0 1 1 6
+Fr, 10 Jul 2020 14:08:27 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Im gleichen Jahr hat der amerikanische Bürgerkrieg begonnen., Q_cen-begonnen
+Fr, 10 Jul 2020 14:08:28 +0000  QA_rec 1 1 1 7
+Fr, 10 Jul 2020 14:08:48 +0000  QA_rec 0 1 1 7
+Fr, 10 Jul 2020 14:08:48 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Wenn eine Erkältung hat, kann mann niesen oder husten., Q_cen-husten
+Fr, 10 Jul 2020 14:08:49 +0000  QA_rec 1 1 1 8
+Fr, 10 Jul 2020 14:09:09 +0000  QA_rec 0 1 1 8
+Fr, 10 Jul 2020 14:09:09 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Das Lagerfeuer hat zwei Stunden lang gebrannt., Q_cen-gebrannt
+Fr, 10 Jul 2020 14:09:10 +0000  QA_rec 1 1 1 9
+Fr, 10 Jul 2020 14:09:30 +0000  QA_rec 0 1 1 9
+Fr, 10 Jul 2020 14:09:30 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Viele Tiere leben in Afrika., Q_cen-leben
+Fr, 10 Jul 2020 14:09:31 +0000  QA_rec 1 1 1 10
+Fr, 10 Jul 2020 14:09:51 +0000  QA_rec 0 1 1 10
+Fr, 10 Jul 2020 14:09:51 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Die friedlichen Pandas kommen aus China., Q_cen-kommen
+Fr, 10 Jul 2020 14:09:52 +0000  QA_rec 1 1 1 11
+Fr, 10 Jul 2020 14:10:12 +0000  QA_rec 0 1 1 11
+Fr, 10 Jul 2020 14:10:12 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Ich habe meinen Sohn für den Kurs angemeldet., Q_cen-angemeldet
+Fr, 10 Jul 2020 14:10:13 +0000  QA_rec 1 1 1 12
+Fr, 10 Jul 2020 14:10:33 +0000  QA_rec 0 1 1 12
+Fr, 10 Jul 2020 14:10:33 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Die Reparatur wird um ein hundert Euro kosten., Q_cen-kosten
+Fr, 10 Jul 2020 14:10:34 +0000  QA_rec 1 1 1 13
+Fr, 10 Jul 2020 14:10:54 +0000  QA_rec 0 1 1 13
+Fr, 10 Jul 2020 14:10:54 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Sarah badet lieber abends in der Wanne., Q_cen-badet
+Fr, 10 Jul 2020 14:10:55 +0000  QA_rec 1 1 1 14
+Fr, 10 Jul 2020 14:11:15 +0000  QA_rec 0 1 1 14
+Fr, 10 Jul 2020 14:11:15 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Ich koche die Kartoffeln für die Kartoffelsuppe., Q_cen-koche
+Fr, 10 Jul 2020 14:11:16 +0000  QA_rec 1 1 1 15
+Fr, 10 Jul 2020 14:11:36 +0000  QA_rec 0 1 1 15
+Fr, 10 Jul 2020 14:11:36 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Tomas fischt im Fluss und wird Fisch zum Abendessen essen., Q_cen-fischt
+Fr, 10 Jul 2020 14:11:37 +0000  QA_rec 1 1 1 16
+Fr, 10 Jul 2020 14:11:57 +0000  QA_rec 0 1 1 16
+Fr, 10 Jul 2020 14:11:57 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Der moderne Mensch ist ursprünglich aus Afrika gekommen., Q_cen-gekommen
+Fr, 10 Jul 2020 14:11:58 +0000  QA_rec 1 1 1 17
+Fr, 10 Jul 2020 14:12:18 +0000  QA_rec 0 1 1 17
+Fr, 10 Jul 2020 14:12:18 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Manche Menschen kann mehr Fleisch als Gemüse essen., Q_cen-essen
+Fr, 10 Jul 2020 14:12:19 +0000  QA_rec 1 1 1 18
+Fr, 10 Jul 2020 14:12:39 +0000  QA_rec 0 1 1 18
+Fr, 10 Jul 2020 14:12:39 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Ich habe probiert, ihn zu überreden, aber er will nicht uns gehen. , Q_cen-probiert
+Fr, 10 Jul 2020 14:12:40 +0000  QA_rec 1 1 1 19
+Fr, 10 Jul 2020 14:13:00 +0000  QA_rec 0 1 1 19
+Fr, 10 Jul 2020 14:13:00 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium., Q_cen-brauchen
+Fr, 10 Jul 2020 14:13:01 +0000  QA_rec 1 1 1 20
+Fr, 10 Jul 2020 14:13:21 +0000  QA_rec 0 1 1 20
+Fr, 10 Jul 2020 14:13:21 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-An unserem Baum hängen viele reife Birnen, Q_cen-hängen
+Fr, 10 Jul 2020 14:13:22 +0000  QA_rec 1 1 1 21
+Fr, 10 Jul 2020 14:13:42 +0000  QA_rec 0 1 1 21
+Fr, 10 Jul 2020 14:13:42 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Ist der Tisch schon gedeckt?, Q_cen-gedeckt
+Fr, 10 Jul 2020 14:13:43 +0000  QA_rec 1 1 1 22
+Fr, 10 Jul 2020 14:14:03 +0000  QA_rec 0 1 1 22
+Fr, 10 Jul 2020 14:14:03 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Wenn ich mich gestresst fühle, muss ich mich selbst daran erinnern, ruhig zu bleiben., Q_cen-erinnern
+Fr, 10 Jul 2020 14:14:04 +0000  QA_rec 1 1 1 23
+Fr, 10 Jul 2020 14:14:24 +0000  QA_rec 0 1 1 23
+Fr, 10 Jul 2020 14:14:24 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Die Brille bekommst du beim Optiker, dann kannst du wieder perfekt sehen., Q_cen-sehen
+Fr, 10 Jul 2020 14:14:25 +0000  QA_rec 1 1 1 24
+Fr, 10 Jul 2020 14:14:46 +0000  QA_rec 0 1 1 24
+Fr, 10 Jul 2020 14:14:46 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Araber lieben es, auf den Märkten zu handeln., Q_cen-handeln

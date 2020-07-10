@@ -1,0 +1,162 @@
+Fr, 10 Jul 2020 13:17:38 +0000  fade_in 1 0 None None
+Fr, 10 Jul 2020 13:18:08 +0000  fade_in 0 0 None None
+Fr, 10 Jul 2020 13:18:10 +0000  RS_intro 1 0 0 None
+Fr, 10 Jul 2020 13:18:33 +0000  RS_intro 0 0 0 None
+Fr, 10 Jul 2020 13:18:33 +0000  RS_rec 1 0 0 None
+Fr, 10 Jul 2020 13:21:37 +0000  RS_rec 0 0 close None
+Fr, 10 Jul 2020 13:21:37 +0000  RS_intro 1 0 1 None
+Fr, 10 Jul 2020 13:22:00 +0000  RS_intro 0 0 1 None
+Fr, 10 Jul 2020 13:22:00 +0000  RS_rec 1 0 1 None
+Fr, 10 Jul 2020 13:25:03 +0000  RS_rec 0 0 open None
+Fr, 10 Jul 2020 13:25:41 +0000  QA_intro 1 0 None None
+Fr, 10 Jul 2020 13:26:23 +0000  QA_intro 0 0 None None
+Fr, 10 Jul 2020 13:26:25 +0000  QA_rec 1 0 0 0
+Fr, 10 Jul 2020 13:26:45 +0000  QA_rec 0 0 0 0
+Fr, 10 Jul 2020 13:26:45 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Das Handbuch liefert eine Beschreibung des Geräts., Q_cen-liefert
+Fr, 10 Jul 2020 13:26:46 +0000  QA_rec 1 0 0 1
+Fr, 10 Jul 2020 13:27:06 +0000  QA_rec 0 0 0 1
+Fr, 10 Jul 2020 13:27:06 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Manchmal glaube ich, ich bin zu pessimistisch., Q_cen-glaube
+Fr, 10 Jul 2020 13:27:07 +0000  QA_rec 1 0 0 2
+Fr, 10 Jul 2020 13:27:27 +0000  QA_rec 0 0 0 2
+Fr, 10 Jul 2020 13:27:27 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Ich kann das Buch nirgends finden., Q_cen-finden
+Fr, 10 Jul 2020 13:27:28 +0000  QA_rec 1 0 0 3
+Fr, 10 Jul 2020 13:27:48 +0000  QA_rec 0 0 0 3
+Fr, 10 Jul 2020 13:27:48 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Alkoholsucht schadet der Gesundheit., Q_cen-schadet
+Fr, 10 Jul 2020 13:27:49 +0000  QA_rec 1 0 0 4
+Fr, 10 Jul 2020 13:28:09 +0000  QA_rec 0 0 0 4
+Fr, 10 Jul 2020 13:28:09 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Ich habe seine Telefonnummer auf einem Zettel notiert., Q_cen-notiert
+Fr, 10 Jul 2020 13:28:10 +0000  QA_rec 1 0 0 5
+Fr, 10 Jul 2020 13:28:30 +0000  QA_rec 0 0 0 5
+Fr, 10 Jul 2020 13:28:30 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-An der Kasse bezahlen wir mit Bankomatkarte., Q_cen-bezahlen
+Fr, 10 Jul 2020 13:28:31 +0000  QA_rec 1 0 0 6
+Fr, 10 Jul 2020 13:28:51 +0000  QA_rec 0 0 0 6
+Fr, 10 Jul 2020 13:28:51 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Wir haben im Wald Beeren und Pilze gesammelt., Q_cen-gesammelt
+Fr, 10 Jul 2020 13:28:52 +0000  QA_rec 1 0 0 7
+Fr, 10 Jul 2020 13:29:12 +0000  QA_rec 0 0 0 7
+Fr, 10 Jul 2020 13:29:12 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Der Sturm entlaubte alle Bäume in unserem Garten., Q_cen-entlaubte
+Fr, 10 Jul 2020 13:29:13 +0000  QA_rec 1 0 0 8
+Fr, 10 Jul 2020 13:29:33 +0000  QA_rec 0 0 0 8
+Fr, 10 Jul 2020 13:29:33 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Ich möchte einen weiteren Test durchführen, um die Ergebnisse zu prüfen., Q_cen-prüfen
+Fr, 10 Jul 2020 13:29:34 +0000  QA_rec 1 0 0 9
+Fr, 10 Jul 2020 13:29:54 +0000  QA_rec 0 0 0 9
+Fr, 10 Jul 2020 13:29:54 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Taktlose Fragen machen mich wütend., Q_cen-machen
+Fr, 10 Jul 2020 13:29:55 +0000  QA_rec 1 0 0 10
+Fr, 10 Jul 2020 13:30:15 +0000  QA_rec 0 0 0 10
+Fr, 10 Jul 2020 13:30:15 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Man wird damit bargeldlos bezahlen können., Q_cen-bezahlen
+Fr, 10 Jul 2020 13:30:16 +0000  QA_rec 1 0 0 11
+Fr, 10 Jul 2020 13:30:36 +0000  QA_rec 0 0 0 11
+Fr, 10 Jul 2020 13:30:36 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Der Artikel hat bereits genügend nützliche Hintergrundinformationen geliefert., Q_cen-geliefert
+Fr, 10 Jul 2020 13:30:37 +0000  QA_rec 1 0 0 12
+Fr, 10 Jul 2020 13:30:57 +0000  QA_rec 0 0 0 12
+Fr, 10 Jul 2020 13:30:57 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Josi hat letzte Nacht nur wenig Schlaf gefunden., Q_cen-gefunden
+Fr, 10 Jul 2020 13:30:58 +0000  QA_rec 1 0 0 13
+Fr, 10 Jul 2020 13:31:18 +0000  QA_rec 0 0 0 13
+Fr, 10 Jul 2020 13:31:18 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Sie hat schon eine ganze Reihe Bilder gemalt., Q_cen-gemalt
+Fr, 10 Jul 2020 13:31:19 +0000  QA_rec 1 0 0 14
+Fr, 10 Jul 2020 13:31:39 +0000  QA_rec 0 0 0 14
+Fr, 10 Jul 2020 13:31:39 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Ich konnte meine Brille nicht finden., Q_cen-finden
+Fr, 10 Jul 2020 13:31:40 +0000  QA_rec 1 0 0 15
+Fr, 10 Jul 2020 13:32:00 +0000  QA_rec 0 0 0 15
+Fr, 10 Jul 2020 13:32:00 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Die Deutschen sind immer organisiert und werden alles planen, bevor sie irgendetwas tun., Q_cen-planen
+Fr, 10 Jul 2020 13:32:01 +0000  QA_rec 1 0 0 16
+Fr, 10 Jul 2020 13:32:21 +0000  QA_rec 0 0 0 16
+Fr, 10 Jul 2020 13:32:21 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Der Arzt hat gesagt, ich sähe völlig gesund aus., Q_cen-gesagt
+Fr, 10 Jul 2020 13:32:22 +0000  QA_rec 1 0 0 17
+Fr, 10 Jul 2020 13:32:42 +0000  QA_rec 0 0 0 17
+Fr, 10 Jul 2020 13:32:42 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Melanie sieht so schlecht, sie braucht eine Brille., Q_cen-braucht
+Fr, 10 Jul 2020 13:32:43 +0000  QA_rec 1 0 0 18
+Fr, 10 Jul 2020 13:33:03 +0000  QA_rec 0 0 0 18
+Fr, 10 Jul 2020 13:33:03 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Der Vogel flog zurück zu seinem Nest., Q_cen-flog
+Fr, 10 Jul 2020 13:33:04 +0000  QA_rec 1 0 0 19
+Fr, 10 Jul 2020 13:33:24 +0000  QA_rec 0 0 0 19
+Fr, 10 Jul 2020 13:33:24 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Der frühe Vogel kann den Wurm fangen., Q_cen-fangen
+Fr, 10 Jul 2020 13:33:25 +0000  QA_rec 1 0 0 20
+Fr, 10 Jul 2020 13:33:45 +0000  QA_rec 0 0 0 20
+Fr, 10 Jul 2020 13:33:45 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Die Erklärungen des Lehrers haben absolut Sinn ergeben., Q_cen-ergeben
+Fr, 10 Jul 2020 13:33:46 +0000  QA_rec 1 0 0 21
+Fr, 10 Jul 2020 13:34:06 +0000  QA_rec 0 0 0 21
+Fr, 10 Jul 2020 13:34:06 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Der Assistent ging zurück ins Büro, um die Dokumente zu holen., Q_cen-holen
+Fr, 10 Jul 2020 13:34:07 +0000  QA_rec 1 0 0 22
+Fr, 10 Jul 2020 13:34:27 +0000  QA_rec 0 0 0 22
+Fr, 10 Jul 2020 13:34:27 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Wir entschieden uns dafür, mit dem Flugzeug nach Stockholm zu fliegen., Q_cen-fliegen
+Fr, 10 Jul 2020 13:34:28 +0000  QA_rec 1 0 0 23
+Fr, 10 Jul 2020 13:34:49 +0000  QA_rec 0 0 0 23
+Fr, 10 Jul 2020 13:34:49 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Sam ist nicht da, soll ich ihm sagen, dass Sie nachher zurück rufen?, Q_cen-rufen
+Fr, 10 Jul 2020 13:34:50 +0000  QA_rec 1 0 0 24
+Fr, 10 Jul 2020 13:35:10 +0000  QA_rec 0 0 0 24
+Fr, 10 Jul 2020 13:35:10 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Wenn Sie mit diesem Produkt nicht zufrieden sind, können wir eine Alternative anbieten., Q_cen-anbieten
+Fr, 10 Jul 2020 13:35:29 +0000  QA_rec 1 0 1 0
+Fr, 10 Jul 2020 13:35:49 +0000  QA_rec 0 0 1 0
+Fr, 10 Jul 2020 13:35:49 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Wir sind mit dem Jeep auf Safari in Kenia gefahren., Q_cen-gefahren
+Fr, 10 Jul 2020 13:35:50 +0000  QA_rec 1 0 1 1
+Fr, 10 Jul 2020 13:36:10 +0000  QA_rec 0 0 1 1
+Fr, 10 Jul 2020 13:36:10 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Sie hat den Newsletter abonniert, um weitere Informationen zu erhalten., Q_cen-abonniert
+Fr, 10 Jul 2020 13:36:11 +0000  QA_rec 1 0 1 2
+Fr, 10 Jul 2020 13:36:31 +0000  QA_rec 0 0 1 2
+Fr, 10 Jul 2020 13:36:31 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Toni fliegt mit dem Flugzeug nach., Q_cen-fliegt
+Fr, 10 Jul 2020 13:36:32 +0000  QA_rec 1 0 1 3
+Fr, 10 Jul 2020 13:36:52 +0000  QA_rec 0 0 1 3
+Fr, 10 Jul 2020 13:36:52 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Das Fleisch wurde über dem offenen Feuer gegrillt., Q_cen-gegrillt
+Fr, 10 Jul 2020 13:36:53 +0000  QA_rec 1 0 1 4
+Fr, 10 Jul 2020 13:37:13 +0000  QA_rec 0 0 1 4
+Fr, 10 Jul 2020 13:37:13 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Wir müssen uns beeilen oder wir verpassen unseren Zug., Q_cen-beeilen
+Fr, 10 Jul 2020 13:37:14 +0000  QA_rec 1 0 1 5
+Fr, 10 Jul 2020 13:37:34 +0000  QA_rec 0 0 1 5
+Fr, 10 Jul 2020 13:37:34 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Wenn sie sich etwas leiht, bringt sie es immer zurück., Q_cen-leiht
+Fr, 10 Jul 2020 13:37:35 +0000  QA_rec 1 0 1 6
+Fr, 10 Jul 2020 13:37:55 +0000  QA_rec 0 0 1 6
+Fr, 10 Jul 2020 13:37:55 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Wir sind stolz auf das, was wir bis jetzt geschafft haben., Q_cen-geschafft
+Fr, 10 Jul 2020 13:37:56 +0000  QA_rec 1 0 1 7
+Fr, 10 Jul 2020 13:38:16 +0000  QA_rec 0 0 1 7
+Fr, 10 Jul 2020 13:38:16 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Das Volleyballspiel wird in einer Sporthalle ausgetragen., Q_cen-ausgetragen
+Fr, 10 Jul 2020 13:38:17 +0000  QA_rec 1 0 1 8
+Fr, 10 Jul 2020 13:38:37 +0000  QA_rec 0 0 1 8
+Fr, 10 Jul 2020 13:38:37 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Ich habe mir ein neues Ziel gesetzt, das ich erreichen möchte., Q_cen-erreichen
+Fr, 10 Jul 2020 13:38:38 +0000  QA_rec 1 0 1 9
+Fr, 10 Jul 2020 13:38:58 +0000  QA_rec 0 0 1 9
+Fr, 10 Jul 2020 13:38:58 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Er benutzt Twitter, um mit anderen zu chatten., Q_cen-benutzt
+Fr, 10 Jul 2020 13:38:59 +0000  QA_rec 1 0 1 10
+Fr, 10 Jul 2020 13:39:19 +0000  QA_rec 0 0 1 10
+Fr, 10 Jul 2020 13:39:19 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Die Flasche steht auf dem Tisch., Q_cen-steht
+Fr, 10 Jul 2020 13:39:20 +0000  QA_rec 1 0 1 11
+Fr, 10 Jul 2020 13:39:40 +0000  QA_rec 0 0 1 11
+Fr, 10 Jul 2020 13:39:40 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Tut mir leid, darf ich fragen warum?, Q_cen-fragen
+Fr, 10 Jul 2020 13:39:41 +0000  QA_rec 1 0 1 12
+Fr, 10 Jul 2020 13:40:01 +0000  QA_rec 0 0 1 12
+Fr, 10 Jul 2020 13:40:01 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Das Abendessen wird pünktlich um 12 Uhr auf den Tisch stehen., Q_cen-stehen
+Fr, 10 Jul 2020 13:40:02 +0000  QA_rec 1 0 1 13
+Fr, 10 Jul 2020 13:40:22 +0000  QA_rec 0 0 1 13
+Fr, 10 Jul 2020 13:40:22 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Es freut mich sehr, Sie kennenzulernen., Q_cen-freut
+Fr, 10 Jul 2020 13:40:23 +0000  QA_rec 1 0 1 14
+Fr, 10 Jul 2020 13:40:43 +0000  QA_rec 0 0 1 14
+Fr, 10 Jul 2020 13:40:43 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Abgase werden das Klima schädigen., Q_cen-schädigen
+Fr, 10 Jul 2020 13:40:44 +0000  QA_rec 1 0 1 15
+Fr, 10 Jul 2020 13:41:04 +0000  QA_rec 0 0 1 15
+Fr, 10 Jul 2020 13:41:04 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Einige Eltern haben ihren Töchtern rosa Kleider gekauft., Q_cen-gekauft
+Fr, 10 Jul 2020 13:41:05 +0000  QA_rec 1 0 1 16
+Fr, 10 Jul 2020 13:41:25 +0000  QA_rec 0 0 1 16
+Fr, 10 Jul 2020 13:41:25 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Ihre Freundlichkeit gab mir ein Gefühl von Sicherheit., Q_cen-gab
+Fr, 10 Jul 2020 13:41:26 +0000  QA_rec 1 0 1 17
+Fr, 10 Jul 2020 13:41:46 +0000  QA_rec 0 0 1 17
+Fr, 10 Jul 2020 13:41:46 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Er hat den Vorgang im Tagebuch beschrieben., Q_cen-beschrieben
+Fr, 10 Jul 2020 13:41:47 +0000  QA_rec 1 0 1 18
+Fr, 10 Jul 2020 13:42:07 +0000  QA_rec 0 0 1 18
+Fr, 10 Jul 2020 13:42:07 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Bevor es Autos gab, sind die Leute mit der Eisenbahn gefahren., Q_cen-gefahren
+Fr, 10 Jul 2020 13:42:08 +0000  QA_rec 1 0 1 19
+Fr, 10 Jul 2020 13:42:28 +0000  QA_rec 0 0 1 19
+Fr, 10 Jul 2020 13:42:28 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Ich habe einen Platz für die Oper reserviert., Q_cen-reserviert
+Fr, 10 Jul 2020 13:42:29 +0000  QA_rec 1 0 1 20
+Fr, 10 Jul 2020 13:42:50 +0000  QA_rec 0 0 1 20
+Fr, 10 Jul 2020 13:42:50 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Ich nehme lieber den Bus, da gibt es nicht so viele Haltestellen., Q_cen-gibt
+Fr, 10 Jul 2020 13:42:51 +0000  QA_rec 1 0 1 21
+Fr, 10 Jul 2020 13:43:11 +0000  QA_rec 0 0 1 21
+Fr, 10 Jul 2020 13:43:11 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Ich muss den Anzug vor der Geschäftsreise in den Koffer einpacken., Q_cen-einpacken
+Fr, 10 Jul 2020 13:43:12 +0000  QA_rec 1 0 1 22
+Fr, 10 Jul 2020 13:43:32 +0000  QA_rec 0 0 1 22
+Fr, 10 Jul 2020 13:43:32 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Er hilft der alten Frau beim Einsteigen ins Auto., Q_cen-hilft
+Fr, 10 Jul 2020 13:43:33 +0000  QA_rec 1 0 1 23
+Fr, 10 Jul 2020 13:43:53 +0000  QA_rec 0 0 1 23
+Fr, 10 Jul 2020 13:43:53 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Im Nil schwimmen heilige Krokodile., Q_cen-schwimmen
+Fr, 10 Jul 2020 13:43:54 +0000  QA_rec 1 0 1 24
+Fr, 10 Jul 2020 13:44:14 +0000  QA_rec 0 0 1 24
+Fr, 10 Jul 2020 13:44:14 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Ich will nicht mein ganzes Geld für ein neues Auto ausgeben., Q_cen-ausgeben
