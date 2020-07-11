@@ -1,0 +1,162 @@
+Sa, 11 Jul 2020 11:37:54 +0000  fade_in 1 1 None None
+Sa, 11 Jul 2020 11:38:29 +0000  fade_in 0 1 None None
+Sa, 11 Jul 2020 11:38:31 +0000  RS_intro 1 1 0 None
+Sa, 11 Jul 2020 11:38:54 +0000  RS_intro 0 1 0 None
+Sa, 11 Jul 2020 11:38:54 +0000  RS_rec 1 1 0 None
+Sa, 11 Jul 2020 11:41:58 +0000  RS_rec 0 1 open None
+Sa, 11 Jul 2020 11:41:58 +0000  RS_intro 1 1 1 None
+Sa, 11 Jul 2020 11:42:21 +0000  RS_intro 0 1 1 None
+Sa, 11 Jul 2020 11:42:21 +0000  RS_rec 1 1 1 None
+Sa, 11 Jul 2020 11:45:24 +0000  RS_rec 0 1 close None
+Sa, 11 Jul 2020 11:45:39 +0000  QA_intro 1 1 None None
+Sa, 11 Jul 2020 11:46:19 +0000  QA_intro 0 1 None None
+Sa, 11 Jul 2020 11:46:21 +0000  QA_rec 1 1 0 0
+Sa, 11 Jul 2020 11:46:41 +0000  QA_rec 0 1 0 0
+Sa, 11 Jul 2020 11:46:41 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Schultigung, Ich habe den falschen Knopf gedrückt., Q_cen-gedrückt
+Sa, 11 Jul 2020 11:46:42 +0000  QA_rec 1 1 0 1
+Sa, 11 Jul 2020 11:47:02 +0000  QA_rec 0 1 0 1
+Sa, 11 Jul 2020 11:47:02 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Ich darf Sie bitten, meinem Antrag zu entsprechen., Q_cen-bitten
+Sa, 11 Jul 2020 11:47:03 +0000  QA_rec 1 1 0 2
+Sa, 11 Jul 2020 11:47:23 +0000  QA_rec 0 1 0 2
+Sa, 11 Jul 2020 11:47:23 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Tomas fischt im Fluss und wird Fisch zum Abendessen essen., Q_cen-fischt
+Sa, 11 Jul 2020 11:47:24 +0000  QA_rec 1 1 0 3
+Sa, 11 Jul 2020 11:47:44 +0000  QA_rec 0 1 0 3
+Sa, 11 Jul 2020 11:47:44 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-In Europa gibt es vier Jahrezeiten, am Zentralafrika nur eine., Q_cen-gibt
+Sa, 11 Jul 2020 11:47:45 +0000  QA_rec 1 1 0 4
+Sa, 11 Jul 2020 11:48:05 +0000  QA_rec 0 1 0 4
+Sa, 11 Jul 2020 11:48:05 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Das Kind kann die Tischkante noch nicht erreichen., Q_cen-erreichen
+Sa, 11 Jul 2020 11:48:06 +0000  QA_rec 1 1 0 5
+Sa, 11 Jul 2020 11:48:26 +0000  QA_rec 0 1 0 5
+Sa, 11 Jul 2020 11:48:26 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Ein Flüchtling ist jemand , der aus Not seine Heimat verlässt., Q_cen-verlässt
+Sa, 11 Jul 2020 11:48:27 +0000  QA_rec 1 1 0 6
+Sa, 11 Jul 2020 11:48:47 +0000  QA_rec 0 1 0 6
+Sa, 11 Jul 2020 11:48:47 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Ob die bereitgestellte Information korrekt ist, müssen wir prüfen., Q_cen-prüfen
+Sa, 11 Jul 2020 11:48:48 +0000  QA_rec 1 1 0 7
+Sa, 11 Jul 2020 11:49:08 +0000  QA_rec 0 1 0 7
+Sa, 11 Jul 2020 11:49:08 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Das Geheimnis darfst du niemand sagen., Q_cen-sagen
+Sa, 11 Jul 2020 11:49:09 +0000  QA_rec 1 1 0 8
+Sa, 11 Jul 2020 11:49:29 +0000  QA_rec 0 1 0 8
+Sa, 11 Jul 2020 11:49:29 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Wir haben die Buchung per E-Mail bestätigt., Q_cen-bestätigt
+Sa, 11 Jul 2020 11:49:30 +0000  QA_rec 1 1 0 9
+Sa, 11 Jul 2020 11:49:50 +0000  QA_rec 0 1 0 9
+Sa, 11 Jul 2020 11:49:50 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Rauchen schadet deiner Lunge., Q_cen-schadet
+Sa, 11 Jul 2020 11:49:51 +0000  QA_rec 1 1 0 10
+Sa, 11 Jul 2020 11:50:11 +0000  QA_rec 0 1 0 10
+Sa, 11 Jul 2020 11:50:11 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Es ist vorstellbar, dass er diese schwierige Prüfung nicht bestehen kann. , Q_cen-bestehen
+Sa, 11 Jul 2020 11:50:12 +0000  QA_rec 1 1 0 11
+Sa, 11 Jul 2020 11:50:33 +0000  QA_rec 0 1 0 11
+Sa, 11 Jul 2020 11:50:33 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Es wird nicht empfohlen, die Batterie völlig zu entladen., Q_cen-empfohlen
+Sa, 11 Jul 2020 11:50:34 +0000  QA_rec 1 1 0 12
+Sa, 11 Jul 2020 11:50:54 +0000  QA_rec 0 1 0 12
+Sa, 11 Jul 2020 11:50:54 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Nikolaus Kopernikus beschreibt das heliozentrische Weltbild., Q_cen-beschreibt
+Sa, 11 Jul 2020 11:50:55 +0000  QA_rec 1 1 0 13
+Sa, 11 Jul 2020 11:51:15 +0000  QA_rec 0 1 0 13
+Sa, 11 Jul 2020 11:51:15 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Wir sind verlobt und wollen nächstes Jahr heiraten., Q_cen-heiraten
+Sa, 11 Jul 2020 11:51:16 +0000  QA_rec 1 1 0 14
+Sa, 11 Jul 2020 11:51:36 +0000  QA_rec 0 1 0 14
+Sa, 11 Jul 2020 11:51:36 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Es gibt viele Vorteile, wenn man die öffentlichen Verkehrsmittel benutzt., Q_cen-benutzt
+Sa, 11 Jul 2020 11:51:37 +0000  QA_rec 1 1 0 15
+Sa, 11 Jul 2020 11:51:57 +0000  QA_rec 0 1 0 15
+Sa, 11 Jul 2020 11:51:57 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken
+Sa, 11 Jul 2020 11:51:58 +0000  QA_rec 1 1 0 16
+Sa, 11 Jul 2020 11:52:18 +0000  QA_rec 0 1 0 16
+Sa, 11 Jul 2020 11:52:18 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Er benutzt Twitter, um mit anderen zu chatten., Q_cen-benutzt
+Sa, 11 Jul 2020 11:52:19 +0000  QA_rec 1 1 0 17
+Sa, 11 Jul 2020 11:52:39 +0000  QA_rec 0 1 0 17
+Sa, 11 Jul 2020 11:52:39 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Der Präsident diskutierte das Thema auf der Pressekonferenz nicht., Q_cen-diskutierte
+Sa, 11 Jul 2020 11:52:40 +0000  QA_rec 1 1 0 18
+Sa, 11 Jul 2020 11:53:00 +0000  QA_rec 0 1 0 18
+Sa, 11 Jul 2020 11:53:00 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Das Volleyballspiel wird in einer Sporthalle ausgetragen., Q_cen-ausgetragen
+Sa, 11 Jul 2020 11:53:01 +0000  QA_rec 1 1 0 19
+Sa, 11 Jul 2020 11:53:21 +0000  QA_rec 0 1 0 19
+Sa, 11 Jul 2020 11:53:21 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Der Zahnarzt untersuchte meine Zunge genau., Q_cen-untersuchte
+Sa, 11 Jul 2020 11:53:22 +0000  QA_rec 1 1 0 20
+Sa, 11 Jul 2020 11:53:42 +0000  QA_rec 0 1 0 20
+Sa, 11 Jul 2020 11:53:42 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Bist du schon mal auf einem Pony geritten? , Q_cen-geritten
+Sa, 11 Jul 2020 11:53:43 +0000  QA_rec 1 1 0 21
+Sa, 11 Jul 2020 11:54:03 +0000  QA_rec 0 1 0 21
+Sa, 11 Jul 2020 11:54:03 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Ich nehme lieber den Bus, da gibt es nicht so viele Haltestellen., Q_cen-gibt
+Sa, 11 Jul 2020 11:54:04 +0000  QA_rec 1 1 0 22
+Sa, 11 Jul 2020 11:54:24 +0000  QA_rec 0 1 0 22
+Sa, 11 Jul 2020 11:54:24 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Das gute Wetter wird halten, weil ich keine Wolken sehe., Q_cen-halten
+Sa, 11 Jul 2020 11:54:25 +0000  QA_rec 1 1 0 23
+Sa, 11 Jul 2020 11:54:45 +0000  QA_rec 0 1 0 23
+Sa, 11 Jul 2020 11:54:45 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Die Polizei hat die Einzelheiten des gestohlenen Autos auf einem Zettel notiert., Q_cen-notiert
+Sa, 11 Jul 2020 11:54:46 +0000  QA_rec 1 1 0 24
+Sa, 11 Jul 2020 11:55:06 +0000  QA_rec 0 1 0 24
+Sa, 11 Jul 2020 11:55:06 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Die Schneiderin änderte das Kleid, weil das Kleid zu groß ist., Q_cen-änderte
+Sa, 11 Jul 2020 11:55:23 +0000  QA_rec 1 1 1 0
+Sa, 11 Jul 2020 11:55:43 +0000  QA_rec 0 1 1 0
+Sa, 11 Jul 2020 11:55:43 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Sie haben Beeren gesammelt und wilde Tiere gejagt., Q_cen-gejagt
+Sa, 11 Jul 2020 11:55:44 +0000  QA_rec 1 1 1 1
+Sa, 11 Jul 2020 11:56:04 +0000  QA_rec 0 1 1 1
+Sa, 11 Jul 2020 11:56:04 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Nachdem mein erster Versuch gescheitert war, probierte ich es noch einmal., Q_cen-probierte
+Sa, 11 Jul 2020 11:56:05 +0000  QA_rec 1 1 1 2
+Sa, 11 Jul 2020 11:56:25 +0000  QA_rec 0 1 1 2
+Sa, 11 Jul 2020 11:56:25 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Der Aufzug ist repariert, jetzt funktioniert er wieder., Q_cen-repariert
+Sa, 11 Jul 2020 11:56:26 +0000  QA_rec 1 1 1 3
+Sa, 11 Jul 2020 11:56:46 +0000  QA_rec 0 1 1 3
+Sa, 11 Jul 2020 11:56:46 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Mein Hund hat ein paar Tricks gelernt. , Q_cen-gelernt
+Sa, 11 Jul 2020 11:56:47 +0000  QA_rec 1 1 1 4
+Sa, 11 Jul 2020 11:57:07 +0000  QA_rec 0 1 1 4
+Sa, 11 Jul 2020 11:57:07 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Die Lampe hängt über dem Bett., Q_cen-hängt
+Sa, 11 Jul 2020 11:57:08 +0000  QA_rec 1 1 1 5
+Sa, 11 Jul 2020 11:57:28 +0000  QA_rec 0 1 1 5
+Sa, 11 Jul 2020 11:57:28 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Grossbritannien hat die EU verlassen., Q_cen-verlassen
+Sa, 11 Jul 2020 11:57:29 +0000  QA_rec 1 1 1 6
+Sa, 11 Jul 2020 11:57:49 +0000  QA_rec 0 1 1 6
+Sa, 11 Jul 2020 11:57:49 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Der Amazon Kurier hat das Paket geliefert., Q_cen-geliefert
+Sa, 11 Jul 2020 11:57:50 +0000  QA_rec 1 1 1 7
+Sa, 11 Jul 2020 11:58:10 +0000  QA_rec 0 1 1 7
+Sa, 11 Jul 2020 11:58:10 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Das Thema interessierte sie, daher hörte sie genau zu., Q_cen-interessierte
+Sa, 11 Jul 2020 11:58:11 +0000  QA_rec 1 1 1 8
+Sa, 11 Jul 2020 11:58:31 +0000  QA_rec 0 1 1 8
+Sa, 11 Jul 2020 11:58:31 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Ich bin krank und bleibe heute im Bett., Q_cen-bleibe
+Sa, 11 Jul 2020 11:58:32 +0000  QA_rec 1 1 1 9
+Sa, 11 Jul 2020 11:58:52 +0000  QA_rec 0 1 1 9
+Sa, 11 Jul 2020 11:58:52 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Ihr fehlt es an ausreichender Berufserfahrung für diese Position., Q_cen-fehlt
+Sa, 11 Jul 2020 11:58:53 +0000  QA_rec 1 1 1 10
+Sa, 11 Jul 2020 11:59:13 +0000  QA_rec 0 1 1 10
+Sa, 11 Jul 2020 11:59:13 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Das Abkommen läuft noch fünf Monate. , Q_cen-läuft
+Sa, 11 Jul 2020 11:59:14 +0000  QA_rec 1 1 1 11
+Sa, 11 Jul 2020 11:59:34 +0000  QA_rec 0 1 1 11
+Sa, 11 Jul 2020 11:59:34 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Die Augen meines Sohnes glänzten, als er das Geschenk sah., Q_cen-sah
+Sa, 11 Jul 2020 11:59:35 +0000  QA_rec 1 1 1 12
+Sa, 11 Jul 2020 11:59:55 +0000  QA_rec 0 1 1 12
+Sa, 11 Jul 2020 11:59:55 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Der Mond umkreist die Erde in ungefähr achtundzwanzig Tagen., Q_cen-umkreist
+Sa, 11 Jul 2020 11:59:56 +0000  QA_rec 1 1 1 13
+Sa, 11 Jul 2020 12:00:16 +0000  QA_rec 0 1 1 13
+Sa, 11 Jul 2020 12:00:16 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Einige Eltern haben ihren Töchtern rosa Kleider gekauft., Q_cen-gekauft
+Sa, 11 Jul 2020 12:00:17 +0000  QA_rec 1 1 1 14
+Sa, 11 Jul 2020 12:00:37 +0000  QA_rec 0 1 1 14
+Sa, 11 Jul 2020 12:00:37 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Der Arzt sagt, mein Knie ist in Ordnung, aber meine Beine scheinen gebrochen zu sein., Q_cen-scheinen
+Sa, 11 Jul 2020 12:00:38 +0000  QA_rec 1 1 1 15
+Sa, 11 Jul 2020 12:00:58 +0000  QA_rec 0 1 1 15
+Sa, 11 Jul 2020 12:00:58 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Der Dieb wurde für sein Verbrechen bestraft., Q_cen-bestraft
+Sa, 11 Jul 2020 12:00:59 +0000  QA_rec 1 1 1 16
+Sa, 11 Jul 2020 12:01:19 +0000  QA_rec 0 1 1 16
+Sa, 11 Jul 2020 12:01:19 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Arbeitslos-sein bedeutet: man hat keinen Arbeits-Platz., Q_cen-bedeutet
+Sa, 11 Jul 2020 12:01:20 +0000  QA_rec 1 1 1 17
+Sa, 11 Jul 2020 12:01:40 +0000  QA_rec 0 1 1 17
+Sa, 11 Jul 2020 12:01:40 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Sie hat das Gemüse in Olivenöl gebraten., Q_cen-gebraten
+Sa, 11 Jul 2020 12:01:41 +0000  QA_rec 1 1 1 18
+Sa, 11 Jul 2020 12:02:01 +0000  QA_rec 0 1 1 18
+Sa, 11 Jul 2020 12:02:01 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-In diesem Krankenhaus werden viele Patienten behandelt., Q_cen-behandelt
+Sa, 11 Jul 2020 12:02:02 +0000  QA_rec 1 1 1 19
+Sa, 11 Jul 2020 12:02:23 +0000  QA_rec 0 1 1 19
+Sa, 11 Jul 2020 12:02:23 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Er hat Kartoffeln mit der Schale gekocht., Q_cen-gekocht
+Sa, 11 Jul 2020 12:02:24 +0000  QA_rec 1 1 1 20
+Sa, 11 Jul 2020 12:02:44 +0000  QA_rec 0 1 1 20
+Sa, 11 Jul 2020 12:02:44 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Ist der Tisch schon gedeckt?, Q_cen-gedeckt
+Sa, 11 Jul 2020 12:02:45 +0000  QA_rec 1 1 1 21
+Sa, 11 Jul 2020 12:03:05 +0000  QA_rec 0 1 1 21
+Sa, 11 Jul 2020 12:03:05 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Manche Menschen kann mehr Fleisch als Gemüse essen., Q_cen-essen
+Sa, 11 Jul 2020 12:03:06 +0000  QA_rec 1 1 1 22
+Sa, 11 Jul 2020 12:03:26 +0000  QA_rec 0 1 1 22
+Sa, 11 Jul 2020 12:03:26 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Ich male sehr gerne Ölbilder., Q_cen-male
+Sa, 11 Jul 2020 12:03:27 +0000  QA_rec 1 1 1 23
+Sa, 11 Jul 2020 12:03:47 +0000  QA_rec 0 1 1 23
+Sa, 11 Jul 2020 12:03:47 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Das Auto wurde in Deutschland hergestellt., Q_cen-hergestellt
+Sa, 11 Jul 2020 12:03:48 +0000  QA_rec 1 1 1 24
+Sa, 11 Jul 2020 12:04:08 +0000  QA_rec 0 1 1 24
+Sa, 11 Jul 2020 12:04:08 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Die Geheimzahl sollte nicht notiert werden, vor allem nicht auf der Bankomatkarte., Q_cen-notiert

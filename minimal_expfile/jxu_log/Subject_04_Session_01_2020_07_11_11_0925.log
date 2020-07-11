@@ -1,0 +1,162 @@
+Sa, 11 Jul 2020 11:09:29 +0000  fade_in 1 0 None None
+Sa, 11 Jul 2020 11:09:59 +0000  fade_in 0 0 None None
+Sa, 11 Jul 2020 11:10:01 +0000  RS_intro 1 0 0 None
+Sa, 11 Jul 2020 11:10:24 +0000  RS_intro 0 0 0 None
+Sa, 11 Jul 2020 11:10:24 +0000  RS_rec 1 0 0 None
+Sa, 11 Jul 2020 11:13:27 +0000  RS_rec 0 0 open None
+Sa, 11 Jul 2020 11:13:27 +0000  RS_intro 1 0 1 None
+Sa, 11 Jul 2020 11:13:50 +0000  RS_intro 0 0 1 None
+Sa, 11 Jul 2020 11:13:50 +0000  RS_rec 1 0 1 None
+Sa, 11 Jul 2020 11:16:53 +0000  RS_rec 0 0 close None
+Sa, 11 Jul 2020 11:17:07 +0000  QA_intro 1 0 None None
+Sa, 11 Jul 2020 11:17:48 +0000  QA_intro 0 0 None None
+Sa, 11 Jul 2020 11:17:50 +0000  QA_rec 1 0 0 0
+Sa, 11 Jul 2020 11:18:10 +0000  QA_rec 0 0 0 0
+Sa, 11 Jul 2020 11:18:10 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-An der Tankstelle kann man Benzin in den Tank füllen., Q_cen-füllen
+Sa, 11 Jul 2020 11:18:11 +0000  QA_rec 1 0 0 1
+Sa, 11 Jul 2020 11:18:31 +0000  QA_rec 0 0 0 1
+Sa, 11 Jul 2020 11:18:31 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Mein Handy ist schon eingeschaltet, so dass Sie mich jederzeit anrufen können., Q_cen-anrufen
+Sa, 11 Jul 2020 11:18:32 +0000  QA_rec 1 0 0 2
+Sa, 11 Jul 2020 11:18:52 +0000  QA_rec 0 0 0 2
+Sa, 11 Jul 2020 11:18:52 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Diese beiden Handschuhe gehören zusammen., Q_cen-gehören
+Sa, 11 Jul 2020 11:18:53 +0000  QA_rec 1 0 0 3
+Sa, 11 Jul 2020 11:19:13 +0000  QA_rec 0 0 0 3
+Sa, 11 Jul 2020 11:19:13 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Da hier nur sehr wenige Parkplätze sind, nur Anwohner dürfen in dieser Straße parken., Q_cen-parken
+Sa, 11 Jul 2020 11:19:14 +0000  QA_rec 1 0 0 4
+Sa, 11 Jul 2020 11:19:34 +0000  QA_rec 0 0 0 4
+Sa, 11 Jul 2020 11:19:34 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Blut fließt aus einer Wunde., Q_cen-fließt
+Sa, 11 Jul 2020 11:19:35 +0000  QA_rec 1 0 0 5
+Sa, 11 Jul 2020 11:19:55 +0000  QA_rec 0 0 0 5
+Sa, 11 Jul 2020 11:19:55 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Der Bau des Gebäudes hat 3 Jahre gedauert und ist endlich fast abgeschlossen., Q_cen-abgeschlossen
+Sa, 11 Jul 2020 11:19:56 +0000  QA_rec 1 0 0 6
+Sa, 11 Jul 2020 11:20:16 +0000  QA_rec 0 0 0 6
+Sa, 11 Jul 2020 11:20:16 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Ich habe den Knopf gedrückt, um die Kaffeemaschine einzuschalten., Q_cen-gedrückt
+Sa, 11 Jul 2020 11:20:17 +0000  QA_rec 1 0 0 7
+Sa, 11 Jul 2020 11:20:37 +0000  QA_rec 0 0 0 7
+Sa, 11 Jul 2020 11:20:37 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit belohnt., Q_cen-belohnt
+Sa, 11 Jul 2020 11:20:38 +0000  QA_rec 1 0 0 8
+Sa, 11 Jul 2020 11:20:58 +0000  QA_rec 0 0 0 8
+Sa, 11 Jul 2020 11:20:58 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Pinguine bewohnen die Antarktis, wie auch Robben und große Seelöwen., Q_cen-bewohnen
+Sa, 11 Jul 2020 11:20:59 +0000  QA_rec 1 0 0 9
+Sa, 11 Jul 2020 11:21:19 +0000  QA_rec 0 0 0 9
+Sa, 11 Jul 2020 11:21:19 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Ich muss mein Versprechen halten., Q_cen-halten
+Sa, 11 Jul 2020 11:21:20 +0000  QA_rec 1 0 0 10
+Sa, 11 Jul 2020 11:21:40 +0000  QA_rec 0 0 0 10
+Sa, 11 Jul 2020 11:21:40 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Neue Sterne entstehen in den Magellan-Wolken., Q_cen-entstehen
+Sa, 11 Jul 2020 11:21:41 +0000  QA_rec 1 0 0 11
+Sa, 11 Jul 2020 11:22:01 +0000  QA_rec 0 0 0 11
+Sa, 11 Jul 2020 11:22:01 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Lebensmittel sind die Dinge, die man essen kann., Q_cen-essen
+Sa, 11 Jul 2020 11:22:02 +0000  QA_rec 1 0 0 12
+Sa, 11 Jul 2020 11:22:22 +0000  QA_rec 0 0 0 12
+Sa, 11 Jul 2020 11:22:22 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Sie beantwortete meine E-Mail schnell., Q_cen-beantwortete
+Sa, 11 Jul 2020 11:22:23 +0000  QA_rec 1 0 0 13
+Sa, 11 Jul 2020 11:22:44 +0000  QA_rec 0 0 0 13
+Sa, 11 Jul 2020 11:22:44 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Ich habe dieses Fach als mein Hauptfach gewählt, weil es mich interessiert., Q_cen-interessiert
+Sa, 11 Jul 2020 11:22:45 +0000  QA_rec 1 0 0 14
+Sa, 11 Jul 2020 11:23:05 +0000  QA_rec 0 0 0 14
+Sa, 11 Jul 2020 11:23:05 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Herr Becker hat den Zug nach Deutschland genommen., Q_cen-genommen
+Sa, 11 Jul 2020 11:23:06 +0000  QA_rec 1 0 0 15
+Sa, 11 Jul 2020 11:23:26 +0000  QA_rec 0 0 0 15
+Sa, 11 Jul 2020 11:23:26 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Sie brauchen ein ärztliches Zeugnis., Q_cen-brauchen
+Sa, 11 Jul 2020 11:23:27 +0000  QA_rec 1 0 0 16
+Sa, 11 Jul 2020 11:23:47 +0000  QA_rec 0 0 0 16
+Sa, 11 Jul 2020 11:23:47 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Die Produkte, die ich bestellt hatte, kamen drei Tage später an., Q_cen-kamen
+Sa, 11 Jul 2020 11:23:48 +0000  QA_rec 1 0 0 17
+Sa, 11 Jul 2020 11:24:08 +0000  QA_rec 0 0 0 17
+Sa, 11 Jul 2020 11:24:08 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Ich fühle die warme Sonne auf meiner Haut., Q_cen-fühle
+Sa, 11 Jul 2020 11:24:09 +0000  QA_rec 1 0 0 18
+Sa, 11 Jul 2020 11:24:29 +0000  QA_rec 0 0 0 18
+Sa, 11 Jul 2020 11:24:29 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Alexander Bell hat das Telefon erfunden., Q_cen-erfunden
+Sa, 11 Jul 2020 11:24:30 +0000  QA_rec 1 0 0 19
+Sa, 11 Jul 2020 11:24:50 +0000  QA_rec 0 0 0 19
+Sa, 11 Jul 2020 11:24:50 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Die Mieter wollen die Vertragsbedingungen ändern., Q_cen-ändern
+Sa, 11 Jul 2020 11:24:51 +0000  QA_rec 1 0 0 20
+Sa, 11 Jul 2020 11:25:11 +0000  QA_rec 0 0 0 20
+Sa, 11 Jul 2020 11:25:11 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Man bezahlt für den Naturschutz., Q_cen-bezahlt
+Sa, 11 Jul 2020 11:25:12 +0000  QA_rec 1 0 0 21
+Sa, 11 Jul 2020 11:25:32 +0000  QA_rec 0 0 0 21
+Sa, 11 Jul 2020 11:25:32 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Die Studenten müssen sich für den Kurs anmelden., Q_cen-anmelden
+Sa, 11 Jul 2020 11:25:33 +0000  QA_rec 1 0 0 22
+Sa, 11 Jul 2020 11:25:53 +0000  QA_rec 0 0 0 22
+Sa, 11 Jul 2020 11:25:53 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Der Arbeiter repariert eine Panne., Q_cen-repariert
+Sa, 11 Jul 2020 11:25:54 +0000  QA_rec 1 0 0 23
+Sa, 11 Jul 2020 11:26:14 +0000  QA_rec 0 0 0 23
+Sa, 11 Jul 2020 11:26:14 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Während meines Urlaubs werde ich nach China und Japan reisen., Q_cen-reisen
+Sa, 11 Jul 2020 11:26:15 +0000  QA_rec 1 0 0 24
+Sa, 11 Jul 2020 11:26:35 +0000  QA_rec 0 0 0 24
+Sa, 11 Jul 2020 11:26:35 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Keine Sorge, ich werde mich um Ihr Kind kümmern., Q_cen-kümmern
+Sa, 11 Jul 2020 11:26:53 +0000  QA_rec 1 0 1 0
+Sa, 11 Jul 2020 11:27:13 +0000  QA_rec 0 0 1 0
+Sa, 11 Jul 2020 11:27:13 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Wir sollten in den Bus einsteigen, bevor er abfährt., Q_cen-einsteigen
+Sa, 11 Jul 2020 11:27:14 +0000  QA_rec 1 0 1 1
+Sa, 11 Jul 2020 11:27:34 +0000  QA_rec 0 0 1 1
+Sa, 11 Jul 2020 11:27:34 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Das ist zu spät, ich möchte nach Hause gehen., Q_cen-gehen
+Sa, 11 Jul 2020 11:27:35 +0000  QA_rec 1 0 1 2
+Sa, 11 Jul 2020 11:27:55 +0000  QA_rec 0 0 1 2
+Sa, 11 Jul 2020 11:27:55 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Die meisten Jugendlichen hören gerne Musik., Q_cen-hören
+Sa, 11 Jul 2020 11:27:56 +0000  QA_rec 1 0 1 3
+Sa, 11 Jul 2020 11:28:17 +0000  QA_rec 0 0 1 3
+Sa, 11 Jul 2020 11:28:17 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Morgens stehe ich um kurz vor sieben Uhr auf., Q_cen-stehe
+Sa, 11 Jul 2020 11:28:18 +0000  QA_rec 1 0 1 4
+Sa, 11 Jul 2020 11:28:38 +0000  QA_rec 0 0 1 4
+Sa, 11 Jul 2020 11:28:38 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Er muss arbeiten, um seine beiden Kinder großzuziehen., Q_cen-arbeiten
+Sa, 11 Jul 2020 11:28:39 +0000  QA_rec 1 0 1 5
+Sa, 11 Jul 2020 11:28:59 +0000  QA_rec 0 0 1 5
+Sa, 11 Jul 2020 11:28:59 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Das Lagerfeuer hat zwei Stunden lang gebrannt., Q_cen-gebrannt
+Sa, 11 Jul 2020 11:29:00 +0000  QA_rec 1 0 1 6
+Sa, 11 Jul 2020 11:29:20 +0000  QA_rec 0 0 1 6
+Sa, 11 Jul 2020 11:29:20 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Nach der Party mussten wir das Haus aufräumen., Q_cen-aufräumen
+Sa, 11 Jul 2020 11:29:21 +0000  QA_rec 1 0 1 7
+Sa, 11 Jul 2020 11:29:41 +0000  QA_rec 0 0 1 7
+Sa, 11 Jul 2020 11:29:41 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Um Omeltte zu machen, werde ich die Eier verrühren und dann braten., Q_cen-braten
+Sa, 11 Jul 2020 11:29:42 +0000  QA_rec 1 0 1 8
+Sa, 11 Jul 2020 11:30:02 +0000  QA_rec 0 0 1 8
+Sa, 11 Jul 2020 11:30:02 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Wir haben einige sehr schöne Orte besucht., Q_cen-besucht
+Sa, 11 Jul 2020 11:30:03 +0000  QA_rec 1 0 1 9
+Sa, 11 Jul 2020 11:30:23 +0000  QA_rec 0 0 1 9
+Sa, 11 Jul 2020 11:30:23 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Dieses Brot ist maschinell hergestellt worden., Q_cen-hergestellt
+Sa, 11 Jul 2020 11:30:24 +0000  QA_rec 1 0 1 10
+Sa, 11 Jul 2020 11:30:44 +0000  QA_rec 0 0 1 10
+Sa, 11 Jul 2020 11:30:44 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Der Fluss fließt an der Grenze entlang., Q_cen-fließt
+Sa, 11 Jul 2020 11:30:45 +0000  QA_rec 1 0 1 11
+Sa, 11 Jul 2020 11:31:05 +0000  QA_rec 0 0 1 11
+Sa, 11 Jul 2020 11:31:05 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Meine Fenster sind schmutzig, ich muss sie putzen., Q_cen-putzen
+Sa, 11 Jul 2020 11:31:06 +0000  QA_rec 1 0 1 12
+Sa, 11 Jul 2020 11:31:26 +0000  QA_rec 0 0 1 12
+Sa, 11 Jul 2020 11:31:26 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Wer viele CO2-Emissionen produziert, belastet die Umwelt., Q_cen-belastet
+Sa, 11 Jul 2020 11:31:27 +0000  QA_rec 1 0 1 13
+Sa, 11 Jul 2020 11:31:47 +0000  QA_rec 0 0 1 13
+Sa, 11 Jul 2020 11:31:47 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Ich habe mich schon oft über den schrecklichen Service beschwert., Q_cen-beschwert
+Sa, 11 Jul 2020 11:31:48 +0000  QA_rec 1 0 1 14
+Sa, 11 Jul 2020 11:32:08 +0000  QA_rec 0 0 1 14
+Sa, 11 Jul 2020 11:32:08 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Ich werde meinen Geburtstag morgen mit meinen Freunden feiern., Q_cen-feiern
+Sa, 11 Jul 2020 11:32:09 +0000  QA_rec 1 0 1 15
+Sa, 11 Jul 2020 11:32:29 +0000  QA_rec 0 0 1 15
+Sa, 11 Jul 2020 11:32:29 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Morgen will er probieren, ob seine Theorie auch in der Praxis stimmt., Q_cen-probieren
+Sa, 11 Jul 2020 11:32:30 +0000  QA_rec 1 0 1 16
+Sa, 11 Jul 2020 11:32:50 +0000  QA_rec 0 0 1 16
+Sa, 11 Jul 2020 11:32:50 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Morgen werden wir um sieben Uhr aufstehen., Q_cen-aufstehen
+Sa, 11 Jul 2020 11:32:51 +0000  QA_rec 1 0 1 17
+Sa, 11 Jul 2020 11:33:11 +0000  QA_rec 0 0 1 17
+Sa, 11 Jul 2020 11:33:11 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Lange dünne Nudeln nennt man Spaghetti., Q_cen-nennt
+Sa, 11 Jul 2020 11:33:12 +0000  QA_rec 1 0 1 18
+Sa, 11 Jul 2020 11:33:32 +0000  QA_rec 0 0 1 18
+Sa, 11 Jul 2020 11:33:32 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Ich gratuliere dir zum Abschluss mit höchster Auszeichnung. , Q_cen-gratuliere
+Sa, 11 Jul 2020 11:33:33 +0000  QA_rec 1 0 1 19
+Sa, 11 Jul 2020 11:33:53 +0000  QA_rec 0 0 1 19
+Sa, 11 Jul 2020 11:33:53 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Ich möchte einen Flug nach Spanien buchen., Q_cen-buchen
+Sa, 11 Jul 2020 11:33:54 +0000  QA_rec 1 0 1 20
+Sa, 11 Jul 2020 11:34:14 +0000  QA_rec 0 0 1 20
+Sa, 11 Jul 2020 11:34:14 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Die Kinder basteln Puppen aus Filz und Watte., Q_cen-basteln
+Sa, 11 Jul 2020 11:34:15 +0000  QA_rec 1 0 1 21
+Sa, 11 Jul 2020 11:34:35 +0000  QA_rec 0 0 1 21
+Sa, 11 Jul 2020 11:34:35 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-In der Pause werden kleine Brötchen serviert., Q_cen-serviert
+Sa, 11 Jul 2020 11:34:36 +0000  QA_rec 1 0 1 22
+Sa, 11 Jul 2020 11:34:56 +0000  QA_rec 0 0 1 22
+Sa, 11 Jul 2020 11:34:56 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Schauen Sie nach draußen, der Schnee fällt., Q_cen-fällt
+Sa, 11 Jul 2020 11:34:57 +0000  QA_rec 1 0 1 23
+Sa, 11 Jul 2020 11:35:17 +0000  QA_rec 0 0 1 23
+Sa, 11 Jul 2020 11:35:17 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Mit dieser neuen Kamera kann man bei jedem Licht fotografieren., Q_cen-fotografieren
+Sa, 11 Jul 2020 11:35:18 +0000  QA_rec 1 0 1 24
+Sa, 11 Jul 2020 11:35:38 +0000  QA_rec 0 0 1 24
+Sa, 11 Jul 2020 11:35:38 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Der Konzern kontrolliert die Mehrheit der Aktion., Q_cen-kontrolliert
