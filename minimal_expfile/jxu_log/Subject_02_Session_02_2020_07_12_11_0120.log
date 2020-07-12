@@ -1,0 +1,162 @@
+So, 12 Jul 2020 11:01:23 +0000  fade_in 1 1 None None
+So, 12 Jul 2020 11:01:58 +0000  fade_in 0 1 None None
+So, 12 Jul 2020 11:02:00 +0000  RS_intro 1 1 0 None
+So, 12 Jul 2020 11:02:23 +0000  RS_intro 0 1 0 None
+So, 12 Jul 2020 11:02:23 +0000  RS_rec 1 1 0 None
+So, 12 Jul 2020 11:05:26 +0000  RS_rec 0 1 close None
+So, 12 Jul 2020 11:05:26 +0000  RS_intro 1 1 1 None
+So, 12 Jul 2020 11:05:49 +0000  RS_intro 0 1 1 None
+So, 12 Jul 2020 11:05:49 +0000  RS_rec 1 1 1 None
+So, 12 Jul 2020 11:08:53 +0000  RS_rec 0 1 open None
+So, 12 Jul 2020 11:09:07 +0000  QA_intro 1 1 None None
+So, 12 Jul 2020 11:09:47 +0000  QA_intro 0 1 None None
+So, 12 Jul 2020 11:09:49 +0000  QA_rec 1 1 0 0
+So, 12 Jul 2020 11:10:09 +0000  QA_rec 0 1 0 0
+So, 12 Jul 2020 11:10:09 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Dank genügend Sonnenschein und Wasser können im Amazonaswald riesige Bäume wachsen., Q_cen-wachsen
+So, 12 Jul 2020 11:10:10 +0000  QA_rec 1 1 0 1
+So, 12 Jul 2020 11:10:30 +0000  QA_rec 0 1 0 1
+So, 12 Jul 2020 11:10:30 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Ich gehe ins Museum, um mir die Gemälde anzusehen., Q_cen-anzusehen
+So, 12 Jul 2020 11:10:31 +0000  QA_rec 1 1 0 2
+So, 12 Jul 2020 11:10:51 +0000  QA_rec 0 1 0 2
+So, 12 Jul 2020 11:10:51 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Ich muss den Anzug vor der Geschäftsreise in den Koffer einpacken., Q_cen-einpacken
+So, 12 Jul 2020 11:10:52 +0000  QA_rec 1 1 0 3
+So, 12 Jul 2020 11:11:12 +0000  QA_rec 0 1 0 3
+So, 12 Jul 2020 11:11:12 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Der Wirkstoff im Kaffee heißt Koffein., Q_cen-heißt
+So, 12 Jul 2020 11:11:13 +0000  QA_rec 1 1 0 4
+So, 12 Jul 2020 11:11:34 +0000  QA_rec 0 1 0 4
+So, 12 Jul 2020 11:11:34 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Er konnte auf alle Fragen des Quiz antworten., Q_cen-antworten
+So, 12 Jul 2020 11:11:35 +0000  QA_rec 1 1 0 5
+So, 12 Jul 2020 11:11:55 +0000  QA_rec 0 1 0 5
+So, 12 Jul 2020 11:11:55 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Der Lehrer unterrichtet Schüler und bringt ihnen verschiedene Dinge bei., Q_cen-unterrichtet
+So, 12 Jul 2020 11:11:56 +0000  QA_rec 1 1 0 6
+So, 12 Jul 2020 11:12:16 +0000  QA_rec 0 1 0 6
+So, 12 Jul 2020 11:12:16 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Entweder hat mir jemand die Geldtasche gestohlen oder ich habe sie verloren., Q_cen-verloren
+So, 12 Jul 2020 11:12:17 +0000  QA_rec 1 1 0 7
+So, 12 Jul 2020 11:12:37 +0000  QA_rec 0 1 0 7
+So, 12 Jul 2020 11:12:37 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Mit dem Rezept kann man die Medizin in der Apotheke kaufen., Q_cen-kaufen
+So, 12 Jul 2020 11:12:38 +0000  QA_rec 1 1 0 8
+So, 12 Jul 2020 11:12:58 +0000  QA_rec 0 1 0 8
+So, 12 Jul 2020 11:12:58 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Ich denke immer an meine Kindheit zurück., Q_cen-denke
+So, 12 Jul 2020 11:12:59 +0000  QA_rec 1 1 0 9
+So, 12 Jul 2020 11:13:19 +0000  QA_rec 0 1 0 9
+So, 12 Jul 2020 11:13:19 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Ich habe probiert, ihn zu überreden, aber er will nicht uns gehen. , Q_cen-probiert
+So, 12 Jul 2020 11:13:20 +0000  QA_rec 1 1 0 10
+So, 12 Jul 2020 11:13:40 +0000  QA_rec 0 1 0 10
+So, 12 Jul 2020 11:13:40 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Wenn ich im Unterricht aufpasse, werde ich den Test sicher bestehen., Q_cen-aufpasse
+So, 12 Jul 2020 11:13:41 +0000  QA_rec 1 1 0 11
+So, 12 Jul 2020 11:14:01 +0000  QA_rec 0 1 0 11
+So, 12 Jul 2020 11:14:01 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Der Arzt wollte ihm verwehren, seinen Vater zu besuchen., Q_cen-besuchen
+So, 12 Jul 2020 11:14:02 +0000  QA_rec 1 1 0 12
+So, 12 Jul 2020 11:14:22 +0000  QA_rec 0 1 0 12
+So, 12 Jul 2020 11:14:22 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Der Mörder wollte die Gründe für seine Tat nicht nennen., Q_cen-nennen
+So, 12 Jul 2020 11:14:23 +0000  QA_rec 1 1 0 13
+So, 12 Jul 2020 11:14:43 +0000  QA_rec 0 1 0 13
+So, 12 Jul 2020 11:14:43 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Der Spender möchte anonym bleiben., Q_cen-bleiben
+So, 12 Jul 2020 11:14:44 +0000  QA_rec 1 1 0 14
+So, 12 Jul 2020 11:15:04 +0000  QA_rec 0 1 0 14
+So, 12 Jul 2020 11:15:04 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Wir mussten ein amtliches Formular ausfüllen, als wir geheiratet haben., Q_cen-ausfüllen
+So, 12 Jul 2020 11:15:05 +0000  QA_rec 1 1 0 15
+So, 12 Jul 2020 11:15:25 +0000  QA_rec 0 1 0 15
+So, 12 Jul 2020 11:15:25 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Wer im Glashaus sitzt, soll nicht mit Steinen werfen., Q_cen-werfen
+So, 12 Jul 2020 11:15:26 +0000  QA_rec 1 1 0 16
+So, 12 Jul 2020 11:15:46 +0000  QA_rec 0 1 0 16
+So, 12 Jul 2020 11:15:46 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Was wünschst du dir zum Geburtstag?, Q_cen-wünschst
+So, 12 Jul 2020 11:15:47 +0000  QA_rec 1 1 0 17
+So, 12 Jul 2020 11:16:07 +0000  QA_rec 0 1 0 17
+So, 12 Jul 2020 11:16:07 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Seit der Urzeit haben die Menschen an Götter geglaubt., Q_cen-geglaubt
+So, 12 Jul 2020 11:16:08 +0000  QA_rec 1 1 0 18
+So, 12 Jul 2020 11:16:28 +0000  QA_rec 0 1 0 18
+So, 12 Jul 2020 11:16:28 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Wir bleiben heute zu Hause, weil wir zu müde sind., Q_cen-bleiben
+So, 12 Jul 2020 11:16:29 +0000  QA_rec 1 1 0 19
+So, 12 Jul 2020 11:16:49 +0000  QA_rec 0 1 0 19
+So, 12 Jul 2020 11:16:49 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Kann ich mich um das Stipendium bewerben?, Q_cen-bewerben
+So, 12 Jul 2020 11:16:50 +0000  QA_rec 1 1 0 20
+So, 12 Jul 2020 11:17:10 +0000  QA_rec 0 1 0 20
+So, 12 Jul 2020 11:17:10 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Du musst die Verantwortung für deine Taten übernehmen., Q_cen-übernehmen
+So, 12 Jul 2020 11:17:11 +0000  QA_rec 1 1 0 21
+So, 12 Jul 2020 11:17:31 +0000  QA_rec 0 1 0 21
+So, 12 Jul 2020 11:17:31 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-In der Morgen wasche ich mein Gesicht., Q_cen-wasche
+So, 12 Jul 2020 11:17:32 +0000  QA_rec 1 1 0 22
+So, 12 Jul 2020 11:17:52 +0000  QA_rec 0 1 0 22
+So, 12 Jul 2020 11:17:52 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Ich hoffe, dass alles gut geht. , Q_cen-hoffe
+So, 12 Jul 2020 11:17:53 +0000  QA_rec 1 1 0 23
+So, 12 Jul 2020 11:18:13 +0000  QA_rec 0 1 0 23
+So, 12 Jul 2020 11:18:13 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Ich legte meine Geldbörse auf den Tisch., Q_cen-legte
+So, 12 Jul 2020 11:18:14 +0000  QA_rec 1 1 0 24
+So, 12 Jul 2020 11:18:34 +0000  QA_rec 0 1 0 24
+So, 12 Jul 2020 11:18:34 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Manche Politiker wollen den Frieden auf Erden sichern., Q_cen-sichern
+So, 12 Jul 2020 11:18:53 +0000  QA_rec 1 1 1 0
+So, 12 Jul 2020 11:19:13 +0000  QA_rec 0 1 1 0
+So, 12 Jul 2020 11:19:13 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Das Programm kannst Du kostenlos herunterladen., Q_cen-herunterladen
+So, 12 Jul 2020 11:19:14 +0000  QA_rec 1 1 1 1
+So, 12 Jul 2020 11:19:34 +0000  QA_rec 0 1 1 1
+So, 12 Jul 2020 11:19:34 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Im Nil schwimmen heilige Krokodile., Q_cen-schwimmen
+So, 12 Jul 2020 11:19:35 +0000  QA_rec 1 1 1 2
+So, 12 Jul 2020 11:19:55 +0000  QA_rec 0 1 1 2
+So, 12 Jul 2020 11:19:55 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Ich habe meine Schuhe für die Hochzeit geputzt., Q_cen-geputzt
+So, 12 Jul 2020 11:19:56 +0000  QA_rec 1 1 1 3
+So, 12 Jul 2020 11:20:16 +0000  QA_rec 0 1 1 3
+So, 12 Jul 2020 11:20:16 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Sie beschrieb der Polizei den Dieb so genau, dass diese ihn festnehmen konnnte., Q_cen-beschrieb
+So, 12 Jul 2020 11:20:17 +0000  QA_rec 1 1 1 4
+So, 12 Jul 2020 11:20:37 +0000  QA_rec 0 1 1 4
+So, 12 Jul 2020 11:20:37 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Ich möchte einen Tisch für das Abendessen reservieren., Q_cen-reservieren
+So, 12 Jul 2020 11:20:38 +0000  QA_rec 1 1 1 5
+So, 12 Jul 2020 11:20:58 +0000  QA_rec 0 1 1 5
+So, 12 Jul 2020 11:20:58 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Es dauerte lange, alle nötigen Informationen zu sammeln., Q_cen-sammeln
+So, 12 Jul 2020 11:20:59 +0000  QA_rec 1 1 1 6
+So, 12 Jul 2020 11:21:19 +0000  QA_rec 0 1 1 6
+So, 12 Jul 2020 11:21:19 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Wenn du dich in einer gefährlichen Situation befindest, rufe nach Hilfe., Q_cen-rufe
+So, 12 Jul 2020 11:21:21 +0000  QA_rec 1 1 1 7
+So, 12 Jul 2020 11:21:41 +0000  QA_rec 0 1 1 7
+So, 12 Jul 2020 11:21:41 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-In der Küche steht noch das schumutzige Geschirr vom Frühstück., Q_cen-steht
+So, 12 Jul 2020 11:21:42 +0000  QA_rec 1 1 1 8
+So, 12 Jul 2020 11:22:02 +0000  QA_rec 0 1 1 8
+So, 12 Jul 2020 11:22:02 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Im Kaffeehaus sitzen und Zeitung lesen, das gefällt den Österreichern., Q_cen-gefällt
+So, 12 Jul 2020 11:22:03 +0000  QA_rec 1 1 1 9
+So, 12 Jul 2020 11:22:23 +0000  QA_rec 0 1 1 9
+So, 12 Jul 2020 11:22:23 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Ich habe mir ein neues Ziel gesetzt, das ich erreichen möchte., Q_cen-erreichen
+So, 12 Jul 2020 11:22:24 +0000  QA_rec 1 1 1 10
+So, 12 Jul 2020 11:22:44 +0000  QA_rec 0 1 1 10
+So, 12 Jul 2020 11:22:44 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Howard Carter hat viele Schätze im Grab von Tutanchamun gefunden., Q_cen-gefunden
+So, 12 Jul 2020 11:22:45 +0000  QA_rec 1 1 1 11
+So, 12 Jul 2020 11:23:05 +0000  QA_rec 0 1 1 11
+So, 12 Jul 2020 11:23:05 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Das iPhone wurde von Kalifornien entworfen und in China hergestellt. , Q_cen-hergestellt
+So, 12 Jul 2020 11:23:06 +0000  QA_rec 1 1 1 12
+So, 12 Jul 2020 11:23:26 +0000  QA_rec 0 1 1 12
+So, 12 Jul 2020 11:23:26 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Ein gutes Gehalt heißt oft harte Arbeit., Q_cen-heißt
+So, 12 Jul 2020 11:23:27 +0000  QA_rec 1 1 1 13
+So, 12 Jul 2020 11:23:47 +0000  QA_rec 0 1 1 13
+So, 12 Jul 2020 11:23:47 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Floras Eltern machen eine Kreuzfahrt mit einem riesigen Schiff auf dem Meer., Q_cen-machen
+So, 12 Jul 2020 11:23:48 +0000  QA_rec 1 1 1 14
+So, 12 Jul 2020 11:24:08 +0000  QA_rec 0 1 1 14
+So, 12 Jul 2020 11:24:08 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Ich habe den schrecklichen Verdacht, dass Hans das Geld gestohlen hat., Q_cen-gestohlen
+So, 12 Jul 2020 11:24:09 +0000  QA_rec 1 1 1 15
+So, 12 Jul 2020 11:24:29 +0000  QA_rec 0 1 1 15
+So, 12 Jul 2020 11:24:29 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich bin der Überzeugung, dass er es rechtzeitig schaffen kann., Q_cen-schaffen
+So, 12 Jul 2020 11:24:30 +0000  QA_rec 1 1 1 16
+So, 12 Jul 2020 11:24:50 +0000  QA_rec 0 1 1 16
+So, 12 Jul 2020 11:24:50 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Er möchte sich für meine Hilfe bedanken., Q_cen-bedanken
+So, 12 Jul 2020 11:24:51 +0000  QA_rec 1 1 1 17
+So, 12 Jul 2020 11:25:11 +0000  QA_rec 0 1 1 17
+So, 12 Jul 2020 11:25:11 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Im Mittelalter öffnete das erste Kaufhaus in Europa., Q_cen-öffnete
+So, 12 Jul 2020 11:25:12 +0000  QA_rec 1 1 1 18
+So, 12 Jul 2020 11:25:32 +0000  QA_rec 0 1 1 18
+So, 12 Jul 2020 11:25:32 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Abgase werden das Klima schädigen., Q_cen-schädigen
+So, 12 Jul 2020 11:25:33 +0000  QA_rec 1 1 1 19
+So, 12 Jul 2020 11:25:53 +0000  QA_rec 0 1 1 19
+So, 12 Jul 2020 11:25:53 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Sie müssen vorsichtig die Anleitung für Elektrogeräte lesen., Q_cen-lesen
+So, 12 Jul 2020 11:25:54 +0000  QA_rec 1 1 1 20
+So, 12 Jul 2020 11:26:14 +0000  QA_rec 0 1 1 20
+So, 12 Jul 2020 11:26:14 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Junge Leute machen gerne Partys., Q_cen-machen
+So, 12 Jul 2020 11:26:15 +0000  QA_rec 1 1 1 21
+So, 12 Jul 2020 11:26:35 +0000  QA_rec 0 1 1 21
+So, 12 Jul 2020 11:26:35 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Im Sommer brauchen wir ein Moskitonetz, damit wir nicht gestochen werden., Q_cen-brauchen
+So, 12 Jul 2020 11:26:36 +0000  QA_rec 1 1 1 22
+So, 12 Jul 2020 11:26:56 +0000  QA_rec 0 1 1 22
+So, 12 Jul 2020 11:26:56 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Dieser Bus bringt dich zum Strand., Q_cen-bringt
+So, 12 Jul 2020 11:26:57 +0000  QA_rec 1 1 1 23
+So, 12 Jul 2020 11:27:17 +0000  QA_rec 0 1 1 23
+So, 12 Jul 2020 11:27:17 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Beim Spinat und Kohl wird man die Blätter essen., Q_cen-essen
+So, 12 Jul 2020 11:27:18 +0000  QA_rec 1 1 1 24
+So, 12 Jul 2020 11:27:38 +0000  QA_rec 0 1 1 24
+So, 12 Jul 2020 11:27:38 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Wenn eine Erkältung hat, kann mann niesen oder husten., Q_cen-husten

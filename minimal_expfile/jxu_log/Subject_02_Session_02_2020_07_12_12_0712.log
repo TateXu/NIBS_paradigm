@@ -1,0 +1,162 @@
+So, 12 Jul 2020 12:07:15 +0000  fade_in 1 3 None None
+So, 12 Jul 2020 12:07:45 +0000  fade_in 0 3 None None
+So, 12 Jul 2020 12:07:47 +0000  RS_intro 1 3 0 None
+So, 12 Jul 2020 12:08:10 +0000  RS_intro 0 3 0 None
+So, 12 Jul 2020 12:08:10 +0000  RS_rec 1 3 0 None
+So, 12 Jul 2020 12:11:14 +0000  RS_rec 0 3 close None
+So, 12 Jul 2020 12:11:14 +0000  RS_intro 1 3 1 None
+So, 12 Jul 2020 12:11:37 +0000  RS_intro 0 3 1 None
+So, 12 Jul 2020 12:11:37 +0000  RS_rec 1 3 1 None
+So, 12 Jul 2020 12:14:40 +0000  RS_rec 0 3 open None
+So, 12 Jul 2020 12:14:54 +0000  QA_intro 1 3 None None
+So, 12 Jul 2020 12:15:35 +0000  QA_intro 0 3 None None
+So, 12 Jul 2020 12:15:37 +0000  QA_rec 1 3 0 0
+So, 12 Jul 2020 12:15:57 +0000  QA_rec 0 3 0 0
+So, 12 Jul 2020 12:15:57 +0000  Run-3, Block-0, Trial-0, Q_cnt-150, Q_sen-Sie kümmert sich nur um ihre eigenen Angelegenheiten., Q_cen-kümmert
+So, 12 Jul 2020 12:15:58 +0000  QA_rec 1 3 0 1
+So, 12 Jul 2020 12:16:18 +0000  QA_rec 0 3 0 1
+So, 12 Jul 2020 12:16:18 +0000  Run-3, Block-0, Trial-1, Q_cnt-151, Q_sen-Dem Patienten geht es viel besser, so dass der Arzt ihm das Rauchen erlaubte., Q_cen-erlaubte
+So, 12 Jul 2020 12:16:19 +0000  QA_rec 1 3 0 2
+So, 12 Jul 2020 12:16:39 +0000  QA_rec 0 3 0 2
+So, 12 Jul 2020 12:16:39 +0000  Run-3, Block-0, Trial-2, Q_cnt-152, Q_sen-Er hat den Vorgang im Tagebuch beschrieben., Q_cen-beschrieben
+So, 12 Jul 2020 12:16:40 +0000  QA_rec 1 3 0 3
+So, 12 Jul 2020 12:17:00 +0000  QA_rec 0 3 0 3
+So, 12 Jul 2020 12:17:00 +0000  Run-3, Block-0, Trial-3, Q_cnt-153, Q_sen-Zu Ostern gibt es für Kinder Ostereier und Süßigkeiten., Q_cen-gibt
+So, 12 Jul 2020 12:17:01 +0000  QA_rec 1 3 0 4
+So, 12 Jul 2020 12:17:21 +0000  QA_rec 0 3 0 4
+So, 12 Jul 2020 12:17:21 +0000  Run-3, Block-0, Trial-4, Q_cnt-154, Q_sen-Wenn ich einmal angefangen habe, kann mich nichts mehr aufhalten., Q_cen-aufhalten
+So, 12 Jul 2020 12:17:22 +0000  QA_rec 1 3 0 5
+So, 12 Jul 2020 12:17:42 +0000  QA_rec 0 3 0 5
+So, 12 Jul 2020 12:17:42 +0000  Run-3, Block-0, Trial-5, Q_cnt-155, Q_sen-Wir werden später bestellen, denn es fehlen noch einige Gäste., Q_cen-fehlen
+So, 12 Jul 2020 12:17:43 +0000  QA_rec 1 3 0 6
+So, 12 Jul 2020 12:18:03 +0000  QA_rec 0 3 0 6
+So, 12 Jul 2020 12:18:03 +0000  Run-3, Block-0, Trial-6, Q_cnt-156, Q_sen-Bitte waschen Sie Ihre Hände mit Seife., Q_cen-waschen
+So, 12 Jul 2020 12:18:04 +0000  QA_rec 1 3 0 7
+So, 12 Jul 2020 12:18:24 +0000  QA_rec 0 3 0 7
+So, 12 Jul 2020 12:18:24 +0000  Run-3, Block-0, Trial-7, Q_cnt-157, Q_sen-Solange es regnet, bleiben wir hier., Q_cen-bleiben
+So, 12 Jul 2020 12:18:25 +0000  QA_rec 1 3 0 8
+So, 12 Jul 2020 12:18:45 +0000  QA_rec 0 3 0 8
+So, 12 Jul 2020 12:18:45 +0000  Run-3, Block-0, Trial-8, Q_cnt-158, Q_sen-Die vier Jahreszeiten heißen Frühling, Sommer, Herbst und Winter., Q_cen-heißen
+So, 12 Jul 2020 12:18:46 +0000  QA_rec 1 3 0 9
+So, 12 Jul 2020 12:19:06 +0000  QA_rec 0 3 0 9
+So, 12 Jul 2020 12:19:06 +0000  Run-3, Block-0, Trial-9, Q_cnt-159, Q_sen-Er ist zu schwach, um eine Firma zu führen., Q_cen-führen
+So, 12 Jul 2020 12:19:07 +0000  QA_rec 1 3 0 10
+So, 12 Jul 2020 12:19:27 +0000  QA_rec 0 3 0 10
+So, 12 Jul 2020 12:19:27 +0000  Run-3, Block-0, Trial-10, Q_cnt-160, Q_sen-Wir essen Salat oft ungekocht., Q_cen-essen
+So, 12 Jul 2020 12:19:28 +0000  QA_rec 1 3 0 11
+So, 12 Jul 2020 12:19:48 +0000  QA_rec 0 3 0 11
+So, 12 Jul 2020 12:19:48 +0000  Run-3, Block-0, Trial-11, Q_cnt-161, Q_sen-Muss ich mit dem Bus fahren oder kann ich zu Fuß gehen?, Q_cen-gehen
+So, 12 Jul 2020 12:19:49 +0000  QA_rec 1 3 0 12
+So, 12 Jul 2020 12:20:09 +0000  QA_rec 0 3 0 12
+So, 12 Jul 2020 12:20:09 +0000  Run-3, Block-0, Trial-12, Q_cnt-162, Q_sen-Planeten kreisen um eine Sonne., Q_cen-kreisen
+So, 12 Jul 2020 12:20:10 +0000  QA_rec 1 3 0 13
+So, 12 Jul 2020 12:20:30 +0000  QA_rec 0 3 0 13
+So, 12 Jul 2020 12:20:30 +0000  Run-3, Block-0, Trial-13, Q_cnt-163, Q_sen-Meine dicke Katze muss abnehmen., Q_cen-abnehmen
+So, 12 Jul 2020 12:20:31 +0000  QA_rec 1 3 0 14
+So, 12 Jul 2020 12:20:51 +0000  QA_rec 0 3 0 14
+So, 12 Jul 2020 12:20:51 +0000  Run-3, Block-0, Trial-14, Q_cnt-164, Q_sen-Bitte reservieren Sie einen Platz, bevor Sie ins Restaurant gehen., Q_cen-reservieren
+So, 12 Jul 2020 12:20:52 +0000  QA_rec 1 3 0 15
+So, 12 Jul 2020 12:21:12 +0000  QA_rec 0 3 0 15
+So, 12 Jul 2020 12:21:12 +0000  Run-3, Block-0, Trial-15, Q_cnt-165, Q_sen-Sie sollten mehr Obst essen, Vitamin C wird Ihnen bei Erkältungen helfen., Q_cen-helfen
+So, 12 Jul 2020 12:21:13 +0000  QA_rec 1 3 0 16
+So, 12 Jul 2020 12:21:34 +0000  QA_rec 0 3 0 16
+So, 12 Jul 2020 12:21:34 +0000  Run-3, Block-0, Trial-16, Q_cnt-166, Q_sen-Sam trinkt gerne eine Tasse Kaffee mit einem Stück Kuchen, Q_cen-trinkt
+So, 12 Jul 2020 12:21:35 +0000  QA_rec 1 3 0 17
+So, 12 Jul 2020 12:21:55 +0000  QA_rec 0 3 0 17
+So, 12 Jul 2020 12:21:55 +0000  Run-3, Block-0, Trial-17, Q_cnt-167, Q_sen-Wir sollten das Menü auf ein grünes Blatt Papier drucken., Q_cen-drucken
+So, 12 Jul 2020 12:21:56 +0000  QA_rec 1 3 0 18
+So, 12 Jul 2020 12:22:16 +0000  QA_rec 0 3 0 18
+So, 12 Jul 2020 12:22:16 +0000  Run-3, Block-0, Trial-18, Q_cnt-168, Q_sen-Ich habe gestern einen interessanten Mann kennen gelernt., Q_cen-kennen
+So, 12 Jul 2020 12:22:17 +0000  QA_rec 1 3 0 19
+So, 12 Jul 2020 12:22:37 +0000  QA_rec 0 3 0 19
+So, 12 Jul 2020 12:22:37 +0000  Run-3, Block-0, Trial-19, Q_cnt-169, Q_sen-Ich nehme nie Dinge, die anderen gehören., Q_cen-gehören
+So, 12 Jul 2020 12:22:38 +0000  QA_rec 1 3 0 20
+So, 12 Jul 2020 12:22:58 +0000  QA_rec 0 3 0 20
+So, 12 Jul 2020 12:22:58 +0000  Run-3, Block-0, Trial-20, Q_cnt-170, Q_sen-Du kannst alle Lehrmaterialien von moodle herunterladen., Q_cen-herunterladen
+So, 12 Jul 2020 12:22:59 +0000  QA_rec 1 3 0 21
+So, 12 Jul 2020 12:23:19 +0000  QA_rec 0 3 0 21
+So, 12 Jul 2020 12:23:19 +0000  Run-3, Block-0, Trial-21, Q_cnt-171, Q_sen-Der Mond umkreist die Erde in ungefähr achtundzwanzig Tagen., Q_cen-umkreist
+So, 12 Jul 2020 12:23:20 +0000  QA_rec 1 3 0 22
+So, 12 Jul 2020 12:23:40 +0000  QA_rec 0 3 0 22
+So, 12 Jul 2020 12:23:40 +0000  Run-3, Block-0, Trial-22, Q_cnt-172, Q_sen-Das Buch war witzig, ich habe stundenlang gelacht., Q_cen-gelacht
+So, 12 Jul 2020 12:23:41 +0000  QA_rec 1 3 0 23
+So, 12 Jul 2020 12:24:01 +0000  QA_rec 0 3 0 23
+So, 12 Jul 2020 12:24:01 +0000  Run-3, Block-0, Trial-23, Q_cnt-173, Q_sen-Bewegung und gesunde Ernährung gehören zu einer gesunden Lebensweise., Q_cen-gehören
+So, 12 Jul 2020 12:24:02 +0000  QA_rec 1 3 0 24
+So, 12 Jul 2020 12:24:22 +0000  QA_rec 0 3 0 24
+So, 12 Jul 2020 12:24:22 +0000  Run-3, Block-0, Trial-24, Q_cnt-174, Q_sen-Das Eingreifen des Lehrers beendete den Kampf  der Schüler., Q_cen-beendete
+So, 12 Jul 2020 12:24:42 +0000  QA_rec 1 3 1 0
+So, 12 Jul 2020 12:25:02 +0000  QA_rec 0 3 1 0
+So, 12 Jul 2020 12:25:02 +0000  Run-3, Block-1, Trial-0, Q_cnt-175, Q_sen-Ich würde sehr froh, wenn meine Familie 5 Millionen Euro gewinnen würde., Q_cen-gewinnen
+So, 12 Jul 2020 12:25:03 +0000  QA_rec 1 3 1 1
+So, 12 Jul 2020 12:25:23 +0000  QA_rec 0 3 1 1
+So, 12 Jul 2020 12:25:23 +0000  Run-3, Block-1, Trial-1, Q_cnt-176, Q_sen-Das ist zu spät, ich möchte nach Hause gehen., Q_cen-gehen
+So, 12 Jul 2020 12:25:24 +0000  QA_rec 1 3 1 2
+So, 12 Jul 2020 12:25:44 +0000  QA_rec 0 3 1 2
+So, 12 Jul 2020 12:25:44 +0000  Run-3, Block-1, Trial-2, Q_cnt-177, Q_sen-Wir müssen jemanden mit mehr Erfahrung für diese wichtige Position einstellen., Q_cen-einstellen
+So, 12 Jul 2020 12:25:45 +0000  QA_rec 1 3 1 3
+So, 12 Jul 2020 12:26:05 +0000  QA_rec 0 3 1 3
+So, 12 Jul 2020 12:26:05 +0000  Run-3, Block-1, Trial-3, Q_cnt-178, Q_sen-Im Frühling besuchen viele Touristen unserer Hauptstadt., Q_cen-besuchen
+So, 12 Jul 2020 12:26:06 +0000  QA_rec 1 3 1 4
+So, 12 Jul 2020 12:26:26 +0000  QA_rec 0 3 1 4
+So, 12 Jul 2020 12:26:26 +0000  Run-3, Block-1, Trial-4, Q_cnt-179, Q_sen-Die alte Zimmerdecke muss man renovieren., Q_cen-renovieren
+So, 12 Jul 2020 12:26:27 +0000  QA_rec 1 3 1 5
+So, 12 Jul 2020 12:26:47 +0000  QA_rec 0 3 1 5
+So, 12 Jul 2020 12:26:47 +0000  Run-3, Block-1, Trial-5, Q_cnt-180, Q_sen-Bei der Ausreise wird der Pass kontrolliert., Q_cen-kontrolliert
+So, 12 Jul 2020 12:26:48 +0000  QA_rec 1 3 1 6
+So, 12 Jul 2020 12:27:08 +0000  QA_rec 0 3 1 6
+So, 12 Jul 2020 12:27:08 +0000  Run-3, Block-1, Trial-6, Q_cnt-181, Q_sen-Der Zahnarzt untersuchte meine Zunge genau., Q_cen-untersuchte
+So, 12 Jul 2020 12:27:09 +0000  QA_rec 1 3 1 7
+So, 12 Jul 2020 12:27:29 +0000  QA_rec 0 3 1 7
+So, 12 Jul 2020 12:27:29 +0000  Run-3, Block-1, Trial-7, Q_cnt-182, Q_sen-Bald wird in den USA ein neuer Präsident gewählt., Q_cen-gewählt
+So, 12 Jul 2020 12:27:30 +0000  QA_rec 1 3 1 8
+So, 12 Jul 2020 12:27:50 +0000  QA_rec 0 3 1 8
+So, 12 Jul 2020 12:27:50 +0000  Run-3, Block-1, Trial-8, Q_cnt-183, Q_sen-Um Mitternacht schließt das Lokal., Q_cen-schließt
+So, 12 Jul 2020 12:27:51 +0000  QA_rec 1 3 1 9
+So, 12 Jul 2020 12:28:12 +0000  QA_rec 0 3 1 9
+So, 12 Jul 2020 12:28:12 +0000  Run-3, Block-1, Trial-9, Q_cnt-184, Q_sen-Ein junges Ehepaar ist gerade in das neue Haus neben unserem eingezogen., Q_cen-eingezogen
+So, 12 Jul 2020 12:28:13 +0000  QA_rec 1 3 1 10
+So, 12 Jul 2020 12:28:33 +0000  QA_rec 0 3 1 10
+So, 12 Jul 2020 12:28:33 +0000  Run-3, Block-1, Trial-10, Q_cnt-185, Q_sen-Wir sollen unsere Hände täglich aus Hygiene waschen., Q_cen-waschen
+So, 12 Jul 2020 12:28:34 +0000  QA_rec 1 3 1 11
+So, 12 Jul 2020 12:28:54 +0000  QA_rec 0 3 1 11
+So, 12 Jul 2020 12:28:54 +0000  Run-3, Block-1, Trial-11, Q_cnt-186, Q_sen-Ich möchte meinen tiefen Dank für seine Hilfe aussprechen., Q_cen-aussprechen
+So, 12 Jul 2020 12:28:55 +0000  QA_rec 1 3 1 12
+So, 12 Jul 2020 12:29:15 +0000  QA_rec 0 3 1 12
+So, 12 Jul 2020 12:29:15 +0000  Run-3, Block-1, Trial-12, Q_cnt-187, Q_sen-Wir haben den Empfang der Sendung bestätigt., Q_cen-bestätigt
+So, 12 Jul 2020 12:29:16 +0000  QA_rec 1 3 1 13
+So, 12 Jul 2020 12:29:36 +0000  QA_rec 0 3 1 13
+So, 12 Jul 2020 12:29:36 +0000  Run-3, Block-1, Trial-13, Q_cnt-188, Q_sen-Lisa kann schon mit großen Zahlen rechnen., Q_cen-rechnen
+So, 12 Jul 2020 12:29:37 +0000  QA_rec 1 3 1 14
+So, 12 Jul 2020 12:29:57 +0000  QA_rec 0 3 1 14
+So, 12 Jul 2020 12:29:57 +0000  Run-3, Block-1, Trial-14, Q_cnt-189, Q_sen-Grossbritannien hat die EU verlassen., Q_cen-verlassen
+So, 12 Jul 2020 12:29:58 +0000  QA_rec 1 3 1 15
+So, 12 Jul 2020 12:30:18 +0000  QA_rec 0 3 1 15
+So, 12 Jul 2020 12:30:18 +0000  Run-3, Block-1, Trial-15, Q_cnt-190, Q_sen-Der Weg führt durch den Wald., Q_cen-führt
+So, 12 Jul 2020 12:30:19 +0000  QA_rec 1 3 1 16
+So, 12 Jul 2020 12:30:39 +0000  QA_rec 0 3 1 16
+So, 12 Jul 2020 12:30:39 +0000  Run-3, Block-1, Trial-16, Q_cnt-191, Q_sen-Man wird damit bargeldlos bezahlen können., Q_cen-bezahlen
+So, 12 Jul 2020 12:30:40 +0000  QA_rec 1 3 1 17
+So, 12 Jul 2020 12:31:00 +0000  QA_rec 0 3 1 17
+So, 12 Jul 2020 12:31:00 +0000  Run-3, Block-1, Trial-17, Q_cnt-192, Q_sen-Während einer Trocken-Zeit regnet es sehr selten., Q_cen-regnet
+So, 12 Jul 2020 12:31:01 +0000  QA_rec 1 3 1 18
+So, 12 Jul 2020 12:31:21 +0000  QA_rec 0 3 1 18
+So, 12 Jul 2020 12:31:21 +0000  Run-3, Block-1, Trial-18, Q_cnt-193, Q_sen-Ein Flüchtling ist jemand , der aus Not seine Heimat verlässt., Q_cen-verlässt
+So, 12 Jul 2020 12:31:22 +0000  QA_rec 1 3 1 19
+So, 12 Jul 2020 12:31:42 +0000  QA_rec 0 3 1 19
+So, 12 Jul 2020 12:31:42 +0000  Run-3, Block-1, Trial-19, Q_cnt-194, Q_sen-Diese beiden Handschuhe gehören zusammen., Q_cen-gehören
+So, 12 Jul 2020 12:31:43 +0000  QA_rec 1 3 1 20
+So, 12 Jul 2020 12:32:03 +0000  QA_rec 0 3 1 20
+So, 12 Jul 2020 12:32:03 +0000  Run-3, Block-1, Trial-20, Q_cnt-195, Q_sen-Er hängte seine Jacke über die Lehne des Stuhls., Q_cen-hängte
+So, 12 Jul 2020 12:32:04 +0000  QA_rec 1 3 1 21
+So, 12 Jul 2020 12:32:24 +0000  QA_rec 0 3 1 21
+So, 12 Jul 2020 12:32:24 +0000  Run-3, Block-1, Trial-21, Q_cnt-196, Q_sen-Befristete Verträge enden automatisch, wenn sie nicht erneuert werden., Q_cen-enden
+So, 12 Jul 2020 12:32:25 +0000  QA_rec 1 3 1 22
+So, 12 Jul 2020 12:32:45 +0000  QA_rec 0 3 1 22
+So, 12 Jul 2020 12:32:45 +0000  Run-3, Block-1, Trial-22, Q_cnt-197, Q_sen-Diese Dame ist US-Bürgerin, wurde aber in Deutschland geboren., Q_cen-geboren
+So, 12 Jul 2020 12:32:46 +0000  QA_rec 1 3 1 23
+So, 12 Jul 2020 12:33:06 +0000  QA_rec 0 3 1 23
+So, 12 Jul 2020 12:33:06 +0000  Run-3, Block-1, Trial-23, Q_cnt-198, Q_sen-Ferdinand Magellan hat als Erster die Welt umsegelt., Q_cen-umsegelt
+So, 12 Jul 2020 12:33:07 +0000  QA_rec 1 3 1 24
+So, 12 Jul 2020 12:33:27 +0000  QA_rec 0 3 1 24
+So, 12 Jul 2020 12:33:27 +0000  Run-3, Block-1, Trial-24, Q_cnt-199, Q_sen-Er antwortete schnell auf meine Frage., Q_cen-antwortete
