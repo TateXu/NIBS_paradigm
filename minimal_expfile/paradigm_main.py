@@ -101,11 +101,11 @@ n_question = n_run * n_block * n_trial + n_cali_trial * 2
 
 fs = 44100  # Sample rate of audio !!! For recording not playing!!!
 n_rec_chn = 1
-
+ 
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each run
-stim_freq = 10.0
+stim_freq = 0.0
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
@@ -236,7 +236,6 @@ if init_flag:
     break_qa_trial = (None if expInfo['Breakpoint_QA_trial'] == 'No' else int(expInfo['Breakpoint_QA_trial']))
 
     if external_question_flag:
-
         pre_load_qa_df = pd.read_pickle(
             './qa_info/S{0}_Session{1}_unshattered_beep_df.pkl'.format(
                 str(int(expInfo['participant'])).zfill(2), str(int(expInfo['session'])) ))
