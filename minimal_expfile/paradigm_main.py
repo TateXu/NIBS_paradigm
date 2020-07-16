@@ -105,7 +105,7 @@ n_rec_chn = 1
 stim_run = [1, 2]  # In which run, the stimulation is applied.
 init_intensity, min_intensity, max_intensity = 0.002, 0.005, 0.5
 intensity_goal = [0, max_intensity, max_intensity, 0]  # i.e., of each run
-stim_freq = 4.0
+stim_freq = 40.0
 fade_in_auto_incre = 6
 n_step_fade_stim = 5
 
@@ -147,7 +147,7 @@ artifact_text_dur = artifact_break_start + artifact_break_dur
 
 
 cali_intro_start, cali_intro_dur, cali_intro_cont_dur = 0, 30, None  # Audio 29s
-cali_intro_cont_start = cali_intro_start + cali_intro_dur + comp_gap
+cali_intro_cont_start = cali_intro_start + cali_intro_dur  + comp_gap
 
 # 30s version: 0, 2, 5, 1, 17, 1, 2
 # 20s version: 0, 2, 1, 1, 11, 1, 2
