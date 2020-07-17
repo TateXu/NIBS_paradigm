@@ -1,0 +1,162 @@
+Fr, 17 Jul 2020 15:30:18 +0000  fade_in 1 1 None None
+Fr, 17 Jul 2020 15:30:53 +0000  fade_in 0 1 None None
+Fr, 17 Jul 2020 15:30:55 +0000  RS_intro 1 1 0 None
+Fr, 17 Jul 2020 15:31:18 +0000  RS_intro 0 1 0 None
+Fr, 17 Jul 2020 15:31:18 +0000  RS_rec 1 1 0 None
+Fr, 17 Jul 2020 15:34:21 +0000  RS_rec 0 1 close None
+Fr, 17 Jul 2020 15:34:21 +0000  RS_intro 1 1 1 None
+Fr, 17 Jul 2020 15:34:44 +0000  RS_intro 0 1 1 None
+Fr, 17 Jul 2020 15:34:44 +0000  RS_rec 1 1 1 None
+Fr, 17 Jul 2020 15:37:47 +0000  RS_rec 0 1 open None
+Fr, 17 Jul 2020 15:38:01 +0000  QA_intro 1 1 None None
+Fr, 17 Jul 2020 15:38:44 +0000  QA_intro 0 1 None None
+Fr, 17 Jul 2020 15:38:46 +0000  QA_rec 1 1 0 0
+Fr, 17 Jul 2020 15:39:06 +0000  QA_rec 0 1 0 0
+Fr, 17 Jul 2020 15:39:06 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Diese Grafik hat die Ergebnisse deutlich dargestellt., Q_cen-dargestellt
+Fr, 17 Jul 2020 15:39:07 +0000  QA_rec 1 1 0 1
+Fr, 17 Jul 2020 15:39:27 +0000  QA_rec 0 1 0 1
+Fr, 17 Jul 2020 15:39:27 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Vor dem Supermarkt kann man auf einer großen Fläche parken. , Q_cen-parken
+Fr, 17 Jul 2020 15:39:28 +0000  QA_rec 1 1 0 2
+Fr, 17 Jul 2020 15:39:48 +0000  QA_rec 0 1 0 2
+Fr, 17 Jul 2020 15:39:48 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-An der Kasse bezahlen wir mit Bankomatkarte., Q_cen-bezahlen
+Fr, 17 Jul 2020 15:39:49 +0000  QA_rec 1 1 0 3
+Fr, 17 Jul 2020 15:40:09 +0000  QA_rec 0 1 0 3
+Fr, 17 Jul 2020 15:40:09 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Das Buch war witzig, ich habe stundenlang gelacht., Q_cen-gelacht
+Fr, 17 Jul 2020 15:40:10 +0000  QA_rec 1 1 0 4
+Fr, 17 Jul 2020 15:40:30 +0000  QA_rec 0 1 0 4
+Fr, 17 Jul 2020 15:40:30 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Ein rotes Signal bedeutet, dass ich warten muss., Q_cen-bedeutet
+Fr, 17 Jul 2020 15:40:31 +0000  QA_rec 1 1 0 5
+Fr, 17 Jul 2020 15:40:51 +0000  QA_rec 0 1 0 5
+Fr, 17 Jul 2020 15:40:51 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Ich muss das Buch zurückgeben, das mir ein Freund geliehen hat., Q_cen-geliehen
+Fr, 17 Jul 2020 15:40:52 +0000  QA_rec 1 1 0 6
+Fr, 17 Jul 2020 15:41:12 +0000  QA_rec 0 1 0 6
+Fr, 17 Jul 2020 15:41:12 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Ich möchte einen weiteren Test durchführen, um die Ergebnisse zu prüfen., Q_cen-prüfen
+Fr, 17 Jul 2020 15:41:13 +0000  QA_rec 1 1 0 7
+Fr, 17 Jul 2020 15:41:33 +0000  QA_rec 0 1 0 7
+Fr, 17 Jul 2020 15:41:33 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Ich nehme nicht gerne Zucker zum Tee., Q_cen-nehme
+Fr, 17 Jul 2020 15:41:34 +0000  QA_rec 1 1 0 8
+Fr, 17 Jul 2020 15:41:54 +0000  QA_rec 0 1 0 8
+Fr, 17 Jul 2020 15:41:54 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Alle Wege führen nach Rom., Q_cen-führen
+Fr, 17 Jul 2020 15:41:55 +0000  QA_rec 1 1 0 9
+Fr, 17 Jul 2020 15:42:15 +0000  QA_rec 0 1 0 9
+Fr, 17 Jul 2020 15:42:15 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Er ist ein ehrlicher Mann, der nie lügt., Q_cen-lügt
+Fr, 17 Jul 2020 15:42:16 +0000  QA_rec 1 1 0 10
+Fr, 17 Jul 2020 15:42:36 +0000  QA_rec 0 1 0 10
+Fr, 17 Jul 2020 15:42:36 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Ich habe eine verletzte Hand, kannst du bitte die Knöpfe meiner Jacke öffnen?, Q_cen-öffnen
+Fr, 17 Jul 2020 15:42:37 +0000  QA_rec 1 1 0 11
+Fr, 17 Jul 2020 15:42:57 +0000  QA_rec 0 1 0 11
+Fr, 17 Jul 2020 15:42:57 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Die Lampe hängt über dem Bett., Q_cen-hängt
+Fr, 17 Jul 2020 15:42:58 +0000  QA_rec 1 1 0 12
+Fr, 17 Jul 2020 15:43:18 +0000  QA_rec 0 1 0 12
+Fr, 17 Jul 2020 15:43:18 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Mit dem neuen System können wir Dokumente effizienter organisieren., Q_cen-organisieren
+Fr, 17 Jul 2020 15:43:19 +0000  QA_rec 1 1 0 13
+Fr, 17 Jul 2020 15:43:39 +0000  QA_rec 0 1 0 13
+Fr, 17 Jul 2020 15:43:39 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Die Deutschen sind immer organisiert und werden alles planen, bevor sie irgendetwas tun., Q_cen-planen
+Fr, 17 Jul 2020 15:43:40 +0000  QA_rec 1 1 0 14
+Fr, 17 Jul 2020 15:44:00 +0000  QA_rec 0 1 0 14
+Fr, 17 Jul 2020 15:44:00 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Die Reparatur wird um ein hundert Euro kosten., Q_cen-kosten
+Fr, 17 Jul 2020 15:44:01 +0000  QA_rec 1 1 0 15
+Fr, 17 Jul 2020 15:44:21 +0000  QA_rec 0 1 0 15
+Fr, 17 Jul 2020 15:44:21 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Die Verkäuferin beantwortete meine Fragen und konnte mich beraten., Q_cen-beraten
+Fr, 17 Jul 2020 15:44:22 +0000  QA_rec 1 1 0 16
+Fr, 17 Jul 2020 15:44:42 +0000  QA_rec 0 1 0 16
+Fr, 17 Jul 2020 15:44:42 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Ich glaube nicht, dass es regnen wird, aber ich werde für alle Fälle einen Schirm mitnehmen., Q_cen-glaube
+Fr, 17 Jul 2020 15:44:43 +0000  QA_rec 1 1 0 17
+Fr, 17 Jul 2020 15:45:03 +0000  QA_rec 0 1 0 17
+Fr, 17 Jul 2020 15:45:03 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Halloween wurde schon von den Kelten gefeiert., Q_cen-gefeiert
+Fr, 17 Jul 2020 15:45:04 +0000  QA_rec 1 1 0 18
+Fr, 17 Jul 2020 15:45:24 +0000  QA_rec 0 1 0 18
+Fr, 17 Jul 2020 15:45:24 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht., Q_cen-gebucht
+Fr, 17 Jul 2020 15:45:25 +0000  QA_rec 1 1 0 19
+Fr, 17 Jul 2020 15:45:46 +0000  QA_rec 0 1 0 19
+Fr, 17 Jul 2020 15:45:46 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Meine kleine Schwester spielt draußen im Garten., Q_cen-spielt
+Fr, 17 Jul 2020 15:45:47 +0000  QA_rec 1 1 0 20
+Fr, 17 Jul 2020 15:46:07 +0000  QA_rec 0 1 0 20
+Fr, 17 Jul 2020 15:46:07 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Der Detektiv ist ihm bis zu seinem Haus gefolgt., Q_cen-gefolgt
+Fr, 17 Jul 2020 15:46:08 +0000  QA_rec 1 1 0 21
+Fr, 17 Jul 2020 15:46:28 +0000  QA_rec 0 1 0 21
+Fr, 17 Jul 2020 15:46:28 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Er heißt tatsächlich Alexander doch alle nennen ihn Alex., Q_cen-nennen
+Fr, 17 Jul 2020 15:46:29 +0000  QA_rec 1 1 0 22
+Fr, 17 Jul 2020 15:46:49 +0000  QA_rec 0 1 0 22
+Fr, 17 Jul 2020 15:46:49 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Die Erklärungen des Lehrers haben absolut Sinn ergeben., Q_cen-ergeben
+Fr, 17 Jul 2020 15:46:50 +0000  QA_rec 1 1 0 23
+Fr, 17 Jul 2020 15:47:10 +0000  QA_rec 0 1 0 23
+Fr, 17 Jul 2020 15:47:10 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Ein Regenbogen besteht aus vielen Farben., Q_cen-besteht
+Fr, 17 Jul 2020 15:47:11 +0000  QA_rec 1 1 0 24
+Fr, 17 Jul 2020 15:47:31 +0000  QA_rec 0 1 0 24
+Fr, 17 Jul 2020 15:47:31 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Meine dicke Katze muss abnehmen., Q_cen-abnehmen
+Fr, 17 Jul 2020 15:47:48 +0000  QA_rec 1 1 1 0
+Fr, 17 Jul 2020 15:48:08 +0000  QA_rec 0 1 1 0
+Fr, 17 Jul 2020 15:48:08 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Früh übt sich, wer ein Meister werden will., Q_cen-werden
+Fr, 17 Jul 2020 15:48:09 +0000  QA_rec 1 1 1 1
+Fr, 17 Jul 2020 15:48:29 +0000  QA_rec 0 1 1 1
+Fr, 17 Jul 2020 15:48:29 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Sie kümmert sich nur um ihre eigenen Angelegenheiten., Q_cen-kümmert
+Fr, 17 Jul 2020 15:48:30 +0000  QA_rec 1 1 1 2
+Fr, 17 Jul 2020 15:48:50 +0000  QA_rec 0 1 1 2
+Fr, 17 Jul 2020 15:48:50 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Zu Beginn der Konferenz wird der Präsident eine Rede halten., Q_cen-halten
+Fr, 17 Jul 2020 15:48:51 +0000  QA_rec 1 1 1 3
+Fr, 17 Jul 2020 15:49:11 +0000  QA_rec 0 1 1 3
+Fr, 17 Jul 2020 15:49:11 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Befristete Verträge enden automatisch, wenn sie nicht erneuert werden., Q_cen-enden
+Fr, 17 Jul 2020 15:49:12 +0000  QA_rec 1 1 1 4
+Fr, 17 Jul 2020 15:49:32 +0000  QA_rec 0 1 1 4
+Fr, 17 Jul 2020 15:49:32 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Ich koche die Kartoffeln für die Kartoffelsuppe., Q_cen-koche
+Fr, 17 Jul 2020 15:49:33 +0000  QA_rec 1 1 1 5
+Fr, 17 Jul 2020 15:49:53 +0000  QA_rec 0 1 1 5
+Fr, 17 Jul 2020 15:49:53 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Du muss deine schmutzige Kleidung in der Wäscherei waschen., Q_cen-waschen
+Fr, 17 Jul 2020 15:49:54 +0000  QA_rec 1 1 1 6
+Fr, 17 Jul 2020 15:50:14 +0000  QA_rec 0 1 1 6
+Fr, 17 Jul 2020 15:50:14 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Er hilft der alten Frau beim Einsteigen ins Auto., Q_cen-hilft
+Fr, 17 Jul 2020 15:50:15 +0000  QA_rec 1 1 1 7
+Fr, 17 Jul 2020 15:50:35 +0000  QA_rec 0 1 1 7
+Fr, 17 Jul 2020 15:50:35 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Wenn man seine Zähne putzt, muss er die Zahnpasta auf Zahnbürste pressen., Q_cen-putzt
+Fr, 17 Jul 2020 15:50:36 +0000  QA_rec 1 1 1 8
+Fr, 17 Jul 2020 15:50:56 +0000  QA_rec 0 1 1 8
+Fr, 17 Jul 2020 15:50:56 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Bitte zieh deinen Mantel an, es ist kalt draußen., Q_cen-zieh
+Fr, 17 Jul 2020 15:50:57 +0000  QA_rec 1 1 1 9
+Fr, 17 Jul 2020 15:51:17 +0000  QA_rec 0 1 1 9
+Fr, 17 Jul 2020 15:51:17 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Wir sollten das Menü auf ein grünes Blatt Papier drucken., Q_cen-drucken
+Fr, 17 Jul 2020 15:51:18 +0000  QA_rec 1 1 1 10
+Fr, 17 Jul 2020 15:51:38 +0000  QA_rec 0 1 1 10
+Fr, 17 Jul 2020 15:51:38 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Mein Bett ist gemütlich und warm, ich möchte nicht aufstehen., Q_cen-aufstehen
+Fr, 17 Jul 2020 15:51:39 +0000  QA_rec 1 1 1 11
+Fr, 17 Jul 2020 15:51:59 +0000  QA_rec 0 1 1 11
+Fr, 17 Jul 2020 15:51:59 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Es hat die ganze Woche geregnet, aber heute scheint endlich die Sonne. , Q_cen-scheint
+Fr, 17 Jul 2020 15:52:00 +0000  QA_rec 1 1 1 12
+Fr, 17 Jul 2020 15:52:20 +0000  QA_rec 0 1 1 12
+Fr, 17 Jul 2020 15:52:20 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Er bevorzugt die Farben gelb, orange und rot., Q_cen-bevorzugt
+Fr, 17 Jul 2020 15:52:21 +0000  QA_rec 1 1 1 13
+Fr, 17 Jul 2020 15:52:41 +0000  QA_rec 0 1 1 13
+Fr, 17 Jul 2020 15:52:41 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Das Auto wurde in Deutschland hergestellt., Q_cen-hergestellt
+Fr, 17 Jul 2020 15:52:42 +0000  QA_rec 1 1 1 14
+Fr, 17 Jul 2020 15:53:02 +0000  QA_rec 0 1 1 14
+Fr, 17 Jul 2020 15:53:02 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Chris hat Zahnschmerzen, aber er fürchtet sich vor dem Zahnarzt., Q_cen-fürchtet
+Fr, 17 Jul 2020 15:53:03 +0000  QA_rec 1 1 1 15
+Fr, 17 Jul 2020 15:53:23 +0000  QA_rec 0 1 1 15
+Fr, 17 Jul 2020 15:53:23 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich habe keine Ahnung, wie viel du für das Auto gezahlt hast, aber lass mich mal raten., Q_cen-raten
+Fr, 17 Jul 2020 15:53:24 +0000  QA_rec 1 1 1 16
+Fr, 17 Jul 2020 15:53:44 +0000  QA_rec 0 1 1 16
+Fr, 17 Jul 2020 15:53:44 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Ihr Regenschirm kann Sie vor dem Regen schützen., Q_cen-schützen
+Fr, 17 Jul 2020 15:53:45 +0000  QA_rec 1 1 1 17
+Fr, 17 Jul 2020 15:54:05 +0000  QA_rec 0 1 1 17
+Fr, 17 Jul 2020 15:54:05 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Die Regierung plant, mehr Arbeitsplätze für junge Menschen zu schaffen., Q_cen-schaffen
+Fr, 17 Jul 2020 15:54:06 +0000  QA_rec 1 1 1 18
+Fr, 17 Jul 2020 15:54:26 +0000  QA_rec 0 1 1 18
+Fr, 17 Jul 2020 15:54:26 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Der ganze Kurs bestand die Prüfung., Q_cen-bestand
+Fr, 17 Jul 2020 15:54:27 +0000  QA_rec 1 1 1 19
+Fr, 17 Jul 2020 15:54:47 +0000  QA_rec 0 1 1 19
+Fr, 17 Jul 2020 15:54:47 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Der Assistent ging zurück ins Büro, um die Dokumente zu holen., Q_cen-holen
+Fr, 17 Jul 2020 15:54:48 +0000  QA_rec 1 1 1 20
+Fr, 17 Jul 2020 15:55:08 +0000  QA_rec 0 1 1 20
+Fr, 17 Jul 2020 15:55:08 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Grossbritannien hat die EU verlassen., Q_cen-verlassen
+Fr, 17 Jul 2020 15:55:09 +0000  QA_rec 1 1 1 21
+Fr, 17 Jul 2020 15:55:30 +0000  QA_rec 0 1 1 21
+Fr, 17 Jul 2020 15:55:30 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Um Mitternacht schließt das Lokal., Q_cen-schließt
+Fr, 17 Jul 2020 15:55:31 +0000  QA_rec 1 1 1 22
+Fr, 17 Jul 2020 15:55:51 +0000  QA_rec 0 1 1 22
+Fr, 17 Jul 2020 15:55:51 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Der Mond umkreist die Erde in ungefähr achtundzwanzig Tagen., Q_cen-umkreist
+Fr, 17 Jul 2020 15:55:52 +0000  QA_rec 1 1 1 23
+Fr, 17 Jul 2020 15:56:12 +0000  QA_rec 0 1 1 23
+Fr, 17 Jul 2020 15:56:12 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Rom wurde nicht an einem Tag erbaut., Q_cen-erbaut
+Fr, 17 Jul 2020 15:56:13 +0000  QA_rec 1 1 1 24
+Fr, 17 Jul 2020 15:56:33 +0000  QA_rec 0 1 1 24
+Fr, 17 Jul 2020 15:56:33 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
