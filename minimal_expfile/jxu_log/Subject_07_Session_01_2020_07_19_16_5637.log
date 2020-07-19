@@ -1,0 +1,162 @@
+So, 19 Jul 2020 16:56:40 +0000  fade_in 1 1 None None
+So, 19 Jul 2020 16:57:14 +0000  fade_in 0 1 None None
+So, 19 Jul 2020 16:57:16 +0000  RS_intro 1 1 0 None
+So, 19 Jul 2020 16:57:39 +0000  RS_intro 0 1 0 None
+So, 19 Jul 2020 16:57:39 +0000  RS_rec 1 1 0 None
+So, 19 Jul 2020 17:00:43 +0000  RS_rec 0 1 open None
+So, 19 Jul 2020 17:00:43 +0000  RS_intro 1 1 1 None
+So, 19 Jul 2020 17:01:06 +0000  RS_intro 0 1 1 None
+So, 19 Jul 2020 17:01:06 +0000  RS_rec 1 1 1 None
+So, 19 Jul 2020 17:04:09 +0000  RS_rec 0 1 close None
+So, 19 Jul 2020 17:04:24 +0000  QA_intro 1 1 None None
+So, 19 Jul 2020 17:05:05 +0000  QA_intro 0 1 None None
+So, 19 Jul 2020 17:05:07 +0000  QA_rec 1 1 0 0
+So, 19 Jul 2020 17:05:27 +0000  QA_rec 0 1 0 0
+So, 19 Jul 2020 17:05:27 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Sie hat den Kuchen in einer runden Form gebacken., Q_cen-gebacken
+So, 19 Jul 2020 17:05:28 +0000  QA_rec 1 1 0 1
+So, 19 Jul 2020 17:05:48 +0000  QA_rec 0 1 0 1
+So, 19 Jul 2020 17:05:48 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Ich legte meine Geldbörse auf den Tisch., Q_cen-legte
+So, 19 Jul 2020 17:05:49 +0000  QA_rec 1 1 0 2
+So, 19 Jul 2020 17:06:09 +0000  QA_rec 0 1 0 2
+So, 19 Jul 2020 17:06:09 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit belohnt., Q_cen-belohnt
+So, 19 Jul 2020 17:06:10 +0000  QA_rec 1 1 0 3
+So, 19 Jul 2020 17:06:30 +0000  QA_rec 0 1 0 3
+So, 19 Jul 2020 17:06:30 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Finden Sie nicht, er hat sich nach dem Tod seines Kindes völlig verändert?, Q_cen-verändert
+So, 19 Jul 2020 17:06:31 +0000  QA_rec 1 1 0 4
+So, 19 Jul 2020 17:06:51 +0000  QA_rec 0 1 0 4
+So, 19 Jul 2020 17:06:51 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Mein Opa war beim Ohren-Arzt, weil er so schlecht hört., Q_cen-hört
+So, 19 Jul 2020 17:06:52 +0000  QA_rec 1 1 0 5
+So, 19 Jul 2020 17:07:12 +0000  QA_rec 0 1 0 5
+So, 19 Jul 2020 17:07:12 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Afrika liegt südlich von Europa ., Q_cen-liegt
+So, 19 Jul 2020 17:07:13 +0000  QA_rec 1 1 0 6
+So, 19 Jul 2020 17:07:33 +0000  QA_rec 0 1 0 6
+So, 19 Jul 2020 17:07:33 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Salz und Pfeffer machten das Steak genießbar., Q_cen-machten
+So, 19 Jul 2020 17:07:34 +0000  QA_rec 1 1 0 7
+So, 19 Jul 2020 17:07:54 +0000  QA_rec 0 1 0 7
+So, 19 Jul 2020 17:07:54 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Wer soll den Geschirrspüler einräumen?, Q_cen-einräumen
+So, 19 Jul 2020 17:07:55 +0000  QA_rec 1 1 0 8
+So, 19 Jul 2020 17:08:15 +0000  QA_rec 0 1 0 8
+So, 19 Jul 2020 17:08:15 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Howard Carter hat viele Schätze im Grab von Tutanchamun gefunden., Q_cen-gefunden
+So, 19 Jul 2020 17:08:16 +0000  QA_rec 1 1 0 9
+So, 19 Jul 2020 17:08:36 +0000  QA_rec 0 1 0 9
+So, 19 Jul 2020 17:08:36 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Wissen Sie, wer als erster Bergsteiger den Mount Everest bestiegen hat?, Q_cen-bestiegen
+So, 19 Jul 2020 17:08:37 +0000  QA_rec 1 1 0 10
+So, 19 Jul 2020 17:08:57 +0000  QA_rec 0 1 0 10
+So, 19 Jul 2020 17:08:57 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Im ganzen Umkreis war kein Haus zu finden., Q_cen-finden
+So, 19 Jul 2020 17:08:58 +0000  QA_rec 1 1 0 11
+So, 19 Jul 2020 17:09:18 +0000  QA_rec 0 1 0 11
+So, 19 Jul 2020 17:09:18 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Um eine Kreditkarte zu bewerben, muss man älter als 18 werden. , Q_cen-bewerben
+So, 19 Jul 2020 17:09:19 +0000  QA_rec 1 1 0 12
+So, 19 Jul 2020 17:09:39 +0000  QA_rec 0 1 0 12
+So, 19 Jul 2020 17:09:39 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Mit dieser neuen Kamera kann man bei jedem Licht fotografieren., Q_cen-fotografieren
+So, 19 Jul 2020 17:09:40 +0000  QA_rec 1 1 0 13
+So, 19 Jul 2020 17:10:00 +0000  QA_rec 0 1 0 13
+So, 19 Jul 2020 17:10:00 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Kannst du bitte die Wäsche in die Sonne hängen?, Q_cen-hängen
+So, 19 Jul 2020 17:10:01 +0000  QA_rec 1 1 0 14
+So, 19 Jul 2020 17:10:21 +0000  QA_rec 0 1 0 14
+So, 19 Jul 2020 17:10:21 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Im Kaffeehaus sitzen und Zeitung lesen, das gefällt den Österreichern., Q_cen-gefällt
+So, 19 Jul 2020 17:10:22 +0000  QA_rec 1 1 0 15
+So, 19 Jul 2020 17:10:42 +0000  QA_rec 0 1 0 15
+So, 19 Jul 2020 17:10:42 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Wo werden Sie Urlaub machen?, Q_cen-machen
+So, 19 Jul 2020 17:10:43 +0000  QA_rec 1 1 0 16
+So, 19 Jul 2020 17:11:03 +0000  QA_rec 0 1 0 16
+So, 19 Jul 2020 17:11:03 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Wir bestellten ein stück Hassnuss Kuchen zum Dessert., Q_cen-bestellten
+So, 19 Jul 2020 17:11:04 +0000  QA_rec 1 1 0 17
+So, 19 Jul 2020 17:11:24 +0000  QA_rec 0 1 0 17
+So, 19 Jul 2020 17:11:24 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Wenn ich im Unterricht aufpasse, werde ich den Test sicher bestehen., Q_cen-aufpasse
+So, 19 Jul 2020 17:11:25 +0000  QA_rec 1 1 0 18
+So, 19 Jul 2020 17:11:45 +0000  QA_rec 0 1 0 18
+So, 19 Jul 2020 17:11:45 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Die Flasche steht auf dem Tisch., Q_cen-steht
+So, 19 Jul 2020 17:11:46 +0000  QA_rec 1 1 0 19
+So, 19 Jul 2020 17:12:06 +0000  QA_rec 0 1 0 19
+So, 19 Jul 2020 17:12:06 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Die Fische leben in Flüssen , Seen und Meeren., Q_cen-leben
+So, 19 Jul 2020 17:12:07 +0000  QA_rec 1 1 0 20
+So, 19 Jul 2020 17:12:28 +0000  QA_rec 0 1 0 20
+So, 19 Jul 2020 17:12:28 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Das Mädchen kümmert sich um seine erkältete Mutter., Q_cen-kümmert
+So, 19 Jul 2020 17:12:29 +0000  QA_rec 1 1 0 21
+So, 19 Jul 2020 17:12:49 +0000  QA_rec 0 1 0 21
+So, 19 Jul 2020 17:12:49 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+So, 19 Jul 2020 17:12:50 +0000  QA_rec 1 1 0 22
+So, 19 Jul 2020 17:13:10 +0000  QA_rec 0 1 0 22
+So, 19 Jul 2020 17:13:10 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Simon hat riesige Bilder gemalt., Q_cen-gemalt
+So, 19 Jul 2020 17:13:11 +0000  QA_rec 1 1 0 23
+So, 19 Jul 2020 17:13:31 +0000  QA_rec 0 1 0 23
+So, 19 Jul 2020 17:13:31 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Ich wusste die Antwort nicht, also musste ich raten., Q_cen-raten
+So, 19 Jul 2020 17:13:32 +0000  QA_rec 1 1 0 24
+So, 19 Jul 2020 17:13:52 +0000  QA_rec 0 1 0 24
+So, 19 Jul 2020 17:13:52 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Der Bus fährt jede Stunde., Q_cen-fährt
+So, 19 Jul 2020 17:14:09 +0000  QA_rec 1 1 1 0
+So, 19 Jul 2020 17:14:29 +0000  QA_rec 0 1 1 0
+So, 19 Jul 2020 17:14:29 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Die Näherin hat ein Kleid für den Abschlussball genäht., Q_cen-genäht
+So, 19 Jul 2020 17:14:30 +0000  QA_rec 1 1 1 1
+So, 19 Jul 2020 17:14:50 +0000  QA_rec 0 1 1 1
+So, 19 Jul 2020 17:14:50 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Da er sehr reich ist, hat der Club ihn als Mitglied aufgenommen. , Q_cen-aufgenommen
+So, 19 Jul 2020 17:14:51 +0000  QA_rec 1 1 1 2
+So, 19 Jul 2020 17:15:11 +0000  QA_rec 0 1 1 2
+So, 19 Jul 2020 17:15:11 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Ich bin der Überzeugung, dass er es rechtzeitig schaffen kann., Q_cen-schaffen
+So, 19 Jul 2020 17:15:12 +0000  QA_rec 1 1 1 3
+So, 19 Jul 2020 17:15:32 +0000  QA_rec 0 1 1 3
+So, 19 Jul 2020 17:15:32 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Deine Haare sind so kurz, warst du beim Friseur?, Q_cen-warst
+So, 19 Jul 2020 17:15:33 +0000  QA_rec 1 1 1 4
+So, 19 Jul 2020 17:15:53 +0000  QA_rec 0 1 1 4
+So, 19 Jul 2020 17:15:53 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Wer viele CO2-Emissionen produziert, belastet die Umwelt., Q_cen-belastet
+So, 19 Jul 2020 17:15:54 +0000  QA_rec 1 1 1 5
+So, 19 Jul 2020 17:16:14 +0000  QA_rec 0 1 1 5
+So, 19 Jul 2020 17:16:14 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Wenn der Vulkan aktiv ist, wird Lava herausfließen., Q_cen-herausfließen
+So, 19 Jul 2020 17:16:15 +0000  QA_rec 1 1 1 6
+So, 19 Jul 2020 17:16:35 +0000  QA_rec 0 1 1 6
+So, 19 Jul 2020 17:16:35 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Der Bau des Gebäudes hat 3 Jahre gedauert und ist endlich fast abgeschlossen., Q_cen-abgeschlossen
+So, 19 Jul 2020 17:16:36 +0000  QA_rec 1 1 1 7
+So, 19 Jul 2020 17:16:56 +0000  QA_rec 0 1 1 7
+So, 19 Jul 2020 17:16:56 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Sie müssen vorsichtig die Anleitung für Elektrogeräte lesen., Q_cen-lesen
+So, 19 Jul 2020 17:16:57 +0000  QA_rec 1 1 1 8
+So, 19 Jul 2020 17:17:17 +0000  QA_rec 0 1 1 8
+So, 19 Jul 2020 17:17:17 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Kunden sollten Produkte sorgfältig prüfen, bevor sie sie kaufen., Q_cen-prüfen
+So, 19 Jul 2020 17:17:18 +0000  QA_rec 1 1 1 9
+So, 19 Jul 2020 17:17:38 +0000  QA_rec 0 1 1 9
+So, 19 Jul 2020 17:17:38 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Ich berichtete der Polizei alles, was ich gesehen hatte., Q_cen-berichtete
+So, 19 Jul 2020 17:17:39 +0000  QA_rec 1 1 1 10
+So, 19 Jul 2020 17:17:59 +0000  QA_rec 0 1 1 10
+So, 19 Jul 2020 17:17:59 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Ich möchte, dass Sie das Wort mit Ihren eigenen Worten erklären!, Q_cen-erklären
+So, 19 Jul 2020 17:18:00 +0000  QA_rec 1 1 1 11
+So, 19 Jul 2020 17:18:20 +0000  QA_rec 0 1 1 11
+So, 19 Jul 2020 17:18:20 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Ist es für den Vermieter möglich, den Mieter nach der Rechtslage zu kündigen?, Q_cen-kündigen
+So, 19 Jul 2020 17:18:21 +0000  QA_rec 1 1 1 12
+So, 19 Jul 2020 17:18:41 +0000  QA_rec 0 1 1 12
+So, 19 Jul 2020 17:18:41 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Da der Koffer bereits zu schwer ist, muss ich leichte Kleidung einpacken., Q_cen-einpacken
+So, 19 Jul 2020 17:18:42 +0000  QA_rec 1 1 1 13
+So, 19 Jul 2020 17:19:02 +0000  QA_rec 0 1 1 13
+So, 19 Jul 2020 17:19:02 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Ich habe gerade meine Bewerbung bei der Universität eingereicht. , Q_cen-eingereicht
+So, 19 Jul 2020 17:19:03 +0000  QA_rec 1 1 1 14
+So, 19 Jul 2020 17:19:23 +0000  QA_rec 0 1 1 14
+So, 19 Jul 2020 17:19:23 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Die Wissenschaftler aus der Physik heißen Physiker., Q_cen-heißen
+So, 19 Jul 2020 17:19:24 +0000  QA_rec 1 1 1 15
+So, 19 Jul 2020 17:19:44 +0000  QA_rec 0 1 1 15
+So, 19 Jul 2020 17:19:44 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Das Abendessen wird pünktlich um 12 Uhr auf den Tisch stehen., Q_cen-stehen
+So, 19 Jul 2020 17:19:45 +0000  QA_rec 1 1 1 16
+So, 19 Jul 2020 17:20:05 +0000  QA_rec 0 1 1 16
+So, 19 Jul 2020 17:20:05 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Ein Bauer hält auf seinem Tiere wie Kühe, Hühner oder Schweine., Q_cen-hält
+So, 19 Jul 2020 17:20:06 +0000  QA_rec 1 1 1 17
+So, 19 Jul 2020 17:20:26 +0000  QA_rec 0 1 1 17
+So, 19 Jul 2020 17:20:26 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Ich fühle die warme Sonne auf meiner Haut., Q_cen-fühle
+So, 19 Jul 2020 17:20:27 +0000  QA_rec 1 1 1 18
+So, 19 Jul 2020 17:20:47 +0000  QA_rec 0 1 1 18
+So, 19 Jul 2020 17:20:47 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Es dauerte lange, alle nötigen Informationen zu sammeln., Q_cen-sammeln
+So, 19 Jul 2020 17:20:48 +0000  QA_rec 1 1 1 19
+So, 19 Jul 2020 17:21:08 +0000  QA_rec 0 1 1 19
+So, 19 Jul 2020 17:21:08 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Die Produkte, die ich bestellt hatte, kamen drei Tage später an., Q_cen-kamen
+So, 19 Jul 2020 17:21:09 +0000  QA_rec 1 1 1 20
+So, 19 Jul 2020 17:21:29 +0000  QA_rec 0 1 1 20
+So, 19 Jul 2020 17:21:29 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Ich gehe ins Museum, um mir die Gemälde anzusehen., Q_cen-anzusehen
+So, 19 Jul 2020 17:21:30 +0000  QA_rec 1 1 1 21
+So, 19 Jul 2020 17:21:50 +0000  QA_rec 0 1 1 21
+So, 19 Jul 2020 17:21:50 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Bitte nimm meinen Mantel mit in die Garderobe., Q_cen-nimm
+So, 19 Jul 2020 17:21:51 +0000  QA_rec 1 1 1 22
+So, 19 Jul 2020 17:22:12 +0000  QA_rec 0 1 1 22
+So, 19 Jul 2020 17:22:12 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Wir freuen uns von Herzen über seine ausgezeichnete Leistung., Q_cen-freuen
+So, 19 Jul 2020 17:22:13 +0000  QA_rec 1 1 1 23
+So, 19 Jul 2020 17:22:33 +0000  QA_rec 0 1 1 23
+So, 19 Jul 2020 17:22:33 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Das Sprachinstitut bietet Kurse für Anfänger an., Q_cen-bietet
+So, 19 Jul 2020 17:22:34 +0000  QA_rec 1 1 1 24
+So, 19 Jul 2020 17:22:54 +0000  QA_rec 0 1 1 24
+So, 19 Jul 2020 17:22:54 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Normalerweise lese ich Zeitungen online., Q_cen-lese
