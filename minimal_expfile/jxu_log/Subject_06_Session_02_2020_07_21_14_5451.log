@@ -1,0 +1,162 @@
+Di, 21 Jul 2020 14:54:54 +0000  fade_in 1 1 None None
+Di, 21 Jul 2020 14:55:29 +0000  fade_in 0 1 None None
+Di, 21 Jul 2020 14:55:31 +0000  RS_intro 1 1 0 None
+Di, 21 Jul 2020 14:55:54 +0000  RS_intro 0 1 0 None
+Di, 21 Jul 2020 14:55:54 +0000  RS_rec 1 1 0 None
+Di, 21 Jul 2020 14:58:58 +0000  RS_rec 0 1 close None
+Di, 21 Jul 2020 14:58:58 +0000  RS_intro 1 1 1 None
+Di, 21 Jul 2020 14:59:21 +0000  RS_intro 0 1 1 None
+Di, 21 Jul 2020 14:59:21 +0000  RS_rec 1 1 1 None
+Di, 21 Jul 2020 15:02:24 +0000  RS_rec 0 1 open None
+Di, 21 Jul 2020 15:03:38 +0000  QA_intro 1 1 None None
+Di, 21 Jul 2020 15:04:20 +0000  QA_intro 0 1 None None
+Di, 21 Jul 2020 15:04:22 +0000  QA_rec 1 1 0 0
+Di, 21 Jul 2020 15:04:42 +0000  QA_rec 0 1 0 0
+Di, 21 Jul 2020 15:04:42 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Nach der Party mussten wir das Haus aufräumen., Q_cen-aufräumen
+Di, 21 Jul 2020 15:04:43 +0000  QA_rec 1 1 0 1
+Di, 21 Jul 2020 15:05:03 +0000  QA_rec 0 1 0 1
+Di, 21 Jul 2020 15:05:03 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-In Wien tanzt man gerne Walzer., Q_cen-tanzt
+Di, 21 Jul 2020 15:05:04 +0000  QA_rec 1 1 0 2
+Di, 21 Jul 2020 15:05:24 +0000  QA_rec 0 1 0 2
+Di, 21 Jul 2020 15:05:24 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Ihr Regenschirm kann Sie vor dem Regen schützen., Q_cen-schützen
+Di, 21 Jul 2020 15:05:25 +0000  QA_rec 1 1 0 3
+Di, 21 Jul 2020 15:05:45 +0000  QA_rec 0 1 0 3
+Di, 21 Jul 2020 15:05:45 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Morgen will er probieren, ob seine Theorie auch in der Praxis stimmt., Q_cen-probieren
+Di, 21 Jul 2020 15:05:46 +0000  QA_rec 1 1 0 4
+Di, 21 Jul 2020 15:06:06 +0000  QA_rec 0 1 0 4
+Di, 21 Jul 2020 15:06:06 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Ein Fußball Team besteht aus zehn Spielern und einem Tormann., Q_cen-besteht
+Di, 21 Jul 2020 15:06:07 +0000  QA_rec 1 1 0 5
+Di, 21 Jul 2020 15:06:27 +0000  QA_rec 0 1 0 5
+Di, 21 Jul 2020 15:06:27 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Der Flug nach New York wird mehrere Stunden dauern., Q_cen-dauern
+Di, 21 Jul 2020 15:06:28 +0000  QA_rec 1 1 0 6
+Di, 21 Jul 2020 15:06:48 +0000  QA_rec 0 1 0 6
+Di, 21 Jul 2020 15:06:48 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Mein älterer Bruder mag Rock spielen und hören., Q_cen-hören
+Di, 21 Jul 2020 15:06:49 +0000  QA_rec 1 1 0 7
+Di, 21 Jul 2020 15:07:09 +0000  QA_rec 0 1 0 7
+Di, 21 Jul 2020 15:07:09 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Mir ist etwas Unangenehmes passiert., Q_cen-passiert
+Di, 21 Jul 2020 15:07:10 +0000  QA_rec 1 1 0 8
+Di, 21 Jul 2020 15:07:30 +0000  QA_rec 0 1 0 8
+Di, 21 Jul 2020 15:07:30 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Ich habe gestern einen interessanten Mann kennen gelernt., Q_cen-kennen
+Di, 21 Jul 2020 15:07:31 +0000  QA_rec 1 1 0 9
+Di, 21 Jul 2020 15:07:51 +0000  QA_rec 0 1 0 9
+Di, 21 Jul 2020 15:07:51 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Sie kann noch immer nicht schlafen, weil ihre Ohren wie Türglocken klingeln., Q_cen-klingeln
+Di, 21 Jul 2020 15:07:52 +0000  QA_rec 1 1 0 10
+Di, 21 Jul 2020 15:08:12 +0000  QA_rec 0 1 0 10
+Di, 21 Jul 2020 15:08:12 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Grossbritannien hat die EU verlassen., Q_cen-verlassen
+Di, 21 Jul 2020 15:08:13 +0000  QA_rec 1 1 0 11
+Di, 21 Jul 2020 15:08:33 +0000  QA_rec 0 1 0 11
+Di, 21 Jul 2020 15:08:33 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Marco möchte den Brief zur Post bringen., Q_cen-bringen
+Di, 21 Jul 2020 15:08:34 +0000  QA_rec 1 1 0 12
+Di, 21 Jul 2020 15:08:54 +0000  QA_rec 0 1 0 12
+Di, 21 Jul 2020 15:08:54 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Ich kann mich noch gut an meinen ersten Schultag erinnern., Q_cen-erinnern
+Di, 21 Jul 2020 15:08:55 +0000  QA_rec 1 1 0 13
+Di, 21 Jul 2020 15:09:15 +0000  QA_rec 0 1 0 13
+Di, 21 Jul 2020 15:09:15 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Wir haben einige sehr schöne Orte besucht., Q_cen-besucht
+Di, 21 Jul 2020 15:09:16 +0000  QA_rec 1 1 0 14
+Di, 21 Jul 2020 15:09:36 +0000  QA_rec 0 1 0 14
+Di, 21 Jul 2020 15:09:36 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Ich kann prüfen, ob wir diese Hose auf Lager haben., Q_cen-prüfen
+Di, 21 Jul 2020 15:09:37 +0000  QA_rec 1 1 0 15
+Di, 21 Jul 2020 15:09:57 +0000  QA_rec 0 1 0 15
+Di, 21 Jul 2020 15:09:57 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Die Kinder basteln Puppen aus Filz und Watte., Q_cen-basteln
+Di, 21 Jul 2020 15:09:58 +0000  QA_rec 1 1 0 16
+Di, 21 Jul 2020 15:10:18 +0000  QA_rec 0 1 0 16
+Di, 21 Jul 2020 15:10:18 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Willi möchte gerne an der Universität Informatik studieren., Q_cen-studieren
+Di, 21 Jul 2020 15:10:19 +0000  QA_rec 1 1 0 17
+Di, 21 Jul 2020 15:10:39 +0000  QA_rec 0 1 0 17
+Di, 21 Jul 2020 15:10:39 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Bei der Ausreise wird der Pass kontrolliert., Q_cen-kontrolliert
+Di, 21 Jul 2020 15:10:40 +0000  QA_rec 1 1 0 18
+Di, 21 Jul 2020 15:11:00 +0000  QA_rec 0 1 0 18
+Di, 21 Jul 2020 15:11:00 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Ein gutes Gehalt heißt oft harte Arbeit., Q_cen-heißt
+Di, 21 Jul 2020 15:11:01 +0000  QA_rec 1 1 0 19
+Di, 21 Jul 2020 15:11:21 +0000  QA_rec 0 1 0 19
+Di, 21 Jul 2020 15:11:21 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-In den Zeitungen , im Radio und im Fernsehen wird regelmäßig über Sport berichtet., Q_cen-berichtet
+Di, 21 Jul 2020 15:11:22 +0000  QA_rec 1 1 0 20
+Di, 21 Jul 2020 15:11:42 +0000  QA_rec 0 1 0 20
+Di, 21 Jul 2020 15:11:42 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Habt ihr eine Ahnung, wie der Unfall passiert ist?, Q_cen-passiert
+Di, 21 Jul 2020 15:11:43 +0000  QA_rec 1 1 0 21
+Di, 21 Jul 2020 15:12:04 +0000  QA_rec 0 1 0 21
+Di, 21 Jul 2020 15:12:04 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Der Fischer musste das Netz einziehen, ohne etwas gefangen zu haben., Q_cen-einziehen
+Di, 21 Jul 2020 15:12:05 +0000  QA_rec 1 1 0 22
+Di, 21 Jul 2020 15:12:25 +0000  QA_rec 0 1 0 22
+Di, 21 Jul 2020 15:12:25 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Sie gehen diese Straße geradeaus und biegen an der ersten Kreuzung rechts ab., Q_cen-biegen
+Di, 21 Jul 2020 15:12:26 +0000  QA_rec 1 1 0 23
+Di, 21 Jul 2020 15:12:46 +0000  QA_rec 0 1 0 23
+Di, 21 Jul 2020 15:12:46 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Das Programm kannst Du kostenlos herunterladen., Q_cen-herunterladen
+Di, 21 Jul 2020 15:12:47 +0000  QA_rec 1 1 0 24
+Di, 21 Jul 2020 15:13:07 +0000  QA_rec 0 1 0 24
+Di, 21 Jul 2020 15:13:07 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Der Dieb wurde für sein Verbrechen bestraft., Q_cen-bestraft
+Di, 21 Jul 2020 15:13:24 +0000  QA_rec 1 1 1 0
+Di, 21 Jul 2020 15:13:44 +0000  QA_rec 0 1 1 0
+Di, 21 Jul 2020 15:13:44 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Er wird die Wurst mit Butter braten., Q_cen-braten
+Di, 21 Jul 2020 15:13:45 +0000  QA_rec 1 1 1 1
+Di, 21 Jul 2020 15:14:05 +0000  QA_rec 0 1 1 1
+Di, 21 Jul 2020 15:14:05 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Ich drückte den Knopf, um den Computer einzuschalten., Q_cen-drückte
+Di, 21 Jul 2020 15:14:06 +0000  QA_rec 1 1 1 2
+Di, 21 Jul 2020 15:14:26 +0000  QA_rec 0 1 1 2
+Di, 21 Jul 2020 15:14:26 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Meine Fenster sind schmutzig, ich muss sie putzen., Q_cen-putzen
+Di, 21 Jul 2020 15:14:27 +0000  QA_rec 1 1 1 3
+Di, 21 Jul 2020 15:14:47 +0000  QA_rec 0 1 1 3
+Di, 21 Jul 2020 15:14:47 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Alexander Bell hat das Telefon erfunden., Q_cen-erfunden
+Di, 21 Jul 2020 15:14:48 +0000  QA_rec 1 1 1 4
+Di, 21 Jul 2020 15:15:08 +0000  QA_rec 0 1 1 4
+Di, 21 Jul 2020 15:15:08 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Pinguine bewohnen die Antarktis, wie auch Robben und große Seelöwen., Q_cen-bewohnen
+Di, 21 Jul 2020 15:15:09 +0000  QA_rec 1 1 1 5
+Di, 21 Jul 2020 15:15:29 +0000  QA_rec 0 1 1 5
+Di, 21 Jul 2020 15:15:29 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-An Regentagen benutzen die Leute einen Regenschirm., Q_cen-benutzen
+Di, 21 Jul 2020 15:15:30 +0000  QA_rec 1 1 1 6
+Di, 21 Jul 2020 15:15:51 +0000  QA_rec 0 1 1 6
+Di, 21 Jul 2020 15:15:51 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Wir sind verlobt und wollen nächstes Jahr heiraten., Q_cen-heiraten
+Di, 21 Jul 2020 15:15:52 +0000  QA_rec 1 1 1 7
+Di, 21 Jul 2020 15:16:12 +0000  QA_rec 0 1 1 7
+Di, 21 Jul 2020 15:16:12 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Plastikabfälle werden die Meere verschmutzen., Q_cen-verschmutzen
+Di, 21 Jul 2020 15:16:13 +0000  QA_rec 1 1 1 8
+Di, 21 Jul 2020 15:16:33 +0000  QA_rec 0 1 1 8
+Di, 21 Jul 2020 15:16:33 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Sie brauchen ein ärztliches Zeugnis., Q_cen-brauchen
+Di, 21 Jul 2020 15:16:34 +0000  QA_rec 1 1 1 9
+Di, 21 Jul 2020 15:16:54 +0000  QA_rec 0 1 1 9
+Di, 21 Jul 2020 15:16:54 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Ich habe meine Lederschuhe mit einem Lappen geputzt., Q_cen-geputzt
+Di, 21 Jul 2020 15:16:55 +0000  QA_rec 1 1 1 10
+Di, 21 Jul 2020 15:17:15 +0000  QA_rec 0 1 1 10
+Di, 21 Jul 2020 15:17:15 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Die äußeren Planeten bestehen aus Gas., Q_cen-bestehen
+Di, 21 Jul 2020 15:17:16 +0000  QA_rec 1 1 1 11
+Di, 21 Jul 2020 15:17:36 +0000  QA_rec 0 1 1 11
+Di, 21 Jul 2020 15:17:36 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Im Mittelalter öffnete das erste Kaufhaus in Europa., Q_cen-öffnete
+Di, 21 Jul 2020 15:17:37 +0000  QA_rec 1 1 1 12
+Di, 21 Jul 2020 15:17:57 +0000  QA_rec 0 1 1 12
+Di, 21 Jul 2020 15:17:57 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Seit der Urzeit haben die Menschen an Götter geglaubt., Q_cen-geglaubt
+Di, 21 Jul 2020 15:17:58 +0000  QA_rec 1 1 1 13
+Di, 21 Jul 2020 15:18:18 +0000  QA_rec 0 1 1 13
+Di, 21 Jul 2020 15:18:18 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Es wird nicht empfohlen, die Batterie völlig zu entladen., Q_cen-empfohlen
+Di, 21 Jul 2020 15:18:19 +0000  QA_rec 1 1 1 14
+Di, 21 Jul 2020 15:18:39 +0000  QA_rec 0 1 1 14
+Di, 21 Jul 2020 15:18:39 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Du musst die Verantwortung für deine Taten übernehmen., Q_cen-übernehmen
+Di, 21 Jul 2020 15:18:40 +0000  QA_rec 1 1 1 15
+Di, 21 Jul 2020 15:19:00 +0000  QA_rec 0 1 1 15
+Di, 21 Jul 2020 15:19:00 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich habe den schrecklichen Verdacht, dass Hans das Geld gestohlen hat., Q_cen-gestohlen
+Di, 21 Jul 2020 15:19:01 +0000  QA_rec 1 1 1 16
+Di, 21 Jul 2020 15:19:21 +0000  QA_rec 0 1 1 16
+Di, 21 Jul 2020 15:19:21 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Das gute Wetter wird halten, weil ich keine Wolken sehe., Q_cen-halten
+Di, 21 Jul 2020 15:19:22 +0000  QA_rec 1 1 1 17
+Di, 21 Jul 2020 15:19:42 +0000  QA_rec 0 1 1 17
+Di, 21 Jul 2020 15:19:42 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Meine kleine Schwester spielt draußen im Garten., Q_cen-spielt
+Di, 21 Jul 2020 15:19:43 +0000  QA_rec 1 1 1 18
+Di, 21 Jul 2020 15:20:03 +0000  QA_rec 0 1 1 18
+Di, 21 Jul 2020 15:20:03 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Nikolaus Kopernikus beschreibt das heliozentrische Weltbild., Q_cen-beschreibt
+Di, 21 Jul 2020 15:20:04 +0000  QA_rec 1 1 1 19
+Di, 21 Jul 2020 15:20:24 +0000  QA_rec 0 1 1 19
+Di, 21 Jul 2020 15:20:24 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Schultigung, Ich habe den falschen Knopf gedrückt., Q_cen-gedrückt
+Di, 21 Jul 2020 15:20:25 +0000  QA_rec 1 1 1 20
+Di, 21 Jul 2020 15:20:45 +0000  QA_rec 0 1 1 20
+Di, 21 Jul 2020 15:20:45 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Bei dem Gewitter letzte Woche hat der Blitz in ein Boot eingeschlagen., Q_cen-eingeschlagen
+Di, 21 Jul 2020 15:20:46 +0000  QA_rec 1 1 1 21
+Di, 21 Jul 2020 15:21:06 +0000  QA_rec 0 1 1 21
+Di, 21 Jul 2020 15:21:06 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Ich hoffe, dass ich und meine Tante gute Freunde für immer bleiben können., Q_cen-hoffe
+Di, 21 Jul 2020 15:21:07 +0000  QA_rec 1 1 1 22
+Di, 21 Jul 2020 15:21:27 +0000  QA_rec 0 1 1 22
+Di, 21 Jul 2020 15:21:27 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Der Mond umkreist die Erde in ungefähr achtundzwanzig Tagen., Q_cen-umkreist
+Di, 21 Jul 2020 15:21:28 +0000  QA_rec 1 1 1 23
+Di, 21 Jul 2020 15:21:48 +0000  QA_rec 0 1 1 23
+Di, 21 Jul 2020 15:21:48 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Sam verkauft in diesem Geschäft Herren- und Damenschuhe., Q_cen-verkauft
+Di, 21 Jul 2020 15:21:49 +0000  QA_rec 1 1 1 24
+Di, 21 Jul 2020 15:22:09 +0000  QA_rec 0 1 1 24
+Di, 21 Jul 2020 15:22:09 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Farben machen das Leben bunt., Q_cen-machen
