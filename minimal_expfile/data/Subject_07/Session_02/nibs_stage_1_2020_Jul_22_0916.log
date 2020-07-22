@@ -1,0 +1,268 @@
+25.2408 	EXP 	Created instruction_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='instruction_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.1]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5000 	EXP 	Created instruction_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='instruction_cont', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=array([1., 1., 1.]), text='          Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+25.5022 	EXP 	Created Artifact_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Artifact_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='Muscular signal recording', units='norm', win=Window(...), wrapWidth=1)
+25.5062 	EXP 	Created Artifact_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Artifact_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5136 	EXP 	Created Artifact_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Artifact_intro_cont', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='          Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+25.5141 	EXP 	Created Artifact_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Artifact_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.5155 	EXP 	Created Artifact_rec_recording = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Artifact_rec_recording', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.5176 	EXP 	Created Artifact_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Artifact_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+25.5217 	EXP 	Created Cali_de_pre_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='READ OUT BLOCK (GERMAN)', units='norm', win=Window(...), wrapWidth=1)
+25.5291 	EXP 	Created Cali_de_pre_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5340 	EXP 	Created Cali_de_pre_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_intro_cont', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='          Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+25.5344 	EXP 	Created Cali_de_pre_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.5352 	EXP 	Created Cali_de_pre_rec_question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_rec_question_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.5373 	EXP 	Created Cali_de_pre_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_pre_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+25.5377 	EXP 	Created fade_in_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='fade_in_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.5397 	EXP 	Created RS_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='REST STATE BLOCK', units='norm', win=Window(...), wrapWidth=1)
+25.5454 	EXP 	Created RS_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5503 	EXP 	Created RS_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='RS_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5525 	EXP 	Created QA_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.5]), rgb=array([1., 1., 1.]), text='Q&A BLOCK', units='norm', win=Window(...), wrapWidth=1)
+25.5613 	EXP 	Created QA_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5654 	EXP 	Created QA_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_intro_cont', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='          Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+25.5684 	EXP 	Created QA_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5721 	EXP 	Created QA_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='QA_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+25.5763 	EXP 	Created Pause_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Pause_cont', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.5784 	EXP 	Created Cali_de_post_intro_title = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_intro_title', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='READ OUT BLOCK (GERMAN)', units='norm', win=Window(...), wrapWidth=1)
+25.6198 	EXP 	Created Cali_de_post_intro_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_intro_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.6249 	EXP 	Created Cali_de_post_intro_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_intro_cont', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='          Press [space] key to continue.', units='norm', win=Window(...), wrapWidth=1)
+25.6253 	EXP 	Created Cali_de_post_rec_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_rec_text', opacity=1.0, ori=0.0, pos=array([0.5, 0.4]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.6261 	EXP 	Created Cali_de_post_rec_question_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_rec_question_text', opacity=1.0, ori=0.0, pos=array([0.5, 0. ]), rgb=array([1., 1., 1.]), text='', units='norm', win=Window(...), wrapWidth=1)
+25.6281 	EXP 	Created Cali_de_post_rec_break = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Cali_de_post_rec_break', opacity=1.0, ori=0.0, pos=array([ 0.5, -0.4]), rgb=array([1., 1., 1.]), text='Short break', units='norm', win=Window(...), wrapWidth=1)
+25.6315 	EXP 	Created the_end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='the_end_text', opacity=1.0, ori=0.0, pos=array([0.7, 0. ]), rgb=array([1., 1., 1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+25.6512 	EXP 	instruction_text: autoDraw = True
+36.9966 	DATA 	Keypress: space
+40.6352 	EXP 	instruction_cont: autoDraw = True
+41.6686 	EXP 	instruction_text: autoDraw = False
+41.6686 	EXP 	instruction_cont: autoDraw = False
+41.6686 	EXP 	Artifact_intro_title: autoDraw = True
+41.6686 	EXP 	Artifact_intro_text: autoDraw = True
+66.8924 	DATA 	Keypress: space
+68.0364 	EXP 	Artifact_intro_cont: autoDraw = True
+69.0454 	EXP 	Created sequence: random, trialTypes=1, nReps=15, seed=None
+69.0463 	EXP 	New trial (rep=0, index=0): None
+70.0696 	EXP 	Artifact_intro_title: autoDraw = False
+70.0696 	EXP 	Artifact_intro_text: autoDraw = False
+70.0696 	EXP 	Artifact_intro_cont: autoDraw = False
+70.0696 	EXP 	Artifact_rec_text: autoDraw = True
+70.0696 	EXP 	Artifact_rec_text: text = ''
+88.0537 	EXP 	Artifact_rec_break: autoDraw = True
+89.0538 	EXP 	Artifact_rec_break: autoDraw = False
+91.0571 	EXP 	New trial (rep=1, index=0): None
+92.0711 	EXP 	Artifact_rec_text: autoDraw = False
+92.0711 	EXP 	Artifact_rec_recording: autoDraw = False
+92.0711 	EXP 	Artifact_rec_break: autoDraw = False
+92.0711 	EXP 	Artifact_rec_text: autoDraw = True
+110.0549 	EXP 	Artifact_rec_break: autoDraw = True
+111.0549 	EXP 	Artifact_rec_break: autoDraw = False
+113.0642 	EXP 	New trial (rep=2, index=0): None
+114.0882 	EXP 	Artifact_rec_text: autoDraw = False
+114.0882 	EXP 	Artifact_rec_text: autoDraw = False
+114.0882 	EXP 	Artifact_rec_recording: autoDraw = False
+114.0882 	EXP 	Artifact_rec_break: autoDraw = False
+114.0882 	EXP 	Artifact_rec_text: autoDraw = True
+132.0724 	EXP 	Artifact_rec_break: autoDraw = True
+133.0725 	EXP 	Artifact_rec_break: autoDraw = False
+135.0751 	EXP 	New trial (rep=3, index=0): None
+136.0897 	EXP 	Artifact_rec_text: autoDraw = False
+136.0897 	EXP 	Artifact_rec_recording: autoDraw = False
+136.0897 	EXP 	Artifact_rec_break: autoDraw = False
+136.0897 	EXP 	Artifact_rec_text: autoDraw = True
+154.0735 	EXP 	Artifact_rec_break: autoDraw = True
+155.0736 	EXP 	Artifact_rec_break: autoDraw = False
+157.0822 	EXP 	New trial (rep=4, index=0): None
+158.1068 	EXP 	Artifact_rec_text: autoDraw = False
+158.1068 	EXP 	Artifact_rec_text: autoDraw = False
+158.1068 	EXP 	Artifact_rec_recording: autoDraw = False
+158.1068 	EXP 	Artifact_rec_break: autoDraw = False
+158.1068 	EXP 	Artifact_rec_text: autoDraw = True
+176.0910 	EXP 	Artifact_rec_break: autoDraw = True
+177.0910 	EXP 	Artifact_rec_break: autoDraw = False
+179.0944 	EXP 	New trial (rep=5, index=0): None
+180.1084 	EXP 	Artifact_rec_text: autoDraw = False
+180.1084 	EXP 	Artifact_rec_recording: autoDraw = False
+180.1084 	EXP 	Artifact_rec_break: autoDraw = False
+180.1084 	EXP 	Artifact_rec_text: autoDraw = True
+198.0921 	EXP 	Artifact_rec_break: autoDraw = True
+199.0920 	EXP 	Artifact_rec_break: autoDraw = False
+201.1036 	EXP 	New trial (rep=6, index=0): None
+202.1257 	EXP 	Artifact_rec_text: autoDraw = False
+202.1257 	EXP 	Artifact_rec_text: autoDraw = False
+202.1257 	EXP 	Artifact_rec_recording: autoDraw = False
+202.1257 	EXP 	Artifact_rec_break: autoDraw = False
+202.1257 	EXP 	Artifact_rec_text: autoDraw = True
+220.1096 	EXP 	Artifact_rec_break: autoDraw = True
+221.1097 	EXP 	Artifact_rec_break: autoDraw = False
+223.1125 	EXP 	New trial (rep=7, index=0): None
+224.1269 	EXP 	Artifact_rec_text: autoDraw = False
+224.1269 	EXP 	Artifact_rec_recording: autoDraw = False
+224.1269 	EXP 	Artifact_rec_break: autoDraw = False
+224.1269 	EXP 	Artifact_rec_text: autoDraw = True
+242.1107 	EXP 	Artifact_rec_break: autoDraw = True
+243.1108 	EXP 	Artifact_rec_break: autoDraw = False
+245.1214 	EXP 	New trial (rep=8, index=0): None
+246.1442 	EXP 	Artifact_rec_text: autoDraw = False
+246.1442 	EXP 	Artifact_rec_text: autoDraw = False
+246.1442 	EXP 	Artifact_rec_recording: autoDraw = False
+246.1442 	EXP 	Artifact_rec_break: autoDraw = False
+246.1442 	EXP 	Artifact_rec_text: autoDraw = True
+264.1286 	EXP 	Artifact_rec_break: autoDraw = True
+265.1287 	EXP 	Artifact_rec_break: autoDraw = False
+267.1314 	EXP 	New trial (rep=9, index=0): None
+268.1622 	EXP 	Artifact_rec_text: autoDraw = False
+268.1622 	EXP 	Artifact_rec_recording: autoDraw = False
+268.1622 	EXP 	Artifact_rec_break: autoDraw = False
+268.1622 	EXP 	Artifact_rec_text: autoDraw = True
+286.1297 	EXP 	Artifact_rec_break: autoDraw = True
+287.1297 	EXP 	Artifact_rec_break: autoDraw = False
+289.1492 	EXP 	New trial (rep=10, index=0): None
+290.1799 	EXP 	Artifact_rec_text: autoDraw = False
+290.1799 	EXP 	Artifact_rec_recording: autoDraw = False
+290.1799 	EXP 	Artifact_rec_break: autoDraw = False
+290.1799 	EXP 	Artifact_rec_text: autoDraw = True
+308.1473 	EXP 	Artifact_rec_break: autoDraw = True
+309.1474 	EXP 	Artifact_rec_break: autoDraw = False
+311.1669 	EXP 	New trial (rep=11, index=0): None
+312.1975 	EXP 	Artifact_rec_text: autoDraw = False
+312.1975 	EXP 	Artifact_rec_recording: autoDraw = False
+312.1975 	EXP 	Artifact_rec_break: autoDraw = False
+312.1975 	EXP 	Artifact_rec_text: autoDraw = True
+330.1651 	EXP 	Artifact_rec_break: autoDraw = True
+331.1651 	EXP 	Artifact_rec_break: autoDraw = False
+333.1846 	EXP 	New trial (rep=12, index=0): None
+334.2153 	EXP 	Artifact_rec_text: autoDraw = False
+334.2153 	EXP 	Artifact_rec_recording: autoDraw = False
+334.2153 	EXP 	Artifact_rec_break: autoDraw = False
+334.2153 	EXP 	Artifact_rec_text: autoDraw = True
+352.1832 	EXP 	Artifact_rec_break: autoDraw = True
+353.1828 	EXP 	Artifact_rec_break: autoDraw = False
+355.2030 	EXP 	New trial (rep=13, index=0): None
+356.2330 	EXP 	Artifact_rec_text: autoDraw = False
+356.2330 	EXP 	Artifact_rec_recording: autoDraw = False
+356.2330 	EXP 	Artifact_rec_break: autoDraw = False
+356.2330 	EXP 	Artifact_rec_text: autoDraw = True
+374.2004 	EXP 	Artifact_rec_break: autoDraw = True
+375.2005 	EXP 	Artifact_rec_break: autoDraw = False
+377.2202 	EXP 	New trial (rep=14, index=0): None
+378.2507 	EXP 	Artifact_rec_text: autoDraw = False
+378.2507 	EXP 	Artifact_rec_recording: autoDraw = False
+378.2507 	EXP 	Artifact_rec_break: autoDraw = False
+378.2507 	EXP 	Artifact_rec_text: autoDraw = True
+396.2348 	EXP 	Artifact_rec_break: autoDraw = True
+397.2349 	EXP 	Artifact_rec_break: autoDraw = False
+401.2688 	EXP 	Artifact_rec_text: autoDraw = False
+401.2688 	EXP 	Artifact_rec_recording: autoDraw = False
+401.2688 	EXP 	Artifact_rec_break: autoDraw = False
+401.2688 	EXP 	Cali_de_pre_intro_title: autoDraw = True
+401.2688 	EXP 	Cali_de_pre_intro_text: autoDraw = True
+430.6697 	EXP 	Cali_de_pre_intro_cont: autoDraw = True
+431.2864 	EXP 	Cali_de_pre_intro_title: autoDraw = False
+431.2864 	EXP 	Cali_de_pre_intro_text: autoDraw = False
+432.3661 	DATA 	Keypress: space
+433.4084 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+433.4095 	EXP 	New trial (rep=0, index=0): None
+434.4366 	EXP 	Cali_de_pre_intro_title: autoDraw = False
+434.4366 	EXP 	Cali_de_pre_intro_text: autoDraw = False
+434.4366 	EXP 	Cali_de_pre_intro_cont: autoDraw = False
+434.4366 	EXP 	Cali_de_pre_rec_question_text: text = 'Ist der Tisch schon gedeckt?'
+434.4366 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+434.4366 	EXP 	Cali_de_pre_rec_text: text = ''
+435.8206 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+451.4540 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+453.4210 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+453.4544 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+455.4247 	EXP 	New trial (rep=1, index=0): None
+456.4542 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+456.4542 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+456.4542 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+456.4542 	EXP 	Cali_de_pre_rec_question_text: text = 'Im Herbst fallen die Blätter von den Bäumen.'
+456.4542 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+457.8377 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+473.4385 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+475.4386 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+475.4386 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+477.4428 	EXP 	New trial (rep=2, index=0): None
+478.4720 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+478.4720 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+478.4720 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+478.4720 	EXP 	Cali_de_pre_rec_question_text: text = 'Flo muss die Orange zuerst schälen, bevor er sie schneiden kann.'
+478.4720 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+479.8554 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+495.4561 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+497.4563 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+497.4563 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+499.4605 	EXP 	New trial (rep=3, index=0): None
+500.4897 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+500.4897 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+500.4897 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+500.4897 	EXP 	Cali_de_pre_rec_question_text: text = 'Hier fehlen aber noch ein paar Cent.'
+500.4897 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+501.8732 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+517.4739 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+519.4740 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+519.4740 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+521.4771 	EXP 	New trial (rep=4, index=0): None
+522.5075 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+522.5075 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+522.5075 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+522.5075 	EXP 	Cali_de_pre_rec_question_text: text = 'Die Zähne werden geputzt und der Bart rasiert.'
+522.5075 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+523.8909 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+539.4917 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+541.4918 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+541.4918 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+543.4950 	EXP 	New trial (rep=5, index=0): None
+544.5254 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+544.5254 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+544.5254 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+544.5254 	EXP 	Cali_de_pre_rec_question_text: text = 'Im Frühling besuchen viele Touristen unserer Hauptstadt.'
+544.5254 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+545.9090 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+561.5098 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+563.5098 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+563.5098 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+565.5137 	EXP 	New trial (rep=6, index=0): None
+566.5434 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+566.5434 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+566.5434 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+566.5434 	EXP 	Cali_de_pre_rec_question_text: text = 'In Österreich gibt es eine richtige Kaffeehauskultur.'
+566.5434 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+567.9267 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+583.5275 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+585.5277 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+585.5277 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+587.5312 	EXP 	New trial (rep=7, index=0): None
+588.5611 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+588.5611 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+588.5611 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+588.5611 	EXP 	Cali_de_pre_rec_question_text: text = 'Durch ein Fernrohr kann man manchmal sogar die Venus sehen.'
+588.5611 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+589.9446 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+605.5617 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+607.5455 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+607.5619 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+609.5490 	EXP 	New trial (rep=8, index=0): None
+610.5789 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+610.5789 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+610.5789 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+610.5789 	EXP 	Cali_de_pre_rec_question_text: text = 'Kennst du die Zyklen des Mondes?'
+610.5789 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+611.9623 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+627.5632 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+629.5630 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+629.5630 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+631.5671 	EXP 	New trial (rep=9, index=0): None
+632.5968 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+632.5968 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+632.5968 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+632.5968 	EXP 	Cali_de_pre_rec_question_text: text = 'Können Sie fünfzig Euro wechseln?'
+632.5968 	EXP 	Cali_de_pre_rec_text: autoDraw = True
+633.9799 	EXP 	Cali_de_pre_rec_question_text: autoDraw = True
+649.5807 	EXP 	Cali_de_pre_rec_break: autoDraw = True
+651.5810 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+651.5810 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+654.6143 	EXP 	Cali_de_pre_rec_text: autoDraw = False
+654.6143 	EXP 	Cali_de_pre_rec_question_text: autoDraw = False
+654.6143 	EXP 	Cali_de_pre_rec_break: autoDraw = False
+654.6143 	EXP 	Pause_cont: text = 'Pause: Please have some rest and           Press [space] key to continue.'
+654.6143 	EXP 	Pause_cont: autoDraw = True
+662.3661 	EXP 	window1: mouseVisible = True

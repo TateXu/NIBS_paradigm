@@ -1,0 +1,18 @@
+Mi, 22 Jul 2020 07:32:14 +0000  Cali_de_pre_rec 1 None None 0
+Mi, 22 Jul 2020 07:32:34 +0000  Cali_de_pre_rec 0 None None 0
+Mi, 22 Jul 2020 07:32:34 +0000  Cali_de_pre_rec 1 None None 1
+Mi, 22 Jul 2020 07:32:55 +0000  Cali_de_pre_rec 0 None None 1
+Mi, 22 Jul 2020 07:32:59 +0000  RS_rec 1 0 0 None
+Mi, 22 Jul 2020 07:33:12 +0000  RS_rec 0 0 open None
+Mi, 22 Jul 2020 07:33:12 +0000  RS_rec 1 0 1 None
+Mi, 22 Jul 2020 07:33:26 +0000  RS_rec 0 0 close None
+Mi, 22 Jul 2020 07:33:28 +0000  QA_rec 1 0 0 0
+Mi, 22 Jul 2020 07:33:46 +0000  QA_rec 0 0 0 0
+Mi, 22 Jul 2020 07:33:46 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Ich muss mein Versprechen halten., Q_cen-halten
+Mi, 22 Jul 2020 07:33:47 +0000  QA_rec 1 0 0 1
+Mi, 22 Jul 2020 07:34:06 +0000  QA_rec 0 0 0 1
+Mi, 22 Jul 2020 07:34:06 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken
+Mi, 22 Jul 2020 07:34:10 +0000  Cali_de_post_rec 1 None None 0
+Mi, 22 Jul 2020 07:34:26 +0000  Cali_de_post_rec 0 None None 0
+Mi, 22 Jul 2020 07:34:27 +0000  Cali_de_post_rec 1 None None 1
+Mi, 22 Jul 2020 07:34:46 +0000  Cali_de_post_rec 0 None None 1
