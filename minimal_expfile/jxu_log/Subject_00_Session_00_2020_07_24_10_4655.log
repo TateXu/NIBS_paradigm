@@ -1,0 +1,8 @@
+Fr, 24 Jul 2020 10:47:02 +0000  QA_intro 1 0 None None
+Fr, 24 Jul 2020 10:48:04 +0000  QA_intro 0 0 None None
+Fr, 24 Jul 2020 10:48:06 +0000  QA_rec 1 0 0 0
+Fr, 24 Jul 2020 10:48:24 +0000  QA_rec 0 0 0 0
+Fr, 24 Jul 2020 10:48:24 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Ich muss mein Versprechen halten., Q_cen-halten
+Fr, 24 Jul 2020 10:48:25 +0000  QA_rec 1 0 0 1
+Fr, 24 Jul 2020 10:48:44 +0000  QA_rec 0 0 0 1
+Fr, 24 Jul 2020 10:48:44 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Es ist nicht erlaubt für alle Autos, vor dem Notausgang zu parken., Q_cen-parken

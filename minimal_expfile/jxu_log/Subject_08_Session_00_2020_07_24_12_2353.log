@@ -1,0 +1,194 @@
+Fr, 24 Jul 2020 12:23:56 +0000  fade_in 1 2 None None
+Fr, 24 Jul 2020 12:24:26 +0000  fade_in 0 2 None None
+Fr, 24 Jul 2020 12:24:27 +0000  Artifact_intro 1 None None None
+Fr, 24 Jul 2020 12:24:57 +0000  Artifact_intro 0 None None None
+Fr, 24 Jul 2020 12:24:57 +0000  Artifact_rec 1 None None 0
+Fr, 24 Jul 2020 12:25:19 +0000  Artifact_rec 0 None None 0
+Fr, 24 Jul 2020 12:25:19 +0000  Artifact_rec 1 None None 1
+Fr, 24 Jul 2020 12:25:41 +0000  Artifact_rec 0 None None 1
+Fr, 24 Jul 2020 12:25:41 +0000  Artifact_rec 1 None None 2
+Fr, 24 Jul 2020 12:26:03 +0000  Artifact_rec 0 None None 2
+Fr, 24 Jul 2020 12:26:03 +0000  Artifact_rec 1 None None 3
+Fr, 24 Jul 2020 12:26:25 +0000  Artifact_rec 0 None None 3
+Fr, 24 Jul 2020 12:26:25 +0000  Artifact_rec 1 None None 4
+Fr, 24 Jul 2020 12:26:47 +0000  Artifact_rec 0 None None 4
+Fr, 24 Jul 2020 12:26:47 +0000  Artifact_rec 1 None None 5
+Fr, 24 Jul 2020 12:27:09 +0000  Artifact_rec 0 None None 5
+Fr, 24 Jul 2020 12:27:09 +0000  Artifact_rec 1 None None 6
+Fr, 24 Jul 2020 12:27:31 +0000  Artifact_rec 0 None None 6
+Fr, 24 Jul 2020 12:27:31 +0000  Artifact_rec 1 None None 7
+Fr, 24 Jul 2020 12:27:53 +0000  Artifact_rec 0 None None 7
+Fr, 24 Jul 2020 12:27:53 +0000  Artifact_rec 1 None None 8
+Fr, 24 Jul 2020 12:28:15 +0000  Artifact_rec 0 None None 8
+Fr, 24 Jul 2020 12:28:15 +0000  Artifact_rec 1 None None 9
+Fr, 24 Jul 2020 12:28:37 +0000  Artifact_rec 0 None None 9
+Fr, 24 Jul 2020 12:28:37 +0000  Artifact_rec 1 None None 10
+Fr, 24 Jul 2020 12:28:59 +0000  Artifact_rec 0 None None 10
+Fr, 24 Jul 2020 12:28:59 +0000  Artifact_rec 1 None None 11
+Fr, 24 Jul 2020 12:29:21 +0000  Artifact_rec 0 None None 11
+Fr, 24 Jul 2020 12:29:21 +0000  Artifact_rec 1 None None 12
+Fr, 24 Jul 2020 12:29:43 +0000  Artifact_rec 0 None None 12
+Fr, 24 Jul 2020 12:29:43 +0000  Artifact_rec 1 None None 13
+Fr, 24 Jul 2020 12:30:05 +0000  Artifact_rec 0 None None 13
+Fr, 24 Jul 2020 12:30:05 +0000  Artifact_rec 1 None None 14
+Fr, 24 Jul 2020 12:30:27 +0000  Artifact_rec 0 None None 14
+Fr, 24 Jul 2020 12:30:28 +0000  RS_intro 1 2 0 None
+Fr, 24 Jul 2020 12:30:51 +0000  RS_intro 0 2 0 None
+Fr, 24 Jul 2020 12:30:51 +0000  RS_rec 1 2 0 None
+Fr, 24 Jul 2020 12:33:54 +0000  RS_rec 0 2 open None
+Fr, 24 Jul 2020 12:33:54 +0000  RS_intro 1 2 1 None
+Fr, 24 Jul 2020 12:34:18 +0000  RS_intro 0 2 1 None
+Fr, 24 Jul 2020 12:34:18 +0000  RS_rec 1 2 1 None
+Fr, 24 Jul 2020 12:37:21 +0000  RS_rec 0 2 close None
+Fr, 24 Jul 2020 12:37:42 +0000  QA_intro 1 2 None None
+Fr, 24 Jul 2020 12:38:26 +0000  QA_intro 0 2 None None
+Fr, 24 Jul 2020 12:38:28 +0000  QA_rec 1 2 0 0
+Fr, 24 Jul 2020 12:38:48 +0000  QA_rec 0 2 0 0
+Fr, 24 Jul 2020 12:38:48 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Das Kind kann die Tischkante noch nicht erreichen., Q_cen-erreichen
+Fr, 24 Jul 2020 12:38:49 +0000  QA_rec 1 2 0 1
+Fr, 24 Jul 2020 12:39:09 +0000  QA_rec 0 2 0 1
+Fr, 24 Jul 2020 12:39:09 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Wir sollen unsere Hände täglich aus Hygiene waschen., Q_cen-waschen
+Fr, 24 Jul 2020 12:39:10 +0000  QA_rec 1 2 0 2
+Fr, 24 Jul 2020 12:39:30 +0000  QA_rec 0 2 0 2
+Fr, 24 Jul 2020 12:39:30 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Ich habe gestern Abend mit meiner Mutter geredet., Q_cen-geredet
+Fr, 24 Jul 2020 12:39:31 +0000  QA_rec 1 2 0 3
+Fr, 24 Jul 2020 12:39:51 +0000  QA_rec 0 2 0 3
+Fr, 24 Jul 2020 12:39:51 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Ich musste heute Morgen richtig schnell nach der Busstation laufen., Q_cen-laufen
+Fr, 24 Jul 2020 12:39:52 +0000  QA_rec 1 2 0 4
+Fr, 24 Jul 2020 12:40:12 +0000  QA_rec 0 2 0 4
+Fr, 24 Jul 2020 12:40:12 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Ich habe gerade meine Bewerbung bei der Universität eingereicht. , Q_cen-eingereicht
+Fr, 24 Jul 2020 12:40:13 +0000  QA_rec 1 2 0 5
+Fr, 24 Jul 2020 12:40:33 +0000  QA_rec 0 2 0 5
+Fr, 24 Jul 2020 12:40:33 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Muss ich mit dem Bus fahren oder kann ich zu Fuß gehen?, Q_cen-gehen
+Fr, 24 Jul 2020 12:40:34 +0000  QA_rec 1 2 0 6
+Fr, 24 Jul 2020 12:40:54 +0000  QA_rec 0 2 0 6
+Fr, 24 Jul 2020 12:40:54 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-An Regentagen benutzen die Leute einen Regenschirm., Q_cen-benutzen
+Fr, 24 Jul 2020 12:40:55 +0000  QA_rec 1 2 0 7
+Fr, 24 Jul 2020 12:41:15 +0000  QA_rec 0 2 0 7
+Fr, 24 Jul 2020 12:41:15 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Der Tourist fragte nach dem Weg zum Opernhaus., Q_cen-fragte
+Fr, 24 Jul 2020 12:41:16 +0000  QA_rec 1 2 0 8
+Fr, 24 Jul 2020 12:41:36 +0000  QA_rec 0 2 0 8
+Fr, 24 Jul 2020 12:41:36 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Meine kleine Schwester spielt draußen im Garten., Q_cen-spielt
+Fr, 24 Jul 2020 12:41:37 +0000  QA_rec 1 2 0 9
+Fr, 24 Jul 2020 12:41:57 +0000  QA_rec 0 2 0 9
+Fr, 24 Jul 2020 12:41:57 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Ihr Regenschirm kann Sie vor dem Regen schützen., Q_cen-schützen
+Fr, 24 Jul 2020 12:41:58 +0000  QA_rec 1 2 0 10
+Fr, 24 Jul 2020 12:42:18 +0000  QA_rec 0 2 0 10
+Fr, 24 Jul 2020 12:42:18 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Ich habe eine verletzte Hand, kannst du bitte die Knöpfe meiner Jacke öffnen?, Q_cen-öffnen
+Fr, 24 Jul 2020 12:42:19 +0000  QA_rec 1 2 0 11
+Fr, 24 Jul 2020 12:42:39 +0000  QA_rec 0 2 0 11
+Fr, 24 Jul 2020 12:42:39 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Der Arzt hat gesagt, ich sähe völlig gesund aus., Q_cen-gesagt
+Fr, 24 Jul 2020 12:42:40 +0000  QA_rec 1 2 0 12
+Fr, 24 Jul 2020 12:43:00 +0000  QA_rec 0 2 0 12
+Fr, 24 Jul 2020 12:43:00 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Das Lagerfeuer hat zwei Stunden lang gebrannt., Q_cen-gebrannt
+Fr, 24 Jul 2020 12:43:01 +0000  QA_rec 1 2 0 13
+Fr, 24 Jul 2020 12:43:21 +0000  QA_rec 0 2 0 13
+Fr, 24 Jul 2020 12:43:21 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Bei der Bewerbung müssen Sie Ihre Motivation begründen., Q_cen-begründen
+Fr, 24 Jul 2020 12:43:22 +0000  QA_rec 1 2 0 14
+Fr, 24 Jul 2020 12:43:43 +0000  QA_rec 0 2 0 14
+Fr, 24 Jul 2020 12:43:43 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Alle Schüler müssen die Vorschrift halten., Q_cen-halten
+Fr, 24 Jul 2020 12:43:44 +0000  QA_rec 1 2 0 15
+Fr, 24 Jul 2020 12:44:04 +0000  QA_rec 0 2 0 15
+Fr, 24 Jul 2020 12:44:04 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Bitte bilden Sie einfache Sätze., Q_cen-bilden
+Fr, 24 Jul 2020 12:44:05 +0000  QA_rec 1 2 0 16
+Fr, 24 Jul 2020 12:44:25 +0000  QA_rec 0 2 0 16
+Fr, 24 Jul 2020 12:44:25 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Sebastian mag lieber ein schwarzes Brot mit Butter und Marmelade., Q_cen-mag
+Fr, 24 Jul 2020 12:44:26 +0000  QA_rec 1 2 0 17
+Fr, 24 Jul 2020 12:44:46 +0000  QA_rec 0 2 0 17
+Fr, 24 Jul 2020 12:44:46 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Christoph Kolumbus hat am vierzehn zweiundneunzig Amerika entdeckt., Q_cen-entdeckt
+Fr, 24 Jul 2020 12:44:47 +0000  QA_rec 1 2 0 18
+Fr, 24 Jul 2020 12:45:07 +0000  QA_rec 0 2 0 18
+Fr, 24 Jul 2020 12:45:07 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Die Augen meines Sohnes glänzten, als er das Geschenk sah., Q_cen-sah
+Fr, 24 Jul 2020 12:45:08 +0000  QA_rec 1 2 0 19
+Fr, 24 Jul 2020 12:45:28 +0000  QA_rec 0 2 0 19
+Fr, 24 Jul 2020 12:45:28 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Bei der Ausreise wird der Pass kontrolliert., Q_cen-kontrolliert
+Fr, 24 Jul 2020 12:45:29 +0000  QA_rec 1 2 0 20
+Fr, 24 Jul 2020 12:45:49 +0000  QA_rec 0 2 0 20
+Fr, 24 Jul 2020 12:45:49 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Ich habe gestern einen interessanten Mann kennen gelernt., Q_cen-kennen
+Fr, 24 Jul 2020 12:45:50 +0000  QA_rec 1 2 0 21
+Fr, 24 Jul 2020 12:46:10 +0000  QA_rec 0 2 0 21
+Fr, 24 Jul 2020 12:46:10 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Lebensmittel sind die Dinge, die man essen kann., Q_cen-essen
+Fr, 24 Jul 2020 12:46:11 +0000  QA_rec 1 2 0 22
+Fr, 24 Jul 2020 12:46:31 +0000  QA_rec 0 2 0 22
+Fr, 24 Jul 2020 12:46:31 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Das Sprachinstitut bietet Kurse für Anfänger an., Q_cen-bietet
+Fr, 24 Jul 2020 12:46:32 +0000  QA_rec 1 2 0 23
+Fr, 24 Jul 2020 12:46:52 +0000  QA_rec 0 2 0 23
+Fr, 24 Jul 2020 12:46:52 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Der Arzt sagt, mein Knie ist in Ordnung, aber meine Beine scheinen gebrochen zu sein., Q_cen-scheinen
+Fr, 24 Jul 2020 12:46:53 +0000  QA_rec 1 2 0 24
+Fr, 24 Jul 2020 12:47:13 +0000  QA_rec 0 2 0 24
+Fr, 24 Jul 2020 12:47:13 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Bitte zieh deinen Mantel an, es ist kalt draußen., Q_cen-zieh
+Fr, 24 Jul 2020 12:47:43 +0000  QA_rec 1 2 1 0
+Fr, 24 Jul 2020 12:48:03 +0000  QA_rec 0 2 1 0
+Fr, 24 Jul 2020 12:48:03 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Blut fließt aus einer Wunde., Q_cen-fließt
+Fr, 24 Jul 2020 12:48:04 +0000  QA_rec 1 2 1 1
+Fr, 24 Jul 2020 12:48:24 +0000  QA_rec 0 2 1 1
+Fr, 24 Jul 2020 12:48:24 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Ich entschuldige bitte meine Verspätung., Q_cen-entschuldige
+Fr, 24 Jul 2020 12:48:25 +0000  QA_rec 1 2 1 2
+Fr, 24 Jul 2020 12:48:45 +0000  QA_rec 0 2 1 2
+Fr, 24 Jul 2020 12:48:45 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Ihr fehlt es an ausreichender Berufserfahrung für diese Position., Q_cen-fehlt
+Fr, 24 Jul 2020 12:48:46 +0000  QA_rec 1 2 1 3
+Fr, 24 Jul 2020 12:49:06 +0000  QA_rec 0 2 1 3
+Fr, 24 Jul 2020 12:49:06 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Der Mörder wollte die Gründe für seine Tat nicht nennen., Q_cen-nennen
+Fr, 24 Jul 2020 12:49:07 +0000  QA_rec 1 2 1 4
+Fr, 24 Jul 2020 12:49:27 +0000  QA_rec 0 2 1 4
+Fr, 24 Jul 2020 12:49:27 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Die Abgase der Benzinmotoren werden die Luft verschmutzen., Q_cen-verschmutzen
+Fr, 24 Jul 2020 12:49:28 +0000  QA_rec 1 2 1 5
+Fr, 24 Jul 2020 12:49:48 +0000  QA_rec 0 2 1 5
+Fr, 24 Jul 2020 12:49:48 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Die Gäste gratulieren dem jungen Paar herzlich zur Hochzeit., Q_cen-gratulieren
+Fr, 24 Jul 2020 12:49:49 +0000  QA_rec 1 2 1 6
+Fr, 24 Jul 2020 12:50:09 +0000  QA_rec 0 2 1 6
+Fr, 24 Jul 2020 12:50:09 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Was bedeutet Pressefreiheit für dich?, Q_cen-bedeutet
+Fr, 24 Jul 2020 12:50:10 +0000  QA_rec 1 2 1 7
+Fr, 24 Jul 2020 12:50:30 +0000  QA_rec 0 2 1 7
+Fr, 24 Jul 2020 12:50:30 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Ich habe einen Platz für die Oper reserviert., Q_cen-reserviert
+Fr, 24 Jul 2020 12:50:31 +0000  QA_rec 1 2 1 8
+Fr, 24 Jul 2020 12:50:51 +0000  QA_rec 0 2 1 8
+Fr, 24 Jul 2020 12:50:51 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-In Wien besuchen die Touristen am liebsten den Stephansdom und das Schloss Schönbrunn., Q_cen-besuchen
+Fr, 24 Jul 2020 12:50:52 +0000  QA_rec 1 2 1 9
+Fr, 24 Jul 2020 12:51:12 +0000  QA_rec 0 2 1 9
+Fr, 24 Jul 2020 12:51:12 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Schauen Sie nach draußen, der Schnee fällt., Q_cen-fällt
+Fr, 24 Jul 2020 12:51:13 +0000  QA_rec 1 2 1 10
+Fr, 24 Jul 2020 12:51:33 +0000  QA_rec 0 2 1 10
+Fr, 24 Jul 2020 12:51:33 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Der Autohändler hat auf der Messe zehn Sportwagen eingekauft., Q_cen-eingekauft
+Fr, 24 Jul 2020 12:51:34 +0000  QA_rec 1 2 1 11
+Fr, 24 Jul 2020 12:51:54 +0000  QA_rec 0 2 1 11
+Fr, 24 Jul 2020 12:51:54 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Bitte waschen Sie Ihre Hände mit Seife., Q_cen-waschen
+Fr, 24 Jul 2020 12:51:55 +0000  QA_rec 1 2 1 12
+Fr, 24 Jul 2020 12:52:15 +0000  QA_rec 0 2 1 12
+Fr, 24 Jul 2020 12:52:15 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Ich konnte die Lärmquelle finden., Q_cen-finden
+Fr, 24 Jul 2020 12:52:16 +0000  QA_rec 1 2 1 13
+Fr, 24 Jul 2020 12:52:36 +0000  QA_rec 0 2 1 13
+Fr, 24 Jul 2020 12:52:36 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-In der Schule lernen die Kinder lesen, schreiben und rechnen., Q_cen-lernen
+Fr, 24 Jul 2020 12:52:37 +0000  QA_rec 1 2 1 14
+Fr, 24 Jul 2020 12:52:57 +0000  QA_rec 0 2 1 14
+Fr, 24 Jul 2020 12:52:57 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Hiermit wird bestätigt, dass Frau Müller das Praktikum bei uns absolviert hat., Q_cen-bestätigt
+Fr, 24 Jul 2020 12:52:58 +0000  QA_rec 1 2 1 15
+Fr, 24 Jul 2020 12:53:18 +0000  QA_rec 0 2 1 15
+Fr, 24 Jul 2020 12:53:18 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Alchemisten haben geglaubt, sie können Gold herstellen., Q_cen-herstellen
+Fr, 24 Jul 2020 12:53:19 +0000  QA_rec 1 2 1 16
+Fr, 24 Jul 2020 12:53:39 +0000  QA_rec 0 2 1 16
+Fr, 24 Jul 2020 12:53:39 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-In den Zeitungen , im Radio und im Fernsehen wird regelmäßig über Sport berichtet., Q_cen-berichtet
+Fr, 24 Jul 2020 12:53:40 +0000  QA_rec 1 2 1 17
+Fr, 24 Jul 2020 12:54:00 +0000  QA_rec 0 2 1 17
+Fr, 24 Jul 2020 12:54:00 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Junge Leute machen gerne Partys., Q_cen-machen
+Fr, 24 Jul 2020 12:54:01 +0000  QA_rec 1 2 1 18
+Fr, 24 Jul 2020 12:54:21 +0000  QA_rec 0 2 1 18
+Fr, 24 Jul 2020 12:54:21 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Lenas Hund Tobi wird immer am Abend gefüttert., Q_cen-gefüttert
+Fr, 24 Jul 2020 12:54:22 +0000  QA_rec 1 2 1 19
+Fr, 24 Jul 2020 12:54:43 +0000  QA_rec 0 2 1 19
+Fr, 24 Jul 2020 12:54:43 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Ich rechne fest damit, dass er kommt., Q_cen-rechne
+Fr, 24 Jul 2020 12:54:44 +0000  QA_rec 1 2 1 20
+Fr, 24 Jul 2020 12:55:04 +0000  QA_rec 0 2 1 20
+Fr, 24 Jul 2020 12:55:04 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Zu den hundeartigen Tieren, die in Österreich leben, gehört der Wolf., Q_cen-gehört
+Fr, 24 Jul 2020 12:55:05 +0000  QA_rec 1 2 1 21
+Fr, 24 Jul 2020 12:55:25 +0000  QA_rec 0 2 1 21
+Fr, 24 Jul 2020 12:55:25 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Meine Großtante starb letztes Jahr und wurde neben ihrem Mann begraben., Q_cen-begraben
+Fr, 24 Jul 2020 12:55:26 +0000  QA_rec 1 2 1 22
+Fr, 24 Jul 2020 12:55:46 +0000  QA_rec 0 2 1 22
+Fr, 24 Jul 2020 12:55:46 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Menschen und Firmen können ein Konto bei der Bank eröffnen., Q_cen-eröffnen
+Fr, 24 Jul 2020 12:55:47 +0000  QA_rec 1 2 1 23
+Fr, 24 Jul 2020 12:56:07 +0000  QA_rec 0 2 1 23
+Fr, 24 Jul 2020 12:56:07 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Zu Ostern gibt es für Kinder Ostereier und Süßigkeiten., Q_cen-gibt
+Fr, 24 Jul 2020 12:56:08 +0000  QA_rec 1 2 1 24
+Fr, 24 Jul 2020 12:56:28 +0000  QA_rec 0 2 1 24
+Fr, 24 Jul 2020 12:56:28 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Der Klima Schutz soll verhindern, dass es auf der Erde immer wärmer wird., Q_cen-verhindern

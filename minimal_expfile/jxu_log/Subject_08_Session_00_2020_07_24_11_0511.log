@@ -1,0 +1,162 @@
+Fr, 24 Jul 2020 11:05:15 +0000  fade_in 1 0 None None
+Fr, 24 Jul 2020 11:05:45 +0000  fade_in 0 0 None None
+Fr, 24 Jul 2020 11:05:47 +0000  RS_intro 1 0 0 None
+Fr, 24 Jul 2020 11:06:10 +0000  RS_intro 0 0 0 None
+Fr, 24 Jul 2020 11:06:10 +0000  RS_rec 1 0 0 None
+Fr, 24 Jul 2020 11:09:13 +0000  RS_rec 0 0 open None
+Fr, 24 Jul 2020 11:09:13 +0000  RS_intro 1 0 1 None
+Fr, 24 Jul 2020 11:09:36 +0000  RS_intro 0 0 1 None
+Fr, 24 Jul 2020 11:09:36 +0000  RS_rec 1 0 1 None
+Fr, 24 Jul 2020 11:12:40 +0000  RS_rec 0 0 close None
+Fr, 24 Jul 2020 11:13:16 +0000  QA_intro 1 0 None None
+Fr, 24 Jul 2020 11:14:01 +0000  QA_intro 0 0 None None
+Fr, 24 Jul 2020 11:14:03 +0000  QA_rec 1 0 0 0
+Fr, 24 Jul 2020 11:14:23 +0000  QA_rec 0 0 0 0
+Fr, 24 Jul 2020 11:14:23 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Ich bin von New York nach München geflogen., Q_cen-geflogen
+Fr, 24 Jul 2020 11:14:24 +0000  QA_rec 1 0 0 1
+Fr, 24 Jul 2020 11:14:44 +0000  QA_rec 0 0 0 1
+Fr, 24 Jul 2020 11:14:44 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Bevor es Autos gab, sind die Leute mit der Eisenbahn gefahren., Q_cen-gefahren
+Fr, 24 Jul 2020 11:14:45 +0000  QA_rec 1 0 0 2
+Fr, 24 Jul 2020 11:15:05 +0000  QA_rec 0 0 0 2
+Fr, 24 Jul 2020 11:15:05 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Taktlose Fragen machen mich wütend., Q_cen-machen
+Fr, 24 Jul 2020 11:15:06 +0000  QA_rec 1 0 0 3
+Fr, 24 Jul 2020 11:15:26 +0000  QA_rec 0 0 0 3
+Fr, 24 Jul 2020 11:15:26 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Mein Freund schenkt mir eine Schachtel mit Schokolade., Q_cen-schenkt
+Fr, 24 Jul 2020 11:15:27 +0000  QA_rec 1 0 0 4
+Fr, 24 Jul 2020 11:15:47 +0000  QA_rec 0 0 0 4
+Fr, 24 Jul 2020 11:15:47 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Der Regenbogen besteht aus vielen Farben., Q_cen-besteht
+Fr, 24 Jul 2020 11:15:48 +0000  QA_rec 1 0 0 5
+Fr, 24 Jul 2020 11:16:08 +0000  QA_rec 0 0 0 5
+Fr, 24 Jul 2020 11:16:08 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Der Läufer hat seine Konkurrenten mühelos geschlagen., Q_cen-geschlagen
+Fr, 24 Jul 2020 11:16:09 +0000  QA_rec 1 0 0 6
+Fr, 24 Jul 2020 11:16:29 +0000  QA_rec 0 0 0 6
+Fr, 24 Jul 2020 11:16:29 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Der Ton macht die Musik., Q_cen-macht
+Fr, 24 Jul 2020 11:16:30 +0000  QA_rec 1 0 0 7
+Fr, 24 Jul 2020 11:16:50 +0000  QA_rec 0 0 0 7
+Fr, 24 Jul 2020 11:16:50 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Sie beantwortete meine E-Mail schnell., Q_cen-beantwortete
+Fr, 24 Jul 2020 11:16:51 +0000  QA_rec 1 0 0 8
+Fr, 24 Jul 2020 11:17:11 +0000  QA_rec 0 0 0 8
+Fr, 24 Jul 2020 11:17:11 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Du musst die Verantwortung für deine Taten übernehmen., Q_cen-übernehmen
+Fr, 24 Jul 2020 11:17:12 +0000  QA_rec 1 0 0 9
+Fr, 24 Jul 2020 11:17:32 +0000  QA_rec 0 0 0 9
+Fr, 24 Jul 2020 11:17:32 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Die äußeren Planeten bestehen aus Gas., Q_cen-bestehen
+Fr, 24 Jul 2020 11:17:33 +0000  QA_rec 1 0 0 10
+Fr, 24 Jul 2020 11:17:53 +0000  QA_rec 0 0 0 10
+Fr, 24 Jul 2020 11:17:53 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Nach dem großen Essen war mein Hunger gestillt., Q_cen-gestillt
+Fr, 24 Jul 2020 11:17:54 +0000  QA_rec 1 0 0 11
+Fr, 24 Jul 2020 11:18:14 +0000  QA_rec 0 0 0 11
+Fr, 24 Jul 2020 11:18:14 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Ich musste meine Mitgliedschaft kündigen, weil sie zu teuer war., Q_cen-kündigen
+Fr, 24 Jul 2020 11:18:15 +0000  QA_rec 1 0 0 12
+Fr, 24 Jul 2020 11:18:35 +0000  QA_rec 0 0 0 12
+Fr, 24 Jul 2020 11:18:35 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Denk nicht so viel darüber nach, das wird nichts bringen., Q_cen-bringen
+Fr, 24 Jul 2020 11:18:36 +0000  QA_rec 1 0 0 13
+Fr, 24 Jul 2020 11:18:56 +0000  QA_rec 0 0 0 13
+Fr, 24 Jul 2020 11:18:56 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Ich möchte mir ein Buch aus der Bibliothek leihen., Q_cen-leihen
+Fr, 24 Jul 2020 11:18:57 +0000  QA_rec 1 0 0 14
+Fr, 24 Jul 2020 11:19:17 +0000  QA_rec 0 0 0 14
+Fr, 24 Jul 2020 11:19:17 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-In Neuseeland und Irland ist es so grün, weil es besonders oft regnet., Q_cen-regnet
+Fr, 24 Jul 2020 11:19:18 +0000  QA_rec 1 0 0 15
+Fr, 24 Jul 2020 11:19:38 +0000  QA_rec 0 0 0 15
+Fr, 24 Jul 2020 11:19:38 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Morgen werden wir um sieben Uhr aufstehen., Q_cen-aufstehen
+Fr, 24 Jul 2020 11:19:39 +0000  QA_rec 1 0 0 16
+Fr, 24 Jul 2020 11:19:59 +0000  QA_rec 0 0 0 16
+Fr, 24 Jul 2020 11:19:59 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Chris hat Zahnschmerzen, aber er fürchtet sich vor dem Zahnarzt., Q_cen-fürchtet
+Fr, 24 Jul 2020 11:20:00 +0000  QA_rec 1 0 0 17
+Fr, 24 Jul 2020 11:20:20 +0000  QA_rec 0 0 0 17
+Fr, 24 Jul 2020 11:20:20 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Die Katzen jagen Mäuse., Q_cen-jagen
+Fr, 24 Jul 2020 11:20:21 +0000  QA_rec 1 0 0 18
+Fr, 24 Jul 2020 11:20:41 +0000  QA_rec 0 0 0 18
+Fr, 24 Jul 2020 11:20:41 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Ich bin der Überzeugung, dass er es rechtzeitig schaffen kann., Q_cen-schaffen
+Fr, 24 Jul 2020 11:20:42 +0000  QA_rec 1 0 0 19
+Fr, 24 Jul 2020 11:21:02 +0000  QA_rec 0 0 0 19
+Fr, 24 Jul 2020 11:21:02 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Der ganze Kursus besichtigte die Ausstellung., Q_cen-besichtigte
+Fr, 24 Jul 2020 11:21:03 +0000  QA_rec 1 0 0 20
+Fr, 24 Jul 2020 11:21:23 +0000  QA_rec 0 0 0 20
+Fr, 24 Jul 2020 11:21:23 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Fabienne ist Ärztin und arbeitet im Krankenhaus., Q_cen-arbeitet
+Fr, 24 Jul 2020 11:21:25 +0000  QA_rec 1 0 0 21
+Fr, 24 Jul 2020 11:21:45 +0000  QA_rec 0 0 0 21
+Fr, 24 Jul 2020 11:21:45 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Das Fenster ist offen, aber ich werde es schließen., Q_cen-schließen
+Fr, 24 Jul 2020 11:21:46 +0000  QA_rec 1 0 0 22
+Fr, 24 Jul 2020 11:22:06 +0000  QA_rec 0 0 0 22
+Fr, 24 Jul 2020 11:22:06 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Für dieses Produkt wird keine technische Unterstützung mehr angeboten., Q_cen-angeboten
+Fr, 24 Jul 2020 11:22:07 +0000  QA_rec 1 0 0 23
+Fr, 24 Jul 2020 11:22:27 +0000  QA_rec 0 0 0 23
+Fr, 24 Jul 2020 11:22:27 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Marco möchte den Brief zur Post bringen., Q_cen-bringen
+Fr, 24 Jul 2020 11:22:28 +0000  QA_rec 1 0 0 24
+Fr, 24 Jul 2020 11:22:48 +0000  QA_rec 0 0 0 24
+Fr, 24 Jul 2020 11:22:48 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Er hat seine Katze oft mit Fisch gefüttert., Q_cen-gefüttert
+Fr, 24 Jul 2020 11:23:25 +0000  QA_rec 1 0 1 0
+Fr, 24 Jul 2020 11:23:45 +0000  QA_rec 0 0 1 0
+Fr, 24 Jul 2020 11:23:45 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Ich würde sofort meinen Job kündigen und nie mehr arbeiten., Q_cen-kündigen
+Fr, 24 Jul 2020 11:23:46 +0000  QA_rec 1 0 1 1
+Fr, 24 Jul 2020 11:24:06 +0000  QA_rec 0 0 1 1
+Fr, 24 Jul 2020 11:24:06 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Da ich gestern Abend übergewichtig war, werde ich morgen eine neue Diät beginnen., Q_cen-beginnen
+Fr, 24 Jul 2020 11:24:07 +0000  QA_rec 1 0 1 2
+Fr, 24 Jul 2020 11:24:28 +0000  QA_rec 0 0 1 2
+Fr, 24 Jul 2020 11:24:28 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-In Österreich gibt es eine richtige Kaffeehauskultur., Q_cen-gibt
+Fr, 24 Jul 2020 11:24:29 +0000  QA_rec 1 0 1 3
+Fr, 24 Jul 2020 11:24:49 +0000  QA_rec 0 0 1 3
+Fr, 24 Jul 2020 11:24:49 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Früher haben in Europa und Asien Neandertaler gelebt., Q_cen-gelebt
+Fr, 24 Jul 2020 11:24:50 +0000  QA_rec 1 0 1 4
+Fr, 24 Jul 2020 11:25:10 +0000  QA_rec 0 0 1 4
+Fr, 24 Jul 2020 11:25:10 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Wir sollen großen Wert auf die Sparsamkeit beim Wasser legen., Q_cen-legen
+Fr, 24 Jul 2020 11:25:11 +0000  QA_rec 1 0 1 5
+Fr, 24 Jul 2020 11:25:31 +0000  QA_rec 0 0 1 5
+Fr, 24 Jul 2020 11:25:31 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Die Suppe wird nicht so heiß gegessen, wie sie gekocht wird., Q_cen-gegessen
+Fr, 24 Jul 2020 11:25:32 +0000  QA_rec 1 0 1 6
+Fr, 24 Jul 2020 11:25:52 +0000  QA_rec 0 0 1 6
+Fr, 24 Jul 2020 11:25:52 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Die Universität hat meinen Studentenausweis ausgestellt., Q_cen-ausgestellt
+Fr, 24 Jul 2020 11:25:53 +0000  QA_rec 1 0 1 7
+Fr, 24 Jul 2020 11:26:13 +0000  QA_rec 0 0 1 7
+Fr, 24 Jul 2020 11:26:13 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Der Detektiv ist ihm bis zu seinem Haus gefolgt., Q_cen-gefolgt
+Fr, 24 Jul 2020 11:26:14 +0000  QA_rec 1 0 1 8
+Fr, 24 Jul 2020 11:26:34 +0000  QA_rec 0 0 1 8
+Fr, 24 Jul 2020 11:26:34 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Ich habe mich bei einem Kurs angemeldet, um Deutsch zu lernen., Q_cen-angemeldet
+Fr, 24 Jul 2020 11:26:35 +0000  QA_rec 1 0 1 9
+Fr, 24 Jul 2020 11:26:55 +0000  QA_rec 0 0 1 9
+Fr, 24 Jul 2020 11:26:55 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Ich denke immer an meine Kindheit zurück., Q_cen-denke
+Fr, 24 Jul 2020 11:26:56 +0000  QA_rec 1 0 1 10
+Fr, 24 Jul 2020 11:27:16 +0000  QA_rec 0 0 1 10
+Fr, 24 Jul 2020 11:27:16 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Thomas hat schon so kurze Haare, er muss sich nicht kämmen., Q_cen-kämmen
+Fr, 24 Jul 2020 11:27:17 +0000  QA_rec 1 0 1 11
+Fr, 24 Jul 2020 11:27:37 +0000  QA_rec 0 0 1 11
+Fr, 24 Jul 2020 11:27:37 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Es dauerte lange, alle nötigen Informationen zu sammeln., Q_cen-sammeln
+Fr, 24 Jul 2020 11:27:38 +0000  QA_rec 1 0 1 12
+Fr, 24 Jul 2020 11:27:58 +0000  QA_rec 0 0 1 12
+Fr, 24 Jul 2020 11:27:58 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Ich habe seine Telefonnummer auf einem Zettel notiert., Q_cen-notiert
+Fr, 24 Jul 2020 11:27:59 +0000  QA_rec 1 0 1 13
+Fr, 24 Jul 2020 11:28:19 +0000  QA_rec 0 0 1 13
+Fr, 24 Jul 2020 11:28:19 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Ja, das Wasser aus der Leitung kann man trinken., Q_cen-trinken
+Fr, 24 Jul 2020 11:28:20 +0000  QA_rec 1 0 1 14
+Fr, 24 Jul 2020 11:28:40 +0000  QA_rec 0 0 1 14
+Fr, 24 Jul 2020 11:28:40 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Ich komme, soweit es meine Zeit erlaubt., Q_cen-erlaubt
+Fr, 24 Jul 2020 11:28:41 +0000  QA_rec 1 0 1 15
+Fr, 24 Jul 2020 11:29:01 +0000  QA_rec 0 0 1 15
+Fr, 24 Jul 2020 11:29:01 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Felix muss schon um sechs Uhr früh aufstehen., Q_cen-aufstehen
+Fr, 24 Jul 2020 11:29:02 +0000  QA_rec 1 0 1 16
+Fr, 24 Jul 2020 11:29:22 +0000  QA_rec 0 0 1 16
+Fr, 24 Jul 2020 11:29:22 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Im Mittelalter öffnete das erste Kaufhaus in Europa., Q_cen-öffnete
+Fr, 24 Jul 2020 11:29:23 +0000  QA_rec 1 0 1 17
+Fr, 24 Jul 2020 11:29:43 +0000  QA_rec 0 0 1 17
+Fr, 24 Jul 2020 11:29:43 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Der Spender möchte anonym bleiben., Q_cen-bleiben
+Fr, 24 Jul 2020 11:29:44 +0000  QA_rec 1 0 1 18
+Fr, 24 Jul 2020 11:30:04 +0000  QA_rec 0 0 1 18
+Fr, 24 Jul 2020 11:30:04 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Die Mutter rührt in ihren Töpfen und Pfannen., Q_cen-rührt
+Fr, 24 Jul 2020 11:30:05 +0000  QA_rec 1 0 1 19
+Fr, 24 Jul 2020 11:30:25 +0000  QA_rec 0 0 1 19
+Fr, 24 Jul 2020 11:30:25 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-An seinem Mantel fehlt ein Knopf., Q_cen-fehlt
+Fr, 24 Jul 2020 11:30:26 +0000  QA_rec 1 0 1 20
+Fr, 24 Jul 2020 11:30:46 +0000  QA_rec 0 0 1 20
+Fr, 24 Jul 2020 11:30:46 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Der Vogel flog zurück zu seinem Nest., Q_cen-flog
+Fr, 24 Jul 2020 11:30:47 +0000  QA_rec 1 0 1 21
+Fr, 24 Jul 2020 11:31:07 +0000  QA_rec 0 0 1 21
+Fr, 24 Jul 2020 11:31:07 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Wir freuen uns sehr über Ihren Besuch., Q_cen-freuen
+Fr, 24 Jul 2020 11:31:08 +0000  QA_rec 1 0 1 22
+Fr, 24 Jul 2020 11:31:28 +0000  QA_rec 0 0 1 22
+Fr, 24 Jul 2020 11:31:28 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Meine Mutter kocht heute Mittag nicht, wir gehen aus zum Essen., Q_cen-kocht
+Fr, 24 Jul 2020 11:31:30 +0000  QA_rec 1 0 1 23
+Fr, 24 Jul 2020 11:31:50 +0000  QA_rec 0 0 1 23
+Fr, 24 Jul 2020 11:31:50 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Die Band beendete das Konzert unter großem Beifall., Q_cen-beendete
+Fr, 24 Jul 2020 11:31:51 +0000  QA_rec 1 0 1 24
+Fr, 24 Jul 2020 11:32:11 +0000  QA_rec 0 0 1 24
+Fr, 24 Jul 2020 11:32:11 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Linda trinkt lieber eine heiße Schokolade., Q_cen-trinkt
