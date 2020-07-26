@@ -1,0 +1,197 @@
+So, 26 Jul 2020 17:49:04 +0000  fade_in 1 2 None None
+So, 26 Jul 2020 17:49:34 +0000  fade_in 0 2 None None
+So, 26 Jul 2020 17:49:35 +0000  Artifact_intro 1 None None None
+So, 26 Jul 2020 17:50:03 +0000  Artifact_intro 0 None None None
+So, 26 Jul 2020 17:50:03 +0000  Artifact_rec 1 None None 0
+So, 26 Jul 2020 17:50:25 +0000  Artifact_rec 0 None None 0
+So, 26 Jul 2020 17:50:25 +0000  Artifact_rec 1 None None 1
+So, 26 Jul 2020 17:50:47 +0000  Artifact_rec 0 None None 1
+So, 26 Jul 2020 17:50:47 +0000  Artifact_rec 1 None None 2
+So, 26 Jul 2020 17:51:09 +0000  Artifact_rec 0 None None 2
+So, 26 Jul 2020 17:51:09 +0000  Artifact_rec 1 None None 3
+So, 26 Jul 2020 17:51:31 +0000  Artifact_rec 0 None None 3
+So, 26 Jul 2020 17:51:31 +0000  Artifact_rec 1 None None 4
+So, 26 Jul 2020 17:51:53 +0000  Artifact_rec 0 None None 4
+So, 26 Jul 2020 17:51:53 +0000  Artifact_rec 1 None None 5
+So, 26 Jul 2020 17:52:15 +0000  Artifact_rec 0 None None 5
+So, 26 Jul 2020 17:52:15 +0000  Artifact_rec 1 None None 6
+So, 26 Jul 2020 17:52:37 +0000  Artifact_rec 0 None None 6
+So, 26 Jul 2020 17:52:37 +0000  Artifact_rec 1 None None 7
+So, 26 Jul 2020 17:52:59 +0000  Artifact_rec 0 None None 7
+So, 26 Jul 2020 17:52:59 +0000  Artifact_rec 1 None None 8
+So, 26 Jul 2020 17:53:21 +0000  Artifact_rec 0 None None 8
+So, 26 Jul 2020 17:53:21 +0000  Artifact_rec 1 None None 9
+So, 26 Jul 2020 17:53:44 +0000  Artifact_rec 0 None None 9
+So, 26 Jul 2020 17:53:44 +0000  Artifact_rec 1 None None 10
+So, 26 Jul 2020 17:54:06 +0000  Artifact_rec 0 None None 10
+So, 26 Jul 2020 17:54:06 +0000  Artifact_rec 1 None None 11
+So, 26 Jul 2020 17:54:28 +0000  Artifact_rec 0 None None 11
+So, 26 Jul 2020 17:54:28 +0000  Artifact_rec 1 None None 12
+So, 26 Jul 2020 17:54:50 +0000  Artifact_rec 0 None None 12
+So, 26 Jul 2020 17:54:50 +0000  Artifact_rec 1 None None 13
+So, 26 Jul 2020 17:55:12 +0000  Artifact_rec 0 None None 13
+So, 26 Jul 2020 17:55:12 +0000  Artifact_rec 1 None None 14
+So, 26 Jul 2020 17:55:34 +0000  Artifact_rec 0 None None 14
+So, 26 Jul 2020 17:55:35 +0000  RS_intro 1 2 0 None
+So, 26 Jul 2020 17:55:58 +0000  RS_intro 0 2 0 None
+So, 26 Jul 2020 17:55:58 +0000  RS_rec 1 2 0 None
+So, 26 Jul 2020 17:59:01 +0000  RS_rec 0 2 open None
+So, 26 Jul 2020 17:59:01 +0000  RS_intro 1 2 1 None
+So, 26 Jul 2020 17:59:24 +0000  RS_intro 0 2 1 None
+So, 26 Jul 2020 17:59:24 +0000  RS_rec 1 2 1 None
+So, 26 Jul 2020 18:02:28 +0000  RS_rec 0 2 close None
+So, 26 Jul 2020 18:02:42 +0000  QA_intro 1 2 None None
+So, 26 Jul 2020 18:03:22 +0000  QA_intro 0 2 None None
+So, 26 Jul 2020 18:03:24 +0000  QA_rec 1 2 0 0
+So, 26 Jul 2020 18:03:44 +0000  QA_rec 0 2 0 0
+So, 26 Jul 2020 18:03:44 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Bei der Ausreise wird der Pass kontrolliert., Q_cen-kontrolliert
+So, 26 Jul 2020 18:03:45 +0000  QA_rec 1 2 0 1
+So, 26 Jul 2020 18:04:05 +0000  QA_rec 0 2 0 1
+So, 26 Jul 2020 18:04:05 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Er hat meine Sympathie gewonnen., Q_cen-gewonnen
+So, 26 Jul 2020 18:04:06 +0000  QA_rec 1 2 0 2
+So, 26 Jul 2020 18:04:26 +0000  QA_rec 0 2 0 2
+So, 26 Jul 2020 18:04:26 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Wir haben auf der Konferenz einige grundlegende Fragen zum Klimaschutz diskutiert., Q_cen-diskutiert
+So, 26 Jul 2020 18:04:27 +0000  QA_rec 1 2 0 3
+So, 26 Jul 2020 18:04:48 +0000  QA_rec 0 2 0 3
+So, 26 Jul 2020 18:04:48 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Wir leben in dem universalen Weltall., Q_cen-leben
+So, 26 Jul 2020 18:04:49 +0000  QA_rec 1 2 0 4
+So, 26 Jul 2020 18:05:09 +0000  QA_rec 0 2 0 4
+So, 26 Jul 2020 18:05:09 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Die friedlichen Pandas kommen aus China., Q_cen-kommen
+So, 26 Jul 2020 18:05:10 +0000  QA_rec 1 2 0 5
+So, 26 Jul 2020 18:05:30 +0000  QA_rec 0 2 0 5
+So, 26 Jul 2020 18:05:30 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Doris ist leider zu spät gekommen, die Apotheke hat heute schon geschlossen., Q_cen-geschlossen
+So, 26 Jul 2020 18:05:31 +0000  QA_rec 1 2 0 6
+So, 26 Jul 2020 18:05:51 +0000  QA_rec 0 2 0 6
+So, 26 Jul 2020 18:05:51 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Briefe und Pakete verschickt man mit der Post., Q_cen-verschickt
+So, 26 Jul 2020 18:05:52 +0000  QA_rec 1 2 0 7
+So, 26 Jul 2020 18:06:12 +0000  QA_rec 0 2 0 7
+So, 26 Jul 2020 18:06:12 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Der Mörder wollte die Gründe für seine Tat nicht nennen., Q_cen-nennen
+So, 26 Jul 2020 18:06:13 +0000  QA_rec 1 2 0 8
+So, 26 Jul 2020 18:06:33 +0000  QA_rec 0 2 0 8
+So, 26 Jul 2020 18:06:33 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Der Vogel flog zurück zu seinem Nest., Q_cen-flog
+So, 26 Jul 2020 18:06:34 +0000  QA_rec 1 2 0 9
+So, 26 Jul 2020 18:06:54 +0000  QA_rec 0 2 0 9
+So, 26 Jul 2020 18:06:54 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Das Lagerfeuer hat zwei Stunden lang gebrannt., Q_cen-gebrannt
+So, 26 Jul 2020 18:06:55 +0000  QA_rec 1 2 0 10
+So, 26 Jul 2020 18:07:15 +0000  QA_rec 0 2 0 10
+So, 26 Jul 2020 18:07:15 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Die USA gewannen den Zweiten Weltkrieg, nachdem sie mehrere Jahre lang gekämpft hatten., Q_cen-gewannen
+So, 26 Jul 2020 18:07:16 +0000  QA_rec 1 2 0 11
+So, 26 Jul 2020 18:07:36 +0000  QA_rec 0 2 0 11
+So, 26 Jul 2020 18:07:36 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Singapore liegt in Südostasien., Q_cen-liegt
+So, 26 Jul 2020 18:07:37 +0000  QA_rec 1 2 0 12
+So, 26 Jul 2020 18:07:57 +0000  QA_rec 0 2 0 12
+So, 26 Jul 2020 18:07:57 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Er wird seinem Traum folgen, egal was die Leute reden., Q_cen-reden
+So, 26 Jul 2020 18:07:58 +0000  QA_rec 1 2 0 13
+So, 26 Jul 2020 18:08:18 +0000  QA_rec 0 2 0 13
+So, 26 Jul 2020 18:08:18 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Bananen können wir in der Obstabteilung finden., Q_cen-finden
+So, 26 Jul 2020 18:08:19 +0000  QA_rec 1 2 0 14
+So, 26 Jul 2020 18:08:39 +0000  QA_rec 0 2 0 14
+So, 26 Jul 2020 18:08:39 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Ich empfehle dieses Buch, weil es sehr gut ist., Q_cen-empfehle
+So, 26 Jul 2020 18:08:40 +0000  QA_rec 1 2 0 15
+So, 26 Jul 2020 18:09:00 +0000  QA_rec 0 2 0 15
+So, 26 Jul 2020 18:09:00 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Junge Leute machen gerne Partys., Q_cen-machen
+So, 26 Jul 2020 18:09:01 +0000  QA_rec 1 2 0 16
+So, 26 Jul 2020 18:09:21 +0000  QA_rec 0 2 0 16
+So, 26 Jul 2020 18:09:21 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Ich nehme nie Dinge, die anderen gehören., Q_cen-gehören
+So, 26 Jul 2020 18:09:22 +0000  QA_rec 1 2 0 17
+So, 26 Jul 2020 18:09:42 +0000  QA_rec 0 2 0 17
+So, 26 Jul 2020 18:09:42 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Ich würde sehr froh, wenn meine Familie 5 Millionen Euro gewinnen würde., Q_cen-gewinnen
+So, 26 Jul 2020 18:09:43 +0000  QA_rec 1 2 0 18
+So, 26 Jul 2020 18:10:03 +0000  QA_rec 0 2 0 18
+So, 26 Jul 2020 18:10:03 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Aufgrund der globalen Erwärmung werden die Häuser der Inselbewohner im Meer versinken., Q_cen-versinken
+So, 26 Jul 2020 18:10:04 +0000  QA_rec 1 2 0 19
+So, 26 Jul 2020 18:10:24 +0000  QA_rec 0 2 0 19
+So, 26 Jul 2020 18:10:24 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+So, 26 Jul 2020 18:10:25 +0000  QA_rec 1 2 0 20
+So, 26 Jul 2020 18:10:45 +0000  QA_rec 0 2 0 20
+So, 26 Jul 2020 18:10:45 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Leichte Sprache ist eine Hilfe für Menschen , die keine schwierige Sprache verstehen., Q_cen-verstehen
+So, 26 Jul 2020 18:10:46 +0000  QA_rec 1 2 0 21
+So, 26 Jul 2020 18:11:06 +0000  QA_rec 0 2 0 21
+So, 26 Jul 2020 18:11:06 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Um die Prüfung zu bestehen, hat er viel gelernt., Q_cen-gelernt
+So, 26 Jul 2020 18:11:07 +0000  QA_rec 1 2 0 22
+So, 26 Jul 2020 18:11:27 +0000  QA_rec 0 2 0 22
+So, 26 Jul 2020 18:11:27 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Ein Arzt behandelt kranke Leute in einer Praxis oder im Krankenhaus., Q_cen-behandelt
+So, 26 Jul 2020 18:11:28 +0000  QA_rec 1 2 0 23
+So, 26 Jul 2020 18:11:48 +0000  QA_rec 0 2 0 23
+So, 26 Jul 2020 18:11:48 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Die Milch riecht verdorben., Q_cen-riecht
+So, 26 Jul 2020 18:11:49 +0000  QA_rec 1 2 0 24
+So, 26 Jul 2020 18:12:09 +0000  QA_rec 0 2 0 24
+So, 26 Jul 2020 18:12:09 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Ich habe gestern einen interessanten Mann kennen gelernt., Q_cen-kennen
+So, 26 Jul 2020 18:12:26 +0000  QA_rec 1 2 1 0
+So, 26 Jul 2020 18:12:46 +0000  QA_rec 0 2 1 0
+So, 26 Jul 2020 18:12:46 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Bevor es Autos gab, sind die Leute mit der Eisenbahn gefahren., Q_cen-gefahren
+So, 26 Jul 2020 18:12:47 +0000  QA_rec 1 2 1 1
+So, 26 Jul 2020 18:13:07 +0000  QA_rec 0 2 1 1
+So, 26 Jul 2020 18:13:07 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Ich werde mich nicht entschuldigen, schließlich habe ich den Streit nicht angefangen., Q_cen-entschuldigen
+So, 26 Jul 2020 18:13:08 +0000  QA_rec 1 2 1 2
+So, 26 Jul 2020 18:13:28 +0000  QA_rec 0 2 1 2
+So, 26 Jul 2020 18:13:28 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Wir haben während des Urlaubs ein gemütliches Zimmer in Meeresnähe gemietet., Q_cen-gemietet
+So, 26 Jul 2020 18:13:29 +0000  QA_rec 1 2 1 3
+So, 26 Jul 2020 18:13:49 +0000  QA_rec 0 2 1 3
+So, 26 Jul 2020 18:13:49 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Auf Lavaerde wachsen sehr gute Weintrauben., Q_cen-wachsen
+So, 26 Jul 2020 18:13:50 +0000  QA_rec 1 2 1 4
+So, 26 Jul 2020 18:14:10 +0000  QA_rec 0 2 1 4
+So, 26 Jul 2020 18:14:10 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Sie hat Jogurt, Milch, Banana, Brot etc. im Supermarkt eingekauft., Q_cen-eingekauft
+So, 26 Jul 2020 18:14:11 +0000  QA_rec 1 2 1 5
+So, 26 Jul 2020 18:14:31 +0000  QA_rec 0 2 1 5
+So, 26 Jul 2020 18:14:31 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Sie hat neue Laufschuhe bekommen., Q_cen-bekommen
+So, 26 Jul 2020 18:14:32 +0000  QA_rec 1 2 1 6
+So, 26 Jul 2020 18:14:52 +0000  QA_rec 0 2 1 6
+So, 26 Jul 2020 18:14:52 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Lebensmittel sind die Dinge, die man essen kann., Q_cen-essen
+So, 26 Jul 2020 18:14:53 +0000  QA_rec 1 2 1 7
+So, 26 Jul 2020 18:15:13 +0000  QA_rec 0 2 1 7
+So, 26 Jul 2020 18:15:13 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Die Sonne brennt im Sommer auf der Haut., Q_cen-brennt
+So, 26 Jul 2020 18:15:14 +0000  QA_rec 1 2 1 8
+So, 26 Jul 2020 18:15:35 +0000  QA_rec 0 2 1 8
+So, 26 Jul 2020 18:15:35 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Schauen Sie nach draußen, der Schnee fällt., Q_cen-fällt
+So, 26 Jul 2020 18:15:36 +0000  QA_rec 1 2 1 9
+So, 26 Jul 2020 18:15:56 +0000  QA_rec 0 2 1 9
+So, 26 Jul 2020 18:15:56 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Dem Patienten geht es viel besser, so dass der Arzt ihm das Rauchen erlaubte., Q_cen-erlaubte
+So, 26 Jul 2020 18:15:57 +0000  QA_rec 1 2 1 10
+So, 26 Jul 2020 18:16:17 +0000  QA_rec 0 2 1 10
+So, 26 Jul 2020 18:16:17 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Er kann zwanzig Zigarattes pro Tag rauchen, was sehr ungesund ist., Q_cen-rauchen
+So, 26 Jul 2020 18:16:18 +0000  QA_rec 1 2 1 11
+So, 26 Jul 2020 18:16:38 +0000  QA_rec 0 2 1 11
+So, 26 Jul 2020 18:16:38 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Mama hat einen Kuchen gebacken., Q_cen-gebacken
+So, 26 Jul 2020 18:16:39 +0000  QA_rec 1 2 1 12
+So, 26 Jul 2020 18:16:59 +0000  QA_rec 0 2 1 12
+So, 26 Jul 2020 18:16:59 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Wir werden später bestellen, denn es fehlen noch einige Gäste., Q_cen-fehlen
+So, 26 Jul 2020 18:17:00 +0000  QA_rec 1 2 1 13
+So, 26 Jul 2020 18:17:20 +0000  QA_rec 0 2 1 13
+So, 26 Jul 2020 18:17:20 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Blut fließt aus einer Wunde., Q_cen-fließt
+So, 26 Jul 2020 18:17:21 +0000  QA_rec 1 2 1 14
+So, 26 Jul 2020 18:17:41 +0000  QA_rec 0 2 1 14
+So, 26 Jul 2020 18:17:41 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Die Suppe wird nicht so heiß gegessen, wie sie gekocht wird., Q_cen-gegessen
+So, 26 Jul 2020 18:17:42 +0000  QA_rec 1 2 1 15
+So, 26 Jul 2020 18:18:02 +0000  QA_rec 0 2 1 15
+So, 26 Jul 2020 18:18:02 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Dank genügend Sonnenschein und Wasser können im Amazonaswald riesige Bäume wachsen., Q_cen-wachsen
+So, 26 Jul 2020 18:18:03 +0000  QA_rec 1 2 1 16
+So, 26 Jul 2020 18:18:23 +0000  QA_rec 0 2 1 16
+So, 26 Jul 2020 18:18:23 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-In der Morgen wasche ich mein Gesicht., Q_cen-wasche
+So, 26 Jul 2020 18:18:24 +0000  QA_rec 1 2 1 17
+So, 26 Jul 2020 18:18:44 +0000  QA_rec 0 2 1 17
+So, 26 Jul 2020 18:18:44 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Das Auge ermöglicht Tieren das Sehen., Q_cen-ermöglicht
+So, 26 Jul 2020 18:18:45 +0000  QA_rec 1 2 1 18
+So, 26 Jul 2020 18:19:05 +0000  QA_rec 0 2 1 18
+So, 26 Jul 2020 18:19:05 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-In der Arktis leben gefährliche Eisbären., Q_cen-leben
+So, 26 Jul 2020 18:19:06 +0000  QA_rec 1 2 1 19
+So, 26 Jul 2020 18:19:26 +0000  QA_rec 0 2 1 19
+So, 26 Jul 2020 18:19:26 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Er hat seine Katze oft mit Fisch gefüttert., Q_cen-gefüttert
+So, 26 Jul 2020 18:19:27 +0000  QA_rec 1 2 1 20
+So, 26 Jul 2020 18:19:47 +0000  QA_rec 0 2 1 20
+So, 26 Jul 2020 18:19:47 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Die Firma hat einen Fachmann hinzugezogen, um das Netzwerk zu reparieren., Q_cen-reparieren
+So, 26 Jul 2020 18:19:48 +0000  QA_rec 1 2 1 21
+So, 26 Jul 2020 18:20:08 +0000  QA_rec 0 2 1 21
+So, 26 Jul 2020 18:20:08 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Damit Pflanzen gut wachsen, müssen wir sie mehr Wasser gießen., Q_cen-gießen
+So, 26 Jul 2020 18:20:09 +0000  QA_rec 1 2 1 22
+So, 26 Jul 2020 18:20:29 +0000  QA_rec 0 2 1 22
+So, 26 Jul 2020 18:20:29 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Sein Versprechen klingt glaubwürdig., Q_cen-klingt
+So, 26 Jul 2020 18:20:30 +0000  QA_rec 1 2 1 23
+So, 26 Jul 2020 18:20:50 +0000  QA_rec 0 2 1 23
+So, 26 Jul 2020 18:20:50 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Weil er so hungrig war, hat Franz einmal einen Apfel gestohlen., Q_cen-gestohlen
+So, 26 Jul 2020 18:20:51 +0000  QA_rec 1 2 1 24
+So, 26 Jul 2020 18:21:11 +0000  QA_rec 0 2 1 24
+So, 26 Jul 2020 18:21:11 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium., Q_cen-brauchen
+So, 26 Jul 2020 18:21:27 +0000  fade_out 1 2 None None
+So, 26 Jul 2020 18:21:30 +0000  fade_out 0 2 None None
+So, 26 Jul 2020 18:21:32 +0000  fade_in 1 3 None None

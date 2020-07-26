@@ -1,0 +1,162 @@
+So, 26 Jul 2020 18:34:26 +0000  fade_in 1 3 None None
+So, 26 Jul 2020 18:34:56 +0000  fade_in 0 3 None None
+So, 26 Jul 2020 18:34:58 +0000  RS_intro 1 3 0 None
+So, 26 Jul 2020 18:35:21 +0000  RS_intro 0 3 0 None
+So, 26 Jul 2020 18:35:21 +0000  RS_rec 1 3 0 None
+So, 26 Jul 2020 18:38:24 +0000  RS_rec 0 3 open None
+So, 26 Jul 2020 18:38:24 +0000  RS_intro 1 3 1 None
+So, 26 Jul 2020 18:38:47 +0000  RS_intro 0 3 1 None
+So, 26 Jul 2020 18:38:47 +0000  RS_rec 1 3 1 None
+So, 26 Jul 2020 18:41:50 +0000  RS_rec 0 3 close None
+So, 26 Jul 2020 18:42:05 +0000  QA_intro 1 3 None None
+So, 26 Jul 2020 18:42:46 +0000  QA_intro 0 3 None None
+So, 26 Jul 2020 18:42:48 +0000  QA_rec 1 3 0 0
+So, 26 Jul 2020 18:43:08 +0000  QA_rec 0 3 0 0
+So, 26 Jul 2020 18:43:08 +0000  Run-3, Block-0, Trial-0, Q_cnt-150, Q_sen-Du darfst diese Bücher aufeinander liegen., Q_cen-liegen
+So, 26 Jul 2020 18:43:09 +0000  QA_rec 1 3 0 1
+So, 26 Jul 2020 18:43:29 +0000  QA_rec 0 3 0 1
+So, 26 Jul 2020 18:43:29 +0000  Run-3, Block-0, Trial-1, Q_cnt-151, Q_sen-Mein Hund hat ein paar Tricks gelernt. , Q_cen-gelernt
+So, 26 Jul 2020 18:43:30 +0000  QA_rec 1 3 0 2
+So, 26 Jul 2020 18:43:50 +0000  QA_rec 0 3 0 2
+So, 26 Jul 2020 18:43:50 +0000  Run-3, Block-0, Trial-2, Q_cnt-152, Q_sen-Pinguine bewohnen die Antarktis, wie auch Robben und große Seelöwen., Q_cen-bewohnen
+So, 26 Jul 2020 18:43:51 +0000  QA_rec 1 3 0 3
+So, 26 Jul 2020 18:44:11 +0000  QA_rec 0 3 0 3
+So, 26 Jul 2020 18:44:11 +0000  Run-3, Block-0, Trial-3, Q_cnt-153, Q_sen-Ich habe das Formular ausgefüllt, um mich für den Kurs anzumelden., Q_cen-ausgefüllt
+So, 26 Jul 2020 18:44:12 +0000  QA_rec 1 3 0 4
+So, 26 Jul 2020 18:44:32 +0000  QA_rec 0 3 0 4
+So, 26 Jul 2020 18:44:32 +0000  Run-3, Block-0, Trial-4, Q_cnt-154, Q_sen-In Europa gibt es vier Jahrezeiten, am Zentralafrika nur eine., Q_cen-gibt
+So, 26 Jul 2020 18:44:33 +0000  QA_rec 1 3 0 5
+So, 26 Jul 2020 18:44:53 +0000  QA_rec 0 3 0 5
+So, 26 Jul 2020 18:44:53 +0000  Run-3, Block-0, Trial-5, Q_cnt-155, Q_sen-Sie gehen diese Straße geradeaus und biegen an der ersten Kreuzung rechts ab., Q_cen-biegen
+So, 26 Jul 2020 18:44:54 +0000  QA_rec 1 3 0 6
+So, 26 Jul 2020 18:45:14 +0000  QA_rec 0 3 0 6
+So, 26 Jul 2020 18:45:14 +0000  Run-3, Block-0, Trial-6, Q_cnt-156, Q_sen-Die U-Bahn ist gerade kaputt, also muss ich aussteigen. , Q_cen-aussteigen
+So, 26 Jul 2020 18:45:15 +0000  QA_rec 1 3 0 7
+So, 26 Jul 2020 18:45:35 +0000  QA_rec 0 3 0 7
+So, 26 Jul 2020 18:45:35 +0000  Run-3, Block-0, Trial-7, Q_cnt-157, Q_sen-Ich denke immer an meine Kindheit zurück., Q_cen-denke
+So, 26 Jul 2020 18:45:36 +0000  QA_rec 1 3 0 8
+So, 26 Jul 2020 18:45:56 +0000  QA_rec 0 3 0 8
+So, 26 Jul 2020 18:45:56 +0000  Run-3, Block-0, Trial-8, Q_cnt-158, Q_sen-Alle diese Probleme scheinen in dieselbe große Frage zu münden., Q_cen-scheinen
+So, 26 Jul 2020 18:45:57 +0000  QA_rec 1 3 0 9
+So, 26 Jul 2020 18:46:17 +0000  QA_rec 0 3 0 9
+So, 26 Jul 2020 18:46:17 +0000  Run-3, Block-0, Trial-9, Q_cnt-159, Q_sen-Im Weltraum kann man keinen Ton hören., Q_cen-hören
+So, 26 Jul 2020 18:46:18 +0000  QA_rec 1 3 0 10
+So, 26 Jul 2020 18:46:38 +0000  QA_rec 0 3 0 10
+So, 26 Jul 2020 18:46:38 +0000  Run-3, Block-0, Trial-10, Q_cnt-160, Q_sen-Die Taxifahrer sollten während Mitternacht nicht hupen., Q_cen-hupen
+So, 26 Jul 2020 18:46:39 +0000  QA_rec 1 3 0 11
+So, 26 Jul 2020 18:46:59 +0000  QA_rec 0 3 0 11
+So, 26 Jul 2020 18:46:59 +0000  Run-3, Block-0, Trial-11, Q_cnt-161, Q_sen-Ja, das Wasser aus der Leitung kann man trinken., Q_cen-trinken
+So, 26 Jul 2020 18:47:00 +0000  QA_rec 1 3 0 12
+So, 26 Jul 2020 18:47:20 +0000  QA_rec 0 3 0 12
+So, 26 Jul 2020 18:47:20 +0000  Run-3, Block-0, Trial-12, Q_cnt-162, Q_sen-Danke für den Smoothie, den Sie mir machten., Q_cen-machten
+So, 26 Jul 2020 18:47:21 +0000  QA_rec 1 3 0 13
+So, 26 Jul 2020 18:47:41 +0000  QA_rec 0 3 0 13
+So, 26 Jul 2020 18:47:41 +0000  Run-3, Block-0, Trial-13, Q_cnt-163, Q_sen-Sie haben Beeren gesammelt und wilde Tiere gejagt., Q_cen-gejagt
+So, 26 Jul 2020 18:47:42 +0000  QA_rec 1 3 0 14
+So, 26 Jul 2020 18:48:03 +0000  QA_rec 0 3 0 14
+So, 26 Jul 2020 18:48:03 +0000  Run-3, Block-0, Trial-14, Q_cnt-164, Q_sen-Ich geht auf das Postamt, um ein Paket meinem Freund zu schicken., Q_cen-schicken
+So, 26 Jul 2020 18:48:04 +0000  QA_rec 1 3 0 15
+So, 26 Jul 2020 18:48:24 +0000  QA_rec 0 3 0 15
+So, 26 Jul 2020 18:48:24 +0000  Run-3, Block-0, Trial-15, Q_cnt-165, Q_sen-Ihre Kinder liegen noch im Bett., Q_cen-liegen
+So, 26 Jul 2020 18:48:25 +0000  QA_rec 1 3 0 16
+So, 26 Jul 2020 18:48:45 +0000  QA_rec 0 3 0 16
+So, 26 Jul 2020 18:48:45 +0000  Run-3, Block-0, Trial-16, Q_cnt-166, Q_sen-Ich möchte gerne ein Zimmer im Hilton-Hotel reservieren., Q_cen-reservieren
+So, 26 Jul 2020 18:48:46 +0000  QA_rec 1 3 0 17
+So, 26 Jul 2020 18:49:06 +0000  QA_rec 0 3 0 17
+So, 26 Jul 2020 18:49:06 +0000  Run-3, Block-0, Trial-17, Q_cnt-167, Q_sen-Du kannst auf meine Unterstützung rechnen., Q_cen-rechnen
+So, 26 Jul 2020 18:49:07 +0000  QA_rec 1 3 0 18
+So, 26 Jul 2020 18:49:27 +0000  QA_rec 0 3 0 18
+So, 26 Jul 2020 18:49:27 +0000  Run-3, Block-0, Trial-18, Q_cnt-168, Q_sen-Die Ergebnisse werden auf einer Skala von eins bis zehn angezeigt., Q_cen-angezeigt
+So, 26 Jul 2020 18:49:28 +0000  QA_rec 1 3 0 19
+So, 26 Jul 2020 18:49:48 +0000  QA_rec 0 3 0 19
+So, 26 Jul 2020 18:49:48 +0000  Run-3, Block-0, Trial-19, Q_cnt-169, Q_sen-Der Spender möchte anonym bleiben., Q_cen-bleiben
+So, 26 Jul 2020 18:49:49 +0000  QA_rec 1 3 0 20
+So, 26 Jul 2020 18:50:09 +0000  QA_rec 0 3 0 20
+So, 26 Jul 2020 18:50:09 +0000  Run-3, Block-0, Trial-20, Q_cnt-170, Q_sen-Ich bekomme ein Gehalt und Nebenleistungen., Q_cen-bekomme
+So, 26 Jul 2020 18:50:10 +0000  QA_rec 1 3 0 21
+So, 26 Jul 2020 18:50:30 +0000  QA_rec 0 3 0 21
+So, 26 Jul 2020 18:50:30 +0000  Run-3, Block-0, Trial-21, Q_cnt-171, Q_sen-Die Zähne werden geputzt und der Bart rasiert., Q_cen-rasiert
+So, 26 Jul 2020 18:50:31 +0000  QA_rec 1 3 0 22
+So, 26 Jul 2020 18:50:51 +0000  QA_rec 0 3 0 22
+So, 26 Jul 2020 18:50:51 +0000  Run-3, Block-0, Trial-22, Q_cnt-172, Q_sen-Das Mädchen wollte etwas sagen, also hob sie ihre Hand., Q_cen-sagen
+So, 26 Jul 2020 18:50:52 +0000  QA_rec 1 3 0 23
+So, 26 Jul 2020 18:51:12 +0000  QA_rec 0 3 0 23
+So, 26 Jul 2020 18:51:12 +0000  Run-3, Block-0, Trial-23, Q_cnt-173, Q_sen-Sam ist nicht da, soll ich ihm sagen, dass Sie nachher zurück rufen?, Q_cen-rufen
+So, 26 Jul 2020 18:51:13 +0000  QA_rec 1 3 0 24
+So, 26 Jul 2020 18:51:33 +0000  QA_rec 0 3 0 24
+So, 26 Jul 2020 18:51:33 +0000  Run-3, Block-0, Trial-24, Q_cnt-174, Q_sen-Das Eingreifen des Lehrers beendete den Kampf  der Schüler., Q_cen-beendete
+So, 26 Jul 2020 18:51:51 +0000  QA_rec 1 3 1 0
+So, 26 Jul 2020 18:52:11 +0000  QA_rec 0 3 1 0
+So, 26 Jul 2020 18:52:11 +0000  Run-3, Block-1, Trial-0, Q_cnt-175, Q_sen-Ich muss meinen Nachnamen oft langsam buchstabieren, weil er zu selten ist., Q_cen-buchstabieren
+So, 26 Jul 2020 18:52:12 +0000  QA_rec 1 3 1 1
+So, 26 Jul 2020 18:52:32 +0000  QA_rec 0 3 1 1
+So, 26 Jul 2020 18:52:32 +0000  Run-3, Block-1, Trial-1, Q_cnt-176, Q_sen-Ich kann mich noch gut an meinen ersten Schultag erinnern., Q_cen-erinnern
+So, 26 Jul 2020 18:52:33 +0000  QA_rec 1 3 1 2
+So, 26 Jul 2020 18:52:53 +0000  QA_rec 0 3 1 2
+So, 26 Jul 2020 18:52:53 +0000  Run-3, Block-1, Trial-2, Q_cnt-177, Q_sen-Seine Freunde können seinen Worten nicht trauen, weil er immer lügt., Q_cen-lügt
+So, 26 Jul 2020 18:52:54 +0000  QA_rec 1 3 1 3
+So, 26 Jul 2020 18:53:14 +0000  QA_rec 0 3 1 3
+So, 26 Jul 2020 18:53:14 +0000  Run-3, Block-1, Trial-3, Q_cnt-178, Q_sen-Das Unternehmen wird nächste Woche die Jahresprämie bezahlen., Q_cen-bezahlen
+So, 26 Jul 2020 18:53:15 +0000  QA_rec 1 3 1 4
+So, 26 Jul 2020 18:53:35 +0000  QA_rec 0 3 1 4
+So, 26 Jul 2020 18:53:35 +0000  Run-3, Block-1, Trial-4, Q_cnt-179, Q_sen-In Wien besuchen die Touristen am liebsten den Stephansdom und das Schloss Schönbrunn., Q_cen-besuchen
+So, 26 Jul 2020 18:53:36 +0000  QA_rec 1 3 1 5
+So, 26 Jul 2020 18:53:56 +0000  QA_rec 0 3 1 5
+So, 26 Jul 2020 18:53:56 +0000  Run-3, Block-1, Trial-5, Q_cnt-180, Q_sen-Alexander Bell hat das Telefon erfunden., Q_cen-erfunden
+So, 26 Jul 2020 18:53:57 +0000  QA_rec 1 3 1 6
+So, 26 Jul 2020 18:54:17 +0000  QA_rec 0 3 1 6
+So, 26 Jul 2020 18:54:17 +0000  Run-3, Block-1, Trial-6, Q_cnt-181, Q_sen-Wir planen eine Route durch das ganze Land, von Westen bis Osten., Q_cen-planen
+So, 26 Jul 2020 18:54:18 +0000  QA_rec 1 3 1 7
+So, 26 Jul 2020 18:54:38 +0000  QA_rec 0 3 1 7
+So, 26 Jul 2020 18:54:38 +0000  Run-3, Block-1, Trial-7, Q_cnt-182, Q_sen-Das Thema interessierte sie, daher hörte sie genau zu., Q_cen-interessierte
+So, 26 Jul 2020 18:54:39 +0000  QA_rec 1 3 1 8
+So, 26 Jul 2020 18:54:59 +0000  QA_rec 0 3 1 8
+So, 26 Jul 2020 18:54:59 +0000  Run-3, Block-1, Trial-8, Q_cnt-183, Q_sen-Linda trinkt lieber eine heiße Schokolade., Q_cen-trinkt
+So, 26 Jul 2020 18:55:00 +0000  QA_rec 1 3 1 9
+So, 26 Jul 2020 18:55:20 +0000  QA_rec 0 3 1 9
+So, 26 Jul 2020 18:55:20 +0000  Run-3, Block-1, Trial-9, Q_cnt-184, Q_sen-Schultigung, Ich habe den falschen Knopf gedrückt., Q_cen-gedrückt
+So, 26 Jul 2020 18:55:21 +0000  QA_rec 1 3 1 10
+So, 26 Jul 2020 18:55:41 +0000  QA_rec 0 3 1 10
+So, 26 Jul 2020 18:55:41 +0000  Run-3, Block-1, Trial-10, Q_cnt-185, Q_sen-Jetzt liest er seiner Mutter eine Geschichte vor., Q_cen-liest
+So, 26 Jul 2020 18:55:42 +0000  QA_rec 1 3 1 11
+So, 26 Jul 2020 18:56:02 +0000  QA_rec 0 3 1 11
+So, 26 Jul 2020 18:56:02 +0000  Run-3, Block-1, Trial-11, Q_cnt-186, Q_sen-Ich lese gerne ein Buch vor dem Schlafengehen., Q_cen-lese
+So, 26 Jul 2020 18:56:03 +0000  QA_rec 1 3 1 12
+So, 26 Jul 2020 18:56:23 +0000  QA_rec 0 3 1 12
+So, 26 Jul 2020 18:56:23 +0000  Run-3, Block-1, Trial-12, Q_cnt-187, Q_sen-In Monaten ohne Regen trocknet die Erde so aus, dass sie ganz staubig wird., Q_cen-staubig
+So, 26 Jul 2020 18:56:24 +0000  QA_rec 1 3 1 13
+So, 26 Jul 2020 18:56:45 +0000  QA_rec 0 3 1 13
+So, 26 Jul 2020 18:56:45 +0000  Run-3, Block-1, Trial-13, Q_cnt-188, Q_sen-Alkoholsucht schadet der Gesundheit., Q_cen-schadet
+So, 26 Jul 2020 18:56:46 +0000  QA_rec 1 3 1 14
+So, 26 Jul 2020 18:57:06 +0000  QA_rec 0 3 1 14
+So, 26 Jul 2020 18:57:06 +0000  Run-3, Block-1, Trial-14, Q_cnt-189, Q_sen-Christoph Kolumbus hat am vierzehn zweiundneunzig Amerika entdeckt., Q_cen-entdeckt
+So, 26 Jul 2020 18:57:07 +0000  QA_rec 1 3 1 15
+So, 26 Jul 2020 18:57:27 +0000  QA_rec 0 3 1 15
+So, 26 Jul 2020 18:57:27 +0000  Run-3, Block-1, Trial-15, Q_cnt-190, Q_sen-Fortschritt und Naturschutz sollten kein Gegensatz sein., Q_cen-sein
+So, 26 Jul 2020 18:57:28 +0000  QA_rec 1 3 1 16
+So, 26 Jul 2020 18:57:48 +0000  QA_rec 0 3 1 16
+So, 26 Jul 2020 18:57:48 +0000  Run-3, Block-1, Trial-16, Q_cnt-191, Q_sen-Es wird nicht empfohlen, die Batterie völlig zu entladen., Q_cen-empfohlen
+So, 26 Jul 2020 18:57:49 +0000  QA_rec 1 3 1 17
+So, 26 Jul 2020 18:58:09 +0000  QA_rec 0 3 1 17
+So, 26 Jul 2020 18:58:09 +0000  Run-3, Block-1, Trial-17, Q_cnt-192, Q_sen-Ich möchte meinen tiefen Dank für seine Hilfe aussprechen., Q_cen-aussprechen
+So, 26 Jul 2020 18:58:10 +0000  QA_rec 1 3 1 18
+So, 26 Jul 2020 18:58:30 +0000  QA_rec 0 3 1 18
+So, 26 Jul 2020 18:58:30 +0000  Run-3, Block-1, Trial-18, Q_cnt-193, Q_sen-Er hat Kartoffeln mit der Schale gekocht., Q_cen-gekocht
+So, 26 Jul 2020 18:58:31 +0000  QA_rec 1 3 1 19
+So, 26 Jul 2020 18:58:51 +0000  QA_rec 0 3 1 19
+So, 26 Jul 2020 18:58:51 +0000  Run-3, Block-1, Trial-19, Q_cnt-194, Q_sen-Da drüben raucht es, wir sollten die Feuerwehr holen., Q_cen-raucht
+So, 26 Jul 2020 18:58:52 +0000  QA_rec 1 3 1 20
+So, 26 Jul 2020 18:59:12 +0000  QA_rec 0 3 1 20
+So, 26 Jul 2020 18:59:12 +0000  Run-3, Block-1, Trial-20, Q_cnt-195, Q_sen-Wenn wir ein Auto mieten möchten, müssen wir Führerschein vorlegen und die Kaution bezahlen., Q_cen-mieten
+So, 26 Jul 2020 18:59:13 +0000  QA_rec 1 3 1 21
+So, 26 Jul 2020 18:59:33 +0000  QA_rec 0 3 1 21
+So, 26 Jul 2020 18:59:33 +0000  Run-3, Block-1, Trial-21, Q_cnt-196, Q_sen-Sonja nimmt ihren Tee mit Milch und Zucker., Q_cen-nimmt
+So, 26 Jul 2020 18:59:34 +0000  QA_rec 1 3 1 22
+So, 26 Jul 2020 18:59:54 +0000  QA_rec 0 3 1 22
+So, 26 Jul 2020 18:59:54 +0000  Run-3, Block-1, Trial-22, Q_cnt-197, Q_sen-Er lieh mir Geld, ohne Zinsen zu verlangen., Q_cen-lieh
+So, 26 Jul 2020 18:59:55 +0000  QA_rec 1 3 1 23
+So, 26 Jul 2020 19:00:15 +0000  QA_rec 0 3 1 23
+So, 26 Jul 2020 19:00:15 +0000  Run-3, Block-1, Trial-23, Q_cnt-198, Q_sen-Das Abkommen läuft noch fünf Monate. , Q_cen-läuft
+So, 26 Jul 2020 19:00:16 +0000  QA_rec 1 3 1 24
+So, 26 Jul 2020 19:00:36 +0000  QA_rec 0 3 1 24
+So, 26 Jul 2020 19:00:36 +0000  Run-3, Block-1, Trial-24, Q_cnt-199, Q_sen-Er probierte, die Tür mit dem falschen Schlüssel zu öffnen., Q_cen-öffnen

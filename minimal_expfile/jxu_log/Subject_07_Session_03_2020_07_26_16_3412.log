@@ -1,0 +1,88 @@
+So, 26 Jul 2020 16:34:16 +0000  fade_in 1 0 None None
+So, 26 Jul 2020 16:34:46 +0000  fade_in 0 0 None None
+So, 26 Jul 2020 16:34:48 +0000  RS_intro 1 0 0 None
+So, 26 Jul 2020 16:35:11 +0000  RS_intro 0 0 0 None
+So, 26 Jul 2020 16:35:11 +0000  RS_rec 1 0 0 None
+So, 26 Jul 2020 16:38:14 +0000  RS_rec 0 0 close None
+So, 26 Jul 2020 16:38:14 +0000  RS_intro 1 0 1 None
+So, 26 Jul 2020 16:38:37 +0000  RS_intro 0 0 1 None
+So, 26 Jul 2020 16:38:37 +0000  RS_rec 1 0 1 None
+So, 26 Jul 2020 16:41:40 +0000  RS_rec 0 0 open None
+So, 26 Jul 2020 16:41:54 +0000  QA_intro 1 0 None None
+So, 26 Jul 2020 16:42:35 +0000  QA_intro 0 0 None None
+So, 26 Jul 2020 16:42:37 +0000  QA_rec 1 0 0 0
+So, 26 Jul 2020 16:42:57 +0000  QA_rec 0 0 0 0
+So, 26 Jul 2020 16:42:57 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Wir leben alle auf der Erde., Q_cen-leben
+So, 26 Jul 2020 16:42:58 +0000  QA_rec 1 0 0 1
+So, 26 Jul 2020 16:43:18 +0000  QA_rec 0 0 0 1
+So, 26 Jul 2020 16:43:18 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Einige NGOs schützen die Rechte der Menschen., Q_cen-schützen
+So, 26 Jul 2020 16:43:19 +0000  QA_rec 1 0 0 2
+So, 26 Jul 2020 16:43:39 +0000  QA_rec 0 0 0 2
+So, 26 Jul 2020 16:43:39 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Bevor man eine Orange essen kann, muss man sie erst schneiden oder schälen., Q_cen-schälen
+So, 26 Jul 2020 16:43:40 +0000  QA_rec 1 0 0 3
+So, 26 Jul 2020 16:44:00 +0000  QA_rec 0 0 0 3
+So, 26 Jul 2020 16:44:00 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Manche Politiker wollen den Frieden auf Erden sichern., Q_cen-sichern
+So, 26 Jul 2020 16:44:01 +0000  QA_rec 1 0 0 4
+So, 26 Jul 2020 16:44:21 +0000  QA_rec 0 0 0 4
+So, 26 Jul 2020 16:44:21 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Morgen will er probieren, ob seine Theorie auch in der Praxis stimmt., Q_cen-probieren
+So, 26 Jul 2020 16:44:22 +0000  QA_rec 1 0 0 5
+So, 26 Jul 2020 16:44:42 +0000  QA_rec 0 0 0 5
+So, 26 Jul 2020 16:44:42 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Bitte waschen Sie Ihre Hände mit Seife., Q_cen-waschen
+So, 26 Jul 2020 16:44:43 +0000  QA_rec 1 0 0 6
+So, 26 Jul 2020 16:45:03 +0000  QA_rec 0 0 0 6
+So, 26 Jul 2020 16:45:03 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Der Donau fließt ins Schwarze Meer., Q_cen-fließt
+So, 26 Jul 2020 16:45:04 +0000  QA_rec 1 0 0 7
+So, 26 Jul 2020 16:45:24 +0000  QA_rec 0 0 0 7
+So, 26 Jul 2020 16:45:24 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Der Ausgang muss frei bleiben. , Q_cen-bleiben
+So, 26 Jul 2020 16:45:25 +0000  QA_rec 1 0 0 8
+So, 26 Jul 2020 16:45:45 +0000  QA_rec 0 0 0 8
+So, 26 Jul 2020 16:45:45 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Ich habe das Bild an die Wand gehängt. , Q_cen-gehängt
+So, 26 Jul 2020 16:45:46 +0000  QA_rec 1 0 0 9
+So, 26 Jul 2020 16:46:06 +0000  QA_rec 0 0 0 9
+So, 26 Jul 2020 16:46:06 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Tomas fischt im Fluss und wird Fisch zum Abendessen essen., Q_cen-fischt
+So, 26 Jul 2020 16:46:07 +0000  QA_rec 1 0 0 10
+So, 26 Jul 2020 16:46:27 +0000  QA_rec 0 0 0 10
+So, 26 Jul 2020 16:46:27 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Aus Fehlern kann man lernen., Q_cen-lernen
+So, 26 Jul 2020 16:46:28 +0000  QA_rec 1 0 0 11
+So, 26 Jul 2020 16:46:48 +0000  QA_rec 0 0 0 11
+So, 26 Jul 2020 16:46:48 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Ich wusste nicht, ob ich lachen oder weinen sollte., Q_cen-lachen
+So, 26 Jul 2020 16:46:49 +0000  QA_rec 1 0 0 12
+So, 26 Jul 2020 16:47:10 +0000  QA_rec 0 0 0 12
+So, 26 Jul 2020 16:47:10 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Das Bild kann mir die Uhrzeitangabe verstehen helfen., Q_cen-helfen
+So, 26 Jul 2020 16:47:11 +0000  QA_rec 1 0 0 13
+So, 26 Jul 2020 16:47:31 +0000  QA_rec 0 0 0 13
+So, 26 Jul 2020 16:47:31 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Wir sollen unsere Hände täglich aus Hygiene waschen., Q_cen-waschen
+So, 26 Jul 2020 16:47:32 +0000  QA_rec 1 0 0 14
+So, 26 Jul 2020 16:47:52 +0000  QA_rec 0 0 0 14
+So, 26 Jul 2020 16:47:52 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Kann man gekeimte Kartoffeln noch essen?, Q_cen-essen
+So, 26 Jul 2020 16:47:53 +0000  QA_rec 1 0 0 15
+So, 26 Jul 2020 16:48:13 +0000  QA_rec 0 0 0 15
+So, 26 Jul 2020 16:48:13 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Im Mittelalter öffnete das erste Kaufhaus in Europa., Q_cen-öffnete
+So, 26 Jul 2020 16:48:14 +0000  QA_rec 1 0 0 16
+So, 26 Jul 2020 16:48:34 +0000  QA_rec 0 0 0 16
+So, 26 Jul 2020 16:48:34 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Für dieses Produkt wird keine technische Unterstützung mehr angeboten., Q_cen-angeboten
+So, 26 Jul 2020 16:48:35 +0000  QA_rec 1 0 0 17
+So, 26 Jul 2020 16:48:55 +0000  QA_rec 0 0 0 17
+So, 26 Jul 2020 16:48:55 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Der Läufer hat seine Konkurrenten mühelos geschlagen., Q_cen-geschlagen
+So, 26 Jul 2020 16:48:56 +0000  QA_rec 1 0 0 18
+So, 26 Jul 2020 16:49:16 +0000  QA_rec 0 0 0 18
+So, 26 Jul 2020 16:49:16 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Wir müssen jemanden mit mehr Erfahrung für diese wichtige Position einstellen., Q_cen-einstellen
+So, 26 Jul 2020 16:49:17 +0000  QA_rec 1 0 0 19
+So, 26 Jul 2020 16:49:37 +0000  QA_rec 0 0 0 19
+So, 26 Jul 2020 16:49:37 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-In der Küche steht noch das schumutzige Geschirr vom Frühstück., Q_cen-steht
+So, 26 Jul 2020 16:49:38 +0000  QA_rec 1 0 0 20
+So, 26 Jul 2020 16:49:58 +0000  QA_rec 0 0 0 20
+So, 26 Jul 2020 16:49:58 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Er war so betrunken, dass er nicht mehr vernünftig denken konnte., Q_cen-denken
+So, 26 Jul 2020 16:49:59 +0000  QA_rec 1 0 0 21
+So, 26 Jul 2020 16:50:19 +0000  QA_rec 0 0 0 21
+So, 26 Jul 2020 16:50:19 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Man kann die salzige Luft riechen., Q_cen-riechen
+So, 26 Jul 2020 16:50:20 +0000  QA_rec 1 0 0 22
+So, 26 Jul 2020 16:50:40 +0000  QA_rec 0 0 0 22
+So, 26 Jul 2020 16:50:40 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Ich fahre mit dem Zug nach London., Q_cen-fahre
+So, 26 Jul 2020 16:50:41 +0000  QA_rec 1 0 0 23
+So, 26 Jul 2020 16:51:01 +0000  QA_rec 0 0 0 23
+So, 26 Jul 2020 16:51:01 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Bitte, erinnern Sie mich daran, wenn ich es vergessen sollte., Q_cen-erinnern
+So, 26 Jul 2020 16:51:02 +0000  QA_rec 1 0 0 24
+So, 26 Jul 2020 16:51:22 +0000  QA_rec 0 0 0 24
+So, 26 Jul 2020 16:51:22 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Sam ist ein ehrlicher Mann und sagt immer die Wahrheit., Q_cen-sagt
+So, 26 Jul 2020 16:51:38 +0000  QA_rec 1 0 1 0
