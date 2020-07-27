@@ -1,0 +1,197 @@
+Mo, 27 Jul 2020 16:54:32 +0000  fade_in 1 2 None None
+Mo, 27 Jul 2020 16:55:02 +0000  fade_in 0 2 None None
+Mo, 27 Jul 2020 16:55:03 +0000  Artifact_intro 1 None None None
+Mo, 27 Jul 2020 16:55:36 +0000  Artifact_intro 0 None None None
+Mo, 27 Jul 2020 16:55:36 +0000  Artifact_rec 1 None None 0
+Mo, 27 Jul 2020 16:55:58 +0000  Artifact_rec 0 None None 0
+Mo, 27 Jul 2020 16:55:58 +0000  Artifact_rec 1 None None 1
+Mo, 27 Jul 2020 16:56:20 +0000  Artifact_rec 0 None None 1
+Mo, 27 Jul 2020 16:56:20 +0000  Artifact_rec 1 None None 2
+Mo, 27 Jul 2020 16:56:42 +0000  Artifact_rec 0 None None 2
+Mo, 27 Jul 2020 16:56:42 +0000  Artifact_rec 1 None None 3
+Mo, 27 Jul 2020 16:57:04 +0000  Artifact_rec 0 None None 3
+Mo, 27 Jul 2020 16:57:04 +0000  Artifact_rec 1 None None 4
+Mo, 27 Jul 2020 16:57:26 +0000  Artifact_rec 0 None None 4
+Mo, 27 Jul 2020 16:57:26 +0000  Artifact_rec 1 None None 5
+Mo, 27 Jul 2020 16:57:48 +0000  Artifact_rec 0 None None 5
+Mo, 27 Jul 2020 16:57:48 +0000  Artifact_rec 1 None None 6
+Mo, 27 Jul 2020 16:58:10 +0000  Artifact_rec 0 None None 6
+Mo, 27 Jul 2020 16:58:10 +0000  Artifact_rec 1 None None 7
+Mo, 27 Jul 2020 16:58:32 +0000  Artifact_rec 0 None None 7
+Mo, 27 Jul 2020 16:58:32 +0000  Artifact_rec 1 None None 8
+Mo, 27 Jul 2020 16:58:54 +0000  Artifact_rec 0 None None 8
+Mo, 27 Jul 2020 16:58:54 +0000  Artifact_rec 1 None None 9
+Mo, 27 Jul 2020 16:59:16 +0000  Artifact_rec 0 None None 9
+Mo, 27 Jul 2020 16:59:16 +0000  Artifact_rec 1 None None 10
+Mo, 27 Jul 2020 16:59:38 +0000  Artifact_rec 0 None None 10
+Mo, 27 Jul 2020 16:59:38 +0000  Artifact_rec 1 None None 11
+Mo, 27 Jul 2020 17:00:00 +0000  Artifact_rec 0 None None 11
+Mo, 27 Jul 2020 17:00:00 +0000  Artifact_rec 1 None None 12
+Mo, 27 Jul 2020 17:00:22 +0000  Artifact_rec 0 None None 12
+Mo, 27 Jul 2020 17:00:22 +0000  Artifact_rec 1 None None 13
+Mo, 27 Jul 2020 17:00:44 +0000  Artifact_rec 0 None None 13
+Mo, 27 Jul 2020 17:00:44 +0000  Artifact_rec 1 None None 14
+Mo, 27 Jul 2020 17:01:06 +0000  Artifact_rec 0 None None 14
+Mo, 27 Jul 2020 17:01:07 +0000  RS_intro 1 2 0 None
+Mo, 27 Jul 2020 17:01:30 +0000  RS_intro 0 2 0 None
+Mo, 27 Jul 2020 17:01:30 +0000  RS_rec 1 2 0 None
+Mo, 27 Jul 2020 17:04:34 +0000  RS_rec 0 2 open None
+Mo, 27 Jul 2020 17:04:34 +0000  RS_intro 1 2 1 None
+Mo, 27 Jul 2020 17:04:57 +0000  RS_intro 0 2 1 None
+Mo, 27 Jul 2020 17:04:57 +0000  RS_rec 1 2 1 None
+Mo, 27 Jul 2020 17:08:00 +0000  RS_rec 0 2 close None
+Mo, 27 Jul 2020 17:08:20 +0000  QA_intro 1 2 None None
+Mo, 27 Jul 2020 17:09:04 +0000  QA_intro 0 2 None None
+Mo, 27 Jul 2020 17:09:06 +0000  QA_rec 1 2 0 0
+Mo, 27 Jul 2020 17:09:26 +0000  QA_rec 0 2 0 0
+Mo, 27 Jul 2020 17:09:26 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Auf einer CD sind der Musik oder gesprochener Text gespeichert., Q_cen-gespeichert
+Mo, 27 Jul 2020 17:09:27 +0000  QA_rec 1 2 0 1
+Mo, 27 Jul 2020 17:09:47 +0000  QA_rec 0 2 0 1
+Mo, 27 Jul 2020 17:09:47 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Was bedeutet Pressefreiheit für dich?, Q_cen-bedeutet
+Mo, 27 Jul 2020 17:09:48 +0000  QA_rec 1 2 0 2
+Mo, 27 Jul 2020 17:10:08 +0000  QA_rec 0 2 0 2
+Mo, 27 Jul 2020 17:10:08 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Während meines Urlaubs werde ich nach China und Japan reisen., Q_cen-reisen
+Mo, 27 Jul 2020 17:10:09 +0000  QA_rec 1 2 0 3
+Mo, 27 Jul 2020 17:10:29 +0000  QA_rec 0 2 0 3
+Mo, 27 Jul 2020 17:10:29 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Muss ich mit dem Bus fahren oder kann ich zu Fuß gehen?, Q_cen-gehen
+Mo, 27 Jul 2020 17:10:30 +0000  QA_rec 1 2 0 4
+Mo, 27 Jul 2020 17:10:50 +0000  QA_rec 0 2 0 4
+Mo, 27 Jul 2020 17:10:50 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Das Mädchen wollte etwas sagen, also hob sie ihre Hand., Q_cen-sagen
+Mo, 27 Jul 2020 17:10:51 +0000  QA_rec 1 2 0 5
+Mo, 27 Jul 2020 17:11:11 +0000  QA_rec 0 2 0 5
+Mo, 27 Jul 2020 17:11:11 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Rauchen schadet deiner Lunge., Q_cen-schadet
+Mo, 27 Jul 2020 17:11:12 +0000  QA_rec 1 2 0 6
+Mo, 27 Jul 2020 17:11:32 +0000  QA_rec 0 2 0 6
+Mo, 27 Jul 2020 17:11:32 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Zu Ostern gibt es für Kinder Ostereier und Süßigkeiten., Q_cen-gibt
+Mo, 27 Jul 2020 17:11:33 +0000  QA_rec 1 2 0 7
+Mo, 27 Jul 2020 17:11:53 +0000  QA_rec 0 2 0 7
+Mo, 27 Jul 2020 17:11:53 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Der Detektiv ist ihm bis zu seinem Haus gefolgt., Q_cen-gefolgt
+Mo, 27 Jul 2020 17:11:54 +0000  QA_rec 1 2 0 8
+Mo, 27 Jul 2020 17:12:14 +0000  QA_rec 0 2 0 8
+Mo, 27 Jul 2020 17:12:14 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Meine Großtante starb letztes Jahr und wurde neben ihrem Mann begraben., Q_cen-begraben
+Mo, 27 Jul 2020 17:12:15 +0000  QA_rec 1 2 0 9
+Mo, 27 Jul 2020 17:12:35 +0000  QA_rec 0 2 0 9
+Mo, 27 Jul 2020 17:12:35 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Ich möchte mir ein Buch aus der Bibliothek leihen., Q_cen-leihen
+Mo, 27 Jul 2020 17:12:36 +0000  QA_rec 1 2 0 10
+Mo, 27 Jul 2020 17:12:56 +0000  QA_rec 0 2 0 10
+Mo, 27 Jul 2020 17:12:56 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Im Frühling besuchen viele Touristen unserer Hauptstadt., Q_cen-besuchen
+Mo, 27 Jul 2020 17:12:57 +0000  QA_rec 1 2 0 11
+Mo, 27 Jul 2020 17:13:18 +0000  QA_rec 0 2 0 11
+Mo, 27 Jul 2020 17:13:18 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Das iPhone wurde von Kalifornien entworfen und in China hergestellt. , Q_cen-hergestellt
+Mo, 27 Jul 2020 17:13:19 +0000  QA_rec 1 2 0 12
+Mo, 27 Jul 2020 17:13:39 +0000  QA_rec 0 2 0 12
+Mo, 27 Jul 2020 17:13:39 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Ich möchte gerne ein Zimmer im Hilton-Hotel reservieren., Q_cen-reservieren
+Mo, 27 Jul 2020 17:13:40 +0000  QA_rec 1 2 0 13
+Mo, 27 Jul 2020 17:14:00 +0000  QA_rec 0 2 0 13
+Mo, 27 Jul 2020 17:14:00 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Wenn Sie mit dem Vertrag nicht zufrieden sind, können Sie ihn vor seinem Ablauf kündigen., Q_cen-kündigen
+Mo, 27 Jul 2020 17:14:01 +0000  QA_rec 1 2 0 14
+Mo, 27 Jul 2020 17:14:21 +0000  QA_rec 0 2 0 14
+Mo, 27 Jul 2020 17:14:21 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Obst sollte man täglich essen, weil es wegen den Vitaminen sehr gesund ist., Q_cen-essen
+Mo, 27 Jul 2020 17:14:22 +0000  QA_rec 1 2 0 15
+Mo, 27 Jul 2020 17:14:42 +0000  QA_rec 0 2 0 15
+Mo, 27 Jul 2020 17:14:42 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Die Kinder haben ihrer Mutter im Haushalt geholfen., Q_cen-geholfen
+Mo, 27 Jul 2020 17:14:43 +0000  QA_rec 1 2 0 16
+Mo, 27 Jul 2020 17:15:03 +0000  QA_rec 0 2 0 16
+Mo, 27 Jul 2020 17:15:03 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Der Wirkstoff im Kaffee heißt Koffein., Q_cen-heißt
+Mo, 27 Jul 2020 17:15:04 +0000  QA_rec 1 2 0 17
+Mo, 27 Jul 2020 17:15:24 +0000  QA_rec 0 2 0 17
+Mo, 27 Jul 2020 17:15:24 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Wissen Sie, wer als erster Bergsteiger den Mount Everest bestiegen hat?, Q_cen-bestiegen
+Mo, 27 Jul 2020 17:15:25 +0000  QA_rec 1 2 0 18
+Mo, 27 Jul 2020 17:15:45 +0000  QA_rec 0 2 0 18
+Mo, 27 Jul 2020 17:15:45 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Oma hat Probleme mit den Zähnen, aber sie fürchtet sich vorm Zahnarzt., Q_cen-fürchtet
+Mo, 27 Jul 2020 17:15:46 +0000  QA_rec 1 2 0 19
+Mo, 27 Jul 2020 17:16:06 +0000  QA_rec 0 2 0 19
+Mo, 27 Jul 2020 17:16:06 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Wir haben eine Testversion heruntergeladen, um die Nutzbarkeit der Software zu testen., Q_cen-heruntergeladen
+Mo, 27 Jul 2020 17:16:07 +0000  QA_rec 1 2 0 20
+Mo, 27 Jul 2020 17:16:27 +0000  QA_rec 0 2 0 20
+Mo, 27 Jul 2020 17:16:27 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Planeten kreisen um eine Sonne., Q_cen-kreisen
+Mo, 27 Jul 2020 17:16:28 +0000  QA_rec 1 2 0 21
+Mo, 27 Jul 2020 17:16:48 +0000  QA_rec 0 2 0 21
+Mo, 27 Jul 2020 17:16:48 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Am Anfang sind die Brüder Wright mit Gleitflugzeugen geflogen., Q_cen-geflogen
+Mo, 27 Jul 2020 17:16:49 +0000  QA_rec 1 2 0 22
+Mo, 27 Jul 2020 17:17:09 +0000  QA_rec 0 2 0 22
+Mo, 27 Jul 2020 17:17:09 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Der Arbeiter repariert eine Panne., Q_cen-repariert
+Mo, 27 Jul 2020 17:17:10 +0000  QA_rec 1 2 0 23
+Mo, 27 Jul 2020 17:17:30 +0000  QA_rec 0 2 0 23
+Mo, 27 Jul 2020 17:17:30 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Wir müssen jemanden mit mehr Erfahrung für diese wichtige Position einstellen., Q_cen-einstellen
+Mo, 27 Jul 2020 17:17:31 +0000  QA_rec 1 2 0 24
+Mo, 27 Jul 2020 17:17:51 +0000  QA_rec 0 2 0 24
+Mo, 27 Jul 2020 17:17:51 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Früh übt sich, wer ein Meister werden will., Q_cen-werden
+Mo, 27 Jul 2020 17:18:09 +0000  QA_rec 1 2 1 0
+Mo, 27 Jul 2020 17:18:30 +0000  QA_rec 0 2 1 0
+Mo, 27 Jul 2020 17:18:30 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Das Geheimnis darfst du niemand sagen., Q_cen-sagen
+Mo, 27 Jul 2020 17:18:31 +0000  QA_rec 1 2 1 1
+Mo, 27 Jul 2020 17:18:51 +0000  QA_rec 0 2 1 1
+Mo, 27 Jul 2020 17:18:51 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Mit meinem Wagen kann ich nach Tibet reisen., Q_cen-reisen
+Mo, 27 Jul 2020 17:18:52 +0000  QA_rec 1 2 1 2
+Mo, 27 Jul 2020 17:19:12 +0000  QA_rec 0 2 1 2
+Mo, 27 Jul 2020 17:19:12 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Der Prüfer hat die Erfüllung gesetzlicher Auflagen durch das Unternehmen kontrolliert., Q_cen-kontrolliert
+Mo, 27 Jul 2020 17:19:13 +0000  QA_rec 1 2 1 3
+Mo, 27 Jul 2020 17:19:33 +0000  QA_rec 0 2 1 3
+Mo, 27 Jul 2020 17:19:33 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Wie hoch kosten der Wahren ？, Q_cen-kosten
+Mo, 27 Jul 2020 17:19:34 +0000  QA_rec 1 2 1 4
+Mo, 27 Jul 2020 17:19:54 +0000  QA_rec 0 2 1 4
+Mo, 27 Jul 2020 17:19:54 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Bald wird in den USA ein neuer Präsident gewählt., Q_cen-gewählt
+Mo, 27 Jul 2020 17:19:55 +0000  QA_rec 1 2 1 5
+Mo, 27 Jul 2020 17:20:15 +0000  QA_rec 0 2 1 5
+Mo, 27 Jul 2020 17:20:15 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Ich entschuldige bitte meine Verspätung., Q_cen-entschuldige
+Mo, 27 Jul 2020 17:20:16 +0000  QA_rec 1 2 1 6
+Mo, 27 Jul 2020 17:20:36 +0000  QA_rec 0 2 1 6
+Mo, 27 Jul 2020 17:20:36 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Wer soll den Geschirrspüler einräumen?, Q_cen-einräumen
+Mo, 27 Jul 2020 17:20:37 +0000  QA_rec 1 2 1 7
+Mo, 27 Jul 2020 17:20:57 +0000  QA_rec 0 2 1 7
+Mo, 27 Jul 2020 17:20:57 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Der Autohändler hat auf der Messe zehn Sportwagen eingekauft., Q_cen-eingekauft
+Mo, 27 Jul 2020 17:20:58 +0000  QA_rec 1 2 1 8
+Mo, 27 Jul 2020 17:21:18 +0000  QA_rec 0 2 1 8
+Mo, 27 Jul 2020 17:21:18 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Wir haben während des Urlaubs ein gemütliches Zimmer in Meeresnähe gemietet., Q_cen-gemietet
+Mo, 27 Jul 2020 17:21:19 +0000  QA_rec 1 2 1 9
+Mo, 27 Jul 2020 17:21:39 +0000  QA_rec 0 2 1 9
+Mo, 27 Jul 2020 17:21:39 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Chris hat Zahnschmerzen, aber er fürchtet sich vor dem Zahnarzt., Q_cen-fürchtet
+Mo, 27 Jul 2020 17:21:40 +0000  QA_rec 1 2 1 10
+Mo, 27 Jul 2020 17:22:00 +0000  QA_rec 0 2 1 10
+Mo, 27 Jul 2020 17:22:00 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Mein Freund führt ein erfolgreiches Geschäft., Q_cen-führt
+Mo, 27 Jul 2020 17:22:01 +0000  QA_rec 1 2 1 11
+Mo, 27 Jul 2020 17:22:21 +0000  QA_rec 0 2 1 11
+Mo, 27 Jul 2020 17:22:21 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Der Schmied klopft immer wieder mit dem Hammer auf das heiße Eisen., Q_cen-klopft
+Mo, 27 Jul 2020 17:22:22 +0000  QA_rec 1 2 1 12
+Mo, 27 Jul 2020 17:22:42 +0000  QA_rec 0 2 1 12
+Mo, 27 Jul 2020 17:22:42 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Marco hat gestern einen Brief an seine Eltern geschrieben., Q_cen-geschrieben
+Mo, 27 Jul 2020 17:22:43 +0000  QA_rec 1 2 1 13
+Mo, 27 Jul 2020 17:23:03 +0000  QA_rec 0 2 1 13
+Mo, 27 Jul 2020 17:23:03 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Er pflegte jeden Abend auf Pferden zu reiten und durch die Wälder zu gehen., Q_cen-reiten
+Mo, 27 Jul 2020 17:23:04 +0000  QA_rec 1 2 1 14
+Mo, 27 Jul 2020 17:23:24 +0000  QA_rec 0 2 1 14
+Mo, 27 Jul 2020 17:23:24 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Er ist ein Experte für Computer und kennt alle technischen Details., Q_cen-kennt
+Mo, 27 Jul 2020 17:23:25 +0000  QA_rec 1 2 1 15
+Mo, 27 Jul 2020 17:23:45 +0000  QA_rec 0 2 1 15
+Mo, 27 Jul 2020 17:23:45 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Der Baum hängt voller Früchte., Q_cen-hängt
+Mo, 27 Jul 2020 17:23:46 +0000  QA_rec 1 2 1 16
+Mo, 27 Jul 2020 17:24:06 +0000  QA_rec 0 2 1 16
+Mo, 27 Jul 2020 17:24:06 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Du muss deine schmutzige Kleidung in der Wäscherei waschen., Q_cen-waschen
+Mo, 27 Jul 2020 17:24:07 +0000  QA_rec 1 2 1 17
+Mo, 27 Jul 2020 17:24:27 +0000  QA_rec 0 2 1 17
+Mo, 27 Jul 2020 17:24:27 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Kann man gekeimte Kartoffeln noch essen?, Q_cen-essen
+Mo, 27 Jul 2020 17:24:28 +0000  QA_rec 1 2 1 18
+Mo, 27 Jul 2020 17:24:48 +0000  QA_rec 0 2 1 18
+Mo, 27 Jul 2020 17:24:48 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Das Fleisch wird klein geschnitten, und dann in der Pfanne gebraten., Q_cen-gebraten
+Mo, 27 Jul 2020 17:24:49 +0000  QA_rec 1 2 1 19
+Mo, 27 Jul 2020 17:25:09 +0000  QA_rec 0 2 1 19
+Mo, 27 Jul 2020 17:25:09 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Das Essen riecht so gut, was kochst du heute?, Q_cen-kochst
+Mo, 27 Jul 2020 17:25:10 +0000  QA_rec 1 2 1 20
+Mo, 27 Jul 2020 17:25:30 +0000  QA_rec 0 2 1 20
+Mo, 27 Jul 2020 17:25:30 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Singapore liegt in Südostasien., Q_cen-liegt
+Mo, 27 Jul 2020 17:25:31 +0000  QA_rec 1 2 1 21
+Mo, 27 Jul 2020 17:25:51 +0000  QA_rec 0 2 1 21
+Mo, 27 Jul 2020 17:25:51 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Ich würde sofort meinen Job kündigen und nie mehr arbeiten., Q_cen-kündigen
+Mo, 27 Jul 2020 17:25:52 +0000  QA_rec 1 2 1 22
+Mo, 27 Jul 2020 17:26:12 +0000  QA_rec 0 2 1 22
+Mo, 27 Jul 2020 17:26:12 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Mein Sohn wurde letztes Jahr geboren., Q_cen-geboren
+Mo, 27 Jul 2020 17:26:13 +0000  QA_rec 1 2 1 23
+Mo, 27 Jul 2020 17:26:33 +0000  QA_rec 0 2 1 23
+Mo, 27 Jul 2020 17:26:33 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Sie hat die Äpfel vom Baum geholt., Q_cen-geholt
+Mo, 27 Jul 2020 17:26:35 +0000  QA_rec 1 2 1 24
+Mo, 27 Jul 2020 17:26:55 +0000  QA_rec 0 2 1 24
+Mo, 27 Jul 2020 17:26:55 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Der Donau fließt ins Schwarze Meer., Q_cen-fließt
+Mo, 27 Jul 2020 17:27:11 +0000  fade_out 1 2 None None
+Mo, 27 Jul 2020 17:27:14 +0000  fade_out 0 2 None None
+Mo, 27 Jul 2020 17:27:16 +0000  fade_in 1 3 None None
