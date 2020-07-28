@@ -1,0 +1,162 @@
+Di, 28 Jul 2020 10:34:01 +0000  fade_in 1 0 None None
+Di, 28 Jul 2020 10:34:31 +0000  fade_in 0 0 None None
+Di, 28 Jul 2020 10:34:33 +0000  RS_intro 1 0 0 None
+Di, 28 Jul 2020 10:34:56 +0000  RS_intro 0 0 0 None
+Di, 28 Jul 2020 10:34:56 +0000  RS_rec 1 0 0 None
+Di, 28 Jul 2020 10:38:00 +0000  RS_rec 0 0 close None
+Di, 28 Jul 2020 10:38:00 +0000  RS_intro 1 0 1 None
+Di, 28 Jul 2020 10:38:23 +0000  RS_intro 0 0 1 None
+Di, 28 Jul 2020 10:38:23 +0000  RS_rec 1 0 1 None
+Di, 28 Jul 2020 10:41:26 +0000  RS_rec 0 0 open None
+Di, 28 Jul 2020 10:42:55 +0000  QA_intro 1 0 None None
+Di, 28 Jul 2020 10:43:38 +0000  QA_intro 0 0 None None
+Di, 28 Jul 2020 10:43:40 +0000  QA_rec 1 0 0 0
+Di, 28 Jul 2020 10:44:00 +0000  QA_rec 0 0 0 0
+Di, 28 Jul 2020 10:44:00 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Das Thema interessierte sie, daher hörte sie genau zu., Q_cen-interessierte
+Di, 28 Jul 2020 10:44:01 +0000  QA_rec 1 0 0 1
+Di, 28 Jul 2020 10:44:21 +0000  QA_rec 0 0 0 1
+Di, 28 Jul 2020 10:44:21 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Der Mitarbeiter wurde für seinen Fleiß und seine harte Arbeit belohnt., Q_cen-belohnt
+Di, 28 Jul 2020 10:44:22 +0000  QA_rec 1 0 0 2
+Di, 28 Jul 2020 10:44:42 +0000  QA_rec 0 0 0 2
+Di, 28 Jul 2020 10:44:42 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Darf ich mit einem Scheck bezahlen?, Q_cen-bezahlen
+Di, 28 Jul 2020 10:44:43 +0000  QA_rec 1 0 0 3
+Di, 28 Jul 2020 10:45:03 +0000  QA_rec 0 0 0 3
+Di, 28 Jul 2020 10:45:03 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Wollen wir morgen zu Hause bleiben oder uns einen Film im Kino ansehen?, Q_cen-ansehen
+Di, 28 Jul 2020 10:45:04 +0000  QA_rec 1 0 0 4
+Di, 28 Jul 2020 10:45:24 +0000  QA_rec 0 0 0 4
+Di, 28 Jul 2020 10:45:24 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Wir schafften es, das Projekt nach Plan abzuschließen., Q_cen-schafften
+Di, 28 Jul 2020 10:45:25 +0000  QA_rec 1 0 0 5
+Di, 28 Jul 2020 10:45:45 +0000  QA_rec 0 0 0 5
+Di, 28 Jul 2020 10:45:45 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Das Mädchen kümmert sich um seine erkältete Mutter., Q_cen-kümmert
+Di, 28 Jul 2020 10:45:46 +0000  QA_rec 1 0 0 6
+Di, 28 Jul 2020 10:46:06 +0000  QA_rec 0 0 0 6
+Di, 28 Jul 2020 10:46:06 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Du kannst alle Lehrmaterialien von moodle herunterladen., Q_cen-herunterladen
+Di, 28 Jul 2020 10:46:07 +0000  QA_rec 1 0 0 7
+Di, 28 Jul 2020 10:46:27 +0000  QA_rec 0 0 0 7
+Di, 28 Jul 2020 10:46:27 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Persönliche Daten sollen geheim bleiben., Q_cen-bleiben
+Di, 28 Jul 2020 10:46:28 +0000  QA_rec 1 0 0 8
+Di, 28 Jul 2020 10:46:49 +0000  QA_rec 0 0 0 8
+Di, 28 Jul 2020 10:46:49 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Ihre Kinder liegen noch im Bett., Q_cen-liegen
+Di, 28 Jul 2020 10:46:50 +0000  QA_rec 1 0 0 9
+Di, 28 Jul 2020 10:47:10 +0000  QA_rec 0 0 0 9
+Di, 28 Jul 2020 10:47:10 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Was wünschst du dir zum Geburtstag?, Q_cen-wünschst
+Di, 28 Jul 2020 10:47:11 +0000  QA_rec 1 0 0 10
+Di, 28 Jul 2020 10:47:31 +0000  QA_rec 0 0 0 10
+Di, 28 Jul 2020 10:47:31 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Sie besichtigen die Sehenswürdigkeiten., Q_cen-besichtigen
+Di, 28 Jul 2020 10:47:32 +0000  QA_rec 1 0 0 11
+Di, 28 Jul 2020 10:47:52 +0000  QA_rec 0 0 0 11
+Di, 28 Jul 2020 10:47:52 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Kann man gekeimte Kartoffeln noch essen?, Q_cen-essen
+Di, 28 Jul 2020 10:47:53 +0000  QA_rec 1 0 0 12
+Di, 28 Jul 2020 10:48:13 +0000  QA_rec 0 0 0 12
+Di, 28 Jul 2020 10:48:13 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Nachdem er nach dem Flugzeugunglück gerettet wurde, hat er an Gott geglaubt., Q_cen-geglaubt
+Di, 28 Jul 2020 10:48:14 +0000  QA_rec 1 0 0 13
+Di, 28 Jul 2020 10:48:34 +0000  QA_rec 0 0 0 13
+Di, 28 Jul 2020 10:48:34 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Die Taxifahrer sollten während Mitternacht nicht hupen., Q_cen-hupen
+Di, 28 Jul 2020 10:48:35 +0000  QA_rec 1 0 0 14
+Di, 28 Jul 2020 10:48:55 +0000  QA_rec 0 0 0 14
+Di, 28 Jul 2020 10:48:55 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Früh übt sich, wer ein Meister werden will., Q_cen-werden
+Di, 28 Jul 2020 10:48:56 +0000  QA_rec 1 0 0 15
+Di, 28 Jul 2020 10:49:16 +0000  QA_rec 0 0 0 15
+Di, 28 Jul 2020 10:49:16 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Der Mann läuft zu schell, um die Post zu schicken., Q_cen-schicken
+Di, 28 Jul 2020 10:49:17 +0000  QA_rec 1 0 0 16
+Di, 28 Jul 2020 10:49:37 +0000  QA_rec 0 0 0 16
+Di, 28 Jul 2020 10:49:37 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Sie haben Beeren gesammelt und wilde Tiere gejagt., Q_cen-gejagt
+Di, 28 Jul 2020 10:49:38 +0000  QA_rec 1 0 0 17
+Di, 28 Jul 2020 10:49:58 +0000  QA_rec 0 0 0 17
+Di, 28 Jul 2020 10:49:58 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Doris ist leider zu spät gekommen, die Apotheke hat heute schon geschlossen., Q_cen-geschlossen
+Di, 28 Jul 2020 10:49:59 +0000  QA_rec 1 0 0 18
+Di, 28 Jul 2020 10:50:19 +0000  QA_rec 0 0 0 18
+Di, 28 Jul 2020 10:50:19 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Er kann mit den Händen an einem Baum hängen., Q_cen-hängen
+Di, 28 Jul 2020 10:50:20 +0000  QA_rec 1 0 0 19
+Di, 28 Jul 2020 10:50:40 +0000  QA_rec 0 0 0 19
+Di, 28 Jul 2020 10:50:40 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Wir müssen jemanden mit mehr Erfahrung für diese wichtige Position einstellen., Q_cen-einstellen
+Di, 28 Jul 2020 10:50:41 +0000  QA_rec 1 0 0 20
+Di, 28 Jul 2020 10:51:01 +0000  QA_rec 0 0 0 20
+Di, 28 Jul 2020 10:51:01 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Wir haben im Wald Beeren und Pilze gesammelt., Q_cen-gesammelt
+Di, 28 Jul 2020 10:51:02 +0000  QA_rec 1 0 0 21
+Di, 28 Jul 2020 10:51:22 +0000  QA_rec 0 0 0 21
+Di, 28 Jul 2020 10:51:22 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Das Buch war witzig, ich habe stundenlang gelacht., Q_cen-gelacht
+Di, 28 Jul 2020 10:51:23 +0000  QA_rec 1 0 0 22
+Di, 28 Jul 2020 10:51:43 +0000  QA_rec 0 0 0 22
+Di, 28 Jul 2020 10:51:43 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Die Erklärungen des Lehrers haben absolut Sinn ergeben., Q_cen-ergeben
+Di, 28 Jul 2020 10:51:44 +0000  QA_rec 1 0 0 23
+Di, 28 Jul 2020 10:52:04 +0000  QA_rec 0 0 0 23
+Di, 28 Jul 2020 10:52:04 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Der Donau fließt ins Schwarze Meer., Q_cen-fließt
+Di, 28 Jul 2020 10:52:05 +0000  QA_rec 1 0 0 24
+Di, 28 Jul 2020 10:52:25 +0000  QA_rec 0 0 0 24
+Di, 28 Jul 2020 10:52:25 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Wir bestellten ein stück Hassnuss Kuchen zum Dessert., Q_cen-bestellten
+Di, 28 Jul 2020 10:53:04 +0000  QA_rec 1 0 1 0
+Di, 28 Jul 2020 10:53:24 +0000  QA_rec 0 0 1 0
+Di, 28 Jul 2020 10:53:24 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Sie kümmert sich nur um ihre eigenen Angelegenheiten., Q_cen-kümmert
+Di, 28 Jul 2020 10:53:25 +0000  QA_rec 1 0 1 1
+Di, 28 Jul 2020 10:53:45 +0000  QA_rec 0 0 1 1
+Di, 28 Jul 2020 10:53:45 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Ist es für den Vermieter möglich, den Mieter nach der Rechtslage zu kündigen?, Q_cen-kündigen
+Di, 28 Jul 2020 10:53:46 +0000  QA_rec 1 0 1 2
+Di, 28 Jul 2020 10:54:06 +0000  QA_rec 0 0 1 2
+Di, 28 Jul 2020 10:54:06 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Wir schneiden den Apfel in zwei Hälften. , Q_cen-schneiden
+Di, 28 Jul 2020 10:54:07 +0000  QA_rec 1 0 1 3
+Di, 28 Jul 2020 10:54:27 +0000  QA_rec 0 0 1 3
+Di, 28 Jul 2020 10:54:27 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Da der Koffer bereits zu schwer ist, muss ich leichte Kleidung einpacken., Q_cen-einpacken
+Di, 28 Jul 2020 10:54:28 +0000  QA_rec 1 0 1 4
+Di, 28 Jul 2020 10:54:48 +0000  QA_rec 0 0 1 4
+Di, 28 Jul 2020 10:54:48 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Die vier Jahreszeiten heißen Frühling, Sommer, Herbst und Winter., Q_cen-heißen
+Di, 28 Jul 2020 10:54:49 +0000  QA_rec 1 0 1 5
+Di, 28 Jul 2020 10:55:09 +0000  QA_rec 0 0 1 5
+Di, 28 Jul 2020 10:55:09 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Sie scheinen nicht zu wissen, mit wem Sie es zu tun haben., Q_cen-scheinen
+Di, 28 Jul 2020 10:55:10 +0000  QA_rec 1 0 1 6
+Di, 28 Jul 2020 10:55:30 +0000  QA_rec 0 0 1 6
+Di, 28 Jul 2020 10:55:30 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Wir können das Fleisch grillen oder braten., Q_cen-grillen
+Di, 28 Jul 2020 10:55:31 +0000  QA_rec 1 0 1 7
+Di, 28 Jul 2020 10:55:51 +0000  QA_rec 0 0 1 7
+Di, 28 Jul 2020 10:55:51 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Wer im Glashaus sitzt, soll nicht mit Steinen werfen., Q_cen-werfen
+Di, 28 Jul 2020 10:55:52 +0000  QA_rec 1 0 1 8
+Di, 28 Jul 2020 10:56:12 +0000  QA_rec 0 0 1 8
+Di, 28 Jul 2020 10:56:12 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Wir sind stolz auf das, was wir bis jetzt geschafft haben., Q_cen-geschafft
+Di, 28 Jul 2020 10:56:13 +0000  QA_rec 1 0 1 9
+Di, 28 Jul 2020 10:56:33 +0000  QA_rec 0 0 1 9
+Di, 28 Jul 2020 10:56:33 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-An der Kasse bezahlen wir mit Bankomatkarte., Q_cen-bezahlen
+Di, 28 Jul 2020 10:56:34 +0000  QA_rec 1 0 1 10
+Di, 28 Jul 2020 10:56:54 +0000  QA_rec 0 0 1 10
+Di, 28 Jul 2020 10:56:54 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Ich surfe gern im Internet und chatte mit Freunden., Q_cen-chatte
+Di, 28 Jul 2020 10:56:55 +0000  QA_rec 1 0 1 11
+Di, 28 Jul 2020 10:57:15 +0000  QA_rec 0 0 1 11
+Di, 28 Jul 2020 10:57:15 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-In Europa gibt es vier Jahrezeiten, am Zentralafrika nur eine., Q_cen-gibt
+Di, 28 Jul 2020 10:57:16 +0000  QA_rec 1 0 1 12
+Di, 28 Jul 2020 10:57:36 +0000  QA_rec 0 0 1 12
+Di, 28 Jul 2020 10:57:36 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Du muss deine schmutzige Kleidung in der Wäscherei waschen., Q_cen-waschen
+Di, 28 Jul 2020 10:57:37 +0000  QA_rec 1 0 1 13
+Di, 28 Jul 2020 10:57:57 +0000  QA_rec 0 0 1 13
+Di, 28 Jul 2020 10:57:57 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Er hat Kartoffeln mit der Schale gekocht., Q_cen-gekocht
+Di, 28 Jul 2020 10:57:58 +0000  QA_rec 1 0 1 14
+Di, 28 Jul 2020 10:58:18 +0000  QA_rec 0 0 1 14
+Di, 28 Jul 2020 10:58:18 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Im Frühling besuchen viele Touristen unserer Hauptstadt., Q_cen-besuchen
+Di, 28 Jul 2020 10:58:19 +0000  QA_rec 1 0 1 15
+Di, 28 Jul 2020 10:58:40 +0000  QA_rec 0 0 1 15
+Di, 28 Jul 2020 10:58:40 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Sam glaubt an eine marxistische Weltanschauung., Q_cen-glaubt
+Di, 28 Jul 2020 10:58:41 +0000  QA_rec 1 0 1 16
+Di, 28 Jul 2020 10:59:01 +0000  QA_rec 0 0 1 16
+Di, 28 Jul 2020 10:59:01 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Sein Versprechen klingt glaubwürdig., Q_cen-klingt
+Di, 28 Jul 2020 10:59:02 +0000  QA_rec 1 0 1 17
+Di, 28 Jul 2020 10:59:22 +0000  QA_rec 0 0 1 17
+Di, 28 Jul 2020 10:59:22 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Die Zugvögel fliegen von Norden nach Süden, Q_cen-fliegen
+Di, 28 Jul 2020 10:59:23 +0000  QA_rec 1 0 1 18
+Di, 28 Jul 2020 10:59:43 +0000  QA_rec 0 0 1 18
+Di, 28 Jul 2020 10:59:43 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Briefe und Pakete verschickt man mit der Post., Q_cen-verschickt
+Di, 28 Jul 2020 10:59:44 +0000  QA_rec 1 0 1 19
+Di, 28 Jul 2020 11:00:04 +0000  QA_rec 0 0 1 19
+Di, 28 Jul 2020 11:00:04 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Jede Nacht muss ich den Kindern ein Märchen erzählen., Q_cen-erzählen
+Di, 28 Jul 2020 11:00:05 +0000  QA_rec 1 0 1 20
+Di, 28 Jul 2020 11:00:25 +0000  QA_rec 0 0 1 20
+Di, 28 Jul 2020 11:00:25 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Aufgrund der globalen Erwärmung werden die Häuser der Inselbewohner im Meer versinken., Q_cen-versinken
+Di, 28 Jul 2020 11:00:26 +0000  QA_rec 1 0 1 21
+Di, 28 Jul 2020 11:00:46 +0000  QA_rec 0 0 1 21
+Di, 28 Jul 2020 11:00:46 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Wer viele CO2-Emissionen produziert, belastet die Umwelt., Q_cen-belastet
+Di, 28 Jul 2020 11:00:47 +0000  QA_rec 1 0 1 22
+Di, 28 Jul 2020 11:01:07 +0000  QA_rec 0 0 1 22
+Di, 28 Jul 2020 11:01:07 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Ein gutes Gehalt heißt oft harte Arbeit., Q_cen-heißt
+Di, 28 Jul 2020 11:01:08 +0000  QA_rec 1 0 1 23
+Di, 28 Jul 2020 11:01:28 +0000  QA_rec 0 0 1 23
+Di, 28 Jul 2020 11:01:28 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Ich musste für meinen Vortrag eine Menge Informationen sammeln., Q_cen-sammeln
+Di, 28 Jul 2020 11:01:29 +0000  QA_rec 1 0 1 24
+Di, 28 Jul 2020 11:01:49 +0000  QA_rec 0 0 1 24
+Di, 28 Jul 2020 11:01:49 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Das Programm kannst Du kostenlos herunterladen., Q_cen-herunterladen
