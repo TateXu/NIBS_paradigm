@@ -1,0 +1,162 @@
+Mi, 29 Jul 2020 16:53:54 +0000  fade_in 1 1 None None
+Mi, 29 Jul 2020 16:54:28 +0000  fade_in 0 1 None None
+Mi, 29 Jul 2020 16:54:30 +0000  RS_intro 1 1 0 None
+Mi, 29 Jul 2020 16:54:53 +0000  RS_intro 0 1 0 None
+Mi, 29 Jul 2020 16:54:53 +0000  RS_rec 1 1 0 None
+Mi, 29 Jul 2020 16:57:56 +0000  RS_rec 0 1 close None
+Mi, 29 Jul 2020 16:57:56 +0000  RS_intro 1 1 1 None
+Mi, 29 Jul 2020 16:58:19 +0000  RS_intro 0 1 1 None
+Mi, 29 Jul 2020 16:58:19 +0000  RS_rec 1 1 1 None
+Mi, 29 Jul 2020 17:01:23 +0000  RS_rec 0 1 open None
+Mi, 29 Jul 2020 17:01:38 +0000  QA_intro 1 1 None None
+Mi, 29 Jul 2020 17:02:18 +0000  QA_intro 0 1 None None
+Mi, 29 Jul 2020 17:02:20 +0000  QA_rec 1 1 0 0
+Mi, 29 Jul 2020 17:02:40 +0000  QA_rec 0 1 0 0
+Mi, 29 Jul 2020 17:02:40 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Alchemisten haben geglaubt, sie können Gold herstellen., Q_cen-herstellen
+Mi, 29 Jul 2020 17:02:41 +0000  QA_rec 1 1 0 1
+Mi, 29 Jul 2020 17:03:01 +0000  QA_rec 0 1 0 1
+Mi, 29 Jul 2020 17:03:01 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Ich will nicht mein ganzes Geld für ein neues Auto ausgeben., Q_cen-ausgeben
+Mi, 29 Jul 2020 17:03:02 +0000  QA_rec 1 1 0 2
+Mi, 29 Jul 2020 17:03:22 +0000  QA_rec 0 1 0 2
+Mi, 29 Jul 2020 17:03:22 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Ich kann in meiner Badewanne duschen., Q_cen-duschen
+Mi, 29 Jul 2020 17:03:23 +0000  QA_rec 1 1 0 3
+Mi, 29 Jul 2020 17:03:43 +0000  QA_rec 0 1 0 3
+Mi, 29 Jul 2020 17:03:43 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Peter sitzt den ganzen Tag am Computer., Q_cen-sitzt
+Mi, 29 Jul 2020 17:03:44 +0000  QA_rec 1 1 0 4
+Mi, 29 Jul 2020 17:04:04 +0000  QA_rec 0 1 0 4
+Mi, 29 Jul 2020 17:04:04 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Martin geht in ein Reisebüro und lässt sich von einem Angestellten beraten., Q_cen-beraten
+Mi, 29 Jul 2020 17:04:05 +0000  QA_rec 1 1 0 5
+Mi, 29 Jul 2020 17:04:25 +0000  QA_rec 0 1 0 5
+Mi, 29 Jul 2020 17:04:25 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Nikolaus Kopernikus beschreibt das heliozentrische Weltbild., Q_cen-beschreibt
+Mi, 29 Jul 2020 17:04:26 +0000  QA_rec 1 1 0 6
+Mi, 29 Jul 2020 17:04:47 +0000  QA_rec 0 1 0 6
+Mi, 29 Jul 2020 17:04:47 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Wir freuen uns von Herzen über seine ausgezeichnete Leistung., Q_cen-freuen
+Mi, 29 Jul 2020 17:04:48 +0000  QA_rec 1 1 0 7
+Mi, 29 Jul 2020 17:05:08 +0000  QA_rec 0 1 0 7
+Mi, 29 Jul 2020 17:05:08 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Um eine Kreditkarte zu bewerben, muss man älter als 18 werden. , Q_cen-bewerben
+Mi, 29 Jul 2020 17:05:09 +0000  QA_rec 1 1 0 8
+Mi, 29 Jul 2020 17:05:29 +0000  QA_rec 0 1 0 8
+Mi, 29 Jul 2020 17:05:29 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Karneval wird jedes Jahr im Februar oder im März gefeiert., Q_cen-gefeiert
+Mi, 29 Jul 2020 17:05:30 +0000  QA_rec 1 1 0 9
+Mi, 29 Jul 2020 17:05:50 +0000  QA_rec 0 1 0 9
+Mi, 29 Jul 2020 17:05:50 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Ich möchte mir ein Buch aus der Bibliothek leihen., Q_cen-leihen
+Mi, 29 Jul 2020 17:05:51 +0000  QA_rec 1 1 0 10
+Mi, 29 Jul 2020 17:06:11 +0000  QA_rec 0 1 0 10
+Mi, 29 Jul 2020 17:06:11 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Briefe und Pakete verschickt man mit der Post., Q_cen-verschickt
+Mi, 29 Jul 2020 17:06:12 +0000  QA_rec 1 1 0 11
+Mi, 29 Jul 2020 17:06:32 +0000  QA_rec 0 1 0 11
+Mi, 29 Jul 2020 17:06:32 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Denk nicht so viel darüber nach, das wird nichts bringen., Q_cen-bringen
+Mi, 29 Jul 2020 17:06:33 +0000  QA_rec 1 1 0 12
+Mi, 29 Jul 2020 17:06:53 +0000  QA_rec 0 1 0 12
+Mi, 29 Jul 2020 17:06:53 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Aufgrund der globalen Erwärmung werden die Häuser der Inselbewohner im Meer versinken., Q_cen-versinken
+Mi, 29 Jul 2020 17:06:54 +0000  QA_rec 1 1 0 13
+Mi, 29 Jul 2020 17:07:14 +0000  QA_rec 0 1 0 13
+Mi, 29 Jul 2020 17:07:14 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Der Läufer hat seine Konkurrenten mühelos geschlagen., Q_cen-geschlagen
+Mi, 29 Jul 2020 17:07:15 +0000  QA_rec 1 1 0 14
+Mi, 29 Jul 2020 17:07:35 +0000  QA_rec 0 1 0 14
+Mi, 29 Jul 2020 17:07:35 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Marco hat gestern einen Brief an seine Eltern geschrieben., Q_cen-geschrieben
+Mi, 29 Jul 2020 17:07:36 +0000  QA_rec 1 1 0 15
+Mi, 29 Jul 2020 17:07:56 +0000  QA_rec 0 1 0 15
+Mi, 29 Jul 2020 17:07:56 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+Mi, 29 Jul 2020 17:07:57 +0000  QA_rec 1 1 0 16
+Mi, 29 Jul 2020 17:08:17 +0000  QA_rec 0 1 0 16
+Mi, 29 Jul 2020 17:08:17 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Die Oper endet mit dem Tod des Helden., Q_cen-endet
+Mi, 29 Jul 2020 17:08:18 +0000  QA_rec 1 1 0 17
+Mi, 29 Jul 2020 17:08:38 +0000  QA_rec 0 1 0 17
+Mi, 29 Jul 2020 17:08:38 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Die Katzen jagen Mäuse., Q_cen-jagen
+Mi, 29 Jul 2020 17:08:39 +0000  QA_rec 1 1 0 18
+Mi, 29 Jul 2020 17:08:59 +0000  QA_rec 0 1 0 18
+Mi, 29 Jul 2020 17:08:59 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Ich würde sofort meinen Job kündigen und nie mehr arbeiten., Q_cen-kündigen
+Mi, 29 Jul 2020 17:09:00 +0000  QA_rec 1 1 0 19
+Mi, 29 Jul 2020 17:09:20 +0000  QA_rec 0 1 0 19
+Mi, 29 Jul 2020 17:09:20 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Kann ich mich um das Stipendium bewerben?, Q_cen-bewerben
+Mi, 29 Jul 2020 17:09:21 +0000  QA_rec 1 1 0 20
+Mi, 29 Jul 2020 17:09:41 +0000  QA_rec 0 1 0 20
+Mi, 29 Jul 2020 17:09:41 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Ich höre sie den Namen Sam rufen., Q_cen-rufen
+Mi, 29 Jul 2020 17:09:42 +0000  QA_rec 1 1 0 21
+Mi, 29 Jul 2020 17:10:02 +0000  QA_rec 0 1 0 21
+Mi, 29 Jul 2020 17:10:02 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Sein Versprechen klingt glaubwürdig., Q_cen-klingt
+Mi, 29 Jul 2020 17:10:03 +0000  QA_rec 1 1 0 22
+Mi, 29 Jul 2020 17:10:23 +0000  QA_rec 0 1 0 22
+Mi, 29 Jul 2020 17:10:23 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Die Verkäuferin beantwortete meine Fragen und konnte mich beraten., Q_cen-beraten
+Mi, 29 Jul 2020 17:10:24 +0000  QA_rec 1 1 0 23
+Mi, 29 Jul 2020 17:10:44 +0000  QA_rec 0 1 0 23
+Mi, 29 Jul 2020 17:10:44 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Der Regenbogen besteht aus vielen Farben., Q_cen-besteht
+Mi, 29 Jul 2020 17:10:45 +0000  QA_rec 1 1 0 24
+Mi, 29 Jul 2020 17:11:05 +0000  QA_rec 0 1 0 24
+Mi, 29 Jul 2020 17:11:05 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Du kannst den Hund streicheln, er wird dich nicht beißen., Q_cen-beißen
+Mi, 29 Jul 2020 17:11:24 +0000  QA_rec 1 1 1 0
+Mi, 29 Jul 2020 17:11:44 +0000  QA_rec 0 1 1 0
+Mi, 29 Jul 2020 17:11:44 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Doris ist leider zu spät gekommen, die Apotheke hat heute schon geschlossen., Q_cen-geschlossen
+Mi, 29 Jul 2020 17:11:45 +0000  QA_rec 1 1 1 1
+Mi, 29 Jul 2020 17:12:05 +0000  QA_rec 0 1 1 1
+Mi, 29 Jul 2020 17:12:05 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Der Schmied klopft immer wieder mit dem Hammer auf das heiße Eisen., Q_cen-klopft
+Mi, 29 Jul 2020 17:12:06 +0000  QA_rec 1 1 1 2
+Mi, 29 Jul 2020 17:12:26 +0000  QA_rec 0 1 1 2
+Mi, 29 Jul 2020 17:12:26 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Willi möchte gerne an der Universität Informatik studieren., Q_cen-studieren
+Mi, 29 Jul 2020 17:12:27 +0000  QA_rec 1 1 1 3
+Mi, 29 Jul 2020 17:12:47 +0000  QA_rec 0 1 1 3
+Mi, 29 Jul 2020 17:12:47 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Die Reparatur wird um ein hundert Euro kosten., Q_cen-kosten
+Mi, 29 Jul 2020 17:12:49 +0000  QA_rec 1 1 1 4
+Mi, 29 Jul 2020 17:13:09 +0000  QA_rec 0 1 1 4
+Mi, 29 Jul 2020 17:13:09 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Ich wusste die Antwort nicht, also musste ich raten., Q_cen-raten
+Mi, 29 Jul 2020 17:13:10 +0000  QA_rec 1 1 1 5
+Mi, 29 Jul 2020 17:13:30 +0000  QA_rec 0 1 1 5
+Mi, 29 Jul 2020 17:13:30 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Wir müssen uns beeilen oder wir verpassen unseren Zug., Q_cen-beeilen
+Mi, 29 Jul 2020 17:13:31 +0000  QA_rec 1 1 1 6
+Mi, 29 Jul 2020 17:13:51 +0000  QA_rec 0 1 1 6
+Mi, 29 Jul 2020 17:13:51 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Siehst du! Ich habe dir gesagt, dass es regnen würde., Q_cen-gesagt
+Mi, 29 Jul 2020 17:13:52 +0000  QA_rec 1 1 1 7
+Mi, 29 Jul 2020 17:14:12 +0000  QA_rec 0 1 1 7
+Mi, 29 Jul 2020 17:14:12 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Der Dieb wurde für sein Verbrechen bestraft., Q_cen-bestraft
+Mi, 29 Jul 2020 17:14:13 +0000  QA_rec 1 1 1 8
+Mi, 29 Jul 2020 17:14:33 +0000  QA_rec 0 1 1 8
+Mi, 29 Jul 2020 17:14:33 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Die äußeren Planeten bestehen aus Gas., Q_cen-bestehen
+Mi, 29 Jul 2020 17:14:34 +0000  QA_rec 1 1 1 9
+Mi, 29 Jul 2020 17:14:54 +0000  QA_rec 0 1 1 9
+Mi, 29 Jul 2020 17:14:54 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-In Wien tanzt man gerne Walzer., Q_cen-tanzt
+Mi, 29 Jul 2020 17:14:55 +0000  QA_rec 1 1 1 10
+Mi, 29 Jul 2020 17:15:15 +0000  QA_rec 0 1 1 10
+Mi, 29 Jul 2020 17:15:15 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Die kluge Gebäudekonstruktion kann das Haus vor Windschäden schützen., Q_cen-schützen
+Mi, 29 Jul 2020 17:15:16 +0000  QA_rec 1 1 1 11
+Mi, 29 Jul 2020 17:15:36 +0000  QA_rec 0 1 1 11
+Mi, 29 Jul 2020 17:15:36 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Dieser Bus bringt dich zum Strand., Q_cen-bringt
+Mi, 29 Jul 2020 17:15:37 +0000  QA_rec 1 1 1 12
+Mi, 29 Jul 2020 17:15:57 +0000  QA_rec 0 1 1 12
+Mi, 29 Jul 2020 17:15:57 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Die Bergarbeiter fuhren jeden Tag in die Grube., Q_cen-fuhren
+Mi, 29 Jul 2020 17:15:58 +0000  QA_rec 1 1 1 13
+Mi, 29 Jul 2020 17:16:18 +0000  QA_rec 0 1 1 13
+Mi, 29 Jul 2020 17:16:18 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Im ganzen Umkreis war kein Haus zu finden., Q_cen-finden
+Mi, 29 Jul 2020 17:16:19 +0000  QA_rec 1 1 1 14
+Mi, 29 Jul 2020 17:16:39 +0000  QA_rec 0 1 1 14
+Mi, 29 Jul 2020 17:16:39 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Wir mussten ein amtliches Formular ausfüllen, als wir geheiratet haben., Q_cen-ausfüllen
+Mi, 29 Jul 2020 17:16:40 +0000  QA_rec 1 1 1 15
+Mi, 29 Jul 2020 17:17:00 +0000  QA_rec 0 1 1 15
+Mi, 29 Jul 2020 17:17:00 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich darf Sie bitten, meinem Antrag zu entsprechen., Q_cen-bitten
+Mi, 29 Jul 2020 17:17:01 +0000  QA_rec 1 1 1 16
+Mi, 29 Jul 2020 17:17:21 +0000  QA_rec 0 1 1 16
+Mi, 29 Jul 2020 17:17:21 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Wir haben die Buchung per E-Mail bestätigt., Q_cen-bestätigt
+Mi, 29 Jul 2020 17:17:22 +0000  QA_rec 1 1 1 17
+Mi, 29 Jul 2020 17:17:42 +0000  QA_rec 0 1 1 17
+Mi, 29 Jul 2020 17:17:42 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Der ganze Kurs bestand die Prüfung., Q_cen-bestand
+Mi, 29 Jul 2020 17:17:43 +0000  QA_rec 1 1 1 18
+Mi, 29 Jul 2020 17:18:03 +0000  QA_rec 0 1 1 18
+Mi, 29 Jul 2020 17:18:03 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-In der Schule lernen die Kinder lesen, schreiben und rechnen., Q_cen-lernen
+Mi, 29 Jul 2020 17:18:04 +0000  QA_rec 1 1 1 19
+Mi, 29 Jul 2020 17:18:24 +0000  QA_rec 0 1 1 19
+Mi, 29 Jul 2020 17:18:24 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Ich koche die Kartoffeln für die Kartoffelsuppe., Q_cen-koche
+Mi, 29 Jul 2020 17:18:25 +0000  QA_rec 1 1 1 20
+Mi, 29 Jul 2020 17:18:46 +0000  QA_rec 0 1 1 20
+Mi, 29 Jul 2020 17:18:46 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Das Eingreifen des Lehrers beendete den Streit., Q_cen-beendete
+Mi, 29 Jul 2020 17:18:47 +0000  QA_rec 1 1 1 21
+Mi, 29 Jul 2020 17:19:07 +0000  QA_rec 0 1 1 21
+Mi, 29 Jul 2020 17:19:07 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Er konnte auf alle Fragen des Quiz antworten., Q_cen-antworten
+Mi, 29 Jul 2020 17:19:08 +0000  QA_rec 1 1 1 22
+Mi, 29 Jul 2020 17:19:28 +0000  QA_rec 0 1 1 22
+Mi, 29 Jul 2020 17:19:28 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Plastik Müll belastet die Umwelt., Q_cen-belastet
+Mi, 29 Jul 2020 17:19:29 +0000  QA_rec 1 1 1 23
+Mi, 29 Jul 2020 17:19:49 +0000  QA_rec 0 1 1 23
+Mi, 29 Jul 2020 17:19:49 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Marco möchte den Brief zur Post bringen., Q_cen-bringen
+Mi, 29 Jul 2020 17:19:50 +0000  QA_rec 1 1 1 24
+Mi, 29 Jul 2020 17:20:10 +0000  QA_rec 0 1 1 24
+Mi, 29 Jul 2020 17:20:10 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Kunden sollten Produkte sorgfältig prüfen, bevor sie sie kaufen., Q_cen-prüfen
