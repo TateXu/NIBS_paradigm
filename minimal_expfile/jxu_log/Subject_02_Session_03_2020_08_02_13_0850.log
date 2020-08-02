@@ -1,0 +1,162 @@
+So, 02 Aug 2020 13:08:53 +0000  fade_in 1 3 None None
+So, 02 Aug 2020 13:09:23 +0000  fade_in 0 3 None None
+So, 02 Aug 2020 13:09:25 +0000  RS_intro 1 3 0 None
+So, 02 Aug 2020 13:09:48 +0000  RS_intro 0 3 0 None
+So, 02 Aug 2020 13:09:48 +0000  RS_rec 1 3 0 None
+So, 02 Aug 2020 13:12:52 +0000  RS_rec 0 3 close None
+So, 02 Aug 2020 13:12:52 +0000  RS_intro 1 3 1 None
+So, 02 Aug 2020 13:13:15 +0000  RS_intro 0 3 1 None
+So, 02 Aug 2020 13:13:15 +0000  RS_rec 1 3 1 None
+So, 02 Aug 2020 13:16:18 +0000  RS_rec 0 3 open None
+So, 02 Aug 2020 13:16:32 +0000  QA_intro 1 3 None None
+So, 02 Aug 2020 13:17:13 +0000  QA_intro 0 3 None None
+So, 02 Aug 2020 13:17:15 +0000  QA_rec 1 3 0 0
+So, 02 Aug 2020 13:17:35 +0000  QA_rec 0 3 0 0
+So, 02 Aug 2020 13:17:35 +0000  Run-3, Block-0, Trial-0, Q_cnt-150, Q_sen-Moni hat eine Fahrkarte für den Zug nach Salzburg gekauft., Q_cen-gekauft
+So, 02 Aug 2020 13:17:36 +0000  QA_rec 1 3 0 1
+So, 02 Aug 2020 13:17:56 +0000  QA_rec 0 3 0 1
+So, 02 Aug 2020 13:17:56 +0000  Run-3, Block-0, Trial-1, Q_cnt-151, Q_sen-Ich sitze weit entfernt von der Bühne, also muss ich durch ein Fernglas schauen., Q_cen-schauen
+So, 02 Aug 2020 13:17:57 +0000  QA_rec 1 3 0 2
+So, 02 Aug 2020 13:18:17 +0000  QA_rec 0 3 0 2
+So, 02 Aug 2020 13:18:17 +0000  Run-3, Block-0, Trial-2, Q_cnt-152, Q_sen-Ich möchte, dass Sie das Wort mit Ihren eigenen Worten erklären!, Q_cen-erklären
+So, 02 Aug 2020 13:18:18 +0000  QA_rec 1 3 0 3
+So, 02 Aug 2020 13:18:38 +0000  QA_rec 0 3 0 3
+So, 02 Aug 2020 13:18:38 +0000  Run-3, Block-0, Trial-3, Q_cnt-153, Q_sen-Der Amazon Kurier hat das Paket geliefert., Q_cen-geliefert
+So, 02 Aug 2020 13:18:39 +0000  QA_rec 1 3 0 4
+So, 02 Aug 2020 13:18:59 +0000  QA_rec 0 3 0 4
+So, 02 Aug 2020 13:18:59 +0000  Run-3, Block-0, Trial-4, Q_cnt-154, Q_sen-Das Fenster ist offen, aber ich werde es schließen., Q_cen-schließen
+So, 02 Aug 2020 13:19:00 +0000  QA_rec 1 3 0 5
+So, 02 Aug 2020 13:19:20 +0000  QA_rec 0 3 0 5
+So, 02 Aug 2020 13:19:20 +0000  Run-3, Block-0, Trial-5, Q_cnt-155, Q_sen-Da hier nur sehr wenige Parkplätze sind, nur Anwohner dürfen in dieser Straße parken., Q_cen-parken
+So, 02 Aug 2020 13:19:21 +0000  QA_rec 1 3 0 6
+So, 02 Aug 2020 13:19:41 +0000  QA_rec 0 3 0 6
+So, 02 Aug 2020 13:19:41 +0000  Run-3, Block-0, Trial-6, Q_cnt-156, Q_sen-Mein Freund schenkt mir eine Schachtel mit Schokolade., Q_cen-schenkt
+So, 02 Aug 2020 13:19:42 +0000  QA_rec 1 3 0 7
+So, 02 Aug 2020 13:20:02 +0000  QA_rec 0 3 0 7
+So, 02 Aug 2020 13:20:02 +0000  Run-3, Block-0, Trial-7, Q_cnt-157, Q_sen-Der Läufer hat seine Konkurrenten mühelos geschlagen., Q_cen-geschlagen
+So, 02 Aug 2020 13:20:03 +0000  QA_rec 1 3 0 8
+So, 02 Aug 2020 13:20:23 +0000  QA_rec 0 3 0 8
+So, 02 Aug 2020 13:20:23 +0000  Run-3, Block-0, Trial-8, Q_cnt-158, Q_sen-Die Mieter wollen die Vertragsbedingungen ändern., Q_cen-ändern
+So, 02 Aug 2020 13:20:24 +0000  QA_rec 1 3 0 9
+So, 02 Aug 2020 13:20:44 +0000  QA_rec 0 3 0 9
+So, 02 Aug 2020 13:20:44 +0000  Run-3, Block-0, Trial-9, Q_cnt-159, Q_sen-Die Wissenschaftler aus der Physik heißen Physiker., Q_cen-heißen
+So, 02 Aug 2020 13:20:45 +0000  QA_rec 1 3 0 10
+So, 02 Aug 2020 13:21:05 +0000  QA_rec 0 3 0 10
+So, 02 Aug 2020 13:21:05 +0000  Run-3, Block-0, Trial-10, Q_cnt-160, Q_sen-Was bedeutet diese Abkürzung?, Q_cen-bedeutet
+So, 02 Aug 2020 13:21:06 +0000  QA_rec 1 3 0 11
+So, 02 Aug 2020 13:21:26 +0000  QA_rec 0 3 0 11
+So, 02 Aug 2020 13:21:26 +0000  Run-3, Block-0, Trial-11, Q_cnt-161, Q_sen-Wir brauchen Bretter, um ein Regal zu bauen., Q_cen-bauen
+So, 02 Aug 2020 13:21:27 +0000  QA_rec 1 3 0 12
+So, 02 Aug 2020 13:21:47 +0000  QA_rec 0 3 0 12
+So, 02 Aug 2020 13:21:47 +0000  Run-3, Block-0, Trial-12, Q_cnt-162, Q_sen-Ich kann dir gerne mein Fahrrad leihen, wenn du möchtest., Q_cen-leihen
+So, 02 Aug 2020 13:21:48 +0000  QA_rec 1 3 0 13
+So, 02 Aug 2020 13:22:08 +0000  QA_rec 0 3 0 13
+So, 02 Aug 2020 13:22:08 +0000  Run-3, Block-0, Trial-13, Q_cnt-163, Q_sen-Die Katzen jagen Mäuse., Q_cen-jagen
+So, 02 Aug 2020 13:22:09 +0000  QA_rec 1 3 0 14
+So, 02 Aug 2020 13:22:29 +0000  QA_rec 0 3 0 14
+So, 02 Aug 2020 13:22:29 +0000  Run-3, Block-0, Trial-14, Q_cnt-164, Q_sen-Wenn sie sich etwas leiht, bringt sie es immer zurück., Q_cen-leiht
+So, 02 Aug 2020 13:22:30 +0000  QA_rec 1 3 0 15
+So, 02 Aug 2020 13:22:51 +0000  QA_rec 0 3 0 15
+So, 02 Aug 2020 13:22:51 +0000  Run-3, Block-0, Trial-15, Q_cnt-165, Q_sen-Viele Tiere leben in Afrika., Q_cen-leben
+So, 02 Aug 2020 13:22:52 +0000  QA_rec 1 3 0 16
+So, 02 Aug 2020 13:23:12 +0000  QA_rec 0 3 0 16
+So, 02 Aug 2020 13:23:12 +0000  Run-3, Block-0, Trial-16, Q_cnt-166, Q_sen-Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium., Q_cen-brauchen
+So, 02 Aug 2020 13:23:13 +0000  QA_rec 1 3 0 17
+So, 02 Aug 2020 13:23:33 +0000  QA_rec 0 3 0 17
+So, 02 Aug 2020 13:23:33 +0000  Run-3, Block-0, Trial-17, Q_cnt-167, Q_sen-Wir hoffen, dass die Verhandlungen zu einem erfolgreichen Abschluss kommen., Q_cen-hoffen
+So, 02 Aug 2020 13:23:34 +0000  QA_rec 1 3 0 18
+So, 02 Aug 2020 13:23:54 +0000  QA_rec 0 3 0 18
+So, 02 Aug 2020 13:23:54 +0000  Run-3, Block-0, Trial-18, Q_cnt-168, Q_sen-Der Bus fährt jede Stunde., Q_cen-fährt
+So, 02 Aug 2020 13:23:55 +0000  QA_rec 1 3 0 19
+So, 02 Aug 2020 13:24:15 +0000  QA_rec 0 3 0 19
+So, 02 Aug 2020 13:24:15 +0000  Run-3, Block-0, Trial-19, Q_cnt-169, Q_sen-Mein Handy ist schon eingeschaltet, so dass Sie mich jederzeit anrufen können., Q_cen-anrufen
+So, 02 Aug 2020 13:24:16 +0000  QA_rec 1 3 0 20
+So, 02 Aug 2020 13:24:36 +0000  QA_rec 0 3 0 20
+So, 02 Aug 2020 13:24:36 +0000  Run-3, Block-0, Trial-20, Q_cnt-170, Q_sen-Ich möchte gerne ein Zimmer im Hilton-Hotel reservieren., Q_cen-reservieren
+So, 02 Aug 2020 13:24:37 +0000  QA_rec 1 3 0 21
+So, 02 Aug 2020 13:24:57 +0000  QA_rec 0 3 0 21
+So, 02 Aug 2020 13:24:57 +0000  Run-3, Block-0, Trial-21, Q_cnt-171, Q_sen-Antragsteller für ein Visum können online ein Formular ausfüllen., Q_cen-ausfüllen
+So, 02 Aug 2020 13:24:58 +0000  QA_rec 1 3 0 22
+So, 02 Aug 2020 13:25:18 +0000  QA_rec 0 3 0 22
+So, 02 Aug 2020 13:25:18 +0000  Run-3, Block-0, Trial-22, Q_cnt-172, Q_sen-Ob die bereitgestellte Information korrekt ist, müssen wir prüfen., Q_cen-prüfen
+So, 02 Aug 2020 13:25:19 +0000  QA_rec 1 3 0 23
+So, 02 Aug 2020 13:25:39 +0000  QA_rec 0 3 0 23
+So, 02 Aug 2020 13:25:39 +0000  Run-3, Block-0, Trial-23, Q_cnt-173, Q_sen-Wir werden jedes Paket innerhalb von fünf Arbeitstagen liefern., Q_cen-liefern
+So, 02 Aug 2020 13:25:40 +0000  QA_rec 1 3 0 24
+So, 02 Aug 2020 13:26:00 +0000  QA_rec 0 3 0 24
+So, 02 Aug 2020 13:26:00 +0000  Run-3, Block-0, Trial-24, Q_cnt-174, Q_sen-Die Kinder basteln Puppen aus Filz und Watte., Q_cen-basteln
+So, 02 Aug 2020 13:26:16 +0000  QA_rec 1 3 1 0
+So, 02 Aug 2020 13:26:36 +0000  QA_rec 0 3 1 0
+So, 02 Aug 2020 13:26:36 +0000  Run-3, Block-1, Trial-0, Q_cnt-175, Q_sen-Das Huhn legt jeden Tag ein Ei., Q_cen-legt
+So, 02 Aug 2020 13:26:37 +0000  QA_rec 1 3 1 1
+So, 02 Aug 2020 13:26:57 +0000  QA_rec 0 3 1 1
+So, 02 Aug 2020 13:26:57 +0000  Run-3, Block-1, Trial-1, Q_cnt-176, Q_sen-Beim Bäcker gibt es täglich frisches Brot., Q_cen-gibt
+So, 02 Aug 2020 13:26:58 +0000  QA_rec 1 3 1 2
+So, 02 Aug 2020 13:27:18 +0000  QA_rec 0 3 1 2
+So, 02 Aug 2020 13:27:18 +0000  Run-3, Block-1, Trial-2, Q_cnt-177, Q_sen-Sie benutzt die Arbeit als Vorwand., Q_cen-benutzt
+So, 02 Aug 2020 13:27:19 +0000  QA_rec 1 3 1 3
+So, 02 Aug 2020 13:27:39 +0000  QA_rec 0 3 1 3
+So, 02 Aug 2020 13:27:39 +0000  Run-3, Block-1, Trial-3, Q_cnt-178, Q_sen-Es ist ratsam, auch das Urteil anderer zu hören., Q_cen-hören
+So, 02 Aug 2020 13:27:40 +0000  QA_rec 1 3 1 4
+So, 02 Aug 2020 13:28:00 +0000  QA_rec 0 3 1 4
+So, 02 Aug 2020 13:28:00 +0000  Run-3, Block-1, Trial-4, Q_cnt-179, Q_sen-Er wird seinem Traum folgen, egal was die Leute reden., Q_cen-reden
+So, 02 Aug 2020 13:28:01 +0000  QA_rec 1 3 1 5
+So, 02 Aug 2020 13:28:21 +0000  QA_rec 0 3 1 5
+So, 02 Aug 2020 13:28:21 +0000  Run-3, Block-1, Trial-5, Q_cnt-180, Q_sen-Alle Passagiere müssen an der Endstation aus dem Zug aussteigen., Q_cen-aussteigen
+So, 02 Aug 2020 13:28:22 +0000  QA_rec 1 3 1 6
+So, 02 Aug 2020 13:28:42 +0000  QA_rec 0 3 1 6
+So, 02 Aug 2020 13:28:42 +0000  Run-3, Block-1, Trial-6, Q_cnt-181, Q_sen-Ich hielt das Küken vorsichtig in beiden Händen., Q_cen-hielt
+So, 02 Aug 2020 13:28:43 +0000  QA_rec 1 3 1 7
+So, 02 Aug 2020 13:29:03 +0000  QA_rec 0 3 1 7
+So, 02 Aug 2020 13:29:03 +0000  Run-3, Block-1, Trial-7, Q_cnt-182, Q_sen-Viele Zettel sind an der Wand gehängt., Q_cen-gehängt
+So, 02 Aug 2020 13:29:04 +0000  QA_rec 1 3 1 8
+So, 02 Aug 2020 13:29:25 +0000  QA_rec 0 3 1 8
+So, 02 Aug 2020 13:29:25 +0000  Run-3, Block-1, Trial-8, Q_cnt-183, Q_sen-Nach der Party mussten wir das Haus aufräumen., Q_cen-aufräumen
+So, 02 Aug 2020 13:29:26 +0000  QA_rec 1 3 1 9
+So, 02 Aug 2020 13:29:46 +0000  QA_rec 0 3 1 9
+So, 02 Aug 2020 13:29:46 +0000  Run-3, Block-1, Trial-9, Q_cnt-184, Q_sen-Der Autor beschrieb Sam als eine sehr nette Person., Q_cen-beschrieb
+So, 02 Aug 2020 13:29:47 +0000  QA_rec 1 3 1 10
+So, 02 Aug 2020 13:30:07 +0000  QA_rec 0 3 1 10
+So, 02 Aug 2020 13:30:07 +0000  Run-3, Block-1, Trial-10, Q_cnt-185, Q_sen-Er kann zwanzig Zigarattes pro Tag rauchen, was sehr ungesund ist., Q_cen-rauchen
+So, 02 Aug 2020 13:30:08 +0000  QA_rec 1 3 1 11
+So, 02 Aug 2020 13:30:28 +0000  QA_rec 0 3 1 11
+So, 02 Aug 2020 13:30:28 +0000  Run-3, Block-1, Trial-11, Q_cnt-186, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+So, 02 Aug 2020 13:30:29 +0000  QA_rec 1 3 1 12
+So, 02 Aug 2020 13:30:49 +0000  QA_rec 0 3 1 12
+So, 02 Aug 2020 13:30:49 +0000  Run-3, Block-1, Trial-12, Q_cnt-187, Q_sen-Ich versuche, jede Woche ein Buch zu lesen., Q_cen-lesen
+So, 02 Aug 2020 13:30:50 +0000  QA_rec 1 3 1 13
+So, 02 Aug 2020 13:31:10 +0000  QA_rec 0 3 1 13
+So, 02 Aug 2020 13:31:10 +0000  Run-3, Block-1, Trial-13, Q_cnt-188, Q_sen-Der Artikel hat bereits genügend nützliche Hintergrundinformationen geliefert., Q_cen-geliefert
+So, 02 Aug 2020 13:31:11 +0000  QA_rec 1 3 1 14
+So, 02 Aug 2020 13:31:31 +0000  QA_rec 0 3 1 14
+So, 02 Aug 2020 13:31:31 +0000  Run-3, Block-1, Trial-14, Q_cnt-189, Q_sen-Lange dünne Nudeln nennt man Spaghetti., Q_cen-nennt
+So, 02 Aug 2020 13:31:32 +0000  QA_rec 1 3 1 15
+So, 02 Aug 2020 13:31:52 +0000  QA_rec 0 3 1 15
+So, 02 Aug 2020 13:31:52 +0000  Run-3, Block-1, Trial-15, Q_cnt-190, Q_sen-Nachdem mein erster Versuch gescheitert war, probierte ich es noch einmal., Q_cen-probierte
+So, 02 Aug 2020 13:31:53 +0000  QA_rec 1 3 1 16
+So, 02 Aug 2020 13:32:13 +0000  QA_rec 0 3 1 16
+So, 02 Aug 2020 13:32:13 +0000  Run-3, Block-1, Trial-16, Q_cnt-191, Q_sen-Die Schneiderin änderte das Kleid, weil das Kleid zu groß ist., Q_cen-änderte
+So, 02 Aug 2020 13:32:14 +0000  QA_rec 1 3 1 17
+So, 02 Aug 2020 13:32:34 +0000  QA_rec 0 3 1 17
+So, 02 Aug 2020 13:32:34 +0000  Run-3, Block-1, Trial-17, Q_cnt-192, Q_sen-Der Fallschirm wird im Fall geöffnet., Q_cen-geöffnet
+So, 02 Aug 2020 13:32:35 +0000  QA_rec 1 3 1 18
+So, 02 Aug 2020 13:32:55 +0000  QA_rec 0 3 1 18
+So, 02 Aug 2020 13:32:55 +0000  Run-3, Block-1, Trial-18, Q_cnt-193, Q_sen-Können Sie mir auf Hundert Euro herausgeben?, Q_cen-herausgeben
+So, 02 Aug 2020 13:32:56 +0000  QA_rec 1 3 1 19
+So, 02 Aug 2020 13:33:16 +0000  QA_rec 0 3 1 19
+So, 02 Aug 2020 13:33:16 +0000  Run-3, Block-1, Trial-19, Q_cnt-194, Q_sen-Bitte schließ die Tür!, Q_cen-schließ
+So, 02 Aug 2020 13:33:17 +0000  QA_rec 1 3 1 20
+So, 02 Aug 2020 13:33:37 +0000  QA_rec 0 3 1 20
+So, 02 Aug 2020 13:33:37 +0000  Run-3, Block-1, Trial-20, Q_cnt-195, Q_sen-Wenn Sie nicht aufpassen, könnten Sie sich die Finger verletzen., Q_cen-aufpassen
+So, 02 Aug 2020 13:33:38 +0000  QA_rec 1 3 1 21
+So, 02 Aug 2020 13:33:58 +0000  QA_rec 0 3 1 21
+So, 02 Aug 2020 13:33:58 +0000  Run-3, Block-1, Trial-21, Q_cnt-196, Q_sen-Er merkte sofort, dass wir versuchten, ihn zu belügen., Q_cen-merkte
+So, 02 Aug 2020 13:33:59 +0000  QA_rec 1 3 1 22
+So, 02 Aug 2020 13:34:19 +0000  QA_rec 0 3 1 22
+So, 02 Aug 2020 13:34:19 +0000  Run-3, Block-1, Trial-22, Q_cnt-197, Q_sen-Das Mädchen wollte etwas sagen, also hob sie ihre Hand., Q_cen-sagen
+So, 02 Aug 2020 13:34:20 +0000  QA_rec 1 3 1 23
+So, 02 Aug 2020 13:34:40 +0000  QA_rec 0 3 1 23
+So, 02 Aug 2020 13:34:40 +0000  Run-3, Block-1, Trial-23, Q_cnt-198, Q_sen-Simon hat riesige Bilder gemalt., Q_cen-gemalt
+So, 02 Aug 2020 13:34:41 +0000  QA_rec 1 3 1 24
+So, 02 Aug 2020 13:35:01 +0000  QA_rec 0 3 1 24
+So, 02 Aug 2020 13:35:01 +0000  Run-3, Block-1, Trial-24, Q_cnt-199, Q_sen-Meine Eltern schauten vorbei, um sich meinen neuen Garten anzusehen., Q_cen-anzusehen
