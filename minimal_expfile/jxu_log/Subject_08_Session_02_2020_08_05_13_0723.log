@@ -1,0 +1,162 @@
+Mi, 05 Aug 2020 13:07:26 +0000  fade_in 1 3 None None
+Mi, 05 Aug 2020 13:07:57 +0000  fade_in 0 3 None None
+Mi, 05 Aug 2020 13:07:59 +0000  RS_intro 1 3 0 None
+Mi, 05 Aug 2020 13:08:22 +0000  RS_intro 0 3 0 None
+Mi, 05 Aug 2020 13:08:22 +0000  RS_rec 1 3 0 None
+Mi, 05 Aug 2020 13:11:25 +0000  RS_rec 0 3 close None
+Mi, 05 Aug 2020 13:11:25 +0000  RS_intro 1 3 1 None
+Mi, 05 Aug 2020 13:11:48 +0000  RS_intro 0 3 1 None
+Mi, 05 Aug 2020 13:11:48 +0000  RS_rec 1 3 1 None
+Mi, 05 Aug 2020 13:14:51 +0000  RS_rec 0 3 open None
+Mi, 05 Aug 2020 13:15:08 +0000  QA_intro 1 3 None None
+Mi, 05 Aug 2020 13:15:51 +0000  QA_intro 0 3 None None
+Mi, 05 Aug 2020 13:15:53 +0000  QA_rec 1 3 0 0
+Mi, 05 Aug 2020 13:16:13 +0000  QA_rec 0 3 0 0
+Mi, 05 Aug 2020 13:16:13 +0000  Run-3, Block-0, Trial-0, Q_cnt-150, Q_sen-Zum Geburtstag hat ihm Oma ein Buch mit vielen Bildern geschenkt., Q_cen-geschenkt
+Mi, 05 Aug 2020 13:16:14 +0000  QA_rec 1 3 0 1
+Mi, 05 Aug 2020 13:16:34 +0000  QA_rec 0 3 0 1
+Mi, 05 Aug 2020 13:16:34 +0000  Run-3, Block-0, Trial-1, Q_cnt-151, Q_sen-Die Ergebnisse werden auf einer Skala von eins bis zehn angezeigt., Q_cen-angezeigt
+Mi, 05 Aug 2020 13:16:35 +0000  QA_rec 1 3 0 2
+Mi, 05 Aug 2020 13:16:55 +0000  QA_rec 0 3 0 2
+Mi, 05 Aug 2020 13:16:55 +0000  Run-3, Block-0, Trial-2, Q_cnt-152, Q_sen-Peter sitzt den ganzen Tag am Computer., Q_cen-sitzt
+Mi, 05 Aug 2020 13:16:56 +0000  QA_rec 1 3 0 3
+Mi, 05 Aug 2020 13:17:16 +0000  QA_rec 0 3 0 3
+Mi, 05 Aug 2020 13:17:16 +0000  Run-3, Block-0, Trial-3, Q_cnt-153, Q_sen-Ein Fußball Team besteht aus zehn Spielern und einem Tormann., Q_cen-besteht
+Mi, 05 Aug 2020 13:17:17 +0000  QA_rec 1 3 0 4
+Mi, 05 Aug 2020 13:17:37 +0000  QA_rec 0 3 0 4
+Mi, 05 Aug 2020 13:17:37 +0000  Run-3, Block-0, Trial-4, Q_cnt-154, Q_sen-Er wird die Wurst mit Butter braten., Q_cen-braten
+Mi, 05 Aug 2020 13:17:38 +0000  QA_rec 1 3 0 5
+Mi, 05 Aug 2020 13:17:58 +0000  QA_rec 0 3 0 5
+Mi, 05 Aug 2020 13:17:58 +0000  Run-3, Block-0, Trial-5, Q_cnt-155, Q_sen-Die USA haben viele Satelliten in den Weltraum geschickt., Q_cen-geschickt
+Mi, 05 Aug 2020 13:17:59 +0000  QA_rec 1 3 0 6
+Mi, 05 Aug 2020 13:18:19 +0000  QA_rec 0 3 0 6
+Mi, 05 Aug 2020 13:18:19 +0000  Run-3, Block-0, Trial-6, Q_cnt-156, Q_sen-Meine Geschichte ist wahr, ich habe keine Lügen erzählt., Q_cen-erzählt
+Mi, 05 Aug 2020 13:18:20 +0000  QA_rec 1 3 0 7
+Mi, 05 Aug 2020 13:18:41 +0000  QA_rec 0 3 0 7
+Mi, 05 Aug 2020 13:18:41 +0000  Run-3, Block-0, Trial-7, Q_cnt-157, Q_sen-Danke für den Smoothie, den Sie mir machten., Q_cen-machten
+Mi, 05 Aug 2020 13:18:42 +0000  QA_rec 1 3 0 8
+Mi, 05 Aug 2020 13:19:02 +0000  QA_rec 0 3 0 8
+Mi, 05 Aug 2020 13:19:02 +0000  Run-3, Block-0, Trial-8, Q_cnt-158, Q_sen-Der Arzt hat mir empfohlen, auf Alkohol zu verzichten., Q_cen-verzichten
+Mi, 05 Aug 2020 13:19:03 +0000  QA_rec 1 3 0 9
+Mi, 05 Aug 2020 13:19:23 +0000  QA_rec 0 3 0 9
+Mi, 05 Aug 2020 13:19:23 +0000  Run-3, Block-0, Trial-9, Q_cnt-159, Q_sen-Susi isst zum Frühstück gerne ein weiches Ei., Q_cen-isst
+Mi, 05 Aug 2020 13:19:24 +0000  QA_rec 1 3 0 10
+Mi, 05 Aug 2020 13:19:44 +0000  QA_rec 0 3 0 10
+Mi, 05 Aug 2020 13:19:44 +0000  Run-3, Block-0, Trial-10, Q_cnt-160, Q_sen-Howard Carter hat viele Schätze im Grab von Tutanchamun gefunden., Q_cen-gefunden
+Mi, 05 Aug 2020 13:19:45 +0000  QA_rec 1 3 0 11
+Mi, 05 Aug 2020 13:20:05 +0000  QA_rec 0 3 0 11
+Mi, 05 Aug 2020 13:20:05 +0000  Run-3, Block-0, Trial-11, Q_cnt-161, Q_sen-Du darfst diese Bücher aufeinander liegen., Q_cen-liegen
+Mi, 05 Aug 2020 13:20:06 +0000  QA_rec 1 3 0 12
+Mi, 05 Aug 2020 13:20:26 +0000  QA_rec 0 3 0 12
+Mi, 05 Aug 2020 13:20:26 +0000  Run-3, Block-0, Trial-12, Q_cnt-162, Q_sen-Im Herbst werden die Blätter von den Bäumen fallen., Q_cen-fallen
+Mi, 05 Aug 2020 13:20:27 +0000  QA_rec 1 3 0 13
+Mi, 05 Aug 2020 13:20:47 +0000  QA_rec 0 3 0 13
+Mi, 05 Aug 2020 13:20:47 +0000  Run-3, Block-0, Trial-13, Q_cnt-163, Q_sen-Finden Sie nicht, er hat sich nach dem Tod seines Kindes völlig verändert?, Q_cen-verändert
+Mi, 05 Aug 2020 13:20:48 +0000  QA_rec 1 3 0 14
+Mi, 05 Aug 2020 13:21:08 +0000  QA_rec 0 3 0 14
+Mi, 05 Aug 2020 13:21:08 +0000  Run-3, Block-0, Trial-14, Q_cnt-164, Q_sen-Das Flugzeug fliegt den vorgeschriebenen Kurs., Q_cen-fliegt
+Mi, 05 Aug 2020 13:21:09 +0000  QA_rec 1 3 0 15
+Mi, 05 Aug 2020 13:21:29 +0000  QA_rec 0 3 0 15
+Mi, 05 Aug 2020 13:21:29 +0000  Run-3, Block-0, Trial-15, Q_cnt-165, Q_sen-Am Anfang sind die Brüder Wright mit Gleitflugzeugen geflogen., Q_cen-geflogen
+Mi, 05 Aug 2020 13:21:30 +0000  QA_rec 1 3 0 16
+Mi, 05 Aug 2020 13:21:50 +0000  QA_rec 0 3 0 16
+Mi, 05 Aug 2020 13:21:50 +0000  Run-3, Block-0, Trial-16, Q_cnt-166, Q_sen-Bitte reservieren Sie einen Platz, bevor Sie ins Restaurant gehen., Q_cen-reservieren
+Mi, 05 Aug 2020 13:21:51 +0000  QA_rec 1 3 0 17
+Mi, 05 Aug 2020 13:22:11 +0000  QA_rec 0 3 0 17
+Mi, 05 Aug 2020 13:22:11 +0000  Run-3, Block-0, Trial-17, Q_cnt-167, Q_sen-Ich wusste die Antwort nicht, also musste ich raten., Q_cen-raten
+Mi, 05 Aug 2020 13:22:12 +0000  QA_rec 1 3 0 18
+Mi, 05 Aug 2020 13:22:32 +0000  QA_rec 0 3 0 18
+Mi, 05 Aug 2020 13:22:32 +0000  Run-3, Block-0, Trial-18, Q_cnt-168, Q_sen-Im Kaffeehaus sitzen und Zeitung lesen, das gefällt den Österreichern., Q_cen-gefällt
+Mi, 05 Aug 2020 13:22:33 +0000  QA_rec 1 3 0 19
+Mi, 05 Aug 2020 13:22:53 +0000  QA_rec 0 3 0 19
+Mi, 05 Aug 2020 13:22:53 +0000  Run-3, Block-0, Trial-19, Q_cnt-169, Q_sen-Ein Gewitter besteht aus Blitz und Donner., Q_cen-besteht
+Mi, 05 Aug 2020 13:22:54 +0000  QA_rec 1 3 0 20
+Mi, 05 Aug 2020 13:23:14 +0000  QA_rec 0 3 0 20
+Mi, 05 Aug 2020 13:23:14 +0000  Run-3, Block-0, Trial-20, Q_cnt-170, Q_sen-Der Unterricht dauert meistens bis um dreizehn Uhr., Q_cen-dauert
+Mi, 05 Aug 2020 13:23:15 +0000  QA_rec 1 3 0 21
+Mi, 05 Aug 2020 13:23:35 +0000  QA_rec 0 3 0 21
+Mi, 05 Aug 2020 13:23:35 +0000  Run-3, Block-0, Trial-21, Q_cnt-171, Q_sen-Meine Uhr zeigt die aktuelle Uhrzeit in Berlin und New York an., Q_cen-zeigt
+Mi, 05 Aug 2020 13:23:36 +0000  QA_rec 1 3 0 22
+Mi, 05 Aug 2020 13:23:56 +0000  QA_rec 0 3 0 22
+Mi, 05 Aug 2020 13:23:56 +0000  Run-3, Block-0, Trial-22, Q_cnt-172, Q_sen-Dieses Zelt wurde für extreme Wetterlagen, z.B. Sturm, Schneesturm, gebaut., Q_cen-gebaut
+Mi, 05 Aug 2020 13:23:57 +0000  QA_rec 1 3 0 23
+Mi, 05 Aug 2020 13:24:17 +0000  QA_rec 0 3 0 23
+Mi, 05 Aug 2020 13:24:17 +0000  Run-3, Block-0, Trial-23, Q_cnt-173, Q_sen-Er lieh mir Geld, ohne Zinsen zu verlangen., Q_cen-lieh
+Mi, 05 Aug 2020 13:24:18 +0000  QA_rec 1 3 0 24
+Mi, 05 Aug 2020 13:24:38 +0000  QA_rec 0 3 0 24
+Mi, 05 Aug 2020 13:24:38 +0000  Run-3, Block-0, Trial-24, Q_cnt-174, Q_sen-Oma hat Probleme mit den Zähnen, aber sie fürchtet sich vorm Zahnarzt., Q_cen-fürchtet
+Mi, 05 Aug 2020 13:25:00 +0000  QA_rec 1 3 1 0
+Mi, 05 Aug 2020 13:25:20 +0000  QA_rec 0 3 1 0
+Mi, 05 Aug 2020 13:25:20 +0000  Run-3, Block-1, Trial-0, Q_cnt-175, Q_sen-Peter interessiert sich sehr für Geschichte., Q_cen-interessiert
+Mi, 05 Aug 2020 13:25:21 +0000  QA_rec 1 3 1 1
+Mi, 05 Aug 2020 13:25:41 +0000  QA_rec 0 3 1 1
+Mi, 05 Aug 2020 13:25:41 +0000  Run-3, Block-1, Trial-1, Q_cnt-176, Q_sen-Die Meere sollte man nicht so leer fischen., Q_cen-fischen
+Mi, 05 Aug 2020 13:25:42 +0000  QA_rec 1 3 1 2
+Mi, 05 Aug 2020 13:26:02 +0000  QA_rec 0 3 1 2
+Mi, 05 Aug 2020 13:26:02 +0000  Run-3, Block-1, Trial-2, Q_cnt-177, Q_sen-Es ist vorstellbar, dass er diese schwierige Prüfung nicht bestehen kann. , Q_cen-bestehen
+Mi, 05 Aug 2020 13:26:03 +0000  QA_rec 1 3 1 3
+Mi, 05 Aug 2020 13:26:23 +0000  QA_rec 0 3 1 3
+Mi, 05 Aug 2020 13:26:23 +0000  Run-3, Block-1, Trial-3, Q_cnt-178, Q_sen-Die kluge Gebäudekonstruktion kann das Haus vor Windschäden schützen., Q_cen-schützen
+Mi, 05 Aug 2020 13:26:24 +0000  QA_rec 1 3 1 4
+Mi, 05 Aug 2020 13:26:44 +0000  QA_rec 0 3 1 4
+Mi, 05 Aug 2020 13:26:44 +0000  Run-3, Block-1, Trial-4, Q_cnt-179, Q_sen-Wenn der Wind stark bläst, ziehen die Wolken schnell über den Himmel., Q_cen-bläst
+Mi, 05 Aug 2020 13:26:45 +0000  QA_rec 1 3 1 5
+Mi, 05 Aug 2020 13:27:05 +0000  QA_rec 0 3 1 5
+Mi, 05 Aug 2020 13:27:05 +0000  Run-3, Block-1, Trial-5, Q_cnt-180, Q_sen-Er kann fast so gut Fahrrad fahren wie sein älterer Bruder., Q_cen-fahren
+Mi, 05 Aug 2020 13:27:06 +0000  QA_rec 1 3 1 6
+Mi, 05 Aug 2020 13:27:26 +0000  QA_rec 0 3 1 6
+Mi, 05 Aug 2020 13:27:26 +0000  Run-3, Block-1, Trial-6, Q_cnt-181, Q_sen-Die Milch riecht verdorben., Q_cen-riecht
+Mi, 05 Aug 2020 13:27:27 +0000  QA_rec 1 3 1 7
+Mi, 05 Aug 2020 13:27:47 +0000  QA_rec 0 3 1 7
+Mi, 05 Aug 2020 13:27:47 +0000  Run-3, Block-1, Trial-7, Q_cnt-182, Q_sen-Es gibt viele Vorteile, wenn man die öffentlichen Verkehrsmittel benutzt., Q_cen-benutzt
+Mi, 05 Aug 2020 13:27:48 +0000  QA_rec 1 3 1 8
+Mi, 05 Aug 2020 13:28:08 +0000  QA_rec 0 3 1 8
+Mi, 05 Aug 2020 13:28:08 +0000  Run-3, Block-1, Trial-8, Q_cnt-183, Q_sen-Die alte Zimmerdecke muss man renovieren., Q_cen-renovieren
+Mi, 05 Aug 2020 13:28:09 +0000  QA_rec 1 3 1 9
+Mi, 05 Aug 2020 13:28:29 +0000  QA_rec 0 3 1 9
+Mi, 05 Aug 2020 13:28:29 +0000  Run-3, Block-1, Trial-9, Q_cnt-184, Q_sen-Wie feiern die Deutschen Weihnachten?, Q_cen-feiern
+Mi, 05 Aug 2020 13:28:30 +0000  QA_rec 1 3 1 10
+Mi, 05 Aug 2020 13:28:50 +0000  QA_rec 0 3 1 10
+Mi, 05 Aug 2020 13:28:50 +0000  Run-3, Block-1, Trial-10, Q_cnt-185, Q_sen-Ihm ist jedes Mittel recht, um sein Ziel zu erreichen., Q_cen-erreichen
+Mi, 05 Aug 2020 13:28:51 +0000  QA_rec 1 3 1 11
+Mi, 05 Aug 2020 13:29:11 +0000  QA_rec 0 3 1 11
+Mi, 05 Aug 2020 13:29:11 +0000  Run-3, Block-1, Trial-11, Q_cnt-186, Q_sen-Sonja nimmt ihren Tee mit Milch und Zucker., Q_cen-nimmt
+Mi, 05 Aug 2020 13:29:12 +0000  QA_rec 1 3 1 12
+Mi, 05 Aug 2020 13:29:32 +0000  QA_rec 0 3 1 12
+Mi, 05 Aug 2020 13:29:32 +0000  Run-3, Block-1, Trial-12, Q_cnt-187, Q_sen-Kunden sollten Produkte sorgfältig prüfen, bevor sie sie kaufen., Q_cen-prüfen
+Mi, 05 Aug 2020 13:29:33 +0000  QA_rec 1 3 1 13
+Mi, 05 Aug 2020 13:29:53 +0000  QA_rec 0 3 1 13
+Mi, 05 Aug 2020 13:29:53 +0000  Run-3, Block-1, Trial-13, Q_cnt-188, Q_sen-Im Sommer brauchen wir ein Moskitonetz, damit wir nicht gestochen werden., Q_cen-brauchen
+Mi, 05 Aug 2020 13:29:54 +0000  QA_rec 1 3 1 14
+Mi, 05 Aug 2020 13:30:14 +0000  QA_rec 0 3 1 14
+Mi, 05 Aug 2020 13:30:14 +0000  Run-3, Block-1, Trial-14, Q_cnt-189, Q_sen-Ich habe das Formular ausgefüllt, um mich für den Kurs anzumelden., Q_cen-ausgefüllt
+Mi, 05 Aug 2020 13:30:15 +0000  QA_rec 1 3 1 15
+Mi, 05 Aug 2020 13:30:35 +0000  QA_rec 0 3 1 15
+Mi, 05 Aug 2020 13:30:35 +0000  Run-3, Block-1, Trial-15, Q_cnt-190, Q_sen-Bei dem Gewitter letzte Woche hat der Blitz in ein Boot eingeschlagen., Q_cen-eingeschlagen
+Mi, 05 Aug 2020 13:30:36 +0000  QA_rec 1 3 1 16
+Mi, 05 Aug 2020 13:30:56 +0000  QA_rec 0 3 1 16
+Mi, 05 Aug 2020 13:30:56 +0000  Run-3, Block-1, Trial-16, Q_cnt-191, Q_sen-Die Teilnehmer müssen sich im Voraus für den Kurs anmelden., Q_cen-anmelden
+Mi, 05 Aug 2020 13:30:57 +0000  QA_rec 1 3 1 17
+Mi, 05 Aug 2020 13:31:17 +0000  QA_rec 0 3 1 17
+Mi, 05 Aug 2020 13:31:17 +0000  Run-3, Block-1, Trial-17, Q_cnt-192, Q_sen-Der Arzt wollte ihm verwehren, seinen Vater zu besuchen., Q_cen-besuchen
+Mi, 05 Aug 2020 13:31:18 +0000  QA_rec 1 3 1 18
+Mi, 05 Aug 2020 13:31:38 +0000  QA_rec 0 3 1 18
+Mi, 05 Aug 2020 13:31:38 +0000  Run-3, Block-1, Trial-18, Q_cnt-193, Q_sen-Ich drückte den Knopf, um den Computer einzuschalten., Q_cen-drückte
+Mi, 05 Aug 2020 13:31:39 +0000  QA_rec 1 3 1 19
+Mi, 05 Aug 2020 13:31:59 +0000  QA_rec 0 3 1 19
+Mi, 05 Aug 2020 13:31:59 +0000  Run-3, Block-1, Trial-19, Q_cnt-194, Q_sen-In der Küche steht noch das schumutzige Geschirr vom Frühstück., Q_cen-steht
+Mi, 05 Aug 2020 13:32:00 +0000  QA_rec 1 3 1 20
+Mi, 05 Aug 2020 13:32:21 +0000  QA_rec 0 3 1 20
+Mi, 05 Aug 2020 13:32:21 +0000  Run-3, Block-1, Trial-20, Q_cnt-195, Q_sen-Nur wenn mein Haar schmutzig ist, werde ich es bürsten., Q_cen-bürsten
+Mi, 05 Aug 2020 13:32:22 +0000  QA_rec 1 3 1 21
+Mi, 05 Aug 2020 13:32:42 +0000  QA_rec 0 3 1 21
+Mi, 05 Aug 2020 13:32:42 +0000  Run-3, Block-1, Trial-21, Q_cnt-196, Q_sen-Manche Politiker wollen den Frieden auf Erden sichern., Q_cen-sichern
+Mi, 05 Aug 2020 13:32:43 +0000  QA_rec 1 3 1 22
+Mi, 05 Aug 2020 13:33:03 +0000  QA_rec 0 3 1 22
+Mi, 05 Aug 2020 13:33:03 +0000  Run-3, Block-1, Trial-22, Q_cnt-197, Q_sen-Die Firma hat einen Fachmann hinzugezogen, um das Netzwerk zu reparieren., Q_cen-reparieren
+Mi, 05 Aug 2020 13:33:04 +0000  QA_rec 1 3 1 23
+Mi, 05 Aug 2020 13:33:24 +0000  QA_rec 0 3 1 23
+Mi, 05 Aug 2020 13:33:24 +0000  Run-3, Block-1, Trial-23, Q_cnt-198, Q_sen-Zuhause erzählt er seiner kleinen Schwester davon., Q_cen-erzählt
+Mi, 05 Aug 2020 13:33:25 +0000  QA_rec 1 3 1 24
+Mi, 05 Aug 2020 13:33:45 +0000  QA_rec 0 3 1 24
+Mi, 05 Aug 2020 13:33:45 +0000  Run-3, Block-1, Trial-24, Q_cnt-199, Q_sen-Deine Haare sind so kurz, warst du beim Friseur?, Q_cen-warst
