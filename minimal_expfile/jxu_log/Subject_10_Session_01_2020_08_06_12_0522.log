@@ -1,0 +1,162 @@
+Do, 06 Aug 2020 12:05:26 +0000  fade_in 1 1 None None
+Do, 06 Aug 2020 12:06:01 +0000  fade_in 0 1 None None
+Do, 06 Aug 2020 12:06:03 +0000  RS_intro 1 1 0 None
+Do, 06 Aug 2020 12:06:26 +0000  RS_intro 0 1 0 None
+Do, 06 Aug 2020 12:06:26 +0000  RS_rec 1 1 0 None
+Do, 06 Aug 2020 12:09:29 +0000  RS_rec 0 1 open None
+Do, 06 Aug 2020 12:09:29 +0000  RS_intro 1 1 1 None
+Do, 06 Aug 2020 12:09:52 +0000  RS_intro 0 1 1 None
+Do, 06 Aug 2020 12:09:52 +0000  RS_rec 1 1 1 None
+Do, 06 Aug 2020 12:12:56 +0000  RS_rec 0 1 close None
+Do, 06 Aug 2020 12:13:11 +0000  QA_intro 1 1 None None
+Do, 06 Aug 2020 12:13:54 +0000  QA_intro 0 1 None None
+Do, 06 Aug 2020 12:13:56 +0000  QA_rec 1 1 0 0
+Do, 06 Aug 2020 12:14:16 +0000  QA_rec 0 1 0 0
+Do, 06 Aug 2020 12:14:16 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Obst sollte man täglich essen, weil es wegen den Vitaminen sehr gesund ist., Q_cen-essen
+Do, 06 Aug 2020 12:14:17 +0000  QA_rec 1 1 0 1
+Do, 06 Aug 2020 12:14:37 +0000  QA_rec 0 1 0 1
+Do, 06 Aug 2020 12:14:37 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Ich sollte aufstehen, wenn morgens der Wecker geläutet., Q_cen-geläutet
+Do, 06 Aug 2020 12:14:38 +0000  QA_rec 1 1 0 2
+Do, 06 Aug 2020 12:14:58 +0000  QA_rec 0 1 0 2
+Do, 06 Aug 2020 12:14:58 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Die Stadt liegt nahe am Meer., Q_cen-liegt
+Do, 06 Aug 2020 12:14:59 +0000  QA_rec 1 1 0 3
+Do, 06 Aug 2020 12:15:19 +0000  QA_rec 0 1 0 3
+Do, 06 Aug 2020 12:15:19 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Die Erklärungen des Lehrers haben absolut Sinn ergeben., Q_cen-ergeben
+Do, 06 Aug 2020 12:15:20 +0000  QA_rec 1 1 0 4
+Do, 06 Aug 2020 12:15:40 +0000  QA_rec 0 1 0 4
+Do, 06 Aug 2020 12:15:40 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Der Fischer musste das Netz einziehen, ohne etwas gefangen zu haben., Q_cen-einziehen
+Do, 06 Aug 2020 12:15:41 +0000  QA_rec 1 1 0 5
+Do, 06 Aug 2020 12:16:01 +0000  QA_rec 0 1 0 5
+Do, 06 Aug 2020 12:16:01 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Man kann sich Bilder und Videos von anderen Menschen auf Instagram anschauen., Q_cen-anschauen
+Do, 06 Aug 2020 12:16:02 +0000  QA_rec 1 1 0 6
+Do, 06 Aug 2020 12:16:22 +0000  QA_rec 0 1 0 6
+Do, 06 Aug 2020 12:16:22 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Willi möchte gerne an der Universität Informatik studieren., Q_cen-studieren
+Do, 06 Aug 2020 12:16:23 +0000  QA_rec 1 1 0 7
+Do, 06 Aug 2020 12:16:43 +0000  QA_rec 0 1 0 7
+Do, 06 Aug 2020 12:16:43 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Zu Ostern gibt es für Kinder Ostereier und Süßigkeiten., Q_cen-gibt
+Do, 06 Aug 2020 12:16:44 +0000  QA_rec 1 1 0 8
+Do, 06 Aug 2020 12:17:04 +0000  QA_rec 0 1 0 8
+Do, 06 Aug 2020 12:17:04 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Bevor man ein Haus baut, zeichnet der Architekt einen Plan., Q_cen-zeichnet
+Do, 06 Aug 2020 12:17:05 +0000  QA_rec 1 1 0 9
+Do, 06 Aug 2020 12:17:25 +0000  QA_rec 0 1 0 9
+Do, 06 Aug 2020 12:17:25 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Neue Sterne entstehen in den Magellan-Wolken., Q_cen-entstehen
+Do, 06 Aug 2020 12:17:26 +0000  QA_rec 1 1 0 10
+Do, 06 Aug 2020 12:17:46 +0000  QA_rec 0 1 0 10
+Do, 06 Aug 2020 12:17:46 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Er ist durch die ganze Welt gereist., Q_cen-gereist
+Do, 06 Aug 2020 12:17:47 +0000  QA_rec 1 1 0 11
+Do, 06 Aug 2020 12:18:08 +0000  QA_rec 0 1 0 11
+Do, 06 Aug 2020 12:18:08 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Hans arbeitet in einer Schule, er ist der Direktor., Q_cen-arbeitet
+Do, 06 Aug 2020 12:18:09 +0000  QA_rec 1 1 0 12
+Do, 06 Aug 2020 12:18:29 +0000  QA_rec 0 1 0 12
+Do, 06 Aug 2020 12:18:29 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Bist du schon mal auf einem Pony geritten? , Q_cen-geritten
+Do, 06 Aug 2020 12:18:30 +0000  QA_rec 1 1 0 13
+Do, 06 Aug 2020 12:18:50 +0000  QA_rec 0 1 0 13
+Do, 06 Aug 2020 12:18:50 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Morgen machen wir einen Ausflug in den Schönbrunner Tiergarten., Q_cen-machen
+Do, 06 Aug 2020 12:18:51 +0000  QA_rec 1 1 0 14
+Do, 06 Aug 2020 12:19:11 +0000  QA_rec 0 1 0 14
+Do, 06 Aug 2020 12:19:11 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Was bedeutet Pressefreiheit für dich?, Q_cen-bedeutet
+Do, 06 Aug 2020 12:19:12 +0000  QA_rec 1 1 0 15
+Do, 06 Aug 2020 12:19:32 +0000  QA_rec 0 1 0 15
+Do, 06 Aug 2020 12:19:32 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Schultigung, Ich habe den falschen Knopf gedrückt., Q_cen-gedrückt
+Do, 06 Aug 2020 12:19:33 +0000  QA_rec 1 1 0 16
+Do, 06 Aug 2020 12:19:53 +0000  QA_rec 0 1 0 16
+Do, 06 Aug 2020 12:19:53 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Die Ärztin hat Andrea ein Rezept ausgestellt., Q_cen-ausgestellt
+Do, 06 Aug 2020 12:19:54 +0000  QA_rec 1 1 0 17
+Do, 06 Aug 2020 12:20:14 +0000  QA_rec 0 1 0 17
+Do, 06 Aug 2020 12:20:14 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Der Arbeiter repariert eine Panne., Q_cen-repariert
+Do, 06 Aug 2020 12:20:15 +0000  QA_rec 1 1 0 18
+Do, 06 Aug 2020 12:20:35 +0000  QA_rec 0 1 0 18
+Do, 06 Aug 2020 12:20:35 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Ich fahre mit dem Zug nach London., Q_cen-fahre
+Do, 06 Aug 2020 12:20:36 +0000  QA_rec 1 1 0 19
+Do, 06 Aug 2020 12:20:56 +0000  QA_rec 0 1 0 19
+Do, 06 Aug 2020 12:20:56 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Man bezahlt für den Naturschutz., Q_cen-bezahlt
+Do, 06 Aug 2020 12:20:57 +0000  QA_rec 1 1 0 20
+Do, 06 Aug 2020 12:21:17 +0000  QA_rec 0 1 0 20
+Do, 06 Aug 2020 12:21:17 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Das sind Wörter, die vor allem junge Leute benutzen., Q_cen-benutzen
+Do, 06 Aug 2020 12:21:18 +0000  QA_rec 1 1 0 21
+Do, 06 Aug 2020 12:21:38 +0000  QA_rec 0 1 0 21
+Do, 06 Aug 2020 12:21:38 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Meine Großtante starb letztes Jahr und wurde neben ihrem Mann begraben., Q_cen-begraben
+Do, 06 Aug 2020 12:21:39 +0000  QA_rec 1 1 0 22
+Do, 06 Aug 2020 12:21:59 +0000  QA_rec 0 1 0 22
+Do, 06 Aug 2020 12:21:59 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Sie redete leise und unverständlich., Q_cen-redete
+Do, 06 Aug 2020 12:22:00 +0000  QA_rec 1 1 0 23
+Do, 06 Aug 2020 12:22:20 +0000  QA_rec 0 1 0 23
+Do, 06 Aug 2020 12:22:20 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Der Artikel hat bereits genügend nützliche Hintergrundinformationen geliefert., Q_cen-geliefert
+Do, 06 Aug 2020 12:22:21 +0000  QA_rec 1 1 0 24
+Do, 06 Aug 2020 12:22:41 +0000  QA_rec 0 1 0 24
+Do, 06 Aug 2020 12:22:41 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Können Sie mir einen guten Augenarzt empfehlen?, Q_cen-empfehlen
+Do, 06 Aug 2020 12:23:10 +0000  QA_rec 1 1 1 0
+Do, 06 Aug 2020 12:23:30 +0000  QA_rec 0 1 1 0
+Do, 06 Aug 2020 12:23:30 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Ich habe mich schon oft über den schrecklichen Service beschwert., Q_cen-beschwert
+Do, 06 Aug 2020 12:23:31 +0000  QA_rec 1 1 1 1
+Do, 06 Aug 2020 12:23:51 +0000  QA_rec 0 1 1 1
+Do, 06 Aug 2020 12:23:51 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-In Wien tanzt man gerne Walzer., Q_cen-tanzt
+Do, 06 Aug 2020 12:23:52 +0000  QA_rec 1 1 1 2
+Do, 06 Aug 2020 12:24:12 +0000  QA_rec 0 1 1 2
+Do, 06 Aug 2020 12:24:12 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Das Fleisch wird klein geschnitten, und dann in der Pfanne gebraten., Q_cen-gebraten
+Do, 06 Aug 2020 12:24:13 +0000  QA_rec 1 1 1 3
+Do, 06 Aug 2020 12:24:33 +0000  QA_rec 0 1 1 3
+Do, 06 Aug 2020 12:24:33 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Der Flug nach New York wird mehrere Stunden dauern., Q_cen-dauern
+Do, 06 Aug 2020 12:24:34 +0000  QA_rec 1 1 1 4
+Do, 06 Aug 2020 12:24:54 +0000  QA_rec 0 1 1 4
+Do, 06 Aug 2020 12:24:54 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Um Omeltte zu machen, werde ich die Eier verrühren und dann braten., Q_cen-braten
+Do, 06 Aug 2020 12:24:55 +0000  QA_rec 1 1 1 5
+Do, 06 Aug 2020 12:25:15 +0000  QA_rec 0 1 1 5
+Do, 06 Aug 2020 12:25:15 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Die Uhr kann den zwölf Stunden Rhythmus zeigen., Q_cen-zeigen
+Do, 06 Aug 2020 12:25:16 +0000  QA_rec 1 1 1 6
+Do, 06 Aug 2020 12:25:36 +0000  QA_rec 0 1 1 6
+Do, 06 Aug 2020 12:25:36 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Ich muss mich bemühen, das Ziel des Projektes zu erreichen., Q_cen-erreichen
+Do, 06 Aug 2020 12:25:37 +0000  QA_rec 1 1 1 7
+Do, 06 Aug 2020 12:25:57 +0000  QA_rec 0 1 1 7
+Do, 06 Aug 2020 12:25:57 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Die Absolventen feiern ihren erfolgreichen Abschluss an der Universität., Q_cen-feiern
+Do, 06 Aug 2020 12:25:58 +0000  QA_rec 1 1 1 8
+Do, 06 Aug 2020 12:26:19 +0000  QA_rec 0 1 1 8
+Do, 06 Aug 2020 12:26:19 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Die Atmosphäre der Erde besteht aus Luft., Q_cen-besteht
+Do, 06 Aug 2020 12:26:20 +0000  QA_rec 1 1 1 9
+Do, 06 Aug 2020 12:26:40 +0000  QA_rec 0 1 1 9
+Do, 06 Aug 2020 12:26:40 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Das Experiment hat eine Woche lang gedauert., Q_cen-gedauert
+Do, 06 Aug 2020 12:26:41 +0000  QA_rec 1 1 1 10
+Do, 06 Aug 2020 12:27:01 +0000  QA_rec 0 1 1 10
+Do, 06 Aug 2020 12:27:01 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Es wird nicht empfohlen, die Batterie völlig zu entladen., Q_cen-empfohlen
+Do, 06 Aug 2020 12:27:02 +0000  QA_rec 1 1 1 11
+Do, 06 Aug 2020 12:27:22 +0000  QA_rec 0 1 1 11
+Do, 06 Aug 2020 12:27:22 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Sie müssen mehr bezahlen, es fehlen noch ein paar Cent., Q_cen-fehlen
+Do, 06 Aug 2020 12:27:23 +0000  QA_rec 1 1 1 12
+Do, 06 Aug 2020 12:27:43 +0000  QA_rec 0 1 1 12
+Do, 06 Aug 2020 12:27:43 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-An der Kasse bezahlen wir mit Bankomatkarte., Q_cen-bezahlen
+Do, 06 Aug 2020 12:27:44 +0000  QA_rec 1 1 1 13
+Do, 06 Aug 2020 12:28:04 +0000  QA_rec 0 1 1 13
+Do, 06 Aug 2020 12:28:04 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Wenn sie sich etwas leiht, bringt sie es immer zurück., Q_cen-leiht
+Do, 06 Aug 2020 12:28:05 +0000  QA_rec 1 1 1 14
+Do, 06 Aug 2020 12:28:25 +0000  QA_rec 0 1 1 14
+Do, 06 Aug 2020 12:28:25 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Während meines Urlaubs werde ich nach China und Japan reisen., Q_cen-reisen
+Do, 06 Aug 2020 12:28:26 +0000  QA_rec 1 1 1 15
+Do, 06 Aug 2020 12:28:46 +0000  QA_rec 0 1 1 15
+Do, 06 Aug 2020 12:28:46 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich heiße Tibor, wie ist dein Name?, Q_cen-heiße
+Do, 06 Aug 2020 12:28:47 +0000  QA_rec 1 1 1 16
+Do, 06 Aug 2020 12:29:07 +0000  QA_rec 0 1 1 16
+Do, 06 Aug 2020 12:29:07 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Sein Kommentar ist immer so vage, dass niemand weiß, was er meint., Q_cen-meint
+Do, 06 Aug 2020 12:29:08 +0000  QA_rec 1 1 1 17
+Do, 06 Aug 2020 12:29:28 +0000  QA_rec 0 1 1 17
+Do, 06 Aug 2020 12:29:28 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Die Schneiderin änderte das Kleid, weil das Kleid zu groß ist., Q_cen-änderte
+Do, 06 Aug 2020 12:29:29 +0000  QA_rec 1 1 1 18
+Do, 06 Aug 2020 12:29:49 +0000  QA_rec 0 1 1 18
+Do, 06 Aug 2020 12:29:49 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Ich habe den Knopf gedrückt, um die Kaffeemaschine einzuschalten., Q_cen-gedrückt
+Do, 06 Aug 2020 12:29:50 +0000  QA_rec 1 1 1 19
+Do, 06 Aug 2020 12:30:10 +0000  QA_rec 0 1 1 19
+Do, 06 Aug 2020 12:30:10 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Der Amazon Kurier hat das Paket geliefert., Q_cen-geliefert
+Do, 06 Aug 2020 12:30:11 +0000  QA_rec 1 1 1 20
+Do, 06 Aug 2020 12:30:31 +0000  QA_rec 0 1 1 20
+Do, 06 Aug 2020 12:30:31 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-An der Tankstelle kann man Benzin in den Tank füllen., Q_cen-füllen
+Do, 06 Aug 2020 12:30:32 +0000  QA_rec 1 1 1 21
+Do, 06 Aug 2020 12:30:52 +0000  QA_rec 0 1 1 21
+Do, 06 Aug 2020 12:30:52 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Muss ich mit dem Bus fahren oder kann ich zu Fuß gehen?, Q_cen-gehen
+Do, 06 Aug 2020 12:30:53 +0000  QA_rec 1 1 1 22
+Do, 06 Aug 2020 12:31:13 +0000  QA_rec 0 1 1 22
+Do, 06 Aug 2020 12:31:13 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Das Brot schmeckt lecker. , Q_cen-schmeckt
+Do, 06 Aug 2020 12:31:14 +0000  QA_rec 1 1 1 23
+Do, 06 Aug 2020 12:31:34 +0000  QA_rec 0 1 1 23
+Do, 06 Aug 2020 12:31:34 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Brot kann man in der Bäckerei kaufen., Q_cen-kaufen
+Do, 06 Aug 2020 12:31:35 +0000  QA_rec 1 1 1 24
+Do, 06 Aug 2020 12:31:55 +0000  QA_rec 0 1 1 24
+Do, 06 Aug 2020 12:31:55 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Der Aufzug ist repariert, jetzt funktioniert er wieder., Q_cen-repariert

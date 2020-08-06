@@ -1,0 +1,162 @@
+Do, 06 Aug 2020 11:34:13 +0000  fade_in 1 0 None None
+Do, 06 Aug 2020 11:34:43 +0000  fade_in 0 0 None None
+Do, 06 Aug 2020 11:34:45 +0000  RS_intro 1 0 0 None
+Do, 06 Aug 2020 11:35:08 +0000  RS_intro 0 0 0 None
+Do, 06 Aug 2020 11:35:08 +0000  RS_rec 1 0 0 None
+Do, 06 Aug 2020 11:38:12 +0000  RS_rec 0 0 open None
+Do, 06 Aug 2020 11:38:12 +0000  RS_intro 1 0 1 None
+Do, 06 Aug 2020 11:38:35 +0000  RS_intro 0 0 1 None
+Do, 06 Aug 2020 11:38:35 +0000  RS_rec 1 0 1 None
+Do, 06 Aug 2020 11:41:38 +0000  RS_rec 0 0 close None
+Do, 06 Aug 2020 11:41:54 +0000  QA_intro 1 0 None None
+Do, 06 Aug 2020 11:42:35 +0000  QA_intro 0 0 None None
+Do, 06 Aug 2020 11:42:37 +0000  QA_rec 1 0 0 0
+Do, 06 Aug 2020 11:42:57 +0000  QA_rec 0 0 0 0
+Do, 06 Aug 2020 11:42:57 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Ich habe mich bei einem Kurs angemeldet, um Deutsch zu lernen., Q_cen-angemeldet
+Do, 06 Aug 2020 11:42:58 +0000  QA_rec 1 0 0 1
+Do, 06 Aug 2020 11:43:18 +0000  QA_rec 0 0 0 1
+Do, 06 Aug 2020 11:43:18 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-„Ich heiße Sam“, war der erste Satz, den er in großen Buchstaben schreiben konnte., Q_cen-schreiben
+Do, 06 Aug 2020 11:43:19 +0000  QA_rec 1 0 0 2
+Do, 06 Aug 2020 11:43:39 +0000  QA_rec 0 0 0 2
+Do, 06 Aug 2020 11:43:39 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Du muss deine schmutzige Kleidung in der Wäscherei waschen., Q_cen-waschen
+Do, 06 Aug 2020 11:43:40 +0000  QA_rec 1 0 0 3
+Do, 06 Aug 2020 11:44:00 +0000  QA_rec 0 0 0 3
+Do, 06 Aug 2020 11:44:00 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Der Test dauert nur fünfzehn Minuten., Q_cen-dauert
+Do, 06 Aug 2020 11:44:01 +0000  QA_rec 1 0 0 4
+Do, 06 Aug 2020 11:44:21 +0000  QA_rec 0 0 0 4
+Do, 06 Aug 2020 11:44:21 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Bei der Bewerbung müssen Sie Ihre Motivation begründen., Q_cen-begründen
+Do, 06 Aug 2020 11:44:22 +0000  QA_rec 1 0 0 5
+Do, 06 Aug 2020 11:44:42 +0000  QA_rec 0 0 0 5
+Do, 06 Aug 2020 11:44:42 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Ich möchte einen Flug nach Spanien buchen., Q_cen-buchen
+Do, 06 Aug 2020 11:44:43 +0000  QA_rec 1 0 0 6
+Do, 06 Aug 2020 11:45:03 +0000  QA_rec 0 0 0 6
+Do, 06 Aug 2020 11:45:03 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Sie müssen vorsichtig die Anleitung für Elektrogeräte lesen., Q_cen-lesen
+Do, 06 Aug 2020 11:45:04 +0000  QA_rec 1 0 0 7
+Do, 06 Aug 2020 11:45:24 +0000  QA_rec 0 0 0 7
+Do, 06 Aug 2020 11:45:24 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Das Huhn legt jeden Tag ein Ei., Q_cen-legt
+Do, 06 Aug 2020 11:45:25 +0000  QA_rec 1 0 0 8
+Do, 06 Aug 2020 11:45:45 +0000  QA_rec 0 0 0 8
+Do, 06 Aug 2020 11:45:45 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Dieser Supermarkt hat nur am Tage geöffnet., Q_cen-geöffnet
+Do, 06 Aug 2020 11:45:46 +0000  QA_rec 1 0 0 9
+Do, 06 Aug 2020 11:46:06 +0000  QA_rec 0 0 0 9
+Do, 06 Aug 2020 11:46:06 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Alle Schüler müssen die Vorschrift halten., Q_cen-halten
+Do, 06 Aug 2020 11:46:07 +0000  QA_rec 1 0 0 10
+Do, 06 Aug 2020 11:46:27 +0000  QA_rec 0 0 0 10
+Do, 06 Aug 2020 11:46:27 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Wenn ich im Unterricht aufpasse, werde ich den Test sicher bestehen., Q_cen-aufpasse
+Do, 06 Aug 2020 11:46:28 +0000  QA_rec 1 0 0 11
+Do, 06 Aug 2020 11:46:48 +0000  QA_rec 0 0 0 11
+Do, 06 Aug 2020 11:46:48 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Das Sprachinstitut bietet Kurse für Anfänger an., Q_cen-bietet
+Do, 06 Aug 2020 11:46:49 +0000  QA_rec 1 0 0 12
+Do, 06 Aug 2020 11:47:09 +0000  QA_rec 0 0 0 12
+Do, 06 Aug 2020 11:47:09 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Um die Prüfung zu bestehen, hat er viel gelernt., Q_cen-gelernt
+Do, 06 Aug 2020 11:47:10 +0000  QA_rec 1 0 0 13
+Do, 06 Aug 2020 11:47:31 +0000  QA_rec 0 0 0 13
+Do, 06 Aug 2020 11:47:31 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Früh übt sich, wer ein Meister werden will., Q_cen-werden
+Do, 06 Aug 2020 11:47:32 +0000  QA_rec 1 0 0 14
+Do, 06 Aug 2020 11:47:52 +0000  QA_rec 0 0 0 14
+Do, 06 Aug 2020 11:47:52 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Ich habe meine Lederschuhe mit einem Lappen geputzt., Q_cen-geputzt
+Do, 06 Aug 2020 11:47:53 +0000  QA_rec 1 0 0 15
+Do, 06 Aug 2020 11:48:13 +0000  QA_rec 0 0 0 15
+Do, 06 Aug 2020 11:48:13 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Ich habe gerade meine Bewerbung bei der Universität eingereicht. , Q_cen-eingereicht
+Do, 06 Aug 2020 11:48:14 +0000  QA_rec 1 0 0 16
+Do, 06 Aug 2020 11:48:34 +0000  QA_rec 0 0 0 16
+Do, 06 Aug 2020 11:48:34 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Eltern kümmern sich um ihre Kinder., Q_cen-kümmern
+Do, 06 Aug 2020 11:48:35 +0000  QA_rec 1 0 0 17
+Do, 06 Aug 2020 11:48:55 +0000  QA_rec 0 0 0 17
+Do, 06 Aug 2020 11:48:55 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Hiermit wird bestätigt, dass Frau Müller das Praktikum bei uns absolviert hat., Q_cen-bestätigt
+Do, 06 Aug 2020 11:48:56 +0000  QA_rec 1 0 0 18
+Do, 06 Aug 2020 11:49:16 +0000  QA_rec 0 0 0 18
+Do, 06 Aug 2020 11:49:16 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Das Thema interessierte sie, daher hörte sie genau zu., Q_cen-interessierte
+Do, 06 Aug 2020 11:49:17 +0000  QA_rec 1 0 0 19
+Do, 06 Aug 2020 11:49:37 +0000  QA_rec 0 0 0 19
+Do, 06 Aug 2020 11:49:37 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Der Zug fährt gleich ab, wir müssen uns beeilen., Q_cen-beeilen
+Do, 06 Aug 2020 11:49:38 +0000  QA_rec 1 0 0 20
+Do, 06 Aug 2020 11:49:58 +0000  QA_rec 0 0 0 20
+Do, 06 Aug 2020 11:49:58 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Er ist ein Experte für Computer und kennt alle technischen Details., Q_cen-kennt
+Do, 06 Aug 2020 11:49:59 +0000  QA_rec 1 0 0 21
+Do, 06 Aug 2020 11:50:19 +0000  QA_rec 0 0 0 21
+Do, 06 Aug 2020 11:50:19 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Diesen Irrtum musste er teuer bezahlen., Q_cen-bezahlen
+Do, 06 Aug 2020 11:50:20 +0000  QA_rec 1 0 0 22
+Do, 06 Aug 2020 11:50:40 +0000  QA_rec 0 0 0 22
+Do, 06 Aug 2020 11:50:40 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Ich legte meine Geldbörse auf den Tisch., Q_cen-legte
+Do, 06 Aug 2020 11:50:41 +0000  QA_rec 1 0 0 23
+Do, 06 Aug 2020 11:51:01 +0000  QA_rec 0 0 0 23
+Do, 06 Aug 2020 11:51:01 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Das Kind kann die Tischkante noch nicht erreichen., Q_cen-erreichen
+Do, 06 Aug 2020 11:51:02 +0000  QA_rec 1 0 0 24
+Do, 06 Aug 2020 11:51:22 +0000  QA_rec 0 0 0 24
+Do, 06 Aug 2020 11:51:22 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-In den großen Ferien wandern wir gerne in den Bergen., Q_cen-wandern
+Do, 06 Aug 2020 11:51:48 +0000  QA_rec 1 0 1 0
+Do, 06 Aug 2020 11:52:08 +0000  QA_rec 0 0 1 0
+Do, 06 Aug 2020 11:52:08 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Für dieses Produkt wird keine technische Unterstützung mehr angeboten., Q_cen-angeboten
+Do, 06 Aug 2020 11:52:09 +0000  QA_rec 1 0 1 1
+Do, 06 Aug 2020 11:52:29 +0000  QA_rec 0 0 1 1
+Do, 06 Aug 2020 11:52:29 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Er bevorzugt die Farben gelb, orange und rot., Q_cen-bevorzugt
+Do, 06 Aug 2020 11:52:30 +0000  QA_rec 1 0 1 2
+Do, 06 Aug 2020 11:52:50 +0000  QA_rec 0 0 1 2
+Do, 06 Aug 2020 11:52:50 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Wenn das Klima immer wärmer wird, werden auch die Gletscher schmelzen., Q_cen-schmelzen
+Do, 06 Aug 2020 11:52:51 +0000  QA_rec 1 0 1 3
+Do, 06 Aug 2020 11:53:11 +0000  QA_rec 0 0 1 3
+Do, 06 Aug 2020 11:53:11 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Er hat Kartoffeln mit der Schale gekocht., Q_cen-gekocht
+Do, 06 Aug 2020 11:53:12 +0000  QA_rec 1 0 1 4
+Do, 06 Aug 2020 11:53:32 +0000  QA_rec 0 0 1 4
+Do, 06 Aug 2020 11:53:32 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Durch die Klimaveränderung steigen die Temperaturen auf der Erde., Q_cen-steigen
+Do, 06 Aug 2020 11:53:33 +0000  QA_rec 1 0 1 5
+Do, 06 Aug 2020 11:53:53 +0000  QA_rec 0 0 1 5
+Do, 06 Aug 2020 11:53:53 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Nach einem Match hat sie keine Stimme mehr,  weil sie so laut schreit., Q_cen-schreit
+Do, 06 Aug 2020 11:53:54 +0000  QA_rec 1 0 1 6
+Do, 06 Aug 2020 11:54:15 +0000  QA_rec 0 0 1 6
+Do, 06 Aug 2020 11:54:15 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Rom wurde nicht an einem Tag erbaut., Q_cen-erbaut
+Do, 06 Aug 2020 11:54:16 +0000  QA_rec 1 0 1 7
+Do, 06 Aug 2020 11:54:36 +0000  QA_rec 0 0 1 7
+Do, 06 Aug 2020 11:54:36 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Der Prüfer hat die Erfüllung gesetzlicher Auflagen durch das Unternehmen kontrolliert., Q_cen-kontrolliert
+Do, 06 Aug 2020 11:54:37 +0000  QA_rec 1 0 1 8
+Do, 06 Aug 2020 11:54:57 +0000  QA_rec 0 0 1 8
+Do, 06 Aug 2020 11:54:57 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Auf der Youtube kann man Videos anschauen., Q_cen-anschauen
+Do, 06 Aug 2020 11:54:58 +0000  QA_rec 1 0 1 9
+Do, 06 Aug 2020 11:55:18 +0000  QA_rec 0 0 1 9
+Do, 06 Aug 2020 11:55:18 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Wir leben in dem universalen Weltall., Q_cen-leben
+Do, 06 Aug 2020 11:55:19 +0000  QA_rec 1 0 1 10
+Do, 06 Aug 2020 11:55:39 +0000  QA_rec 0 0 1 10
+Do, 06 Aug 2020 11:55:39 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Sie besichtigten das Haus, bevor sie es kauften., Q_cen-besichtigten
+Do, 06 Aug 2020 11:55:40 +0000  QA_rec 1 0 1 11
+Do, 06 Aug 2020 11:56:00 +0000  QA_rec 0 0 1 11
+Do, 06 Aug 2020 11:56:00 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Ich schnitt das Fleisch in Würfel., Q_cen-schnitt
+Do, 06 Aug 2020 11:56:01 +0000  QA_rec 1 0 1 12
+Do, 06 Aug 2020 11:56:21 +0000  QA_rec 0 0 1 12
+Do, 06 Aug 2020 11:56:21 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Man nennt Klima-Wandel , dass die Temperaturen auf unserer Erde steigen., Q_cen-steigen
+Do, 06 Aug 2020 11:56:22 +0000  QA_rec 1 0 1 13
+Do, 06 Aug 2020 11:56:42 +0000  QA_rec 0 0 1 13
+Do, 06 Aug 2020 11:56:42 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Die technologische Entwicklung schafft immer kleinere Computer., Q_cen-schafft
+Do, 06 Aug 2020 11:56:43 +0000  QA_rec 1 0 1 14
+Do, 06 Aug 2020 11:57:03 +0000  QA_rec 0 0 1 14
+Do, 06 Aug 2020 11:57:03 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Wir werden jedes Paket innerhalb von fünf Arbeitstagen liefern., Q_cen-liefern
+Do, 06 Aug 2020 11:57:04 +0000  QA_rec 1 0 1 15
+Do, 06 Aug 2020 11:57:24 +0000  QA_rec 0 0 1 15
+Do, 06 Aug 2020 11:57:24 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Korn wird zur Herstellung von Mehl verwendet., Q_cen-verwendet
+Do, 06 Aug 2020 11:57:25 +0000  QA_rec 1 0 1 16
+Do, 06 Aug 2020 11:57:45 +0000  QA_rec 0 0 1 16
+Do, 06 Aug 2020 11:57:45 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Im Nil schwimmen heilige Krokodile., Q_cen-schwimmen
+Do, 06 Aug 2020 11:57:46 +0000  QA_rec 1 0 1 17
+Do, 06 Aug 2020 11:58:06 +0000  QA_rec 0 0 1 17
+Do, 06 Aug 2020 11:58:06 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Ich gehe ins Museum, um mir die Gemälde anzusehen., Q_cen-anzusehen
+Do, 06 Aug 2020 11:58:07 +0000  QA_rec 1 0 1 18
+Do, 06 Aug 2020 11:58:27 +0000  QA_rec 0 0 1 18
+Do, 06 Aug 2020 11:58:27 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Abgase werden das Klima schädigen., Q_cen-schädigen
+Do, 06 Aug 2020 11:58:28 +0000  QA_rec 1 0 1 19
+Do, 06 Aug 2020 11:58:48 +0000  QA_rec 0 0 1 19
+Do, 06 Aug 2020 11:58:48 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Das Brot vom Bäcker schmeckt viel besser., Q_cen-schmeckt
+Do, 06 Aug 2020 11:58:49 +0000  QA_rec 1 0 1 20
+Do, 06 Aug 2020 11:59:09 +0000  QA_rec 0 0 1 20
+Do, 06 Aug 2020 11:59:09 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Wir sollten in den Bus einsteigen, bevor er abfährt., Q_cen-einsteigen
+Do, 06 Aug 2020 11:59:10 +0000  QA_rec 1 0 1 21
+Do, 06 Aug 2020 11:59:30 +0000  QA_rec 0 0 1 21
+Do, 06 Aug 2020 11:59:30 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Ihr fehlt es an ausreichender Berufserfahrung für diese Position., Q_cen-fehlt
+Do, 06 Aug 2020 11:59:31 +0000  QA_rec 1 0 1 22
+Do, 06 Aug 2020 11:59:51 +0000  QA_rec 0 0 1 22
+Do, 06 Aug 2020 11:59:51 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Ich kann prüfen, ob wir diese Hose auf Lager haben., Q_cen-prüfen
+Do, 06 Aug 2020 11:59:52 +0000  QA_rec 1 0 1 23
+Do, 06 Aug 2020 12:00:12 +0000  QA_rec 0 0 1 23
+Do, 06 Aug 2020 12:00:12 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Nachdem ich nicht da war, kann ich nichts dazu sagen., Q_cen-sagen
+Do, 06 Aug 2020 12:00:13 +0000  QA_rec 1 0 1 24
+Do, 06 Aug 2020 12:00:33 +0000  QA_rec 0 0 1 24
+Do, 06 Aug 2020 12:00:33 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Die Gäste gratulieren dem jungen Paar herzlich zur Hochzeit., Q_cen-gratulieren
