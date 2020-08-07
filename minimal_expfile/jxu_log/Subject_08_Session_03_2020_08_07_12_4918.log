@@ -1,0 +1,162 @@
+Fr, 07 Aug 2020 12:49:21 +0000  fade_in 1 3 None None
+Fr, 07 Aug 2020 12:49:51 +0000  fade_in 0 3 None None
+Fr, 07 Aug 2020 12:49:53 +0000  RS_intro 1 3 0 None
+Fr, 07 Aug 2020 12:50:16 +0000  RS_intro 0 3 0 None
+Fr, 07 Aug 2020 12:50:16 +0000  RS_rec 1 3 0 None
+Fr, 07 Aug 2020 12:53:19 +0000  RS_rec 0 3 open None
+Fr, 07 Aug 2020 12:53:19 +0000  RS_intro 1 3 1 None
+Fr, 07 Aug 2020 12:53:42 +0000  RS_intro 0 3 1 None
+Fr, 07 Aug 2020 12:53:42 +0000  RS_rec 1 3 1 None
+Fr, 07 Aug 2020 12:56:46 +0000  RS_rec 0 3 close None
+Fr, 07 Aug 2020 12:57:01 +0000  QA_intro 1 3 None None
+Fr, 07 Aug 2020 12:57:45 +0000  QA_intro 0 3 None None
+Fr, 07 Aug 2020 12:57:47 +0000  QA_rec 1 3 0 0
+Fr, 07 Aug 2020 12:58:07 +0000  QA_rec 0 3 0 0
+Fr, 07 Aug 2020 12:58:07 +0000  Run-3, Block-0, Trial-0, Q_cnt-150, Q_sen-Planeten kreisen um eine Sonne., Q_cen-kreisen
+Fr, 07 Aug 2020 12:58:08 +0000  QA_rec 1 3 0 1
+Fr, 07 Aug 2020 12:58:28 +0000  QA_rec 0 3 0 1
+Fr, 07 Aug 2020 12:58:28 +0000  Run-3, Block-0, Trial-1, Q_cnt-151, Q_sen-Er ist zu schwach, um eine Firma zu führen., Q_cen-führen
+Fr, 07 Aug 2020 12:58:29 +0000  QA_rec 1 3 0 2
+Fr, 07 Aug 2020 12:58:49 +0000  QA_rec 0 3 0 2
+Fr, 07 Aug 2020 12:58:49 +0000  Run-3, Block-0, Trial-2, Q_cnt-152, Q_sen-Mir ist etwas Unangenehmes passiert., Q_cen-passiert
+Fr, 07 Aug 2020 12:58:50 +0000  QA_rec 1 3 0 3
+Fr, 07 Aug 2020 12:59:10 +0000  QA_rec 0 3 0 3
+Fr, 07 Aug 2020 12:59:10 +0000  Run-3, Block-0, Trial-3, Q_cnt-153, Q_sen-Auf einer CD sind der Musik oder gesprochener Text gespeichert., Q_cen-gespeichert
+Fr, 07 Aug 2020 12:59:11 +0000  QA_rec 1 3 0 4
+Fr, 07 Aug 2020 12:59:31 +0000  QA_rec 0 3 0 4
+Fr, 07 Aug 2020 12:59:31 +0000  Run-3, Block-0, Trial-4, Q_cnt-154, Q_sen-Das Essen riecht so gut, was kochst du heute?, Q_cen-kochst
+Fr, 07 Aug 2020 12:59:32 +0000  QA_rec 1 3 0 5
+Fr, 07 Aug 2020 12:59:52 +0000  QA_rec 0 3 0 5
+Fr, 07 Aug 2020 12:59:52 +0000  Run-3, Block-0, Trial-5, Q_cnt-155, Q_sen-Die Oper endet mit dem Tod des Helden., Q_cen-endet
+Fr, 07 Aug 2020 12:59:53 +0000  QA_rec 1 3 0 6
+Fr, 07 Aug 2020 13:00:13 +0000  QA_rec 0 3 0 6
+Fr, 07 Aug 2020 13:00:13 +0000  Run-3, Block-0, Trial-6, Q_cnt-156, Q_sen-Mein Ziel ist, in der Prüfung gute Ergebnisse zu bekommen., Q_cen-bekommen
+Fr, 07 Aug 2020 13:00:14 +0000  QA_rec 1 3 0 7
+Fr, 07 Aug 2020 13:00:34 +0000  QA_rec 0 3 0 7
+Fr, 07 Aug 2020 13:00:34 +0000  Run-3, Block-0, Trial-7, Q_cnt-157, Q_sen-Sie hat die Äpfel vom Baum geholt., Q_cen-geholt
+Fr, 07 Aug 2020 13:00:35 +0000  QA_rec 1 3 0 8
+Fr, 07 Aug 2020 13:00:55 +0000  QA_rec 0 3 0 8
+Fr, 07 Aug 2020 13:00:55 +0000  Run-3, Block-0, Trial-8, Q_cnt-158, Q_sen-Er bevorzugt die Farben gelb, orange und rot., Q_cen-bevorzugt
+Fr, 07 Aug 2020 13:00:56 +0000  QA_rec 1 3 0 9
+Fr, 07 Aug 2020 13:01:16 +0000  QA_rec 0 3 0 9
+Fr, 07 Aug 2020 13:01:16 +0000  Run-3, Block-0, Trial-9, Q_cnt-159, Q_sen-Sam hat gerade das Abitur bestanden und wird sich für die Universität Wien bewerben. , Q_cen-bewerben
+Fr, 07 Aug 2020 13:01:17 +0000  QA_rec 1 3 0 10
+Fr, 07 Aug 2020 13:01:37 +0000  QA_rec 0 3 0 10
+Fr, 07 Aug 2020 13:01:37 +0000  Run-3, Block-0, Trial-10, Q_cnt-160, Q_sen-Moni hat eine Fahrkarte für den Zug nach Salzburg gekauft., Q_cen-gekauft
+Fr, 07 Aug 2020 13:01:38 +0000  QA_rec 1 3 0 11
+Fr, 07 Aug 2020 13:01:58 +0000  QA_rec 0 3 0 11
+Fr, 07 Aug 2020 13:01:58 +0000  Run-3, Block-0, Trial-11, Q_cnt-161, Q_sen-Er legte das Buch auf den Tisch., Q_cen-legte
+Fr, 07 Aug 2020 13:01:59 +0000  QA_rec 1 3 0 12
+Fr, 07 Aug 2020 13:02:19 +0000  QA_rec 0 3 0 12
+Fr, 07 Aug 2020 13:02:19 +0000  Run-3, Block-0, Trial-12, Q_cnt-162, Q_sen-Er hat meine Sympathie gewonnen., Q_cen-gewonnen
+Fr, 07 Aug 2020 13:02:20 +0000  QA_rec 1 3 0 13
+Fr, 07 Aug 2020 13:02:40 +0000  QA_rec 0 3 0 13
+Fr, 07 Aug 2020 13:02:40 +0000  Run-3, Block-0, Trial-13, Q_cnt-163, Q_sen-Ich möchte dich nicht täuschen, also werde ich dir die Wahrheit sagen., Q_cen-täuschen
+Fr, 07 Aug 2020 13:02:41 +0000  QA_rec 1 3 0 14
+Fr, 07 Aug 2020 13:03:02 +0000  QA_rec 0 3 0 14
+Fr, 07 Aug 2020 13:03:02 +0000  Run-3, Block-0, Trial-14, Q_cnt-164, Q_sen-Ich muss mich bemühen, das Ziel des Projektes zu erreichen., Q_cen-erreichen
+Fr, 07 Aug 2020 13:03:03 +0000  QA_rec 1 3 0 15
+Fr, 07 Aug 2020 13:03:23 +0000  QA_rec 0 3 0 15
+Fr, 07 Aug 2020 13:03:23 +0000  Run-3, Block-0, Trial-15, Q_cnt-165, Q_sen-Das Experiment hat eine Woche lang gedauert., Q_cen-gedauert
+Fr, 07 Aug 2020 13:03:24 +0000  QA_rec 1 3 0 16
+Fr, 07 Aug 2020 13:03:44 +0000  QA_rec 0 3 0 16
+Fr, 07 Aug 2020 13:03:44 +0000  Run-3, Block-0, Trial-16, Q_cnt-166, Q_sen-Diesen Irrtum musste er teuer bezahlen., Q_cen-bezahlen
+Fr, 07 Aug 2020 13:03:45 +0000  QA_rec 1 3 0 17
+Fr, 07 Aug 2020 13:04:05 +0000  QA_rec 0 3 0 17
+Fr, 07 Aug 2020 13:04:05 +0000  Run-3, Block-0, Trial-17, Q_cnt-167, Q_sen-Er probierte, die Tür mit dem falschen Schlüssel zu öffnen., Q_cen-öffnen
+Fr, 07 Aug 2020 13:04:06 +0000  QA_rec 1 3 0 18
+Fr, 07 Aug 2020 13:04:26 +0000  QA_rec 0 3 0 18
+Fr, 07 Aug 2020 13:04:26 +0000  Run-3, Block-0, Trial-18, Q_cnt-168, Q_sen-Ich kenne dieses Wort nicht, was bedeutet es also?, Q_cen-bedeutet
+Fr, 07 Aug 2020 13:04:27 +0000  QA_rec 1 3 0 19
+Fr, 07 Aug 2020 13:04:47 +0000  QA_rec 0 3 0 19
+Fr, 07 Aug 2020 13:04:47 +0000  Run-3, Block-0, Trial-19, Q_cnt-169, Q_sen-Ohne das Glas kann ich nicht lesen., Q_cen-lesen
+Fr, 07 Aug 2020 13:04:48 +0000  QA_rec 1 3 0 20
+Fr, 07 Aug 2020 13:05:08 +0000  QA_rec 0 3 0 20
+Fr, 07 Aug 2020 13:05:08 +0000  Run-3, Block-0, Trial-20, Q_cnt-170, Q_sen-In wenigen Minuten erreichen wir Hamburg., Q_cen-erreichen
+Fr, 07 Aug 2020 13:05:09 +0000  QA_rec 1 3 0 21
+Fr, 07 Aug 2020 13:05:29 +0000  QA_rec 0 3 0 21
+Fr, 07 Aug 2020 13:05:29 +0000  Run-3, Block-0, Trial-21, Q_cnt-171, Q_sen-Zur Registrierung meines Kontos musste ich ein Formular ausfüllen., Q_cen-ausfüllen
+Fr, 07 Aug 2020 13:05:30 +0000  QA_rec 1 3 0 22
+Fr, 07 Aug 2020 13:05:50 +0000  QA_rec 0 3 0 22
+Fr, 07 Aug 2020 13:05:50 +0000  Run-3, Block-0, Trial-22, Q_cnt-172, Q_sen-Wir haben eine Testversion heruntergeladen, um die Nutzbarkeit der Software zu testen., Q_cen-heruntergeladen
+Fr, 07 Aug 2020 13:05:51 +0000  QA_rec 1 3 0 23
+Fr, 07 Aug 2020 13:06:11 +0000  QA_rec 0 3 0 23
+Fr, 07 Aug 2020 13:06:11 +0000  Run-3, Block-0, Trial-23, Q_cnt-173, Q_sen-Tomas fischt im Fluss und wird Fisch zum Abendessen essen., Q_cen-fischt
+Fr, 07 Aug 2020 13:06:12 +0000  QA_rec 1 3 0 24
+Fr, 07 Aug 2020 13:06:32 +0000  QA_rec 0 3 0 24
+Fr, 07 Aug 2020 13:06:32 +0000  Run-3, Block-0, Trial-24, Q_cnt-174, Q_sen-Sie müssen mehr bezahlen, es fehlen noch ein paar Cent., Q_cen-fehlen
+Fr, 07 Aug 2020 13:06:57 +0000  QA_rec 1 3 1 0
+Fr, 07 Aug 2020 13:07:17 +0000  QA_rec 0 3 1 0
+Fr, 07 Aug 2020 13:07:17 +0000  Run-3, Block-1, Trial-0, Q_cnt-175, Q_sen-Bald wird in den USA ein neuer Präsident gewählt., Q_cen-gewählt
+Fr, 07 Aug 2020 13:07:18 +0000  QA_rec 1 3 1 1
+Fr, 07 Aug 2020 13:07:38 +0000  QA_rec 0 3 1 1
+Fr, 07 Aug 2020 13:07:38 +0000  Run-3, Block-1, Trial-1, Q_cnt-176, Q_sen-Die Eltern haben das Geburtstagsgeschenk ihrer Tochter eingepackt., Q_cen-eingepackt
+Fr, 07 Aug 2020 13:07:39 +0000  QA_rec 1 3 1 2
+Fr, 07 Aug 2020 13:07:59 +0000  QA_rec 0 3 1 2
+Fr, 07 Aug 2020 13:07:59 +0000  Run-3, Block-1, Trial-2, Q_cnt-177, Q_sen-Ich kann in meiner Badewanne duschen., Q_cen-duschen
+Fr, 07 Aug 2020 13:08:00 +0000  QA_rec 1 3 1 3
+Fr, 07 Aug 2020 13:08:20 +0000  QA_rec 0 3 1 3
+Fr, 07 Aug 2020 13:08:20 +0000  Run-3, Block-1, Trial-3, Q_cnt-178, Q_sen-Der Weg führt durch den Wald., Q_cen-führt
+Fr, 07 Aug 2020 13:08:21 +0000  QA_rec 1 3 1 4
+Fr, 07 Aug 2020 13:08:41 +0000  QA_rec 0 3 1 4
+Fr, 07 Aug 2020 13:08:41 +0000  Run-3, Block-1, Trial-4, Q_cnt-179, Q_sen-Beim Bäcker gibt es täglich frisches Brot., Q_cen-gibt
+Fr, 07 Aug 2020 13:08:42 +0000  QA_rec 1 3 1 5
+Fr, 07 Aug 2020 13:09:02 +0000  QA_rec 0 3 1 5
+Fr, 07 Aug 2020 13:09:02 +0000  Run-3, Block-1, Trial-5, Q_cnt-180, Q_sen-Am Geburtstag hat mein Vater mir einen Geschenk geschenkt., Q_cen-geschenkt
+Fr, 07 Aug 2020 13:09:03 +0000  QA_rec 1 3 1 6
+Fr, 07 Aug 2020 13:09:23 +0000  QA_rec 0 3 1 6
+Fr, 07 Aug 2020 13:09:23 +0000  Run-3, Block-1, Trial-6, Q_cnt-181, Q_sen-Es besteht eine starke Verbindung zwischen Musik und Kunst., Q_cen-besteht
+Fr, 07 Aug 2020 13:09:24 +0000  QA_rec 1 3 1 7
+Fr, 07 Aug 2020 13:09:44 +0000  QA_rec 0 3 1 7
+Fr, 07 Aug 2020 13:09:44 +0000  Run-3, Block-1, Trial-7, Q_cnt-182, Q_sen-Farben machen das Leben bunt., Q_cen-machen
+Fr, 07 Aug 2020 13:09:45 +0000  QA_rec 1 3 1 8
+Fr, 07 Aug 2020 13:10:05 +0000  QA_rec 0 3 1 8
+Fr, 07 Aug 2020 13:10:05 +0000  Run-3, Block-1, Trial-8, Q_cnt-183, Q_sen-Rom wurde nicht an einem Tag erbaut., Q_cen-erbaut
+Fr, 07 Aug 2020 13:10:06 +0000  QA_rec 1 3 1 9
+Fr, 07 Aug 2020 13:10:26 +0000  QA_rec 0 3 1 9
+Fr, 07 Aug 2020 13:10:26 +0000  Run-3, Block-1, Trial-9, Q_cnt-184, Q_sen-Das neue Teammitglied wurde über die Situation informiert., Q_cen-informiert
+Fr, 07 Aug 2020 13:10:27 +0000  QA_rec 1 3 1 10
+Fr, 07 Aug 2020 13:10:47 +0000  QA_rec 0 3 1 10
+Fr, 07 Aug 2020 13:10:47 +0000  Run-3, Block-1, Trial-10, Q_cnt-185, Q_sen-Die Eisberge lösen sich auf, und der Wasserpegel steigt., Q_cen-steigt
+Fr, 07 Aug 2020 13:10:48 +0000  QA_rec 1 3 1 11
+Fr, 07 Aug 2020 13:11:08 +0000  QA_rec 0 3 1 11
+Fr, 07 Aug 2020 13:11:08 +0000  Run-3, Block-1, Trial-11, Q_cnt-186, Q_sen-Sie holte ihre Einkäufe aus dem Korb., Q_cen-holte
+Fr, 07 Aug 2020 13:11:09 +0000  QA_rec 1 3 1 12
+Fr, 07 Aug 2020 13:11:29 +0000  QA_rec 0 3 1 12
+Fr, 07 Aug 2020 13:11:29 +0000  Run-3, Block-1, Trial-12, Q_cnt-187, Q_sen-Wenn wir ein Auto mieten möchten, müssen wir Führerschein vorlegen und die Kaution bezahlen., Q_cen-mieten
+Fr, 07 Aug 2020 13:11:30 +0000  QA_rec 1 3 1 13
+Fr, 07 Aug 2020 13:11:50 +0000  QA_rec 0 3 1 13
+Fr, 07 Aug 2020 13:11:50 +0000  Run-3, Block-1, Trial-13, Q_cnt-188, Q_sen-Der Hotelier buchte zwei Übernachtungen für uns, Q_cen-buchte
+Fr, 07 Aug 2020 13:11:51 +0000  QA_rec 1 3 1 14
+Fr, 07 Aug 2020 13:12:11 +0000  QA_rec 0 3 1 14
+Fr, 07 Aug 2020 13:12:11 +0000  Run-3, Block-1, Trial-14, Q_cnt-189, Q_sen-Habt ihr eine Ahnung, wie der Unfall passiert ist?, Q_cen-passiert
+Fr, 07 Aug 2020 13:12:12 +0000  QA_rec 1 3 1 15
+Fr, 07 Aug 2020 13:12:32 +0000  QA_rec 0 3 1 15
+Fr, 07 Aug 2020 13:12:32 +0000  Run-3, Block-1, Trial-15, Q_cnt-190, Q_sen-Sie müssen vorsichtig die Anleitung für Elektrogeräte lesen., Q_cen-lesen
+Fr, 07 Aug 2020 13:12:33 +0000  QA_rec 1 3 1 16
+Fr, 07 Aug 2020 13:12:53 +0000  QA_rec 0 3 1 16
+Fr, 07 Aug 2020 13:12:53 +0000  Run-3, Block-1, Trial-16, Q_cnt-191, Q_sen-Sie kann noch immer nicht schlafen, weil ihre Ohren wie Türglocken klingeln., Q_cen-klingeln
+Fr, 07 Aug 2020 13:12:54 +0000  QA_rec 1 3 1 17
+Fr, 07 Aug 2020 13:13:14 +0000  QA_rec 0 3 1 17
+Fr, 07 Aug 2020 13:13:14 +0000  Run-3, Block-1, Trial-17, Q_cnt-192, Q_sen-Die USA gewannen den Zweiten Weltkrieg, nachdem sie mehrere Jahre lang gekämpft hatten., Q_cen-gewannen
+Fr, 07 Aug 2020 13:13:15 +0000  QA_rec 1 3 1 18
+Fr, 07 Aug 2020 13:13:36 +0000  QA_rec 0 3 1 18
+Fr, 07 Aug 2020 13:13:36 +0000  Run-3, Block-1, Trial-18, Q_cnt-193, Q_sen-Flora hat Musik studiert und dirigiert jetzt das Orchester., Q_cen-studiert
+Fr, 07 Aug 2020 13:13:37 +0000  QA_rec 1 3 1 19
+Fr, 07 Aug 2020 13:13:57 +0000  QA_rec 0 3 1 19
+Fr, 07 Aug 2020 13:13:57 +0000  Run-3, Block-1, Trial-19, Q_cnt-194, Q_sen-Die Absolventen feiern ihren erfolgreichen Abschluss an der Universität., Q_cen-feiern
+Fr, 07 Aug 2020 13:13:58 +0000  QA_rec 1 3 1 20
+Fr, 07 Aug 2020 13:14:18 +0000  QA_rec 0 3 1 20
+Fr, 07 Aug 2020 13:14:18 +0000  Run-3, Block-1, Trial-20, Q_cnt-195, Q_sen-Ist der Tisch schon gedeckt?, Q_cen-gedeckt
+Fr, 07 Aug 2020 13:14:19 +0000  QA_rec 1 3 1 21
+Fr, 07 Aug 2020 13:14:39 +0000  QA_rec 0 3 1 21
+Fr, 07 Aug 2020 13:14:39 +0000  Run-3, Block-1, Trial-21, Q_cnt-196, Q_sen-Ich legte meine Geldbörse auf den Tisch., Q_cen-legte
+Fr, 07 Aug 2020 13:14:40 +0000  QA_rec 1 3 1 22
+Fr, 07 Aug 2020 13:15:00 +0000  QA_rec 0 3 1 22
+Fr, 07 Aug 2020 13:15:00 +0000  Run-3, Block-1, Trial-22, Q_cnt-197, Q_sen-Der Test dauert nur fünfzehn Minuten., Q_cen-dauert
+Fr, 07 Aug 2020 13:15:01 +0000  QA_rec 1 3 1 23
+Fr, 07 Aug 2020 13:15:21 +0000  QA_rec 0 3 1 23
+Fr, 07 Aug 2020 13:15:21 +0000  Run-3, Block-1, Trial-23, Q_cnt-198, Q_sen-Eine Stunde kann man in Minuten und Sekunden unterteilen., Q_cen-unterteilen
+Fr, 07 Aug 2020 13:15:22 +0000  QA_rec 1 3 1 24
+Fr, 07 Aug 2020 13:15:42 +0000  QA_rec 0 3 1 24
+Fr, 07 Aug 2020 13:15:42 +0000  Run-3, Block-1, Trial-24, Q_cnt-199, Q_sen-Der Mond scheint hell., Q_cen-scheint

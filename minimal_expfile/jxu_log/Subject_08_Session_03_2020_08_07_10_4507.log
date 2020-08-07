@@ -1,0 +1,162 @@
+Fr, 07 Aug 2020 10:45:10 +0000  fade_in 1 0 None None
+Fr, 07 Aug 2020 10:45:40 +0000  fade_in 0 0 None None
+Fr, 07 Aug 2020 10:45:42 +0000  RS_intro 1 0 0 None
+Fr, 07 Aug 2020 10:46:05 +0000  RS_intro 0 0 0 None
+Fr, 07 Aug 2020 10:46:05 +0000  RS_rec 1 0 0 None
+Fr, 07 Aug 2020 10:49:09 +0000  RS_rec 0 0 open None
+Fr, 07 Aug 2020 10:49:09 +0000  RS_intro 1 0 1 None
+Fr, 07 Aug 2020 10:49:32 +0000  RS_intro 0 0 1 None
+Fr, 07 Aug 2020 10:49:32 +0000  RS_rec 1 0 1 None
+Fr, 07 Aug 2020 10:52:35 +0000  RS_rec 0 0 close None
+Fr, 07 Aug 2020 10:53:01 +0000  QA_intro 1 0 None None
+Fr, 07 Aug 2020 10:53:44 +0000  QA_intro 0 0 None None
+Fr, 07 Aug 2020 10:53:46 +0000  QA_rec 1 0 0 0
+Fr, 07 Aug 2020 10:54:06 +0000  QA_rec 0 0 0 0
+Fr, 07 Aug 2020 10:54:06 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-In Wien tanzt man gerne Walzer., Q_cen-tanzt
+Fr, 07 Aug 2020 10:54:07 +0000  QA_rec 1 0 0 1
+Fr, 07 Aug 2020 10:54:27 +0000  QA_rec 0 0 0 1
+Fr, 07 Aug 2020 10:54:27 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-„Ich heiße Sam“, war der erste Satz, den er in großen Buchstaben schreiben konnte., Q_cen-schreiben
+Fr, 07 Aug 2020 10:54:28 +0000  QA_rec 1 0 0 2
+Fr, 07 Aug 2020 10:54:48 +0000  QA_rec 0 0 0 2
+Fr, 07 Aug 2020 10:54:48 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-In diesem Geschäft kann man billig einkaufen., Q_cen-einkaufen
+Fr, 07 Aug 2020 10:54:49 +0000  QA_rec 1 0 0 3
+Fr, 07 Aug 2020 10:55:09 +0000  QA_rec 0 0 0 3
+Fr, 07 Aug 2020 10:55:09 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht., Q_cen-gebucht
+Fr, 07 Aug 2020 10:55:10 +0000  QA_rec 1 0 0 4
+Fr, 07 Aug 2020 10:55:30 +0000  QA_rec 0 0 0 4
+Fr, 07 Aug 2020 10:55:30 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Es ist nicht zulässig, bei der Prüfung Hilfsmittel zu benutzen., Q_cen-benutzen
+Fr, 07 Aug 2020 10:55:31 +0000  QA_rec 1 0 0 5
+Fr, 07 Aug 2020 10:55:51 +0000  QA_rec 0 0 0 5
+Fr, 07 Aug 2020 10:55:51 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Ich hoffe, dass ich und meine Tante gute Freunde für immer bleiben können., Q_cen-hoffe
+Fr, 07 Aug 2020 10:55:52 +0000  QA_rec 1 0 0 6
+Fr, 07 Aug 2020 10:56:12 +0000  QA_rec 0 0 0 6
+Fr, 07 Aug 2020 10:56:12 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Martin geht in ein Reisebüro und lässt sich von einem Angestellten beraten., Q_cen-beraten
+Fr, 07 Aug 2020 10:56:13 +0000  QA_rec 1 0 0 7
+Fr, 07 Aug 2020 10:56:34 +0000  QA_rec 0 0 0 7
+Fr, 07 Aug 2020 10:56:34 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Wenn du dich in einer gefährlichen Situation befindest, rufe nach Hilfe., Q_cen-rufe
+Fr, 07 Aug 2020 10:56:35 +0000  QA_rec 1 0 0 8
+Fr, 07 Aug 2020 10:56:55 +0000  QA_rec 0 0 0 8
+Fr, 07 Aug 2020 10:56:55 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Die Verkäuferin beantwortete meine Fragen und konnte mich beraten., Q_cen-beraten
+Fr, 07 Aug 2020 10:56:56 +0000  QA_rec 1 0 0 9
+Fr, 07 Aug 2020 10:57:16 +0000  QA_rec 0 0 0 9
+Fr, 07 Aug 2020 10:57:16 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Morgen machen wir einen Ausflug in den Schönbrunner Tiergarten., Q_cen-machen
+Fr, 07 Aug 2020 10:57:17 +0000  QA_rec 1 0 0 10
+Fr, 07 Aug 2020 10:57:37 +0000  QA_rec 0 0 0 10
+Fr, 07 Aug 2020 10:57:37 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Wie lange benötigt die Erde, um die Sonne zu umrunden?, Q_cen-benötigt
+Fr, 07 Aug 2020 10:57:38 +0000  QA_rec 1 0 0 11
+Fr, 07 Aug 2020 10:57:58 +0000  QA_rec 0 0 0 11
+Fr, 07 Aug 2020 10:57:58 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Das Messer ist so stumpf, dass wir nicht mehr brauchen., Q_cen-brauchen
+Fr, 07 Aug 2020 10:57:59 +0000  QA_rec 1 0 0 12
+Fr, 07 Aug 2020 10:58:19 +0000  QA_rec 0 0 0 12
+Fr, 07 Aug 2020 10:58:19 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Das Eingreifen des Lehrers beendete den Streit., Q_cen-beendete
+Fr, 07 Aug 2020 10:58:20 +0000  QA_rec 1 0 0 13
+Fr, 07 Aug 2020 10:58:40 +0000  QA_rec 0 0 0 13
+Fr, 07 Aug 2020 10:58:40 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Mein Sohn wurde letztes Jahr geboren., Q_cen-geboren
+Fr, 07 Aug 2020 10:58:41 +0000  QA_rec 1 0 0 14
+Fr, 07 Aug 2020 10:59:01 +0000  QA_rec 0 0 0 14
+Fr, 07 Aug 2020 10:59:01 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Willi möchte gerne an der Universität Informatik studieren., Q_cen-studieren
+Fr, 07 Aug 2020 10:59:02 +0000  QA_rec 1 0 0 15
+Fr, 07 Aug 2020 10:59:22 +0000  QA_rec 0 0 0 15
+Fr, 07 Aug 2020 10:59:22 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Die ausgehende Post muss noch eintragen werden, da sie strenge Datenschutzrichtlinien haben., Q_cen-eintragen
+Fr, 07 Aug 2020 10:59:23 +0000  QA_rec 1 0 0 16
+Fr, 07 Aug 2020 10:59:43 +0000  QA_rec 0 0 0 16
+Fr, 07 Aug 2020 10:59:43 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Ich kann nicht mit dem Auto fahren., Q_cen-fahren
+Fr, 07 Aug 2020 10:59:44 +0000  QA_rec 1 0 0 17
+Fr, 07 Aug 2020 11:00:04 +0000  QA_rec 0 0 0 17
+Fr, 07 Aug 2020 11:00:04 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
+Fr, 07 Aug 2020 11:00:05 +0000  QA_rec 1 0 0 18
+Fr, 07 Aug 2020 11:00:25 +0000  QA_rec 0 0 0 18
+Fr, 07 Aug 2020 11:00:25 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Plastik Müll belastet die Umwelt., Q_cen-belastet
+Fr, 07 Aug 2020 11:00:26 +0000  QA_rec 1 0 0 19
+Fr, 07 Aug 2020 11:00:46 +0000  QA_rec 0 0 0 19
+Fr, 07 Aug 2020 11:00:46 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Die Ausbildung besteht aus mehreren Modulen., Q_cen-besteht
+Fr, 07 Aug 2020 11:00:47 +0000  QA_rec 1 0 0 20
+Fr, 07 Aug 2020 11:01:07 +0000  QA_rec 0 0 0 20
+Fr, 07 Aug 2020 11:01:07 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Linda packt immer viel zu viele Kleidung in ihren Koffer., Q_cen-packt
+Fr, 07 Aug 2020 11:01:08 +0000  QA_rec 1 0 0 21
+Fr, 07 Aug 2020 11:01:28 +0000  QA_rec 0 0 0 21
+Fr, 07 Aug 2020 11:01:28 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Die Reparaturen werden ungefähr drei Stunden dauern., Q_cen-dauern
+Fr, 07 Aug 2020 11:01:29 +0000  QA_rec 1 0 0 22
+Fr, 07 Aug 2020 11:01:49 +0000  QA_rec 0 0 0 22
+Fr, 07 Aug 2020 11:01:49 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-In der Morgen wasche ich mein Gesicht., Q_cen-wasche
+Fr, 07 Aug 2020 11:01:50 +0000  QA_rec 1 0 0 23
+Fr, 07 Aug 2020 11:02:10 +0000  QA_rec 0 0 0 23
+Fr, 07 Aug 2020 11:02:10 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Im gleichen Jahr hat der amerikanische Bürgerkrieg begonnen., Q_cen-begonnen
+Fr, 07 Aug 2020 11:02:11 +0000  QA_rec 1 0 0 24
+Fr, 07 Aug 2020 11:02:31 +0000  QA_rec 0 0 0 24
+Fr, 07 Aug 2020 11:02:31 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Sie hat Schlafmittel genommen, damit sie gut schlafen kann., Q_cen-schlafen
+Fr, 07 Aug 2020 11:03:02 +0000  QA_rec 1 0 1 0
+Fr, 07 Aug 2020 11:03:22 +0000  QA_rec 0 0 1 0
+Fr, 07 Aug 2020 11:03:22 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Ich möchte einen Tisch für das Abendessen reservieren., Q_cen-reservieren
+Fr, 07 Aug 2020 11:03:23 +0000  QA_rec 1 0 1 1
+Fr, 07 Aug 2020 11:03:43 +0000  QA_rec 0 0 1 1
+Fr, 07 Aug 2020 11:03:43 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Wenn Sie mit diesem Produkt nicht zufrieden sind, können wir eine Alternative anbieten., Q_cen-anbieten
+Fr, 07 Aug 2020 11:03:44 +0000  QA_rec 1 0 1 2
+Fr, 07 Aug 2020 11:04:04 +0000  QA_rec 0 0 1 2
+Fr, 07 Aug 2020 11:04:04 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Obst sollte man täglich essen, weil es wegen den Vitaminen sehr gesund ist., Q_cen-essen
+Fr, 07 Aug 2020 11:04:05 +0000  QA_rec 1 0 1 3
+Fr, 07 Aug 2020 11:04:25 +0000  QA_rec 0 0 1 3
+Fr, 07 Aug 2020 11:04:25 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Sie hat den Newsletter abonniert, um weitere Informationen zu erhalten., Q_cen-abonniert
+Fr, 07 Aug 2020 11:04:26 +0000  QA_rec 1 0 1 4
+Fr, 07 Aug 2020 11:04:46 +0000  QA_rec 0 0 1 4
+Fr, 07 Aug 2020 11:04:46 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Alex duscht morgens gerne im Badezimmer., Q_cen-duscht
+Fr, 07 Aug 2020 11:04:47 +0000  QA_rec 1 0 1 5
+Fr, 07 Aug 2020 11:05:07 +0000  QA_rec 0 0 1 5
+Fr, 07 Aug 2020 11:05:07 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Singapore liegt in Südostasien., Q_cen-liegt
+Fr, 07 Aug 2020 11:05:08 +0000  QA_rec 1 0 1 6
+Fr, 07 Aug 2020 11:05:28 +0000  QA_rec 0 0 1 6
+Fr, 07 Aug 2020 11:05:28 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Das Fleisch wird klein geschnitten, und dann in der Pfanne gebraten., Q_cen-gebraten
+Fr, 07 Aug 2020 11:05:29 +0000  QA_rec 1 0 1 7
+Fr, 07 Aug 2020 11:05:49 +0000  QA_rec 0 0 1 7
+Fr, 07 Aug 2020 11:05:49 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Das Bild kann mir die Uhrzeitangabe verstehen helfen., Q_cen-helfen
+Fr, 07 Aug 2020 11:05:50 +0000  QA_rec 1 0 1 8
+Fr, 07 Aug 2020 11:06:10 +0000  QA_rec 0 0 1 8
+Fr, 07 Aug 2020 11:06:10 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Dank genügend Sonnenschein und Wasser können im Amazonaswald riesige Bäume wachsen., Q_cen-wachsen
+Fr, 07 Aug 2020 11:06:11 +0000  QA_rec 1 0 1 9
+Fr, 07 Aug 2020 11:06:31 +0000  QA_rec 0 0 1 9
+Fr, 07 Aug 2020 11:06:31 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-An unserem Baum hängen viele reife Birnen, Q_cen-hängen
+Fr, 07 Aug 2020 11:06:32 +0000  QA_rec 1 0 1 10
+Fr, 07 Aug 2020 11:06:52 +0000  QA_rec 0 0 1 10
+Fr, 07 Aug 2020 11:06:52 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Er entschuldigte sich für seinen Fehler., Q_cen-entschuldigte
+Fr, 07 Aug 2020 11:06:53 +0000  QA_rec 1 0 1 11
+Fr, 07 Aug 2020 11:07:13 +0000  QA_rec 0 0 1 11
+Fr, 07 Aug 2020 11:07:13 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Mein Freund führt ein erfolgreiches Geschäft., Q_cen-führt
+Fr, 07 Aug 2020 11:07:14 +0000  QA_rec 1 0 1 12
+Fr, 07 Aug 2020 11:07:35 +0000  QA_rec 0 0 1 12
+Fr, 07 Aug 2020 11:07:35 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Sie beschrieb der Polizei den Dieb so genau, dass diese ihn festnehmen konnnte., Q_cen-beschrieb
+Fr, 07 Aug 2020 11:07:36 +0000  QA_rec 1 0 1 13
+Fr, 07 Aug 2020 11:07:56 +0000  QA_rec 0 0 1 13
+Fr, 07 Aug 2020 11:07:56 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Der ganze Kurs bestand die Prüfung., Q_cen-bestand
+Fr, 07 Aug 2020 11:07:57 +0000  QA_rec 1 0 1 14
+Fr, 07 Aug 2020 11:08:17 +0000  QA_rec 0 0 1 14
+Fr, 07 Aug 2020 11:08:17 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Sarah badet lieber abends in der Wanne., Q_cen-badet
+Fr, 07 Aug 2020 11:08:18 +0000  QA_rec 1 0 1 15
+Fr, 07 Aug 2020 11:08:38 +0000  QA_rec 0 0 1 15
+Fr, 07 Aug 2020 11:08:38 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Morgen ändert sich das Wetter ganz bestimmt., Q_cen-bestimmt
+Fr, 07 Aug 2020 11:08:39 +0000  QA_rec 1 0 1 16
+Fr, 07 Aug 2020 11:08:59 +0000  QA_rec 0 0 1 16
+Fr, 07 Aug 2020 11:08:59 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Das Herz kann Blut durch den Körper pumpen., Q_cen-pumpen
+Fr, 07 Aug 2020 11:09:00 +0000  QA_rec 1 0 1 17
+Fr, 07 Aug 2020 11:09:20 +0000  QA_rec 0 0 1 17
+Fr, 07 Aug 2020 11:09:20 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Wir haben während des Urlaubs ein gemütliches Zimmer in Meeresnähe gemietet., Q_cen-gemietet
+Fr, 07 Aug 2020 11:09:21 +0000  QA_rec 1 0 1 18
+Fr, 07 Aug 2020 11:09:41 +0000  QA_rec 0 0 1 18
+Fr, 07 Aug 2020 11:09:41 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Brot kann man in der Bäckerei kaufen., Q_cen-kaufen
+Fr, 07 Aug 2020 11:09:42 +0000  QA_rec 1 0 1 19
+Fr, 07 Aug 2020 11:10:02 +0000  QA_rec 0 0 1 19
+Fr, 07 Aug 2020 11:10:02 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Mein älterer Bruder mag Rock spielen und hören., Q_cen-hören
+Fr, 07 Aug 2020 11:10:03 +0000  QA_rec 1 0 1 20
+Fr, 07 Aug 2020 11:10:23 +0000  QA_rec 0 0 1 20
+Fr, 07 Aug 2020 11:10:23 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Nach einem Match hat sie keine Stimme mehr,  weil sie so laut schreit., Q_cen-schreit
+Fr, 07 Aug 2020 11:10:24 +0000  QA_rec 1 0 1 21
+Fr, 07 Aug 2020 11:10:44 +0000  QA_rec 0 0 1 21
+Fr, 07 Aug 2020 11:10:44 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Er möchte sich für meine Hilfe bedanken., Q_cen-bedanken
+Fr, 07 Aug 2020 11:10:45 +0000  QA_rec 1 0 1 22
+Fr, 07 Aug 2020 11:11:05 +0000  QA_rec 0 0 1 22
+Fr, 07 Aug 2020 11:11:05 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-An der nächsten Kreuzung müssen Sie rechts abbiegen., Q_cen-abbiegen
+Fr, 07 Aug 2020 11:11:06 +0000  QA_rec 1 0 1 23
+Fr, 07 Aug 2020 11:11:26 +0000  QA_rec 0 0 1 23
+Fr, 07 Aug 2020 11:11:26 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Du kannst den Hund streicheln, er wird dich nicht beißen., Q_cen-beißen
+Fr, 07 Aug 2020 11:11:27 +0000  QA_rec 1 0 1 24
+Fr, 07 Aug 2020 11:11:47 +0000  QA_rec 0 0 1 24
+Fr, 07 Aug 2020 11:11:47 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Wenn es am Sonntag Morgen regnet, bleibt Franz den ganzen Tag im Bett., Q_cen-bleibt

@@ -1,0 +1,197 @@
+Fr, 07 Aug 2020 12:02:10 +0000  fade_in 1 2 None None
+Fr, 07 Aug 2020 12:02:40 +0000  fade_in 0 2 None None
+Fr, 07 Aug 2020 12:02:41 +0000  Artifact_intro 1 None None None
+Fr, 07 Aug 2020 12:03:12 +0000  Artifact_intro 0 None None None
+Fr, 07 Aug 2020 12:03:12 +0000  Artifact_rec 1 None None 0
+Fr, 07 Aug 2020 12:03:34 +0000  Artifact_rec 0 None None 0
+Fr, 07 Aug 2020 12:03:34 +0000  Artifact_rec 1 None None 1
+Fr, 07 Aug 2020 12:03:56 +0000  Artifact_rec 0 None None 1
+Fr, 07 Aug 2020 12:03:56 +0000  Artifact_rec 1 None None 2
+Fr, 07 Aug 2020 12:04:18 +0000  Artifact_rec 0 None None 2
+Fr, 07 Aug 2020 12:04:18 +0000  Artifact_rec 1 None None 3
+Fr, 07 Aug 2020 12:04:40 +0000  Artifact_rec 0 None None 3
+Fr, 07 Aug 2020 12:04:40 +0000  Artifact_rec 1 None None 4
+Fr, 07 Aug 2020 12:05:02 +0000  Artifact_rec 0 None None 4
+Fr, 07 Aug 2020 12:05:02 +0000  Artifact_rec 1 None None 5
+Fr, 07 Aug 2020 12:05:24 +0000  Artifact_rec 0 None None 5
+Fr, 07 Aug 2020 12:05:24 +0000  Artifact_rec 1 None None 6
+Fr, 07 Aug 2020 12:05:46 +0000  Artifact_rec 0 None None 6
+Fr, 07 Aug 2020 12:05:46 +0000  Artifact_rec 1 None None 7
+Fr, 07 Aug 2020 12:06:08 +0000  Artifact_rec 0 None None 7
+Fr, 07 Aug 2020 12:06:08 +0000  Artifact_rec 1 None None 8
+Fr, 07 Aug 2020 12:06:30 +0000  Artifact_rec 0 None None 8
+Fr, 07 Aug 2020 12:06:30 +0000  Artifact_rec 1 None None 9
+Fr, 07 Aug 2020 12:06:52 +0000  Artifact_rec 0 None None 9
+Fr, 07 Aug 2020 12:06:52 +0000  Artifact_rec 1 None None 10
+Fr, 07 Aug 2020 12:07:14 +0000  Artifact_rec 0 None None 10
+Fr, 07 Aug 2020 12:07:14 +0000  Artifact_rec 1 None None 11
+Fr, 07 Aug 2020 12:07:36 +0000  Artifact_rec 0 None None 11
+Fr, 07 Aug 2020 12:07:36 +0000  Artifact_rec 1 None None 12
+Fr, 07 Aug 2020 12:07:58 +0000  Artifact_rec 0 None None 12
+Fr, 07 Aug 2020 12:07:58 +0000  Artifact_rec 1 None None 13
+Fr, 07 Aug 2020 12:08:20 +0000  Artifact_rec 0 None None 13
+Fr, 07 Aug 2020 12:08:20 +0000  Artifact_rec 1 None None 14
+Fr, 07 Aug 2020 12:08:42 +0000  Artifact_rec 0 None None 14
+Fr, 07 Aug 2020 12:08:43 +0000  RS_intro 1 2 0 None
+Fr, 07 Aug 2020 12:09:06 +0000  RS_intro 0 2 0 None
+Fr, 07 Aug 2020 12:09:06 +0000  RS_rec 1 2 0 None
+Fr, 07 Aug 2020 12:12:09 +0000  RS_rec 0 2 open None
+Fr, 07 Aug 2020 12:12:09 +0000  RS_intro 1 2 1 None
+Fr, 07 Aug 2020 12:12:32 +0000  RS_intro 0 2 1 None
+Fr, 07 Aug 2020 12:12:32 +0000  RS_rec 1 2 1 None
+Fr, 07 Aug 2020 12:15:36 +0000  RS_rec 0 2 close None
+Fr, 07 Aug 2020 12:15:58 +0000  QA_intro 1 2 None None
+Fr, 07 Aug 2020 12:16:41 +0000  QA_intro 0 2 None None
+Fr, 07 Aug 2020 12:16:43 +0000  QA_rec 1 2 0 0
+Fr, 07 Aug 2020 12:17:03 +0000  QA_rec 0 2 0 0
+Fr, 07 Aug 2020 12:17:03 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Meine dicke Katze muss abnehmen., Q_cen-abnehmen
+Fr, 07 Aug 2020 12:17:04 +0000  QA_rec 1 2 0 1
+Fr, 07 Aug 2020 12:17:24 +0000  QA_rec 0 2 0 1
+Fr, 07 Aug 2020 12:17:24 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Diese Telefinnummer ist leicht zu merken., Q_cen-merken
+Fr, 07 Aug 2020 12:17:25 +0000  QA_rec 1 2 0 2
+Fr, 07 Aug 2020 12:17:45 +0000  QA_rec 0 2 0 2
+Fr, 07 Aug 2020 12:17:45 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Ich kann dir gerne mein Fahrrad leihen, wenn du möchtest., Q_cen-leihen
+Fr, 07 Aug 2020 12:17:46 +0000  QA_rec 1 2 0 3
+Fr, 07 Aug 2020 12:18:06 +0000  QA_rec 0 2 0 3
+Fr, 07 Aug 2020 12:18:06 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Halloween wurde schon von den Kelten gefeiert., Q_cen-gefeiert
+Fr, 07 Aug 2020 12:18:07 +0000  QA_rec 1 2 0 4
+Fr, 07 Aug 2020 12:18:27 +0000  QA_rec 0 2 0 4
+Fr, 07 Aug 2020 12:18:27 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Er hat jahrzehntelang geraucht und seine Lunge schwer geschädigt., Q_cen-geraucht
+Fr, 07 Aug 2020 12:18:28 +0000  QA_rec 1 2 0 5
+Fr, 07 Aug 2020 12:18:49 +0000  QA_rec 0 2 0 5
+Fr, 07 Aug 2020 12:18:49 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Wir brauchen Obst und Gemüse, also muss ich auf den Markt gehen., Q_cen-gehen
+Fr, 07 Aug 2020 12:18:50 +0000  QA_rec 1 2 0 6
+Fr, 07 Aug 2020 12:19:10 +0000  QA_rec 0 2 0 6
+Fr, 07 Aug 2020 12:19:10 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Das Flugzeug steht kurz vor dem Abflug, wir müssen uns beeilen., Q_cen-beeilen
+Fr, 07 Aug 2020 12:19:11 +0000  QA_rec 1 2 0 7
+Fr, 07 Aug 2020 12:19:31 +0000  QA_rec 0 2 0 7
+Fr, 07 Aug 2020 12:19:31 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Der Präsident diskutierte das Thema auf der Pressekonferenz nicht., Q_cen-diskutierte
+Fr, 07 Aug 2020 12:19:32 +0000  QA_rec 1 2 0 8
+Fr, 07 Aug 2020 12:19:52 +0000  QA_rec 0 2 0 8
+Fr, 07 Aug 2020 12:19:52 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Um eine Kreditkarte zu bewerben, muss man älter als 18 werden. , Q_cen-bewerben
+Fr, 07 Aug 2020 12:19:53 +0000  QA_rec 1 2 0 9
+Fr, 07 Aug 2020 12:20:13 +0000  QA_rec 0 2 0 9
+Fr, 07 Aug 2020 12:20:13 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Afrika liegt südlich von Europa ., Q_cen-liegt
+Fr, 07 Aug 2020 12:20:14 +0000  QA_rec 1 2 0 10
+Fr, 07 Aug 2020 12:20:34 +0000  QA_rec 0 2 0 10
+Fr, 07 Aug 2020 12:20:34 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Er hängte seine Jacke über die Lehne des Stuhls., Q_cen-hängte
+Fr, 07 Aug 2020 12:20:35 +0000  QA_rec 1 2 0 11
+Fr, 07 Aug 2020 12:20:55 +0000  QA_rec 0 2 0 11
+Fr, 07 Aug 2020 12:20:55 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Bitte nimm meinen Mantel mit in die Garderobe., Q_cen-nimm
+Fr, 07 Aug 2020 12:20:56 +0000  QA_rec 1 2 0 12
+Fr, 07 Aug 2020 12:21:16 +0000  QA_rec 0 2 0 12
+Fr, 07 Aug 2020 12:21:16 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Sie sollten mehr Obst essen, Vitamin C wird Ihnen bei Erkältungen helfen., Q_cen-helfen
+Fr, 07 Aug 2020 12:21:17 +0000  QA_rec 1 2 0 13
+Fr, 07 Aug 2020 12:21:37 +0000  QA_rec 0 2 0 13
+Fr, 07 Aug 2020 12:21:37 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Morgen werde ich eine Schularbeit schreiben., Q_cen-schreiben
+Fr, 07 Aug 2020 12:21:38 +0000  QA_rec 1 2 0 14
+Fr, 07 Aug 2020 12:21:58 +0000  QA_rec 0 2 0 14
+Fr, 07 Aug 2020 12:21:58 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Das Radio informiert Autofahrer über Staus., Q_cen-informiert
+Fr, 07 Aug 2020 12:21:59 +0000  QA_rec 1 2 0 15
+Fr, 07 Aug 2020 12:22:19 +0000  QA_rec 0 2 0 15
+Fr, 07 Aug 2020 12:22:19 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Im Weltraum kann man keinen Ton hören., Q_cen-hören
+Fr, 07 Aug 2020 12:22:20 +0000  QA_rec 1 2 0 16
+Fr, 07 Aug 2020 12:22:40 +0000  QA_rec 0 2 0 16
+Fr, 07 Aug 2020 12:22:40 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Können Sie mir auf Hundert Euro herausgeben?, Q_cen-herausgeben
+Fr, 07 Aug 2020 12:22:41 +0000  QA_rec 1 2 0 17
+Fr, 07 Aug 2020 12:23:01 +0000  QA_rec 0 2 0 17
+Fr, 07 Aug 2020 12:23:01 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+Fr, 07 Aug 2020 12:23:02 +0000  QA_rec 1 2 0 18
+Fr, 07 Aug 2020 12:23:22 +0000  QA_rec 0 2 0 18
+Fr, 07 Aug 2020 12:23:22 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Entschuldigung, können Sie mir ein Taxi rufen?, Q_cen-rufen
+Fr, 07 Aug 2020 12:23:23 +0000  QA_rec 1 2 0 19
+Fr, 07 Aug 2020 12:23:43 +0000  QA_rec 0 2 0 19
+Fr, 07 Aug 2020 12:23:43 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Wie schmeckt Iris die Melone, die ich im Geschäft gekauft habe?, Q_cen-schmeckt
+Fr, 07 Aug 2020 12:23:44 +0000  QA_rec 1 2 0 20
+Fr, 07 Aug 2020 12:24:04 +0000  QA_rec 0 2 0 20
+Fr, 07 Aug 2020 12:24:04 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium., Q_cen-brauchen
+Fr, 07 Aug 2020 12:24:05 +0000  QA_rec 1 2 0 21
+Fr, 07 Aug 2020 12:24:25 +0000  QA_rec 0 2 0 21
+Fr, 07 Aug 2020 12:24:25 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+Fr, 07 Aug 2020 12:24:26 +0000  QA_rec 1 2 0 22
+Fr, 07 Aug 2020 12:24:46 +0000  QA_rec 0 2 0 22
+Fr, 07 Aug 2020 12:24:46 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Damit Pflanzen gut wachsen, müssen wir sie mehr Wasser gießen., Q_cen-gießen
+Fr, 07 Aug 2020 12:24:47 +0000  QA_rec 1 2 0 23
+Fr, 07 Aug 2020 12:25:07 +0000  QA_rec 0 2 0 23
+Fr, 07 Aug 2020 12:25:07 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Wenn man seine Zähne putzt, muss er die Zahnpasta auf Zahnbürste pressen., Q_cen-putzt
+Fr, 07 Aug 2020 12:25:08 +0000  QA_rec 1 2 0 24
+Fr, 07 Aug 2020 12:25:28 +0000  QA_rec 0 2 0 24
+Fr, 07 Aug 2020 12:25:28 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Die Bergsteiger sind in die Wand eingestiegen., Q_cen-eingestiegen
+Fr, 07 Aug 2020 12:26:03 +0000  QA_rec 1 2 1 0
+Fr, 07 Aug 2020 12:26:23 +0000  QA_rec 0 2 1 0
+Fr, 07 Aug 2020 12:26:23 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Ich habe keine Ahnung, wie viel du für das Auto gezahlt hast, aber lass mich mal raten., Q_cen-raten
+Fr, 07 Aug 2020 12:26:24 +0000  QA_rec 1 2 1 1
+Fr, 07 Aug 2020 12:26:44 +0000  QA_rec 0 2 1 1
+Fr, 07 Aug 2020 12:26:44 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Die Polizei sammelte alle verfügbaren Informationen., Q_cen-sammelte
+Fr, 07 Aug 2020 12:26:45 +0000  QA_rec 1 2 1 2
+Fr, 07 Aug 2020 12:27:05 +0000  QA_rec 0 2 1 2
+Fr, 07 Aug 2020 12:27:05 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Jetzt liest er seiner Mutter eine Geschichte vor., Q_cen-liest
+Fr, 07 Aug 2020 12:27:06 +0000  QA_rec 1 2 1 3
+Fr, 07 Aug 2020 12:27:26 +0000  QA_rec 0 2 1 3
+Fr, 07 Aug 2020 12:27:26 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Wo werden Sie Urlaub machen?, Q_cen-machen
+Fr, 07 Aug 2020 12:27:27 +0000  QA_rec 1 2 1 4
+Fr, 07 Aug 2020 12:27:47 +0000  QA_rec 0 2 1 4
+Fr, 07 Aug 2020 12:27:47 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Abends essen wir meistens kalt., Q_cen-essen
+Fr, 07 Aug 2020 12:27:48 +0000  QA_rec 1 2 1 5
+Fr, 07 Aug 2020 12:28:08 +0000  QA_rec 0 2 1 5
+Fr, 07 Aug 2020 12:28:08 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Kannst du bitte die Wäsche in die Sonne hängen?, Q_cen-hängen
+Fr, 07 Aug 2020 12:28:09 +0000  QA_rec 1 2 1 6
+Fr, 07 Aug 2020 12:28:29 +0000  QA_rec 0 2 1 6
+Fr, 07 Aug 2020 12:28:29 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Eric ist ein guter Fahrer, obwohl er gerade erst seinen Führerschein gemacht hat., Q_cen-gemacht
+Fr, 07 Aug 2020 12:28:30 +0000  QA_rec 1 2 1 7
+Fr, 07 Aug 2020 12:28:50 +0000  QA_rec 0 2 1 7
+Fr, 07 Aug 2020 12:28:50 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Der Junge hat das Mädchen zum Kaffee eingeladen., Q_cen-eingeladen
+Fr, 07 Aug 2020 12:28:51 +0000  QA_rec 1 2 1 8
+Fr, 07 Aug 2020 12:29:11 +0000  QA_rec 0 2 1 8
+Fr, 07 Aug 2020 12:29:11 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Um den Sachverhalt zu erklären, fehlten ihm die treffenden Vokabeln., Q_cen-erklären
+Fr, 07 Aug 2020 12:29:12 +0000  QA_rec 1 2 1 9
+Fr, 07 Aug 2020 12:29:32 +0000  QA_rec 0 2 1 9
+Fr, 07 Aug 2020 12:29:32 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Alle Wege führen nach Rom., Q_cen-führen
+Fr, 07 Aug 2020 12:29:33 +0000  QA_rec 1 2 1 10
+Fr, 07 Aug 2020 12:29:53 +0000  QA_rec 0 2 1 10
+Fr, 07 Aug 2020 12:29:53 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Der Arbeiter repariert eine Panne., Q_cen-repariert
+Fr, 07 Aug 2020 12:29:54 +0000  QA_rec 1 2 1 11
+Fr, 07 Aug 2020 12:30:14 +0000  QA_rec 0 2 1 11
+Fr, 07 Aug 2020 12:30:14 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Das Fleisch wurde über dem offenen Feuer gegrillt., Q_cen-gegrillt
+Fr, 07 Aug 2020 12:30:15 +0000  QA_rec 1 2 1 12
+Fr, 07 Aug 2020 12:30:35 +0000  QA_rec 0 2 1 12
+Fr, 07 Aug 2020 12:30:35 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Unter solchen Bedingungen kann man den Umfang des Kreises leicht berechnen., Q_cen-berechnen
+Fr, 07 Aug 2020 12:30:36 +0000  QA_rec 1 2 1 13
+Fr, 07 Aug 2020 12:30:56 +0000  QA_rec 0 2 1 13
+Fr, 07 Aug 2020 12:30:56 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Das Schloss liegt innerhalb der Stadtmauern., Q_cen-liegt
+Fr, 07 Aug 2020 12:30:57 +0000  QA_rec 1 2 1 14
+Fr, 07 Aug 2020 12:31:17 +0000  QA_rec 0 2 1 14
+Fr, 07 Aug 2020 12:31:17 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Sie hat das Gemüse in Olivenöl gebraten., Q_cen-gebraten
+Fr, 07 Aug 2020 12:31:18 +0000  QA_rec 1 2 1 15
+Fr, 07 Aug 2020 12:31:38 +0000  QA_rec 0 2 1 15
+Fr, 07 Aug 2020 12:31:38 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Meine Oma hat mir Frühstück gekocht., Q_cen-gekocht
+Fr, 07 Aug 2020 12:31:39 +0000  QA_rec 1 2 1 16
+Fr, 07 Aug 2020 12:31:59 +0000  QA_rec 0 2 1 16
+Fr, 07 Aug 2020 12:31:59 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Um Mitternacht schließt das Lokal., Q_cen-schließt
+Fr, 07 Aug 2020 12:32:00 +0000  QA_rec 1 2 1 17
+Fr, 07 Aug 2020 12:32:20 +0000  QA_rec 0 2 1 17
+Fr, 07 Aug 2020 12:32:20 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Die Sonne brennt im Sommer auf der Haut., Q_cen-brennt
+Fr, 07 Aug 2020 12:32:21 +0000  QA_rec 1 2 1 18
+Fr, 07 Aug 2020 12:32:41 +0000  QA_rec 0 2 1 18
+Fr, 07 Aug 2020 12:32:41 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Bitte gib mir ein Stück Kuchen und eine Schale mit Obst., Q_cen-gib
+Fr, 07 Aug 2020 12:32:42 +0000  QA_rec 1 2 1 19
+Fr, 07 Aug 2020 12:33:02 +0000  QA_rec 0 2 1 19
+Fr, 07 Aug 2020 12:33:02 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Während meines Urlaubs werde ich nach China und Japan reisen., Q_cen-reisen
+Fr, 07 Aug 2020 12:33:03 +0000  QA_rec 1 2 1 20
+Fr, 07 Aug 2020 12:33:23 +0000  QA_rec 0 2 1 20
+Fr, 07 Aug 2020 12:33:23 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Paul hat zum Abendessen Kartoffelsuppe gegessen., Q_cen-gegessen
+Fr, 07 Aug 2020 12:33:24 +0000  QA_rec 1 2 1 21
+Fr, 07 Aug 2020 12:33:44 +0000  QA_rec 0 2 1 21
+Fr, 07 Aug 2020 12:33:44 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Manchmal glaube ich, ich bin zu pessimistisch., Q_cen-glaube
+Fr, 07 Aug 2020 12:33:45 +0000  QA_rec 1 2 1 22
+Fr, 07 Aug 2020 12:34:06 +0000  QA_rec 0 2 1 22
+Fr, 07 Aug 2020 12:34:06 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Bananen können wir in der Obstabteilung finden., Q_cen-finden
+Fr, 07 Aug 2020 12:34:07 +0000  QA_rec 1 2 1 23
+Fr, 07 Aug 2020 12:34:27 +0000  QA_rec 0 2 1 23
+Fr, 07 Aug 2020 12:34:27 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Die Touristen besichtigten alle Sehenswürdigkeiten der Stadt., Q_cen-besichtigten
+Fr, 07 Aug 2020 12:34:28 +0000  QA_rec 1 2 1 24
+Fr, 07 Aug 2020 12:34:48 +0000  QA_rec 0 2 1 24
+Fr, 07 Aug 2020 12:34:48 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-In der Arktis leben gefährliche Eisbären., Q_cen-leben
+Fr, 07 Aug 2020 12:35:04 +0000  fade_out 1 2 None None
+Fr, 07 Aug 2020 12:35:07 +0000  fade_out 0 2 None None
+Fr, 07 Aug 2020 12:35:09 +0000  fade_in 1 3 None None
