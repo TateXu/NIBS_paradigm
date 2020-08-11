@@ -1,0 +1,162 @@
+Di, 11 Aug 2020 10:55:06 +0000  fade_in 1 0 None None
+Di, 11 Aug 2020 10:55:36 +0000  fade_in 0 0 None None
+Di, 11 Aug 2020 10:55:38 +0000  RS_intro 1 0 0 None
+Di, 11 Aug 2020 10:56:01 +0000  RS_intro 0 0 0 None
+Di, 11 Aug 2020 10:56:01 +0000  RS_rec 1 0 0 None
+Di, 11 Aug 2020 10:59:04 +0000  RS_rec 0 0 close None
+Di, 11 Aug 2020 10:59:04 +0000  RS_intro 1 0 1 None
+Di, 11 Aug 2020 10:59:28 +0000  RS_intro 0 0 1 None
+Di, 11 Aug 2020 10:59:28 +0000  RS_rec 1 0 1 None
+Di, 11 Aug 2020 11:02:31 +0000  RS_rec 0 0 open None
+Di, 11 Aug 2020 11:02:46 +0000  QA_intro 1 0 None None
+Di, 11 Aug 2020 11:03:27 +0000  QA_intro 0 0 None None
+Di, 11 Aug 2020 11:03:29 +0000  QA_rec 1 0 0 0
+Di, 11 Aug 2020 11:03:49 +0000  QA_rec 0 0 0 0
+Di, 11 Aug 2020 11:03:49 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Meine Mutter kocht heute Mittag nicht, wir gehen aus zum Essen., Q_cen-kocht
+Di, 11 Aug 2020 11:03:50 +0000  QA_rec 1 0 0 1
+Di, 11 Aug 2020 11:04:10 +0000  QA_rec 0 0 0 1
+Di, 11 Aug 2020 11:04:10 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Der Ausgang muss frei bleiben. , Q_cen-bleiben
+Di, 11 Aug 2020 11:04:11 +0000  QA_rec 1 0 0 2
+Di, 11 Aug 2020 11:04:31 +0000  QA_rec 0 0 0 2
+Di, 11 Aug 2020 11:04:31 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Ich glaube nicht, dass es regnen wird, aber ich werde für alle Fälle einen Schirm mitnehmen., Q_cen-glaube
+Di, 11 Aug 2020 11:04:32 +0000  QA_rec 1 0 0 3
+Di, 11 Aug 2020 11:04:52 +0000  QA_rec 0 0 0 3
+Di, 11 Aug 2020 11:04:52 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Es ist vorstellbar, dass er diese schwierige Prüfung nicht bestehen kann. , Q_cen-bestehen
+Di, 11 Aug 2020 11:04:53 +0000  QA_rec 1 0 0 4
+Di, 11 Aug 2020 11:05:13 +0000  QA_rec 0 0 0 4
+Di, 11 Aug 2020 11:05:13 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Sie fühlt sich während der Quarantäne sehr langweilig., Q_cen-fühlt
+Di, 11 Aug 2020 11:05:14 +0000  QA_rec 1 0 0 5
+Di, 11 Aug 2020 11:05:34 +0000  QA_rec 0 0 0 5
+Di, 11 Aug 2020 11:05:34 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Zu Beginn der Konferenz wird der Präsident eine Rede halten., Q_cen-halten
+Di, 11 Aug 2020 11:05:35 +0000  QA_rec 1 0 0 6
+Di, 11 Aug 2020 11:05:55 +0000  QA_rec 0 0 0 6
+Di, 11 Aug 2020 11:05:55 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Jede nennt sie Nini, aber ihr wirklicher Name ist Martina., Q_cen-nennt
+Di, 11 Aug 2020 11:05:56 +0000  QA_rec 1 0 0 7
+Di, 11 Aug 2020 11:06:16 +0000  QA_rec 0 0 0 7
+Di, 11 Aug 2020 11:06:16 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Er probierte, die Tür mit dem falschen Schlüssel zu öffnen., Q_cen-öffnen
+Di, 11 Aug 2020 11:06:17 +0000  QA_rec 1 0 0 8
+Di, 11 Aug 2020 11:06:37 +0000  QA_rec 0 0 0 8
+Di, 11 Aug 2020 11:06:37 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Er muss arbeiten, um seine beiden Kinder großzuziehen., Q_cen-arbeiten
+Di, 11 Aug 2020 11:06:38 +0000  QA_rec 1 0 0 9
+Di, 11 Aug 2020 11:06:58 +0000  QA_rec 0 0 0 9
+Di, 11 Aug 2020 11:06:58 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Chris hat Zahnschmerzen, aber er fürchtet sich vor dem Zahnarzt., Q_cen-fürchtet
+Di, 11 Aug 2020 11:06:59 +0000  QA_rec 1 0 0 10
+Di, 11 Aug 2020 11:07:19 +0000  QA_rec 0 0 0 10
+Di, 11 Aug 2020 11:07:19 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Dieses Zelt wurde für extreme Wetterlagen, z.B. Sturm, Schneesturm, gebaut., Q_cen-gebaut
+Di, 11 Aug 2020 11:07:20 +0000  QA_rec 1 0 0 11
+Di, 11 Aug 2020 11:07:40 +0000  QA_rec 0 0 0 11
+Di, 11 Aug 2020 11:07:40 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
+Di, 11 Aug 2020 11:07:41 +0000  QA_rec 1 0 0 12
+Di, 11 Aug 2020 11:08:01 +0000  QA_rec 0 0 0 12
+Di, 11 Aug 2020 11:08:01 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Ich konnte meine Brille nicht finden., Q_cen-finden
+Di, 11 Aug 2020 11:08:02 +0000  QA_rec 1 0 0 13
+Di, 11 Aug 2020 11:08:22 +0000  QA_rec 0 0 0 13
+Di, 11 Aug 2020 11:08:22 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Die Studenten müssen sich für den Kurs anmelden., Q_cen-anmelden
+Di, 11 Aug 2020 11:08:23 +0000  QA_rec 1 0 0 14
+Di, 11 Aug 2020 11:08:43 +0000  QA_rec 0 0 0 14
+Di, 11 Aug 2020 11:08:43 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Die Schüler sind begeistert, denn ihre Schule hat eine Exkursion organisiert., Q_cen-organisiert
+Di, 11 Aug 2020 11:08:44 +0000  QA_rec 1 0 0 15
+Di, 11 Aug 2020 11:09:04 +0000  QA_rec 0 0 0 15
+Di, 11 Aug 2020 11:09:04 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Sie sollten mehr Obst essen, Vitamin C wird Ihnen bei Erkältungen helfen., Q_cen-helfen
+Di, 11 Aug 2020 11:09:05 +0000  QA_rec 1 0 0 16
+Di, 11 Aug 2020 11:09:25 +0000  QA_rec 0 0 0 16
+Di, 11 Aug 2020 11:09:25 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Wir mussten ein amtliches Formular ausfüllen, als wir geheiratet haben., Q_cen-ausfüllen
+Di, 11 Aug 2020 11:09:26 +0000  QA_rec 1 0 0 17
+Di, 11 Aug 2020 11:09:46 +0000  QA_rec 0 0 0 17
+Di, 11 Aug 2020 11:09:46 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Wir sind stolz auf das, was wir bis jetzt geschafft haben., Q_cen-geschafft
+Di, 11 Aug 2020 11:09:47 +0000  QA_rec 1 0 0 18
+Di, 11 Aug 2020 11:10:08 +0000  QA_rec 0 0 0 18
+Di, 11 Aug 2020 11:10:08 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Wir haben im Wald Beeren und Pilze gesammelt., Q_cen-gesammelt
+Di, 11 Aug 2020 11:10:09 +0000  QA_rec 1 0 0 19
+Di, 11 Aug 2020 11:10:29 +0000  QA_rec 0 0 0 19
+Di, 11 Aug 2020 11:10:29 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Ich warte seit drei Tagen auf Sie, wo waren Sie denn?, Q_cen-warte
+Di, 11 Aug 2020 11:10:30 +0000  QA_rec 1 0 0 20
+Di, 11 Aug 2020 11:10:50 +0000  QA_rec 0 0 0 20
+Di, 11 Aug 2020 11:10:50 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Er war so betrunken, dass er nicht mehr vernünftig denken konnte., Q_cen-denken
+Di, 11 Aug 2020 11:10:51 +0000  QA_rec 1 0 0 21
+Di, 11 Aug 2020 11:11:11 +0000  QA_rec 0 0 0 21
+Di, 11 Aug 2020 11:11:11 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Es freut mich sehr, Sie kennenzulernen., Q_cen-freut
+Di, 11 Aug 2020 11:11:12 +0000  QA_rec 1 0 0 22
+Di, 11 Aug 2020 11:11:32 +0000  QA_rec 0 0 0 22
+Di, 11 Aug 2020 11:11:32 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Meine Oma hat mir Frühstück gekocht., Q_cen-gekocht
+Di, 11 Aug 2020 11:11:33 +0000  QA_rec 1 0 0 23
+Di, 11 Aug 2020 11:11:53 +0000  QA_rec 0 0 0 23
+Di, 11 Aug 2020 11:11:53 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Wir müssen Mittel und Wege finden, um das zu ändern., Q_cen-finden
+Di, 11 Aug 2020 11:11:54 +0000  QA_rec 1 0 0 24
+Di, 11 Aug 2020 11:12:14 +0000  QA_rec 0 0 0 24
+Di, 11 Aug 2020 11:12:14 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Wenn wir ein Auto mieten möchten, müssen wir Führerschein vorlegen und die Kaution bezahlen., Q_cen-mieten
+Di, 11 Aug 2020 11:12:33 +0000  QA_rec 1 0 1 0
+Di, 11 Aug 2020 11:12:53 +0000  QA_rec 0 0 1 0
+Di, 11 Aug 2020 11:12:53 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Zuhause erzählt er seiner kleinen Schwester davon., Q_cen-erzählt
+Di, 11 Aug 2020 11:12:54 +0000  QA_rec 1 0 1 1
+Di, 11 Aug 2020 11:13:14 +0000  QA_rec 0 0 1 1
+Di, 11 Aug 2020 11:13:14 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Bitte schließ die Tür!, Q_cen-schließ
+Di, 11 Aug 2020 11:13:15 +0000  QA_rec 1 0 1 2
+Di, 11 Aug 2020 11:13:35 +0000  QA_rec 0 0 1 2
+Di, 11 Aug 2020 11:13:35 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht., Q_cen-gebucht
+Di, 11 Aug 2020 11:13:36 +0000  QA_rec 1 0 1 3
+Di, 11 Aug 2020 11:13:56 +0000  QA_rec 0 0 1 3
+Di, 11 Aug 2020 11:13:56 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Wir leben alle auf der Erde., Q_cen-leben
+Di, 11 Aug 2020 11:13:57 +0000  QA_rec 1 0 1 4
+Di, 11 Aug 2020 11:14:17 +0000  QA_rec 0 0 1 4
+Di, 11 Aug 2020 11:14:17 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Ich rechne fest damit, dass er kommt., Q_cen-rechne
+Di, 11 Aug 2020 11:14:18 +0000  QA_rec 1 0 1 5
+Di, 11 Aug 2020 11:14:38 +0000  QA_rec 0 0 1 5
+Di, 11 Aug 2020 11:14:38 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Er hängte seine Jacke über die Lehne des Stuhls., Q_cen-hängte
+Di, 11 Aug 2020 11:14:39 +0000  QA_rec 1 0 1 6
+Di, 11 Aug 2020 11:15:00 +0000  QA_rec 0 0 1 6
+Di, 11 Aug 2020 11:15:00 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Briefe und Pakete verschickt man mit der Post., Q_cen-verschickt
+Di, 11 Aug 2020 11:15:01 +0000  QA_rec 1 0 1 7
+Di, 11 Aug 2020 11:15:21 +0000  QA_rec 0 0 1 7
+Di, 11 Aug 2020 11:15:21 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Das Radio informiert Autofahrer über Staus., Q_cen-informiert
+Di, 11 Aug 2020 11:15:22 +0000  QA_rec 1 0 1 8
+Di, 11 Aug 2020 11:15:42 +0000  QA_rec 0 0 1 8
+Di, 11 Aug 2020 11:15:42 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Ich habe gestern Abend mit meiner Mutter geredet., Q_cen-geredet
+Di, 11 Aug 2020 11:15:43 +0000  QA_rec 1 0 1 9
+Di, 11 Aug 2020 11:16:03 +0000  QA_rec 0 0 1 9
+Di, 11 Aug 2020 11:16:03 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Es gibt viele Vorteile, wenn man die öffentlichen Verkehrsmittel benutzt., Q_cen-benutzt
+Di, 11 Aug 2020 11:16:04 +0000  QA_rec 1 0 1 10
+Di, 11 Aug 2020 11:16:24 +0000  QA_rec 0 0 1 10
+Di, 11 Aug 2020 11:16:24 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Ich kann mich noch gut an meinen ersten Schultag erinnern., Q_cen-erinnern
+Di, 11 Aug 2020 11:16:25 +0000  QA_rec 1 0 1 11
+Di, 11 Aug 2020 11:16:45 +0000  QA_rec 0 0 1 11
+Di, 11 Aug 2020 11:16:45 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Nach dem großen Essen war mein Hunger gestillt., Q_cen-gestillt
+Di, 11 Aug 2020 11:16:46 +0000  QA_rec 1 0 1 12
+Di, 11 Aug 2020 11:17:06 +0000  QA_rec 0 0 1 12
+Di, 11 Aug 2020 11:17:06 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Er konnte auf alle Fragen des Quiz antworten., Q_cen-antworten
+Di, 11 Aug 2020 11:17:07 +0000  QA_rec 1 0 1 13
+Di, 11 Aug 2020 11:17:27 +0000  QA_rec 0 0 1 13
+Di, 11 Aug 2020 11:17:27 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Die Sonnenbrillen kann die Augen vor der Sonne schützen., Q_cen-schützen
+Di, 11 Aug 2020 11:17:28 +0000  QA_rec 1 0 1 14
+Di, 11 Aug 2020 11:17:48 +0000  QA_rec 0 0 1 14
+Di, 11 Aug 2020 11:17:48 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Im ganzen Umkreis war kein Haus zu finden., Q_cen-finden
+Di, 11 Aug 2020 11:17:49 +0000  QA_rec 1 0 1 15
+Di, 11 Aug 2020 11:18:09 +0000  QA_rec 0 0 1 15
+Di, 11 Aug 2020 11:18:09 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Er sieht endlich ein Licht am Ende des Tunnels., Q_cen-sieht
+Di, 11 Aug 2020 11:18:10 +0000  QA_rec 1 0 1 16
+Di, 11 Aug 2020 11:18:30 +0000  QA_rec 0 0 1 16
+Di, 11 Aug 2020 11:18:30 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Ich ging zum Arzt, weil ich mich unangenehm fühlte., Q_cen-fühlte
+Di, 11 Aug 2020 11:18:31 +0000  QA_rec 1 0 1 17
+Di, 11 Aug 2020 11:18:51 +0000  QA_rec 0 0 1 17
+Di, 11 Aug 2020 11:18:51 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Während oder nach einem Regen kann man einen Regenbogen vorsehen., Q_cen-vorsehen
+Di, 11 Aug 2020 11:18:52 +0000  QA_rec 1 0 1 18
+Di, 11 Aug 2020 11:19:12 +0000  QA_rec 0 0 1 18
+Di, 11 Aug 2020 11:19:12 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Ich sitze weit entfernt von der Bühne, also muss ich durch ein Fernglas schauen., Q_cen-schauen
+Di, 11 Aug 2020 11:19:13 +0000  QA_rec 1 0 1 19
+Di, 11 Aug 2020 11:19:33 +0000  QA_rec 0 0 1 19
+Di, 11 Aug 2020 11:19:33 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Aufgrund der globalen Erwärmung werden die Häuser der Inselbewohner im Meer versinken., Q_cen-versinken
+Di, 11 Aug 2020 11:19:34 +0000  QA_rec 1 0 1 20
+Di, 11 Aug 2020 11:19:54 +0000  QA_rec 0 0 1 20
+Di, 11 Aug 2020 11:19:54 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Seine Großmutter kann ganz spannend erzählen., Q_cen-erzählen
+Di, 11 Aug 2020 11:19:55 +0000  QA_rec 1 0 1 21
+Di, 11 Aug 2020 11:20:15 +0000  QA_rec 0 0 1 21
+Di, 11 Aug 2020 11:20:15 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Sie gehen diese Straße geradeaus und biegen an der ersten Kreuzung rechts ab., Q_cen-biegen
+Di, 11 Aug 2020 11:20:16 +0000  QA_rec 1 0 1 22
+Di, 11 Aug 2020 11:20:36 +0000  QA_rec 0 0 1 22
+Di, 11 Aug 2020 11:20:36 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Der Detektiv ist ihm bis zu seinem Haus gefolgt., Q_cen-gefolgt
+Di, 11 Aug 2020 11:20:37 +0000  QA_rec 1 0 1 23
+Di, 11 Aug 2020 11:20:57 +0000  QA_rec 0 0 1 23
+Di, 11 Aug 2020 11:20:57 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Wir freuen uns von Herzen über seine ausgezeichnete Leistung., Q_cen-freuen
+Di, 11 Aug 2020 11:20:58 +0000  QA_rec 1 0 1 24
+Di, 11 Aug 2020 11:21:18 +0000  QA_rec 0 0 1 24
+Di, 11 Aug 2020 11:21:18 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Ich muss für meine wichtige Prüfung morgen lernen., Q_cen-lernen
