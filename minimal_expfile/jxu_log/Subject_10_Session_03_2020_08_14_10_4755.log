@@ -1,0 +1,162 @@
+Fr, 14 Aug 2020 10:47:59 +0000  fade_in 1 0 None None
+Fr, 14 Aug 2020 10:48:29 +0000  fade_in 0 0 None None
+Fr, 14 Aug 2020 10:48:31 +0000  RS_intro 1 0 0 None
+Fr, 14 Aug 2020 10:48:54 +0000  RS_intro 0 0 0 None
+Fr, 14 Aug 2020 10:48:54 +0000  RS_rec 1 0 0 None
+Fr, 14 Aug 2020 10:51:57 +0000  RS_rec 0 0 close None
+Fr, 14 Aug 2020 10:51:57 +0000  RS_intro 1 0 1 None
+Fr, 14 Aug 2020 10:52:20 +0000  RS_intro 0 0 1 None
+Fr, 14 Aug 2020 10:52:20 +0000  RS_rec 1 0 1 None
+Fr, 14 Aug 2020 10:55:24 +0000  RS_rec 0 0 open None
+Fr, 14 Aug 2020 10:55:39 +0000  QA_intro 1 0 None None
+Fr, 14 Aug 2020 10:56:20 +0000  QA_intro 0 0 None None
+Fr, 14 Aug 2020 10:56:22 +0000  QA_rec 1 0 0 0
+Fr, 14 Aug 2020 10:56:42 +0000  QA_rec 0 0 0 0
+Fr, 14 Aug 2020 10:56:42 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Das laute Auto meines Nachbarn stört mich jeden Tag., Q_cen-stört
+Fr, 14 Aug 2020 10:56:43 +0000  QA_rec 1 0 0 1
+Fr, 14 Aug 2020 10:57:03 +0000  QA_rec 0 0 0 1
+Fr, 14 Aug 2020 10:57:03 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Zu den hundeartigen Tieren, die in Österreich leben, gehört der Wolf., Q_cen-gehört
+Fr, 14 Aug 2020 10:57:04 +0000  QA_rec 1 0 0 2
+Fr, 14 Aug 2020 10:57:24 +0000  QA_rec 0 0 0 2
+Fr, 14 Aug 2020 10:57:24 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Linda trinkt lieber eine heiße Schokolade., Q_cen-trinkt
+Fr, 14 Aug 2020 10:57:25 +0000  QA_rec 1 0 0 3
+Fr, 14 Aug 2020 10:57:45 +0000  QA_rec 0 0 0 3
+Fr, 14 Aug 2020 10:57:45 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Nur mit der Fahrkarte kann man einsteigen., Q_cen-einsteigen
+Fr, 14 Aug 2020 10:57:46 +0000  QA_rec 1 0 0 4
+Fr, 14 Aug 2020 10:58:06 +0000  QA_rec 0 0 0 4
+Fr, 14 Aug 2020 10:58:06 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Da drüben raucht es, wir sollten die Feuerwehr holen., Q_cen-raucht
+Fr, 14 Aug 2020 10:58:07 +0000  QA_rec 1 0 0 5
+Fr, 14 Aug 2020 10:58:27 +0000  QA_rec 0 0 0 5
+Fr, 14 Aug 2020 10:58:27 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Es besteht eine starke Verbindung zwischen Musik und Kunst., Q_cen-besteht
+Fr, 14 Aug 2020 10:58:28 +0000  QA_rec 1 0 0 6
+Fr, 14 Aug 2020 10:58:48 +0000  QA_rec 0 0 0 6
+Fr, 14 Aug 2020 10:58:48 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Ein Fußball Team besteht aus zehn Spielern und einem Tormann., Q_cen-besteht
+Fr, 14 Aug 2020 10:58:49 +0000  QA_rec 1 0 0 7
+Fr, 14 Aug 2020 10:59:09 +0000  QA_rec 0 0 0 7
+Fr, 14 Aug 2020 10:59:09 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Während der Weihnachtszeit gibt es unter dem Weihnachtsbaum Geschenke für die Kinder., Q_cen-gibt
+Fr, 14 Aug 2020 10:59:10 +0000  QA_rec 1 0 0 8
+Fr, 14 Aug 2020 10:59:30 +0000  QA_rec 0 0 0 8
+Fr, 14 Aug 2020 10:59:30 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Bienen liefern Honig., Q_cen-liefern
+Fr, 14 Aug 2020 10:59:31 +0000  QA_rec 1 0 0 9
+Fr, 14 Aug 2020 10:59:51 +0000  QA_rec 0 0 0 9
+Fr, 14 Aug 2020 10:59:51 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Meine Eltern schauten vorbei, um sich meinen neuen Garten anzusehen., Q_cen-anzusehen
+Fr, 14 Aug 2020 10:59:52 +0000  QA_rec 1 0 0 10
+Fr, 14 Aug 2020 11:00:12 +0000  QA_rec 0 0 0 10
+Fr, 14 Aug 2020 11:00:12 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Meine Mutter erzählte mir immer eine Gutenachtgeschichte., Q_cen-erzählte
+Fr, 14 Aug 2020 11:00:13 +0000  QA_rec 1 0 0 11
+Fr, 14 Aug 2020 11:00:33 +0000  QA_rec 0 0 0 11
+Fr, 14 Aug 2020 11:00:33 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Ich denke immer an meine Kindheit zurück., Q_cen-denke
+Fr, 14 Aug 2020 11:00:34 +0000  QA_rec 1 0 0 12
+Fr, 14 Aug 2020 11:00:54 +0000  QA_rec 0 0 0 12
+Fr, 14 Aug 2020 11:00:54 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Kollegen versammelt sich zusammen, um ein neues Projekt zu planen., Q_cen-planen
+Fr, 14 Aug 2020 11:00:55 +0000  QA_rec 1 0 0 13
+Fr, 14 Aug 2020 11:01:15 +0000  QA_rec 0 0 0 13
+Fr, 14 Aug 2020 11:01:15 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Der Verletzte braucht dringend einen Arzt zu besuchen., Q_cen-besuchen
+Fr, 14 Aug 2020 11:01:16 +0000  QA_rec 1 0 0 14
+Fr, 14 Aug 2020 11:01:36 +0000  QA_rec 0 0 0 14
+Fr, 14 Aug 2020 11:01:36 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Ich habe dieses Fach als mein Hauptfach gewählt, weil es mich interessiert., Q_cen-interessiert
+Fr, 14 Aug 2020 11:01:37 +0000  QA_rec 1 0 0 15
+Fr, 14 Aug 2020 11:01:57 +0000  QA_rec 0 0 0 15
+Fr, 14 Aug 2020 11:01:57 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Mein Ziel ist, in der Prüfung gute Ergebnisse zu bekommen., Q_cen-bekommen
+Fr, 14 Aug 2020 11:01:58 +0000  QA_rec 1 0 0 16
+Fr, 14 Aug 2020 11:02:18 +0000  QA_rec 0 0 0 16
+Fr, 14 Aug 2020 11:02:18 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Mein Bruder hat uns zum Abendessen eingeladen, ich habe bereits zugesagt., Q_cen-eingeladen
+Fr, 14 Aug 2020 11:02:19 +0000  QA_rec 1 0 0 17
+Fr, 14 Aug 2020 11:02:39 +0000  QA_rec 0 0 0 17
+Fr, 14 Aug 2020 11:02:39 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Ich drückte den Knopf, um den Computer einzuschalten., Q_cen-drückte
+Fr, 14 Aug 2020 11:02:40 +0000  QA_rec 1 0 0 18
+Fr, 14 Aug 2020 11:03:01 +0000  QA_rec 0 0 0 18
+Fr, 14 Aug 2020 11:03:01 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Sie beantwortete meine E-Mail schnell., Q_cen-beantwortete
+Fr, 14 Aug 2020 11:03:02 +0000  QA_rec 1 0 0 19
+Fr, 14 Aug 2020 11:03:22 +0000  QA_rec 0 0 0 19
+Fr, 14 Aug 2020 11:03:22 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Der Arzt sagt, mein Knie ist in Ordnung, aber meine Beine scheinen gebrochen zu sein., Q_cen-scheinen
+Fr, 14 Aug 2020 11:03:23 +0000  QA_rec 1 0 0 20
+Fr, 14 Aug 2020 11:03:43 +0000  QA_rec 0 0 0 20
+Fr, 14 Aug 2020 11:03:43 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Bitte reservieren Sie einen Platz, bevor Sie ins Restaurant gehen., Q_cen-reservieren
+Fr, 14 Aug 2020 11:03:44 +0000  QA_rec 1 0 0 21
+Fr, 14 Aug 2020 11:04:04 +0000  QA_rec 0 0 0 21
+Fr, 14 Aug 2020 11:04:04 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Lenas Hund Tobi wird immer am Abend gefüttert., Q_cen-gefüttert
+Fr, 14 Aug 2020 11:04:05 +0000  QA_rec 1 0 0 22
+Fr, 14 Aug 2020 11:04:25 +0000  QA_rec 0 0 0 22
+Fr, 14 Aug 2020 11:04:25 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Wir müssen genau planen, was wir tun wollen., Q_cen-planen
+Fr, 14 Aug 2020 11:04:26 +0000  QA_rec 1 0 0 23
+Fr, 14 Aug 2020 11:04:46 +0000  QA_rec 0 0 0 23
+Fr, 14 Aug 2020 11:04:46 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Ich schicke die Dateien als E-Mail-Anhang., Q_cen-schicke
+Fr, 14 Aug 2020 11:04:47 +0000  QA_rec 1 0 0 24
+Fr, 14 Aug 2020 11:05:07 +0000  QA_rec 0 0 0 24
+Fr, 14 Aug 2020 11:05:07 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Unter solchen Bedingungen kann man den Umfang des Kreises leicht berechnen., Q_cen-berechnen
+Fr, 14 Aug 2020 11:05:29 +0000  QA_rec 1 0 1 0
+Fr, 14 Aug 2020 11:05:49 +0000  QA_rec 0 0 1 0
+Fr, 14 Aug 2020 11:05:49 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Die meisten Jugendlichen hören gerne Musik., Q_cen-hören
+Fr, 14 Aug 2020 11:05:50 +0000  QA_rec 1 0 1 1
+Fr, 14 Aug 2020 11:06:10 +0000  QA_rec 0 0 1 1
+Fr, 14 Aug 2020 11:06:10 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Die schwarze Wolken werden Regen bringen., Q_cen-bringen
+Fr, 14 Aug 2020 11:06:11 +0000  QA_rec 1 0 1 2
+Fr, 14 Aug 2020 11:06:31 +0000  QA_rec 0 0 1 2
+Fr, 14 Aug 2020 11:06:31 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Der Spender möchte anonym bleiben., Q_cen-bleiben
+Fr, 14 Aug 2020 11:06:32 +0000  QA_rec 1 0 1 3
+Fr, 14 Aug 2020 11:06:52 +0000  QA_rec 0 0 1 3
+Fr, 14 Aug 2020 11:06:52 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Er beschäftigt sich damit, diese kaputte Maschine zu reparieren., Q_cen-reparieren
+Fr, 14 Aug 2020 11:06:53 +0000  QA_rec 1 0 1 4
+Fr, 14 Aug 2020 11:07:13 +0000  QA_rec 0 0 1 4
+Fr, 14 Aug 2020 11:07:13 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Morgen werden wir um sieben Uhr aufstehen., Q_cen-aufstehen
+Fr, 14 Aug 2020 11:07:14 +0000  QA_rec 1 0 1 5
+Fr, 14 Aug 2020 11:07:34 +0000  QA_rec 0 0 1 5
+Fr, 14 Aug 2020 11:07:34 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Wir bestellten ein stück Hassnuss Kuchen zum Dessert., Q_cen-bestellten
+Fr, 14 Aug 2020 11:07:35 +0000  QA_rec 1 0 1 6
+Fr, 14 Aug 2020 11:07:55 +0000  QA_rec 0 0 1 6
+Fr, 14 Aug 2020 11:07:55 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Ja, das Wasser aus der Leitung kann man trinken., Q_cen-trinken
+Fr, 14 Aug 2020 11:07:56 +0000  QA_rec 1 0 1 7
+Fr, 14 Aug 2020 11:08:17 +0000  QA_rec 0 0 1 7
+Fr, 14 Aug 2020 11:08:17 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Du kannst auf meine Unterstützung rechnen., Q_cen-rechnen
+Fr, 14 Aug 2020 11:08:18 +0000  QA_rec 1 0 1 8
+Fr, 14 Aug 2020 11:08:38 +0000  QA_rec 0 0 1 8
+Fr, 14 Aug 2020 11:08:38 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Bei dem Gewitter letzte Woche hat der Blitz in ein Boot eingeschlagen., Q_cen-eingeschlagen
+Fr, 14 Aug 2020 11:08:39 +0000  QA_rec 1 0 1 9
+Fr, 14 Aug 2020 11:08:59 +0000  QA_rec 0 0 1 9
+Fr, 14 Aug 2020 11:08:59 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Deine Haare sind so kurz, warst du beim Friseur?, Q_cen-warst
+Fr, 14 Aug 2020 11:09:00 +0000  QA_rec 1 0 1 10
+Fr, 14 Aug 2020 11:09:20 +0000  QA_rec 0 0 1 10
+Fr, 14 Aug 2020 11:09:20 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Ihre Kleider riechen nach Rauch., Q_cen-riechen
+Fr, 14 Aug 2020 11:09:21 +0000  QA_rec 1 0 1 11
+Fr, 14 Aug 2020 11:09:41 +0000  QA_rec 0 0 1 11
+Fr, 14 Aug 2020 11:09:41 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Da der Koffer bereits zu schwer ist, muss ich leichte Kleidung einpacken., Q_cen-einpacken
+Fr, 14 Aug 2020 11:09:42 +0000  QA_rec 1 0 1 12
+Fr, 14 Aug 2020 11:10:02 +0000  QA_rec 0 0 1 12
+Fr, 14 Aug 2020 11:10:02 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Ich habe die Zitrone in Scheiben geschnitten., Q_cen-geschnitten
+Fr, 14 Aug 2020 11:10:03 +0000  QA_rec 1 0 1 13
+Fr, 14 Aug 2020 11:10:23 +0000  QA_rec 0 0 1 13
+Fr, 14 Aug 2020 11:10:23 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Er hat jahrzehntelang geraucht und seine Lunge schwer geschädigt., Q_cen-geraucht
+Fr, 14 Aug 2020 11:10:24 +0000  QA_rec 1 0 1 14
+Fr, 14 Aug 2020 11:10:44 +0000  QA_rec 0 0 1 14
+Fr, 14 Aug 2020 11:10:44 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Er verwendet einen Bleistift auf der Wand zu malen., Q_cen-malen
+Fr, 14 Aug 2020 11:10:45 +0000  QA_rec 1 0 1 15
+Fr, 14 Aug 2020 11:11:05 +0000  QA_rec 0 0 1 15
+Fr, 14 Aug 2020 11:11:05 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Der moderne Mensch ist ursprünglich aus Afrika gekommen., Q_cen-gekommen
+Fr, 14 Aug 2020 11:11:06 +0000  QA_rec 1 0 1 16
+Fr, 14 Aug 2020 11:11:26 +0000  QA_rec 0 0 1 16
+Fr, 14 Aug 2020 11:11:26 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Sie hat neue Laufschuhe bekommen., Q_cen-bekommen
+Fr, 14 Aug 2020 11:11:27 +0000  QA_rec 1 0 1 17
+Fr, 14 Aug 2020 11:11:47 +0000  QA_rec 0 0 1 17
+Fr, 14 Aug 2020 11:11:47 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Ich benutze mein Handy, um Textnachrichten zu senden., Q_cen-senden
+Fr, 14 Aug 2020 11:11:48 +0000  QA_rec 1 0 1 18
+Fr, 14 Aug 2020 11:12:08 +0000  QA_rec 0 0 1 18
+Fr, 14 Aug 2020 11:12:08 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Finden Sie nicht, er hat sich nach dem Tod seines Kindes völlig verändert?, Q_cen-verändert
+Fr, 14 Aug 2020 11:12:09 +0000  QA_rec 1 0 1 19
+Fr, 14 Aug 2020 11:12:29 +0000  QA_rec 0 0 1 19
+Fr, 14 Aug 2020 11:12:29 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Die alte Zimmerdecke muss man renovieren., Q_cen-renovieren
+Fr, 14 Aug 2020 11:12:30 +0000  QA_rec 1 0 1 20
+Fr, 14 Aug 2020 11:12:50 +0000  QA_rec 0 0 1 20
+Fr, 14 Aug 2020 11:12:50 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Wenn Sie nicht aufpassen, könnten Sie sich die Finger verletzen., Q_cen-aufpassen
+Fr, 14 Aug 2020 11:12:51 +0000  QA_rec 1 0 1 21
+Fr, 14 Aug 2020 11:13:11 +0000  QA_rec 0 0 1 21
+Fr, 14 Aug 2020 11:13:11 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Er wird die Wurst mit Butter braten., Q_cen-braten
+Fr, 14 Aug 2020 11:13:12 +0000  QA_rec 1 0 1 22
+Fr, 14 Aug 2020 11:13:32 +0000  QA_rec 0 0 1 22
+Fr, 14 Aug 2020 11:13:32 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Die Augen meines Sohnes glänzten, als er das Geschenk sah., Q_cen-sah
+Fr, 14 Aug 2020 11:13:33 +0000  QA_rec 1 0 1 23
+Fr, 14 Aug 2020 11:13:53 +0000  QA_rec 0 0 1 23
+Fr, 14 Aug 2020 11:13:53 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Ausländische Studenten, die wenig Geld haben, brauchen ein Stipendium., Q_cen-brauchen
+Fr, 14 Aug 2020 11:13:54 +0000  QA_rec 1 0 1 24
+Fr, 14 Aug 2020 11:14:14 +0000  QA_rec 0 0 1 24
+Fr, 14 Aug 2020 11:14:14 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Ein Arzt behandelt kranke Leute in einer Praxis oder im Krankenhaus., Q_cen-behandelt

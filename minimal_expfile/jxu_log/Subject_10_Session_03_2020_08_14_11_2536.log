@@ -1,0 +1,162 @@
+Fr, 14 Aug 2020 11:25:40 +0000  fade_in 1 1 None None
+Fr, 14 Aug 2020 11:26:15 +0000  fade_in 0 1 None None
+Fr, 14 Aug 2020 11:26:17 +0000  RS_intro 1 1 0 None
+Fr, 14 Aug 2020 11:26:40 +0000  RS_intro 0 1 0 None
+Fr, 14 Aug 2020 11:26:40 +0000  RS_rec 1 1 0 None
+Fr, 14 Aug 2020 11:29:43 +0000  RS_rec 0 1 open None
+Fr, 14 Aug 2020 11:29:43 +0000  RS_intro 1 1 1 None
+Fr, 14 Aug 2020 11:30:06 +0000  RS_intro 0 1 1 None
+Fr, 14 Aug 2020 11:30:06 +0000  RS_rec 1 1 1 None
+Fr, 14 Aug 2020 11:33:09 +0000  RS_rec 0 1 close None
+Fr, 14 Aug 2020 11:33:26 +0000  QA_intro 1 1 None None
+Fr, 14 Aug 2020 11:34:08 +0000  QA_intro 0 1 None None
+Fr, 14 Aug 2020 11:34:10 +0000  QA_rec 1 1 0 0
+Fr, 14 Aug 2020 11:34:30 +0000  QA_rec 0 1 0 0
+Fr, 14 Aug 2020 11:34:30 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-Im Kaffeehaus sitzen und Zeitung lesen, das gefällt den Österreichern., Q_cen-gefällt
+Fr, 14 Aug 2020 11:34:31 +0000  QA_rec 1 1 0 1
+Fr, 14 Aug 2020 11:34:51 +0000  QA_rec 0 1 0 1
+Fr, 14 Aug 2020 11:34:51 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Wir schafften es, das Projekt nach Plan abzuschließen., Q_cen-schafften
+Fr, 14 Aug 2020 11:34:52 +0000  QA_rec 1 1 0 2
+Fr, 14 Aug 2020 11:35:12 +0000  QA_rec 0 1 0 2
+Fr, 14 Aug 2020 11:35:12 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Wir freuen uns sehr über Ihren Besuch., Q_cen-freuen
+Fr, 14 Aug 2020 11:35:13 +0000  QA_rec 1 1 0 3
+Fr, 14 Aug 2020 11:35:33 +0000  QA_rec 0 1 0 3
+Fr, 14 Aug 2020 11:35:33 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Er kann mit den Händen an einem Baum hängen., Q_cen-hängen
+Fr, 14 Aug 2020 11:35:34 +0000  QA_rec 1 1 0 4
+Fr, 14 Aug 2020 11:35:54 +0000  QA_rec 0 1 0 4
+Fr, 14 Aug 2020 11:35:54 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Ich bin von New York nach München geflogen., Q_cen-geflogen
+Fr, 14 Aug 2020 11:35:55 +0000  QA_rec 1 1 0 5
+Fr, 14 Aug 2020 11:36:15 +0000  QA_rec 0 1 0 5
+Fr, 14 Aug 2020 11:36:15 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Ich musste für meinen Vortrag eine Menge Informationen sammeln., Q_cen-sammeln
+Fr, 14 Aug 2020 11:36:16 +0000  QA_rec 1 1 0 6
+Fr, 14 Aug 2020 11:36:36 +0000  QA_rec 0 1 0 6
+Fr, 14 Aug 2020 11:36:36 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Um eine Kreditkarte zu bewerben, muss man älter als 18 werden. , Q_cen-bewerben
+Fr, 14 Aug 2020 11:36:37 +0000  QA_rec 1 1 0 7
+Fr, 14 Aug 2020 11:36:57 +0000  QA_rec 0 1 0 7
+Fr, 14 Aug 2020 11:36:57 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Das Messer ist so stumpf, dass wir nicht mehr brauchen., Q_cen-brauchen
+Fr, 14 Aug 2020 11:36:58 +0000  QA_rec 1 1 0 8
+Fr, 14 Aug 2020 11:37:18 +0000  QA_rec 0 1 0 8
+Fr, 14 Aug 2020 11:37:18 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Ich möchte einen weiteren Test durchführen, um die Ergebnisse zu prüfen., Q_cen-prüfen
+Fr, 14 Aug 2020 11:37:19 +0000  QA_rec 1 1 0 9
+Fr, 14 Aug 2020 11:37:39 +0000  QA_rec 0 1 0 9
+Fr, 14 Aug 2020 11:37:39 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Der Vogel flog zurück zu seinem Nest., Q_cen-flog
+Fr, 14 Aug 2020 11:37:40 +0000  QA_rec 1 1 0 10
+Fr, 14 Aug 2020 11:38:00 +0000  QA_rec 0 1 0 10
+Fr, 14 Aug 2020 11:38:00 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Der Tourist fragte nach dem Weg zum Opernhaus., Q_cen-fragte
+Fr, 14 Aug 2020 11:38:01 +0000  QA_rec 1 1 0 11
+Fr, 14 Aug 2020 11:38:21 +0000  QA_rec 0 1 0 11
+Fr, 14 Aug 2020 11:38:21 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Wenn eine Erkältung hat, kann mann niesen oder husten., Q_cen-husten
+Fr, 14 Aug 2020 11:38:22 +0000  QA_rec 1 1 0 12
+Fr, 14 Aug 2020 11:38:43 +0000  QA_rec 0 1 0 12
+Fr, 14 Aug 2020 11:38:43 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Mit dem neuen System können wir Dokumente effizienter organisieren., Q_cen-organisieren
+Fr, 14 Aug 2020 11:38:44 +0000  QA_rec 1 1 0 13
+Fr, 14 Aug 2020 11:39:04 +0000  QA_rec 0 1 0 13
+Fr, 14 Aug 2020 11:39:04 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Der ganze Kurs bestand die Prüfung., Q_cen-bestand
+Fr, 14 Aug 2020 11:39:05 +0000  QA_rec 1 1 0 14
+Fr, 14 Aug 2020 11:39:25 +0000  QA_rec 0 1 0 14
+Fr, 14 Aug 2020 11:39:25 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Ich konnte die Lärmquelle finden., Q_cen-finden
+Fr, 14 Aug 2020 11:39:26 +0000  QA_rec 1 1 0 15
+Fr, 14 Aug 2020 11:39:46 +0000  QA_rec 0 1 0 15
+Fr, 14 Aug 2020 11:39:46 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Die ausgehende Post muss noch eintragen werden, da sie strenge Datenschutzrichtlinien haben., Q_cen-eintragen
+Fr, 14 Aug 2020 11:39:47 +0000  QA_rec 1 1 0 16
+Fr, 14 Aug 2020 11:40:07 +0000  QA_rec 0 1 0 16
+Fr, 14 Aug 2020 11:40:07 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Ich habe meine Schuhe für die Hochzeit geputzt., Q_cen-geputzt
+Fr, 14 Aug 2020 11:40:08 +0000  QA_rec 1 1 0 17
+Fr, 14 Aug 2020 11:40:28 +0000  QA_rec 0 1 0 17
+Fr, 14 Aug 2020 11:40:28 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Die Verkäuferin beantwortete meine Fragen und konnte mich beraten., Q_cen-beraten
+Fr, 14 Aug 2020 11:40:29 +0000  QA_rec 1 1 0 18
+Fr, 14 Aug 2020 11:40:49 +0000  QA_rec 0 1 0 18
+Fr, 14 Aug 2020 11:40:49 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Mein Hund hat ein paar Tricks gelernt. , Q_cen-gelernt
+Fr, 14 Aug 2020 11:40:50 +0000  QA_rec 1 1 0 19
+Fr, 14 Aug 2020 11:41:10 +0000  QA_rec 0 1 0 19
+Fr, 14 Aug 2020 11:41:10 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Howard Carter hat viele Schätze im Grab von Tutanchamun gefunden., Q_cen-gefunden
+Fr, 14 Aug 2020 11:41:11 +0000  QA_rec 1 1 0 20
+Fr, 14 Aug 2020 11:41:31 +0000  QA_rec 0 1 0 20
+Fr, 14 Aug 2020 11:41:31 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Sie schulden mir noch Geld von gestern., Q_cen-schulden
+Fr, 14 Aug 2020 11:41:32 +0000  QA_rec 1 1 0 21
+Fr, 14 Aug 2020 11:41:52 +0000  QA_rec 0 1 0 21
+Fr, 14 Aug 2020 11:41:52 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Hans und Tina heirateten am Donnerstag in der Kirche., Q_cen-heirateten
+Fr, 14 Aug 2020 11:41:53 +0000  QA_rec 1 1 0 22
+Fr, 14 Aug 2020 11:42:13 +0000  QA_rec 0 1 0 22
+Fr, 14 Aug 2020 11:42:13 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Er möchte sich für meine Hilfe bedanken., Q_cen-bedanken
+Fr, 14 Aug 2020 11:42:14 +0000  QA_rec 1 1 0 23
+Fr, 14 Aug 2020 11:42:34 +0000  QA_rec 0 1 0 23
+Fr, 14 Aug 2020 11:42:34 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Abends essen wir meistens kalt., Q_cen-essen
+Fr, 14 Aug 2020 11:42:35 +0000  QA_rec 1 1 0 24
+Fr, 14 Aug 2020 11:42:55 +0000  QA_rec 0 1 0 24
+Fr, 14 Aug 2020 11:42:55 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Alex duscht morgens gerne im Badezimmer., Q_cen-duscht
+Fr, 14 Aug 2020 11:43:20 +0000  QA_rec 1 1 1 0
+Fr, 14 Aug 2020 11:43:40 +0000  QA_rec 0 1 1 0
+Fr, 14 Aug 2020 11:43:40 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Sebastian mag lieber ein schwarzes Brot mit Butter und Marmelade., Q_cen-mag
+Fr, 14 Aug 2020 11:43:41 +0000  QA_rec 1 1 1 1
+Fr, 14 Aug 2020 11:44:01 +0000  QA_rec 0 1 1 1
+Fr, 14 Aug 2020 11:44:01 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Im Herbst werden die Blätter von den Bäumen fallen., Q_cen-fallen
+Fr, 14 Aug 2020 11:44:02 +0000  QA_rec 1 1 1 2
+Fr, 14 Aug 2020 11:44:22 +0000  QA_rec 0 1 1 2
+Fr, 14 Aug 2020 11:44:22 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Die Bergsteiger sind in die Wand eingestiegen., Q_cen-eingestiegen
+Fr, 14 Aug 2020 11:44:23 +0000  QA_rec 1 1 1 3
+Fr, 14 Aug 2020 11:44:43 +0000  QA_rec 0 1 1 3
+Fr, 14 Aug 2020 11:44:43 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Ich musste heute Morgen richtig schnell nach der Busstation laufen., Q_cen-laufen
+Fr, 14 Aug 2020 11:44:44 +0000  QA_rec 1 1 1 4
+Fr, 14 Aug 2020 11:45:04 +0000  QA_rec 0 1 1 4
+Fr, 14 Aug 2020 11:45:04 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Das Abkommen läuft noch fünf Monate. , Q_cen-läuft
+Fr, 14 Aug 2020 11:45:05 +0000  QA_rec 1 1 1 5
+Fr, 14 Aug 2020 11:45:25 +0000  QA_rec 0 1 1 5
+Fr, 14 Aug 2020 11:45:25 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Blut fließt aus einer Wunde., Q_cen-fließt
+Fr, 14 Aug 2020 11:45:26 +0000  QA_rec 1 1 1 6
+Fr, 14 Aug 2020 11:45:46 +0000  QA_rec 0 1 1 6
+Fr, 14 Aug 2020 11:45:46 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Schauen Sie nach draußen, der Schnee fällt., Q_cen-fällt
+Fr, 14 Aug 2020 11:45:47 +0000  QA_rec 1 1 1 7
+Fr, 14 Aug 2020 11:46:07 +0000  QA_rec 0 1 1 7
+Fr, 14 Aug 2020 11:46:07 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Wir können das Fleisch grillen oder braten., Q_cen-grillen
+Fr, 14 Aug 2020 11:46:08 +0000  QA_rec 1 1 1 8
+Fr, 14 Aug 2020 11:46:28 +0000  QA_rec 0 1 1 8
+Fr, 14 Aug 2020 11:46:28 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Martin geht in ein Reisebüro und lässt sich von einem Angestellten beraten., Q_cen-beraten
+Fr, 14 Aug 2020 11:46:29 +0000  QA_rec 1 1 1 9
+Fr, 14 Aug 2020 11:46:49 +0000  QA_rec 0 1 1 9
+Fr, 14 Aug 2020 11:46:49 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Die Deutschen sind immer organisiert und werden alles planen, bevor sie irgendetwas tun., Q_cen-planen
+Fr, 14 Aug 2020 11:46:50 +0000  QA_rec 1 1 1 10
+Fr, 14 Aug 2020 11:47:10 +0000  QA_rec 0 1 1 10
+Fr, 14 Aug 2020 11:47:10 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Wenn der Wind stark bläst, ziehen die Wolken schnell über den Himmel., Q_cen-bläst
+Fr, 14 Aug 2020 11:47:11 +0000  QA_rec 1 1 1 11
+Fr, 14 Aug 2020 11:47:31 +0000  QA_rec 0 1 1 11
+Fr, 14 Aug 2020 11:47:31 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Um mein Auto zu kaufen, die Bank hat mir das Geld geliehen., Q_cen-geliehen
+Fr, 14 Aug 2020 11:47:32 +0000  QA_rec 1 1 1 12
+Fr, 14 Aug 2020 11:47:52 +0000  QA_rec 0 1 1 12
+Fr, 14 Aug 2020 11:47:52 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Plastik Müll belastet die Umwelt., Q_cen-belastet
+Fr, 14 Aug 2020 11:47:53 +0000  QA_rec 1 1 1 13
+Fr, 14 Aug 2020 11:48:13 +0000  QA_rec 0 1 1 13
+Fr, 14 Aug 2020 11:48:13 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Ich wusste nicht, ob ich lachen oder weinen sollte., Q_cen-lachen
+Fr, 14 Aug 2020 11:48:14 +0000  QA_rec 1 1 1 14
+Fr, 14 Aug 2020 11:48:34 +0000  QA_rec 0 1 1 14
+Fr, 14 Aug 2020 11:48:34 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Ich hoffe, dass alles gut geht. , Q_cen-hoffe
+Fr, 14 Aug 2020 11:48:35 +0000  QA_rec 1 1 1 15
+Fr, 14 Aug 2020 11:48:55 +0000  QA_rec 0 1 1 15
+Fr, 14 Aug 2020 11:48:55 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Ich habe probiert, ihn zu überreden, aber er will nicht uns gehen. , Q_cen-probiert
+Fr, 14 Aug 2020 11:48:56 +0000  QA_rec 1 1 1 16
+Fr, 14 Aug 2020 11:49:16 +0000  QA_rec 0 1 1 16
+Fr, 14 Aug 2020 11:49:16 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Die Reparaturen werden ungefähr drei Stunden dauern., Q_cen-dauern
+Fr, 14 Aug 2020 11:49:17 +0000  QA_rec 1 1 1 17
+Fr, 14 Aug 2020 11:49:37 +0000  QA_rec 0 1 1 17
+Fr, 14 Aug 2020 11:49:37 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Er hat die Verbindung zwischen zwei Zufälligkeiten hergestellt., Q_cen-hergestellt
+Fr, 14 Aug 2020 11:49:38 +0000  QA_rec 1 1 1 18
+Fr, 14 Aug 2020 11:49:58 +0000  QA_rec 0 1 1 18
+Fr, 14 Aug 2020 11:49:58 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Bevor es Autos gab, sind die Leute mit der Eisenbahn gefahren., Q_cen-gefahren
+Fr, 14 Aug 2020 11:49:59 +0000  QA_rec 1 1 1 19
+Fr, 14 Aug 2020 11:50:19 +0000  QA_rec 0 1 1 19
+Fr, 14 Aug 2020 11:50:19 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Können Sie die Kleidung des Täters beschreiben?, Q_cen-beschreiben
+Fr, 14 Aug 2020 11:50:20 +0000  QA_rec 1 1 1 20
+Fr, 14 Aug 2020 11:50:40 +0000  QA_rec 0 1 1 20
+Fr, 14 Aug 2020 11:50:40 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Im Sommer gehen Alice und Tom gerne in die Bäder schwimmen., Q_cen-schwimmen
+Fr, 14 Aug 2020 11:50:41 +0000  QA_rec 1 1 1 21
+Fr, 14 Aug 2020 11:51:01 +0000  QA_rec 0 1 1 21
+Fr, 14 Aug 2020 11:51:01 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-In der Therapie lernte er, mit Angst und Stress umzugehen., Q_cen-umzugehen
+Fr, 14 Aug 2020 11:51:02 +0000  QA_rec 1 1 1 22
+Fr, 14 Aug 2020 11:51:22 +0000  QA_rec 0 1 1 22
+Fr, 14 Aug 2020 11:51:22 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Sie beschrieb der Polizei den Dieb so genau, dass diese ihn festnehmen konnnte., Q_cen-beschrieb
+Fr, 14 Aug 2020 11:51:23 +0000  QA_rec 1 1 1 23
+Fr, 14 Aug 2020 11:51:44 +0000  QA_rec 0 1 1 23
+Fr, 14 Aug 2020 11:51:44 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Vater trägt den großen Rucksack auf dem Rücken., Q_cen-trägt
+Fr, 14 Aug 2020 11:51:45 +0000  QA_rec 1 1 1 24
+Fr, 14 Aug 2020 11:52:05 +0000  QA_rec 0 1 1 24
+Fr, 14 Aug 2020 11:52:05 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Ich nehme nicht gerne Zucker zum Tee., Q_cen-nehme
