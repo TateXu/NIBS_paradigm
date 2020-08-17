@@ -1,0 +1,162 @@
+Mo, 17 Aug 2020 11:30:15 +0000  fade_in 1 1 None None
+Mo, 17 Aug 2020 11:30:50 +0000  fade_in 0 1 None None
+Mo, 17 Aug 2020 11:30:52 +0000  RS_intro 1 1 0 None
+Mo, 17 Aug 2020 11:31:15 +0000  RS_intro 0 1 0 None
+Mo, 17 Aug 2020 11:31:15 +0000  RS_rec 1 1 0 None
+Mo, 17 Aug 2020 11:34:18 +0000  RS_rec 0 1 open None
+Mo, 17 Aug 2020 11:34:18 +0000  RS_intro 1 1 1 None
+Mo, 17 Aug 2020 11:34:41 +0000  RS_intro 0 1 1 None
+Mo, 17 Aug 2020 11:34:41 +0000  RS_rec 1 1 1 None
+Mo, 17 Aug 2020 11:37:45 +0000  RS_rec 0 1 close None
+Mo, 17 Aug 2020 11:37:59 +0000  QA_intro 1 1 None None
+Mo, 17 Aug 2020 11:38:39 +0000  QA_intro 0 1 None None
+Mo, 17 Aug 2020 11:38:41 +0000  QA_rec 1 1 0 0
+Mo, 17 Aug 2020 11:39:01 +0000  QA_rec 0 1 0 0
+Mo, 17 Aug 2020 11:39:01 +0000  Run-1, Block-0, Trial-0, Q_cnt-50, Q_sen-In der Pause werden kleine Brötchen serviert., Q_cen-serviert
+Mo, 17 Aug 2020 11:39:02 +0000  QA_rec 1 1 0 1
+Mo, 17 Aug 2020 11:39:22 +0000  QA_rec 0 1 0 1
+Mo, 17 Aug 2020 11:39:22 +0000  Run-1, Block-0, Trial-1, Q_cnt-51, Q_sen-Die Ärztin hat Andrea ein Rezept ausgestellt., Q_cen-ausgestellt
+Mo, 17 Aug 2020 11:39:23 +0000  QA_rec 1 1 0 2
+Mo, 17 Aug 2020 11:39:44 +0000  QA_rec 0 1 0 2
+Mo, 17 Aug 2020 11:39:44 +0000  Run-1, Block-0, Trial-2, Q_cnt-52, Q_sen-Lisa kann schon mit großen Zahlen rechnen., Q_cen-rechnen
+Mo, 17 Aug 2020 11:39:45 +0000  QA_rec 1 1 0 3
+Mo, 17 Aug 2020 11:40:05 +0000  QA_rec 0 1 0 3
+Mo, 17 Aug 2020 11:40:05 +0000  Run-1, Block-0, Trial-3, Q_cnt-53, Q_sen-Die Schneiderin änderte das Kleid, weil das Kleid zu groß ist., Q_cen-änderte
+Mo, 17 Aug 2020 11:40:06 +0000  QA_rec 1 1 0 4
+Mo, 17 Aug 2020 11:40:26 +0000  QA_rec 0 1 0 4
+Mo, 17 Aug 2020 11:40:26 +0000  Run-1, Block-0, Trial-4, Q_cnt-54, Q_sen-Wir hoffen, dass die Verhandlungen zu einem erfolgreichen Abschluss kommen., Q_cen-hoffen
+Mo, 17 Aug 2020 11:40:27 +0000  QA_rec 1 1 0 5
+Mo, 17 Aug 2020 11:40:47 +0000  QA_rec 0 1 0 5
+Mo, 17 Aug 2020 11:40:47 +0000  Run-1, Block-0, Trial-5, Q_cnt-55, Q_sen-Diese Speise schmeckt sauer., Q_cen-schmeckt
+Mo, 17 Aug 2020 11:40:48 +0000  QA_rec 1 1 0 6
+Mo, 17 Aug 2020 11:41:08 +0000  QA_rec 0 1 0 6
+Mo, 17 Aug 2020 11:41:08 +0000  Run-1, Block-0, Trial-6, Q_cnt-56, Q_sen-Während einer Trocken-Zeit regnet es sehr selten., Q_cen-regnet
+Mo, 17 Aug 2020 11:41:09 +0000  QA_rec 1 1 0 7
+Mo, 17 Aug 2020 11:41:29 +0000  QA_rec 0 1 0 7
+Mo, 17 Aug 2020 11:41:29 +0000  Run-1, Block-0, Trial-7, Q_cnt-57, Q_sen-Nachdem er nach dem Flugzeugunglück gerettet wurde, hat er an Gott geglaubt., Q_cen-geglaubt
+Mo, 17 Aug 2020 11:41:30 +0000  QA_rec 1 1 0 8
+Mo, 17 Aug 2020 11:41:50 +0000  QA_rec 0 1 0 8
+Mo, 17 Aug 2020 11:41:50 +0000  Run-1, Block-0, Trial-8, Q_cnt-58, Q_sen-Er hat Kartoffeln mit der Schale gekocht., Q_cen-gekocht
+Mo, 17 Aug 2020 11:41:51 +0000  QA_rec 1 1 0 9
+Mo, 17 Aug 2020 11:42:11 +0000  QA_rec 0 1 0 9
+Mo, 17 Aug 2020 11:42:11 +0000  Run-1, Block-0, Trial-9, Q_cnt-59, Q_sen-Wenn es am Sonntag Morgen regnet, bleibt Franz den ganzen Tag im Bett., Q_cen-bleibt
+Mo, 17 Aug 2020 11:42:12 +0000  QA_rec 1 1 0 10
+Mo, 17 Aug 2020 11:42:32 +0000  QA_rec 0 1 0 10
+Mo, 17 Aug 2020 11:42:32 +0000  Run-1, Block-0, Trial-10, Q_cnt-60, Q_sen-Das Thema interessierte sie, daher hörte sie genau zu., Q_cen-interessierte
+Mo, 17 Aug 2020 11:42:33 +0000  QA_rec 1 1 0 11
+Mo, 17 Aug 2020 11:42:53 +0000  QA_rec 0 1 0 11
+Mo, 17 Aug 2020 11:42:53 +0000  Run-1, Block-0, Trial-11, Q_cnt-61, Q_sen-Paul hat zum Abendessen Kartoffelsuppe gegessen., Q_cen-gegessen
+Mo, 17 Aug 2020 11:42:54 +0000  QA_rec 1 1 0 12
+Mo, 17 Aug 2020 11:43:14 +0000  QA_rec 0 1 0 12
+Mo, 17 Aug 2020 11:43:14 +0000  Run-1, Block-0, Trial-12, Q_cnt-62, Q_sen-Da der Koffer bereits zu schwer ist, muss ich leichte Kleidung einpacken., Q_cen-einpacken
+Mo, 17 Aug 2020 11:43:15 +0000  QA_rec 1 1 0 13
+Mo, 17 Aug 2020 11:43:35 +0000  QA_rec 0 1 0 13
+Mo, 17 Aug 2020 11:43:35 +0000  Run-1, Block-0, Trial-13, Q_cnt-63, Q_sen-Er kann sie nicht hören, weil sie zu leise spricht., Q_cen-hören
+Mo, 17 Aug 2020 11:43:36 +0000  QA_rec 1 1 0 14
+Mo, 17 Aug 2020 11:43:56 +0000  QA_rec 0 1 0 14
+Mo, 17 Aug 2020 11:43:56 +0000  Run-1, Block-0, Trial-14, Q_cnt-64, Q_sen-Du muss deine schmutzige Kleidung in der Wäscherei waschen., Q_cen-waschen
+Mo, 17 Aug 2020 11:43:57 +0000  QA_rec 1 1 0 15
+Mo, 17 Aug 2020 11:44:17 +0000  QA_rec 0 1 0 15
+Mo, 17 Aug 2020 11:44:17 +0000  Run-1, Block-0, Trial-15, Q_cnt-65, Q_sen-Wenn Sie mit diesem Produkt nicht zufrieden sind, können wir eine Alternative anbieten., Q_cen-anbieten
+Mo, 17 Aug 2020 11:44:18 +0000  QA_rec 1 1 0 16
+Mo, 17 Aug 2020 11:44:38 +0000  QA_rec 0 1 0 16
+Mo, 17 Aug 2020 11:44:38 +0000  Run-1, Block-0, Trial-16, Q_cnt-66, Q_sen-Mani ist ins Kino gegangen und hat sich einen guten Film angesehen., Q_cen-angesehen
+Mo, 17 Aug 2020 11:44:39 +0000  QA_rec 1 1 0 17
+Mo, 17 Aug 2020 11:44:59 +0000  QA_rec 0 1 0 17
+Mo, 17 Aug 2020 11:44:59 +0000  Run-1, Block-0, Trial-17, Q_cnt-67, Q_sen-Ich habe mich schon oft über den schrecklichen Service beschwert., Q_cen-beschwert
+Mo, 17 Aug 2020 11:45:00 +0000  QA_rec 1 1 0 18
+Mo, 17 Aug 2020 11:45:20 +0000  QA_rec 0 1 0 18
+Mo, 17 Aug 2020 11:45:20 +0000  Run-1, Block-0, Trial-18, Q_cnt-68, Q_sen-Sam glaubt an eine marxistische Weltanschauung., Q_cen-glaubt
+Mo, 17 Aug 2020 11:45:21 +0000  QA_rec 1 1 0 19
+Mo, 17 Aug 2020 11:45:41 +0000  QA_rec 0 1 0 19
+Mo, 17 Aug 2020 11:45:41 +0000  Run-1, Block-0, Trial-19, Q_cnt-69, Q_sen-Meine Großtante starb letztes Jahr und wurde neben ihrem Mann begraben., Q_cen-begraben
+Mo, 17 Aug 2020 11:45:42 +0000  QA_rec 1 1 0 20
+Mo, 17 Aug 2020 11:46:02 +0000  QA_rec 0 1 0 20
+Mo, 17 Aug 2020 11:46:02 +0000  Run-1, Block-0, Trial-20, Q_cnt-70, Q_sen-Ich habe den schrecklichen Verdacht, dass Hans das Geld gestohlen hat., Q_cen-gestohlen
+Mo, 17 Aug 2020 11:46:03 +0000  QA_rec 1 1 0 21
+Mo, 17 Aug 2020 11:46:23 +0000  QA_rec 0 1 0 21
+Mo, 17 Aug 2020 11:46:23 +0000  Run-1, Block-0, Trial-21, Q_cnt-71, Q_sen-Als das Spiel unentschieden endete, wurde es um zweimal 15 Minuten verlängert., Q_cen-endete
+Mo, 17 Aug 2020 11:46:24 +0000  QA_rec 1 1 0 22
+Mo, 17 Aug 2020 11:46:44 +0000  QA_rec 0 1 0 22
+Mo, 17 Aug 2020 11:46:44 +0000  Run-1, Block-0, Trial-22, Q_cnt-72, Q_sen-Die Kinder haben ihrer Mutter im Haushalt geholfen., Q_cen-geholfen
+Mo, 17 Aug 2020 11:46:45 +0000  QA_rec 1 1 0 23
+Mo, 17 Aug 2020 11:47:05 +0000  QA_rec 0 1 0 23
+Mo, 17 Aug 2020 11:47:05 +0000  Run-1, Block-0, Trial-23, Q_cnt-73, Q_sen-Morgens stehe ich um kurz vor sieben Uhr auf., Q_cen-stehe
+Mo, 17 Aug 2020 11:47:06 +0000  QA_rec 1 1 0 24
+Mo, 17 Aug 2020 11:47:27 +0000  QA_rec 0 1 0 24
+Mo, 17 Aug 2020 11:47:27 +0000  Run-1, Block-0, Trial-24, Q_cnt-74, Q_sen-Die kluge Gebäudekonstruktion kann das Haus vor Windschäden schützen., Q_cen-schützen
+Mo, 17 Aug 2020 11:48:14 +0000  QA_rec 1 1 1 0
+Mo, 17 Aug 2020 11:48:34 +0000  QA_rec 0 1 1 0
+Mo, 17 Aug 2020 11:48:34 +0000  Run-1, Block-1, Trial-0, Q_cnt-75, Q_sen-Wir bestellten ein stück Hassnuss Kuchen zum Dessert., Q_cen-bestellten
+Mo, 17 Aug 2020 11:48:35 +0000  QA_rec 1 1 1 1
+Mo, 17 Aug 2020 11:48:55 +0000  QA_rec 0 1 1 1
+Mo, 17 Aug 2020 11:48:55 +0000  Run-1, Block-1, Trial-1, Q_cnt-76, Q_sen-Die Band beendete das Konzert unter großem Beifall., Q_cen-beendete
+Mo, 17 Aug 2020 11:48:56 +0000  QA_rec 1 1 1 2
+Mo, 17 Aug 2020 11:49:17 +0000  QA_rec 0 1 1 2
+Mo, 17 Aug 2020 11:49:17 +0000  Run-1, Block-1, Trial-2, Q_cnt-77, Q_sen-Einige Eltern haben ihren Töchtern rosa Kleider gekauft., Q_cen-gekauft
+Mo, 17 Aug 2020 11:49:18 +0000  QA_rec 1 1 1 3
+Mo, 17 Aug 2020 11:49:38 +0000  QA_rec 0 1 1 3
+Mo, 17 Aug 2020 11:49:38 +0000  Run-1, Block-1, Trial-3, Q_cnt-78, Q_sen-Der Amazon Kurier hat das Paket geliefert., Q_cen-geliefert
+Mo, 17 Aug 2020 11:49:39 +0000  QA_rec 1 1 1 4
+Mo, 17 Aug 2020 11:49:59 +0000  QA_rec 0 1 1 4
+Mo, 17 Aug 2020 11:49:59 +0000  Run-1, Block-1, Trial-4, Q_cnt-79, Q_sen-Eric ist ein guter Fahrer, obwohl er gerade erst seinen Führerschein gemacht hat., Q_cen-gemacht
+Mo, 17 Aug 2020 11:50:00 +0000  QA_rec 1 1 1 5
+Mo, 17 Aug 2020 11:50:20 +0000  QA_rec 0 1 1 5
+Mo, 17 Aug 2020 11:50:20 +0000  Run-1, Block-1, Trial-5, Q_cnt-80, Q_sen-Was bedeutet Pressefreiheit für dich?, Q_cen-bedeutet
+Mo, 17 Aug 2020 11:50:21 +0000  QA_rec 1 1 1 6
+Mo, 17 Aug 2020 11:50:41 +0000  QA_rec 0 1 1 6
+Mo, 17 Aug 2020 11:50:41 +0000  Run-1, Block-1, Trial-6, Q_cnt-81, Q_sen-Früh übt sich, wer ein Meister werden will., Q_cen-werden
+Mo, 17 Aug 2020 11:50:42 +0000  QA_rec 1 1 1 7
+Mo, 17 Aug 2020 11:51:02 +0000  QA_rec 0 1 1 7
+Mo, 17 Aug 2020 11:51:02 +0000  Run-1, Block-1, Trial-7, Q_cnt-82, Q_sen-Peter sitzt den ganzen Tag am Computer., Q_cen-sitzt
+Mo, 17 Aug 2020 11:51:03 +0000  QA_rec 1 1 1 8
+Mo, 17 Aug 2020 11:51:23 +0000  QA_rec 0 1 1 8
+Mo, 17 Aug 2020 11:51:23 +0000  Run-1, Block-1, Trial-8, Q_cnt-83, Q_sen-Ich gehe gerne alles in dem Geschäft um die Ecke einkaufen., Q_cen-einkaufen
+Mo, 17 Aug 2020 11:51:24 +0000  QA_rec 1 1 1 9
+Mo, 17 Aug 2020 11:51:44 +0000  QA_rec 0 1 1 9
+Mo, 17 Aug 2020 11:51:44 +0000  Run-1, Block-1, Trial-9, Q_cnt-84, Q_sen-Ich möchte einen Tisch für das Abendessen reservieren., Q_cen-reservieren
+Mo, 17 Aug 2020 11:51:45 +0000  QA_rec 1 1 1 10
+Mo, 17 Aug 2020 11:52:05 +0000  QA_rec 0 1 1 10
+Mo, 17 Aug 2020 11:52:05 +0000  Run-1, Block-1, Trial-10, Q_cnt-85, Q_sen-Die Abgase der Benzinmotoren werden die Luft verschmutzen., Q_cen-verschmutzen
+Mo, 17 Aug 2020 11:52:06 +0000  QA_rec 1 1 1 11
+Mo, 17 Aug 2020 11:52:26 +0000  QA_rec 0 1 1 11
+Mo, 17 Aug 2020 11:52:26 +0000  Run-1, Block-1, Trial-11, Q_cnt-86, Q_sen-Wenn du dich in einer gefährlichen Situation befindest, rufe nach Hilfe., Q_cen-rufe
+Mo, 17 Aug 2020 11:52:27 +0000  QA_rec 1 1 1 12
+Mo, 17 Aug 2020 11:52:47 +0000  QA_rec 0 1 1 12
+Mo, 17 Aug 2020 11:52:47 +0000  Run-1, Block-1, Trial-12, Q_cnt-87, Q_sen-Der Klima Schutz soll verhindern, dass es auf der Erde immer wärmer wird., Q_cen-verhindern
+Mo, 17 Aug 2020 11:52:48 +0000  QA_rec 1 1 1 13
+Mo, 17 Aug 2020 11:53:08 +0000  QA_rec 0 1 1 13
+Mo, 17 Aug 2020 11:53:08 +0000  Run-1, Block-1, Trial-13, Q_cnt-88, Q_sen-Hans arbeitet in einer Schule, er ist der Direktor., Q_cen-arbeitet
+Mo, 17 Aug 2020 11:53:09 +0000  QA_rec 1 1 1 14
+Mo, 17 Aug 2020 11:53:29 +0000  QA_rec 0 1 1 14
+Mo, 17 Aug 2020 11:53:29 +0000  Run-1, Block-1, Trial-14, Q_cnt-89, Q_sen-Ein Arzt behandelt kranke Leute in einer Praxis oder im Krankenhaus., Q_cen-behandelt
+Mo, 17 Aug 2020 11:53:30 +0000  QA_rec 1 1 1 15
+Mo, 17 Aug 2020 11:53:50 +0000  QA_rec 0 1 1 15
+Mo, 17 Aug 2020 11:53:50 +0000  Run-1, Block-1, Trial-15, Q_cnt-90, Q_sen-Der Baum hängt voller Früchte., Q_cen-hängt
+Mo, 17 Aug 2020 11:53:51 +0000  QA_rec 1 1 1 16
+Mo, 17 Aug 2020 11:54:11 +0000  QA_rec 0 1 1 16
+Mo, 17 Aug 2020 11:54:11 +0000  Run-1, Block-1, Trial-16, Q_cnt-91, Q_sen-Es ist ratsam, auch das Urteil anderer zu hören., Q_cen-hören
+Mo, 17 Aug 2020 11:54:12 +0000  QA_rec 1 1 1 17
+Mo, 17 Aug 2020 11:54:32 +0000  QA_rec 0 1 1 17
+Mo, 17 Aug 2020 11:54:32 +0000  Run-1, Block-1, Trial-17, Q_cnt-92, Q_sen-Ich nehme lieber den Bus, da gibt es nicht so viele Haltestellen., Q_cen-gibt
+Mo, 17 Aug 2020 11:54:33 +0000  QA_rec 1 1 1 18
+Mo, 17 Aug 2020 11:54:53 +0000  QA_rec 0 1 1 18
+Mo, 17 Aug 2020 11:54:53 +0000  Run-1, Block-1, Trial-18, Q_cnt-93, Q_sen-Man bezahlt für den Naturschutz., Q_cen-bezahlt
+Mo, 17 Aug 2020 11:54:54 +0000  QA_rec 1 1 1 19
+Mo, 17 Aug 2020 11:55:14 +0000  QA_rec 0 1 1 19
+Mo, 17 Aug 2020 11:55:14 +0000  Run-1, Block-1, Trial-19, Q_cnt-94, Q_sen-Wir müssen die Kunden jeden Monat über ihren finanziellen Status informieren., Q_cen-informieren
+Mo, 17 Aug 2020 11:55:15 +0000  QA_rec 1 1 1 20
+Mo, 17 Aug 2020 11:55:35 +0000  QA_rec 0 1 1 20
+Mo, 17 Aug 2020 11:55:35 +0000  Run-1, Block-1, Trial-20, Q_cnt-95, Q_sen-Sie hat den Newsletter abonniert, um weitere Informationen zu erhalten., Q_cen-abonniert
+Mo, 17 Aug 2020 11:55:36 +0000  QA_rec 1 1 1 21
+Mo, 17 Aug 2020 11:55:57 +0000  QA_rec 0 1 1 21
+Mo, 17 Aug 2020 11:55:57 +0000  Run-1, Block-1, Trial-21, Q_cnt-96, Q_sen-Sie hat neue Laufschuhe bekommen., Q_cen-bekommen
+Mo, 17 Aug 2020 11:55:58 +0000  QA_rec 1 1 1 22
+Mo, 17 Aug 2020 11:56:18 +0000  QA_rec 0 1 1 22
+Mo, 17 Aug 2020 11:56:18 +0000  Run-1, Block-1, Trial-22, Q_cnt-97, Q_sen-Die Universität hat meinen Studentenausweis ausgestellt., Q_cen-ausgestellt
+Mo, 17 Aug 2020 11:56:19 +0000  QA_rec 1 1 1 23
+Mo, 17 Aug 2020 11:56:39 +0000  QA_rec 0 1 1 23
+Mo, 17 Aug 2020 11:56:39 +0000  Run-1, Block-1, Trial-23, Q_cnt-98, Q_sen-Ich kann nicht mit dem Auto fahren., Q_cen-fahren
+Mo, 17 Aug 2020 11:56:40 +0000  QA_rec 1 1 1 24
+Mo, 17 Aug 2020 11:57:00 +0000  QA_rec 0 1 1 24
+Mo, 17 Aug 2020 11:57:00 +0000  Run-1, Block-1, Trial-24, Q_cnt-99, Q_sen-Seit der Urzeit haben die Menschen an Götter geglaubt., Q_cen-geglaubt

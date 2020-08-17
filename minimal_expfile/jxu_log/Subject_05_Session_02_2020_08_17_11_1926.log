@@ -1,0 +1,78 @@
+Mo, 17 Aug 2020 11:19:32 +0000  QA_intro 1 0 None None
+Mo, 17 Aug 2020 11:20:13 +0000  QA_intro 0 0 None None
+Mo, 17 Aug 2020 11:20:15 +0000  QA_rec 1 0 1 0
+Mo, 17 Aug 2020 11:20:35 +0000  QA_rec 0 0 1 0
+Mo, 17 Aug 2020 11:20:35 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Die Polizei sammelte alle verfügbaren Informationen., Q_cen-sammelte
+Mo, 17 Aug 2020 11:20:36 +0000  QA_rec 1 0 1 1
+Mo, 17 Aug 2020 11:20:56 +0000  QA_rec 0 0 1 1
+Mo, 17 Aug 2020 11:20:56 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Die Deutschen sind immer organisiert und werden alles planen, bevor sie irgendetwas tun., Q_cen-planen
+Mo, 17 Aug 2020 11:20:57 +0000  QA_rec 1 0 1 2
+Mo, 17 Aug 2020 11:21:17 +0000  QA_rec 0 0 1 2
+Mo, 17 Aug 2020 11:21:17 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Sie beschrieb der Polizei den Dieb so genau, dass diese ihn festnehmen konnnte., Q_cen-beschrieb
+Mo, 17 Aug 2020 11:21:18 +0000  QA_rec 1 0 1 3
+Mo, 17 Aug 2020 11:21:38 +0000  QA_rec 0 0 1 3
+Mo, 17 Aug 2020 11:21:38 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Man kann oft aus Fehlern lernen., Q_cen-lernen
+Mo, 17 Aug 2020 11:21:39 +0000  QA_rec 1 0 1 4
+Mo, 17 Aug 2020 11:21:59 +0000  QA_rec 0 0 1 4
+Mo, 17 Aug 2020 11:21:59 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Bevor man ein Haus baut, zeichnet der Architekt einen Plan., Q_cen-zeichnet
+Mo, 17 Aug 2020 11:22:00 +0000  QA_rec 1 0 1 5
+Mo, 17 Aug 2020 11:22:20 +0000  QA_rec 0 0 1 5
+Mo, 17 Aug 2020 11:22:20 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Ich ging zum Arzt, weil ich mich unangenehm fühlte., Q_cen-fühlte
+Mo, 17 Aug 2020 11:22:21 +0000  QA_rec 1 0 1 6
+Mo, 17 Aug 2020 11:22:41 +0000  QA_rec 0 0 1 6
+Mo, 17 Aug 2020 11:22:41 +0000  Run-0, Block-1, Trial-6, Q_cnt-31, Q_sen-Ich konnte die Lärmquelle finden., Q_cen-finden
+Mo, 17 Aug 2020 11:22:42 +0000  QA_rec 1 0 1 7
+Mo, 17 Aug 2020 11:23:02 +0000  QA_rec 0 0 1 7
+Mo, 17 Aug 2020 11:23:02 +0000  Run-0, Block-1, Trial-7, Q_cnt-32, Q_sen-Können Sie mir einen guten Augenarzt empfehlen?, Q_cen-empfehlen
+Mo, 17 Aug 2020 11:23:03 +0000  QA_rec 1 0 1 8
+Mo, 17 Aug 2020 11:23:23 +0000  QA_rec 0 0 1 8
+Mo, 17 Aug 2020 11:23:23 +0000  Run-0, Block-1, Trial-8, Q_cnt-33, Q_sen-Linda trinkt lieber eine heiße Schokolade., Q_cen-trinkt
+Mo, 17 Aug 2020 11:23:24 +0000  QA_rec 1 0 1 9
+Mo, 17 Aug 2020 11:23:44 +0000  QA_rec 0 0 1 9
+Mo, 17 Aug 2020 11:23:44 +0000  Run-0, Block-1, Trial-9, Q_cnt-34, Q_sen-Ich surfe gern im Internet und chatte mit Freunden., Q_cen-chatte
+Mo, 17 Aug 2020 11:23:45 +0000  QA_rec 1 0 1 10
+Mo, 17 Aug 2020 11:24:05 +0000  QA_rec 0 0 1 10
+Mo, 17 Aug 2020 11:24:05 +0000  Run-0, Block-1, Trial-10, Q_cnt-35, Q_sen-Wenn genug Schnee liegt, fahren sie gerne Schi., Q_cen-fahren
+Mo, 17 Aug 2020 11:24:06 +0000  QA_rec 1 0 1 11
+Mo, 17 Aug 2020 11:24:26 +0000  QA_rec 0 0 1 11
+Mo, 17 Aug 2020 11:24:26 +0000  Run-0, Block-1, Trial-11, Q_cnt-36, Q_sen-Bananen wachsen auf Palmen., Q_cen-wachsen
+Mo, 17 Aug 2020 11:24:27 +0000  QA_rec 1 0 1 12
+Mo, 17 Aug 2020 11:24:47 +0000  QA_rec 0 0 1 12
+Mo, 17 Aug 2020 11:24:47 +0000  Run-0, Block-1, Trial-12, Q_cnt-37, Q_sen-Die U-Bahn ist gerade kaputt, also muss ich aussteigen. , Q_cen-aussteigen
+Mo, 17 Aug 2020 11:24:48 +0000  QA_rec 1 0 1 13
+Mo, 17 Aug 2020 11:25:08 +0000  QA_rec 0 0 1 13
+Mo, 17 Aug 2020 11:25:08 +0000  Run-0, Block-1, Trial-13, Q_cnt-38, Q_sen-Bitte zahlen Sie an Kasse Nummer Zwei., Q_cen-zahlen
+Mo, 17 Aug 2020 11:25:09 +0000  QA_rec 1 0 1 14
+Mo, 17 Aug 2020 11:25:29 +0000  QA_rec 0 0 1 14
+Mo, 17 Aug 2020 11:25:29 +0000  Run-0, Block-1, Trial-14, Q_cnt-39, Q_sen-Nachdem ich nicht da war, kann ich nichts dazu sagen., Q_cen-sagen
+Mo, 17 Aug 2020 11:25:30 +0000  QA_rec 1 0 1 15
+Mo, 17 Aug 2020 11:25:50 +0000  QA_rec 0 0 1 15
+Mo, 17 Aug 2020 11:25:50 +0000  Run-0, Block-1, Trial-15, Q_cnt-40, Q_sen-Wie lange muss Pat heute im Firma noch arbeiten?, Q_cen-arbeiten
+Mo, 17 Aug 2020 11:25:51 +0000  QA_rec 1 0 1 16
+Mo, 17 Aug 2020 11:26:11 +0000  QA_rec 0 0 1 16
+Mo, 17 Aug 2020 11:26:11 +0000  Run-0, Block-1, Trial-16, Q_cnt-41, Q_sen-Es freut mich sehr, Sie kennenzulernen., Q_cen-freut
+Mo, 17 Aug 2020 11:26:12 +0000  QA_rec 1 0 1 17
+Mo, 17 Aug 2020 11:26:32 +0000  QA_rec 0 0 1 17
+Mo, 17 Aug 2020 11:26:32 +0000  Run-0, Block-1, Trial-17, Q_cnt-42, Q_sen-Er hängte seine Jacke über die Lehne des Stuhls., Q_cen-hängte
+Mo, 17 Aug 2020 11:26:33 +0000  QA_rec 1 0 1 18
+Mo, 17 Aug 2020 11:26:54 +0000  QA_rec 0 0 1 18
+Mo, 17 Aug 2020 11:26:54 +0000  Run-0, Block-1, Trial-18, Q_cnt-43, Q_sen-Brot kann man in der Bäckerei kaufen., Q_cen-kaufen
+Mo, 17 Aug 2020 11:26:55 +0000  QA_rec 1 0 1 19
+Mo, 17 Aug 2020 11:27:15 +0000  QA_rec 0 0 1 19
+Mo, 17 Aug 2020 11:27:15 +0000  Run-0, Block-1, Trial-19, Q_cnt-44, Q_sen-Ja, das Wasser aus der Leitung kann man trinken., Q_cen-trinken
+Mo, 17 Aug 2020 11:27:16 +0000  QA_rec 1 0 1 20
+Mo, 17 Aug 2020 11:27:36 +0000  QA_rec 0 0 1 20
+Mo, 17 Aug 2020 11:27:36 +0000  Run-0, Block-1, Trial-20, Q_cnt-45, Q_sen-Die Tulpen stammen eigentlich aus Persien und der Türkei., Q_cen-stammen
+Mo, 17 Aug 2020 11:27:37 +0000  QA_rec 1 0 1 21
+Mo, 17 Aug 2020 11:27:57 +0000  QA_rec 0 0 1 21
+Mo, 17 Aug 2020 11:27:57 +0000  Run-0, Block-1, Trial-21, Q_cnt-46, Q_sen-Darf ich mit einem Scheck bezahlen?, Q_cen-bezahlen
+Mo, 17 Aug 2020 11:27:58 +0000  QA_rec 1 0 1 22
+Mo, 17 Aug 2020 11:28:18 +0000  QA_rec 0 0 1 22
+Mo, 17 Aug 2020 11:28:18 +0000  Run-0, Block-1, Trial-22, Q_cnt-47, Q_sen-Ich möchte einen weiteren Test durchführen, um die Ergebnisse zu prüfen., Q_cen-prüfen
+Mo, 17 Aug 2020 11:28:19 +0000  QA_rec 1 0 1 23
+Mo, 17 Aug 2020 11:28:39 +0000  QA_rec 0 0 1 23
+Mo, 17 Aug 2020 11:28:39 +0000  Run-0, Block-1, Trial-23, Q_cnt-48, Q_sen-Morgen machen wir einen Ausflug in den Schönbrunner Tiergarten., Q_cen-machen
+Mo, 17 Aug 2020 11:28:40 +0000  QA_rec 1 0 1 24
+Mo, 17 Aug 2020 11:29:00 +0000  QA_rec 0 0 1 24
+Mo, 17 Aug 2020 11:29:00 +0000  Run-0, Block-1, Trial-24, Q_cnt-49, Q_sen-Ich bekomme ein Gehalt und Nebenleistungen., Q_cen-bekomme
+Mo, 17 Aug 2020 11:29:07 +0000  QA_intro 1 1 None None

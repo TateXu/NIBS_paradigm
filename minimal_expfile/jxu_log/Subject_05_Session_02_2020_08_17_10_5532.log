@@ -1,0 +1,106 @@
+Mo, 17 Aug 2020 10:55:35 +0000  fade_in 1 0 None None
+Mo, 17 Aug 2020 10:56:05 +0000  fade_in 0 0 None None
+Mo, 17 Aug 2020 10:56:07 +0000  RS_intro 1 0 0 None
+Mo, 17 Aug 2020 10:56:30 +0000  RS_intro 0 0 0 None
+Mo, 17 Aug 2020 10:56:30 +0000  RS_rec 1 0 0 None
+Mo, 17 Aug 2020 10:59:34 +0000  RS_rec 0 0 close None
+Mo, 17 Aug 2020 10:59:34 +0000  RS_intro 1 0 1 None
+Mo, 17 Aug 2020 10:59:57 +0000  RS_intro 0 0 1 None
+Mo, 17 Aug 2020 10:59:57 +0000  RS_rec 1 0 1 None
+Mo, 17 Aug 2020 11:03:00 +0000  RS_rec 0 0 open None
+Mo, 17 Aug 2020 11:03:15 +0000  QA_intro 1 0 None None
+Mo, 17 Aug 2020 11:03:57 +0000  QA_intro 0 0 None None
+Mo, 17 Aug 2020 11:03:59 +0000  QA_rec 1 0 0 0
+Mo, 17 Aug 2020 11:04:19 +0000  QA_rec 0 0 0 0
+Mo, 17 Aug 2020 11:04:19 +0000  Run-0, Block-0, Trial-0, Q_cnt-0, Q_sen-Sie sollten mehr Obst essen, Vitamin C wird Ihnen bei Erkältungen helfen., Q_cen-helfen
+Mo, 17 Aug 2020 11:04:20 +0000  QA_rec 1 0 0 1
+Mo, 17 Aug 2020 11:04:40 +0000  QA_rec 0 0 0 1
+Mo, 17 Aug 2020 11:04:40 +0000  Run-0, Block-0, Trial-1, Q_cnt-1, Q_sen-Herr Müller hat einen Flug auf die Mittelmeerinsel Mallorca gebucht., Q_cen-gebucht
+Mo, 17 Aug 2020 11:04:41 +0000  QA_rec 1 0 0 2
+Mo, 17 Aug 2020 11:05:01 +0000  QA_rec 0 0 0 2
+Mo, 17 Aug 2020 11:05:01 +0000  Run-0, Block-0, Trial-2, Q_cnt-2, Q_sen-Der Tourist fragte nach dem Weg zum Opernhaus., Q_cen-fragte
+Mo, 17 Aug 2020 11:05:02 +0000  QA_rec 1 0 0 3
+Mo, 17 Aug 2020 11:05:22 +0000  QA_rec 0 0 0 3
+Mo, 17 Aug 2020 11:05:22 +0000  Run-0, Block-0, Trial-3, Q_cnt-3, Q_sen-Ich kann es kaum abwarten, das Video meiner Hochzeit zu sehen., Q_cen-abwarten
+Mo, 17 Aug 2020 11:05:23 +0000  QA_rec 1 0 0 4
+Mo, 17 Aug 2020 11:05:43 +0000  QA_rec 0 0 0 4
+Mo, 17 Aug 2020 11:05:43 +0000  Run-0, Block-0, Trial-4, Q_cnt-4, Q_sen-Ich habe mich bei einem Kurs angemeldet, um Deutsch zu lernen., Q_cen-angemeldet
+Mo, 17 Aug 2020 11:05:44 +0000  QA_rec 1 0 0 5
+Mo, 17 Aug 2020 11:06:04 +0000  QA_rec 0 0 0 5
+Mo, 17 Aug 2020 11:06:04 +0000  Run-0, Block-0, Trial-5, Q_cnt-5, Q_sen-Er lief so schnell, dass ich kaum mit ihm Schritt halten konnte., Q_cen-lief
+Mo, 17 Aug 2020 11:06:05 +0000  QA_rec 1 0 0 6
+Mo, 17 Aug 2020 11:06:25 +0000  QA_rec 0 0 0 6
+Mo, 17 Aug 2020 11:06:25 +0000  Run-0, Block-0, Trial-6, Q_cnt-6, Q_sen-Die technologische Entwicklung schafft immer kleinere Computer., Q_cen-schafft
+Mo, 17 Aug 2020 11:06:26 +0000  QA_rec 1 0 0 7
+Mo, 17 Aug 2020 11:06:46 +0000  QA_rec 0 0 0 7
+Mo, 17 Aug 2020 11:06:46 +0000  Run-0, Block-0, Trial-7, Q_cnt-7, Q_sen-Für dieses Produkt wird keine technische Unterstützung mehr angeboten., Q_cen-angeboten
+Mo, 17 Aug 2020 11:06:47 +0000  QA_rec 1 0 0 8
+Mo, 17 Aug 2020 11:07:07 +0000  QA_rec 0 0 0 8
+Mo, 17 Aug 2020 11:07:07 +0000  Run-0, Block-0, Trial-8, Q_cnt-8, Q_sen-Wir haben eine Testversion heruntergeladen, um die Nutzbarkeit der Software zu testen., Q_cen-heruntergeladen
+Mo, 17 Aug 2020 11:07:08 +0000  QA_rec 1 0 0 9
+Mo, 17 Aug 2020 11:07:28 +0000  QA_rec 0 0 0 9
+Mo, 17 Aug 2020 11:07:28 +0000  Run-0, Block-0, Trial-9, Q_cnt-9, Q_sen-Sie hat die Äpfel vom Baum geholt., Q_cen-geholt
+Mo, 17 Aug 2020 11:07:29 +0000  QA_rec 1 0 0 10
+Mo, 17 Aug 2020 11:07:49 +0000  QA_rec 0 0 0 10
+Mo, 17 Aug 2020 11:07:49 +0000  Run-0, Block-0, Trial-10, Q_cnt-10, Q_sen-Wir haben den Empfang der Sendung bestätigt., Q_cen-bestätigt
+Mo, 17 Aug 2020 11:07:50 +0000  QA_rec 1 0 0 11
+Mo, 17 Aug 2020 11:08:10 +0000  QA_rec 0 0 0 11
+Mo, 17 Aug 2020 11:08:10 +0000  Run-0, Block-0, Trial-11, Q_cnt-11, Q_sen-Durch ein Fernrohr kann man manchmal sogar die Venus sehen., Q_cen-sehen
+Mo, 17 Aug 2020 11:08:11 +0000  QA_rec 1 0 0 12
+Mo, 17 Aug 2020 11:08:31 +0000  QA_rec 0 0 0 12
+Mo, 17 Aug 2020 11:08:31 +0000  Run-0, Block-0, Trial-12, Q_cnt-12, Q_sen-Die Uhr kann den zwölf Stunden Rhythmus zeigen., Q_cen-zeigen
+Mo, 17 Aug 2020 11:08:32 +0000  QA_rec 1 0 0 13
+Mo, 17 Aug 2020 11:08:52 +0000  QA_rec 0 0 0 13
+Mo, 17 Aug 2020 11:08:52 +0000  Run-0, Block-0, Trial-13, Q_cnt-13, Q_sen-Solange es regnet, bleiben wir hier., Q_cen-bleiben
+Mo, 17 Aug 2020 11:08:53 +0000  QA_rec 1 0 0 14
+Mo, 17 Aug 2020 11:09:13 +0000  QA_rec 0 0 0 14
+Mo, 17 Aug 2020 11:09:13 +0000  Run-0, Block-0, Trial-14, Q_cnt-14, Q_sen-Wir bleiben heute zu Hause, weil wir zu müde sind., Q_cen-bleiben
+Mo, 17 Aug 2020 11:09:14 +0000  QA_rec 1 0 0 15
+Mo, 17 Aug 2020 11:09:34 +0000  QA_rec 0 0 0 15
+Mo, 17 Aug 2020 11:09:34 +0000  Run-0, Block-0, Trial-15, Q_cnt-15, Q_sen-Ich konnte meine Brille nicht finden., Q_cen-finden
+Mo, 17 Aug 2020 11:09:35 +0000  QA_rec 1 0 0 16
+Mo, 17 Aug 2020 11:09:55 +0000  QA_rec 0 0 0 16
+Mo, 17 Aug 2020 11:09:55 +0000  Run-0, Block-0, Trial-16, Q_cnt-16, Q_sen-Am nächsten Bahnhof muss ich aus dem Zug aussteigen., Q_cen-aussteigen
+Mo, 17 Aug 2020 11:09:56 +0000  QA_rec 1 0 0 17
+Mo, 17 Aug 2020 11:10:16 +0000  QA_rec 0 0 0 17
+Mo, 17 Aug 2020 11:10:16 +0000  Run-0, Block-0, Trial-17, Q_cnt-17, Q_sen-Entschuldigung, können Sie mir ein Taxi rufen?, Q_cen-rufen
+Mo, 17 Aug 2020 11:10:17 +0000  QA_rec 1 0 0 18
+Mo, 17 Aug 2020 11:10:38 +0000  QA_rec 0 0 0 18
+Mo, 17 Aug 2020 11:10:38 +0000  Run-0, Block-0, Trial-18, Q_cnt-18, Q_sen-Ich nahm meinen Stift und begann zu schreiben., Q_cen-begann
+Mo, 17 Aug 2020 11:10:39 +0000  QA_rec 1 0 0 19
+Mo, 17 Aug 2020 11:10:59 +0000  QA_rec 0 0 0 19
+Mo, 17 Aug 2020 11:10:59 +0000  Run-0, Block-0, Trial-19, Q_cnt-19, Q_sen-Am Ostersonntag suchen die Kinder bunte Eier, die ihre Eltern verstecken., Q_cen-verstecken
+Mo, 17 Aug 2020 11:11:00 +0000  QA_rec 1 0 0 20
+Mo, 17 Aug 2020 11:11:20 +0000  QA_rec 0 0 0 20
+Mo, 17 Aug 2020 11:11:20 +0000  Run-0, Block-0, Trial-20, Q_cnt-20, Q_sen-Beim Spinat und Kohl wird man die Blätter essen., Q_cen-essen
+Mo, 17 Aug 2020 11:11:21 +0000  QA_rec 1 0 0 21
+Mo, 17 Aug 2020 11:11:41 +0000  QA_rec 0 0 0 21
+Mo, 17 Aug 2020 11:11:41 +0000  Run-0, Block-0, Trial-21, Q_cnt-21, Q_sen-Ich fahre mit dem Zug nach London., Q_cen-fahre
+Mo, 17 Aug 2020 11:11:42 +0000  QA_rec 1 0 0 22
+Mo, 17 Aug 2020 11:12:02 +0000  QA_rec 0 0 0 22
+Mo, 17 Aug 2020 11:12:02 +0000  Run-0, Block-0, Trial-22, Q_cnt-22, Q_sen-Er möchte sich für meine Hilfe bedanken., Q_cen-bedanken
+Mo, 17 Aug 2020 11:12:03 +0000  QA_rec 1 0 0 23
+Mo, 17 Aug 2020 11:12:23 +0000  QA_rec 0 0 0 23
+Mo, 17 Aug 2020 11:12:23 +0000  Run-0, Block-0, Trial-23, Q_cnt-23, Q_sen-Die sieben kleinen Äpfel sollen ungefähr zwei Kilo wiegen., Q_cen-wiegen
+Mo, 17 Aug 2020 11:12:24 +0000  QA_rec 1 0 0 24
+Mo, 17 Aug 2020 11:12:44 +0000  QA_rec 0 0 0 24
+Mo, 17 Aug 2020 11:12:44 +0000  Run-0, Block-0, Trial-24, Q_cnt-24, Q_sen-Sie fühlt sich während der Quarantäne sehr langweilig., Q_cen-fühlt
+Mo, 17 Aug 2020 11:13:03 +0000  QA_rec 1 0 1 0
+Mo, 17 Aug 2020 11:13:23 +0000  QA_rec 0 0 1 0
+Mo, 17 Aug 2020 11:13:23 +0000  Run-0, Block-1, Trial-0, Q_cnt-25, Q_sen-Die Polizei sammelte alle verfügbaren Informationen., Q_cen-sammelte
+Mo, 17 Aug 2020 11:13:24 +0000  QA_rec 1 0 1 1
+Mo, 17 Aug 2020 11:13:44 +0000  QA_rec 0 0 1 1
+Mo, 17 Aug 2020 11:13:44 +0000  Run-0, Block-1, Trial-1, Q_cnt-26, Q_sen-Die Deutschen sind immer organisiert und werden alles planen, bevor sie irgendetwas tun., Q_cen-planen
+Mo, 17 Aug 2020 11:13:45 +0000  QA_rec 1 0 1 2
+Mo, 17 Aug 2020 11:14:05 +0000  QA_rec 0 0 1 2
+Mo, 17 Aug 2020 11:14:05 +0000  Run-0, Block-1, Trial-2, Q_cnt-27, Q_sen-Sie beschrieb der Polizei den Dieb so genau, dass diese ihn festnehmen konnnte., Q_cen-beschrieb
+Mo, 17 Aug 2020 11:14:06 +0000  QA_rec 1 0 1 3
+Mo, 17 Aug 2020 11:14:26 +0000  QA_rec 0 0 1 3
+Mo, 17 Aug 2020 11:14:26 +0000  Run-0, Block-1, Trial-3, Q_cnt-28, Q_sen-Man kann oft aus Fehlern lernen., Q_cen-lernen
+Mo, 17 Aug 2020 11:14:27 +0000  QA_rec 1 0 1 4
+Mo, 17 Aug 2020 11:14:47 +0000  QA_rec 0 0 1 4
+Mo, 17 Aug 2020 11:14:47 +0000  Run-0, Block-1, Trial-4, Q_cnt-29, Q_sen-Bevor man ein Haus baut, zeichnet der Architekt einen Plan., Q_cen-zeichnet
+Mo, 17 Aug 2020 11:14:48 +0000  QA_rec 1 0 1 5
+Mo, 17 Aug 2020 11:15:08 +0000  QA_rec 0 0 1 5
+Mo, 17 Aug 2020 11:15:08 +0000  Run-0, Block-1, Trial-5, Q_cnt-30, Q_sen-Ich ging zum Arzt, weil ich mich unangenehm fühlte., Q_cen-fühlte
+Mo, 17 Aug 2020 11:15:09 +0000  QA_rec 1 0 1 6
