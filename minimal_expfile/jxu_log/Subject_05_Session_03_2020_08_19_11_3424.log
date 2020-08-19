@@ -1,0 +1,194 @@
+Mi, 19 Aug 2020 11:34:27 +0000  fade_in 1 2 None None
+Mi, 19 Aug 2020 11:34:57 +0000  fade_in 0 2 None None
+Mi, 19 Aug 2020 11:34:58 +0000  Artifact_intro 1 None None None
+Mi, 19 Aug 2020 11:35:27 +0000  Artifact_intro 0 None None None
+Mi, 19 Aug 2020 11:35:27 +0000  Artifact_rec 1 None None 0
+Mi, 19 Aug 2020 11:35:49 +0000  Artifact_rec 0 None None 0
+Mi, 19 Aug 2020 11:35:49 +0000  Artifact_rec 1 None None 1
+Mi, 19 Aug 2020 11:36:11 +0000  Artifact_rec 0 None None 1
+Mi, 19 Aug 2020 11:36:11 +0000  Artifact_rec 1 None None 2
+Mi, 19 Aug 2020 11:36:33 +0000  Artifact_rec 0 None None 2
+Mi, 19 Aug 2020 11:36:33 +0000  Artifact_rec 1 None None 3
+Mi, 19 Aug 2020 11:36:55 +0000  Artifact_rec 0 None None 3
+Mi, 19 Aug 2020 11:36:55 +0000  Artifact_rec 1 None None 4
+Mi, 19 Aug 2020 11:37:17 +0000  Artifact_rec 0 None None 4
+Mi, 19 Aug 2020 11:37:17 +0000  Artifact_rec 1 None None 5
+Mi, 19 Aug 2020 11:37:39 +0000  Artifact_rec 0 None None 5
+Mi, 19 Aug 2020 11:37:39 +0000  Artifact_rec 1 None None 6
+Mi, 19 Aug 2020 11:38:01 +0000  Artifact_rec 0 None None 6
+Mi, 19 Aug 2020 11:38:01 +0000  Artifact_rec 1 None None 7
+Mi, 19 Aug 2020 11:38:23 +0000  Artifact_rec 0 None None 7
+Mi, 19 Aug 2020 11:38:23 +0000  Artifact_rec 1 None None 8
+Mi, 19 Aug 2020 11:38:45 +0000  Artifact_rec 0 None None 8
+Mi, 19 Aug 2020 11:38:45 +0000  Artifact_rec 1 None None 9
+Mi, 19 Aug 2020 11:39:07 +0000  Artifact_rec 0 None None 9
+Mi, 19 Aug 2020 11:39:07 +0000  Artifact_rec 1 None None 10
+Mi, 19 Aug 2020 11:39:29 +0000  Artifact_rec 0 None None 10
+Mi, 19 Aug 2020 11:39:29 +0000  Artifact_rec 1 None None 11
+Mi, 19 Aug 2020 11:39:51 +0000  Artifact_rec 0 None None 11
+Mi, 19 Aug 2020 11:39:51 +0000  Artifact_rec 1 None None 12
+Mi, 19 Aug 2020 11:40:13 +0000  Artifact_rec 0 None None 12
+Mi, 19 Aug 2020 11:40:13 +0000  Artifact_rec 1 None None 13
+Mi, 19 Aug 2020 11:40:35 +0000  Artifact_rec 0 None None 13
+Mi, 19 Aug 2020 11:40:35 +0000  Artifact_rec 1 None None 14
+Mi, 19 Aug 2020 11:40:57 +0000  Artifact_rec 0 None None 14
+Mi, 19 Aug 2020 11:40:58 +0000  RS_intro 1 2 0 None
+Mi, 19 Aug 2020 11:41:21 +0000  RS_intro 0 2 0 None
+Mi, 19 Aug 2020 11:41:21 +0000  RS_rec 1 2 0 None
+Mi, 19 Aug 2020 11:44:24 +0000  RS_rec 0 2 open None
+Mi, 19 Aug 2020 11:44:24 +0000  RS_intro 1 2 1 None
+Mi, 19 Aug 2020 11:44:47 +0000  RS_intro 0 2 1 None
+Mi, 19 Aug 2020 11:44:47 +0000  RS_rec 1 2 1 None
+Mi, 19 Aug 2020 11:47:51 +0000  RS_rec 0 2 close None
+Mi, 19 Aug 2020 11:48:07 +0000  QA_intro 1 2 None None
+Mi, 19 Aug 2020 11:48:51 +0000  QA_intro 0 2 None None
+Mi, 19 Aug 2020 11:48:53 +0000  QA_rec 1 2 0 0
+Mi, 19 Aug 2020 11:49:13 +0000  QA_rec 0 2 0 0
+Mi, 19 Aug 2020 11:49:13 +0000  Run-2, Block-0, Trial-0, Q_cnt-100, Q_sen-Morgen werde ich eine Schularbeit schreiben., Q_cen-schreiben
+Mi, 19 Aug 2020 11:49:14 +0000  QA_rec 1 2 0 1
+Mi, 19 Aug 2020 11:49:34 +0000  QA_rec 0 2 0 1
+Mi, 19 Aug 2020 11:49:34 +0000  Run-2, Block-0, Trial-1, Q_cnt-101, Q_sen-Er antwortete schnell auf meine Frage., Q_cen-antwortete
+Mi, 19 Aug 2020 11:49:35 +0000  QA_rec 1 2 0 2
+Mi, 19 Aug 2020 11:49:55 +0000  QA_rec 0 2 0 2
+Mi, 19 Aug 2020 11:49:55 +0000  Run-2, Block-0, Trial-2, Q_cnt-102, Q_sen-Bitte bilden Sie einfache Sätze., Q_cen-bilden
+Mi, 19 Aug 2020 11:49:56 +0000  QA_rec 1 2 0 3
+Mi, 19 Aug 2020 11:50:16 +0000  QA_rec 0 2 0 3
+Mi, 19 Aug 2020 11:50:16 +0000  Run-2, Block-0, Trial-3, Q_cnt-103, Q_sen-Ich habe das Bild an die Wand gehängt. , Q_cen-gehängt
+Mi, 19 Aug 2020 11:50:17 +0000  QA_rec 1 2 0 4
+Mi, 19 Aug 2020 11:50:37 +0000  QA_rec 0 2 0 4
+Mi, 19 Aug 2020 11:50:37 +0000  Run-2, Block-0, Trial-4, Q_cnt-104, Q_sen-Die friedlichen Pandas kommen aus China., Q_cen-kommen
+Mi, 19 Aug 2020 11:50:38 +0000  QA_rec 1 2 0 5
+Mi, 19 Aug 2020 11:50:58 +0000  QA_rec 0 2 0 5
+Mi, 19 Aug 2020 11:50:58 +0000  Run-2, Block-0, Trial-5, Q_cnt-105, Q_sen-Menschen und Firmen können ein Konto bei der Bank eröffnen., Q_cen-eröffnen
+Mi, 19 Aug 2020 11:50:59 +0000  QA_rec 1 2 0 6
+Mi, 19 Aug 2020 11:51:19 +0000  QA_rec 0 2 0 6
+Mi, 19 Aug 2020 11:51:19 +0000  Run-2, Block-0, Trial-6, Q_cnt-106, Q_sen-Ich habe meinen Sohn für den Kurs angemeldet., Q_cen-angemeldet
+Mi, 19 Aug 2020 11:51:20 +0000  QA_rec 1 2 0 7
+Mi, 19 Aug 2020 11:51:40 +0000  QA_rec 0 2 0 7
+Mi, 19 Aug 2020 11:51:40 +0000  Run-2, Block-0, Trial-7, Q_cnt-107, Q_sen-Wir freuen uns von Herzen über seine ausgezeichnete Leistung., Q_cen-freuen
+Mi, 19 Aug 2020 11:51:41 +0000  QA_rec 1 2 0 8
+Mi, 19 Aug 2020 11:52:01 +0000  QA_rec 0 2 0 8
+Mi, 19 Aug 2020 11:52:01 +0000  Run-2, Block-0, Trial-8, Q_cnt-108, Q_sen-Ich arbeite normalerweise von Montag bis Freitag., Q_cen-arbeite
+Mi, 19 Aug 2020 11:52:02 +0000  QA_rec 1 2 0 9
+Mi, 19 Aug 2020 11:52:22 +0000  QA_rec 0 2 0 9
+Mi, 19 Aug 2020 11:52:22 +0000  Run-2, Block-0, Trial-9, Q_cnt-109, Q_sen-Das ist zu spät, ich möchte nach Hause gehen., Q_cen-gehen
+Mi, 19 Aug 2020 11:52:23 +0000  QA_rec 1 2 0 10
+Mi, 19 Aug 2020 11:52:43 +0000  QA_rec 0 2 0 10
+Mi, 19 Aug 2020 11:52:43 +0000  Run-2, Block-0, Trial-10, Q_cnt-110, Q_sen-Pinguine bewohnen die Antarktis, wie auch Robben und große Seelöwen., Q_cen-bewohnen
+Mi, 19 Aug 2020 11:52:44 +0000  QA_rec 1 2 0 11
+Mi, 19 Aug 2020 11:53:04 +0000  QA_rec 0 2 0 11
+Mi, 19 Aug 2020 11:53:04 +0000  Run-2, Block-0, Trial-11, Q_cnt-111, Q_sen-Denk nicht so viel darüber nach, das wird nichts bringen., Q_cen-bringen
+Mi, 19 Aug 2020 11:53:05 +0000  QA_rec 1 2 0 12
+Mi, 19 Aug 2020 11:53:25 +0000  QA_rec 0 2 0 12
+Mi, 19 Aug 2020 11:53:25 +0000  Run-2, Block-0, Trial-12, Q_cnt-112, Q_sen-Im ganzen Umkreis war kein Haus zu finden., Q_cen-finden
+Mi, 19 Aug 2020 11:53:26 +0000  QA_rec 1 2 0 13
+Mi, 19 Aug 2020 11:53:46 +0000  QA_rec 0 2 0 13
+Mi, 19 Aug 2020 11:53:46 +0000  Run-2, Block-0, Trial-13, Q_cnt-113, Q_sen-Er pflegte jeden Abend auf Pferden zu reiten und durch die Wälder zu gehen., Q_cen-reiten
+Mi, 19 Aug 2020 11:53:47 +0000  QA_rec 1 2 0 14
+Mi, 19 Aug 2020 11:54:07 +0000  QA_rec 0 2 0 14
+Mi, 19 Aug 2020 11:54:07 +0000  Run-2, Block-0, Trial-14, Q_cnt-114, Q_sen-Der Dieb wurde für sein Verbrechen bestraft., Q_cen-bestraft
+Mi, 19 Aug 2020 11:54:08 +0000  QA_rec 1 2 0 15
+Mi, 19 Aug 2020 11:54:28 +0000  QA_rec 0 2 0 15
+Mi, 19 Aug 2020 11:54:28 +0000  Run-2, Block-0, Trial-15, Q_cnt-115, Q_sen-Er hat die Verbindung zwischen zwei Zufälligkeiten hergestellt., Q_cen-hergestellt
+Mi, 19 Aug 2020 11:54:29 +0000  QA_rec 1 2 0 16
+Mi, 19 Aug 2020 11:54:49 +0000  QA_rec 0 2 0 16
+Mi, 19 Aug 2020 11:54:49 +0000  Run-2, Block-0, Trial-16, Q_cnt-116, Q_sen-Du solltest deiner Geliebten Blumen zum Geburtstag schenken., Q_cen-schenken
+Mi, 19 Aug 2020 11:54:50 +0000  QA_rec 1 2 0 17
+Mi, 19 Aug 2020 11:55:10 +0000  QA_rec 0 2 0 17
+Mi, 19 Aug 2020 11:55:10 +0000  Run-2, Block-0, Trial-17, Q_cnt-117, Q_sen-Alexander Bell hat das Telefon erfunden., Q_cen-erfunden
+Mi, 19 Aug 2020 11:55:11 +0000  QA_rec 1 2 0 18
+Mi, 19 Aug 2020 11:55:31 +0000  QA_rec 0 2 0 18
+Mi, 19 Aug 2020 11:55:31 +0000  Run-2, Block-0, Trial-18, Q_cnt-118, Q_sen-Die Sonne scheint durch die grauen Wolken., Q_cen-scheint
+Mi, 19 Aug 2020 11:55:32 +0000  QA_rec 1 2 0 19
+Mi, 19 Aug 2020 11:55:52 +0000  QA_rec 0 2 0 19
+Mi, 19 Aug 2020 11:55:52 +0000  Run-2, Block-0, Trial-19, Q_cnt-119, Q_sen-Ich habe das Formular ausgefüllt, um mich für den Kurs anzumelden., Q_cen-ausgefüllt
+Mi, 19 Aug 2020 11:55:53 +0000  QA_rec 1 2 0 20
+Mi, 19 Aug 2020 11:56:13 +0000  QA_rec 0 2 0 20
+Mi, 19 Aug 2020 11:56:13 +0000  Run-2, Block-0, Trial-20, Q_cnt-120, Q_sen-Der Präsident diskutierte das Thema auf der Pressekonferenz nicht., Q_cen-diskutierte
+Mi, 19 Aug 2020 11:56:14 +0000  QA_rec 1 2 0 21
+Mi, 19 Aug 2020 11:56:34 +0000  QA_rec 0 2 0 21
+Mi, 19 Aug 2020 11:56:34 +0000  Run-2, Block-0, Trial-21, Q_cnt-121, Q_sen-Ein rotes Signal bedeutet, dass ich warten muss., Q_cen-bedeutet
+Mi, 19 Aug 2020 11:56:35 +0000  QA_rec 1 2 0 22
+Mi, 19 Aug 2020 11:56:55 +0000  QA_rec 0 2 0 22
+Mi, 19 Aug 2020 11:56:55 +0000  Run-2, Block-0, Trial-22, Q_cnt-122, Q_sen-Nikolaus Kopernikus beschreibt das heliozentrische Weltbild., Q_cen-beschreibt
+Mi, 19 Aug 2020 11:56:56 +0000  QA_rec 1 2 0 23
+Mi, 19 Aug 2020 11:57:16 +0000  QA_rec 0 2 0 23
+Mi, 19 Aug 2020 11:57:16 +0000  Run-2, Block-0, Trial-23, Q_cnt-123, Q_sen-Mit meinem Wagen kann ich nach Tibet reisen., Q_cen-reisen
+Mi, 19 Aug 2020 11:57:17 +0000  QA_rec 1 2 0 24
+Mi, 19 Aug 2020 11:57:38 +0000  QA_rec 0 2 0 24
+Mi, 19 Aug 2020 11:57:38 +0000  Run-2, Block-0, Trial-24, Q_cnt-124, Q_sen-Wie hoch kosten der Wahren ？, Q_cen-kosten
+Mi, 19 Aug 2020 11:57:55 +0000  QA_rec 1 2 1 0
+Mi, 19 Aug 2020 11:58:15 +0000  QA_rec 0 2 1 0
+Mi, 19 Aug 2020 11:58:15 +0000  Run-2, Block-1, Trial-0, Q_cnt-125, Q_sen-Wenn ich einmal angefangen habe, kann mich nichts mehr aufhalten., Q_cen-aufhalten
+Mi, 19 Aug 2020 11:58:16 +0000  QA_rec 1 2 1 1
+Mi, 19 Aug 2020 11:58:36 +0000  QA_rec 0 2 1 1
+Mi, 19 Aug 2020 11:58:36 +0000  Run-2, Block-1, Trial-1, Q_cnt-126, Q_sen-Weil er so hungrig war, hat Franz einmal einen Apfel gestohlen., Q_cen-gestohlen
+Mi, 19 Aug 2020 11:58:37 +0000  QA_rec 1 2 1 2
+Mi, 19 Aug 2020 11:58:57 +0000  QA_rec 0 2 1 2
+Mi, 19 Aug 2020 11:58:57 +0000  Run-2, Block-1, Trial-2, Q_cnt-127, Q_sen-Ihr fehlt es an ausreichender Berufserfahrung für diese Position., Q_cen-fehlt
+Mi, 19 Aug 2020 11:58:58 +0000  QA_rec 1 2 1 3
+Mi, 19 Aug 2020 11:59:18 +0000  QA_rec 0 2 1 3
+Mi, 19 Aug 2020 11:59:18 +0000  Run-2, Block-1, Trial-3, Q_cnt-128, Q_sen-Kannst du bitte die Wäsche in die Sonne hängen?, Q_cen-hängen
+Mi, 19 Aug 2020 11:59:19 +0000  QA_rec 1 2 1 4
+Mi, 19 Aug 2020 11:59:39 +0000  QA_rec 0 2 1 4
+Mi, 19 Aug 2020 11:59:39 +0000  Run-2, Block-1, Trial-4, Q_cnt-129, Q_sen-Toni fliegt mit dem Flugzeug nach., Q_cen-fliegt
+Mi, 19 Aug 2020 11:59:40 +0000  QA_rec 1 2 1 5
+Mi, 19 Aug 2020 12:00:00 +0000  QA_rec 0 2 1 5
+Mi, 19 Aug 2020 12:00:00 +0000  Run-2, Block-1, Trial-5, Q_cnt-130, Q_sen-Wenn ich mich gestresst fühle, muss ich mich selbst daran erinnern, ruhig zu bleiben., Q_cen-erinnern
+Mi, 19 Aug 2020 12:00:01 +0000  QA_rec 1 2 1 6
+Mi, 19 Aug 2020 12:00:21 +0000  QA_rec 0 2 1 6
+Mi, 19 Aug 2020 12:00:21 +0000  Run-2, Block-1, Trial-6, Q_cnt-131, Q_sen-Die Hausfrau muss jeden Tag Lebensmittel einkaufen., Q_cen-einkaufen
+Mi, 19 Aug 2020 12:00:22 +0000  QA_rec 1 2 1 7
+Mi, 19 Aug 2020 12:00:42 +0000  QA_rec 0 2 1 7
+Mi, 19 Aug 2020 12:00:42 +0000  Run-2, Block-1, Trial-7, Q_cnt-132, Q_sen-Hans und Tina heirateten am Donnerstag in der Kirche., Q_cen-heirateten
+Mi, 19 Aug 2020 12:00:43 +0000  QA_rec 1 2 1 8
+Mi, 19 Aug 2020 12:01:03 +0000  QA_rec 0 2 1 8
+Mi, 19 Aug 2020 12:01:03 +0000  Run-2, Block-1, Trial-8, Q_cnt-133, Q_sen-Diese beiden Handschuhe gehören zusammen., Q_cen-gehören
+Mi, 19 Aug 2020 12:01:04 +0000  QA_rec 1 2 1 9
+Mi, 19 Aug 2020 12:01:24 +0000  QA_rec 0 2 1 9
+Mi, 19 Aug 2020 12:01:24 +0000  Run-2, Block-1, Trial-9, Q_cnt-134, Q_sen-Mein Bett ist gemütlich und warm, ich möchte nicht aufstehen., Q_cen-aufstehen
+Mi, 19 Aug 2020 12:01:25 +0000  QA_rec 1 2 1 10
+Mi, 19 Aug 2020 12:01:45 +0000  QA_rec 0 2 1 10
+Mi, 19 Aug 2020 12:01:45 +0000  Run-2, Block-1, Trial-10, Q_cnt-135, Q_sen-Ich möchte dich nicht täuschen, also werde ich dir die Wahrheit sagen., Q_cen-täuschen
+Mi, 19 Aug 2020 12:01:46 +0000  QA_rec 1 2 1 11
+Mi, 19 Aug 2020 12:02:06 +0000  QA_rec 0 2 1 11
+Mi, 19 Aug 2020 12:02:06 +0000  Run-2, Block-1, Trial-11, Q_cnt-136, Q_sen-Zu den hundeartigen Tieren, die in Österreich leben, gehört der Wolf., Q_cen-gehört
+Mi, 19 Aug 2020 12:02:07 +0000  QA_rec 1 2 1 12
+Mi, 19 Aug 2020 12:02:27 +0000  QA_rec 0 2 1 12
+Mi, 19 Aug 2020 12:02:27 +0000  Run-2, Block-1, Trial-12, Q_cnt-137, Q_sen-Das Kind kann die Tischkante noch nicht erreichen., Q_cen-erreichen
+Mi, 19 Aug 2020 12:02:28 +0000  QA_rec 1 2 1 13
+Mi, 19 Aug 2020 12:02:48 +0000  QA_rec 0 2 1 13
+Mi, 19 Aug 2020 12:02:48 +0000  Run-2, Block-1, Trial-13, Q_cnt-138, Q_sen-Die Ergebnisse werden auf einer Skala von eins bis zehn angezeigt., Q_cen-angezeigt
+Mi, 19 Aug 2020 12:02:49 +0000  QA_rec 1 2 1 14
+Mi, 19 Aug 2020 12:03:09 +0000  QA_rec 0 2 1 14
+Mi, 19 Aug 2020 12:03:09 +0000  Run-2, Block-1, Trial-14, Q_cnt-139, Q_sen-Wir sind mit dem Jeep auf Safari in Kenia gefahren., Q_cen-gefahren
+Mi, 19 Aug 2020 12:03:10 +0000  QA_rec 1 2 1 15
+Mi, 19 Aug 2020 12:03:30 +0000  QA_rec 0 2 1 15
+Mi, 19 Aug 2020 12:03:30 +0000  Run-2, Block-1, Trial-15, Q_cnt-140, Q_sen-Der Zug fährt gleich ab, wir müssen uns beeilen., Q_cen-beeilen
+Mi, 19 Aug 2020 12:03:31 +0000  QA_rec 1 2 1 16
+Mi, 19 Aug 2020 12:03:51 +0000  QA_rec 0 2 1 16
+Mi, 19 Aug 2020 12:03:51 +0000  Run-2, Block-1, Trial-16, Q_cnt-141, Q_sen-Eine Stunde kann man in Minuten und Sekunden unterteilen., Q_cen-unterteilen
+Mi, 19 Aug 2020 12:03:52 +0000  QA_rec 1 2 1 17
+Mi, 19 Aug 2020 12:04:13 +0000  QA_rec 0 2 1 17
+Mi, 19 Aug 2020 12:04:13 +0000  Run-2, Block-1, Trial-17, Q_cnt-142, Q_sen-Lenas Hund Tobi wird immer am Abend gefüttert., Q_cen-gefüttert
+Mi, 19 Aug 2020 12:04:14 +0000  QA_rec 1 2 1 18
+Mi, 19 Aug 2020 12:04:34 +0000  QA_rec 0 2 1 18
+Mi, 19 Aug 2020 12:04:34 +0000  Run-2, Block-1, Trial-18, Q_cnt-143, Q_sen-Der Regenbogen besteht aus vielen Farben., Q_cen-besteht
+Mi, 19 Aug 2020 12:04:35 +0000  QA_rec 1 2 1 19
+Mi, 19 Aug 2020 12:04:55 +0000  QA_rec 0 2 1 19
+Mi, 19 Aug 2020 12:04:55 +0000  Run-2, Block-1, Trial-19, Q_cnt-144, Q_sen-Wenn Sie mit dem Vertrag nicht zufrieden sind, können Sie ihn vor seinem Ablauf kündigen., Q_cen-kündigen
+Mi, 19 Aug 2020 12:04:56 +0000  QA_rec 1 2 1 20
+Mi, 19 Aug 2020 12:05:16 +0000  QA_rec 0 2 1 20
+Mi, 19 Aug 2020 12:05:16 +0000  Run-2, Block-1, Trial-20, Q_cnt-145, Q_sen-Sie besichtigten das Haus, bevor sie es kauften., Q_cen-besichtigten
+Mi, 19 Aug 2020 12:05:17 +0000  QA_rec 1 2 1 21
+Mi, 19 Aug 2020 12:05:37 +0000  QA_rec 0 2 1 21
+Mi, 19 Aug 2020 12:05:37 +0000  Run-2, Block-1, Trial-21, Q_cnt-146, Q_sen-Ich gratuliere dir zum Bestehen dieser schwierigen Prüfung., Q_cen-gratuliere
+Mi, 19 Aug 2020 12:05:38 +0000  QA_rec 1 2 1 22
+Mi, 19 Aug 2020 12:05:58 +0000  QA_rec 0 2 1 22
+Mi, 19 Aug 2020 12:05:58 +0000  Run-2, Block-1, Trial-22, Q_cnt-147, Q_sen-Sie hat das Gemüse in Olivenöl gebraten., Q_cen-gebraten
+Mi, 19 Aug 2020 12:05:59 +0000  QA_rec 1 2 1 23
+Mi, 19 Aug 2020 12:06:19 +0000  QA_rec 0 2 1 23
+Mi, 19 Aug 2020 12:06:19 +0000  Run-2, Block-1, Trial-23, Q_cnt-148, Q_sen-Wie schmeckt Iris die Melone, die ich im Geschäft gekauft habe?, Q_cen-schmeckt
+Mi, 19 Aug 2020 12:06:20 +0000  QA_rec 1 2 1 24
+Mi, 19 Aug 2020 12:06:40 +0000  QA_rec 0 2 1 24
+Mi, 19 Aug 2020 12:06:40 +0000  Run-2, Block-1, Trial-24, Q_cnt-149, Q_sen-Afrika liegt südlich von Europa ., Q_cen-liegt
